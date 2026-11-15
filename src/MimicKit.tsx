@@ -25,8 +25,34 @@ export const Q = {
 };
 
 // Permanent cast characters
-export const NOAH: Spec = { ...CAST.noah, id: 'noah', name: 'NOAH REED (Narrator Hero)' } as Spec;
-export const MIRA: Spec = { ...CAST.mira, id: 'mira', name: 'MIRA VALE (Sister)' } as Spec;
+export const NOAH: Spec = {
+  id: 'noah',
+  name: 'NOAH REED (Narrator Hero)',
+  sex: 'm',
+  age: 1,
+  skin: '#c19468',
+  skinD: '#85613f',
+  hair: '#17120f',
+  hairStyle: 'crop',
+  eyeC: '#1a0f08',
+  lip: '#8a4a3a',
+  fw: 1.0,
+  top: 'jacket',
+  topC: '#4f7377',
+  topD: '#2b4448',
+  inner: '#dcd2b6',
+  sw: 300,
+  hw: 236,
+  bottom: 'trousers',
+  botC: '#4d3b2e',
+  shoeC: '#2b2019',
+  acc: ['satchel'],
+};
+export const MIRA: Spec = {
+  ...CAST.mira,
+  id: 'mira',
+  name: 'MIRA VALE (Sister)',
+};
 
 // Subtle alive breathing/swaying animation
 export const Alive: React.FC<{ x: number; y: number; f: number; mode?: string; k?: number; children: React.ReactNode }> = ({ x, y, f, mode = 'idle', k = 1, children }) => {
