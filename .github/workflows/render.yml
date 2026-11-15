@@ -62,7 +62,7 @@ jobs:
       - name: Install Node & Python Packages
         run: |
           npm ci || npm install
-          pip install numpy soundfile scipy pillow
+          pip install -r requirements.txt
 
       - name: Ensure Headless Remotion Browser
         run: npx remotion browser ensure
@@ -117,7 +117,7 @@ jobs:
       - name: Install Node & Python Packages
         run: |
           npm ci || npm install
-          pip install numpy soundfile scipy pillow
+          pip install -r requirements.txt
 
       - name: Ensure Headless Remotion Browser
         run: npx remotion browser ensure
@@ -170,7 +170,7 @@ jobs:
       - name: Install Node & Python Packages
         run: |
           npm ci || npm install
-          pip install pillow
+          pip install -r requirements.txt
 
       - name: Ensure Headless Remotion Browser
         run: npx remotion browser ensure
@@ -213,7 +213,7 @@ jobs:
           python-version: '3.10'
       - run: |
           sudo apt-get update && sudo apt-get install -y ffmpeg
-          pip install pillow
+          pip install -r requirements.txt
 
       - name: Download All Artifacts
         uses: actions/download-artifact@v4
