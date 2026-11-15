@@ -4,9 +4,9 @@ on:
   workflow_dispatch:
     inputs:
       file_prefix:
-        description: 'Story Name / File Prefix (e.g. I_Know_Youre_Awake)'
+        description: 'Story Name / File Prefix (e.g. The_Treeline_Mimic)'
         required: true
-        default: 'I_Know_Youre_Awake'
+        default: 'The_Treeline_Mimic'
       target:
         description: 'Target to compile'
         required: true
@@ -72,7 +72,7 @@ jobs:
 
       - name: Render & Encode YouTube Video
         run: |
-          PREFIX="${{ github.event.inputs.file_prefix || 'I_Know_Youre_Awake' }}"
+          PREFIX="${{ github.event.inputs.file_prefix || 'The_Treeline_Mimic' }}"
           bash tools/render.sh "$PREFIX" long
 
       - name: Upload YouTube Deliverables Artifact
@@ -127,7 +127,7 @@ jobs:
 
       - name: Render & Encode Reel Video
         run: |
-          PREFIX="${{ github.event.inputs.file_prefix || 'I_Know_Youre_Awake' }}"
+          PREFIX="${{ github.event.inputs.file_prefix || 'The_Treeline_Mimic' }}"
           bash tools/render.sh "$PREFIX" reel
 
       - name: Upload Reel Video Artifact
@@ -177,12 +177,12 @@ jobs:
 
       - name: Render 4 Thumbnails
         run: |
-          PREFIX="${{ github.event.inputs.file_prefix || 'I_Know_Youre_Awake' }}"
+          PREFIX="${{ github.event.inputs.file_prefix || 'The_Treeline_Mimic' }}"
           bash tools/thumbs.sh "$PREFIX"
 
       - name: Build Upload Details Markdown
         run: |
-          PREFIX="${{ github.event.inputs.file_prefix || 'I_Know_Youre_Awake' }}"
+          PREFIX="${{ github.event.inputs.file_prefix || 'The_Treeline_Mimic' }}"
           python3 tools/make_upload_md.py "$PREFIX"
 
       - name: Upload Thumbnails & Metadata Artifact

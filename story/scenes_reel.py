@@ -1,68 +1,65 @@
-# Scene table for the REEL (vertical 1080x1920): exactly 10 beats matching script_reel.BEATS.
-# Format: S(st, **v) with SetsR names and vertical coordinates.
-# Close-up focus points kept between y 600-900 so face/prop stays above captions (~y 1450).
+# Scene table for the REEL video: exactly 10 beats matching script_reel.BEATS.
+# Uses vertical SetsR names (canvas 1080x1920).
+# Focal points kept at y 600-900 to stay above burned-in subtitles at y 1420.
 
 def S(st, **v):
     return (st, v)
 
 SC = [
-    # Beat 0: Intro Teaser (bedroom at 5:30, propped parents, creature under mattress)
+    # Beat 0: Intro Teaser (nine feet tall, mimicking loved one)
     [
-        S('bedroom_awake', fc=[540, 750, 1.8]),
-        S('sam_terror', fc=[540, 750, 2.0]),
-        S('creature_stalk', crawl=True, fc=[540, 850, 1.8]),
-        S('parents_propped', fc=[360, 680, 1.9], last=True),
+        S('reel_first', fc=[680, 820, 2.0]),
+        S('reel_mimic_face', fc=[540, 680, 2.2]),
+        S('reel_porch', fc=[540, 880, 2.0]),
     ],
-    # Beat 1: Scream at 2:30 AM / bathroom detour
+    # Beat 1: 2 AM sister Mira pleading at door
     [
-        S('sam_terror', fc=[540, 750, 2.0]),
-        S('bathroom_dark', fc=[540, 680, 1.8]),
-        S('sam_terror', fc=[540, 750, 2.2]),
+        S('reel_porch', fc=[540, 880, 2.2]),
+        S('reel_noah_face', fc=[540, 740, 2.3]),
+        S('reel_first', fc=[680, 820, 2.2]),
     ],
-    # Beat 2: Bloody hallway trails / bolting back to room
+    # Beat 2: Dual Syrinx voice boxes
     [
-        S('hallway_blood', fc=[540, 800, 1.8]),
-        S('sam_terror', fc=[540, 750, 2.2]),
-        S('bedroom_awake', time="02:35", father=False, creatureUnder=False, fc=[460, 1180, 1.8]),
+        S('reel_syrinx', fc=[540, 720, 1.8]),
+        S('reel_syrinx', fc=[455, 810, 2.3]),
+        S('reel_syrinx', fc=[625, 810, 2.3]),
     ],
-    # Beat 3: Door creaking / eyeless creature dragging parents
+    # Beat 3: Copying is not speaking / repeats twice
     [
-        S('creature_dragging', fc=[540, 750, 1.8]),
-        S('creature_stalk', reach=False, fc=[540, 800, 2.0]),
-        S('sam_terror', fc=[540, 750, 2.2]),
+        S('reel_mimic_face', fc=[540, 680, 2.4]),
+        S('reel_noah_face', fc=[540, 740, 2.2]),
+        S('reel_first', fc=[680, 820, 2.4]),
     ],
-    # Beat 4: Propping father against bed / seating mother in chair
+    # Beat 4: Bleached frame, cold air, tapetum mirror eyes
     [
-        S('parents_propped', fc=[360, 680, 2.0]),
-        S('parents_propped', fc=[740, 940, 2.0]),
-        S('bedroom_awake', father=True, fc=[540, 850, 1.8]),
+        S('reel_eye', fc=[540, 700, 1.9]),
+        S('reel_eye', fc=[490, 700, 2.4]),
+        S('reel_first', fc=[680, 820, 2.5]),
     ],
-    # Beat 5: Smearing ritual symbols & carving words into plaster
+    # Beat 5: Brittle predator / anglerfish lure
     [
-        S('wall_reveal', fc=[540, 750, 1.8]),
-        S('creature_stalk', reach=True, fc=[540, 850, 2.0]),
-        S('wall_reveal', fc=[540, 750, 2.2]),
+        S('reel_mimic_full', fc=[540, 1140, 1.8]),
+        S('reel_noah_face', fc=[540, 740, 2.4]),
+        S('reel_mimic_face', fc=[540, 680, 2.5]),
     ],
-    # Beat 6: Slithering beneath bed / slats dipping under weight
+    # Beat 6: The test question through the door
     [
-        S('creature_stalk', crawl=True, fc=[540, 850, 2.0]),
-        S('bedroom_awake', creatureUnder=True, fc=[460, 1200, 2.0]),
-        S('sam_terror', fc=[540, 750, 2.2]),
+        S('reel_porch', fc=[305, 907, 2.6]),
+        S('reel_noah_face', fc=[540, 740, 2.4]),
+        S('reel_first', fc=[680, 820, 2.2]),
     ],
-    # Beat 7: Pre-dawn light / reading carved letters
+    # Beat 7: Dead silence, replay, 9-foot shadow on porch
     [
-        S('bedroom_awake', time="05:30", creatureUnder=True, fc=[80, 260, 1.8]),
-        S('sam_terror', fc=[540, 750, 2.2]),
-        S('wall_reveal', fc=[540, 750, 2.0]),
+        S('reel_first', fc=[680, 820, 2.5]),
+        S('reel_mimic_full', fc=[540, 1140, 2.0]),
+        S('reel_mimic_face', fc=[540, 680, 2.6], last=True),
     ],
-    # Beat 8: "I KNOW YOU ARE AWAKE"
+    # Beat 8: Credit card
     [
-        S('wall_reveal', fc=[540, 750, 2.4]),
-        S('sam_terror', fc=[540, 750, 2.4]),
-        S('wall_reveal', fc=[540, 750, 2.6], last=True),
+        S('reel_qcard', title='THE TREELINE MIMIC'),
     ],
-    # Beat 9: Credit beat & Closing Question
+    # Beat 9: Question card
     [
-        S('end')
+        S('reel_qcard', title='WOULD YOU OPEN THE DOOR?'),
     ],
 ]

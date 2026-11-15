@@ -10,63 +10,62 @@ Style: Cap,Lora,70,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,-1,0,0,0,100,100,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:03.16,Cap,,0,0,0,,I have been lying\Nunder my blankets for
-Dialogue: 0,0:00:03.18,0:00:06.56,Cap,,0,0,0,,three hours, frozen\Nstiff in the dark.
-Dialogue: 0,0:00:06.58,0:00:09.11,Cap,,0,0,0,,It is five thirty in\Nthe morning,
-Dialogue: 0,0:00:09.13,0:00:11.36,Cap,,0,0,0,,and the copper smell\Nof blood
-Dialogue: 0,0:00:11.38,0:00:14.06,Cap,,0,0,0,,in my bedroom is\Nmaking me gag.
-Dialogue: 0,0:00:14.08,0:00:17.27,Cap,,0,0,0,,Across the room, my\Ndead parents are
-Dialogue: 0,0:00:17.29,0:00:20.66,Cap,,0,0,0,,propped upright,\Nstaring straight into
-Dialogue: 0,0:00:20.68,0:00:23.90,Cap,,0,0,0,,my face with wide,\Nlifeless eyes.
-Dialogue: 0,0:00:23.92,0:00:27.02,Cap,,0,0,0,,And right now, the\Nthing that killed them
-Dialogue: 0,0:00:27.04,0:00:29.76,Cap,,0,0,0,,is crouched beneath my\Nmattress.
-Dialogue: 0,0:00:29.78,0:00:31.98,Cap,,0,0,0,,Let us go back to the\Nbeginning.
-Dialogue: 0,0:00:32.00,0:00:34.08,Cap,,0,0,0,,At two thirty in the\Nmorning,
-Dialogue: 0,0:00:34.10,0:00:36.18,Cap,,0,0,0,,a violent scream tore\Nthrough
-Dialogue: 0,0:00:36.20,0:00:38.43,Cap,,0,0,0,,the far end of the\Nhallway.
-Dialogue: 0,0:00:38.45,0:00:41.22,Cap,,0,0,0,,I woke up in a cold\Nsweat, sitting
-Dialogue: 0,0:00:41.24,0:00:44.15,Cap,,0,0,0,,upright with my heart\Nhammering.
-Dialogue: 0,0:00:44.17,0:00:46.60,Cap,,0,0,0,,Before investigating,\NI stopped
-Dialogue: 0,0:00:46.62,0:00:48.64,Cap,,0,0,0,,in the bathroom first.
-Dialogue: 0,0:00:48.66,0:00:51.78,Cap,,0,0,0,,That careless detour\Nwas the only reason
-Dialogue: 0,0:00:51.80,0:00:54.58,Cap,,0,0,0,,I did not walk into\Nslaughter.
-Dialogue: 0,0:00:54.60,0:00:57.22,Cap,,0,0,0,,Stepping back out, I\Nfelt cold
-Dialogue: 0,0:00:57.24,0:00:59.73,Cap,,0,0,0,,dampness on my bare\Nfeet.
-Dialogue: 0,0:00:59.75,0:01:02.10,Cap,,0,0,0,,Dark streaks trailed\Nacross the
-Dialogue: 0,0:01:02.12,0:01:04.70,Cap,,0,0,0,,hallway carpet toward\Nmy door.
-Dialogue: 0,0:01:04.72,0:01:07.53,Cap,,0,0,0,,Panicked, I bolted\Ninto my bedroom
-Dialogue: 0,0:01:07.55,0:01:10.45,Cap,,0,0,0,,and threw myself\Nbeneath my sheets,
-Dialogue: 0,0:01:10.47,0:01:13.57,Cap,,0,0,0,,praying it was only a\Nnightmare.
-Dialogue: 0,0:01:13.59,0:01:16.24,Cap,,0,0,0,,Minutes later, my\Nbedroom hinges
-Dialogue: 0,0:01:16.26,0:01:18.46,Cap,,0,0,0,,groaned in the\Nsilence.
-Dialogue: 0,0:01:18.48,0:01:21.96,Cap,,0,0,0,,Peeking from under my\Nblanket, I saw a
-Dialogue: 0,0:01:21.98,0:01:25.63,Cap,,0,0,0,,tall, hairless entity\Nwith pale leathery
-Dialogue: 0,0:01:25.65,0:01:28.96,Cap,,0,0,0,,skin and hollow,\Neyeless sockets.
-Dialogue: 0,0:01:28.98,0:01:30.49,Cap,,0,0,0,,It was dragging my\Nparents
-Dialogue: 0,0:01:30.51,0:01:32.11,Cap,,0,0,0,,through the doorway.
-Dialogue: 0,0:01:32.13,0:01:34.73,Cap,,0,0,0,,With calm, horrifying\Nprecision,
-Dialogue: 0,0:01:34.75,0:01:37.03,Cap,,0,0,0,,it propped my father\Nagainst
-Dialogue: 0,0:01:37.05,0:01:39.79,Cap,,0,0,0,,the foot of my bed,\Nfacing me.
-Dialogue: 0,0:01:39.81,0:01:42.06,Cap,,0,0,0,,Then it seated my\Nmother in
-Dialogue: 0,0:01:42.08,0:01:44.09,Cap,,0,0,0,,my desk chair, her\Nmouth
-Dialogue: 0,0:01:44.11,0:01:46.65,Cap,,0,0,0,,wide open in the\Nshadows.
-Dialogue: 0,0:01:46.67,0:01:49.55,Cap,,0,0,0,,Next, the creature\Ndipped its clawed
-Dialogue: 0,0:01:49.57,0:01:52.67,Cap,,0,0,0,,hands into dark fluid\Non the floor.
-Dialogue: 0,0:01:52.69,0:01:56.31,Cap,,0,0,0,,It smeared ritualistic\Nshapes across my
-Dialogue: 0,0:01:56.33,0:01:59.59,Cap,,0,0,0,,bedroom walls, and\Ngouged a line of
-Dialogue: 0,0:01:59.61,0:02:03.49,Cap,,0,0,0,,words into the plaster\Nabove my desk.
-Dialogue: 0,0:02:03.51,0:02:05.74,Cap,,0,0,0,,When it finished, it\Nslithered
-Dialogue: 0,0:02:05.76,0:02:08.20,Cap,,0,0,0,,beneath my bed like a\Nspider.
-Dialogue: 0,0:02:08.22,0:02:11.00,Cap,,0,0,0,,I felt the wooden\Nslats beneath my
-Dialogue: 0,0:02:11.02,0:02:13.76,Cap,,0,0,0,,mattress sag under its\Nweight.
-Dialogue: 0,0:02:13.78,0:02:16.65,Cap,,0,0,0,,It has been down there\Nfor three hours,
-Dialogue: 0,0:02:16.67,0:02:19.03,Cap,,0,0,0,,waiting for me to wake\Nup.
-Dialogue: 0,0:02:19.05,0:02:21.21,Cap,,0,0,0,,Now, pre-dawn light is\Ncreeping
-Dialogue: 0,0:02:21.23,0:02:22.78,Cap,,0,0,0,,through my window.
-Dialogue: 0,0:02:22.80,0:02:25.62,Cap,,0,0,0,,My eyes have adjusted\Nto the gloom,
-Dialogue: 0,0:02:25.64,0:02:27.73,Cap,,0,0,0,,and I can finally read\Nthe
-Dialogue: 0,0:02:27.75,0:02:30.23,Cap,,0,0,0,,carved message on the\Nwall.
-Dialogue: 0,0:02:30.25,0:02:34.07,Cap,,0,0,0,,Four simple words: I\Nknow you are awake.
-Dialogue: 0,0:02:34.09,0:02:36.14,Cap,,0,0,0,,Inspired by the\Ncreepypasta
-Dialogue: 0,0:02:36.16,0:02:38.12,Cap,,0,0,0,,I Know You're Awake.
-Dialogue: 0,0:02:38.14,0:02:39.89,Cap,,0,0,0,,Would you have looked\Nunder the bed?
+Dialogue: 0,0:00:00.00,0:00:02.39,Cap,,0,0,0,,If you hear your\Nfamily calling your
+Dialogue: 0,0:00:02.41,0:00:04.33,Cap,,0,0,0,,name from the dark\Npine woods
+Dialogue: 0,0:00:04.35,0:00:06.64,Cap,,0,0,0,,tonight, do not open\Nthe door.
+Dialogue: 0,0:00:06.66,0:00:09.37,Cap,,0,0,0,,A skinwalker only\Nneeds to hear your
+Dialogue: 0,0:00:09.39,0:00:12.02,Cap,,0,0,0,,voice once to steal it\Nforever.
+Dialogue: 0,0:00:12.04,0:00:15.18,Cap,,0,0,0,,It stands nine feet\Ntall at the edge of
+Dialogue: 0,0:00:15.20,0:00:18.34,Cap,,0,0,0,,the clearing, hiding\Nits skeletal frame
+Dialogue: 0,0:00:18.36,0:00:21.34,Cap,,0,0,0,,behind the trees,\Nperfectly mimicking
+Dialogue: 0,0:00:21.36,0:00:24.07,Cap,,0,0,0,,the voice of someone\Nyou love.
+Dialogue: 0,0:00:24.09,0:00:26.29,Cap,,0,0,0,,Let us go back to the\Nbeginning.
+Dialogue: 0,0:00:26.31,0:00:29.33,Cap,,0,0,0,,At two in the morning,\Nmy sister Mira's
+Dialogue: 0,0:00:29.35,0:00:32.29,Cap,,0,0,0,,voice floated through\Nmy cabin window,
+Dialogue: 0,0:00:32.31,0:00:35.40,Cap,,0,0,0,,begging me to unlock\Nthe porch door.
+Dialogue: 0,0:00:35.42,0:00:37.89,Cap,,0,0,0,,But Mira lived two\Nhours away
+Dialogue: 0,0:00:37.91,0:00:40.30,Cap,,0,0,0,,in the city, her car\Nwas not
+Dialogue: 0,0:00:40.32,0:00:43.04,Cap,,0,0,0,,outside, and she had\Nnot visited
+Dialogue: 0,0:00:43.06,0:00:45.30,Cap,,0,0,0,,this cabin in months.
+Dialogue: 0,0:00:45.32,0:00:48.53,Cap,,0,0,0,,A human throat has one\Nvocal cord,
+Dialogue: 0,0:00:48.55,0:00:52.33,Cap,,0,0,0,,but this creature\Npossesses two separate
+Dialogue: 0,0:00:52.35,0:00:55.28,Cap,,0,0,0,,acoustic voice boxes,\Nsplitting
+Dialogue: 0,0:00:55.30,0:00:58.43,Cap,,0,0,0,,like the syrinx of a\Nlyrebird.
+Dialogue: 0,0:00:58.45,0:01:00.95,Cap,,0,0,0,,By vibrating both\Nchambers
+Dialogue: 0,0:01:00.97,0:01:02.70,Cap,,0,0,0,,simultaneously, it
+Dialogue: 0,0:01:02.72,0:01:04.83,Cap,,0,0,0,,can copy a chainsaw, a
+Dialogue: 0,0:01:04.85,0:01:06.97,Cap,,0,0,0,,crying infant, or your
+Dialogue: 0,0:01:06.99,0:01:09.46,Cap,,0,0,0,,sister's exact voice.
+Dialogue: 0,0:01:09.48,0:01:11.95,Cap,,0,0,0,,Yet copying is not\Nspeaking.
+Dialogue: 0,0:01:11.97,0:01:14.79,Cap,,0,0,0,,It does not understand\Nhuman words,
+Dialogue: 0,0:01:14.81,0:01:17.15,Cap,,0,0,0,,so it merely replays\Nrecorded
+Dialogue: 0,0:01:17.17,0:01:19.57,Cap,,0,0,0,,sound waves like a\Nparrot.
+Dialogue: 0,0:01:19.59,0:01:23.54,Cap,,0,0,0,,That is why it repeats\Nthe identical sentence
+Dialogue: 0,0:01:23.56,0:01:27.02,Cap,,0,0,0,,twice: Noah, please\Nunlock the door.
+Dialogue: 0,0:01:27.04,0:01:29.54,Cap,,0,0,0,,Noah, please unlock\Nthe door.
+Dialogue: 0,0:01:29.56,0:01:32.58,Cap,,0,0,0,,Up close, you would\Nsee its bleached,
+Dialogue: 0,0:01:32.60,0:01:34.81,Cap,,0,0,0,,skeletal frame\Nimmediately,
+Dialogue: 0,0:01:34.83,0:01:37.57,Cap,,0,0,0,,so it stays back at\Nthe fence.
+Dialogue: 0,0:01:37.59,0:01:40.27,Cap,,0,0,0,,Cold night air bends\Nsound waves
+Dialogue: 0,0:01:40.29,0:01:42.89,Cap,,0,0,0,,down across the grass,\Ncarrying
+Dialogue: 0,0:01:42.91,0:01:45.72,Cap,,0,0,0,,its whisper hundreds\Nof yards.
+Dialogue: 0,0:01:45.74,0:01:48.93,Cap,,0,0,0,,And behind its hollow\Neyes, a reflective
+Dialogue: 0,0:01:48.95,0:01:51.95,Cap,,0,0,0,,mirror layer shines\Nlike a deer.
+Dialogue: 0,0:01:51.97,0:01:55.05,Cap,,0,0,0,,Its brittle body\Ncannot chase you down.
+Dialogue: 0,0:01:55.07,0:01:57.44,Cap,,0,0,0,,Like an anglerfish in\Nthe deep
+Dialogue: 0,0:01:57.46,0:01:59.50,Cap,,0,0,0,,ocean, it uses a lure.
+Dialogue: 0,0:01:59.52,0:02:03.10,Cap,,0,0,0,,And the lure is the\Nperson you love most.
+Dialogue: 0,0:02:03.12,0:02:05.84,Cap,,0,0,0,,Standing by the door,\NI remembered
+Dialogue: 0,0:02:05.86,0:02:07.59,Cap,,0,0,0,,its only weakness.
+Dialogue: 0,0:02:07.61,0:02:10.38,Cap,,0,0,0,,It can mimic a sound,\Nbut it cannot
+Dialogue: 0,0:02:10.40,0:02:13.08,Cap,,0,0,0,,answer an unscripted\Nquestion.
+Dialogue: 0,0:02:13.10,0:02:16.29,Cap,,0,0,0,,Through the wood, I\Nshouted: Mira, what
+Dialogue: 0,0:02:16.31,0:02:19.79,Cap,,0,0,0,,did grandpa carve on\Nthe porch bench?
+Dialogue: 0,0:02:19.82,0:02:22.74,Cap,,0,0,0,,Dead silence swallowed\Nthe forest.
+Dialogue: 0,0:02:22.76,0:02:26.42,Cap,,0,0,0,,Then, from the black\Ntrees, the mechanical
+Dialogue: 0,0:02:26.44,0:02:28.61,Cap,,0,0,0,,voice replayed once\Nmore:
+Dialogue: 0,0:02:28.63,0:02:31.45,Cap,,0,0,0,,Noah, please unlock\Nthe door.
+Dialogue: 0,0:02:31.47,0:02:34.70,Cap,,0,0,0,,I threw the deadbolt,\Njust as a nine-foot
+Dialogue: 0,0:02:34.72,0:02:37.54,Cap,,0,0,0,,shadow stepped onto\Nthe porch.
+Dialogue: 0,0:02:37.56,0:02:41.13,Cap,,0,0,0,,Inspired by folklore\Nof the vocal mimic.
+Dialogue: 0,0:02:41.15,0:02:42.69,Cap,,0,0,0,,Would you have opened\Nthe door?

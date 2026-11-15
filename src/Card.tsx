@@ -32,9 +32,9 @@ export const ChapterCard: React.FC<{ W: number; H: number; t: number; n: number;
           <rect x={24} y={24} width={452} height={42} fill="#9c1c18" />
           <line x1={24} y1={66} x2={476} y2={66} stroke="#05070a" strokeWidth={5} />
 
-          {/* Subtle alarm clock time glyph: 05:30 AM */}
-          <text x={40} y={53} fill="#fbeeee" fontFamily="Lora" fontWeight="bold" fontSize="19" letterSpacing="2">PRE-DAWN // PART {n}</text>
-          <text x={450} y={53} textAnchor="end" fill="#fbeeee" fontFamily="Lora" fontWeight="bold" fontSize="18" opacity={0.85}>05:30 AM</text>
+          {/* Chapter glyph for The Treeline Mimic: 02:15 AM */}
+          <text x={40} y={53} fill="#fbeeee" fontFamily="Lora" fontWeight="bold" fontSize="19" letterSpacing="2">TREELINE // PART {n}</text>
+          <text x={450} y={53} textAnchor="end" fill="#fbeeee" fontFamily="Lora" fontWeight="bold" fontSize="18" opacity={0.85}>02:15 AM</text>
 
           {/* Inner parchment panel */}
           <rect x={44} y={85} width={412} height={195} fill="#ddd4c4" stroke="#05070a" strokeWidth={5} />

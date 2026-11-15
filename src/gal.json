@@ -1,11 +1,13 @@
 [
-  ["bedroom_awake", {}],
-  ["creature_stalk", {"reach": true}],
-  ["hallway_blood", {"feet": true}],
-  ["sam_terror", {}],
-  ["creature_dragging", {}],
-  ["parents_propped", {}],
-  ["wall_reveal", {}],
-  ["bathroom_dark", {}],
+  ["first_frame", {}],
+  ["porch_door", {"shadow": false}],
+  ["porch_door", {"shadow": true}],
+  ["woods_wide", {"mimic": true}],
+  ["dual_syrinx", {}],
+  ["mirror_eye", {}],
+  ["mimic_full", {"reach": true}],
+  ["noah_closeup", {"expr": "fear"}],
+  ["mimic_face", {}],
+  ["qcard", {"title": "THE TREELINE MIMIC"}],
   ["end", {}]
 ]

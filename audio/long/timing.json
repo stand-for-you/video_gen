@@ -1,608 +1,509 @@
 {
- "duration": 385.87375,
+ "duration": 326.005625,
  "units": [
   {
    "i": 0,
    "beat": 0,
    "chapter": "Intro",
-   "text": "I have been lying under my sheets for three hours, frozen stiff in the dark.",
+   "text": "If you hear your family calling your name from the dark pine woods tonight, do not step outside.",
    "who": "nar",
    "start": 0.0,
-   "end": 5.852
+   "end": 6.388
   },
   {
    "i": 1,
    "beat": 0,
    "chapter": null,
-   "text": "It is five thirty in the morning, and the copper smell of blood in my bedroom is making me gag.",
+   "text": "A skinwalker only needs to hear a human voice once to steal it forever.",
    "who": "nar",
-   "start": 6.152,
-   "end": 13.358
+   "start": 6.688,
+   "end": 12.213
   },
   {
    "i": 2,
    "beat": 1,
    "chapter": null,
-   "text": "Across from my mattress, my parents are staring straight at me.",
+   "text": "It stands nine feet tall at the edge of the clearing, hiding its skeletal frame behind the trees.",
    "who": "nar",
-   "start": 13.808,
-   "end": 18.185
+   "start": 12.663,
+   "end": 20.409
   },
   {
    "i": 3,
    "beat": 1,
    "chapter": null,
-   "text": "Their eyes never blink, and their mouths hang wide open in the shadows.",
+   "text": "But the voice coming from its throat sounds identical to your mother or your sister.",
    "who": "nar",
-   "start": 18.485,
-   "end": 24.225
+   "start": 20.709,
+   "end": 26.804
   },
   {
    "i": 4,
-   "beat": 1,
+   "beat": 2,
    "chapter": null,
-   "text": "But they are not alive.",
+   "text": "And it knows the exact trick that will make you unlock the front door.",
    "who": "nar",
-   "start": 24.525,
-   "end": 25.971
+   "start": 27.254,
+   "end": 31.824
   },
   {
    "i": 5,
-   "beat": 1,
-   "chapter": null,
-   "text": "Something dragged them here.",
-   "who": "nar",
-   "start": 26.271,
-   "end": 27.873
-  },
-  {
-   "i": 6,
-   "beat": 2,
-   "chapter": null,
-   "text": "And right now, that hairless thing is crouched directly beneath my bed, waiting for me to move.",
-   "who": "nar",
-   "start": 28.323,
-   "end": 35.952
-  },
-  {
-   "i": 7,
    "beat": 2,
    "chapter": null,
    "text": "Let us go back to the beginning.",
    "who": "nar",
-   "start": 36.252,
-   "end": 38.024
+   "start": 32.123,
+   "end": 33.896
+  },
+  {
+   "i": 6,
+   "beat": 3,
+   "chapter": "The Voice",
+   "text": "It was two fifteen in the morning when the call began outside my forest cabin.",
+   "who": "nar",
+   "start": 34.496,
+   "end": 40.877
+  },
+  {
+   "i": 7,
+   "beat": 3,
+   "chapter": null,
+   "text": "I was sitting at my wooden desk when a familiar voice floated through the open window.",
+   "who": "nar",
+   "start": 41.177,
+   "end": 47.354
   },
   {
    "i": 8,
-   "beat": 3,
-   "chapter": "The Scream",
-   "text": "It all began around two thirty in the morning.",
+   "beat": 4,
+   "chapter": null,
+   "text": "It was my sister Mira.",
    "who": "nar",
-   "start": 38.624,
-   "end": 41.971
+   "start": 47.804,
+   "end": 49.265
   },
   {
    "i": 9,
-   "beat": 3,
+   "beat": 4,
    "chapter": null,
-   "text": "I was asleep in my room when a sharp, jagged scream tore through the far end of the hallway.",
+   "text": "She sounded desperate, pleading from the edge of the fence, saying she had dropped her car keys in the tall grass.",
    "who": "nar",
-   "start": 42.271,
-   "end": 49.498
+   "start": 49.565,
+   "end": 58.247
   },
   {
    "i": 10,
-   "beat": 4,
+   "beat": 5,
    "chapter": null,
-   "text": "I woke up in a cold sweat, sitting upright with my heart hammering against my ribs.",
+   "text": "My hand was on the brass deadbolt before my brain caught up with the silence.",
    "who": "nar",
-   "start": 49.948,
-   "end": 57.108
+   "start": 58.697,
+   "end": 64.295
   },
   {
    "i": 11,
-   "beat": 4,
+   "beat": 5,
    "chapter": null,
-   "text": "The house immediately fell dead silent again.",
+   "text": "Mira lived two hours away in the city.",
    "who": "nar",
-   "start": 57.408,
-   "end": 60.85
+   "start": 64.595,
+   "end": 67.251
   },
   {
    "i": 12,
-   "beat": 4,
+   "beat": 5,
    "chapter": null,
-   "text": "Not a floorboard creaked.",
+   "text": "Her car was not in the driveway.",
    "who": "nar",
-   "start": 61.15,
-   "end": 62.676
+   "start": 67.551,
+   "end": 69.94
   },
   {
    "i": 13,
    "beat": 5,
    "chapter": null,
-   "text": "I told myself it was just a bad dream, but my stomach twisted with anxiety.",
+   "text": "And she had not visited this cabin in three months.",
    "who": "nar",
-   "start": 63.126,
-   "end": 70.046
+   "start": 70.24,
+   "end": 73.449
   },
   {
    "i": 14,
-   "beat": 5,
-   "chapter": null,
-   "text": "Before going to check on my parents, I realized I had to use the bathroom.",
+   "beat": 6,
+   "chapter": "Two Throats",
+   "text": "I crept to the porch window and looked out across the lawn.",
    "who": "nar",
-   "start": 70.346,
-   "end": 75.985
+   "start": 74.049,
+   "end": 78.12
   },
   {
    "i": 15,
    "beat": 6,
    "chapter": null,
-   "text": "Looking back now, taking that detour might be the only reason I am still breathing.",
+   "text": "At first, you think it must be a trick of your mind.",
    "who": "nar",
-   "start": 76.435,
-   "end": 83.103
+   "start": 78.42,
+   "end": 81.917
   },
   {
    "i": 16,
    "beat": 6,
    "chapter": null,
-   "text": "I slipped out of my sheets and crept down the hallway on bare feet.",
+   "text": "A normal throat cannot reproduce a human timbre with such mechanical perfection.",
    "who": "nar",
-   "start": 83.403,
-   "end": 88.359
+   "start": 82.217,
+   "end": 88.978
   },
   {
    "i": 17,
    "beat": 7,
-   "chapter": "The Hallway",
-   "text": "The bathroom was pitch black.",
+   "chapter": null,
+   "text": "A human vocal cord has one resonant path.",
    "who": "nar",
-   "start": 88.959,
-   "end": 90.858
+   "start": 89.428,
+   "end": 93.102
   },
   {
    "i": 18,
    "beat": 7,
    "chapter": null,
-   "text": "I did not dare turn on the overhead bulb, only letting in the faint grey light from the high window.",
+   "text": "But an apex vocal mimic possesses two separate acoustic voice boxes, splitting like the syrinx of a lyrebird.",
    "who": "nar",
-   "start": 91.158,
-   "end": 99.038
+   "start": 93.402,
+   "end": 103.352
   },
   {
    "i": 19,
    "beat": 8,
    "chapter": null,
-   "text": "When I stepped back into the doorway, I felt a damp coldness against the carpet.",
+   "text": "A lyrebird can reproduce the metallic bite of a chainsaw or the shrill cry of an infant.",
    "who": "nar",
-   "start": 99.488,
-   "end": 105.4
+   "start": 103.802,
+   "end": 111.793
   },
   {
    "i": 20,
    "beat": 8,
    "chapter": null,
-   "text": "I looked down.",
+   "text": "By vibrating both chambers at once, the mimic crafts your sister's exact pitch and cadence in the dark.",
    "who": "nar",
-   "start": 105.7,
-   "end": 106.69
+   "start": 112.093,
+   "end": 121.204
   },
   {
    "i": 21,
-   "beat": 8,
-   "chapter": null,
-   "text": "Heavy, dark streaks trailed from the master bedroom toward my door.",
+   "beat": 9,
+   "chapter": "The Replay",
+   "text": "Yet copying a voice is not speaking.",
    "who": "nar",
-   "start": 106.99,
-   "end": 111.914
+   "start": 121.804,
+   "end": 124.553
   },
   {
    "i": 22,
    "beat": 9,
    "chapter": null,
-   "text": "Pure terror seized my throat.",
+   "text": "The creature possesses no understanding of human words, no memories, and no soul.",
    "who": "nar",
-   "start": 112.364,
-   "end": 114.569
+   "start": 124.853,
+   "end": 131.841
   },
   {
    "i": 23,
    "beat": 9,
    "chapter": null,
-   "text": "I did not scream.",
+   "text": "It does not comprehend what it is saying.",
    "who": "nar",
-   "start": 114.869,
-   "end": 116.122
+   "start": 132.141,
+   "end": 135.018
   },
   {
    "i": 24,
-   "beat": 9,
+   "beat": 10,
    "chapter": null,
-   "text": "I did not investigate.",
+   "text": "Like an ancient phonograph or a caged parrot, it only knows how to replay recorded sound waves.",
    "who": "nar",
-   "start": 116.422,
-   "end": 117.985
+   "start": 135.468,
+   "end": 143.698
   },
   {
    "i": 25,
-   "beat": 9,
+   "beat": 10,
    "chapter": null,
-   "text": "Like a frightened child, I bolted back into my room and dove under my blankets, pulling the fabric over my eyes.",
+   "text": "That is why it always repeats the identical sentence twice, with the exact same breath pause.",
    "who": "nar",
-   "start": 118.285,
-   "end": 127.981
+   "start": 143.998,
+   "end": 151.416
   },
   {
    "i": 26,
-   "beat": 10,
+   "beat": 11,
    "chapter": null,
-   "text": "I squeezed my eyelids shut and prayed that the shadows were playing tricks on me.",
+   "text": "Outside my fence, the voice came again, pitch-perfect and cold: Noah, please unlock the door.",
    "who": "nar",
-   "start": 128.431,
-   "end": 134.135
+   "start": 151.866,
+   "end": 160.42
   },
   {
    "i": 27,
-   "beat": 10,
+   "beat": 11,
    "chapter": null,
-   "text": "I told myself morning was coming, and that dawn would wipe it all away.",
+   "text": "Noah, please unlock the door.",
    "who": "nar",
-   "start": 134.435,
-   "end": 140.039
+   "start": 160.72,
+   "end": 162.792
   },
   {
    "i": 28,
-   "beat": 11,
-   "chapter": "The Intruder",
-   "text": "Then, in the dead silence of the bedroom, my hinges began to groan.",
+   "beat": 12,
+   "chapter": "The Treeline",
+   "text": "Up close, any person would see the nightmare instantly.",
    "who": "nar",
-   "start": 140.639,
-   "end": 145.682
+   "start": 163.392,
+   "end": 167.393
   },
   {
    "i": 29,
-   "beat": 11,
+   "beat": 12,
    "chapter": null,
-   "text": "The door slowly swung inward, stopping with a soft click against the frame.",
+   "text": "Its skin is pale as bleached bone, stretched paper-thin over an elongated ribcage.",
    "who": "nar",
-   "start": 145.982,
-   "end": 151.806
+   "start": 167.693,
+   "end": 175.35
   },
   {
    "i": 30,
    "beat": 12,
    "chapter": null,
-   "text": "I dared to pull the blanket down just enough to expose one eye into the dim room.",
+   "text": "So it never approaches the porch.",
    "who": "nar",
-   "start": 152.256,
-   "end": 158.209
+   "start": 175.65,
+   "end": 177.633
   },
   {
    "i": 31,
-   "beat": 12,
+   "beat": 13,
    "chapter": null,
-   "text": "What stepped through the threshold was not human.",
+   "text": "It remains twenty-five paces back against the dark pines.",
    "who": "nar",
-   "start": 158.509,
-   "end": 161.865
+   "start": 178.083,
+   "end": 182.502
   },
   {
    "i": 32,
-   "beat": 12,
+   "beat": 13,
    "chapter": null,
-   "text": "It was tall, hairless, and completely naked, with pale leathery skin pulled tight over its ribs.",
+   "text": "At night, cold ground air traps warm layers above, bending sound waves back down across the soil so its whisper carries hundreds of yards.",
    "who": "nar",
-   "start": 162.165,
-   "end": 170.267
+   "start": 182.802,
+   "end": 194.704
   },
   {
    "i": 33,
-   "beat": 13,
+   "beat": 14,
    "chapter": null,
-   "text": "Its spine was bent in a heavy hunch, and it possessed no eyes, only smooth, hollow sockets where sight should be.",
+   "text": "It cannot see well in the pitch dark either.",
    "who": "nar",
-   "start": 170.717,
-   "end": 180.576
+   "start": 195.154,
+   "end": 198.044
   },
   {
    "i": 34,
-   "beat": 13,
+   "beat": 14,
    "chapter": null,
-   "text": "Yet it moved with cold, calculating purpose.",
+   "text": "Behind its hollow sockets sits a reflective mirror layer, just like a deer.",
    "who": "nar",
-   "start": 180.876,
-   "end": 184.277
+   "start": 198.344,
+   "end": 204.778
   },
   {
    "i": 35,
    "beat": 14,
    "chapter": null,
-   "text": "In its long, sinewy arms, it was dragging my mother and father across the floor, completely limp and unresponsive.",
+   "text": "Those two glowing white dots beyond the fence were not fireflies.",
    "who": "nar",
-   "start": 184.727,
-   "end": 195.298
+   "start": 205.078,
+   "end": 210.183
   },
   {
    "i": 36,
-   "beat": 15,
-   "chapter": "The Masterpiece",
-   "text": "I had to bite my own tongue until it bled to keep from screaming.",
+   "beat": 14,
+   "chapter": null,
+   "text": "They were its eyes.",
    "who": "nar",
-   "start": 195.898,
-   "end": 200.619
+   "start": 210.483,
+   "end": 211.561
   },
   {
    "i": 37,
    "beat": 15,
-   "chapter": null,
-   "text": "The creature did not toss them aside.",
+   "chapter": "The Lure",
+   "text": "A predator with a frame that brittle cannot survive a direct brawl.",
    "who": "nar",
-   "start": 200.919,
-   "end": 203.459
+   "start": 212.161,
+   "end": 217.491
   },
   {
    "i": 38,
    "beat": 15,
    "chapter": null,
-   "text": "It began arranging them with sick, methodical care.",
+   "text": "Its long, jointed limbs are built for reaching and dragging, not wrestling.",
    "who": "nar",
-   "start": 203.759,
-   "end": 208.025
+   "start": 217.791,
+   "end": 223.703
   },
   {
    "i": 39,
-   "beat": 16,
+   "beat": 15,
    "chapter": null,
-   "text": "It hauled my father upright and propped him against the side of my bed, turning his head so his blank, unblinking eyes faced directly into mine.",
+   "text": "It cannot chase you down.",
    "who": "nar",
-   "start": 208.475,
-   "end": 221.524
+   "start": 224.003,
+   "end": 225.553
   },
   {
    "i": 40,
-   "beat": 17,
+   "beat": 16,
    "chapter": null,
-   "text": "Then it dragged my mother to the desk chair, seating her upright with her arms limp and her mouth gaping open toward me.",
+   "text": "Like an anglerfish lurking in the ocean abyss, it depends entirely on a glowing lure to survive.",
    "who": "nar",
-   "start": 221.974,
-   "end": 232.267
+   "start": 226.003,
+   "end": 233.76
   },
   {
    "i": 41,
-   "beat": 17,
+   "beat": 16,
    "chapter": null,
-   "text": "They looked like grotesque mannequins staged for an audience.",
+   "text": "And its lure is the one thing no human heart can ignore: the voice of someone you love.",
    "who": "nar",
-   "start": 232.567,
-   "end": 237.046
+   "start": 234.06,
+   "end": 241.975
   },
   {
    "i": 42,
-   "beat": 18,
+   "beat": 17,
    "chapter": null,
-   "text": "Next, the creature dipped its clawed fingers into the dark fluid pooling on the floor.",
+   "text": "It waits in the pitch black for you to feel pity, step past the threshold, and walk into its reaching grasp.",
    "who": "nar",
-   "start": 237.496,
-   "end": 244.14
+   "start": 242.425,
+   "end": 250.796
   },
   {
    "i": 43,
    "beat": 18,
-   "chapter": null,
-   "text": "It began dragging its hands across my bedroom wall, painting thick, ritualistic symbols and a jagged circle around the mirror.",
+   "chapter": "The Weakness",
+   "text": "Standing in the dark of my cabin with my palm sweating against the deadbolt, I remembered the creature's one fatal flaw.",
    "who": "nar",
-   "start": 244.44,
-   "end": 255.416
+   "start": 251.396,
+   "end": 261.132
   },
   {
    "i": 44,
-   "beat": 19,
+   "beat": 18,
    "chapter": null,
-   "text": "It was crafting what it considered its masterpiece.",
+   "text": "It can mimic any syllable, but it can never answer an unscripted question.",
    "who": "nar",
-   "start": 255.866,
-   "end": 259.552
+   "start": 261.432,
+   "end": 267.252
   },
   {
    "i": 45,
    "beat": 19,
    "chapter": null,
-   "text": "At the center of the wall, it dragged its nails into the plaster, carving a line of words that I could not yet read in the pitch black.",
+   "text": "I leaned against the heavy wood of the door and called out into the yard: Mira, what did grandpa carve on the cabin bench?",
    "who": "nar",
-   "start": 259.852,
-   "end": 270.704
+   "start": 267.702,
+   "end": 278.045
   },
   {
    "i": 46,
    "beat": 20,
-   "chapter": "Under the Bed",
-   "text": "When it finished, the creature turned slowly toward my mattress.",
+   "chapter": null,
+   "text": "A heavy, suffocating silence settled over the pines.",
    "who": "nar",
-   "start": 271.304,
-   "end": 275.836
+   "start": 278.495,
+   "end": 282.695
   },
   {
    "i": 47,
    "beat": 20,
    "chapter": null,
-   "text": "I held my breath, relaxing my muscles and pretending to be dead asleep.",
+   "text": "The night wind died down.",
    "who": "nar",
-   "start": 276.136,
-   "end": 282.175
+   "start": 282.995,
+   "end": 284.836
   },
   {
    "i": 48,
-   "beat": 21,
+   "beat": 20,
    "chapter": null,
-   "text": "It did not strike.",
+   "text": "For thirty seconds, not a twig snapped in the forest.",
    "who": "nar",
-   "start": 282.625,
-   "end": 283.869
+   "start": 285.136,
+   "end": 289.407
   },
   {
    "i": 49,
    "beat": 21,
    "chapter": null,
-   "text": "Instead, it sank down to all fours, slithering beneath the frame of my bed like a spider retreating into its hole.",
+   "text": "Then, from the black trees past the fence, the voice replayed once more with identical pitch: Noah, please unlock the door.",
    "who": "nar",
-   "start": 284.169,
-   "end": 294.222
+   "start": 289.857,
+   "end": 300.567
   },
   {
    "i": 50,
    "beat": 21,
    "chapter": null,
-   "text": "I felt the wooden slats beneath my spine dip under its weight.",
+   "text": "Noah, please unlock the door.",
    "who": "nar",
-   "start": 294.522,
-   "end": 299.427
+   "start": 300.867,
+   "end": 302.938
   },
   {
    "i": 51,
    "beat": 22,
    "chapter": null,
-   "text": "That was three hours ago.",
+   "text": "I threw the secondary deadbolt and backed away from the glass.",
    "who": "nar",
-   "start": 299.877,
-   "end": 301.487
+   "start": 303.388,
+   "end": 307.761
   },
   {
    "i": 52,
    "beat": 22,
    "chapter": null,
-   "text": "Ever since, I have been trapped here, watching the clock tick from two thirty to five thirty.",
+   "text": "And as I stepped into the shadows, a nine-foot silhouette stepped onto the porch.",
    "who": "nar",
-   "start": 301.787,
-   "end": 309.367
+   "start": 308.061,
+   "end": 313.874
   },
   {
    "i": 53,
-   "beat": 22,
+   "beat": 23,
    "chapter": null,
-   "text": "I cannot twitch.",
+   "text": "This story was inspired by modern folklore and the vocal anatomy of the forest mimic.",
    "who": "nar",
-   "start": 309.667,
-   "end": 310.846
+   "start": 314.324,
+   "end": 321.586
   },
   {
    "i": 54,
-   "beat": 22,
-   "chapter": null,
-   "text": "I cannot sneeze.",
-   "who": "nar",
-   "start": 311.146,
-   "end": 312.36
-  },
-  {
-   "i": 55,
-   "beat": 22,
-   "chapter": null,
-   "text": "The second I show any sign of consciousness, I know its claws will tear up through the mattress.",
-   "who": "nar",
-   "start": 312.66,
-   "end": 319.644
-  },
-  {
-   "i": 56,
-   "beat": 23,
-   "chapter": null,
-   "text": "I considered throwing the sheets and sprinting for the front door to scream for neighbors, but the creature is inches below my heels.",
-   "who": "nar",
-   "start": 320.094,
-   "end": 331.285
-  },
-  {
-   "i": 57,
    "beat": 24,
-   "chapter": "The Message",
-   "text": "Over the past few hours, the sky outside my window has turned from ink black to a pale, misty pre-dawn grey.",
-   "who": "nar",
-   "start": 331.885,
-   "end": 341.442
-  },
-  {
-   "i": 58,
-   "beat": 24,
-   "chapter": null,
-   "text": "The faint light has begun washing across the opposite wall.",
-   "who": "nar",
-   "start": 341.742,
-   "end": 346.08
-  },
-  {
-   "i": 59,
-   "beat": 25,
-   "chapter": null,
-   "text": "Against my will, my gaze drifted back to the bloody inscription the creature had gouged into the plaster above my desk.",
-   "who": "nar",
-   "start": 346.53,
-   "end": 356.294
-  },
-  {
-   "i": 60,
-   "beat": 26,
-   "chapter": null,
-   "text": "With my eyes fully adjusted to the morning twilight, every single word became sharp and legible.",
-   "who": "nar",
-   "start": 356.744,
-   "end": 364.742
-  },
-  {
-   "i": 61,
-   "beat": 27,
-   "chapter": null,
-   "text": "It was not a ritual chant.",
-   "who": "nar",
-   "start": 365.192,
-   "end": 366.996
-  },
-  {
-   "i": 62,
-   "beat": 27,
-   "chapter": null,
-   "text": "It was four simple words meant only for me.",
-   "who": "nar",
-   "start": 367.296,
-   "end": 370.827
-  },
-  {
-   "i": 63,
-   "beat": 28,
-   "chapter": null,
-   "text": "It read: I know you are awake.",
-   "who": "nar",
-   "start": 371.277,
-   "end": 373.469
-  },
-  {
-   "i": 64,
-   "beat": 29,
-   "chapter": null,
-   "text": "This story was inspired by I Know You're Awake, as published in creepypasta archives.",
-   "who": "nar",
-   "start": 373.919,
-   "end": 381.247
-  },
-  {
-   "i": 65,
-   "beat": 30,
    "chapter": null,
    "text": "Now tell me.",
    "who": "nar",
-   "start": 381.697,
-   "end": 382.626
+   "start": 322.036,
+   "end": 322.965
   },
   {
-   "i": 66,
-   "beat": 30,
+   "i": 55,
+   "beat": 24,
    "chapter": null,
-   "text": "Would you have looked under the bed?",
+   "text": "Would you have opened the door?",
    "who": "nar",
-   "start": 382.926,
-   "end": 384.674
+   "start": 323.265,
+   "end": 324.806
   }
  ]
 }

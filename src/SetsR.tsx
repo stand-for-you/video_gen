@@ -1,215 +1,192 @@
 import React from 'react';
-import { INK } from './Kit';
+import { INK, RED } from './Kit';
 import { FullPerson } from './Cast';
-import { Q, SAM, DAD, MOM, Alive, Face, LurkerCreature, BedroomBed, WallRitual } from './LurkerKit';
+import { sf } from './Beast';
+import { Q, NOAH, MIRA, Alive, Face, PineTree, WoodFence, MimicCreature, DualSyrinxCutaway, MirrorEyeCutaway } from './MimicKit';
 
-// Standard 1080x1920 Vertical Sets for "I Know You're Awake" (Reel / Shorts)
-// Built natively at 1080x1920 without importing SetsL.tsx.
-// Safe Margins: Faces and key props kept between y 180 and y 1420 (captions occupy ~y 1450-1850).
+// Standard 1080x1920 Vertical Sets for "The Treeline Mimic" (Reel)
+// All scenes re-composed natively on a 1080x1920 canvas.
+// Captions safe area: keep focal content above y 1420.
 
 export const SETS: Record<string, React.FC<{ f: number; v?: any }>> = {
-  // 1. First Creepiest Picture: Vertical bedroom scene
-  bedroom_awake: ({ f, v = {} }) => {
+  // 1. Reel First Frame: Tall Night Pines, Cabin, Fence, Glowing Eyes
+  reel_first: ({ f, v = {} }) => {
     return (
       <svg viewBox="0 0 1080 1920" style={{ width: '100%', height: '100%' }}>
-        <rect width="1080" height="1920" fill={Q.dk} />
-        <rect x="0" y="0" width="1080" height="1350" fill={Q.wall} />
-        <rect x="0" y="1350" width="1080" height="570" fill={Q.carpet} />
-        <line x1="0" y1="1350" x2="1080" y2="1350" stroke={INK} strokeWidth={8} />
+        {/* Sky */}
+        <rect width="1080" height="1920" fill={Q.skyDk} />
+        <rect x="0" y="600" width="1080" height="1320" fill={Q.skyMist} opacity={0.6} />
 
-        {/* Cold Window top left */}
-        <g transform="translate(80, 160)">
-          <rect width="220" height="340" fill="#1b2330" stroke={INK} strokeWidth={8} />
-          <line x1="110" y1="0" x2="110" y2="340" stroke={INK} strokeWidth={5} />
-          <line x1="0" y1="170" x2="220" y2="170" stroke={INK} strokeWidth={5} />
+        {/* Crescent Moon High in Sky */}
+        <g transform="translate(860, 240)">
+          <circle cx="0" cy="0" r="54" fill={Q.moonWhite} />
+          <circle cx="18" cy="-14" r="50" fill={Q.skyDk} />
         </g>
 
-        {/* Wall ritual scrawl centered high */}
-        <g transform="translate(680, 420)">
-          <WallRitual revealWords={v.revealWords} bloodPentagram={true} />
+        {/* Tall Pine Silhouettes towering above */}
+        <PineTree x={160} y={1100} h={760} w={320} c="#081013" />
+        <PineTree x={920} y={1140} h={820} w={340} c="#081013" />
+        <PineTree x={380} y={1060} h={680} w={280} c="#0e1b1e" />
+
+        {/* Ground */}
+        <rect x="0" y="1120" width="1080" height="800" fill="#0d1416" />
+        <line x1="0" y1="1120" x2="1080" y2="1120" stroke={INK} strokeWidth={9} />
+
+        {/* Split Rail Fence */}
+        <WoodFence x={0} y={1380} w={1080} h={260} />
+
+        {/* Cabin on the left */}
+        <g transform="translate(260, 1120)">
+          <rect x="-180" y="-340" width="360" height="340" fill={Q.cabinWood} stroke={INK} strokeWidth={8} />
+          <polygon points="-220,-340 0,-440 220,-340" fill="#20150e" stroke={INK} strokeWidth={8} />
+          {/* Glowing amber window */}
+          <rect x="-130" y="-240" width="130" height="160" fill={Q.windowAmber} stroke={INK} strokeWidth={6} />
+          <polygon points="-130,-240 0,-240 360,260 -240,260" fill={Q.windowAmber} opacity={0.14} />
         </g>
 
-        {/* Seated mother in chair */}
-        <g transform="translate(840, 920)">
-          <Alive x={0} y={0} f={f} mode="shake">
-            <FullPerson s={MOM} x={0} y={0} k={0.65} f={f} expr="fear" />
+        {/* Glowing eyes in dark forest (focal center around y 780-840) */}
+        <g transform="translate(680, 820)">
+          <circle cx="-16" cy="0" r="6" fill="#ffffff" />
+          <circle cx="16" cy="0" r="6" fill="#ffffff" />
+          <circle cx="-16" cy="0" r="12" fill="#ffffff" opacity={0.3} />
+          <circle cx="16" cy="0" r="12" fill="#ffffff" opacity={0.3} />
+          <path d="M0,25 L0,260" stroke="#040708" strokeWidth={24} opacity={0.85} />
+        </g>
+      </svg>
+    );
+  },
+
+  // 2. Reel Cabin Door & Deadbolt
+  reel_porch: ({ f, v = {} }) => {
+    return (
+      <svg viewBox="0 0 1080 1920" style={{ width: '100%', height: '100%' }}>
+        <rect width="1080" height="1920" fill={Q.skyDk} />
+        {/* Cabin Wall planks */}
+        {Array.from({ length: 24 }).map((_, i) => (
+          <rect key={i} x={0} y={i * 80} width="1080" height="78" fill={i % 2 === 0 ? Q.cabinWood : '#2b1f17'} stroke={INK} strokeWidth={3} />
+        ))}
+
+        {/* Heavy Door */}
+        <rect x="220" y="320" width="640" height="1280" fill="#241710" stroke={INK} strokeWidth={10} />
+        {/* Deadbolt */}
+        <rect x="260" y="880" width="90" height="55" rx="5" fill="#110d0a" stroke={INK} strokeWidth={5} />
+        <circle cx="305" cy="907" r="18" fill="#d9a836" stroke={INK} strokeWidth={4} />
+
+        {/* Door Window Pane */}
+        <rect x="340" y="440" width="400" height="340" fill="#0a1218" stroke={INK} strokeWidth={8} />
+
+        {/* Noah standing in dread */}
+        <g transform="translate(540, 1080)">
+          <Alive x={0} y={0} f={f} mode="tremble">
+            <FullPerson s={NOAH} x={0} y={0} k={1.4} f={f} expr="fear" />
           </Alive>
         </g>
-
-        {/* Bedroom Bed with Sam under sheets and Father propped */}
-        <g transform="translate(460, 1180)">
-          <BedroomBed f={f} samTerror={true} fatherPropped={v.father ?? true} creatureUnder={v.creatureUnder ?? true} />
-        </g>
-
-        {/* Alarm Clock */}
-        <g transform="translate(140, 1100)">
-          <rect x="-45" y="-25" width="90" height="50" rx="6" fill="#10141a" stroke={INK} strokeWidth={4} />
-          <text x="0" y="10" textAnchor="middle" fill="#d4261e" fontFamily="monospace" fontWeight="bold" fontSize="20">
-            {v.time ?? "05:30"}
-          </text>
-        </g>
       </svg>
     );
   },
 
-  // 2. Creature stalk vertical
-  creature_stalk: ({ f, v = {} }) => {
-    return (
-      <svg viewBox="0 0 1080 1920" style={{ width: '1080px', height: '1920px' }}>
-        <rect width="1080" height="1920" fill="#040609" />
-        <g transform="translate(540, 850)">
-          <LurkerCreature f={f} reach={v.reach} crawl={v.crawl} scale={1.7} />
-        </g>
-      </svg>
-    );
-  },
-
-  // 3. Hallway vertical
-  hallway_blood: ({ f, v = {} }) => {
+  // 3. Reel Dual Syrinx Anatomical Breakdown
+  reel_syrinx: ({ f, v = {} }) => {
     return (
       <svg viewBox="0 0 1080 1920" style={{ width: '100%', height: '100%' }}>
-        <rect width="1080" height="1920" fill={Q.dk} />
-        <polygon points="200,100 880,100 1080,1920 0,1920" fill={Q.carpetDk} />
-        <line x1="200" y1="100" x2="0" y2="1920" stroke={INK} strokeWidth={8} />
-        <line x1="880" y1="100" x2="1080" y2="1920" stroke={INK} strokeWidth={8} />
+        <rect width="1080" height="1920" fill="#090d14" />
+        <rect x="40" y="160" width="1000" height="1200" fill="#101722" stroke={INK} strokeWidth={8} />
 
-        {/* Master bedroom door */}
-        <rect x="390" y="300" width="300" height="550" fill="#030407" stroke={INK} strokeWidth={9} />
-
-        {/* Blood trail */}
-        <path d="M480,750 Q540,1100 320,1800" stroke={Q.redDark} strokeWidth={35} fill="none" opacity={0.85} />
-        <path d="M600,750 Q560,1120 780,1800" stroke={Q.redDark} strokeWidth={30} fill="none" opacity={0.85} />
+        {/* Syrinx Diagram centered nicely above captions */}
+        <DualSyrinxCutaway x={540} y={720} k={2.1} f={f} />
       </svg>
     );
   },
 
-  // 4. Sam terror vertical
-  sam_terror: ({ f, v = {} }) => {
+  // 4. Reel Tapetum Lucidum (Mirror Eye) Breakdown
+  reel_eye: ({ f, v = {} }) => {
     return (
       <svg viewBox="0 0 1080 1920" style={{ width: '100%', height: '100%' }}>
-        <rect width="1080" height="1920" fill={Q.dk} />
-        <g transform="translate(540, 750)">
-          <Face who="sam" x={0} y={0} k={1.8} f={f} expr="fear" tears={true} />
-          {/* Blanket drawn up over nose */}
-          <path d="M-400,200 Q0,160 400,200 L400,600 L-400,600 Z" fill={Q.sheet} stroke={INK} strokeWidth={9} />
-          <path d="M-300,220 Q0,185 300,220" stroke={Q.sheetDk} strokeWidth={10} fill="none" />
-        </g>
+        <rect width="1080" height="1920" fill="#090d14" />
+        <rect x="40" y="160" width="1000" height="1200" fill="#0e151e" stroke={INK} strokeWidth={8} />
+
+        {/* Eye Diagram centered */}
+        <MirrorEyeCutaway x={540} y={700} k={2.5} f={f} />
       </svg>
     );
   },
 
-  // 5. Creature dragging parents vertical
-  creature_dragging: ({ f, v = {} }) => {
+  // 5. Reel Full Mimic Reveal (Vertical 9-Foot Entity)
+  reel_mimic_full: ({ f, v = {} }) => {
     return (
       <svg viewBox="0 0 1080 1920" style={{ width: '100%', height: '100%' }}>
-        <rect width="1080" height="1920" fill={Q.wall} />
-        <rect x="0" y="1150" width="1080" height="770" fill={Q.carpet} />
-        <line x1="0" y1="1150" x2="1080" y2="1150" stroke={INK} strokeWidth={8} />
+        <rect width="1080" height="1920" fill={Q.skyDk} />
+        <PineTree x={180} y={1100} h={780} w={320} c="#091316" />
+        <PineTree x={900} y={1100} h={780} w={320} c="#091316" />
 
-        {/* Doorway */}
-        <g transform="translate(320, 360)">
-          <rect width="440" height="800" fill="#04060a" stroke={INK} strokeWidth={10} />
-          <g transform="translate(220, 380)">
-            <LurkerCreature f={f} scale={1.2} />
-          </g>
-          {/* Limp bodies dragged */}
-          <g transform="translate(100, 520) rotate(80)">
-            <FullPerson s={DAD} x={0} y={0} k={0.5} f={f} expr="neutral" />
-          </g>
-          <g transform="translate(320, 540) rotate(-75)">
-            <FullPerson s={MOM} x={0} y={0} k={0.5} f={f} expr="neutral" />
-          </g>
-        </g>
-      </svg>
-    );
-  },
+        <rect x="0" y="1180" width="1080" height="740" fill="#0b1114" />
+        <line x1="0" y1="1180" x2="1080" y2="1180" stroke={INK} strokeWidth={8} />
 
-  // 6. Propped parents vertical
-  parents_propped: ({ f, v = {} }) => {
-    return (
-      <svg viewBox="0 0 1080 1920" style={{ width: '100%', height: '100%' }}>
-        <rect width="1080" height="1920" fill={Q.dk} />
-        <rect x="0" y="0" width="1080" height="1200" fill={Q.wall} />
-        <rect x="0" y="1200" width="1080" height="720" fill={Q.carpet} />
+        <WoodFence x={0} y={1420} w={1080} h={240} />
 
-        {/* Father propped upper */}
-        <g transform="translate(360, 680)">
-          <Face who="dad" x={0} y={0} k={1.25} f={f} expr="fear" tears={true} />
-        </g>
-        {/* Mother seated lower */}
-        <g transform="translate(740, 940)">
-          <Face who="mom" x={0} y={0} k={1.25} f={f} expr="fear" tears={true} />
-        </g>
-      </svg>
-    );
-  },
-
-  // 7. Wall reveal vertical
-  wall_reveal: ({ f, v = {} }) => {
-    return (
-      <svg viewBox="0 0 1080 1920" style={{ width: '100%', height: '100%' }}>
-        <rect width="1080" height="1920" fill={Q.wallDk} />
-        <g transform="translate(540, 750)">
-          <WallRitual revealWords={true} bloodPentagram={true} />
-        </g>
-      </svg>
-    );
-  },
-
-  // 8. Bathroom vertical
-  bathroom_dark: ({ f, v = {} }) => {
-    return (
-      <svg viewBox="0 0 1080 1920" style={{ width: '100%', height: '100%' }}>
-        <rect width="1080" height="1920" fill="#0b0f16" />
-        <rect x="100" y="240" width="880" height="1350" fill="#141a24" stroke={INK} strokeWidth={8} />
-        <rect x="340" y="420" width="400" height="520" fill="#222c3c" stroke={INK} strokeWidth={8} />
-        <ellipse cx="540" cy="680" rx="90" ry="120" fill="#121822" />
-        <rect x="300" y="980" width="480" height="140" fill="#7a8898" stroke={INK} strokeWidth={7} />
-      </svg>
-    );
-  },
-
-  // 9. Credit beat vertical
-  qcard: ({ f, v = {} }) => {
-    return (
-      <svg viewBox="0 0 1080 1920" style={{ width: '100%', height: '100%' }}>
-        <rect width="1080" height="1920" fill={Q.dk} />
-        <g transform="translate(540, 800)">
-          <rect x="-450" y="-260" width="900" height="520" rx="10" fill="#181e28" stroke={INK} strokeWidth={8} />
-          <text x="0" y="-80" textAnchor="middle" fill="#f0ebe1" fontFamily="Lora" fontWeight="bold" fontSize="38">
-            I KNOW YOU'RE AWAKE
-          </text>
-          <text x="0" y="20" textAnchor="middle" fill="#c43026" fontFamily="Lora" fontStyle="italic" fontSize="28">
-            Scroll Kaos
-          </text>
-          <text x="0" y="100" textAnchor="middle" fill="#8e9aa8" fontFamily="Lora" fontSize="22">
-            Inspired by creepypasta archives
-          </text>
-        </g>
-      </svg>
-    );
-  },
-
-  // 10. End screen vertical
-  end: ({ f, v = {} }) => {
-    return (
-      <svg viewBox="0 0 1080 1920" style={{ width: '100%', height: '100%' }}>
-        <rect width="1080" height="1920" fill="#06090e" />
-        <g transform="translate(540, 680)" opacity={0.4}>
-          <LurkerCreature f={f} crawl scale={1.1} />
-        </g>
-        <text x="540" y="320" textAnchor="middle" fill="#f0ebe1" fontFamily="Lora" fontWeight="bold" fontSize="44" letterSpacing="3">
-          SCROLL KAOS
-        </text>
-        <line x1="340" y1="350" x2="740" y2="350" stroke="#b81c16" strokeWidth={5} />
-        <text x="540" y="480" textAnchor="middle" fill="#b81c16" fontFamily="Lora" fontStyle="italic" fontWeight="bold" fontSize="32">
-          "Would you have looked under the bed?"
-        </text>
-        <g transform="translate(540, 1150)">
-          <Alive x={0} y={0} f={f} mode="shake">
-            <FullPerson s={SAM} x={0} y={0} k={0.7} f={f} expr="fear" />
+        {/* Tall Mimic towering in center */}
+        <g transform="translate(540, 1140)">
+          <Alive x={0} y={0} f={f} mode="reach">
+            <MimicCreature x={0} y={0} k={1.7} f={f} pose="reach" />
           </Alive>
         </g>
+      </svg>
+    );
+  },
+
+  // 6. Reel Mimic Giant Face
+  reel_mimic_face: ({ f, v = {} }) => {
+    const t = sf(f, 3);
+    const jawY = 24 + Math.sin(t / 8) * 12;
+    return (
+      <svg viewBox="0 0 1080 1920" style={{ width: '100%', height: '100%' }}>
+        <rect width="1080" height="1920" fill="#040608" />
+        <circle cx="540" cy="740" r="480" fill="#101920" opacity={0.4} />
+
+        {/* Giant Face positioned safely in upper vertical quadrant */}
+        <g transform={`translate(540, ${680 + Math.sin(t / 14) * 6}) scale(3.5)`}>
+          <ellipse cx={0} cy={-20} rx={60} ry={82} fill={Q.fleshPale} stroke={INK} strokeWidth={8} />
+          {/* Glowing Eyes */}
+          <ellipse cx={-24} cy={-28} rx={20} ry={24} fill="#020406" stroke={INK} strokeWidth={5} />
+          <ellipse cx={24} cy={-28} rx={20} ry={24} fill="#020406" stroke={INK} strokeWidth={5} />
+          <circle cx={-24} cy={-28} r={7} fill="#ffffff" />
+          <circle cx={24} cy={-28} r={7} fill="#ffffff" />
+          <circle cx={-24} cy={-28} r={12} fill="#ffffff" opacity={0.3} />
+          <circle cx={24} cy={-28} r={12} fill="#ffffff" opacity={0.3} />
+
+          {/* Dark tear tracks */}
+          <path d="M-24,-4 L-28,45" stroke="#05080b" strokeWidth={6} strokeLinecap="round" />
+          <path d="M24,-4 L28,45" stroke="#05080b" strokeWidth={6} strokeLinecap="round" />
+
+          {/* Mouth */}
+          <path d={`M-38,18 C-18,${22 + jawY} 18,${22 + jawY} 38,18 C28,52 -28,52 -38,18Z`} fill="#100404" stroke={INK} strokeWidth={7} />
+          <path d="M-30,22 l6,16 l6,-16 l6,16 l6,-16 l6,16 l6,-16" stroke="#dde6e8" strokeWidth={3} fill="none" />
+        </g>
+      </svg>
+    );
+  },
+
+  // 7. Reel Noah Face
+  reel_noah_face: ({ f, v = {} }) => {
+    return (
+      <svg viewBox="0 0 1080 1920" style={{ width: '100%', height: '100%' }}>
+        <rect width="1080" height="1920" fill={Q.cabinWood} />
+        <polygon points="0,0 1080,0 1080,1920" fill="#0a0c10" opacity={0.65} />
+        <Face who="noah" x={540} y={740} k={2.5} f={f} expr="fear" />
+      </svg>
+    );
+  },
+
+  // 8. Reel Question / Title Card
+  reel_qcard: ({ f, v = {} }) => {
+    return (
+      <svg viewBox="0 0 1080 1920" style={{ width: '100%', height: '100%' }}>
+        <rect width="1080" height="1920" fill="#080c10" />
+        <rect x="60" y="240" width="960" height="1080" fill="none" stroke={Q.fogTeal} strokeWidth={8} />
+        <rect x="85" y="265" width="910" height="1030" fill="none" stroke={RED} strokeWidth={3} opacity={0.7} />
+        <text x="540" y="740" fill="#ffffff" fontSize={52} fontFamily="serif" fontWeight="bold" textAnchor="middle">
+          {v.title ?? "THE TREELINE MIMIC"}
+        </text>
       </svg>
     );
   },

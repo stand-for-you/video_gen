@@ -1,14 +1,12 @@
-# Character voices for the LONG video only (the Reel is always the narrator alone).
+# Voices configuration for Scroll Kaos.
+# af_nicole at 1.1 speed is the channel's standard voice.
 VOICES = {
     'nar': ('af_nicole', 1.1),
-    'sam': ('am_eric', 1.0),
-    'creature': ('am_onyx', 0.9),
 }
-PITCH = {
-    'creature': 0.75,
-}
+PITCH = {}
 SAY = [
-    ('5:30', 'five thirty'),
-    ('2:30', 'two thirty'),
+    ('2:15', 'two fifteen'),
+    ('2:00', 'two o clock'),
     ('AM', 'A M'),
+    ('syrinx', 'sear inks'),
 ]
