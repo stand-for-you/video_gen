@@ -1,0 +1,10 @@
+[
+  ["bedroom_awake", {}],
+  ["creature_stalk", {"reach": true}],
+  ["hallway_blood", {}],
+  ["sam_terror", {}],
+  ["creature_dragging", {}],
+  ["parents_propped", {}],
+  ["wall_reveal", {}],
+  ["end", {}]
+]

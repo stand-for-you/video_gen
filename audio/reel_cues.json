@@ -1,0 +1,174 @@
+{
+  "total_duration": 177.59333333333333,
+  "sample_rate": 24000,
+  "cues": [
+    {
+      "index": 1,
+      "start_time": 0.0,
+      "end_time": 7.936,
+      "en": "Every spring, I make my middle school history students record an interview with an older relative."
+    },
+    {
+      "index": 2,
+      "start_time": 8.236,
+      "end_time": 14.977333333333334,
+      "en": "I expected nothing different from Olivia, a quiet girl who sat in the back row."
+    },
+    {
+      "index": 3,
+      "start_time": 15.277333333333333,
+      "end_time": 17.709333333333333,
+      "en": "She handed me two unmarked discs."
+    },
+    {
+      "index": 4,
+      "start_time": 18.009333333333334,
+      "end_time": 23.172,
+      "en": "Late that night in my study, I put the first disc into the player."
+    },
+    {
+      "index": 5,
+      "start_time": 23.472,
+      "end_time": 31.088,
+      "en": "On screen, Olivia sat inside a cluttered living room across from her Great Uncle Stephen."
+    },
+    {
+      "index": 6,
+      "start_time": 31.388,
+      "end_time": 37.276,
+      "en": "The old veteran smoked in silence, clutching a stack of yellowed papers."
+    },
+    {
+      "index": 7,
+      "start_time": 37.576,
+      "end_time": 44.40266666666667,
+      "en": "When Olivia asked about his worst memory from the army, Stephen set his cigarette down."
+    },
+    {
+      "index": 8,
+      "start_time": 44.702666666666666,
+      "end_time": 48.86266666666667,
+      "en": "He had been deployed to the Balkans after a brutal conflict."
+    },
+    {
+      "index": 9,
+      "start_time": 49.16266666666667,
+      "end_time": 56.672,
+      "en": "His unit was sent to clear an old elementary school that had been obliterated years before."
+    },
+    {
+      "index": 10,
+      "start_time": 56.972,
+      "end_time": 65.42,
+      "en": "The roof had collapsed, rain poured through cracked concrete, and no child had stepped inside for seasons."
+    },
+    {
+      "index": 11,
+      "start_time": 65.72,
+      "end_time": 73.93333333333334,
+      "en": "In the flooded basement, Stephen discovered a handwritten letter left beside a heavy transistor radio."
+    },
+    {
+      "index": 12,
+      "start_time": 74.23333333333333,
+      "end_time": 78.35066666666667,
+      "en": "It was written by Stanislav, the school's former janitor."
+    },
+    {
+      "index": 13,
+      "start_time": 78.65066666666667,
+      "end_time": 88.272,
+      "en": "Stanislav wrote that after an illness took his wife and child, his radio was the only sound that kept him alive."
+    },
+    {
+      "index": 14,
+      "start_time": 88.572,
+      "end_time": 90.38533333333334,
+      "en": "Grief had shattered his mind."
+    },
+    {
+      "index": 15,
+      "start_time": 90.68533333333333,
+      "end_time": 96.936,
+      "en": "He returned to the destroyed schoolhouse every morning with his mop and broom."
+    },
+    {
+      "index": 16,
+      "start_time": 97.236,
+      "end_time": 106.11066666666666,
+      "en": "He wrote that the teachers smiled at him in the halls, and the children enjoyed the low music from his radio."
+    },
+    {
+      "index": 17,
+      "start_time": 106.41066666666667,
+      "end_time": 115.2,
+      "en": "He swept around broken desks, carefully polishing the rubble and moving aside whatever lay in the shadows."
+    },
+    {
+      "index": 18,
+      "start_time": 115.5,
+      "end_time": 118.444,
+      "en": "Until one morning, the radio went dead."
+    },
+    {
+      "index": 19,
+      "start_time": 118.744,
+      "end_time": 127.85333333333334,
+      "en": "Unable to bear the suffocating silence, Stanislav wedged a chair beneath the basement door and took his own life."
+    },
+    {
+      "index": 20,
+      "start_time": 128.15333333333334,
+      "end_time": 132.868,
+      "en": "His note had one dying plea: Please fix my radio."
+    },
+    {
+      "index": 21,
+      "start_time": 133.168,
+      "end_time": 139.29066666666668,
+      "en": "On the second disc, Olivia asked her uncle the question that still haunts me."
+    },
+    {
+      "index": 22,
+      "start_time": 139.59066666666666,
+      "end_time": 144.94533333333334,
+      "en": "How could the janitor die in an empty school destroyed years earlier?"
+    },
+    {
+      "index": 23,
+      "start_time": 145.24533333333332,
+      "end_time": 148.104,
+      "en": "Stephen answered with a trembling voice."
+    },
+    {
+      "index": 24,
+      "start_time": 148.404,
+      "end_time": 152.41466666666668,
+      "en": "The letter was dated only two weeks before their arrival."
+    },
+    {
+      "index": 25,
+      "start_time": 152.71466666666666,
+      "end_time": 163.21066666666667,
+      "en": "Stanislav had spent two years sweeping a tomb, smiling at figures frozen in the dark, thinking the silence was alive."
+    },
+    {
+      "index": 26,
+      "start_time": 163.51066666666668,
+      "end_time": 169.46266666666668,
+      "en": "And when Stephen finally forced the basement door open, the janitor was gone."
+    },
+    {
+      "index": 27,
+      "start_time": 169.76266666666666,
+      "end_time": 173.79466666666667,
+      "en": "Sitting in the pool of stagnant water was the radio."
+    },
+    {
+      "index": 28,
+      "start_time": 174.09466666666665,
+      "end_time": 177.59333333333333,
+      "en": "And in the dead silence, it was softly humming."
+    }
+  ]
+}

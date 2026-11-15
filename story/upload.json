@@ -1,0 +1,48 @@
+{
+ "title": "I Know You're Awake",
+ "question": "Would you have looked under the bed?",
+ "titles": {
+  "A": {"angle": "the legend name + a short hook", "text": "I Know You're Awake | The Creature Under the Bed"},
+  "B": {"angle": "a time and place fact", "text": "5:30 AM: Frozen Stiff in the Dark"},
+  "C": {"angle": "a short warning", "text": "Don't Look Under the Bed | A Creepypasta Horror Story"}
+ },
+ "hindi_title": "मुझे पता है तुम जाग रहे हो | बिस्तर के नीचे छुपा साया",
+ "thumbs": {
+  "A": "Main: giant eyeless pale creature on the right reaching forward, title \"STILL AWAKE\" on the left, tiny Noah from behind facing it, big red moon",
+  "B": "Much closer creature face crop (eyeless hollow sockets and hunch), short 2-word title \"DON'T LOOK\", smaller blood moon",
+  "C": "Key story object glowing big: the ritual wall scrawl \"I KNOW YOU ARE AWAKE\", creature lurking in background, title \"THE MASTERPIECE\" on top"
+ },
+ "description": [
+  "It is 5:30 in the morning. Across the bedroom, two lifeless figures are propped against the furniture, staring straight ahead with wide, empty eyes.",
+  "At 2:30 AM, a scream tore through the hallway. A detour into the dark bathroom revealed heavy, wet trails smeared across the carpet. Now, a hairless, eyeless creature has arranged its grotesque masterpiece across the bedroom walls, and slithered directly beneath the mattress… waiting for the first sign of movement.",
+  "A Scroll Kaos paper-cutout horror story. Watch until the very end."
+ ],
+ "credit_long": "Inspired by the creepypasta \"I Know You're Awake\" (author unknown), as published in creepypasta archives. This is a non-graphic retelling in our own words, with original artwork. Our creature is an original drawing; it does not copy any existing image.",
+ "hashtags_long": "#horrorstories #iknowyoureawake #scarystories #creepypasta",
+ "tags_story": "i know youre awake, i know you are awake, creepypasta, monster under the bed, bedroom horror, late night horror, animated horror story, paper cutout horror, yamishibai style, scary bedtime stories",
+ "short_title": "Don't Look Under the Bed #shorts",
+ "short_hook": "5:30 AM. My parents are propped against the wall staring at me, and the thing that killed them is right under my bed.",
+ "short_credit": "Inspired by the creepypasta \"I Know You're Awake\" (author unknown). AI narration, original animation.",
+ "short_hashtags": "#shorts #horrorstories #iknowyoureawake #scarystories",
+ "ig_caption": ["It is 5:30 AM. Across the room, my parents are propped against the wall, staring at me with wide, lifeless eyes. 👁️🩸", "The hairless thing that dragged them here is inches beneath my mattress.", "Waiting for me to move."],
+ "ig_credit": "Inspired by the creepypasta \"I Know You're Awake\" (author unknown). AI narration, original paper-cutout animation by Scroll Kaos.",
+ "ig_hashtags": "#horrorstories #scarystories #creepypasta #iknowyoureawake #monsterunderthebed #horrorreels #scaryreels #animation #paperanimation #storytime #latenightstories #scrollkaos",
+ "hindi_caption": ["सुबह के साढ़े पांच बज रहे हैं। कमरे के उस पार, मेरे माता-पिता दीवार के सहारे टिके हैं और मुझे एकटक घूर रहे हैं। 👁️🩸", "जो बिना बालों वाला साया उन्हें घसीटकर लाया था, वह ठीक मेरे बिस्तर के नीचे दुबका है।", "मेरे हिलने का इंतज़ार कर रहा है।", "", "क्रीपीपास्ता \"I Know You're Awake\" से प्रेरित (लेखक अज्ञात)। AI आवाज़, ओरिजिनल पेपर-कटआउट एनिमेशन।", "", "क्या आप बिस्तर के नीचे झांकते?"],
+ "facebook": ["It is 5:30 AM. You are lying under your blanket, listening to the floorboards. Across the room, your parents are propped upright in the dark, unmoving. And right beneath your mattress, something is breathing softly."],
+ "facebook_credit": "Our new paper-cutout horror story, inspired by the creepypasta \"I Know You're Awake\" (author unknown). AI narration, original animation.",
+ "threads": ["5:30 in the morning. My parents are propped against the wall, staring.", "The creature that dragged them in is crouched beneath my bed.", "New Scroll Kaos story: I Know You're Awake."],
+ "pinterest_title": "I Know You're Awake - Paper-Cutout Horror Story",
+ "pinterest_description": "A terrified teen trapped in bed at 5:30 AM, parents propped against the furniture, and an eyeless creature waiting under the mattress. Original paper-cutout horror animation by Scroll Kaos, inspired by the classic creepypasta \"I Know You're Awake\". AI narration.",
+ "community": {
+  "teaser": ["5:30 AM. You are awake under the sheets.", "Across the dark room, two figures are propped against the wall, staring directly at you.", "Tomorrow's story is about why you cannot move."],
+  "long_first_line": "New story is live: \"I Know You're Awake\" 👁️🩸",
+  "long_second_line": "A cold bedroom, two propped figures, and a creature waiting beneath the mattress.",
+  "short_line": "The 2-minute version is up as a Short.",
+  "poll_options": ["The scream at 2:30 AM", "The dark trails in the hallway", "The creature slithering under the bed", "The message on the wall: I know you are awake"]
+ },
+ "flags": {
+  "top": ["- **Story rights (important):** the creepypasta \"I Know You're Awake\" is widely shared across online archives with author unknown. **Before you monetise, check narration rights on the specific publishing archive.** Whether permission is needed is UNVERIFIED.", "- Original creature design: our eyeless, pale, slouched stalker is an original paper-cutout drawing; no copyrighted images, film monsters or photos were copied."],
+  "age_restriction": "- Age-restriction risk: intense psychological suspense and dread; dead parents are propped upright with dark tear tracks, but no gore, exposed organs or mutilation are depicted. YouTube may still flag it for spooky atmosphere (UNVERIFIED).",
+  "bottom": ["- Non-graphic changes: gore was softened in strict adherence to channel policy; dark fluid smeared on walls and stylized ritual inscriptions replace graphic blood splatter.", "- Photosensitive safety: no rapid flashing or strobes anywhere; all light transitions are slow and progressive.", "- Reel shortening: the vertical Reel retells the narrative concisely, keeping the core beats and ending while tightening hallway transitions."]
+ }
+}

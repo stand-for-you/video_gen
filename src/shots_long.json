@@ -1,0 +1,2073 @@
+{
+  "total_frames": 4028,
+  "fps": 10,
+  "shots": [
+    {
+      "b": 0,
+      "s": 0,
+      "e": 22,
+      "set": "bedroom_awake",
+      "v": {},
+      "close": false,
+      "z": 2.0,
+      "fx": 680,
+      "fy": 720,
+      "dir": 1,
+      "off": 0
+    },
+    {
+      "b": 0,
+      "s": 22,
+      "e": 45,
+      "set": "sam_terror",
+      "v": {},
+      "close": false,
+      "z": 2.2,
+      "fx": 960,
+      "fy": 480,
+      "dir": -1,
+      "off": 37
+    },
+    {
+      "b": 0,
+      "s": 45,
+      "e": 67,
+      "set": "creature_stalk",
+      "v": {
+        "crawl": true
+      },
+      "close": false,
+      "z": 1.8,
+      "fx": 960,
+      "fy": 580,
+      "dir": 1,
+      "off": 74
+    },
+    {
+      "b": 0,
+      "s": 67,
+      "e": 90,
+      "set": "bedroom_awake",
+      "v": {},
+      "close": true,
+      "z": 2.0,
+      "fx": 680,
+      "fy": 720,
+      "dir": -1,
+      "off": 111
+    },
+    {
+      "b": 0,
+      "s": 90,
+      "e": 112,
+      "set": "sam_terror",
+      "v": {},
+      "close": true,
+      "z": 2.2,
+      "fx": 960,
+      "fy": 480,
+      "dir": 1,
+      "off": 28
+    },
+    {
+      "b": 0,
+      "s": 112,
+      "e": 134,
+      "set": "creature_stalk",
+      "v": {
+        "crawl": true
+      },
+      "close": true,
+      "z": 1.8,
+      "fx": 960,
+      "fy": 580,
+      "dir": -1,
+      "off": 65
+    },
+    {
+      "b": 1,
+      "s": 134,
+      "e": 155,
+      "set": "parents_propped",
+      "v": {},
+      "close": false,
+      "z": 2.0,
+      "fx": 620,
+      "fy": 480,
+      "dir": 1,
+      "off": 102
+    },
+    {
+      "b": 1,
+      "s": 155,
+      "e": 176,
+      "set": "bedroom_awake",
+      "v": {
+        "father": true
+      },
+      "close": false,
+      "z": 2.2,
+      "fx": 1120,
+      "fy": 680,
+      "dir": -1,
+      "off": 19
+    },
+    {
+      "b": 1,
+      "s": 176,
+      "e": 197,
+      "set": "parents_propped",
+      "v": {},
+      "close": true,
+      "z": 2.0,
+      "fx": 620,
+      "fy": 480,
+      "dir": 1,
+      "off": 56
+    },
+    {
+      "b": 1,
+      "s": 197,
+      "e": 217,
+      "set": "bedroom_awake",
+      "v": {
+        "father": true
+      },
+      "close": true,
+      "z": 2.2,
+      "fx": 1120,
+      "fy": 680,
+      "dir": -1,
+      "off": 93
+    },
+    {
+      "b": 1,
+      "s": 217,
+      "e": 238,
+      "set": "parents_propped",
+      "v": {},
+      "close": true,
+      "z": 2.0,
+      "fx": 620,
+      "fy": 480,
+      "dir": 1,
+      "off": 10
+    },
+    {
+      "b": 1,
+      "s": 238,
+      "e": 259,
+      "set": "bedroom_awake",
+      "v": {
+        "father": true
+      },
+      "close": true,
+      "z": 2.2,
+      "fx": 1120,
+      "fy": 680,
+      "dir": -1,
+      "off": 47
+    },
+    {
+      "b": 1,
+      "s": 259,
+      "e": 280,
+      "set": "parents_propped",
+      "v": {},
+      "close": false,
+      "z": 2.2,
+      "fx": 1300,
+      "fy": 480,
+      "dir": 1,
+      "off": 84
+    },
+    {
+      "b": 2,
+      "s": 280,
+      "e": 300,
+      "set": "creature_stalk",
+      "v": {
+        "crawl": true
+      },
+      "close": false,
+      "z": 2.0,
+      "fx": 960,
+      "fy": 580,
+      "dir": -1,
+      "off": 1
+    },
+    {
+      "b": 2,
+      "s": 300,
+      "e": 320,
+      "set": "sam_terror",
+      "v": {},
+      "close": false,
+      "z": 2.4,
+      "fx": 960,
+      "fy": 480,
+      "dir": 1,
+      "off": 38
+    },
+    {
+      "b": 2,
+      "s": 320,
+      "e": 340,
+      "set": "creature_stalk",
+      "v": {
+        "crawl": true
+      },
+      "close": true,
+      "z": 2.0,
+      "fx": 960,
+      "fy": 580,
+      "dir": -1,
+      "off": 75
+    },
+    {
+      "b": 2,
+      "s": 340,
+      "e": 361,
+      "set": "sam_terror",
+      "v": {},
+      "close": true,
+      "z": 2.4,
+      "fx": 960,
+      "fy": 480,
+      "dir": 1,
+      "off": 112
+    },
+    {
+      "b": 2,
+      "s": 361,
+      "e": 381,
+      "set": "bedroom_awake",
+      "v": {
+        "creatureUnder": true
+      },
+      "close": false,
+      "z": 2.2,
+      "fx": 680,
+      "fy": 820,
+      "dir": -1,
+      "off": 29
+    },
+    {
+      "b": 3,
+      "s": 381,
+      "e": 410,
+      "set": "bedroom_awake",
+      "v": {
+        "time": "02:30",
+        "father": false,
+        "creatureUnder": false
+      },
+      "close": false,
+      "z": 1.8,
+      "fx": 180,
+      "fy": 320,
+      "dir": 1,
+      "off": 66
+    },
+    {
+      "b": 3,
+      "s": 410,
+      "e": 438,
+      "set": "sam_terror",
+      "v": {},
+      "close": false,
+      "z": 2.0,
+      "fx": 960,
+      "fy": 480,
+      "dir": -1,
+      "off": 103
+    },
+    {
+      "b": 3,
+      "s": 438,
+      "e": 467,
+      "set": "bedroom_awake",
+      "v": {
+        "time": "02:30",
+        "father": false,
+        "creatureUnder": false
+      },
+      "close": false,
+      "z": 2.2,
+      "fx": 680,
+      "fy": 720,
+      "dir": 1,
+      "off": 20
+    },
+    {
+      "b": 3,
+      "s": 467,
+      "e": 496,
+      "set": "bedroom_awake",
+      "v": {
+        "time": "02:30",
+        "father": false,
+        "creatureUnder": false
+      },
+      "close": true,
+      "z": 1.8,
+      "fx": 180,
+      "fy": 320,
+      "dir": -1,
+      "off": 57
+    },
+    {
+      "b": 4,
+      "s": 496,
+      "e": 522,
+      "set": "sam_terror",
+      "v": {},
+      "close": false,
+      "z": 2.2,
+      "fx": 960,
+      "fy": 480,
+      "dir": 1,
+      "off": 94
+    },
+    {
+      "b": 4,
+      "s": 522,
+      "e": 548,
+      "set": "bedroom_awake",
+      "v": {
+        "time": "02:31",
+        "father": false,
+        "creatureUnder": false
+      },
+      "close": false,
+      "z": 2.5,
+      "fx": 160,
+      "fy": 680,
+      "dir": -1,
+      "off": 11
+    },
+    {
+      "b": 4,
+      "s": 548,
+      "e": 573,
+      "set": "sam_terror",
+      "v": {},
+      "close": false,
+      "z": 2.4,
+      "fx": 960,
+      "fy": 480,
+      "dir": 1,
+      "off": 48
+    },
+    {
+      "b": 4,
+      "s": 573,
+      "e": 601,
+      "set": "sam_terror",
+      "v": {},
+      "close": true,
+      "z": 2.2,
+      "fx": 960,
+      "fy": 480,
+      "dir": -1,
+      "off": 85
+    },
+    {
+      "b": 4,
+      "s": 601,
+      "e": 628,
+      "set": "bedroom_awake",
+      "v": {
+        "time": "02:31",
+        "father": false,
+        "creatureUnder": false
+      },
+      "close": true,
+      "z": 2.5,
+      "fx": 160,
+      "fy": 680,
+      "dir": 1,
+      "off": 2
+    },
+    {
+      "b": 5,
+      "s": 628,
+      "e": 654,
+      "set": "sam_terror",
+      "v": {},
+      "close": false,
+      "z": 2.0,
+      "fx": 960,
+      "fy": 480,
+      "dir": -1,
+      "off": 39
+    },
+    {
+      "b": 5,
+      "s": 654,
+      "e": 681,
+      "set": "bathroom_dark",
+      "v": {},
+      "close": false,
+      "z": 1.8,
+      "fx": 960,
+      "fy": 420,
+      "dir": 1,
+      "off": 76
+    },
+    {
+      "b": 5,
+      "s": 681,
+      "e": 702,
+      "set": "sam_terror",
+      "v": {},
+      "close": false,
+      "z": 2.3,
+      "fx": 960,
+      "fy": 480,
+      "dir": -1,
+      "off": 113
+    },
+    {
+      "b": 5,
+      "s": 702,
+      "e": 734,
+      "set": "sam_terror",
+      "v": {},
+      "close": true,
+      "z": 2.0,
+      "fx": 960,
+      "fy": 480,
+      "dir": 1,
+      "off": 30
+    },
+    {
+      "b": 5,
+      "s": 734,
+      "e": 761,
+      "set": "bathroom_dark",
+      "v": {},
+      "close": true,
+      "z": 1.8,
+      "fx": 960,
+      "fy": 420,
+      "dir": -1,
+      "off": 67
+    },
+    {
+      "b": 6,
+      "s": 761,
+      "e": 785,
+      "set": "bedroom_awake",
+      "v": {
+        "time": "02:33",
+        "father": false,
+        "creatureUnder": false
+      },
+      "close": false,
+      "z": 2.0,
+      "fx": 680,
+      "fy": 720,
+      "dir": 1,
+      "off": 104
+    },
+    {
+      "b": 6,
+      "s": 785,
+      "e": 810,
+      "set": "hallway_blood",
+      "v": {
+        "feet": true
+      },
+      "close": false,
+      "z": 2.2,
+      "fx": 960,
+      "fy": 960,
+      "dir": -1,
+      "off": 21
+    },
+    {
+      "b": 6,
+      "s": 810,
+      "e": 833,
+      "set": "bathroom_dark",
+      "v": {},
+      "close": false,
+      "z": 2.0,
+      "fx": 760,
+      "fy": 400,
+      "dir": 1,
+      "off": 58
+    },
+    {
+      "b": 6,
+      "s": 833,
+      "e": 860,
+      "set": "bedroom_awake",
+      "v": {
+        "time": "02:33",
+        "father": false,
+        "creatureUnder": false
+      },
+      "close": true,
+      "z": 2.0,
+      "fx": 680,
+      "fy": 720,
+      "dir": -1,
+      "off": 95
+    },
+    {
+      "b": 6,
+      "s": 860,
+      "e": 884,
+      "set": "hallway_blood",
+      "v": {
+        "feet": true
+      },
+      "close": true,
+      "z": 2.2,
+      "fx": 960,
+      "fy": 960,
+      "dir": 1,
+      "off": 12
+    },
+    {
+      "b": 7,
+      "s": 884,
+      "e": 911,
+      "set": "bathroom_dark",
+      "v": {},
+      "close": false,
+      "z": 2.0,
+      "fx": 960,
+      "fy": 420,
+      "dir": -1,
+      "off": 49
+    },
+    {
+      "b": 7,
+      "s": 911,
+      "e": 938,
+      "set": "bathroom_dark",
+      "v": {},
+      "close": false,
+      "z": 2.2,
+      "fx": 760,
+      "fy": 680,
+      "dir": 1,
+      "off": 86
+    },
+    {
+      "b": 7,
+      "s": 938,
+      "e": 964,
+      "set": "bathroom_dark",
+      "v": {},
+      "close": false,
+      "z": 2.4,
+      "fx": 960,
+      "fy": 420,
+      "dir": -1,
+      "off": 3
+    },
+    {
+      "b": 7,
+      "s": 964,
+      "e": 991,
+      "set": "bathroom_dark",
+      "v": {},
+      "close": true,
+      "z": 2.0,
+      "fx": 960,
+      "fy": 420,
+      "dir": 1,
+      "off": 40
+    },
+    {
+      "b": 8,
+      "s": 991,
+      "e": 1017,
+      "set": "hallway_blood",
+      "v": {
+        "feet": true
+      },
+      "close": false,
+      "z": 2.2,
+      "fx": 960,
+      "fy": 960,
+      "dir": -1,
+      "off": 77
+    },
+    {
+      "b": 8,
+      "s": 1017,
+      "e": 1043,
+      "set": "hallway_blood",
+      "v": {},
+      "close": false,
+      "z": 2.0,
+      "fx": 760,
+      "fy": 500,
+      "dir": 1,
+      "off": 114
+    },
+    {
+      "b": 8,
+      "s": 1043,
+      "e": 1069,
+      "set": "hallway_blood",
+      "v": {},
+      "close": false,
+      "z": 2.4,
+      "fx": 860,
+      "fy": 750,
+      "dir": -1,
+      "off": 31
+    },
+    {
+      "b": 8,
+      "s": 1069,
+      "e": 1094,
+      "set": "hallway_blood",
+      "v": {
+        "feet": true
+      },
+      "close": true,
+      "z": 2.2,
+      "fx": 960,
+      "fy": 960,
+      "dir": 1,
+      "off": 68
+    },
+    {
+      "b": 8,
+      "s": 1094,
+      "e": 1120,
+      "set": "hallway_blood",
+      "v": {},
+      "close": true,
+      "z": 2.0,
+      "fx": 760,
+      "fy": 500,
+      "dir": -1,
+      "off": 105
+    },
+    {
+      "b": 9,
+      "s": 1120,
+      "e": 1148,
+      "set": "sam_terror",
+      "v": {},
+      "close": false,
+      "z": 2.2,
+      "fx": 960,
+      "fy": 480,
+      "dir": 1,
+      "off": 22
+    },
+    {
+      "b": 9,
+      "s": 1148,
+      "e": 1173,
+      "set": "bedroom_awake",
+      "v": {
+        "time": "02:35",
+        "father": false,
+        "creatureUnder": false
+      },
+      "close": false,
+      "z": 2.2,
+      "fx": 680,
+      "fy": 720,
+      "dir": -1,
+      "off": 59
+    },
+    {
+      "b": 9,
+      "s": 1173,
+      "e": 1200,
+      "set": "sam_terror",
+      "v": {},
+      "close": false,
+      "z": 2.5,
+      "fx": 960,
+      "fy": 480,
+      "dir": 1,
+      "off": 96
+    },
+    {
+      "b": 9,
+      "s": 1200,
+      "e": 1227,
+      "set": "sam_terror",
+      "v": {},
+      "close": true,
+      "z": 2.2,
+      "fx": 960,
+      "fy": 480,
+      "dir": -1,
+      "off": 13
+    },
+    {
+      "b": 9,
+      "s": 1227,
+      "e": 1254,
+      "set": "bedroom_awake",
+      "v": {
+        "time": "02:35",
+        "father": false,
+        "creatureUnder": false
+      },
+      "close": true,
+      "z": 2.2,
+      "fx": 680,
+      "fy": 720,
+      "dir": 1,
+      "off": 50
+    },
+    {
+      "b": 9,
+      "s": 1254,
+      "e": 1281,
+      "set": "sam_terror",
+      "v": {},
+      "close": true,
+      "z": 2.5,
+      "fx": 960,
+      "fy": 480,
+      "dir": -1,
+      "off": 87
+    },
+    {
+      "b": 10,
+      "s": 1281,
+      "e": 1311,
+      "set": "sam_terror",
+      "v": {},
+      "close": false,
+      "z": 2.4,
+      "fx": 960,
+      "fy": 480,
+      "dir": 1,
+      "off": 4
+    },
+    {
+      "b": 10,
+      "s": 1311,
+      "e": 1343,
+      "set": "bedroom_awake",
+      "v": {
+        "time": "02:37",
+        "father": false,
+        "creatureUnder": false
+      },
+      "close": false,
+      "z": 2.0,
+      "fx": 680,
+      "fy": 720,
+      "dir": -1,
+      "off": 41
+    },
+    {
+      "b": 10,
+      "s": 1343,
+      "e": 1371,
+      "set": "sam_terror",
+      "v": {},
+      "close": false,
+      "z": 2.5,
+      "fx": 960,
+      "fy": 480,
+      "dir": 1,
+      "off": 78
+    },
+    {
+      "b": 10,
+      "s": 1371,
+      "e": 1401,
+      "set": "sam_terror",
+      "v": {},
+      "close": true,
+      "z": 2.4,
+      "fx": 960,
+      "fy": 480,
+      "dir": -1,
+      "off": 115
+    },
+    {
+      "b": 11,
+      "s": 1401,
+      "e": 1431,
+      "set": "bedroom_awake",
+      "v": {
+        "time": "02:40",
+        "father": false,
+        "creatureUnder": false
+      },
+      "close": false,
+      "z": 1.8,
+      "fx": 1420,
+      "fy": 320,
+      "dir": 1,
+      "off": 32
+    },
+    {
+      "b": 11,
+      "s": 1431,
+      "e": 1459,
+      "set": "creature_dragging",
+      "v": {},
+      "close": false,
+      "z": 2.0,
+      "fx": 960,
+      "fy": 450,
+      "dir": -1,
+      "off": 69
+    },
+    {
+      "b": 11,
+      "s": 1459,
+      "e": 1489,
+      "set": "sam_terror",
+      "v": {},
+      "close": false,
+      "z": 2.2,
+      "fx": 960,
+      "fy": 480,
+      "dir": 1,
+      "off": 106
+    },
+    {
+      "b": 11,
+      "s": 1489,
+      "e": 1519,
+      "set": "bedroom_awake",
+      "v": {
+        "time": "02:40",
+        "father": false,
+        "creatureUnder": false
+      },
+      "close": true,
+      "z": 1.8,
+      "fx": 1420,
+      "fy": 320,
+      "dir": -1,
+      "off": 23
+    },
+    {
+      "b": 12,
+      "s": 1519,
+      "e": 1545,
+      "set": "sam_terror",
+      "v": {},
+      "close": false,
+      "z": 2.4,
+      "fx": 960,
+      "fy": 480,
+      "dir": 1,
+      "off": 60
+    },
+    {
+      "b": 12,
+      "s": 1545,
+      "e": 1572,
+      "set": "creature_stalk",
+      "v": {
+        "reach": false
+      },
+      "close": false,
+      "z": 2.2,
+      "fx": 960,
+      "fy": 450,
+      "dir": -1,
+      "off": 97
+    },
+    {
+      "b": 12,
+      "s": 1572,
+      "e": 1598,
+      "set": "creature_dragging",
+      "v": {},
+      "close": false,
+      "z": 2.2,
+      "fx": 960,
+      "fy": 400,
+      "dir": 1,
+      "off": 14
+    },
+    {
+      "b": 12,
+      "s": 1598,
+      "e": 1621,
+      "set": "sam_terror",
+      "v": {},
+      "close": true,
+      "z": 2.4,
+      "fx": 960,
+      "fy": 480,
+      "dir": -1,
+      "off": 51
+    },
+    {
+      "b": 12,
+      "s": 1621,
+      "e": 1651,
+      "set": "creature_stalk",
+      "v": {
+        "reach": false
+      },
+      "close": true,
+      "z": 2.2,
+      "fx": 960,
+      "fy": 450,
+      "dir": 1,
+      "off": 88
+    },
+    {
+      "b": 12,
+      "s": 1651,
+      "e": 1677,
+      "set": "creature_dragging",
+      "v": {},
+      "close": true,
+      "z": 2.2,
+      "fx": 960,
+      "fy": 400,
+      "dir": -1,
+      "off": 5
+    },
+    {
+      "b": 12,
+      "s": 1677,
+      "e": 1703,
+      "set": "sam_terror",
+      "v": {},
+      "close": true,
+      "z": 2.4,
+      "fx": 960,
+      "fy": 480,
+      "dir": 1,
+      "off": 42
+    },
+    {
+      "b": 13,
+      "s": 1703,
+      "e": 1731,
+      "set": "creature_stalk",
+      "v": {
+        "reach": true
+      },
+      "close": false,
+      "z": 2.5,
+      "fx": 960,
+      "fy": 350,
+      "dir": -1,
+      "off": 79
+    },
+    {
+      "b": 13,
+      "s": 1731,
+      "e": 1760,
+      "set": "creature_stalk",
+      "v": {
+        "reach": false
+      },
+      "close": false,
+      "z": 2.0,
+      "fx": 960,
+      "fy": 500,
+      "dir": 1,
+      "off": 116
+    },
+    {
+      "b": 13,
+      "s": 1760,
+      "e": 1788,
+      "set": "sam_terror",
+      "v": {},
+      "close": false,
+      "z": 2.5,
+      "fx": 960,
+      "fy": 480,
+      "dir": -1,
+      "off": 33
+    },
+    {
+      "b": 13,
+      "s": 1788,
+      "e": 1816,
+      "set": "creature_stalk",
+      "v": {
+        "reach": true
+      },
+      "close": true,
+      "z": 2.5,
+      "fx": 960,
+      "fy": 350,
+      "dir": 1,
+      "off": 70
+    },
+    {
+      "b": 13,
+      "s": 1816,
+      "e": 1844,
+      "set": "creature_stalk",
+      "v": {
+        "reach": false
+      },
+      "close": true,
+      "z": 2.0,
+      "fx": 960,
+      "fy": 500,
+      "dir": -1,
+      "off": 107
+    },
+    {
+      "b": 14,
+      "s": 1844,
+      "e": 1871,
+      "set": "creature_dragging",
+      "v": {},
+      "close": false,
+      "z": 2.2,
+      "fx": 680,
+      "fy": 500,
+      "dir": 1,
+      "off": 24
+    },
+    {
+      "b": 14,
+      "s": 1871,
+      "e": 1899,
+      "set": "parents_propped",
+      "v": {},
+      "close": false,
+      "z": 2.0,
+      "fx": 620,
+      "fy": 480,
+      "dir": -1,
+      "off": 61
+    },
+    {
+      "b": 14,
+      "s": 1899,
+      "e": 1926,
+      "set": "creature_dragging",
+      "v": {},
+      "close": false,
+      "z": 2.2,
+      "fx": 960,
+      "fy": 450,
+      "dir": 1,
+      "off": 98
+    },
+    {
+      "b": 14,
+      "s": 1926,
+      "e": 1954,
+      "set": "creature_dragging",
+      "v": {},
+      "close": true,
+      "z": 2.2,
+      "fx": 680,
+      "fy": 500,
+      "dir": -1,
+      "off": 15
+    },
+    {
+      "b": 15,
+      "s": 1954,
+      "e": 1979,
+      "set": "sam_terror",
+      "v": {},
+      "close": false,
+      "z": 2.4,
+      "fx": 960,
+      "fy": 480,
+      "dir": 1,
+      "off": 52
+    },
+    {
+      "b": 15,
+      "s": 1979,
+      "e": 2008,
+      "set": "creature_stalk",
+      "v": {
+        "reach": true
+      },
+      "close": false,
+      "z": 2.0,
+      "fx": 960,
+      "fy": 500,
+      "dir": -1,
+      "off": 89
+    },
+    {
+      "b": 15,
+      "s": 2008,
+      "e": 2037,
+      "set": "parents_propped",
+      "v": {},
+      "close": false,
+      "z": 2.0,
+      "fx": 620,
+      "fy": 480,
+      "dir": 1,
+      "off": 6
+    },
+    {
+      "b": 15,
+      "s": 2037,
+      "e": 2056,
+      "set": "sam_terror",
+      "v": {},
+      "close": true,
+      "z": 2.4,
+      "fx": 960,
+      "fy": 480,
+      "dir": -1,
+      "off": 43
+    },
+    {
+      "b": 15,
+      "s": 2056,
+      "e": 2081,
+      "set": "creature_stalk",
+      "v": {
+        "reach": true
+      },
+      "close": true,
+      "z": 2.0,
+      "fx": 960,
+      "fy": 500,
+      "dir": 1,
+      "off": 80
+    },
+    {
+      "b": 16,
+      "s": 2081,
+      "e": 2108,
+      "set": "parents_propped",
+      "v": {},
+      "close": false,
+      "z": 2.2,
+      "fx": 620,
+      "fy": 480,
+      "dir": -1,
+      "off": 117
+    },
+    {
+      "b": 16,
+      "s": 2108,
+      "e": 2135,
+      "set": "bedroom_awake",
+      "v": {
+        "father": true,
+        "creatureUnder": false
+      },
+      "close": false,
+      "z": 2.2,
+      "fx": 680,
+      "fy": 720,
+      "dir": 1,
+      "off": 34
+    },
+    {
+      "b": 16,
+      "s": 2135,
+      "e": 2162,
+      "set": "parents_propped",
+      "v": {},
+      "close": false,
+      "z": 2.5,
+      "fx": 620,
+      "fy": 480,
+      "dir": -1,
+      "off": 71
+    },
+    {
+      "b": 16,
+      "s": 2162,
+      "e": 2189,
+      "set": "parents_propped",
+      "v": {},
+      "close": true,
+      "z": 2.2,
+      "fx": 620,
+      "fy": 480,
+      "dir": 1,
+      "off": 108
+    },
+    {
+      "b": 16,
+      "s": 2189,
+      "e": 2216,
+      "set": "bedroom_awake",
+      "v": {
+        "father": true,
+        "creatureUnder": false
+      },
+      "close": true,
+      "z": 2.2,
+      "fx": 680,
+      "fy": 720,
+      "dir": -1,
+      "off": 25
+    },
+    {
+      "b": 17,
+      "s": 2216,
+      "e": 2242,
+      "set": "parents_propped",
+      "v": {},
+      "close": false,
+      "z": 2.2,
+      "fx": 1300,
+      "fy": 480,
+      "dir": 1,
+      "off": 62
+    },
+    {
+      "b": 17,
+      "s": 2242,
+      "e": 2268,
+      "set": "bedroom_awake",
+      "v": {
+        "father": true,
+        "creatureUnder": false
+      },
+      "close": false,
+      "z": 2.2,
+      "fx": 1120,
+      "fy": 680,
+      "dir": -1,
+      "off": 99
+    },
+    {
+      "b": 17,
+      "s": 2268,
+      "e": 2294,
+      "set": "parents_propped",
+      "v": {},
+      "close": false,
+      "z": 2.5,
+      "fx": 1300,
+      "fy": 480,
+      "dir": 1,
+      "off": 16
+    },
+    {
+      "b": 17,
+      "s": 2294,
+      "e": 2325,
+      "set": "parents_propped",
+      "v": {},
+      "close": true,
+      "z": 2.2,
+      "fx": 1300,
+      "fy": 480,
+      "dir": -1,
+      "off": 53
+    },
+    {
+      "b": 17,
+      "s": 2325,
+      "e": 2345,
+      "set": "bedroom_awake",
+      "v": {
+        "father": true,
+        "creatureUnder": false
+      },
+      "close": true,
+      "z": 2.2,
+      "fx": 1120,
+      "fy": 680,
+      "dir": 1,
+      "off": 90
+    },
+    {
+      "b": 17,
+      "s": 2345,
+      "e": 2371,
+      "set": "parents_propped",
+      "v": {},
+      "close": true,
+      "z": 2.5,
+      "fx": 1300,
+      "fy": 480,
+      "dir": -1,
+      "off": 7
+    },
+    {
+      "b": 18,
+      "s": 2371,
+      "e": 2398,
+      "set": "wall_reveal",
+      "v": {},
+      "close": false,
+      "z": 1.8,
+      "fx": 960,
+      "fy": 420,
+      "dir": 1,
+      "off": 44
+    },
+    {
+      "b": 18,
+      "s": 2398,
+      "e": 2424,
+      "set": "creature_stalk",
+      "v": {
+        "reach": true
+      },
+      "close": false,
+      "z": 2.2,
+      "fx": 960,
+      "fy": 480,
+      "dir": -1,
+      "off": 81
+    },
+    {
+      "b": 18,
+      "s": 2424,
+      "e": 2443,
+      "set": "wall_reveal",
+      "v": {},
+      "close": false,
+      "z": 2.2,
+      "fx": 960,
+      "fy": 420,
+      "dir": 1,
+      "off": 118
+    },
+    {
+      "b": 18,
+      "s": 2443,
+      "e": 2476,
+      "set": "wall_reveal",
+      "v": {},
+      "close": true,
+      "z": 1.8,
+      "fx": 960,
+      "fy": 420,
+      "dir": -1,
+      "off": 35
+    },
+    {
+      "b": 18,
+      "s": 2476,
+      "e": 2502,
+      "set": "creature_stalk",
+      "v": {
+        "reach": true
+      },
+      "close": true,
+      "z": 2.2,
+      "fx": 960,
+      "fy": 480,
+      "dir": 1,
+      "off": 72
+    },
+    {
+      "b": 18,
+      "s": 2502,
+      "e": 2529,
+      "set": "wall_reveal",
+      "v": {},
+      "close": true,
+      "z": 2.2,
+      "fx": 960,
+      "fy": 420,
+      "dir": -1,
+      "off": 109
+    },
+    {
+      "b": 18,
+      "s": 2529,
+      "e": 2555,
+      "set": "wall_reveal",
+      "v": {},
+      "close": true,
+      "z": 1.8,
+      "fx": 960,
+      "fy": 420,
+      "dir": 1,
+      "off": 26
+    },
+    {
+      "b": 19,
+      "s": 2555,
+      "e": 2580,
+      "set": "wall_reveal",
+      "v": {},
+      "close": false,
+      "z": 2.0,
+      "fx": 960,
+      "fy": 480,
+      "dir": -1,
+      "off": 63
+    },
+    {
+      "b": 19,
+      "s": 2580,
+      "e": 2606,
+      "set": "creature_stalk",
+      "v": {
+        "reach": true
+      },
+      "close": false,
+      "z": 2.2,
+      "fx": 960,
+      "fy": 520,
+      "dir": 1,
+      "off": 100
+    },
+    {
+      "b": 19,
+      "s": 2606,
+      "e": 2631,
+      "set": "sam_terror",
+      "v": {},
+      "close": false,
+      "z": 2.3,
+      "fx": 960,
+      "fy": 480,
+      "dir": -1,
+      "off": 17
+    },
+    {
+      "b": 19,
+      "s": 2631,
+      "e": 2657,
+      "set": "wall_reveal",
+      "v": {},
+      "close": true,
+      "z": 2.0,
+      "fx": 960,
+      "fy": 480,
+      "dir": 1,
+      "off": 54
+    },
+    {
+      "b": 19,
+      "s": 2657,
+      "e": 2682,
+      "set": "creature_stalk",
+      "v": {
+        "reach": true
+      },
+      "close": true,
+      "z": 2.2,
+      "fx": 960,
+      "fy": 520,
+      "dir": -1,
+      "off": 91
+    },
+    {
+      "b": 19,
+      "s": 2682,
+      "e": 2708,
+      "set": "sam_terror",
+      "v": {},
+      "close": true,
+      "z": 2.3,
+      "fx": 960,
+      "fy": 480,
+      "dir": 1,
+      "off": 8
+    },
+    {
+      "b": 20,
+      "s": 2708,
+      "e": 2737,
+      "set": "creature_stalk",
+      "v": {
+        "reach": false
+      },
+      "close": false,
+      "z": 2.2,
+      "fx": 960,
+      "fy": 450,
+      "dir": -1,
+      "off": 45
+    },
+    {
+      "b": 20,
+      "s": 2737,
+      "e": 2760,
+      "set": "sam_terror",
+      "v": {},
+      "close": false,
+      "z": 2.4,
+      "fx": 960,
+      "fy": 480,
+      "dir": 1,
+      "off": 82
+    },
+    {
+      "b": 20,
+      "s": 2760,
+      "e": 2794,
+      "set": "bedroom_awake",
+      "v": {
+        "creatureUnder": false
+      },
+      "close": false,
+      "z": 2.0,
+      "fx": 680,
+      "fy": 720,
+      "dir": -1,
+      "off": 119
+    },
+    {
+      "b": 20,
+      "s": 2794,
+      "e": 2823,
+      "set": "creature_stalk",
+      "v": {
+        "reach": false
+      },
+      "close": true,
+      "z": 2.2,
+      "fx": 960,
+      "fy": 450,
+      "dir": 1,
+      "off": 36
+    },
+    {
+      "b": 21,
+      "s": 2823,
+      "e": 2851,
+      "set": "creature_stalk",
+      "v": {
+        "crawl": true
+      },
+      "close": false,
+      "z": 2.0,
+      "fx": 960,
+      "fy": 580,
+      "dir": -1,
+      "off": 73
+    },
+    {
+      "b": 21,
+      "s": 2851,
+      "e": 2880,
+      "set": "bedroom_awake",
+      "v": {
+        "creatureUnder": true
+      },
+      "close": false,
+      "z": 2.2,
+      "fx": 680,
+      "fy": 800,
+      "dir": 1,
+      "off": 110
+    },
+    {
+      "b": 21,
+      "s": 2880,
+      "e": 2909,
+      "set": "sam_terror",
+      "v": {},
+      "close": false,
+      "z": 2.5,
+      "fx": 960,
+      "fy": 480,
+      "dir": -1,
+      "off": 27
+    },
+    {
+      "b": 21,
+      "s": 2909,
+      "e": 2944,
+      "set": "creature_stalk",
+      "v": {
+        "crawl": true
+      },
+      "close": true,
+      "z": 2.0,
+      "fx": 960,
+      "fy": 580,
+      "dir": 1,
+      "off": 64
+    },
+    {
+      "b": 21,
+      "s": 2944,
+      "e": 2966,
+      "set": "bedroom_awake",
+      "v": {
+        "creatureUnder": true
+      },
+      "close": true,
+      "z": 2.2,
+      "fx": 680,
+      "fy": 800,
+      "dir": -1,
+      "off": 101
+    },
+    {
+      "b": 21,
+      "s": 2966,
+      "e": 2995,
+      "set": "sam_terror",
+      "v": {},
+      "close": true,
+      "z": 2.5,
+      "fx": 960,
+      "fy": 480,
+      "dir": 1,
+      "off": 18
+    },
+    {
+      "b": 22,
+      "s": 2995,
+      "e": 3024,
+      "set": "bedroom_awake",
+      "v": {
+        "time": "05:30",
+        "creatureUnder": true
+      },
+      "close": false,
+      "z": 2.2,
+      "fx": 160,
+      "fy": 680,
+      "dir": -1,
+      "off": 55
+    },
+    {
+      "b": 22,
+      "s": 3024,
+      "e": 3053,
+      "set": "sam_terror",
+      "v": {},
+      "close": false,
+      "z": 2.2,
+      "fx": 960,
+      "fy": 480,
+      "dir": 1,
+      "off": 92
+    },
+    {
+      "b": 22,
+      "s": 3053,
+      "e": 3082,
+      "set": "bedroom_awake",
+      "v": {
+        "time": "05:30",
+        "creatureUnder": true
+      },
+      "close": false,
+      "z": 2.0,
+      "fx": 680,
+      "fy": 720,
+      "dir": -1,
+      "off": 9
+    },
+    {
+      "b": 22,
+      "s": 3082,
+      "e": 3110,
+      "set": "bedroom_awake",
+      "v": {
+        "time": "05:30",
+        "creatureUnder": true
+      },
+      "close": true,
+      "z": 2.2,
+      "fx": 160,
+      "fy": 680,
+      "dir": 1,
+      "off": 46
+    },
+    {
+      "b": 22,
+      "s": 3110,
+      "e": 3139,
+      "set": "sam_terror",
+      "v": {},
+      "close": true,
+      "z": 2.2,
+      "fx": 960,
+      "fy": 480,
+      "dir": -1,
+      "off": 83
+    },
+    {
+      "b": 22,
+      "s": 3139,
+      "e": 3168,
+      "set": "bedroom_awake",
+      "v": {
+        "time": "05:30",
+        "creatureUnder": true
+      },
+      "close": true,
+      "z": 2.0,
+      "fx": 680,
+      "fy": 720,
+      "dir": 1,
+      "off": 0
+    },
+    {
+      "b": 22,
+      "s": 3168,
+      "e": 3197,
+      "set": "bedroom_awake",
+      "v": {
+        "time": "05:30",
+        "creatureUnder": true
+      },
+      "close": true,
+      "z": 2.2,
+      "fx": 160,
+      "fy": 680,
+      "dir": -1,
+      "off": 37
+    },
+    {
+      "b": 23,
+      "s": 3197,
+      "e": 3226,
+      "set": "sam_terror",
+      "v": {},
+      "close": false,
+      "z": 2.4,
+      "fx": 960,
+      "fy": 480,
+      "dir": 1,
+      "off": 74
+    },
+    {
+      "b": 23,
+      "s": 3226,
+      "e": 3255,
+      "set": "bedroom_awake",
+      "v": {
+        "time": "05:30",
+        "creatureUnder": true
+      },
+      "close": false,
+      "z": 2.0,
+      "fx": 1420,
+      "fy": 320,
+      "dir": -1,
+      "off": 111
+    },
+    {
+      "b": 23,
+      "s": 3255,
+      "e": 3285,
+      "set": "creature_stalk",
+      "v": {
+        "crawl": true
+      },
+      "close": false,
+      "z": 2.2,
+      "fx": 960,
+      "fy": 580,
+      "dir": 1,
+      "off": 28
+    },
+    {
+      "b": 23,
+      "s": 3285,
+      "e": 3314,
+      "set": "sam_terror",
+      "v": {},
+      "close": true,
+      "z": 2.4,
+      "fx": 960,
+      "fy": 480,
+      "dir": -1,
+      "off": 65
+    },
+    {
+      "b": 24,
+      "s": 3314,
+      "e": 3343,
+      "set": "bedroom_awake",
+      "v": {
+        "time": "05:30",
+        "creatureUnder": true
+      },
+      "close": false,
+      "z": 2.0,
+      "fx": 180,
+      "fy": 240,
+      "dir": 1,
+      "off": 102
+    },
+    {
+      "b": 24,
+      "s": 3343,
+      "e": 3373,
+      "set": "sam_terror",
+      "v": {},
+      "close": false,
+      "z": 2.0,
+      "fx": 960,
+      "fy": 480,
+      "dir": -1,
+      "off": 19
+    },
+    {
+      "b": 24,
+      "s": 3373,
+      "e": 3402,
+      "set": "bedroom_awake",
+      "v": {
+        "time": "05:30",
+        "creatureUnder": true
+      },
+      "close": false,
+      "z": 2.2,
+      "fx": 680,
+      "fy": 720,
+      "dir": 1,
+      "off": 56
+    },
+    {
+      "b": 24,
+      "s": 3402,
+      "e": 3432,
+      "set": "bedroom_awake",
+      "v": {
+        "time": "05:30",
+        "creatureUnder": true
+      },
+      "close": true,
+      "z": 2.0,
+      "fx": 180,
+      "fy": 240,
+      "dir": -1,
+      "off": 93
+    },
+    {
+      "b": 24,
+      "s": 3432,
+      "e": 3462,
+      "set": "sam_terror",
+      "v": {},
+      "close": true,
+      "z": 2.0,
+      "fx": 960,
+      "fy": 480,
+      "dir": 1,
+      "off": 10
+    },
+    {
+      "b": 25,
+      "s": 3462,
+      "e": 3487,
+      "set": "sam_terror",
+      "v": {},
+      "close": false,
+      "z": 2.2,
+      "fx": 960,
+      "fy": 480,
+      "dir": -1,
+      "off": 47
+    },
+    {
+      "b": 25,
+      "s": 3487,
+      "e": 3513,
+      "set": "wall_reveal",
+      "v": {},
+      "close": false,
+      "z": 2.0,
+      "fx": 960,
+      "fy": 450,
+      "dir": 1,
+      "off": 84
+    },
+    {
+      "b": 25,
+      "s": 3513,
+      "e": 3538,
+      "set": "sam_terror",
+      "v": {},
+      "close": false,
+      "z": 2.4,
+      "fx": 960,
+      "fy": 480,
+      "dir": -1,
+      "off": 1
+    },
+    {
+      "b": 25,
+      "s": 3538,
+      "e": 3564,
+      "set": "sam_terror",
+      "v": {},
+      "close": true,
+      "z": 2.2,
+      "fx": 960,
+      "fy": 480,
+      "dir": 1,
+      "off": 38
+    },
+    {
+      "b": 26,
+      "s": 3564,
+      "e": 3592,
+      "set": "wall_reveal",
+      "v": {},
+      "close": false,
+      "z": 2.2,
+      "fx": 960,
+      "fy": 480,
+      "dir": -1,
+      "off": 75
+    },
+    {
+      "b": 26,
+      "s": 3592,
+      "e": 3620,
+      "set": "sam_terror",
+      "v": {},
+      "close": false,
+      "z": 2.5,
+      "fx": 960,
+      "fy": 480,
+      "dir": 1,
+      "off": 112
+    },
+    {
+      "b": 26,
+      "s": 3620,
+      "e": 3648,
+      "set": "wall_reveal",
+      "v": {},
+      "close": false,
+      "z": 2.5,
+      "fx": 960,
+      "fy": 480,
+      "dir": -1,
+      "off": 29
+    },
+    {
+      "b": 27,
+      "s": 3648,
+      "e": 3672,
+      "set": "sam_terror",
+      "v": {},
+      "close": false,
+      "z": 2.4,
+      "fx": 960,
+      "fy": 480,
+      "dir": 1,
+      "off": 66
+    },
+    {
+      "b": 27,
+      "s": 3672,
+      "e": 3709,
+      "set": "wall_reveal",
+      "v": {},
+      "close": false,
+      "z": 2.2,
+      "fx": 960,
+      "fy": 660,
+      "dir": -1,
+      "off": 103
+    },
+    {
+      "b": 28,
+      "s": 3709,
+      "e": 3722,
+      "set": "wall_reveal",
+      "v": {},
+      "close": false,
+      "z": 2.6,
+      "fx": 960,
+      "fy": 660,
+      "dir": 1,
+      "off": 20
+    },
+    {
+      "b": 28,
+      "s": 3722,
+      "e": 3735,
+      "set": "wall_reveal",
+      "v": {},
+      "close": false,
+      "z": 2.8,
+      "fx": 960,
+      "fy": 660,
+      "dir": -1,
+      "off": 57
+    },
+    {
+      "b": 29,
+      "s": 3735,
+      "e": 3828,
+      "set": "qcard",
+      "v": {},
+      "close": false,
+      "z": 1.6,
+      "fx": 960,
+      "fy": 540,
+      "dir": 1,
+      "off": 94
+    },
+    {
+      "b": 30,
+      "s": 3828,
+      "e": 4028,
+      "set": "end",
+      "v": {},
+      "close": false,
+      "z": 1.6,
+      "fx": 960,
+      "fy": 540,
+      "dir": -1,
+      "off": 11
+    }
+  ],
+  "chapters": [
+    {
+      "s": 0,
+      "n": 0,
+      "title": "Intro",
+      "t": 0.0
+    },
+    {
+      "s": 383,
+      "n": 1,
+      "title": "The Scream",
+      "t": 38.1
+    },
+    {
+      "s": 886,
+      "n": 2,
+      "title": "The Hallway",
+      "t": 88.44
+    },
+    {
+      "s": 1403,
+      "n": 3,
+      "title": "The Intruder",
+      "t": 140.12
+    },
+    {
+      "s": 1956,
+      "n": 4,
+      "title": "The Masterpiece",
+      "t": 195.38
+    },
+    {
+      "s": 2710,
+      "n": 5,
+      "title": "Under the Bed",
+      "t": 270.78
+    },
+    {
+      "s": 3316,
+      "n": 6,
+      "title": "The Message",
+      "t": 331.37
+    }
+  ]
+}
