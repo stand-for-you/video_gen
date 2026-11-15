@@ -4,9 +4,9 @@ on:
   workflow_dispatch:
     inputs:
       file_prefix:
-        description: 'Story Name / File Prefix (e.g. The_Treeline_Mimic)'
-        required: true
-        default: 'The_Treeline_Mimic'
+        description: 'Story Name / File Prefix (e.g. The_Melancholy_of_Herbert_Solomon)'
+        required: false
+        default: ''
       target:
         description: 'Target to compile'
         required: true
@@ -20,10 +20,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - 'src/**'
-      - 'story/**'
-      - '.github/workflows/render.yml'
 
 concurrency:
   group: render-${{ github.ref }}
@@ -72,7 +68,12 @@ jobs:
 
       - name: Render & Encode YouTube Video
         run: |
-          PREFIX="${{ github.event.inputs.file_prefix || 'The_Treeline_Mimic' }}"
+          if [ -n "${{ github.event.inputs.file_prefix }}" ]; then
+            PREFIX="${{ github.event.inputs.file_prefix }}"
+          else
+            PREFIX=$(python3 -c "import json; print(json.load(open('story/upload.json'))['title'].replace(' ', '_'))")
+          fi
+          echo "Using PREFIX=$PREFIX"
           bash tools/render.sh "$PREFIX" long
 
       - name: Upload YouTube Deliverables Artifact
@@ -127,7 +128,12 @@ jobs:
 
       - name: Render & Encode Reel Video
         run: |
-          PREFIX="${{ github.event.inputs.file_prefix || 'The_Treeline_Mimic' }}"
+          if [ -n "${{ github.event.inputs.file_prefix }}" ]; then
+            PREFIX="${{ github.event.inputs.file_prefix }}"
+          else
+            PREFIX=$(python3 -c "import json; print(json.load(open('story/upload.json'))['title'].replace(' ', '_'))")
+          fi
+          echo "Using PREFIX=$PREFIX"
           bash tools/render.sh "$PREFIX" reel
 
       - name: Upload Reel Video Artifact
@@ -177,12 +183,22 @@ jobs:
 
       - name: Render 4 Thumbnails
         run: |
-          PREFIX="${{ github.event.inputs.file_prefix || 'The_Treeline_Mimic' }}"
+          if [ -n "${{ github.event.inputs.file_prefix }}" ]; then
+            PREFIX="${{ github.event.inputs.file_prefix }}"
+          else
+            PREFIX=$(python3 -c "import json; print(json.load(open('story/upload.json'))['title'].replace(' ', '_'))")
+          fi
+          echo "Using PREFIX=$PREFIX"
           bash tools/thumbs.sh "$PREFIX"
 
       - name: Build Upload Details Markdown
         run: |
-          PREFIX="${{ github.event.inputs.file_prefix || 'The_Treeline_Mimic' }}"
+          if [ -n "${{ github.event.inputs.file_prefix }}" ]; then
+            PREFIX="${{ github.event.inputs.file_prefix }}"
+          else
+            PREFIX=$(python3 -c "import json; print(json.load(open('story/upload.json'))['title'].replace(' ', '_'))")
+          fi
+          echo "Using PREFIX=$PREFIX"
           python3 tools/make_upload_md.py "$PREFIX"
 
       - name: Upload Thumbnails & Metadata Artifact

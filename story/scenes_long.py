@@ -1,171 +1,168 @@
-# Scene table for the LONG video: exactly 25 beats matching script_long.BEATS.
+# Scene table for the LONG video: exactly 29 beats matching script_long.BEATS.
 # Format: S(st, **v), where fc=[x, y, zoom] sets the closeup focus.
-# Beat 0 scene 0 MUST be the creepiest scene: first_frame.
-# Beat 23 is credit card: [S('qcard', title='THE TREELINE MIMIC', sub='Vocal mimicry folklore')]
-# Beat 24 is end screen: [S('end')]
 
 def S(st, **v):
     return (st, v)
 
 SC = [
-    # ---- TEASER (beats 0..2)
-    # Beat 0: If you hear your family calling...
+    # ---- 0: TEASER / INTRO (beats 0..2)
+    # Beat 0: In the deepest shadows of St Andrews University library...
     [
-        S('first_frame', fc=[1260, 520, 2.2]),
-        S('noah_closeup', expr='fear', fc=[960, 540, 2.2]),
-        S('mimic_full', reach=True, fc=[960, 680, 2.0]),
+        S('standrews_library', fc=[960, 480, 2.0]),
+        S('solomon_portrait', fc=[960, 540, 2.2]),
+        S('ettrick_hamlet', fc=[840, 640, 2.0]),
     ],
-    # Beat 1: Stands nine feet tall at edge of clearing...
+    # Beat 1: On the inside of the back cover, an artist in 1578...
     [
-        S('mimic_face', fc=[960, 460, 2.0]),
-        S('woods_wide', mimic=True, fc=[960, 600, 2.2]),
-        S('mimic_full', reach=False, fc=[960, 480, 2.4], last=True),
+        S('standrews_library', fc=[960, 860, 2.2]),
+        S('solomon_portrait', fc=[960, 540, 2.0]),
     ],
-    # Beat 2: Exact trick to unlock the door...
+    # Beat 2: Veins bulge across his pale, hairless skull...
     [
-        S('porch_door', shadow=True, fc=[560, 680, 2.0]),
-        S('noah_closeup', expr='fear', fc=[960, 540, 2.4]),
-        S('first_frame', fc=[360, 660, 2.2], last=True),
+        S('solomon_portrait', fc=[960, 460, 2.4]),
+        S('standrews_library', fc=[960, 540, 2.0]),
     ],
 
-    # ---- 1: The Voice (beats 3..5)
-    # Beat 3: 2:15 AM call outside cabin...
+    # ---- 1: THE DISAPPEARANCES (beats 3..5)
+    # Beat 3: The book chronicles the isolated town of Ettrick...
     [
-        S('first_frame', fc=[360, 660, 2.0]),
-        S('noah_closeup', expr='neutral', fc=[960, 540, 2.2]),
-        S('porch_door', shadow=False, fc=[560, 680, 2.0]),
+        S('ettrick_hamlet', fc=[840, 640, 2.0]),
+        S('stone_well', fc=[960, 700, 2.0]),
     ],
-    # Beat 4: Sister Mira pleading for car keys...
+    # Beat 4: The first to disappear was young Alana Sutherland...
     [
-        S('woods_wide', mimic=False, fc=[960, 600, 2.0]),
-        S('first_frame', fc=[1260, 520, 2.4]),
-        S('porch_door', shadow=False, fc=[340, 240, 2.2]),
+        S('stone_well', fc=[960, 780, 2.4]),
+        S('ettrick_hamlet', fc=[1320, 480, 2.2]),
     ],
-    # Beat 5: Hand on brass deadbolt / Mira in city...
+    # Beat 5: Days later, another child vanished...
     [
-        S('porch_door', shadow=False, fc=[270, 520, 2.5]),
-        S('noah_closeup', expr='fear', fc=[960, 540, 2.4]),
-        S('woods_wide', mimic=True, fc=[960, 600, 2.0]),
+        S('ettrick_hamlet', fc=[340, 640, 2.2]),
+        S('stone_well', fc=[960, 800, 2.0]),
     ],
 
-    # ---- 2: Two Throats (beats 6..8)
-    # Beat 6: Looked out porch window / trick of mind...
+    # ---- 2: THE RECLUSE IN THE WOODS (beats 6..8)
+    # Beat 6: When two more children vanished in mid-February...
     [
-        S('porch_door', shadow=False, fc=[560, 680, 2.2]),
-        S('first_frame', fc=[1260, 520, 2.5]),
-        S('noah_closeup', expr='fear', fc=[960, 540, 2.3]),
+        S('ettrick_hamlet', fc=[840, 640, 2.0]),
+        S('woods_cabin', fc=[880, 680, 2.2]),
     ],
-    # Beat 7: Human vocal cord vs dual voice boxes...
+    # Beat 7: Solomon was an outsider who lived in a small wooden cabin...
     [
-        S('dual_syrinx', fc=[960, 540, 1.8]),
-        S('dual_syrinx', fc=[875, 630, 2.4]),
-        S('dual_syrinx', fc=[1045, 630, 2.4]),
+        S('woods_cabin', fc=[1360, 690, 2.2]),
+        S('solomon_portrait', fc=[960, 540, 2.0]),
     ],
-    # Beat 8: Lyrebird chainsaw & cry of infant...
+    # Beat 8: He would watch the village children play from the tree line...
     [
-        S('dual_syrinx', fc=[960, 540, 2.0]),
-        S('mimic_face', fc=[960, 460, 2.2]),
-        S('woods_wide', mimic=True, fc=[960, 600, 2.4]),
+        S('woods_cabin', fc=[1260, 700, 2.4]),
+        S('stone_well', fc=[960, 780, 2.2]),
     ],
 
-    # ---- 3: The Replay (beats 9..11)
-    # Beat 9: Copying is not speaking / no soul...
+    # ---- 3: THE MOB AND THE FLAMES (beats 9..11)
+    # Beat 9: On a freezing February night, grief and hatred...
     [
-        S('mimic_face', fc=[960, 460, 2.5]),
-        S('noah_closeup', expr='fear', fc=[960, 540, 2.2]),
-        S('mimic_full', reach=False, fc=[960, 680, 2.2]),
+        S('burning_cabin', fc=[960, 680, 2.0]),
+        S('woods_cabin', fc=[880, 680, 2.2]),
     ],
-    # Beat 10: Phonograph / parrot repeats twice...
+    # Beat 10: They surrounded his humble cabin and barred the heavy timbers...
     [
-        S('first_frame', fc=[1260, 520, 2.2]),
-        S('dual_syrinx', fc=[960, 540, 2.2]),
-        S('mimic_face', fc=[960, 460, 2.4]),
+        S('burning_cabin', fc=[960, 680, 2.4]),
+        S('woods_cabin', fc=[880, 680, 2.0]),
     ],
-    # Beat 11: Voice replayed outside fence...
+    # Beat 11: Solomon's desperate screams echoed through the Scots pines...
     [
-        S('woods_wide', mimic=True, fc=[960, 600, 2.2]),
-        S('porch_door', shadow=True, fc=[560, 680, 2.2]),
-        S('first_frame', fc=[1260, 520, 2.5]),
+        S('burning_cabin', fc=[960, 540, 2.2]),
+        S('ettrick_hamlet', fc=[840, 640, 2.0]),
     ],
 
-    # ---- 4: The Treeline (beats 12..14)
-    # Beat 12: Bleached bone skin / stays back...
+    # ---- 4: THE GHOST IN THE MIST (beats 12..14)
+    # Beat 12: Yet within days, a suffocating fog descended...
     [
-        S('mimic_full', reach=True, fc=[960, 680, 2.0]),
-        S('mimic_face', fc=[960, 460, 2.4]),
-        S('woods_wide', mimic=True, fc=[960, 600, 2.2]),
+        S('foggy_street_stalk', fc=[960, 720, 2.0]),
+        S('ettrick_hamlet', fc=[840, 640, 2.2]),
     ],
-    # Beat 13: Cold air bends sound waves...
+    # Beat 13: An elderly woman woke to rustling beneath her bed...
     [
-        S('first_frame', fc=[360, 660, 1.8]),
-        S('woods_wide', mimic=True, fc=[960, 600, 2.0]),
-        S('noah_closeup', expr='fear', fc=[960, 540, 2.2]),
+        S('foggy_street_stalk', fc=[680, 720, 2.2]),
+        S('solomon_portrait', fc=[960, 540, 2.0]),
     ],
-    # Beat 14: Tapetum lucidum mirror eye reflection...
+    # Beat 14: Then, the impossible occurred: an orphan girl was snatched...
     [
-        S('mirror_eye', fc=[960, 520, 1.8]),
-        S('mirror_eye', fc=[910, 520, 2.4]),
-        S('first_frame', fc=[1260, 520, 2.6]),
+        S('church_interior', fc=[860, 780, 2.2]),
+        S('foggy_street_stalk', fc=[960, 720, 2.0]),
     ],
 
-    # ---- 5: The Lure (beats 15..17)
-    # Beat 15: Thin predator cannot win a fight...
+    # ---- 5: THE AMBUSH ON THE COBBLESTONES (beats 15..17)
+    # Beat 15: Believing Solomon's vengeful wraith had returned...
     [
-        S('mimic_full', reach=True, fc=[960, 680, 2.2]),
-        S('mimic_face', fc=[960, 460, 2.4]),
-        S('woods_wide', mimic=True, fc=[960, 600, 2.0]),
+        S('street_ambush', fc=[480, 760, 2.2]),
+        S('church_interior', fc=[960, 280, 2.0]),
     ],
-    # Beat 16: Anglerfish deep sea lure / voice of loved one...
+    # Beat 16: They waited in the midnight mist until the solitary figure appeared...
     [
-        S('noah_closeup', expr='fear', fc=[960, 540, 2.4]),
-        S('first_frame', fc=[1260, 520, 2.5]),
-        S('mimic_full', reach=True, fc=[960, 680, 2.2]),
+        S('street_ambush', fc=[1380, 720, 2.2]),
+        S('foggy_street_stalk', fc=[960, 720, 2.0]),
     ],
-    # Beat 17: Waiting in pitch black for pity...
+    # Beat 17: The vicar splashed holy water across the stone...
     [
-        S('woods_wide', mimic=True, fc=[960, 600, 2.4]),
-        S('porch_door', shadow=True, fc=[560, 680, 2.2]),
-        S('mimic_face', fc=[960, 460, 2.5]),
+        S('street_ambush', fc=[1380, 720, 2.5]),
+        S('foggy_street_stalk', fc=[680, 720, 2.0]),
     ],
 
-    # ---- 6: The Weakness & Test (beats 18..22)
-    # Beat 18: One fatal flaw: cannot answer unscripted question...
+    # ---- 6: THE TRUTH IN THE CELLAR (beats 18..21)
+    # Beat 18: Pursued by the shouting mob, Solomon sprinted...
     [
-        S('noah_closeup', expr='fear', fc=[960, 540, 2.4]),
-        S('porch_door', shadow=False, fc=[270, 520, 2.5]),
-        S('first_frame', fc=[360, 660, 2.0]),
+        S('foggy_street_stalk', fc=[960, 720, 2.0]),
+        S('secret_cellar', fc=[960, 540, 2.2]),
     ],
-    # Beat 19: Noah calls out test question...
+    # Beat 19: With her last ounce of strength, the child pointed...
     [
-        S('porch_door', shadow=False, fc=[560, 680, 2.3]),
-        S('noah_closeup', expr='fear', fc=[960, 540, 2.5]),
-        S('porch_door', shadow=False, fc=[340, 240, 2.4]),
+        S('secret_cellar', fc=[420, 780, 2.4]),
+        S('stone_well', fc=[960, 780, 2.0]),
     ],
-    # Beat 20: 30-second heavy silence...
+    # Beat 20: Chained against the damp stone walls were the missing children...
     [
-        S('woods_wide', mimic=True, fc=[960, 600, 2.0]),
-        S('first_frame', fc=[1260, 520, 2.4]),
-        S('noah_closeup', expr='fear', fc=[960, 540, 2.2]),
+        S('secret_cellar', fc=[420, 780, 2.2]),
+        S('secret_cellar', fc=[1340, 840, 2.4]),
     ],
-    # Beat 21: Identical replay of the same line...
+    # Beat 21: Sutherland had killed his daughter in a drunken rage...
     [
-        S('first_frame', fc=[1260, 520, 2.6]),
-        S('mimic_face', fc=[960, 460, 2.5]),
-        S('porch_door', shadow=True, fc=[560, 680, 2.4]),
-    ],
-    # Beat 22: Deadbolt thrown, 9-foot shadow on porch...
-    [
-        S('porch_door', shadow=True, fc=[270, 520, 2.6]),
-        S('noah_closeup', expr='fear', fc=[960, 540, 2.6]),
-        S('mimic_full', reach=True, fc=[960, 680, 2.4], last=True),
+        S('secret_cellar', fc=[1340, 840, 2.4]),
+        S('solomon_portrait', fc=[960, 540, 2.2]),
     ],
 
-    # ---- Closing / Credit (beats 23..24)
-    # Beat 23: Credit card
+    # ---- 7: THE RIVER GUARDIAN (beats 22..26)
+    # Beat 22: The town rejoiced, realizing with heavy shame...
     [
-        S('qcard', title='THE TREELINE MIMIC', sub='Inspired by modern folklore'),
+        S('ettrick_hamlet', fc=[840, 640, 2.0]),
+        S('solomon_portrait', fc=[960, 540, 2.2]),
     ],
-    # Beat 24: End Screen (20s)
+    # Beat 23: Centuries later, while researching the Ettrick tome...
+    [
+        S('standrews_library', fc=[960, 480, 2.0]),
+        S('raging_river', fc=[960, 760, 2.0]),
+    ],
+    # Beat 24: Swept by torrential currents toward jagged rocks...
+    [
+        S('raging_river', fc=[680, 680, 2.4]),
+        S('solomon_portrait', fc=[960, 540, 2.0]),
+    ],
+    # Beat 25: Suddenly, the forest branches cracked...
+    [
+        S('raging_river', fc=[960, 760, 2.2]),
+        S('solomon_portrait', fc=[960, 540, 2.2]),
+    ],
+    # Beat 26: The pale, withered man placed the child on the grass...
+    [
+        S('raging_river', fc=[1120, 640, 2.4]),
+        S('solomon_portrait', fc=[960, 540, 2.2]),
+    ],
+
+    # ---- 8: CLOSING (beats 27..28)
+    # Beat 27: Credit Card
+    [
+        S('qcard', title='THE MELANCHOLY OF HERBERT SOLOMON'),
+    ],
+    # Beat 28: End Screen
     [
         S('end'),
     ],

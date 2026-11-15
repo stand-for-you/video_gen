@@ -5,8 +5,10 @@ VOICES = {
 }
 PITCH = {}
 SAY = [
-    ('2:15', 'two fifteen'),
-    ('2:00', 'two o clock'),
-    ('AM', 'A M'),
-    ('syrinx', 'sear inks'),
+    ('16th', 'sixteenth'),
+    ('1578', 'fifteen seventy eight'),
+    ('1577', 'fifteen seventy seven'),
+    ('St Andrews', 'Saint Andrews'),
+    ('McKenzie', 'Mackenzy'),
+    ('Ettrick', 'Eh trick'),
 ]

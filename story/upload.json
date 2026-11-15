@@ -1,48 +1,49 @@
 {
- "title": "The Treeline Mimic",
- "question": "Would you have opened the door?",
+ "title": "The Melancholy of Herbert Solomon",
+ "question": "Would you have judged him by his face?",
  "titles": {
-  "A": {"angle": "the legend name + a short hook", "text": "The Treeline Mimic | Don't Answer Her Voice"},
-  "B": {"angle": "a time and place fact", "text": "2:15 AM: Whispers from the Dark Pines"},
-  "C": {"angle": "a short warning", "text": "Never Open the Door | The Skinwalker's Echo"}
+  "A": {"angle": "the legend name + a short hook", "text": "The Melancholy of Herbert Solomon | The Monster Who Saved Them"},
+  "B": {"angle": "a time and place fact", "text": "1578: The Secret in the Cellar of Ettrick"},
+  "C": {"angle": "a short warning", "text": "Never Burn the Outsider | The Gentle Wraith"}
  },
- "hindi_title": "चीड़ के जंगलों की आवाज़ | कभी दरवाज़ा मत खोलना",
+ "hindi_title": "हरबर्ट सोलोमन की दास्तान | वो दरिंदा जो मसीहा निकला",
  "thumbs": {
-  "A": "Main: giant 9-foot skeletal mimic with reaching arms on the right, title \"DON'T ANSWER\" on the left, tiny Noah from behind facing it past the fence",
-  "B": "Much closer creature skull crop (gaping jaw, hollow black sockets, glowing tapetum dots), short 2-word title \"DON'T OPEN\", smaller blood moon",
-  "C": "Key story object glowing: the cabin porch fence and glowing white eyes in dark trees, title \"HER VOICE\" centered on top"
+  "A": "Main: giant gaunt Herbert Solomon with bulging veins and reaching skeletal arms on the right, title \"DON'T JUDGE\" on the left, tiny Noah from behind facing him",
+  "B": "Much closer creature skull crop (pallid skin, prominent temple veins, hollow dark eye sockets), short 2-word title \"DON'T BURN\", blood moon backdrop",
+  "C": "Key story object glowing: the carved wooden doll left on a mossy stone well with the tall shadow behind, title \"HIS SOUL\" centered on top"
  },
  "description": [
-  "At 2:15 in the morning, a voice calls your name from the black pine woods outside your cabin.",
-  "It sounds identical to your sister, begging you to unlock the front door. But she is hours away in the city. A skinwalker only needs to hear your voice once to steal it forever. Using dual acoustic voice boxes like a lyrebird, it reproduces human timbre with mechanical perfection. It cannot understand words; it only replays recorded sound waves. And it has one fatal weakness.",
+  "In the dark archives of St Andrews University library, an ancient 16th-century leather tome records the terrifying winter of 1577 in Ettrick town.",
+  "When children began vanishing from the cobblestone streets, terrified villagers blamed Herbert Solomon—a solitary, emaciated recluse living deep within the pine woods with a wasting sickness. Blinded by panic and grief, a mob marched into the forest and burned his cabin to the ground.",
+  "Yet the disappearances did not stop. In the foggy alleys and cellars, his tall, gaunt shadow walked the streets. But when they finally cornered him, the truth buried in the cellar revealed who the real monster was.",
   "A Scroll Kaos paper-cutout horror animation. Watch until the very end."
  ],
- "credit_long": "Inspired by American folklore and the vocal acoustics of the forest mimic. This is a non-graphic retelling in our own words, with original artwork. Our creature design and anatomical diagrams are original drawings; no copyrighted character was copied.",
- "hashtags_long": "#horrorstories #skinwalker #mimic #creepypasta #scarystories",
- "tags_story": "skinwalker, treeline mimic, voice mimic, forest horror, pine woods horror, animated horror story, paper cutout horror, yamishibai style, scary bedtime stories, folklore horror",
- "short_title": "Don't Open the Door #shorts",
- "short_hook": "2:15 AM. My sister's voice is calling from the dark woods, but she is 100 miles away.",
- "short_credit": "Inspired by folklore of the vocal mimic. AI narration, original animation.",
- "short_hashtags": "#shorts #horrorstories #skinwalker #scarystories",
- "ig_caption": ["At 2:15 AM, my sister's voice floated through the cabin window, begging me to unlock the door. 🌲👁️", "She was 100 miles away.", "The 9-foot thing waiting at the fence only knows how to replay sound waves.", "And it cannot answer a question."],
- "ig_credit": "Inspired by vocal mimic folklore. AI narration, original paper-cutout animation by Scroll Kaos.",
- "ig_hashtags": "#horrorstories #scarystories #skinwalker #mimic #creepypasta #horrorreels #scaryreels #animation #paperanimation #storytime #latenightstories #scrollkaos",
- "hindi_caption": ["सुबह के सवा दो बजे, चीड़ के जंगलों से मेरी बहन की आवाज़ आई, जो दरवाज़ा खोलने के लिए गिड़गिड़ा रही थी। 🌲👁️", "लेकिन वह शहर में सैकड़ों मील दूर थी।", "बाड़ के पास खड़ा नौ फीट का साया केवल रिकॉर्ड की गई आवाज़ दोहराना जानता है।", "", "जंगली मिमिक लोककथा से प्रेरित। AI आवाज़, ओरिजिनल पेपर-कटआउट एनिमेशन।", "", "क्या आप दरवाज़ा खोलते?"],
- "facebook": ["At 2:15 AM, a voice calls your name from the edge of the woods. It sounds exactly like your sister. But her car isn't outside, and she lives hours away. A vocal mimic only needs to hear you once."],
- "facebook_credit": "Our new paper-cutout horror story, inspired by vocal mimic folklore. AI narration, original animation.",
- "threads": ["2:15 AM in an isolated cabin. My sister is calling from the dark pine trees.", "Except she's in the city.", "New Scroll Kaos story: The Treeline Mimic."],
- "pinterest_title": "The Treeline Mimic - Paper-Cutout Horror Animation",
- "pinterest_description": "A man trapped in his isolated cabin late at night as an entity mimics his sister's voice from beyond the fence. Original paper-cutout horror animation by Scroll Kaos. AI narration.",
+ "credit_long": "Inspired by Scottish folklore and the legend of Herbert Solomon. This is a non-graphic retelling in our own words, with original artwork. Our character designs and historical settings are original drawings; no copyrighted material was copied.",
+ "hashtags_long": "#horrorstories #scarystories #creepypasta #folklore #gothichorror #scottishlore",
+ "tags_story": "herbert solomon, melancholy of herbert solomon, gothic horror, 16th century scotland, ettrick forest, misunderstood monster, paper cutout animation, yamishibai horror, scary bedtime stories, animated ghost story",
+ "short_title": "The Monster Who Saved Them #shorts",
+ "short_hook": "They burned him alive for stealing children. Then they found who was really in the cellar.",
+ "short_credit": "Inspired by Scottish folklore of Herbert Solomon. AI narration, original animation.",
+ "short_hashtags": "#shorts #horrorstories #creepypasta #scarystories",
+ "ig_caption": ["They burned the gaunt woodcarver alive, convinced he was taking their children. 🕯️🔥", "Then the disappearances continued in the fog.", "When they followed his ghost into the cellar, they discovered the heartbreaking truth.", "Even in death, Herbert Solomon was the gentlest soul."],
+ "ig_credit": "Inspired by Scottish folklore. AI narration, original paper-cutout animation by Scroll Kaos.",
+ "ig_hashtags": "#horrorstories #scarystories #creepypasta #folklorehorror #horrorreels #scaryreels #paperanimation #animation #storytime #latenightstories #scrollkaos",
+ "hindi_caption": ["उन्होंने उस बीमार इंसान को जिंदा जला दिया, यह सोचकर कि वह बच्चों का कातिल है। 🕯️🔥", "लेकिन उसके बाद भी कोहरे में बच्चे गायब होते रहे।", "जब वे उसकी रूह का पीछा करते हुए तहखाने में पहुंचे, तो सच देखकर सबकी आँखें फटी रह गईं।", "", "स्कॉटिश लोककथा से प्रेरित। AI आवाज़, ओरिजिनल पेपर-कटआउट एनिमेशन।", "", "क्या आप भी किसी को सिर्फ उसके चेहरे से परखते?"],
+ "facebook": ["In 1577, an angry mob burned a sick, emaciated woodcarver alive in the Scottish woods, convinced he was a child thief. But when his ghost led them down into a dark cellar, they realized the horrific truth."],
+ "facebook_credit": "Our new paper-cutout horror story, inspired by Scottish folklore. AI narration, original animation.",
+ "threads": ["In 1578, a town burned a reclusive woodcarver alive. Then they found what was chained in the cellar.", "New Scroll Kaos story: The Melancholy of Herbert Solomon."],
+ "pinterest_title": "The Melancholy of Herbert Solomon - Paper-Cutout Horror Animation",
+ "pinterest_description": "The tragic Scottish legend of Herbert Solomon, an emaciated recluse falsely accused by a terrified village, and the secret hidden beneath the cellar floorboards. Original paper-cutout animation by Scroll Kaos.",
  "community": {
-  "teaser": ["2:15 AM. A familiar voice is begging from the edge of the dark pines.", "It sounds like someone you love.", "Tomorrow's story is about why you must never unlock the door."],
-  "long_first_line": "New story is live: \"The Treeline Mimic\" 🌲👁️",
-  "long_second_line": "A cold forest night, a voice from the fence, and the one question that saves your life.",
+  "teaser": ["They thought his gaunt face and sunken eyes belonged to a monster.", "So they burned his cabin in the dark woods.", "Tomorrow's story reveals the heartbreaking secret waiting in the cellar."],
+  "long_first_line": "New story is live: \"The Melancholy of Herbert Solomon\" 🕯️📜",
+  "long_second_line": "A cold winter in 16th-century Scotland, an angry mob, and the protector they misunderstood.",
   "short_line": "The vertical short version is up as a Short.",
-  "poll_options": ["The voice calling at 2:15 AM", "The dual voice box anatomy", "The glowing mirror eyes in the trees", "The test question: What did grandpa carve?"]
+  "poll_options": ["The mysterious tome in St Andrews", "The mob burning the cabin", "The ambush in the foggy cobblestones", "The rescue at the raging river"]
  },
  "flags": {
-  "top": ["- **Story rights (important):** inspired by traditional vocal mimic and skinwalker folklore. **Original retelling and unique creature design.** Whether permission is needed for folklore concepts is UNVERIFIED.", "- Original creature design: our 9-foot skeletal mimic with dual syrinx and tapetum eyes is an original paper-cutout drawing; no movie character or game asset was copied."],
-  "age_restriction": "- Age-restriction risk: intense psychological suspense and dread; creature has hollow sockets and glowing tapetum reflections, but no gore, exposed organs or physical violence are depicted. YouTube may still flag it for spooky atmosphere (UNVERIFIED).",
-  "bottom": ["- Non-graphic changes: non-violent resolution; psychological tension and deadbolt locking replace graphic physical encounter.", "- Photosensitive safety: no rapid flashing or strobes anywhere; all light transitions are slow and progressive.", "- Reel shortening: the vertical Reel retells the narrative concisely, keeping the core beats and ending while tightening hallway transitions."]
+  "top": ["- **Story rights (important):** inspired by Scottish folklore and the legend of Herbert Solomon. **Original retelling and unique character design.** Whether permission is needed for folklore concepts is UNVERIFIED.", "- Original character designs: our depiction of Herbert Solomon with bulging temple veins and tall silhouette, Vicar McKenzie, and Tom Sutherland are original paper-cutout drawings; no copyrighted character was copied."],
+  "age_restriction": "- Age-restriction risk: gothic horror atmosphere, grief, kidnapping themes and ghostly apparitions; all violence is implied and non-graphic (no weapons touching skin, no gore, dark tear tracks on ghost faces). YouTube may still flag it for somber themes (UNVERIFIED).",
+  "bottom": ["- Non-graphic changes: the confrontation and Sutherland's defeat are depicted symbolically through shadow and dramatic staging rather than explicit physical violence.", "- Photosensitive safety: torch flickers and lightning transitions are smooth and slow with no rapid strobes.", "- Reel shortening: the vertical Reel retells the narrative concisely, focusing on the core tragic arc from the burning to the cellar reveal and river rescue."]
  }
 }

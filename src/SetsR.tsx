@@ -1,191 +1,285 @@
 import React from 'react';
 import { INK, RED } from './Kit';
-import { FullPerson } from './Cast';
 import { sf } from './Beast';
-import { Q, NOAH, MIRA, Alive, Face, PineTree, WoodFence, MimicCreature, DualSyrinxCutaway, MirrorEyeCutaway } from './MimicKit';
+import {
+  Q,
+  NOAH_SCHOLAR,
+  ALANA_CHILD,
+  Alive,
+  FaceSolomon,
+  FullSolomon,
+  AncientTome,
+  CarvedDoll,
+  StoneCottage,
+  BurningCabin,
+  RagingRiver,
+} from './SolomonKit';
+import { FacePerson } from './Cast';
 
-// Standard 1080x1920 Vertical Sets for "The Treeline Mimic" (Reel)
-// All scenes re-composed natively on a 1080x1920 canvas.
-// Captions safe area: keep focal content above y 1420.
-
+// Vertical 1080x1920 Sets for "The Melancholy of Herbert Solomon" (Reel)
+// All scenes re-composed natively for vertical. Safe captions area: focus above y 1400.
 export const SETS: Record<string, React.FC<{ f: number; v?: any }>> = {
-  // 1. Reel First Frame: Tall Night Pines, Cabin, Fence, Glowing Eyes
-  reel_first: ({ f, v = {} }) => {
+  // 1. Reel Tome: St Andrews Library & 1578 Inscription
+  reel_tome: ({ f, v = {} }) => {
     return (
       <svg viewBox="0 0 1080 1920" style={{ width: '100%', height: '100%' }}>
-        {/* Sky */}
         <rect width="1080" height="1920" fill={Q.skyDk} />
-        <rect x="0" y="600" width="1080" height="1320" fill={Q.skyMist} opacity={0.6} />
-
-        {/* Crescent Moon High in Sky */}
-        <g transform="translate(860, 240)">
-          <circle cx="0" cy="0" r="54" fill={Q.moonWhite} />
-          <circle cx="18" cy="-14" r="50" fill={Q.skyDk} />
+        {/* Gothic Arch Window in upper third */}
+        <g transform="translate(540, 480)">
+          <path d="M-220,380 V-180 C-220,-480 0,-580 0,-580 C0,-580 220,-480 220,-180 V380Z" fill="#182430" stroke={INK} strokeWidth={9} />
+          <polygon points="-160,-120 160,-120 360,780 -360,780" fill="#cde0ed" opacity={0.14} />
         </g>
+        {/* Oak desk in lower half */}
+        <polygon points="40,940 1040,940 1080,1920 0,1920" fill="#24170f" stroke={INK} strokeWidth={9} />
+        <line x1="0" y1="940" x2="1080" y2="940" stroke={INK} strokeWidth={8} />
 
-        {/* Tall Pine Silhouettes towering above */}
-        <PineTree x={160} y={1100} h={760} w={320} c="#081013" />
-        <PineTree x={920} y={1140} h={820} w={340} c="#081013" />
-        <PineTree x={380} y={1060} h={680} w={280} c="#0e1b1e" />
+        {/* The Open 16th-Century Tome (Key Focal Element at y 1120) */}
+        <AncientTome x={540} y={1120} w={640} h={380} open={true} />
 
-        {/* Ground */}
-        <rect x="0" y="1120" width="1080" height="800" fill="#0d1416" />
-        <line x1="0" y1="1120" x2="1080" y2="1120" stroke={INK} strokeWidth={9} />
-
-        {/* Split Rail Fence */}
-        <WoodFence x={0} y={1380} w={1080} h={260} />
-
-        {/* Cabin on the left */}
-        <g transform="translate(260, 1120)">
-          <rect x="-180" y="-340" width="360" height="340" fill={Q.cabinWood} stroke={INK} strokeWidth={8} />
-          <polygon points="-220,-340 0,-440 220,-340" fill="#20150e" stroke={INK} strokeWidth={8} />
-          {/* Glowing amber window */}
-          <rect x="-130" y="-240" width="130" height="160" fill={Q.windowAmber} stroke={INK} strokeWidth={6} />
-          <polygon points="-130,-240 0,-240 360,260 -240,260" fill={Q.windowAmber} opacity={0.14} />
-        </g>
-
-        {/* Glowing eyes in dark forest (focal center around y 780-840) */}
-        <g transform="translate(680, 820)">
-          <circle cx="-16" cy="0" r="6" fill="#ffffff" />
-          <circle cx="16" cy="0" r="6" fill="#ffffff" />
-          <circle cx="-16" cy="0" r="12" fill="#ffffff" opacity={0.3} />
-          <circle cx="16" cy="0" r="12" fill="#ffffff" opacity={0.3} />
-          <path d="M0,25 L0,260" stroke="#040708" strokeWidth={24} opacity={0.85} />
+        {/* Scholar Noah looking down from upper right */}
+        <g transform="translate(860, 880) scale(0.62)">
+          <FacePerson s={NOAH_SCHOLAR} expr="fear" f={f} />
         </g>
       </svg>
     );
   },
 
-  // 2. Reel Cabin Door & Deadbolt
-  reel_porch: ({ f, v = {} }) => {
+  // 2. Reel Hamlet: Cold Cobblestones of Ettrick
+  reel_hamlet: ({ f, v = {} }) => {
     return (
       <svg viewBox="0 0 1080 1920" style={{ width: '100%', height: '100%' }}>
         <rect width="1080" height="1920" fill={Q.skyDk} />
-        {/* Cabin Wall planks */}
-        {Array.from({ length: 24 }).map((_, i) => (
-          <rect key={i} x={0} y={i * 80} width="1080" height="78" fill={i % 2 === 0 ? Q.cabinWood : '#2b1f17'} stroke={INK} strokeWidth={3} />
+        <rect y="400" width="1080" height="1520" fill={Q.skyMoor} opacity={0.65} />
+
+        {/* Distant Steeple in Upper Third */}
+        <g transform="translate(540, 520)">
+          <rect x="-80" y="-180" width="160" height="180" fill="#202c34" stroke={INK} strokeWidth={7} />
+          <polygon points="0,-380 -70,-180 70,-180" fill="#161e24" stroke={INK} strokeWidth={7} />
+          <line x1="0" y1="-410" x2="0" y2="-380" stroke={INK} strokeWidth={5} />
+        </g>
+
+        {/* Stone Cottages framing the narrow street */}
+        <StoneCottage x={220} y={1180} w={420} h={400} />
+        <StoneCottage x={860} y={1180} w={420} h={400} />
+
+        {/* Cobblestone street ground */}
+        <polygon points="180,1180 900,1180 1080,1920 0,1920" fill="#161e24" stroke={INK} strokeWidth={8} />
+
+        {/* Ground Fog drifting through */}
+        <rect x="0" y="1100" width="1080" height="820" fill={Q.snowMist} opacity={0.2} />
+      </svg>
+    );
+  },
+
+  // 3. Reel Well: The Stone Well & Carved Doll
+  reel_well: ({ f, v = {} }) => {
+    return (
+      <svg viewBox="0 0 1080 1920" style={{ width: '100%', height: '100%' }}>
+        <rect width="1080" height="1920" fill="#140f1a" />
+        <ellipse cx="540" cy="720" rx="420" ry="240" fill="#e58c28" opacity={0.18} />
+
+        {/* Towering Scots Pines */}
+        {[-40, 320, 840, 1020].map((px, pi) => (
+          <g key={pi} transform={`translate(${px}, 960)`}>
+            <polygon points="0,-520 -100,-180 100,-180" fill="#0d181c" stroke={INK} strokeWidth={8} />
+            <polygon points="0,-320 -120,0 120,0" fill="#0d181c" stroke={INK} strokeWidth={8} />
+            <rect x="-16" y="0" width="32" height="140" fill="#18120c" stroke={INK} strokeWidth={6} />
+          </g>
         ))}
 
-        {/* Heavy Door */}
-        <rect x="220" y="320" width="640" height="1280" fill="#241710" stroke={INK} strokeWidth={10} />
-        {/* Deadbolt */}
-        <rect x="260" y="880" width="90" height="55" rx="5" fill="#110d0a" stroke={INK} strokeWidth={5} />
-        <circle cx="305" cy="907" r="18" fill="#d9a836" stroke={INK} strokeWidth={4} />
+        {/* Ground */}
+        <rect x="0" y="1040" width="1080" height="880" fill="#161e22" />
+        <line x1="0" y1="1040" x2="1080" y2="1040" stroke={INK} strokeWidth={8} />
 
-        {/* Door Window Pane */}
-        <rect x="340" y="440" width="400" height="340" fill="#0a1218" stroke={INK} strokeWidth={8} />
+        {/* Large Stone Well in foreground */}
+        <g transform="translate(540, 1200)">
+          <ellipse cx="0" cy="0" rx="260" ry="70" fill="#2a3538" stroke={INK} strokeWidth={8} />
+          <path d="M-260,0 C-260,70 260,70 260,0 V140 C260,210 -260,210 -260,140Z" fill="#1c2528" stroke={INK} strokeWidth={8} />
+          <ellipse cx="0" cy="-5" rx="210" ry="52" fill="#07090c" stroke={INK} strokeWidth={6} />
 
-        {/* Noah standing in dread */}
-        <g transform="translate(540, 1080)">
-          <Alive x={0} y={0} f={f} mode="tremble">
-            <FullPerson s={NOAH} x={0} y={0} k={1.4} f={f} expr="fear" />
-          </Alive>
+          {/* Wooden Canopy */}
+          <rect x="-180" y="-340" width="26" height="340" fill="#2c1e14" stroke={INK} strokeWidth={6} />
+          <rect x="154" y="-340" width="26" height="340" fill="#2c1e14" stroke={INK} strokeWidth={6} />
+          <polygon points="0,-440 -220,-340 220,-340" fill="#1e150f" stroke={INK} strokeWidth={7} />
+
+          {/* Carved Doll resting on stone rim */}
+          <g transform="translate(130, -15) scale(0.85)">
+            <CarvedDoll x={0} y={0} />
+          </g>
         </g>
       </svg>
     );
   },
 
-  // 3. Reel Dual Syrinx Anatomical Breakdown
-  reel_syrinx: ({ f, v = {} }) => {
+  // 4. Reel Cabin Burning
+  reel_cabin_burning: ({ f, v = {} }) => {
     return (
       <svg viewBox="0 0 1080 1920" style={{ width: '100%', height: '100%' }}>
-        <rect width="1080" height="1920" fill="#090d14" />
-        <rect x="40" y="160" width="1000" height="1200" fill="#101722" stroke={INK} strokeWidth={8} />
+        <rect width="1080" height="1920" fill="#1a0c0a" />
+        <rect y="300" width="1080" height="1620" fill="#38100e" opacity={0.65} />
 
-        {/* Syrinx Diagram centered nicely above captions */}
-        <DualSyrinxCutaway x={540} y={720} k={2.1} f={f} />
+        {/* Burning Cabin centered at y 980 */}
+        <BurningCabin x={540} y={980} f={f} />
+
+        {/* Angry Mob Silhouettes in lower area */}
+        {[-220, -70, 70, 220].map((vx, vi) => (
+          <g key={vi} transform={`translate(${540 + vx}, 1280)`}>
+            <path d="M-40,0 L-45,-140 L-30,-220 L30,-220 L45,-140 L40,0Z" fill="#140b08" stroke={INK} strokeWidth={7} />
+            <ellipse cx="0" cy="-260" rx="24" ry="32" fill="#140b08" stroke={INK} strokeWidth={6} />
+            <line x1="20" y1="-180" x2="50" y2="-320" stroke="#422e1e" strokeWidth={8} strokeLinecap="round" />
+            <circle cx="50" cy="-340" r={26} fill={Q.torchFlame} stroke={RED} strokeWidth={4} />
+          </g>
+        ))}
       </svg>
     );
   },
 
-  // 4. Reel Tapetum Lucidum (Mirror Eye) Breakdown
-  reel_eye: ({ f, v = {} }) => {
-    return (
-      <svg viewBox="0 0 1080 1920" style={{ width: '100%', height: '100%' }}>
-        <rect width="1080" height="1920" fill="#090d14" />
-        <rect x="40" y="160" width="1000" height="1200" fill="#0e151e" stroke={INK} strokeWidth={8} />
-
-        {/* Eye Diagram centered */}
-        <MirrorEyeCutaway x={540} y={700} k={2.5} f={f} />
-      </svg>
-    );
-  },
-
-  // 5. Reel Full Mimic Reveal (Vertical 9-Foot Entity)
-  reel_mimic_full: ({ f, v = {} }) => {
-    return (
-      <svg viewBox="0 0 1080 1920" style={{ width: '100%', height: '100%' }}>
-        <rect width="1080" height="1920" fill={Q.skyDk} />
-        <PineTree x={180} y={1100} h={780} w={320} c="#091316" />
-        <PineTree x={900} y={1100} h={780} w={320} c="#091316" />
-
-        <rect x="0" y="1180" width="1080" height="740" fill="#0b1114" />
-        <line x1="0" y1="1180" x2="1080" y2="1180" stroke={INK} strokeWidth={8} />
-
-        <WoodFence x={0} y={1420} w={1080} h={240} />
-
-        {/* Tall Mimic towering in center */}
-        <g transform="translate(540, 1140)">
-          <Alive x={0} y={0} f={f} mode="reach">
-            <MimicCreature x={0} y={0} k={1.7} f={f} pose="reach" />
-          </Alive>
-        </g>
-      </svg>
-    );
-  },
-
-  // 6. Reel Mimic Giant Face
-  reel_mimic_face: ({ f, v = {} }) => {
-    const t = sf(f, 3);
-    const jawY = 24 + Math.sin(t / 8) * 12;
-    return (
-      <svg viewBox="0 0 1080 1920" style={{ width: '100%', height: '100%' }}>
-        <rect width="1080" height="1920" fill="#040608" />
-        <circle cx="540" cy="740" r="480" fill="#101920" opacity={0.4} />
-
-        {/* Giant Face positioned safely in upper vertical quadrant */}
-        <g transform={`translate(540, ${680 + Math.sin(t / 14) * 6}) scale(3.5)`}>
-          <ellipse cx={0} cy={-20} rx={60} ry={82} fill={Q.fleshPale} stroke={INK} strokeWidth={8} />
-          {/* Glowing Eyes */}
-          <ellipse cx={-24} cy={-28} rx={20} ry={24} fill="#020406" stroke={INK} strokeWidth={5} />
-          <ellipse cx={24} cy={-28} rx={20} ry={24} fill="#020406" stroke={INK} strokeWidth={5} />
-          <circle cx={-24} cy={-28} r={7} fill="#ffffff" />
-          <circle cx={24} cy={-28} r={7} fill="#ffffff" />
-          <circle cx={-24} cy={-28} r={12} fill="#ffffff" opacity={0.3} />
-          <circle cx={24} cy={-28} r={12} fill="#ffffff" opacity={0.3} />
-
-          {/* Dark tear tracks */}
-          <path d="M-24,-4 L-28,45" stroke="#05080b" strokeWidth={6} strokeLinecap="round" />
-          <path d="M24,-4 L28,45" stroke="#05080b" strokeWidth={6} strokeLinecap="round" />
-
-          {/* Mouth */}
-          <path d={`M-38,18 C-18,${22 + jawY} 18,${22 + jawY} 38,18 C28,52 -28,52 -38,18Z`} fill="#100404" stroke={INK} strokeWidth={7} />
-          <path d="M-30,22 l6,16 l6,-16 l6,16 l6,-16 l6,16 l6,-16" stroke="#dde6e8" strokeWidth={3} fill="none" />
-        </g>
-      </svg>
-    );
-  },
-
-  // 7. Reel Noah Face
-  reel_noah_face: ({ f, v = {} }) => {
-    return (
-      <svg viewBox="0 0 1080 1920" style={{ width: '100%', height: '100%' }}>
-        <rect width="1080" height="1920" fill={Q.cabinWood} />
-        <polygon points="0,0 1080,0 1080,1920" fill="#0a0c10" opacity={0.65} />
-        <Face who="noah" x={540} y={740} k={2.5} f={f} expr="fear" />
-      </svg>
-    );
-  },
-
-  // 8. Reel Question / Title Card
-  reel_qcard: ({ f, v = {} }) => {
+  // 5. Reel Fog Stalk: Herbert Solomon's Shadow
+  reel_fog_stalk: ({ f, v = {} }) => {
     return (
       <svg viewBox="0 0 1080 1920" style={{ width: '100%', height: '100%' }}>
         <rect width="1080" height="1920" fill="#080c10" />
-        <rect x="60" y="240" width="960" height="1080" fill="none" stroke={Q.fogTeal} strokeWidth={8} />
-        <rect x="85" y="265" width="910" height="1030" fill="none" stroke={RED} strokeWidth={3} opacity={0.7} />
-        <text x="540" y="740" fill="#ffffff" fontSize={52} fontFamily="serif" fontWeight="bold" textAnchor="middle">
-          {v.title ?? "THE TREELINE MIMIC"}
+
+        {/* Tall Narrow Scottish Alleyway */}
+        <StoneCottage x={160} y={1180} w={420} h={520} />
+        <StoneCottage x={920} y={1180} w={420} h={520} />
+
+        {/* Cobblestones */}
+        <polygon points="120,1180 960,1180 1080,1920 0,1920" fill="#141c22" stroke={INK} strokeWidth={8} />
+
+        {/* Giant Spider-Like Shadow on Wall */}
+        <g transform="translate(380, 1180) skewX(-35) scale(1.6, 0.7)" opacity={0.75}>
+          <FullSolomon x={0} y={0} f={f} mode="stand" />
+        </g>
+
+        {/* Tall Herbert Solomon Figure in Center */}
+        <g transform="translate(540, 1180) scale(1.05)">
+          <Alive x={0} y={0} f={f} mode="sorrow">
+            <FullSolomon x={0} y={0} f={f} mode="stand" />
+          </Alive>
+        </g>
+
+        {/* Heavy Mist */}
+        <rect x="0" y="1080" width="1080" height="840" fill={Q.snowMist} opacity={0.22} />
+      </svg>
+    );
+  },
+
+  // 6. Reel Cellar: Vaulted Ceilings, Chains, Rescued Children
+  reel_cellar: ({ f, v = {} }) => {
+    return (
+      <svg viewBox="0 0 1080 1920" style={{ width: '100%', height: '100%' }}>
+        <rect width="1080" height="1920" fill="#080b0e" />
+
+        {/* Arched Stone Ceiling */}
+        <path d="M0,0 H1080 V580 C840,420 540,440 280,440 C140,440 40,460 0,580Z" fill="#182026" stroke={INK} strokeWidth={8} />
+
+        {/* Chains Hanging */}
+        {[-220, 220].map((cx, ci) => (
+          <g key={ci} transform={`translate(${540 + cx}, 380)`}>
+            <line x1="0" y1="0" x2="0" y2="420" stroke="#3a444c" strokeWidth={7} strokeDasharray="9 7" />
+            <circle cx="0" cy="425" r="16" fill="none" stroke="#2a333a" strokeWidth={5} />
+          </g>
+        ))}
+
+        {/* Wall Lantern */}
+        <g transform="translate(540, 560)">
+          <circle cx="0" cy="0" r="140" fill={Q.torchAmber} opacity={0.18} />
+          <rect x="-20" y="-35" width="40" height="70" rx="8" fill="#8c6a38" stroke={INK} strokeWidth={5} />
+          <polygon points="-14,-18 14,-18 0,-32" fill={Q.torchFlame} />
+        </g>
+
+        {/* Floor */}
+        <rect x="0" y="1120" width="1080" height="800" fill="#12181e" />
+        <line x1="0" y1="1120" x2="1080" y2="1120" stroke={INK} strokeWidth={8} />
+
+        {/* Huddled Children in shawls */}
+        <g transform="translate(320, 1260)">
+          <ellipse cx="0" cy="0" rx="160" ry="50" fill="#28323a" stroke={INK} strokeWidth={7} />
+          <ellipse cx="-45" cy="-60" rx="34" ry="40" fill="#1c252c" />
+          <ellipse cx="40" cy="-65" rx="36" ry="42" fill="#1c252c" />
+          <CarvedDoll x="-10" y="-45" s={0.5} />
+        </g>
+
+        {/* Tom Sutherland sprawled dead on stone floor */}
+        <g transform="translate(760, 1320)">
+          <path d="M-140,20 L-40,-35 L60,-25 L120,10 L100,35 L-120,35Z" fill="#241a14" stroke={INK} strokeWidth={7} />
+          <ellipse cx="-140" cy="0" rx="24" ry="20" fill="#8a6548" stroke={INK} strokeWidth={6} />
+        </g>
+      </svg>
+    );
+  },
+
+  // 7. Reel River: Swollen River Rescue
+  reel_river: ({ f, v = {} }) => {
+    return (
+      <svg viewBox="0 0 1080 1920" style={{ width: '100%', height: '100%' }}>
+        <rect width="1080" height="1920" fill="#162028" />
+        <rect y="380" width="1080" height="1540" fill="#222e36" opacity={0.6} />
+
+        {/* Grassy Embankment in upper section */}
+        <polygon points="0,780 420,840 0,960" fill="#1f2c24" stroke={INK} strokeWidth={7} />
+
+        {/* Raging River in center */}
+        <RagingRiver x={540} y={1160} w={1080} f={f} />
+
+        {/* Girl on bank */}
+        <g transform="translate(320, 1020) scale(0.68)">
+          <Alive x={0} y={0} f={f} mode="sorrow">
+            <FacePerson s={ALANA_CHILD} expr="fear" f={f} />
+          </Alive>
+        </g>
+
+        {/* Herbert Solomon reaching over the bank */}
+        <g transform="translate(680, 960) scale(0.85)">
+          <Alive x={0} y={0} f={f} mode="sorrow">
+            <FullSolomon x={0} y={0} f={f} mode="reach" />
+          </Alive>
+        </g>
+      </svg>
+    );
+  },
+
+  // 8. Reel Face: Solomon Close-Up Portrait
+  reel_solomon_face: ({ f, v = {} }) => {
+    return (
+      <svg viewBox="0 0 1080 1920" style={{ width: '100%', height: '100%' }}>
+        <rect width="1080" height="1920" fill="#090d14" />
+        <circle cx="540" cy="820" r="480" fill="#1b2a33" opacity={0.25} />
+
+        {/* Face placed centrally in safe viewport */}
+        <g transform="translate(540, 820) scale(1.85)">
+          <Alive x={0} y={0} f={f} mode="sorrow">
+            <FaceSolomon f={f} expr="melancholy" />
+          </Alive>
+        </g>
+      </svg>
+    );
+  },
+
+  // 9. Reel Title Card
+  reel_qcard: ({ f, v = {} }) => {
+    return (
+      <svg viewBox="0 0 1080 1920" style={{ width: '100%', height: '100%' }}>
+        <rect width="1080" height="1920" fill={Q.skyDk} />
+        {/* Border */}
+        <rect x="60" y="240" width="960" height="1440" fill="none" stroke={Q.tomeGold} strokeWidth={8} rx={16} />
+        <rect x="85" y="265" width="910" height="1390" fill="none" stroke="#3d2a1b" strokeWidth={4} rx={10} />
+
+        {/* Carved Doll in Upper Center */}
+        <g transform="translate(540, 680) scale(1.3)">
+          <CarvedDoll x={0} y={0} />
+        </g>
+
+        {/* Title Text */}
+        <text x="540" y="980" textAnchor="middle" fill="#eaf2f5" fontFamily="serif" fontSize={50} fontWeight="bold" letterSpacing={3}>
+          THE MELANCHOLY OF
+        </text>
+        <text x="540" y="1080" textAnchor="middle" fill={RED} fontFamily="serif" fontSize={64} fontWeight="bold" letterSpacing={5}>
+          HERBERT SOLOMON
+        </text>
+        <text x="540" y="1180" textAnchor="middle" fill="#9eaeb8" fontFamily="serif" fontSize={26} fontStyle="italic" letterSpacing={2}>
+          A 16th-Century Scottish Tale
         </text>
       </svg>
     );

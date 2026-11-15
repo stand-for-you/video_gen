@@ -1,509 +1,563 @@
 {
- "duration": 326.005625,
+ "duration": 526.811875,
  "units": [
   {
    "i": 0,
    "beat": 0,
    "chapter": "Intro",
-   "text": "If you hear your family calling your name from the dark pine woods tonight, do not step outside.",
+   "text": "In the deepest shadows of St Andrews University library in Scotland, hidden away in a dark, forgotten corner, sits a 16th-century leather tome.",
    "who": "nar",
    "start": 0.0,
-   "end": 6.388
+   "end": 13.843
   },
   {
    "i": 1,
    "beat": 0,
    "chapter": null,
-   "text": "A skinwalker only needs to hear a human voice once to steal it forever.",
+   "text": "Its cover is cracked, weathered, and blackened by centuries of damp air.",
    "who": "nar",
-   "start": 6.688,
-   "end": 12.213
+   "start": 14.143,
+   "end": 19.683
   },
   {
    "i": 2,
    "beat": 1,
    "chapter": null,
-   "text": "It stands nine feet tall at the edge of the clearing, hiding its skeletal frame behind the trees.",
+   "text": "On the inside of the back cover, an artist in the year 1578 drew a picture that makes the heart turn cold.",
    "who": "nar",
-   "start": 12.663,
-   "end": 20.409
+   "start": 20.133,
+   "end": 30.51
   },
   {
    "i": 3,
    "beat": 1,
    "chapter": null,
-   "text": "But the voice coming from its throat sounds identical to your mother or your sister.",
+   "text": "It depicts a towering, skeletal man with long, gaunt limbs, standing at the edge of a twisting forest.",
    "who": "nar",
-   "start": 20.709,
-   "end": 26.804
+   "start": 30.81,
+   "end": 39.725
   },
   {
    "i": 4,
    "beat": 2,
    "chapter": null,
-   "text": "And it knows the exact trick that will make you unlock the front door.",
+   "text": "Veins bulge across his pale, hairless skull, his dark eyes are sunken deep within bone, and beneath the ink is written a single name: Herbert Solomon.",
    "who": "nar",
-   "start": 27.254,
-   "end": 31.824
+   "start": 40.175,
+   "end": 54.211
   },
   {
    "i": 5,
    "beat": 2,
    "chapter": null,
-   "text": "Let us go back to the beginning.",
+   "text": "Let us go back to the winter where this nightmare began.",
    "who": "nar",
-   "start": 32.123,
-   "end": 33.896
+   "start": 54.511,
+   "end": 58.228
   },
   {
    "i": 6,
    "beat": 3,
-   "chapter": "The Voice",
-   "text": "It was two fifteen in the morning when the call began outside my forest cabin.",
+   "chapter": "The Vanishing",
+   "text": "The book chronicles the isolated town of Ettrick, set amidst the bleak moorlands and dense pine forests of southern Scotland.",
    "who": "nar",
-   "start": 34.496,
-   "end": 40.877
+   "start": 58.828,
+   "end": 69.888
   },
   {
    "i": 7,
    "beat": 3,
    "chapter": null,
-   "text": "I was sitting at my wooden desk when a familiar voice floated through the open window.",
+   "text": "In the freezing December of 1577, an unspeakable dread settled over the cobblestone streets.",
    "who": "nar",
-   "start": 41.177,
-   "end": 47.354
+   "start": 70.188,
+   "end": 78.586
   },
   {
    "i": 8,
    "beat": 4,
    "chapter": null,
-   "text": "It was my sister Mira.",
+   "text": "The first to disappear was young Alana Sutherland.",
    "who": "nar",
-   "start": 47.804,
-   "end": 49.265
+   "start": 79.036,
+   "end": 82.874
   },
   {
    "i": 9,
    "beat": 4,
    "chapter": null,
-   "text": "She sounded desperate, pleading from the edge of the fence, saying she had dropped her car keys in the tall grass.",
+   "text": "She had dropped her hand-carved doll down an old stone well on the edge of town, and returned at sunset with a hook and rope to retrieve it.",
    "who": "nar",
-   "start": 49.565,
-   "end": 58.247
+   "start": 83.174,
+   "end": 94.78
   },
   {
    "i": 10,
-   "beat": 5,
+   "beat": 4,
    "chapter": null,
-   "text": "My hand was on the brass deadbolt before my brain caught up with the silence.",
+   "text": "She was never seen again.",
    "who": "nar",
-   "start": 58.697,
-   "end": 64.295
+   "start": 95.08,
+   "end": 96.591
   },
   {
    "i": 11,
    "beat": 5,
    "chapter": null,
-   "text": "Mira lived two hours away in the city.",
+   "text": "Days later, another child vanished while walking an errand just two streets from his home.",
    "who": "nar",
-   "start": 64.595,
-   "end": 67.251
+   "start": 97.041,
+   "end": 104.272
   },
   {
    "i": 12,
    "beat": 5,
    "chapter": null,
-   "text": "Her car was not in the driveway.",
+   "text": "By late January, seven children had been torn from existence.",
    "who": "nar",
-   "start": 67.551,
-   "end": 69.94
+   "start": 104.572,
+   "end": 109.541
   },
   {
    "i": 13,
    "beat": 5,
    "chapter": null,
-   "text": "And she had not visited this cabin in three months.",
+   "text": "Fear consumed every cottage, turning neighbor against neighbor.",
    "who": "nar",
-   "start": 70.24,
-   "end": 73.449
+   "start": 109.841,
+   "end": 114.475
   },
   {
    "i": 14,
    "beat": 6,
-   "chapter": "Two Throats",
-   "text": "I crept to the porch window and looked out across the lawn.",
+   "chapter": "The Outsider",
+   "text": "When two more children vanished in mid-February, the desperate town elder demanded a culprit.",
    "who": "nar",
-   "start": 74.049,
-   "end": 78.12
+   "start": 115.075,
+   "end": 122.037
   },
   {
    "i": 15,
    "beat": 6,
    "chapter": null,
-   "text": "At first, you think it must be a trick of your mind.",
+   "text": "In every house and across every church pew, one whisper grew into a deafening roar: Herbert Solomon.",
    "who": "nar",
-   "start": 78.42,
-   "end": 81.917
+   "start": 122.337,
+   "end": 130.824
   },
   {
    "i": 16,
-   "beat": 6,
+   "beat": 7,
    "chapter": null,
-   "text": "A normal throat cannot reproduce a human timbre with such mechanical perfection.",
+   "text": "Solomon was an outsider who lived in a small wooden cabin deep within the Ettrick forest.",
    "who": "nar",
-   "start": 82.217,
-   "end": 88.978
+   "start": 131.274,
+   "end": 138.756
   },
   {
    "i": 17,
    "beat": 7,
    "chapter": null,
-   "text": "A human vocal cord has one resonant path.",
+   "text": "Ravaged by an unknown wasting disease, his body was emaciated, his skin sheet-white, and he covered his face with a tarnished hat and cloth.",
    "who": "nar",
-   "start": 89.428,
-   "end": 93.102
+   "start": 139.056,
+   "end": 152.187
   },
   {
    "i": 18,
-   "beat": 7,
+   "beat": 8,
    "chapter": null,
-   "text": "But an apex vocal mimic possesses two separate acoustic voice boxes, splitting like the syrinx of a lyrebird.",
+   "text": "He would watch the village children play from the tree line.",
    "who": "nar",
-   "start": 93.402,
-   "end": 103.352
+   "start": 152.637,
+   "end": 156.189
   },
   {
    "i": 19,
    "beat": 8,
    "chapter": null,
-   "text": "A lyrebird can reproduce the metallic bite of a chainsaw or the shrill cry of an infant.",
+   "text": "On several occasions, children returned home carrying exquisitely carved wooden dolls and toys\u2014left on tree stumps as gifts from the gentle recluse.",
    "who": "nar",
-   "start": 103.802,
-   "end": 111.793
+   "start": 156.489,
+   "end": 169.819
   },
   {
    "i": 20,
    "beat": 8,
    "chapter": null,
-   "text": "By vibrating both chambers at once, the mimic crafts your sister's exact pitch and cadence in the dark.",
+   "text": "But to fearful parents, this was proof of evil.",
    "who": "nar",
-   "start": 112.093,
-   "end": 121.204
+   "start": 170.119,
+   "end": 173.66
   },
   {
    "i": 21,
    "beat": 9,
-   "chapter": "The Replay",
-   "text": "Yet copying a voice is not speaking.",
+   "chapter": "The Fire",
+   "text": "On a freezing February night, grief and hatred reached a boiling pitch.",
    "who": "nar",
-   "start": 121.804,
-   "end": 124.553
+   "start": 174.26,
+   "end": 179.487
   },
   {
    "i": 22,
    "beat": 9,
    "chapter": null,
-   "text": "The creature possesses no understanding of human words, no memories, and no soul.",
+   "text": "Decreeing Solomon a child-killing abomination, a mob of villagers armed with axes, scythes, and flaming torches marched into the dark forest.",
    "who": "nar",
-   "start": 124.853,
-   "end": 131.841
+   "start": 179.787,
+   "end": 193.539
   },
   {
    "i": 23,
-   "beat": 9,
+   "beat": 10,
    "chapter": null,
-   "text": "It does not comprehend what it is saying.",
+   "text": "They surrounded his humble cabin and barred the heavy timbers from outside.",
    "who": "nar",
-   "start": 132.141,
-   "end": 135.018
+   "start": 193.989,
+   "end": 199.753
   },
   {
    "i": 24,
    "beat": 10,
    "chapter": null,
-   "text": "Like an ancient phonograph or a caged parrot, it only knows how to replay recorded sound waves.",
+   "text": "Cheering in a frenzy of revenge, they tossed torches onto the dried thatched roof and watched the cabin ignite into a wall of roaring flame.",
    "who": "nar",
-   "start": 135.468,
-   "end": 143.698
+   "start": 200.053,
+   "end": 212.46
   },
   {
    "i": 25,
-   "beat": 10,
+   "beat": 11,
    "chapter": null,
-   "text": "That is why it always repeats the identical sentence twice, with the exact same breath pause.",
+   "text": "Solomon's desperate screams echoed through the Scots pines, before fading into the crackle of falling timber.",
    "who": "nar",
-   "start": 143.998,
-   "end": 151.416
+   "start": 212.91,
+   "end": 222.23
   },
   {
    "i": 26,
    "beat": 11,
    "chapter": null,
-   "text": "Outside my fence, the voice came again, pitch-perfect and cold: Noah, please unlock the door.",
+   "text": "Satisfied that justice was served, the mob returned home, convinced the curse was lifted.",
    "who": "nar",
-   "start": 151.866,
-   "end": 160.42
+   "start": 222.53,
+   "end": 230.293
   },
   {
    "i": 27,
-   "beat": 11,
-   "chapter": null,
-   "text": "Noah, please unlock the door.",
+   "beat": 12,
+   "chapter": "The Haunting",
+   "text": "Yet within days, a suffocating fog descended over Ettrick, and terror returned with a vengeance.",
    "who": "nar",
-   "start": 160.72,
-   "end": 162.792
+   "start": 230.893,
+   "end": 239.704
   },
   {
    "i": 28,
    "beat": 12,
-   "chapter": "The Treeline",
-   "text": "Up close, any person would see the nightmare instantly.",
+   "chapter": null,
+   "text": "Townsfolk began waking in the dead of night to the sound of floorboards creaking under an unnatural weight.",
    "who": "nar",
-   "start": 163.392,
-   "end": 167.393
+   "start": 240.004,
+   "end": 248.578
   },
   {
    "i": 29,
-   "beat": 12,
+   "beat": 13,
    "chapter": null,
-   "text": "Its skin is pale as bleached bone, stretched paper-thin over an elongated ribcage.",
+   "text": "An elderly woman woke to rustling beneath her bed, watching in paralyzed horror as a tall, skeletal figure dragged itself across the floor.",
    "who": "nar",
-   "start": 167.693,
-   "end": 175.35
+   "start": 249.028,
+   "end": 261.246
   },
   {
    "i": 30,
-   "beat": 12,
+   "beat": 13,
    "chapter": null,
-   "text": "So it never approaches the porch.",
+   "text": "In a cellar, a tradesman encountered the gaunt, sheet-white phantom hunched beneath the low rafters.",
    "who": "nar",
-   "start": 175.65,
-   "end": 177.633
+   "start": 261.546,
+   "end": 269.95
   },
   {
    "i": 31,
-   "beat": 13,
+   "beat": 14,
    "chapter": null,
-   "text": "It remains twenty-five paces back against the dark pines.",
+   "text": "Then, the impossible occurred: an orphan girl was snatched screaming from the foggy cobblestones.",
    "who": "nar",
-   "start": 178.083,
-   "end": 182.502
+   "start": 270.4,
+   "end": 278.311
   },
   {
    "i": 32,
-   "beat": 13,
+   "beat": 14,
    "chapter": null,
-   "text": "At night, cold ground air traps warm layers above, bending sound waves back down across the soil so its whisper carries hundreds of yards.",
+   "text": "Days later, another child vanished from his bedroom.",
    "who": "nar",
-   "start": 182.802,
-   "end": 194.704
+   "start": 278.611,
+   "end": 282.445
   },
   {
    "i": 33,
    "beat": 14,
    "chapter": null,
-   "text": "It cannot see well in the pitch dark either.",
+   "text": "Even inside the parish church, Solomon's tall, spindly shadow stepped into the aisle before dissolving into mist.",
    "who": "nar",
-   "start": 195.154,
-   "end": 198.044
+   "start": 282.745,
+   "end": 292.672
   },
   {
    "i": 34,
-   "beat": 14,
-   "chapter": null,
-   "text": "Behind its hollow sockets sits a reflective mirror layer, just like a deer.",
+   "beat": 15,
+   "chapter": "The Ambush",
+   "text": "Believing Solomon's vengeful wraith had returned to punish the town, Vicar McKenzie assembled a group of chosen men armed with blessed steel, flaming torches, and vials of holy water to hunt the phantom down.",
    "who": "nar",
-   "start": 198.344,
-   "end": 204.778
+   "start": 293.272,
+   "end": 311.673
   },
   {
    "i": 35,
-   "beat": 14,
+   "beat": 16,
    "chapter": null,
-   "text": "Those two glowing white dots beyond the fence were not fireflies.",
+   "text": "They waited in the midnight mist until the solitary figure of Herbert Solomon appeared, walking the cobblestones with purposeful strides.",
    "who": "nar",
-   "start": 205.078,
-   "end": 210.183
+   "start": 312.123,
+   "end": 323.615
   },
   {
    "i": 36,
-   "beat": 14,
+   "beat": 16,
    "chapter": null,
-   "text": "They were its eyes.",
+   "text": "McKenzie and his men encircled the creature, brandishing weapons.",
    "who": "nar",
-   "start": 210.483,
-   "end": 211.561
+   "start": 323.915,
+   "end": 329.256
   },
   {
    "i": 37,
-   "beat": 15,
-   "chapter": "The Lure",
-   "text": "A predator with a frame that brittle cannot survive a direct brawl.",
+   "beat": 17,
+   "chapter": null,
+   "text": "The vicar splashed holy water across the stone, and a torch struck Solomon's sleeve, setting the frayed cloth alight.",
    "who": "nar",
-   "start": 212.161,
-   "end": 217.491
+   "start": 329.706,
+   "end": 339.684
   },
   {
    "i": 38,
-   "beat": 15,
+   "beat": 17,
    "chapter": null,
-   "text": "Its long, jointed limbs are built for reaching and dragging, not wrestling.",
+   "text": "But the tall figure broke through the circle, fleeing like a giant spider shadow across the village courtyards.",
    "who": "nar",
-   "start": 217.791,
-   "end": 223.703
+   "start": 339.984,
+   "end": 348.363
   },
   {
    "i": 39,
-   "beat": 15,
-   "chapter": null,
-   "text": "It cannot chase you down.",
+   "beat": 18,
+   "chapter": "The Cellar",
+   "text": "Pursued by the shouting mob, Solomon sprinted down the main street and ducked into an open cottage doorway.",
    "who": "nar",
-   "start": 224.003,
-   "end": 225.553
+   "start": 348.963,
+   "end": 357.589
   },
   {
    "i": 40,
-   "beat": 16,
+   "beat": 18,
    "chapter": null,
-   "text": "Like an anglerfish lurking in the ocean abyss, it depends entirely on a glowing lure to survive.",
+   "text": "McKenzie and the villagers burst inside, only to find a weak, trembling young girl lying on the hall floor.",
    "who": "nar",
-   "start": 226.003,
-   "end": 233.76
+   "start": 357.889,
+   "end": 367.046
   },
   {
    "i": 41,
-   "beat": 16,
+   "beat": 19,
    "chapter": null,
-   "text": "And its lure is the one thing no human heart can ignore: the voice of someone you love.",
+   "text": "With her last ounce of strength, the child pointed toward the stone stairway and whispered a single word: Below.",
    "who": "nar",
-   "start": 234.06,
-   "end": 241.975
+   "start": 367.496,
+   "end": 376.678
   },
   {
    "i": 42,
-   "beat": 17,
+   "beat": 19,
    "chapter": null,
-   "text": "It waits in the pitch black for you to feel pity, step past the threshold, and walk into its reaching grasp.",
+   "text": "The vicar descended with his torch into the cold cellar vault, and the breath caught in his throat.",
    "who": "nar",
-   "start": 242.425,
-   "end": 250.796
+   "start": 376.978,
+   "end": 384.842
   },
   {
    "i": 43,
-   "beat": 18,
-   "chapter": "The Weakness",
-   "text": "Standing in the dark of my cabin with my palm sweating against the deadbolt, I remembered the creature's one fatal flaw.",
+   "beat": 20,
+   "chapter": null,
+   "text": "Chained against the damp stone walls were the missing children\u2014malnourished and terrified, but alive!",
    "who": "nar",
-   "start": 251.396,
-   "end": 261.132
+   "start": 385.292,
+   "end": 393.663
   },
   {
    "i": 44,
-   "beat": 18,
+   "beat": 20,
    "chapter": null,
-   "text": "It can mimic any syllable, but it can never answer an unscripted question.",
+   "text": "And lying motionless upon the stone floor was the true fiend: Tom Sutherland, the father of the very first child who had vanished.",
    "who": "nar",
-   "start": 261.432,
-   "end": 267.252
+   "start": 393.963,
+   "end": 405.427
   },
   {
    "i": 45,
-   "beat": 19,
+   "beat": 21,
    "chapter": null,
-   "text": "I leaned against the heavy wood of the door and called out into the yard: Mira, what did grandpa carve on the cabin bench?",
+   "text": "Sutherland had killed his daughter in a drunken rage, and consumed by madness, had stolen the other children.",
    "who": "nar",
-   "start": 267.702,
-   "end": 278.045
+   "start": 405.877,
+   "end": 414.795
   },
   {
    "i": 46,
-   "beat": 20,
+   "beat": 21,
    "chapter": null,
-   "text": "A heavy, suffocating silence settled over the pines.",
+   "text": "He was about to execute another captive when Herbert Solomon burst through the cellar door, ending Sutherland's reign of terror to save the innocent.",
    "who": "nar",
-   "start": 278.495,
-   "end": 282.695
+   "start": 415.095,
+   "end": 426.901
   },
   {
    "i": 47,
-   "beat": 20,
-   "chapter": null,
-   "text": "The night wind died down.",
+   "beat": 22,
+   "chapter": "The Guardian",
+   "text": "The town rejoiced, realizing with heavy shame that the gentle recluse they had burned alive was their protector all along.",
    "who": "nar",
-   "start": 282.995,
-   "end": 284.836
+   "start": 427.501,
+   "end": 437.804
   },
   {
    "i": 48,
-   "beat": 20,
+   "beat": 22,
    "chapter": null,
-   "text": "For thirty seconds, not a twig snapped in the forest.",
+   "text": "Yet the story does not end in the 16th century.",
    "who": "nar",
-   "start": 285.136,
-   "end": 289.407
+   "start": 438.104,
+   "end": 441.958
   },
   {
    "i": 49,
-   "beat": 21,
+   "beat": 23,
    "chapter": null,
-   "text": "Then, from the black trees past the fence, the voice replayed once more with identical pitch: Noah, please unlock the door.",
+   "text": "Centuries later, while researching the Ettrick tome, I visited a colleague's estate near the Scottish borders.",
    "who": "nar",
-   "start": 289.857,
-   "end": 300.567
+   "start": 442.408,
+   "end": 450.856
   },
   {
    "i": 50,
-   "beat": 21,
+   "beat": 23,
    "chapter": null,
-   "text": "Noah, please unlock the door.",
+   "text": "The following afternoon, panicked screams shattered the tranquil countryside\u2014my friend's little daughter had fallen into a violent, swollen river.",
    "who": "nar",
-   "start": 300.867,
-   "end": 302.938
+   "start": 451.156,
+   "end": 462.738
   },
   {
    "i": 51,
-   "beat": 22,
+   "beat": 24,
    "chapter": null,
-   "text": "I threw the secondary deadbolt and backed away from the glass.",
+   "text": "Swept by torrential currents toward jagged rocks, the child lost her grip on a slippery tree root.",
    "who": "nar",
-   "start": 303.388,
-   "end": 307.761
+   "start": 463.188,
+   "end": 471.045
   },
   {
    "i": 52,
-   "beat": 22,
+   "beat": 24,
    "chapter": null,
-   "text": "And as I stepped into the shadows, a nine-foot silhouette stepped onto the porch.",
+   "text": "We plunged into the rapids, but we were too far away.",
    "who": "nar",
-   "start": 308.061,
-   "end": 313.874
+   "start": 471.345,
+   "end": 475.197
   },
   {
    "i": 53,
-   "beat": 23,
+   "beat": 24,
    "chapter": null,
-   "text": "This story was inspired by modern folklore and the vocal anatomy of the forest mimic.",
+   "text": "She was seconds from drowning.",
    "who": "nar",
-   "start": 314.324,
-   "end": 321.586
+   "start": 475.497,
+   "end": 477.295
   },
   {
    "i": 54,
-   "beat": 24,
+   "beat": 25,
    "chapter": null,
-   "text": "Now tell me.",
+   "text": "Suddenly, the forest branches cracked.",
    "who": "nar",
-   "start": 322.036,
-   "end": 322.965
+   "start": 477.745,
+   "end": 480.329
   },
   {
    "i": 55,
-   "beat": 24,
+   "beat": 25,
    "chapter": null,
-   "text": "Would you have opened the door?",
+   "text": "From the opposite bank, a tall, gaunt figure burst forth at superhuman speed.",
    "who": "nar",
-   "start": 323.265,
-   "end": 324.806
+   "start": 480.629,
+   "end": 487.272
+  },
+  {
+   "i": 56,
+   "beat": 25,
+   "chapter": null,
+   "text": "A long, skeletal hand plunged deep into the churning foam, pulling the girl gently to safety.",
+   "who": "nar",
+   "start": 487.572,
+   "end": 495.358
+  },
+  {
+   "i": 57,
+   "beat": 26,
+   "chapter": null,
+   "text": "The pale, withered man placed the child on the grass, gazed across the river with dark, sorrowful eyes, and vanished into the Scots pines.",
+   "who": "nar",
+   "start": 495.808,
+   "end": 508.007
+  },
+  {
+   "i": 58,
+   "beat": 26,
+   "chapter": null,
+   "text": "Even in death, Herbert Solomon was the kindest and gentlest of souls.",
+   "who": "nar",
+   "start": 508.307,
+   "end": 514.66
+  },
+  {
+   "i": 59,
+   "beat": 27,
+   "chapter": null,
+   "text": "This story was adapted from Scottish folklore and the legend of Herbert Solomon.",
+   "who": "nar",
+   "start": 515.11,
+   "end": 521.502
+  },
+  {
+   "i": 60,
+   "beat": 28,
+   "chapter": null,
+   "text": "Now tell me.",
+   "who": "nar",
+   "start": 521.952,
+   "end": 522.882
+  },
+  {
+   "i": 61,
+   "beat": 28,
+   "chapter": null,
+   "text": "Would you have judged him by his face?",
+   "who": "nar",
+   "start": 523.182,
+   "end": 525.612
   }
  ]
 }

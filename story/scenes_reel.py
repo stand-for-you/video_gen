@@ -6,60 +6,53 @@ def S(st, **v):
     return (st, v)
 
 SC = [
-    # Beat 0: Intro Teaser (nine feet tall, mimicking loved one)
+    # Beat 0: St Andrews University Archives & Solomon Sketch
     [
-        S('reel_first', fc=[680, 820, 2.0]),
-        S('reel_mimic_face', fc=[540, 680, 2.2]),
-        S('reel_porch', fc=[540, 880, 2.0]),
+        S('reel_tome', fc=[540, 880, 2.0]),
+        S('reel_solomon_face', fc=[540, 820, 2.2]),
     ],
-    # Beat 1: 2 AM sister Mira pleading at door
+    # Beat 1: Winter of 1577 Disappearances in Ettrick
     [
-        S('reel_porch', fc=[540, 880, 2.2]),
-        S('reel_noah_face', fc=[540, 740, 2.3]),
-        S('reel_first', fc=[680, 820, 2.2]),
+        S('reel_hamlet', fc=[540, 920, 2.0]),
+        S('reel_well', fc=[540, 1100, 2.2]),
     ],
-    # Beat 2: Dual Syrinx voice boxes
+    # Beat 2: Recluse Woodcarver & Cabin Burning
     [
-        S('reel_syrinx', fc=[540, 720, 1.8]),
-        S('reel_syrinx', fc=[455, 810, 2.3]),
-        S('reel_syrinx', fc=[625, 810, 2.3]),
+        S('reel_cabin_burning', fc=[540, 980, 2.2]),
+        S('reel_well', fc=[540, 1100, 2.0]),
     ],
-    # Beat 3: Copying is not speaking / repeats twice
+    # Beat 3: The Haunting in the Mist
     [
-        S('reel_mimic_face', fc=[540, 680, 2.4]),
-        S('reel_noah_face', fc=[540, 740, 2.2]),
-        S('reel_first', fc=[680, 820, 2.4]),
+        S('reel_fog_stalk', fc=[540, 1180, 2.2]),
+        S('reel_hamlet', fc=[540, 920, 2.0]),
     ],
-    # Beat 4: Bleached frame, cold air, tapetum mirror eyes
+    # Beat 4: The Ambush & Flight into the Cottage
     [
-        S('reel_eye', fc=[540, 700, 1.9]),
-        S('reel_eye', fc=[490, 700, 2.4]),
-        S('reel_first', fc=[680, 820, 2.5]),
+        S('reel_fog_stalk', fc=[540, 1180, 2.4]),
+        S('reel_cellar', fc=[540, 980, 2.0]),
     ],
-    # Beat 5: Brittle predator / anglerfish lure
+    # Beat 5: The Secret in the Cellar Vault
     [
-        S('reel_mimic_full', fc=[540, 1140, 1.8]),
-        S('reel_noah_face', fc=[540, 740, 2.4]),
-        S('reel_mimic_face', fc=[540, 680, 2.5]),
+        S('reel_cellar', fc=[320, 1260, 2.2]),
+        S('reel_solomon_face', fc=[540, 820, 2.0]),
     ],
-    # Beat 6: The test question through the door
+    # Beat 6: The True Monster Sutherland Defeated
     [
-        S('reel_porch', fc=[305, 907, 2.6]),
-        S('reel_noah_face', fc=[540, 740, 2.4]),
-        S('reel_first', fc=[680, 820, 2.2]),
+        S('reel_cellar', fc=[760, 1320, 2.4]),
+        S('reel_solomon_face', fc=[540, 820, 2.2]),
     ],
-    # Beat 7: Dead silence, replay, 9-foot shadow on porch
+    # Beat 7: The Raging River Rescue
     [
-        S('reel_first', fc=[680, 820, 2.5]),
-        S('reel_mimic_full', fc=[540, 1140, 2.0]),
-        S('reel_mimic_face', fc=[540, 680, 2.6], last=True),
+        S('reel_river', fc=[540, 1020, 2.2]),
+        S('reel_solomon_face', fc=[540, 820, 2.0]),
     ],
-    # Beat 8: Credit card
+    # Beat 8: The Kindest and Gentlest of Souls
     [
-        S('reel_qcard', title='THE TREELINE MIMIC'),
+        S('reel_solomon_face', fc=[540, 820, 2.4]),
+        S('reel_qcard', fc=[540, 960, 1.8]),
     ],
-    # Beat 9: Question card
+    # Beat 9: Closing Question
     [
-        S('reel_qcard', title='WOULD YOU OPEN THE DOOR?'),
+        S('reel_qcard', fc=[540, 960, 2.0]),
     ],
 ]

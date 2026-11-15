@@ -1,10 +1,11 @@
 [
-  ["reel_first", {}],
-  ["reel_porch", {}],
-  ["reel_syrinx", {}],
-  ["reel_eye", {}],
-  ["reel_mimic_full", {}],
-  ["reel_mimic_face", {}],
-  ["reel_noah_face", {}],
-  ["reel_qcard", {"title": "THE TREELINE MIMIC"}]
+  ["reel_tome", {}],
+  ["reel_hamlet", {}],
+  ["reel_well", {}],
+  ["reel_cabin_burning", {}],
+  ["reel_fog_stalk", {}],
+  ["reel_cellar", {}],
+  ["reel_river", {}],
+  ["reel_solomon_face", {}],
+  ["reel_qcard", {"title": "THE MELANCHOLY OF HERBERT SOLOMON"}]
 ]

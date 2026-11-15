@@ -1,17 +1,17 @@
-# Reel retelling (aim 2:40-2:55 = 160-175s) of The Treeline Mimic.
+# Reel retelling (aim 2:40-2:55 = 160-175s) of The Melancholy of Herbert Solomon.
 # ONE speaker only (the narrator): no character tags.
 
 BEATS = [
-    ("Intro", "If you hear your family calling your name from the dark pine woods tonight, do not open the door. A skinwalker only needs to hear your voice once to steal it forever. It stands nine feet tall at the edge of the clearing, hiding its skeletal frame behind the trees, perfectly mimicking the voice of someone you love. Let us go back to the beginning."),
-    (None, "At two in the morning, my sister Mira's voice floated through my cabin window, begging me to unlock the porch door. But Mira lived two hours away in the city, her car was not outside, and she had not visited this cabin in months."),
-    (None, "A human throat has one vocal cord, but this creature possesses two separate acoustic voice boxes, splitting like the syrinx of a lyrebird. By vibrating both chambers simultaneously, it can copy a chainsaw, a crying infant, or your sister's exact voice."),
-    (None, "Yet copying is not speaking. It does not understand human words, so it merely replays recorded sound waves like a parrot. That is why it repeats the identical sentence twice: Noah, please unlock the door. Noah, please unlock the door."),
-    (None, "Up close, you would see its bleached, skeletal frame immediately, so it stays back at the fence. Cold night air bends sound waves down across the grass, carrying its whisper hundreds of yards. And behind its hollow eyes, a reflective mirror layer shines like a deer."),
-    (None, "Its brittle body cannot chase you down. Like an anglerfish in the deep ocean, it uses a lure. And the lure is the person you love most."),
-    (None, "Standing by the door, I remembered its only weakness. It can mimic a sound, but it cannot answer an unscripted question. Through the wood, I shouted: Mira, what did grandpa carve on the porch bench?"),
-    (None, "Dead silence swallowed the forest. Then, from the black trees, the mechanical voice replayed once more: Noah, please unlock the door. I threw the deadbolt, just as a nine-foot shadow stepped onto the porch."),
-    (None, "Inspired by folklore of the vocal mimic."),
-    (None, "Would you have opened the door?"),
+    ("Intro", "In the archives of St Andrews University in Scotland, an ancient leather tome from 1578 holds a drawing of a towering, skeletal man with bulging forehead veins and sunken dark eyes. His name was Herbert Solomon, and the town that feared him made a fatal mistake."),
+    (None, "In the winter of 1577, children began vanishing from the isolated village of Ettrick. First little Alana by an old stone well, then nine more children torn from the freezing cobblestone streets. Terrified parents turned their suspicion toward an outsider living deep in the woods: Herbert Solomon."),
+    (None, "Ravaged by an emaciated wasting sickness, Solomon lived in a secluded cabin, carving beautiful wooden dolls and leaving them on tree stumps for the local children. But fear blinded the townsfolk. A mob marched into the pines, barred his cabin, and burned him alive."),
+    (None, "Yet the disappearances did not stop. A dense fog swallowed Ettrick, and Solomon's tall, shadowy phantom began stalking the courtyards at night. Snatched from her bed, another girl vanished. Even inside the stone church, his tall form flickered behind the pillars."),
+    (None, "Desperate, the local vicar and armed men ambushed the figure in the street with torches and holy water. Trapped and burning, the gaunt spirit darted into an open cottage. The mob pursued him inside, discovering a trembling child who whispered: Below."),
+    (None, "Descending into the dark cellar vault, they uncovered the truth. Chained to the damp stone walls were all the missing children—alive! And dead upon the floor lay Tom Sutherland, the father of the very first missing girl."),
+    (None, "Consumed by drunken madness, Sutherland had taken the children himself. He was about to murder another captive when Herbert Solomon burst into the cellar, breaking the killer's neck to save the innocent. The man they burned was their protector all along."),
+    (None, "Centuries later, near the same woods, a little girl slipped into a raging river, swept toward jagged rocks. From the forest bank, a tall, gaunt figure burst forth, plunging a pale, skeletal arm into the churning water to pull her to safety."),
+    (None, "Even in death, Herbert Solomon was the kindest and gentlest of souls."),
+    (None, "Would you have judged him by his face?"),
 ]
 
-QUESTION = "Would you have opened the door?"
+QUESTION = "Would you have judged him by his face?"
