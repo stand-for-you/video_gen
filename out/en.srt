@@ -1,520 +1,1147 @@
 1
-00:00:00,000 --> 00:00:07,291
-In the deepest shadows of St Andrews
-University library in Scotland, hidden
+00:00:00,000 --> 00:00:05,457
+The computer monitor in my darkened
+bedroom flickered, bleeding
 
 2
-00:00:07,311 --> 00:00:14,123
-away in a dark, forgotten corner, sits a
-16th-century leather tome.
+00:00:05,477 --> 00:00:11,147
+from a game of Solitaire into a field of
+pure, obsidian black.
 
 3
-00:00:14,143 --> 00:00:20,113
-Its cover is cracked, weathered, and
-blackened by centuries of damp air.
+00:00:11,167 --> 00:00:15,858
+Then the crimson letters began to carve
+themselves across
 
 4
-00:00:20,133 --> 00:00:25,450
-On the inside of the back cover, an artist
-in the year
+00:00:15,878 --> 00:00:19,945
+the glass: Hi Jack, I need a favor from
+you.
 
 5
-00:00:25,470 --> 00:00:30,790
-1578 drew a picture that makes the heart
-turn cold.
+00:00:19,965 --> 00:00:25,061
+The internet cable was completely
+disconnected, its severed
 
 6
-00:00:30,810 --> 00:00:35,380
-It depicts a towering, skeletal man with
-long, gaunt
+00:00:25,081 --> 00:00:30,264
+connector lying limp on the carpet, yet
+the machine answered
 
 7
-00:00:35,400 --> 00:00:40,155
-limbs, standing at the edge of a twisting
-forest.
+00:00:30,284 --> 00:00:34,986
+my thoughts as if it were breathing inside
+my head.
 
 8
-00:00:40,175 --> 00:00:45,181
-Veins bulge across his pale, hairless
-skull, his dark
+00:00:35,006 --> 00:00:40,170
+It promised me wealth, love, and
+effortless promotions
 
 9
-00:00:45,201 --> 00:00:49,828
-eyes are sunken deep within bone, and
-beneath the
+00:00:40,190 --> 00:00:44,460
+in exchange for tiny, harmless gestures.
 
 10
-00:00:49,848 --> 00:00:54,491
-ink is written a single name: Herbert
-Solomon.
+00:00:44,480 --> 00:00:51,158
+Twelve years later, sitting in my
+sprawling country home with the woman of
 
 11
-00:00:54,511 --> 00:00:58,228
-Let us go back to the winter where this
-nightmare began.
+00:00:51,178 --> 00:00:57,885
+my dreams asleep downstairs, the monitor
+lit up with one final message.
 
 12
-00:00:58,828 --> 00:01:04,516
-The book chronicles the isolated town of
-Ettrick, set amidst the
+00:00:57,905 --> 00:01:04,510
+It told me that every person I ever doomed
+had been a brushstroke in an unseen
 
 13
-00:01:04,536 --> 00:01:10,168
-bleak moorlands and dense pine forests of
-southern Scotland.
+00:01:04,530 --> 00:01:10,905
+masterpiece, and that tonight, the canvas
+would be completed in blood.
 
 14
-00:01:10,188 --> 00:01:14,598
-In the freezing December of 1577, an
-unspeakable
+00:01:10,925 --> 00:01:15,912
+Would you give up eighty-five bitter years
+for twelve perfect ones?
 
 15
-00:01:14,618 --> 00:01:19,016
-dread settled over the cobblestone
-streets.
+00:01:15,932 --> 00:01:17,704
+Let us go back to the beginning.
 
 16
-00:01:19,036 --> 00:01:23,154
-The first to disappear was young Alana
-Sutherland.
+00:01:18,304 --> 00:01:24,003
+The strange communication began on a damp
+Tuesday evening while
 
 17
-00:01:23,174 --> 00:01:29,082
-She had dropped her hand-carved doll down
-an old stone well on the edge
+00:01:24,023 --> 00:01:29,387
+I was sitting alone in my modest
+second-floor apartment.
 
 18
-00:01:29,102 --> 00:01:35,060
-of town, and returned at sunset with a
-hook and rope to retrieve it.
+00:01:29,407 --> 00:01:34,312
+Rain tapped incessantly against the window
+panes, and the
 
 19
-00:01:35,080 --> 00:01:37,021
-She was never seen again.
+00:01:34,332 --> 00:01:39,410
+blinking amber light on my router signaled
+that my internet
 
 20
-00:01:37,041 --> 00:01:40,921
-Days later, another child vanished while
-walking
+00:01:39,430 --> 00:01:44,094
+connection was down for the third time
+that week.
 
 21
-00:01:40,941 --> 00:01:44,552
-an errand just two streets from his home.
+00:01:44,114 --> 00:01:49,230
+As I dragged the virtual cards across the
+screen, the Solitaire
 
 22
-00:01:44,572 --> 00:01:49,821
-By late January, seven children had been
-torn from existence.
+00:01:49,250 --> 00:01:53,280
+game suddenly dissolved into pitch-black
+void.
 
 23
-00:01:49,841 --> 00:01:54,475
-Fear consumed every cottage, turning
-neighbor against neighbor.
+00:01:53,300 --> 00:02:01,669
+Bright red monospaced text appeared line
+by line: Hi Jack, I need a favor from you.
 
 24
-00:01:55,075 --> 00:01:58,687
-When two more children vanished in
-mid-February,
+00:02:01,689 --> 00:02:06,283
+You are a very special person, and I know
+you will help me.
 
 25
-00:01:58,707 --> 00:02:02,317
-the desperate town elder demanded a
-culprit.
+00:02:06,303 --> 00:02:12,819
+A cold shiver crept down my spine as I
+leaned forward in my desk chair.
 
 26
-00:02:02,337 --> 00:02:07,032
-In every house and across every church
-pew, one whisper
+00:02:12,839 --> 00:02:18,800
+I thought it was a prank, but when I
+reached behind the tower and pulled
 
 27
-00:02:07,052 --> 00:02:11,254
-grew into a deafening roar: Herbert
-Solomon.
+00:02:18,820 --> 00:02:24,981
+the ethernet cable entirely from the wall,
+the screen did not falter.
 
 28
-00:02:11,274 --> 00:02:14,995
-Solomon was an outsider who lived in a
-small
+00:02:25,001 --> 00:02:30,034
+Still here, Jack, the text printed in
+eerie, steady rhythm.
 
 29
-00:02:15,015 --> 00:02:19,036
-wooden cabin deep within the Ettrick
-forest.
+00:02:30,054 --> 00:02:35,113
+Tomorrow when you arrive at work, I need
+you to move the large
 
 30
-00:02:19,056 --> 00:02:25,743
-Ravaged by an unknown wasting disease, his
-body was emaciated, his skin
+00:02:35,133 --> 00:02:39,836
+potted plant next to the elevator on the
+ground floor.
 
 31
-00:02:25,763 --> 00:02:32,617
-sheet-white, and he covered his face with
-a tarnished hat and cloth.
+00:02:39,856 --> 00:02:46,485
+Pull it out exactly three inches from the
+wall at eight seventeen in the morning.
 
 32
-00:02:32,637 --> 00:02:36,469
-He would watch the village children play
-from the tree line.
+00:02:46,505 --> 00:02:51,832
+The text promised that no one would be in
+the lobby at that precise
 
 33
-00:02:36,489 --> 00:02:43,633
-On several occasions, children returned
-home carrying exquisitely carved wooden
+00:02:51,852 --> 00:02:57,160
+second, and that I would be richly
+rewarded for my cooperation.
 
 34
-00:02:43,653 --> 00:02:50,099
-dolls and toys—left on tree stumps as
-gifts from the gentle recluse.
+00:02:57,180 --> 00:03:01,247
+Panicked, I yanked the main power cord
+from the wall
 
 35
-00:02:50,119 --> 00:02:53,660
-But to fearful parents, this was proof of
-evil.
+00:03:01,267 --> 00:03:05,548
+socket, plunging the room into absolute
+darkness.
 
 36
-00:02:54,260 --> 00:02:59,767
-On a freezing February night, grief and
-hatred reached a boiling pitch.
+00:03:05,568 --> 00:03:10,367
+I lay awake in bed for hours, convincing
+myself that
 
 37
-00:02:59,787 --> 00:03:06,741
-Decreeing Solomon a child-killing
-abomination, a mob of villagers armed
+00:03:10,387 --> 00:03:15,022
+exhaustion was playing cruel tricks on my
+mind.
 
 38
-00:03:06,761 --> 00:03:13,969
-with axes, scythes, and flaming torches
-marched into the dark forest.
+00:03:15,042 --> 00:03:19,749
+Yet by morning, fear had subtly
+transformed into
 
 39
-00:03:13,989 --> 00:03:20,033
-They surrounded his humble cabin and
-barred the heavy timbers from outside.
+00:03:19,769 --> 00:03:23,709
+an overwhelming, irresistible curiosity.
 
 40
-00:03:20,053 --> 00:03:26,817
-Cheering in a frenzy of revenge, they
-tossed torches onto the dried thatched
+00:03:24,309 --> 00:03:29,099
+I arrived at the corporate office park at
+ten minutes past
 
 41
-00:03:26,837 --> 00:03:32,890
-roof and watched the cabin ignite into a
-wall of roaring flame.
+00:03:29,119 --> 00:03:33,628
+eight, parking my sedan at the far edge of
+the lot.
 
 42
-00:03:32,910 --> 00:03:37,981
-Solomon's desperate screams echoed through
-the Scots pines,
+00:03:33,648 --> 00:03:39,028
+At precisely eight sixteen, I walked
+through the revolving glass
 
 43
-00:03:38,001 --> 00:03:42,510
-before fading into the crackle of falling
-timber.
+00:03:39,048 --> 00:03:44,541
+doors into the soaring marble atrium of
+the ten-story tower.
 
 44
-00:03:42,530 --> 00:03:47,009
-Satisfied that justice was served, the mob
-returned
+00:03:44,561 --> 00:03:50,208
+To my astonishment, the normally bustling
+lobby was completely
 
 45
-00:03:47,029 --> 00:03:50,293
-home, convinced the curse was lifted.
+00:03:50,228 --> 00:03:55,535
+desolate, exactly as the midnight message
+had foretold.
 
 46
-00:03:50,893 --> 00:03:55,418
-Yet within days, a suffocating fog
-descended over
+00:03:55,555 --> 00:04:00,794
+Heart pounding against my ribs, I
+approached the towering ceramic
 
 47
-00:03:55,438 --> 00:03:59,984
-Ettrick, and terror returned with a
-vengeance.
+00:04:00,814 --> 00:04:05,451
+pot nestled between the two central
+elevator shafts.
 
 48
-00:04:00,004 --> 00:04:04,514
-Townsfolk began waking in the dead of
-night to the sound
+00:04:05,471 --> 00:04:09,997
+The ornamental ficus plant was
+surprisingly heavy,
 
 49
-00:04:04,534 --> 00:04:09,008
-of floorboards creaking under an unnatural
-weight.
+00:04:10,017 --> 00:04:14,388
+filled with dense river rocks and moist
+soil.
 
 50
-00:04:09,028 --> 00:04:15,383
-An elderly woman woke to rustling beneath
-her bed, watching in paralyzed
+00:04:14,408 --> 00:04:20,037
+Bracing my heels against the polished
+marble, I hauled the pot forward
 
 51
-00:04:15,403 --> 00:04:21,526
-horror as a tall, skeletal figure dragged
-itself across the floor.
+00:04:20,057 --> 00:04:24,926
+exactly three inches and stepped back into
+the shadows.
 
 52
-00:04:21,546 --> 00:04:26,534
-In a cellar, a tradesman encountered the
-gaunt, sheet-white
+00:04:24,946 --> 00:04:31,797
+Seconds later, the outer glass doors
+opened and the morning wave of commuters
 
 53
-00:04:26,554 --> 00:04:30,380
-phantom hunched beneath the low rafters.
+00:04:31,817 --> 00:04:38,343
+poured inside, walking past the shifted
+plant without a second glance.
 
 54
-00:04:30,400 --> 00:04:34,418
-Then, the impossible occurred: an orphan
-girl was
+00:04:38,363 --> 00:04:45,383
+I rode the elevator up to the seventh
+floor, settled into my cubicle, and waited
 
 55
-00:04:34,438 --> 00:04:38,591
-snatched screaming from the foggy
-cobblestones.
+00:04:45,403 --> 00:04:52,697
+for some supernatural consequence, but the
+morning remained mundane and quiet.
 
 56
-00:04:38,611 --> 00:04:42,725
-Days later, another child vanished from
-his bedroom.
+00:04:52,717 --> 00:04:59,147
+My only genuine joy at the company was
+Allie, a radiant, warm-hearted
 
 57
-00:04:42,745 --> 00:04:48,132
-Even inside the parish church, Solomon's
-tall, spindly shadow
+00:04:59,167 --> 00:05:04,776
+woman who occupied the workstation just
+across the aisle.
 
 58
-00:04:48,152 --> 00:04:52,672
-stepped into the aisle before dissolving
-into mist.
+00:05:04,796 --> 00:05:09,749
+For months, our brief morning
+conversations had been the
 
 59
-00:04:53,272 --> 00:04:59,862
-Believing Solomon's vengeful wraith had
-returned to punish the town, Vicar
+00:05:09,769 --> 00:05:14,298
+solitary anchor keeping my lonely
+existence afloat.
 
 60
-00:04:59,882 --> 00:05:05,758
-McKenzie assembled a group of chosen men
-armed with blessed steel,
+00:05:14,898 --> 00:05:18,727
+As Allie and I were laughing over morning
+coffee,
 
 61
-00:05:05,778 --> 00:05:12,103
-flaming torches, and vials of holy water
-to hunt the phantom down.
+00:05:18,746 --> 00:05:22,875
+the elevator doors chime echoed down the
+hallway.
 
 62
-00:05:12,123 --> 00:05:17,934
-They waited in the midnight mist until the
-solitary figure of Herbert
+00:05:22,895 --> 00:05:28,771
+Out hobbled James Bentley, the stern and
+demanding manager of our
 
 63
-00:05:17,954 --> 00:05:23,895
-Solomon appeared, walking the cobblestones
-with purposeful strides.
+00:05:28,791 --> 00:05:34,573
+entire division, leaning heavily against
+the beige drywall.
 
 64
-00:05:23,915 --> 00:05:29,686
-McKenzie and his men encircled the
-creature, brandishing weapons.
+00:05:34,593 --> 00:05:40,507
+Bentley was swearing loudly in agony, his
+face pale and contorted
 
 65
-00:05:29,706 --> 00:05:34,761
-The vicar splashed holy water across the
-stone, and a torch
+00:05:40,527 --> 00:05:45,828
+as he dragged his swollen right foot
+across the carpet.
 
 66
-00:05:34,781 --> 00:05:39,964
-struck Solomon's sleeve, setting the
-frayed cloth alight.
+00:05:45,848 --> 00:05:50,235
+When Allie rushed over with concern, he
+barked that he
 
 67
-00:05:39,984 --> 00:05:44,382
-But the tall figure broke through the
-circle, fleeing like
+00:05:50,255 --> 00:05:54,398
+had tripped over a carelessly positioned
+decorative
 
 68
-00:05:44,402 --> 00:05:48,363
-a giant spider shadow across the village
-courtyards.
+00:05:54,418 --> 00:05:59,010
+plant in the lobby and violently twisted
+his ankle.
 
 69
-00:05:48,963 --> 00:05:53,337
-Pursued by the shouting mob, Solomon
-sprinted down the
+00:05:59,030 --> 00:06:05,087
+A wave of sickening guilt washed over me
+as I retreated to my desk.
 
 70
-00:05:53,357 --> 00:05:57,869
-main street and ducked into an open
-cottage doorway.
+00:06:05,107 --> 00:06:11,381
+Moving that pot three inches had caused my
+manager to stumble, an innocent
 
 71
-00:05:57,889 --> 00:06:02,448
-McKenzie and the villagers burst inside,
-only to find
+00:06:11,401 --> 00:06:17,615
+mistake that I desperately hoped would
+heal with a few days of rest.
 
 72
-00:06:02,468 --> 00:06:07,476
-a weak, trembling young girl lying on the
-hall floor.
+00:06:17,635 --> 00:06:21,783
+When I returned home that evening, the
+computer screen
 
 73
-00:06:07,496 --> 00:06:12,191
-With her last ounce of strength, the child
-pointed toward
+00:06:21,803 --> 00:06:25,788
+flickered to life the moment I entered the
+room.
 
 74
-00:06:12,211 --> 00:06:16,958
-the stone stairway and whispered a single
-word: Below.
+00:06:25,808 --> 00:06:27,650
+How was your day, Jack?
 
 75
-00:06:16,978 --> 00:06:21,371
-The vicar descended with his torch into
-the cold cellar
+00:06:27,670 --> 00:06:31,500
+the red letters asked with mocking
+politeness.
 
 76
-00:06:21,391 --> 00:06:25,272
-vault, and the breath caught in his
-throat.
+00:06:31,520 --> 00:06:36,583
+I sat motionless as the text continued:
+You are wondering
 
 77
-00:06:25,292 --> 00:06:29,709
-Chained against the damp stone walls were
-the missing
+00:06:36,603 --> 00:06:40,539
+why James Bentley had to twist his ankle.
 
 78
-00:06:29,729 --> 00:06:33,943
-children—malnourished and terrified, but
-alive!
+00:06:40,559 --> 00:06:44,349
+This chain of events is not done playing
+out.
 
 79
-00:06:33,963 --> 00:06:39,719
-And lying motionless upon the stone floor
-was the true fiend: Tom
+00:06:44,369 --> 00:06:48,218
+Go to work tomorrow as you always do, and
+watch
 
 80
-00:06:39,739 --> 00:06:45,857
-Sutherland, the father of the very first
-child who had vanished.
+00:06:48,238 --> 00:06:51,960
+how smoothly the pieces fall into place.
 
 81
-00:06:45,877 --> 00:06:50,564
-Sutherland had killed his daughter in a
-drunken rage, and
+00:06:51,980 --> 00:06:58,555
+A disturbing mixture of terror and dark
+fascination took hold of me, and
 
 82
-00:06:50,584 --> 00:06:55,075
-consumed by madness, had stolen the other
-children.
+00:06:58,575 --> 00:07:04,528
+that night, my sleep was haunted by the
+sound of falling dominos.
 
 83
-00:06:55,095 --> 00:07:00,978
-He was about to execute another captive
-when Herbert Solomon burst through
+00:07:05,128 --> 00:07:10,023
+The following afternoon at the office was
+unusually somber.
 
 84
-00:07:00,998 --> 00:07:06,901
-the cellar door, ending Sutherland's reign
-of terror to save the innocent.
+00:07:10,043 --> 00:07:15,450
+James Bentley arrived after lunch, his
+ankle heavily bandaged,
 
 85
-00:07:07,501 --> 00:07:12,675
-The town rejoiced, realizing with heavy
-shame that the gentle
+00:07:15,470 --> 00:07:20,452
+barely able to bear any weight on the
+swollen joint.
 
 86
-00:07:12,695 --> 00:07:18,084
-recluse they had burned alive was their
-protector all along.
+00:07:20,472 --> 00:07:24,092
+Shortly before three o'clock, Bentley
+limped
 
 87
-00:07:18,104 --> 00:07:22,388
-Yet the story does not end in the 16th
-century.
+00:07:24,112 --> 00:07:28,032
+over to Allie's cubicle in obvious
+distress.
 
 88
-00:07:22,408 --> 00:07:27,193
-Centuries later, while researching the
-Ettrick tome, I visited
+00:07:28,052 --> 00:07:34,801
+He pleaded with her to drive his car to an
+urgent care clinic, explaining that
 
 89
-00:07:27,213 --> 00:07:31,136
-a colleague's estate near the Scottish
-borders.
+00:07:34,821 --> 00:07:41,760
+the throbbing pain had made it impossible
+for him to operate the gas pedal.
 
 90
-00:07:31,156 --> 00:07:37,446
-The following afternoon, panicked screams
-shattered the tranquil countryside—my
+00:07:41,780 --> 00:07:47,601
+Allie agreed without hesitation, grabbing
+her winter coat from the chair.
 
 91
-00:07:37,466 --> 00:07:43,168
-friend's little daughter had fallen into a
-violent, swollen river.
+00:07:47,621 --> 00:07:53,734
+She turned back to flash me a gentle
+smile, whispering, See you tomorrow,
 
 92
-00:07:43,188 --> 00:07:47,137
-Swept by torrential currents toward jagged
-rocks,
+00:07:53,754 --> 00:07:59,393
+Jackie, as she escorted our limping boss
+toward the elevators.
 
 93
-00:07:47,157 --> 00:07:51,325
-the child lost her grip on a slippery tree
-root.
+00:07:59,413 --> 00:08:03,424
+Ten minutes later, a catastrophic sound
+shattered
 
 94
-00:07:51,345 --> 00:07:55,477
-We plunged into the rapids, but we were
-too far away.
+00:08:03,444 --> 00:08:07,591
+the afternoon tranquility of the seventh
+floor.
 
 95
-00:07:55,497 --> 00:07:57,725
-She was seconds from drowning.
+00:08:07,611 --> 00:08:12,656
+A deafening air horn blared in frantic
+bursts, followed by
 
 96
-00:07:57,745 --> 00:08:00,609
-Suddenly, the forest branches cracked.
+00:08:12,676 --> 00:08:17,634
+the agonizing screech of burning rubber
+and a thunderous,
 
 97
-00:08:00,629 --> 00:08:07,552
-From the opposite bank, a tall, gaunt
-figure burst forth at superhuman speed.
+00:08:17,654 --> 00:08:22,713
+violent metallic impact that shook the
+glass windows.
 
 98
-00:08:07,572 --> 00:08:11,953
-A long, skeletal hand plunged deep into
-the churning
+00:08:22,733 --> 00:08:26,676
+Workers gasped and surged toward the
+panoramic
 
 99
-00:08:11,973 --> 00:08:15,788
-foam, pulling the girl gently to safety.
+00:08:26,696 --> 00:08:30,250
+glass overlooking the boulevard below.
 
 100
-00:08:15,808 --> 00:08:22,021
-The pale, withered man placed the child on
-the grass, gazed across the
+00:08:30,270 --> 00:08:36,462
+Down on the asphalt, an eighteen-wheeler
+truck had plowed broadside into
 
 101
-00:08:22,041 --> 00:08:28,287
-river with dark, sorrowful eyes, and
-vanished into the Scots pines.
+00:08:36,482 --> 00:08:42,520
+Bentley's sedan, crushing the driver's
+side like an aluminum can.
 
 102
-00:08:28,307 --> 00:08:35,090
-Even in death, Herbert Solomon was the
-kindest and gentlest of souls.
+00:08:42,540 --> 00:08:48,032
+I scrambled down the emergency stairs in
+blind panic, bursting
 
 103
-00:08:35,110 --> 00:08:38,731
-This story was adapted from Scottish
-folklore
+00:08:48,052 --> 00:08:53,755
+onto the street amidst wailing sirens and
+weeping bystanders.
 
 104
-00:08:38,751 --> 00:08:41,932
-and the legend of Herbert Solomon.
+00:08:53,775 --> 00:08:58,958
+James Bentley sat dazed and bleeding in
+the passenger seat,
 
 105
-00:08:41,952 --> 00:08:43,162
-Now tell me.
+00:08:58,978 --> 00:09:04,338
+but the driver's compartment where Allie
+had been sitting had
 
 106
-00:08:43,182 --> 00:08:45,612
-Would you have judged him by his face?
+00:09:04,358 --> 00:09:09,727
+been compacted into twisted,
+unrecognizable scrap metal.
+
+107
+00:09:09,747 --> 00:09:12,429
+I did not return to the office that day.
+
+108
+00:09:12,449 --> 00:09:17,325
+I drove back to my apartment in a numb
+daze, vomiting
+
+109
+00:09:17,345 --> 00:09:22,314
+into the sink as the unbearable truth
+crushed my soul:
+
+110
+00:09:22,334 --> 00:09:26,953
+my hands had set that fatal collision into
+motion.
+
+111
+00:09:27,553 --> 00:09:31,715
+I stared at the computer for nearly an
+hour before
+
+112
+00:09:31,735 --> 00:09:35,611
+trembling fingers pressed the power
+switch.
+
+113
+00:09:35,631 --> 00:09:40,197
+The display ignited instantly into that
+horrific
+
+114
+00:09:40,217 --> 00:09:44,606
+black field: No Jack, it is not your
+fault.
+
+115
+00:09:44,626 --> 00:09:49,772
+All people die eventually, some simply
+sooner than others.
+
+116
+00:09:49,792 --> 00:09:55,083
+The text explained that Allie had been
+secretly unfaithful to
+
+117
+00:09:55,103 --> 00:10:01,003
+her past partners and was planning to
+manipulate my naive affections
+
+118
+00:10:01,023 --> 00:10:05,743
+into four agonizing years of emotional
+devastation.
+
+119
+00:10:05,763 --> 00:10:09,792
+It insisted that by shifting the timeline,
+we had
+
+120
+00:10:09,812 --> 00:10:13,712
+spared me a lifetime of bitter heartbreak.
+
+121
+00:10:13,732 --> 00:10:21,259
+Enraged by the cold rationalization, I
+seized the CRT monitor and hurled it onto
+
+122
+00:10:21,279 --> 00:10:28,352
+the hardwood floor, watching it shatter
+into sparks and smoking plastic.
+
+123
+00:10:28,372 --> 00:10:33,687
+Yet the next morning, reality took an even
+more disorienting turn.
+
+124
+00:10:33,707 --> 00:10:41,204
+Division Director Diego Salbara called me
+into the executive boardroom and offered
+
+125
+00:10:41,224 --> 00:10:48,262
+me James Bentley's managerial role on the
+spot, citing the critical Lancaster
+
+126
+00:10:48,282 --> 00:10:55,404
+project that could not pause while Bentley
+lay in an intensive care coma.
+
+127
+00:10:55,424 --> 00:11:02,625
+The promotion doubled my salary overnight
+and vaulted me into executive leadership.
+
+128
+00:11:02,645 --> 00:11:06,900
+That afternoon, I purchased a brand new
+flat-panel
+
+129
+00:11:06,920 --> 00:11:10,513
+display and hooked it up in my study.
+
+130
+00:11:10,533 --> 00:11:16,240
+The red text welcomed me back with warmth:
+I am called the Seer.
+
+131
+00:11:16,260 --> 00:11:20,367
+For thousands of years I have seen all
+branching
+
+132
+00:11:20,387 --> 00:11:23,935
+futures, what will be and what can be.
+
+133
+00:11:23,955 --> 00:11:28,951
+But without a physical body, I require a
+living partner to
+
+134
+00:11:28,971 --> 00:11:34,071
+act as my paintbrush upon the canvas of
+human history.
+
+135
+00:11:34,091 --> 00:11:40,251
+The entity swore two unbreakable oaths: it
+would never speak an outright
+
+136
+00:11:40,271 --> 00:11:45,701
+lie, and it would never command me to
+commit an illegal act.
+
+137
+00:11:45,721 --> 00:11:51,383
+Transfixed by the promise of unlimited
+fortune, I placed my hands
+
+138
+00:11:51,403 --> 00:11:56,123
+on the keys and typed: What do you want me
+to do next?
+
+139
+00:11:56,723 --> 00:12:02,558
+Two years passed in a whirlwind of
+ascending prosperity, with small
+
+140
+00:12:02,578 --> 00:12:07,752
+monthly requests arriving like clockwork
+on my terminal.
+
+141
+00:12:07,772 --> 00:12:12,777
+One afternoon, the Seer instructed me to
+enter Garmin's
+
+142
+00:12:12,797 --> 00:12:17,711
+Liquor Store downtown at precisely twelve
+thirty-seven
+
+143
+00:12:17,731 --> 00:12:23,004
+and answer any question with the number
+twenty-seven.
+
+144
+00:12:23,024 --> 00:12:28,727
+Inside the dingy shop, a burly
+construction worker in dusty overalls
+
+145
+00:12:28,747 --> 00:12:33,572
+was filling out a state lottery ticket at
+the counter.
+
+146
+00:12:33,592 --> 00:12:38,371
+When the man turned around and casually
+asked me for
+
+147
+00:12:38,391 --> 00:12:43,528
+a lucky number, I smiled and replied:
+Twenty-seven.
+
+148
+00:12:43,548 --> 00:12:48,760
+Two weeks later, the same worker spotted
+me in a supermarket,
+
+149
+00:12:48,780 --> 00:12:54,035
+beaming with joy and wearing an expensive
+gold wristwatch.
+
+150
+00:12:54,055 --> 00:12:59,822
+He shouted that he had won the
+multi-million dollar jackpot, writing
+
+151
+00:12:59,842 --> 00:13:06,061
+me a personal check for ten thousand
+dollars as his good luck charm.
+
+152
+00:13:06,081 --> 00:13:12,768
+When I asked the Seer why we had finally
+performed an act of pure benevolence,
+
+153
+00:13:12,788 --> 00:13:18,614
+the screen illuminated with cold clarity:
+Within twenty-four months,
+
+154
+00:13:18,634 --> 00:13:24,589
+that lottery winner will squander every
+penny on reckless gambles.
+
+155
+00:13:24,609 --> 00:13:31,532
+His wife will flee with their children,
+leaving him an impoverished, broken shell.
+
+156
+00:13:31,552 --> 00:13:37,982
+Another favor instructed me to park my car
+in stall forty-three outside
+
+157
+00:13:38,002 --> 00:13:43,641
+the County Courthouse at four forty-seven
+in the afternoon.
+
+158
+00:13:43,661 --> 00:13:49,541
+That simple act displaced another driver,
+initiating a sprawling
+
+159
+00:13:49,561 --> 00:13:54,797
+chain reaction across twenty-five
+strangers that resulted
+
+160
+00:13:54,817 --> 00:14:00,225
+in a missed train, a mugging, and an
+emergency detour.
+
+161
+00:14:00,245 --> 00:14:06,737
+At the end of that tangled web stood
+Donna, a brilliant, compassionate woman
+
+162
+00:14:06,757 --> 00:14:13,120
+who entered the courthouse lobby at the
+exact second I was walking out.
+
+163
+00:14:13,140 --> 00:14:17,319
+We fell deeply in love, married within the
+year, and
+
+164
+00:14:17,339 --> 00:14:21,565
+built a life filled with laughter and
+devotion.
+
+165
+00:14:21,585 --> 00:14:28,263
+Over twelve glorious years, every request
+bore the same twin fruits: an
+
+166
+00:14:28,283 --> 00:14:34,603
+unseen disaster for a stranger, and
+radiant, golden fortune for me.
+
+167
+00:14:35,203 --> 00:14:41,184
+By our twelfth year together, Donna and I
+were living in a magnificent
+
+168
+00:14:41,204 --> 00:14:47,057
+two-story estate nestled among the pine
+trees of the countryside.
+
+169
+00:14:47,077 --> 00:14:52,048
+I had retired early, surrounded by wealth,
+deep respect,
+
+170
+00:14:52,068 --> 00:14:56,597
+and a marriage that felt like heaven on
+earth.
+
+171
+00:14:56,617 --> 00:15:01,713
+On a chilly November evening, while Donna
+was relaxing on the
+
+172
+00:15:01,733 --> 00:15:06,962
+living room sofa, my computer chimed in
+the upstairs study.
+
+173
+00:15:06,982 --> 00:15:13,845
+The Seer's request was simpler than ever:
+Call Riago's Pizza in exactly
+
+174
+00:15:13,865 --> 00:15:19,723
+two minutes, let the line ring three
+times, and hang up.
+
+175
+00:15:19,743 --> 00:15:24,263
+I dialed the number, counted three hollow
+rings over the
+
+176
+00:15:24,283 --> 00:15:28,859
+speaker, and ended the call without a
+second thought.
+
+177
+00:15:28,879 --> 00:15:34,513
+Thirty minutes later, the front doorbell
+chimed through the quiet halls.
+
+178
+00:15:34,533 --> 00:15:39,998
+Standing on the front porch was a pizza
+delivery courier whose
+
+179
+00:15:40,018 --> 00:15:45,784
+sheer physical presence sent a pang of
+dread through my chest.
+
+180
+00:15:45,804 --> 00:15:53,317
+He was a towering young man, well over six
+feet six inches tall, with broad,
+
+181
+00:15:53,337 --> 00:16:00,903
+muscular shoulders and hollow, furious
+eyes under a stained Riago's cap.
+
+182
+00:16:00,923 --> 00:16:05,954
+The courier shoved a cardboard pizza box
+into my hands,
+
+183
+00:16:05,974 --> 00:16:11,097
+snarling that it was already paid by card
+and he refused
+
+184
+00:16:11,117 --> 00:16:15,530
+to drive it back down the dark rural
+highway.
+
+185
+00:16:15,550 --> 00:16:22,445
+When I admitted that I carried no cash on
+me for a tip, the boy spat venomously into
+
+186
+00:16:22,465 --> 00:16:29,399
+the flowerbed, glared into the hallway,
+and stormed back to his idling vehicle.
+
+187
+00:16:29,419 --> 00:16:33,942
+Donna and I ate the pizza together on the
+plush couch,
+
+188
+00:16:33,962 --> 00:16:38,785
+laughing as the rain drummed softly
+against the glass.
+
+189
+00:16:38,805 --> 00:16:42,954
+Shortly after eleven, she drifted to sleep
+under
+
+190
+00:16:42,974 --> 00:16:47,573
+a knitted blanket, looking peaceful and
+radiant.
+
+191
+00:16:47,593 --> 00:16:53,399
+Leaving Donna sleeping soundly, I tiptoed
+upstairs to my office,
+
+192
+00:16:53,419 --> 00:16:58,244
+an inexplicable knot of anxiety tightening
+in my gut.
+
+193
+00:16:58,844 --> 00:17:05,410
+As soon as I sat down, the monitor flashed
+into that familiar crimson glow:
+
+194
+00:17:05,430 --> 00:17:11,418
+That delivery boy is quite an impressive
+specimen, isn't he Jack?
+
+195
+00:17:11,438 --> 00:17:16,638
+He noticed that you forgot to lock the
+heavy front door after he left.
+
+196
+00:17:16,658 --> 00:17:22,797
+Panic seized my limbs, but the text
+commanded: Stay seated, Jack.
+
+197
+00:17:22,817 --> 00:17:27,870
+Locking the door now will not alter the
+geometry of fate.
+
+198
+00:17:27,890 --> 00:17:33,701
+You see, every single favor you carried
+out across twelve years
+
+199
+00:17:33,721 --> 00:17:39,056
+was directed toward one supreme artistic
+culmination.
+
+200
+00:17:39,076 --> 00:17:45,108
+The Seer unraveled the horrifying
+tapestry: when Allie died twelve years
+
+201
+00:17:45,128 --> 00:17:51,328
+ago, her devastated brother dropped out of
+medical school and never became
+
+202
+00:17:51,348 --> 00:17:56,923
+the child psychologist who could have
+healed that troubled boy.
+
+203
+00:17:56,943 --> 00:18:02,330
+The ruined lottery winner had moved into
+the boy's neighborhood,
+
+204
+00:18:02,350 --> 00:18:06,582
+beating him mercilessly in an alcoholic
+rage.
+
+205
+00:18:06,602 --> 00:18:13,385
+The boy's neglectful mother had fallen
+into severe addiction using narcotics
+
+206
+00:18:13,405 --> 00:18:19,951
+purchased by the very mugger displaced by
+my courthouse parking favor.
+
+207
+00:18:19,971 --> 00:18:25,645
+Over a decade of calculated suffering had
+engineered that young
+
+208
+00:18:25,665 --> 00:18:30,886
+man into an unstoppable instrument of
+psychotic fury.
+
+209
+00:18:30,906 --> 00:18:37,648
+Tonight, a wrong address and a missing tip
+pushed his fragile mind over the edge.
+
+210
+00:18:37,668 --> 00:18:42,366
+The text concluded: He is standing in your
+living room
+
+211
+00:18:42,386 --> 00:18:47,359
+right now, ending Donna's life at this
+exact second.
+
+212
+00:18:47,379 --> 00:18:51,615
+A muffled, choked scream echoed up the
+stairwell,
+
+213
+00:18:51,635 --> 00:18:55,998
+followed by the sickening wet sound of
+silence.
+
+214
+00:18:56,018 --> 00:19:02,388
+I shrieked Donna's name and lunged toward
+the doorway, but a melodic,
+
+215
+00:19:02,408 --> 00:19:08,302
+feminine voice suddenly resonated directly
+inside my skull.
+
+216
+00:19:08,322 --> 00:19:12,776
+Stop, Jack, the soothing whisper echoed in
+my mind.
+
+217
+00:19:12,796 --> 00:19:14,345
+You cannot save her.
+
+218
+00:19:14,365 --> 00:19:19,448
+Had we never met, you would have lived
+eighty-five bitter,
+
+219
+00:19:19,468 --> 00:19:24,587
+lonely, meaningless years, dying unloved
+and forgotten.
+
+220
+00:19:24,607 --> 00:19:31,092
+Instead, I gave you twelve magnificent
+years of pure joy, and in return,
+
+221
+00:19:31,112 --> 00:19:37,415
+you helped me create a masterpiece that
+begins and ends with you.
+
+222
+00:19:37,435 --> 00:19:42,397
+Tears of agony and awe streamed down my
+face as heavy,
+
+223
+00:19:42,417 --> 00:19:47,125
+deliberate footsteps ascended the wooden
+stairs.
+
+224
+00:19:47,145 --> 00:19:53,113
+The massive silhouette of the delivery
+courier filled the doorway, his
+
+225
+00:19:53,133 --> 00:19:58,953
+eyes dead and unblinking, a crimson blade
+gleaming in his grip.
+
+226
+00:19:58,973 --> 00:20:04,181
+On the screen behind me, the Seer's final
+words pulsed softly
+
+227
+00:20:04,201 --> 00:20:09,367
+in the dark: Don't you have something to
+say to me, Jack?
+
+228
+00:20:09,387 --> 00:20:14,272
+I closed my eyes, accepted the beauty of
+the tapestry,
+
+229
+00:20:14,292 --> 00:20:18,446
+and whispered my final breath: Thank you.
+
+230
+00:20:18,466 --> 00:20:23,063
+This story was adapted from The Seer of
+Possibilities,
+
+231
+00:20:23,083 --> 00:20:27,190
+inspired by the classic creepypasta
+legend.
+
+232
+00:20:27,210 --> 00:20:31,936
+Would you trade eighty-five bitter years
+for twelve perfect ones?
 

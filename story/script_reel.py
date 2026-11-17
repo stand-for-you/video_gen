@@ -1,17 +1,28 @@
-# Reel retelling (aim 2:40-2:55 = 160-175s) of The Melancholy of Herbert Solomon.
-# ONE speaker only (the narrator): no character tags.
-
+# The Seer of Possibilities - Reel Retelling (9:16)
+# Target length 2:40-2:55 (160 to 175 seconds), ONE speaker only.
 BEATS = [
-    ("Intro", "In the archives of St Andrews University in Scotland, an ancient leather tome from 1578 holds a drawing of a towering, skeletal man with bulging forehead veins and sunken dark eyes. His name was Herbert Solomon, and the town that feared him made a fatal mistake."),
-    (None, "In the winter of 1577, children began vanishing from the isolated village of Ettrick. First little Alana by an old stone well, then nine more children torn from the freezing cobblestone streets. Terrified parents turned their suspicion toward an outsider living deep in the woods: Herbert Solomon."),
-    (None, "Ravaged by an emaciated wasting sickness, Solomon lived in a secluded cabin, carving beautiful wooden dolls and leaving them on tree stumps for the local children. But fear blinded the townsfolk. A mob marched into the pines, barred his cabin, and burned him alive."),
-    (None, "Yet the disappearances did not stop. A dense fog swallowed Ettrick, and Solomon's tall, shadowy phantom began stalking the courtyards at night. Snatched from her bed, another girl vanished. Even inside the stone church, his tall form flickered behind the pillars."),
-    (None, "Desperate, the local vicar and armed men ambushed the figure in the street with torches and holy water. Trapped and burning, the gaunt spirit darted into an open cottage. The mob pursued him inside, discovering a trembling child who whispered: Below."),
-    (None, "Descending into the dark cellar vault, they uncovered the truth. Chained to the damp stone walls were all the missing children—alive! And dead upon the floor lay Tom Sutherland, the father of the very first missing girl."),
-    (None, "Consumed by drunken madness, Sutherland had taken the children himself. He was about to murder another captive when Herbert Solomon burst into the cellar, breaking the killer's neck to save the innocent. The man they burned was their protector all along."),
-    (None, "Centuries later, near the same woods, a little girl slipped into a raging river, swept toward jagged rocks. From the forest bank, a tall, gaunt figure burst forth, plunging a pale, skeletal arm into the churning water to pull her to safety."),
-    (None, "Even in death, Herbert Solomon was the kindest and gentlest of souls."),
-    (None, "Would you have judged him by his face?"),
+    ("Intro", "The monitor in my dark bedroom went black, and glowing red text appeared: Hi Jack, I need a favor from you."),
+    (None, "The internet was disconnected, yet the screen answered my thoughts. It promised wealth if I moved an office plant. Let us begin."),
+    (None, "An entity called the Seer contacted me through my offline computer, claiming it saw all branching timelines."),
+    (None, "Its first favor was simple: move a potted plant in my office lobby at eight seventeen."),
+    (None, "An hour later, my boss tripped over the plant, violently twisting his ankle."),
+    (None, "Unable to drive, he asked my favorite coworker, Allie, to take him to the hospital."),
+    (None, "Minutes later, a speeding truck crushed their car, killing Allie instantly."),
+    (None, "In horror, I wanted to smash the monitor, but the Seer said her death spared me betrayal."),
+    (None, "The next morning, I was promoted to division manager with a fortune in bonuses."),
+    (None, "Every monthly favor brought ruin to a stranger, but immense wealth and love to me."),
+    (None, "A lottery favor ruined a stranger's family, while a parking favor led me to Donna, my future wife."),
+    (None, "For twelve glorious years, my life was heaven on earth."),
+    (None, "Then came the final favor: call a pizza parlor, let it ring three times, and hang up."),
+    (None, "Thirty minutes later, a towering delivery brute arrived, glaring with fury when I had no cash tip."),
+    (None, "Donna fell asleep on the couch, and I crept upstairs to the computer."),
+    (None, "The screen lit up with the horrifying truth."),
+    (None, "Every past favor was an engineered domino to turn that delivery boy into a weapon and bring him here tonight."),
+    (None, "The screen read: He is downstairs right now, ending Donna's life at this exact second."),
+    (None, "As heavy footsteps ascended the stairs, a soothing voice whispered in my mind: I gave you twelve magnificent years instead of eighty-five bitter, lonely ones."),
+    (None, "The giant entered with a bloodstained blade."),
+    (None, "The screen pulsed: Don't you have something to say to me, Jack? With tears in my eyes, I whispered: Thank you."),
+    (None, "Would you trade eighty-five bitter years for twelve perfect ones?"),
 ]
 
-QUESTION = "Would you have judged him by his face?"
+TEASER_LAST_BEAT = 1

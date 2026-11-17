@@ -1,40 +1,13 @@
-# Dependencies
+# Scroll Kaos work folder (also used as the cloud-compile repo). Generated or heavy files stay out of git.
 node_modules/
-.npm/
-
-# Build and Render intermediate files
 build/
 renders/
-qa/
-.browser
-*.tmp
-*.log
-
-# Large binary AI models (downloaded dynamically)
-models/
-*.onnx
-*.bin
-
-# Heavy uncompressed local audio files
-*.wav
-audio/**/*.wav
-audio/*.wav
-
-# Local image scrapes / crops
-crop_*.png
-thumb_*.jpg
-title_*.png
-sample_alder_prev.jpg
-
-# Compiled final deliverables (generated dynamically by GitHub Actions)
 final/
-
-# Python cache
+qa/
+models/
+.cloud/
+.browser
+*.wav
+*.log
 __pycache__/
 *.pyc
-
-# Local backup / legacy work folders
-setup_alder.py
-work_i_know_youre_awake/
-.vscode/
-.idea/

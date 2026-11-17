@@ -1,1 +1,1 @@
-[{"match": "It hissed", "kind": "hiss", "at": "end", "db": -28}]
+[{"match": "A scream woke me up", "kind": "hiss", "at": "start", "db": -26}, {"match": "I heard its teeth click", "kind": "click", "at": "end", "db": -14}]

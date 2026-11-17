@@ -10,67 +10,64 @@ Style: Cap,Lora,70,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,-1,0,0,0,100,100,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:04.29,Cap,,0,0,0,,In the archives of St\NAndrews University
-Dialogue: 0,0:00:04.31,0:00:07.63,Cap,,0,0,0,,in Scotland, an\Nancient leather
-Dialogue: 0,0:00:07.65,0:00:12.48,Cap,,0,0,0,,tome from 1578 holds a\Ndrawing of a towering,
-Dialogue: 0,0:00:12.50,0:00:16.14,Cap,,0,0,0,,skeletal man with\Nbulging forehead
-Dialogue: 0,0:00:16.16,0:00:19.35,Cap,,0,0,0,,veins and sunken dark\Neyes.
-Dialogue: 0,0:00:19.37,0:00:22.76,Cap,,0,0,0,,His name was Herbert\NSolomon, and the town
-Dialogue: 0,0:00:22.78,0:00:26.22,Cap,,0,0,0,,that feared him made a\Nfatal mistake.
-Dialogue: 0,0:00:26.24,0:00:29.14,Cap,,0,0,0,,In the winter of 1577,\Nchildren
-Dialogue: 0,0:00:29.16,0:00:32.25,Cap,,0,0,0,,began vanishing from\Nthe isolated
-Dialogue: 0,0:00:32.27,0:00:34.34,Cap,,0,0,0,,village of Ettrick.
-Dialogue: 0,0:00:34.36,0:00:37.57,Cap,,0,0,0,,First little Alana by\Nan old stone well,
-Dialogue: 0,0:00:37.59,0:00:40.22,Cap,,0,0,0,,then nine more\Nchildren torn from
-Dialogue: 0,0:00:40.24,0:00:43.18,Cap,,0,0,0,,the freezing\Ncobblestone streets.
-Dialogue: 0,0:00:43.20,0:00:46.68,Cap,,0,0,0,,Terrified parents\Nturned their suspicion
-Dialogue: 0,0:00:46.70,0:00:49.30,Cap,,0,0,0,,toward an outsider\Nliving deep
-Dialogue: 0,0:00:49.32,0:00:52.37,Cap,,0,0,0,,in the woods: Herbert\NSolomon.
-Dialogue: 0,0:00:52.39,0:00:55.11,Cap,,0,0,0,,Ravaged by an\Nemaciated wasting
-Dialogue: 0,0:00:55.13,0:00:57.13,Cap,,0,0,0,,sickness, Solomon\Nlived
-Dialogue: 0,0:00:57.15,0:00:59.60,Cap,,0,0,0,,in a secluded cabin,\Ncarving
-Dialogue: 0,0:00:59.62,0:01:01.90,Cap,,0,0,0,,beautiful wooden dolls\Nand
-Dialogue: 0,0:01:01.92,0:01:04.28,Cap,,0,0,0,,leaving them on tree\Nstumps
-Dialogue: 0,0:01:04.30,0:01:06.61,Cap,,0,0,0,,for the local\Nchildren.
-Dialogue: 0,0:01:06.63,0:01:09.15,Cap,,0,0,0,,But fear blinded the\Ntownsfolk.
-Dialogue: 0,0:01:09.17,0:01:12.16,Cap,,0,0,0,,A mob marched into the\Npines, barred
-Dialogue: 0,0:01:12.18,0:01:15.29,Cap,,0,0,0,,his cabin, and burned\Nhim alive.
-Dialogue: 0,0:01:15.31,0:01:18.35,Cap,,0,0,0,,Yet the disappearances\Ndid not stop.
-Dialogue: 0,0:01:18.37,0:01:22.31,Cap,,0,0,0,,A dense fog swallowed\NEttrick, and Solomon's
-Dialogue: 0,0:01:22.33,0:01:24.74,Cap,,0,0,0,,tall, shadowy phantom\Nbegan
-Dialogue: 0,0:01:24.76,0:01:28.02,Cap,,0,0,0,,stalking the\Ncourtyards at night.
-Dialogue: 0,0:01:28.04,0:01:31.44,Cap,,0,0,0,,Snatched from her bed,\Nanother girl vanished.
-Dialogue: 0,0:01:31.46,0:01:34.55,Cap,,0,0,0,,Even inside the stone\Nchurch, his tall
-Dialogue: 0,0:01:34.57,0:01:37.78,Cap,,0,0,0,,form flickered behind\Nthe pillars.
-Dialogue: 0,0:01:37.80,0:01:41.03,Cap,,0,0,0,,Desperate, the local\Nvicar and armed
-Dialogue: 0,0:01:41.05,0:01:44.37,Cap,,0,0,0,,men ambushed the\Nfigure in the street
-Dialogue: 0,0:01:44.39,0:01:47.20,Cap,,0,0,0,,with torches and holy\Nwater.
-Dialogue: 0,0:01:47.22,0:01:50.20,Cap,,0,0,0,,Trapped and burning,\Nthe gaunt spirit
-Dialogue: 0,0:01:50.22,0:01:52.77,Cap,,0,0,0,,darted into an open\Ncottage.
-Dialogue: 0,0:01:52.79,0:01:56.15,Cap,,0,0,0,,The mob pursued him\Ninside, discovering
-Dialogue: 0,0:01:56.17,0:01:59.98,Cap,,0,0,0,,a trembling child who\Nwhispered: Below.
-Dialogue: 0,0:02:00.00,0:02:02.75,Cap,,0,0,0,,Descending into the\Ndark cellar vault,
-Dialogue: 0,0:02:02.77,0:02:04.86,Cap,,0,0,0,,they uncovered the\Ntruth.
-Dialogue: 0,0:02:04.88,0:02:07.74,Cap,,0,0,0,,Chained to the damp\Nstone walls were
-Dialogue: 0,0:02:07.76,0:02:10.51,Cap,,0,0,0,,all the missing\Nchildren—alive!
-Dialogue: 0,0:02:10.53,0:02:13.15,Cap,,0,0,0,,And dead upon the\Nfloor lay Tom
-Dialogue: 0,0:02:13.17,0:02:15.28,Cap,,0,0,0,,Sutherland, the father\Nof
-Dialogue: 0,0:02:15.30,0:02:18.12,Cap,,0,0,0,,the very first missing\Ngirl.
-Dialogue: 0,0:02:18.14,0:02:21.34,Cap,,0,0,0,,Consumed by drunken\Nmadness, Sutherland
-Dialogue: 0,0:02:21.36,0:02:24.20,Cap,,0,0,0,,had taken the children\Nhimself.
-Dialogue: 0,0:02:24.22,0:02:27.19,Cap,,0,0,0,,He was about to murder\Nanother captive
-Dialogue: 0,0:02:27.21,0:02:29.24,Cap,,0,0,0,,when Herbert Solomon\Nburst
-Dialogue: 0,0:02:29.26,0:02:32.24,Cap,,0,0,0,,into the cellar,\Nbreaking the killer's
-Dialogue: 0,0:02:32.26,0:02:34.59,Cap,,0,0,0,,neck to save the\Ninnocent.
-Dialogue: 0,0:02:34.61,0:02:36.69,Cap,,0,0,0,,The man they burned\Nwas their
-Dialogue: 0,0:02:36.71,0:02:38.59,Cap,,0,0,0,,protector all along.
-Dialogue: 0,0:02:38.61,0:02:41.89,Cap,,0,0,0,,Centuries later, near\Nthe same woods,
-Dialogue: 0,0:02:41.91,0:02:45.01,Cap,,0,0,0,,a little girl slipped\Ninto a raging
-Dialogue: 0,0:02:45.03,0:02:48.24,Cap,,0,0,0,,river, swept toward\Njagged rocks.
-Dialogue: 0,0:02:48.26,0:02:51.33,Cap,,0,0,0,,From the forest bank,\Na tall, gaunt
-Dialogue: 0,0:02:51.35,0:02:53.97,Cap,,0,0,0,,figure burst forth,\Nplunging a
-Dialogue: 0,0:02:53.99,0:02:57.14,Cap,,0,0,0,,pale, skeletal arm\Ninto the churning
-Dialogue: 0,0:02:57.16,0:03:00.05,Cap,,0,0,0,,water to pull her to\Nsafety.
-Dialogue: 0,0:03:00.07,0:03:03.23,Cap,,0,0,0,,Even in death, Herbert\NSolomon was
-Dialogue: 0,0:03:03.25,0:03:06.86,Cap,,0,0,0,,the kindest and\Ngentlest of souls.
-Dialogue: 0,0:03:06.88,0:03:09.31,Cap,,0,0,0,,Would you have judged\Nhim by his face?
+Dialogue: 0,0:00:00.00,0:00:03.16,Cap,,0,0,0,,The monitor in my dark\Nbedroom went
+Dialogue: 0,0:00:03.18,0:00:06.51,Cap,,0,0,0,,black, and glowing red\Ntext appeared:
+Dialogue: 0,0:00:06.53,0:00:09.96,Cap,,0,0,0,,Hi Jack, I need a\Nfavor from you.
+Dialogue: 0,0:00:09.98,0:00:12.68,Cap,,0,0,0,,The internet was\Ndisconnected, yet
+Dialogue: 0,0:00:12.70,0:00:15.54,Cap,,0,0,0,,the screen answered my\Nthoughts.
+Dialogue: 0,0:00:15.56,0:00:17.23,Cap,,0,0,0,,It promised wealth if\NI
+Dialogue: 0,0:00:17.25,0:00:19.14,Cap,,0,0,0,,moved an office plant.
+Dialogue: 0,0:00:19.16,0:00:20.67,Cap,,0,0,0,,Let us begin.
+Dialogue: 0,0:00:20.69,0:00:23.88,Cap,,0,0,0,,An entity called the\NSeer contacted me
+Dialogue: 0,0:00:23.90,0:00:27.01,Cap,,0,0,0,,through my offline\Ncomputer, claiming
+Dialogue: 0,0:00:27.03,0:00:30.07,Cap,,0,0,0,,it saw all branching\Ntimelines.
+Dialogue: 0,0:00:30.09,0:00:32.97,Cap,,0,0,0,,Its first favor was\Nsimple: move
+Dialogue: 0,0:00:32.99,0:00:35.42,Cap,,0,0,0,,a potted plant in my\Noffice
+Dialogue: 0,0:00:35.44,0:00:38.13,Cap,,0,0,0,,lobby at eight\Nseventeen.
+Dialogue: 0,0:00:38.15,0:00:41.40,Cap,,0,0,0,,An hour later, my boss\Ntripped over the
+Dialogue: 0,0:00:41.42,0:00:44.86,Cap,,0,0,0,,plant, violently\Ntwisting his ankle.
+Dialogue: 0,0:00:44.88,0:00:47.24,Cap,,0,0,0,,Unable to drive, he\Nasked my
+Dialogue: 0,0:00:47.26,0:00:49.63,Cap,,0,0,0,,favorite coworker,\NAllie, to
+Dialogue: 0,0:00:49.65,0:00:52.20,Cap,,0,0,0,,take him to the\Nhospital.
+Dialogue: 0,0:00:52.22,0:00:55.54,Cap,,0,0,0,,Minutes later, a\Nspeeding truck crushed
+Dialogue: 0,0:00:55.56,0:00:58.97,Cap,,0,0,0,,their car, killing\NAllie instantly.
+Dialogue: 0,0:00:58.99,0:01:01.72,Cap,,0,0,0,,In horror, I wanted to\Nsmash the
+Dialogue: 0,0:01:01.74,0:01:03.95,Cap,,0,0,0,,monitor, but the Seer\Nsaid
+Dialogue: 0,0:01:03.97,0:01:06.89,Cap,,0,0,0,,her death spared me\Nbetrayal.
+Dialogue: 0,0:01:06.91,0:01:09.57,Cap,,0,0,0,,The next morning, I\Nwas promoted
+Dialogue: 0,0:01:09.59,0:01:11.59,Cap,,0,0,0,,to division manager\Nwith
+Dialogue: 0,0:01:11.61,0:01:13.80,Cap,,0,0,0,,a fortune in bonuses.
+Dialogue: 0,0:01:13.82,0:01:16.15,Cap,,0,0,0,,Every monthly favor\Nbrought
+Dialogue: 0,0:01:16.17,0:01:18.85,Cap,,0,0,0,,ruin to a stranger,\Nbut immense
+Dialogue: 0,0:01:18.87,0:01:21.21,Cap,,0,0,0,,wealth and love to me.
+Dialogue: 0,0:01:21.23,0:01:24.37,Cap,,0,0,0,,A lottery favor ruined\Na stranger's
+Dialogue: 0,0:01:24.39,0:01:26.98,Cap,,0,0,0,,family, while a\Nparking favor
+Dialogue: 0,0:01:27.00,0:01:30.32,Cap,,0,0,0,,led me to Donna, my\Nfuture wife.
+Dialogue: 0,0:01:30.34,0:01:32.74,Cap,,0,0,0,,For twelve glorious\Nyears, my
+Dialogue: 0,0:01:32.76,0:01:35.27,Cap,,0,0,0,,life was heaven on\Nearth.
+Dialogue: 0,0:01:35.29,0:01:38.01,Cap,,0,0,0,,Then came the final\Nfavor: call
+Dialogue: 0,0:01:38.03,0:01:40.39,Cap,,0,0,0,,a pizza parlor, let it\Nring
+Dialogue: 0,0:01:40.41,0:01:43.05,Cap,,0,0,0,,three times, and hang\Nup.
+Dialogue: 0,0:01:43.07,0:01:45.77,Cap,,0,0,0,,Thirty minutes later,\Na towering
+Dialogue: 0,0:01:45.79,0:01:48.83,Cap,,0,0,0,,delivery brute\Narrived, glaring with
+Dialogue: 0,0:01:48.85,0:01:51.65,Cap,,0,0,0,,fury when I had no\Ncash tip.
+Dialogue: 0,0:01:51.67,0:01:54.36,Cap,,0,0,0,,Donna fell asleep on\Nthe couch, and
+Dialogue: 0,0:01:54.38,0:01:57.36,Cap,,0,0,0,,I crept upstairs to\Nthe computer.
+Dialogue: 0,0:01:57.38,0:02:00.93,Cap,,0,0,0,,The screen lit up with\Nthe horrifying truth.
+Dialogue: 0,0:02:00.95,0:02:04.70,Cap,,0,0,0,,Every past favor was\Nan engineered domino
+Dialogue: 0,0:02:04.72,0:02:07.64,Cap,,0,0,0,,to turn that delivery\Nboy into a
+Dialogue: 0,0:02:07.66,0:02:11.21,Cap,,0,0,0,,weapon and bring him\Nhere tonight.
+Dialogue: 0,0:02:11.23,0:02:15.22,Cap,,0,0,0,,The screen read: He is\Ndownstairs right now,
+Dialogue: 0,0:02:15.24,0:02:19.40,Cap,,0,0,0,,ending Donna's life at\Nthis exact second.
+Dialogue: 0,0:02:19.43,0:02:22.35,Cap,,0,0,0,,As heavy footsteps\Nascended the
+Dialogue: 0,0:02:22.37,0:02:25.59,Cap,,0,0,0,,stairs, a soothing\Nvoice whispered
+Dialogue: 0,0:02:25.61,0:02:28.35,Cap,,0,0,0,,in my mind: I gave you\Ntwelve
+Dialogue: 0,0:02:28.37,0:02:32.16,Cap,,0,0,0,,magnificent years\Ninstead of eighty-five
+Dialogue: 0,0:02:32.18,0:02:34.51,Cap,,0,0,0,,bitter, lonely ones.
+Dialogue: 0,0:02:34.53,0:02:38.15,Cap,,0,0,0,,The giant entered with\Na bloodstained blade.
+Dialogue: 0,0:02:38.17,0:02:40.51,Cap,,0,0,0,,The screen pulsed:\NDon't you have
+Dialogue: 0,0:02:40.53,0:02:42.88,Cap,,0,0,0,,something to say to\Nme, Jack?
+Dialogue: 0,0:02:42.90,0:02:44.66,Cap,,0,0,0,,With tears in my eyes,\NI
+Dialogue: 0,0:02:44.68,0:02:46.67,Cap,,0,0,0,,whispered: Thank you.
+Dialogue: 0,0:02:46.69,0:02:49.18,Cap,,0,0,0,,Would you trade\Neighty-five bitter
+Dialogue: 0,0:02:49.20,0:02:51.41,Cap,,0,0,0,,years for twelve\Nperfect ones?

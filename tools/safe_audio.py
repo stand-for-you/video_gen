@@ -8,7 +8,7 @@ import numpy as np
 NAME = sys.argv[1]; TARGET = -16.0 if NAME == 'long' else -14.0
 src, dst = f'audio/{NAME}/final.wav', f'audio/{NAME}/final_safe.m4a'
 if os.path.exists(dst) and not os.path.exists(src):
-    print(f'already have safe audio {dst}, skipping re-encoding')
+    print(f'already have safe audio {dst} (no final.wav here, e.g. on a cloud runner): keeping it')
     sys.exit(0)
 def run(a): return subprocess.run(a, capture_output=True, text=True)
 def measure(path):

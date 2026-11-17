@@ -1,15 +1,5 @@
-[
-  ["standrews_library", {}],
-  ["ettrick_hamlet", {}],
-  ["stone_well", {}],
-  ["woods_cabin", {}],
-  ["burning_cabin", {}],
-  ["foggy_street_stalk", {}],
-  ["church_interior", {}],
-  ["street_ambush", {}],
-  ["secret_cellar", {}],
-  ["raging_river", {}],
-  ["solomon_portrait", {}],
-  ["qcard", {"title": "THE MELANCHOLY OF HERBERT SOLOMON"}],
-  ["end", {}]
-]
+[["fogstreet", {}, 1.6, 3], ["torchfind", {"fr":"wide"}, 1.6, 3], ["torchfind", {"fr":"close"}, 1.6, 3], ["stalk", {"fr":"wide"}, 1.6, 3],
+ ["skullbust", {}, 1.6, 3], ["trapped", {}, 1.8, 3], ["cabinfire", {}, 1.6, 3], ["opendoor", {}, 1.6, 3],
+ ["library", {}, 1.6, 3], ["bookpage", {}, 1.6, 3], ["end", {}, 4.0, 20],
+ ["rfog", {}, 1.6, 3], ["rtorch", {"fr":"close"}, 1.6, 3], ["rstalk", {}, 1.6, 3], ["rskull", {}, 1.6, 3],
+ ["rtrapped", {}, 1.8, 3], ["rfire", {}, 1.6, 3], ["rdoor", {}, 1.6, 3], ["rlibrary", {}, 1.6, 3], ["rbook", {}, 1.6, 3], ["rqcard", {}, 1.6, 3]]

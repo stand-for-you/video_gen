@@ -5,14 +5,16 @@ Optional story/sfx.json: a list of tiny, quiet, non-musical effects placed from 
   [{"match": "It hissed", "kind": "hiss", "at": "end", "db": -28}, {"match": "Thud.", "kind": "thud", "at": "start", "db": -8}]
   kind: rumble | thud | click | hiss ; at: start (just before the line) | end (just after) ; db: level vs the voice (keep -8 .. -30).
 Writes audio/<name>/mix.wav (48 kHz stereo, before loudness normalisation)."""
-import sys, json
+import sys, json, os
+sys.path.insert(0, os.path.dirname(__file__))
+from cfg import FPS
 import numpy as np, soundfile as sf
 from scipy.signal import resample_poly, butter, sosfilt, sosfilt_zi
 NAME = sys.argv[1]
 SR = 48000; CH = SR * 10
 v24, _ = sf.read(f'audio/{NAME}/voice.wav', dtype='float32')
 v = (resample_poly(v24, 2, 1) * 0.8).astype(np.float32); del v24
-shots = json.load(open(f'src/shots_{NAME}.json')); target = int(round(shots.get('frames', shots.get('total_frames', 0)) / 10 * SR))
+shots = json.load(open(f'src/shots_{NAME}.json')); target = int(round(shots['frames'] / FPS * SR))
 if target > len(v): v = np.concatenate([v, np.zeros(target - len(v), np.float32)])
 n = len(v); dur = n / SR
 tm = json.load(open(f'audio/{NAME}/timing.json'))

@@ -1,82 +1,73 @@
-"""Build the shot list (JSON for Remotion) from narration timing + the scene table.
-Usage: python3 build_shots.py long|reel
-n = round(beat_seconds / 2.7) shots per beat (teaser: /2.2 so the picture changes at least every 2.5 s); shot k shows scene k mod S,
-the second showing of a scene is a close-up (push-in on its focus). Scenes flagged 'last' always close their beat."""
-import sys, json, math, importlib
-sys.path[:0] = ['story', '.']
+"""Build the shot list (JSON for Remotion) from the narration timing + the scene table (engine v0.5, 3D, 60 fps).
+
+SYNC LAW (v0.5): the scene table has ONE LIST PER SPOKEN SENTENCE (narration unit), not one list per beat. Every shot therefore
+starts and ends inside the sentence it illustrates, so the picture always shows what the narrator is saying at that moment.
+Usage (work folder):  python3 tools/build_shots.py long|reel        (after tools/tts.py, before tools/sync_check.py)
+  story/scenes_long.py : SC = [ [scene, scene, ...], ... ]  one list per unit of audio/long/timing.json (make it with
+  tools/scaffold_scenes.py). A unit gets as many shots as it has scenes; if it has one scene and lasts longer than 2.7 s
+  (teaser 2.2 s) the SAME set is used again with v.alt = 1 (a new moment: different pose, angle and camera), and that counts as
+  a re-show in the quality gate, so write enough scenes.
+Scene keys read by the engine: 'fr' = framing class (wide | waist | bust | close | detail; default wide; a face alone is never
+allowed, see channel policy), 'cm' = camera move override, 'last' = always the final shot of its unit, 'hard' = hard cut in.
+Frame rate comes from engine.json (60 fps).
+"""
+import sys, json, math, importlib, os, re
+sys.path[:0] = ['story', '.', os.path.dirname(__file__)]
+from cfg import FPS
 NAME = sys.argv[1]
-FPS = 10
 tm = json.load(open(f'audio/{NAME}/timing.json'))
 script = importlib.import_module('script_long' if NAME == 'long' else 'script_reel')
 table = importlib.import_module('scenes_long' if NAME == 'long' else 'scenes_reel').SC
 BEATS = script.BEATS
-assert len(table) == len(BEATS), (len(table), len(BEATS))
-units = tm['units']; dur = tm['duration']; nb = len(BEATS)
-last = {}
-for u in units: last[u['beat']] = u
-bstart = [0.0] + [last[b - 1]['end'] + 0.08 for b in range(1, nb)]
-if NAME == 'long': bstart[-1] = max(last[nb - 1]['start'] - 0.1, last[nb - 1]['end'] - 3.0)  # end screen starts on the closing question itself ('Now tell me.' stays on the credit card)
-bend = bstart[1:] + [dur]
-# story/script_*.py may set TEASER_LAST_BEAT (index of the last teaser beat; long default 2, reel default 0)
-# and END_SCREEN_S (long video only, default 20 s). Card sets shown as ONE still shot: CARD_SETS.
+units = tm['units']; dur = tm['duration']
+assert len(table) == len(units), (f'scene table has {len(table)} entries but the narration has {len(units)} sentences; '
+                                  f'rebuild it with: python3 tools/scaffold_scenes.py {NAME}')
 TEASER = getattr(script, 'TEASER_LAST_BEAT', 2 if NAME == 'long' else 0)
 ENDS = float(getattr(script, 'END_SCREEN_S', 20.0))
 CARD_SETS = ('end', 'qcard', 'rqcard')
+MINSHOT = 1.15  # never cut faster than this (a shorter picture cannot be read)
 shots, chapters, warn, specs = [], [], [], {}
 chn = 0
-for b in range(nb):
-    t0, t1 = bstart[b], bend[b]
-    if NAME == 'long' and b == nb - 1: t1 = t0 + ENDS  # end screen: last 20 s, narration ends inside its first 3 s
-    d = t1 - t0
-    n = max(1, round(d / (2.2 if b <= TEASER else 2.7))); Lall = table[b]
-    if len(Lall) == 1 and Lall[0][0] in CARD_SETS: n = 1
-    lasts = [x for x in Lall if x[1].get('last')]; L = [x for x in Lall if not x[1].get('last')]; m = len(L)
-    n = max(n, len(lasts) + 1)
-    n_main = n - len(lasts)
-    if m + len(lasts) < math.ceil(n / 2): warn.append(f'beat {b}: {m} scenes for {n} shots ({d:.1f}s)')
-    ustarts = [u['start'] for u in units if u['beat'] == b]
-    cuts = [t0]
-    for k in range(1, n):
-        ideal = t0 + d * k / n
-        near = min(ustarts, key=lambda s: abs(s - 0.1 - ideal)) - 0.1 if ustarts else ideal
-        c = near if b > TEASER and abs(near - ideal) < 0.7 and near - cuts[-1] > 1.4 and t1 - near > 1.4 else ideal
-        cuts.append(c)
-    cuts.append(t1)
-    if NAME == 'reel':  # keep story order: each scene's close-up follows its wide shot
-        order = []
-        cycle = 0
-        while len(order) < n_main:
-            for i in range(m):
-                order.append((i, cycle % 2 == 1))
-                if len(order) == n_main:
-                    break
-            cycle += 1
+# the end screen (long video only) starts on the last sentence and runs ENDS seconds
+end_start = (units[-1]['start'] - 0.05) if NAME == 'long' else None
+for ui, u in enumerate(units):
+    t0 = u['start'] if ui == 0 else max(u['start'] - 0.12, units[ui - 1]['end'])
+    t1 = units[ui + 1]['start'] - 0.12 if ui + 1 < len(units) else (end_start + ENDS if NAME == 'long' else dur)
+    if NAME == 'long' and ui == len(units) - 1: t0 = end_start; t1 = end_start + ENDS
+    d = max(0.4, t1 - t0)
+    L = list(table[ui]); gap = 2.2 if u['beat'] <= TEASER else 2.7
+    if len(L) == 1 and L[0][0] in CARD_SETS:
+        n = 1
     else:
-        order = [(k % m, k >= m) for k in range(n_main)]
+        n = max(len(L), min(max(1, round(d / gap)), max(1, int(d / MINSHOT))))
+    if len(L) < n: warn.append(f"unit {ui} ({d:.1f}s) has {len(L)} scene(s) for {n} shot(s) -> {n - len(L)} re-show(s): {u['text'][:60]}")
     for k in range(n):
-        if k >= n_main: st, v = lasts[k - n_main]; isc = False
-        else: st, v = L[order[k][0]]; isc = order[k][1]
+        st, v = L[k] if k < len(L) else L[k % len(L)]
         v = dict(json.loads(json.dumps(v))); v.pop('last', None)
-        fc = v.pop('fc', [960, 540, 1.6] if NAME == 'long' else [540, 960, 1.6])
-        key = json.dumps([st, v], sort_keys=True); specs.setdefault(key, []).append(b)
-        shots.append(dict(b=b, s=int(round(cuts[k] * FPS)), e=int(round(cuts[k + 1] * FPS)), set=st, v=v, close=isc,
-                          z=fc[2], fx=fc[0], fy=fc[1], dir=1 if (len(shots) % 2 == 0) else -1, off=(len(shots) * 37) % 120))
-    ch = BEATS[b][0]
-    if ch is not None:
+        key = json.dumps([st, v], sort_keys=True); specs.setdefault(key, []).append(ui)
+        isc = k >= len(L)
+        if isc: v['alt'] = 1
+        fr = v.get('fr', 'wide'); fr = {'wide': 'waist', 'waist': 'bust', 'bust': 'wide', 'close': 'waist'}.get(fr, fr) if isc else fr
+        a = t0 + d * k / n; b = t0 + d * (k + 1) / n
+        shots.append(dict(b=u['beat'], u=ui, s=int(round(a * FPS)), e=int(round(b * FPS)), set=st, v=v, close=isc, fr=fr, reuse=isc,
+                          dir=1 if (len(shots) % 2 == 0) else -1, off=((len(shots) * 37) % 120) * 0.1))
+    if u.get('chapter'):
+        ch = u['chapter']
         if ch != 'Intro':
-            chn += 1; chapters.append(dict(s=int(round(t0 * FPS)) + 2, n=chn, title=ch, t=round(t0, 2)))
+            chn += 1; chapters.append(dict(s=int(round(t0 * FPS)) + int(0.2 * FPS), n=chn, title=ch, t=round(t0, 2)))
         else:
-            chapters.append(dict(s=0, n=0, title='Intro', t=0.0))
-# stats and checks
-tot = shots[-1]['e'] / FPS
-slens = [(s['e'] - s['s']) / FPS for s in shots]
-teaser_lens = [(s['e'] - s['s']) / FPS for s in shots if s['b'] <= TEASER]
-print(f"{NAME}: {tot:.1f}s, {len(shots)} shots, {len(specs)} unique scenes, {len(shots)/(tot/60):.1f} screens/min, "
-      f"shot len min {min(slens):.1f}s max {max(slens):.1f}s; teaser max {max(teaser_lens):.1f}s")
+            chapters.append(dict(s=-999, n=0, title=ch, t=0.0))
+for i in range(len(shots) - 1): shots[i]['e'] = shots[i + 1]['s']
+frames = int(math.ceil(((end_start + ENDS) if NAME == 'long' else dur) * FPS)); shots[-1]['e'] = frames
+dups = {k: v for k, v in specs.items() if len(set(v)) > 1}
+out = dict(fps=FPS, teaser=TEASER, frames=frames, end_s=(round(end_start, 3) if NAME == 'long' else None), units=len(units),
+           shots=shots, chapters=[c for c in chapters if c['s'] >= 0], chapter_times=[(c['t'], c['title']) for c in chapters])
+json.dump(out, open(f'src/shots_{NAME}.json', 'w'))
+lens = [s['e'] - s['s'] for s in shots]
+body = min(dur, end_start or dur)
+print(f'{NAME}: {dur:.1f}s, {len(units)} sentences, {len(shots)} shots, {len(specs)} unique scenes, '
+      f'{len(shots) / (body / 60):.1f} screens/min, shot len min {min(lens) / FPS:.1f}s max {max(lens) / FPS:.1f}s; '
+      f'teaser max {max(l for s, l in zip(shots, lens) if s["b"] <= TEASER) / FPS:.1f}s')
+re_ = sum(1 for x in shots if x['reuse']); print(f'{NAME}: re-shown scenes {re_}/{len(shots)} = {re_ / len(shots) * 100:.0f}% (keep <= 10%: add scenes to the units listed in WARN)')
 for w in warn: print('WARN', w)
-# DUP check: a (set, variant) should not appear in multiple non-contiguous beats
-for k, bs in specs.items():
-    if len(set(bs)) > 1 and max(bs) - min(bs) >= len(set(bs)):
-        print('DUP', k, bs)
-out = dict(total_frames=shots[-1]['e'], fps=FPS, shots=shots, chapters=chapters)
-json.dump(out, open(f'src/shots_{NAME}.json', 'w'), indent=2)
+for k, v in dups.items(): print('DUP', k[:120], 'in units', v)

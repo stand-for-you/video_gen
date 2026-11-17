@@ -1,0 +1,164 @@
+name: Scroll Kaos Cloud Compiler
+
+# Renders the work folder in this repo (made with the scroll-kaos-studio plugin) on GitHub's free runners:
+#   plan      -> splits the long video and the Reel into parts (ci/plan.py)
+#   render    -> one runner per part, all in parallel (ci/render_part.sh)
+#   assemble  -> joins the parts with the work folder's own tools/render.sh, adds audio, burns Reel captions,
+#                makes thumbnails + upload .md, runs the quality gate, uploads ONE package artifact.
+# Start it: push to main (src/, story/, audio/, out/ or engine.json changed), or
+#   gh workflow run compile.yml -f file_prefix=I_Know_Youre_Awake -f target=all
+
+on:
+  workflow_dispatch:
+    inputs:
+      file_prefix:
+        description: 'File name prefix (letters, numbers, _ and -). Empty = the title in story/upload.json'
+        required: false
+        default: ''
+      target:
+        description: 'What to compile'
+        required: true
+        default: 'all'
+        type: choice
+        options: [all, long, reel, thumbs]
+  push:
+    branches: [main]
+    paths:
+      - 'src/**'
+      - 'story/**'
+      - 'audio/**'
+      - 'out/**'
+      - 'engine.json'
+      - 'ci/**'
+      - '.github/workflows/compile.yml'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: compile-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  plan:
+    name: Plan the render
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    outputs:
+      prefix: ${{ steps.plan.outputs.prefix }}
+      target: ${{ steps.plan.outputs.target }}
+      engine: ${{ steps.plan.outputs.engine }}
+      matrix: ${{ steps.plan.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Make the plan
+        id: plan
+        env:
+          IN_PREFIX: ${{ github.event.inputs.file_prefix }}
+          IN_TARGET: ${{ github.event.inputs.target }}
+        run: |
+          python3 ci/plan.py --show >> "$GITHUB_OUTPUT"
+          cat "$GITHUB_OUTPUT"
+
+  render:
+    name: Render ${{ matrix.comp }} part ${{ matrix.i }}
+    needs: plan
+    if: needs.plan.outputs.matrix != '[]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix:
+        include: ${{ fromJSON(needs.plan.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: ${{ hashFiles('package-lock.json') != '' && 'npm' || '' }}
+      - name: Install packages
+        run: npm ci --no-audit --no-fund || npm install --no-audit --no-fund
+      - name: Fonts, textures, parts
+        run: bash ci/prepare.sh "${{ matrix.parts }}"
+      - name: Browser for Remotion
+        run: npx remotion browser ensure
+      - name: Render this part
+        env:
+          COMP: ${{ matrix.comp }}
+          A: ${{ matrix.a }}
+          B: ${{ matrix.b }}
+          FILE: ${{ matrix.file }}
+          FLAGS: ${{ matrix.flags }}
+        run: bash ci/render_part.sh "$COMP" "$A" "$B" "$FILE" "$FLAGS"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: part-${{ matrix.file }}
+          path: renders/${{ matrix.file }}
+          retention-days: 2
+          compression-level: 0
+          if-no-files-found: error
+
+  assemble:
+    name: Join, encode, thumbnails, quality gate
+    needs: [plan, render]
+    if: always() && needs.plan.result == 'success' && (needs.render.result == 'success' || needs.render.result == 'skipped')
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: ${{ hashFiles('package-lock.json') != '' && 'npm' || '' }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg fontconfig file
+          pip install -q numpy pillow
+          npm ci --no-audit --no-fund || npm install --no-audit --no-fund
+      - name: Fonts, textures, parts
+        run: bash ci/prepare.sh "${{ fromJSON(needs.plan.outputs.matrix)[0].parts }}"
+      - name: Browser for Remotion
+        run: npx remotion browser ensure
+      - name: Download the rendered parts
+        if: needs.plan.outputs.matrix != '[]'
+        uses: actions/download-artifact@v4
+        with:
+          pattern: part-*
+          path: renders
+          merge-multiple: true
+      - name: Join and make the deliverables
+        id: assemble
+        env:
+          PREFIX: ${{ needs.plan.outputs.prefix }}
+          TARGET: ${{ needs.plan.outputs.target }}
+        run: |
+          ls -la renders
+          bash ci/assemble.sh "$PREFIX" "$TARGET"
+      - name: Upload the package
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: scroll-kaos-${{ needs.plan.outputs.prefix }}
+          path: final/
+          retention-days: 14
+          if-no-files-found: warn
+      - name: Summary
+        if: always()
+        env:
+          PREFIX: ${{ needs.plan.outputs.prefix }}
+        run: |
+          {
+            echo "## Scroll Kaos package: $PREFIX"
+            echo ""
+            echo "Download: Actions run page -> Artifacts -> scroll-kaos-$PREFIX (or: gh run download <run id> -n scroll-kaos-$PREFIX)"
+            echo ""
+            echo '```'
+            ls -la final 2>/dev/null || echo "no final folder"
+            [ -f final/QUALITY_GATE.txt ] && grep -E "^(==|PASS|FAIL|QUALITY)" final/QUALITY_GATE.txt
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"

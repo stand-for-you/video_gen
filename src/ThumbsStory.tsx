@@ -1,110 +1,113 @@
 import React from 'react';
 import { AbsoluteFill } from 'remotion';
-import { Defs } from './Kit';
-import { Snow } from './Room';
-import { HorrorBack, Reach, Title } from './Thumbs';
-import { FullMan, NOAH } from './Body';
-import { Glow } from './IH';
-import { FaceSolomon, FullSolomon, CarvedDoll } from './SolomonKit';
+import { Stage3 } from './Stage3';
+import { Night, Ground, Mist, Flakes } from './k3/World';
+import { ApartmentStudy, OfficeLobby, CRTMonitor, PottedPlant, UpstairsStudy } from './Seer3';
+import { Person } from './k3/Person';
+import { CAST3, GHOST3 } from './Cast3D';
 
-// Thumbnails for "The Melancholy of Herbert Solomon".
-// Follows all channel policies:
-// ThumbA: Giant Herbert Solomon on the right, title left, tiny Noah from behind facing it.
-// ThumbB: Much closer crop of Solomon's face with bulging forehead veins, 2-word title ("DON'T BURN"), small blood moon.
-// ThumbC: Key story object (the carved wooden doll) glowing in center, Solomon silhouette behind, title on top ("HIS SOUL").
-// ThumbR: 1080x1920 vertical reel thumbnail.
+// ===== THUMBNAIL A: 1280x720 (Main A/B set)
+export const ThumbA: React.FC = () => {
+  const S = () => (
+    <>
+      <Night t={2} fog="#060a12" density={0.06} moonI={1.4} amb={0.3} />
+      <ApartmentStudy t={2} textRed={true} />
+      <Person s={CAST3.noah} at={[0.4, 0, -0.6]} rot={Math.PI * 0.9} t={2} pose="hold" expr="fear" />
+      <group position={[1.4, 1.2, -4.5]}>
+        <Person s={GHOST3.woman} at={[0, 0, 0]} t={2} pose="idle" />
+        <pointLight position={[0, 0.5, 0.2]} color="#ff2222" intensity={3.5} distance={6} />
+      </group>
+    </>
+  );
+  return (
+    <AbsoluteFill style={{ background: '#05070c' }}>
+      <Stage3 S={S as any} v={{}} t={2} len={5} W={1280} H={720} />
+      {/* Title typography */}
+      <div style={{ position: 'absolute', left: 70, top: 80, maxWidth: 640 }}>
+        <div style={{ fontFamily: 'monospace', fontWeight: 900, fontSize: 32, letterSpacing: 4, color: '#ff2828', textShadow: '0 0 16px rgba(255,40,40,0.8)' }}>
+          OFFLINE COMPUTER SPEAKS
+        </div>
+        <div style={{ fontFamily: 'Lora, Georgia, serif', fontWeight: 700, fontSize: 74, lineHeight: 1.05, color: '#f8fafc', textShadow: '0 6px 20px rgba(0,0,0,0.95)' }}>
+          THE SEER OF POSSIBILITIES
+        </div>
+      </div>
+    </AbsoluteFill>
+  );
+};
+(ThumbA as any).cam = () => ({ p: [-1.2, 1.6, 3.8], l: [0.2, 1.1, -1.8], fov: 42, move: 'hold', amt: 0 });
 
-const SolomonHuge: React.FC<{ x: number; y: number; k: number; rot?: number; op?: number }> = ({ x, y, k, rot = 0, op = 1 }) => (
-  <g opacity={op} transform={`translate(${x},${y}) rotate(${rot}) scale(${k})`}>
-    <Glow x={0} y={0} r={480} c="#d5dcde" op={0.25} />
-    <FaceSolomon f={4} expr="melancholy" />
-  </g>
-);
+// ===== THUMBNAIL B: 1280x720 (Closer crop + 2-word punchy title)
+export const ThumbB: React.FC = () => {
+  const S = () => (
+    <>
+      <Night t={2} fog="#050810" density={0.075} moonI={1.1} amb={0.25} />
+      <group position={[0, -0.2, 0]}>
+        <CRTMonitor t={2} at={[0.2, 0.35, -1.2]} textRed={true} lit={true} />
+      </group>
+      <Person s={CAST3.noah} at={[-0.4, 0, -0.6]} rot={Math.PI * 0.75} t={2} pose="hold" expr="fear" />
+    </>
+  );
+  return (
+    <AbsoluteFill style={{ background: '#05070c' }}>
+      <Stage3 S={S as any} v={{}} t={2} len={5} W={1280} H={720} />
+      <div style={{ position: 'absolute', left: 80, top: 120 }}>
+        <div style={{ fontFamily: 'Lora, Georgia, serif', fontWeight: 700, fontSize: 96, lineHeight: 0.95, color: '#ff2828', textShadow: '0 0 30px rgba(255,40,40,0.9)' }}>
+          DON'T ANSWER
+        </div>
+        <div style={{ fontFamily: 'monospace', fontWeight: 700, fontSize: 32, color: '#e2e8f0', letterSpacing: 3, marginTop: 16 }}>
+          12 YEARS OF MANIPULATION
+        </div>
+      </div>
+    </AbsoluteFill>
+  );
+};
+(ThumbB as any).cam = () => ({ p: [-0.6, 1.45, 2.4], l: [0, 1.0, -1.2], fov: 36, move: 'hold', amt: 0 });
 
-const NoahBack: React.FC<{ x: number; y: number; s: number }> = ({ x, y, s }) => (
-  <FullMan look={NOAH} view="back" x={x} y={y} s={s} f={4} expr="neutral" />
-);
+// ===== THUMBNAIL C: 1280x720 (Key object big & glowing: The Potted Ficus)
+export const ThumbC: React.FC = () => {
+  const S = () => (
+    <>
+      <Night t={2} fog="#0e1520" density={0.045} moonI={1.8} amb={0.45} />
+      <OfficeLobby t={2} plantOffset={0.08} />
+      <Person s={CAST3.noah} at={[1.8, 0, -4.2]} rot={-Math.PI / 2.5} t={2} pose="hold" expr="fear" />
+    </>
+  );
+  return (
+    <AbsoluteFill style={{ background: '#05070c' }}>
+      <Stage3 S={S as any} v={{}} t={2} len={5} W={1280} H={720} />
+      <div style={{ position: 'absolute', left: 70, top: 90 }}>
+        <div style={{ fontFamily: 'monospace', fontWeight: 900, fontSize: 34, color: '#38bdf8', letterSpacing: 4 }}>
+          MOVE IT 3 INCHES
+        </div>
+        <div style={{ fontFamily: 'Lora, Georgia, serif', fontWeight: 700, fontSize: 82, color: '#ffffff', textShadow: '0 6px 24px rgba(0,0,0,0.9)' }}>
+          THE FATAL FAVOR
+        </div>
+      </div>
+    </AbsoluteFill>
+  );
+};
+(ThumbC as any).cam = () => ({ p: [0, 1.4, 4.2], l: [0, 1.1, -5.5], fov: 40, move: 'hold', amt: 0 });
 
-export const ThumbA: React.FC = () => (
-  <AbsoluteFill style={{ background: '#000' }}>
-    <svg width={1280} height={720} viewBox="0 0 1280 720" style={{ position: 'absolute' }}>
-      <Defs />
-      <HorrorBack W={1280} H={720} moon={[460, 320, 160]} gy={520} />
-      {/* Herbert Solomon Face on right */}
-      <SolomonHuge x={1040} y={380} k={1.4} rot={-3} />
-      {[[60, 740, 0.7, -12], [220, 760, 0.8, 8], [380, 770, 0.7, -6]].map((h, i) => (
-        <Reach key={i} x={h[0]} y={h[1]} s={h[2]} rot={h[3]} />
-      ))}
-      <NoahBack x={620} y={716} s={0.1} />
-      <Snow f={9} n={26} op={0.5} w={1280} h={720} />
-    </svg>
-    <AbsoluteFill style={{ background: 'radial-gradient(ellipse at 70% 50%, rgba(0,0,0,0) 35%, rgba(0,0,0,0.6) 100%)' }} />
-    <div style={{ position: 'absolute', left: 40, top: 50, width: 660 }}>
-      <Title a="DON'T" b="JUDGE" sa={140} sb={180} align="left" />
-    </div>
-  </AbsoluteFill>
-);
-
-export const ThumbB: React.FC = () => (
-  <AbsoluteFill style={{ background: '#000' }}>
-    <svg width={1280} height={720} viewBox="0 0 1280 720" style={{ position: 'absolute' }}>
-      <Defs />
-      <HorrorBack W={1280} H={720} moon={[220, 480, 44]} gy={540} />
-      {/* Extreme close crop of Solomon with bulging forehead veins */}
-      <SolomonHuge x={980} y={350} k={2.2} rot={4} />
-      {[[60, 740, 0.7, -12], [220, 760, 0.8, 8]].map((h, i) => (
-        <Reach key={i} x={h[0]} y={h[1]} s={h[2]} rot={h[3]} />
-      ))}
-      <NoahBack x={440} y={716} s={0.09} />
-      <Snow f={9} n={26} op={0.5} w={1280} h={720} />
-    </svg>
-    <AbsoluteFill style={{ background: 'radial-gradient(ellipse at 70% 45%, rgba(0,0,0,0) 38%, rgba(0,0,0,0.6) 100%)' }} />
-    <div style={{ position: 'absolute', left: 40, top: 70, width: 660 }}>
-      <Title a="DON'T" b="BURN" sa={150} sb={190} align="left" />
-    </div>
-  </AbsoluteFill>
-);
-
-export const ThumbC: React.FC = () => (
-  <AbsoluteFill style={{ background: '#000' }}>
-    <svg width={1280} height={720} viewBox="0 0 1280 720" style={{ position: 'absolute' }}>
-      <Defs />
-      <HorrorBack W={1280} H={720} moon={[640, 220, 130]} gy={520} />
-      {/* Looming tall silhouette in background */}
-      <g transform="translate(640, 480) scale(0.65)" opacity={0.85}>
-        <FullSolomon x={0} y={0} f={4} mode="stand" />
-      </g>
-      {/* Glowing Carved Doll in foreground */}
-      <g transform="translate(640, 580) scale(1.6)">
-        <Glow x={0} y={0} r={180} c="#f5b538" op={0.4} />
-        <CarvedDoll x={0} y={0} s={1} />
-      </g>
-      <NoahBack x={360} y={716} s={0.09} />
-      <Snow f={9} n={26} op={0.5} w={1280} h={720} />
-    </svg>
-    <AbsoluteFill style={{ background: 'radial-gradient(ellipse at 50% 50%, rgba(0,0,0,0) 35%, rgba(0,0,0,0.55) 100%)' }} />
-    <div style={{ position: 'absolute', left: 40, top: 40, width: 1200, textAlign: 'center' }}>
-      <Title a="HIS" b="SOUL" sa={130} sb={170} align="center" />
-    </div>
-  </AbsoluteFill>
-);
-
-export const ThumbR: React.FC = () => (
-  <AbsoluteFill style={{ background: '#000' }}>
-    <svg width={1080} height={1920} viewBox="0 0 1080 1920" style={{ position: 'absolute' }}>
-      <Defs />
-      <HorrorBack W={1080} H={1920} moon={[540, 680, 220]} gy={1380} />
-      {/* Giant Solomon in middle */}
-      <SolomonHuge x={540} y={960} k={2.2} rot={0} />
-      {[[80, 1960, 1.0, -12], [960, 1980, 1.1, 10], [540, 2020, 1.0, -4]].map((h, i) => (
-        <Reach key={i} x={h[0]} y={h[1]} s={h[2]} rot={h[3]} />
-      ))}
-      <NoahBack x={540} y={1860} s={0.16} />
-      <Snow f={9} n={40} op={0.5} w={1080} h={1920} />
-    </svg>
-    <AbsoluteFill style={{ background: 'radial-gradient(ellipse at 50% 50%, rgba(0,0,0,0) 35%, rgba(0,0,0,0.65) 100%)' }} />
-    <div style={{ position: 'absolute', left: 40, top: 120, width: 1000, textAlign: 'center' }}>
-      <Title a="DON'T" b="JUDGE" sa={160} sb={210} align="center" />
-    </div>
-  </AbsoluteFill>
-);
+// ===== THUMBNAIL R: 1080x1920 (Vertical Reel Cover)
+export const ThumbR: React.FC = () => {
+  const S = () => (
+    <>
+      <Night t={2} fog="#060910" density={0.07} moonI={1.2} amb={0.3} />
+      <UpstairsStudy t={2} textRed={true} hulkInDoor={true} />
+    </>
+  );
+  return (
+    <AbsoluteFill style={{ background: '#05070c' }}>
+      <Stage3 S={S as any} v={{}} t={2} len={5} W={1080} H={1920} vert={true} />
+      <div style={{ position: 'absolute', left: 70, top: 180, right: 70 }}>
+        <div style={{ fontFamily: 'monospace', fontWeight: 900, fontSize: 36, color: '#ff2828', letterSpacing: 4, textShadow: '0 0 16px rgba(255,40,40,0.8)' }}>
+          12 YEARS PLANNED
+        </div>
+        <div style={{ fontFamily: 'Lora, Georgia, serif', fontWeight: 700, fontSize: 78, lineHeight: 1.05, color: '#ffffff', textShadow: '0 6px 24px rgba(0,0,0,0.95)', marginTop: 12 }}>
+          THE SEER OF POSSIBILITIES
+        </div>
+      </div>
+    </AbsoluteFill>
+  );
+};
+(ThumbR as any).cam = () => ({ p: [0.8, 1.5, 4.8], l: [0, 1.15, -1.6], fov: 50, move: 'hold', amt: 0 });

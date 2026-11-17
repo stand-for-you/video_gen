@@ -1,563 +1,1112 @@
 {
- "duration": 526.811875,
+ "duration": 1233.1359583333333,
  "units": [
   {
    "i": 0,
    "beat": 0,
    "chapter": "Intro",
-   "text": "In the deepest shadows of St Andrews University library in Scotland, hidden away in a dark, forgotten corner, sits a 16th-century leather tome.",
+   "text": "The computer monitor in my darkened bedroom flickered, bleeding from a game of Solitaire into a field of pure, obsidian black.",
    "who": "nar",
    "start": 0.0,
-   "end": 13.843
+   "end": 10.867
   },
   {
    "i": 1,
    "beat": 0,
    "chapter": null,
-   "text": "Its cover is cracked, weathered, and blackened by centuries of damp air.",
+   "text": "Then the crimson letters began to carve themselves across the glass: Hi Jack, I need a favor from you.",
    "who": "nar",
-   "start": 14.143,
-   "end": 19.683
+   "start": 11.167,
+   "end": 19.515
   },
   {
    "i": 2,
    "beat": 1,
    "chapter": null,
-   "text": "On the inside of the back cover, an artist in the year 1578 drew a picture that makes the heart turn cold.",
+   "text": "The internet cable was completely disconnected, its severed connector lying limp on the carpet, yet the machine answered my thoughts as if it were breathing inside my head.",
    "who": "nar",
-   "start": 20.133,
-   "end": 30.51
+   "start": 19.965,
+   "end": 34.706
   },
   {
    "i": 3,
    "beat": 1,
    "chapter": null,
-   "text": "It depicts a towering, skeletal man with long, gaunt limbs, standing at the edge of a twisting forest.",
+   "text": "It promised me wealth, love, and effortless promotions in exchange for tiny, harmless gestures.",
    "who": "nar",
-   "start": 30.81,
-   "end": 39.725
+   "start": 35.006,
+   "end": 44.03
   },
   {
    "i": 4,
    "beat": 2,
    "chapter": null,
-   "text": "Veins bulge across his pale, hairless skull, his dark eyes are sunken deep within bone, and beneath the ink is written a single name: Herbert Solomon.",
+   "text": "Twelve years later, sitting in my sprawling country home with the woman of my dreams asleep downstairs, the monitor lit up with one final message.",
    "who": "nar",
-   "start": 40.175,
-   "end": 54.211
+   "start": 44.48,
+   "end": 57.605
   },
   {
    "i": 5,
    "beat": 2,
    "chapter": null,
-   "text": "Let us go back to the winter where this nightmare began.",
+   "text": "It told me that every person I ever doomed had been a brushstroke in an unseen masterpiece, and that tonight, the canvas would be completed in blood.",
    "who": "nar",
-   "start": 54.511,
-   "end": 58.228
+   "start": 57.905,
+   "end": 70.475
   },
   {
    "i": 6,
    "beat": 3,
-   "chapter": "The Vanishing",
-   "text": "The book chronicles the isolated town of Ettrick, set amidst the bleak moorlands and dense pine forests of southern Scotland.",
+   "chapter": null,
+   "text": "Would you give up eighty-five bitter years for twelve perfect ones?",
    "who": "nar",
-   "start": 58.828,
-   "end": 69.888
+   "start": 70.925,
+   "end": 75.632
   },
   {
    "i": 7,
    "beat": 3,
    "chapter": null,
-   "text": "In the freezing December of 1577, an unspeakable dread settled over the cobblestone streets.",
+   "text": "Let us go back to the beginning.",
    "who": "nar",
-   "start": 70.188,
-   "end": 78.586
+   "start": 75.932,
+   "end": 77.704
   },
   {
    "i": 8,
    "beat": 4,
-   "chapter": null,
-   "text": "The first to disappear was young Alana Sutherland.",
+   "chapter": "The Message",
+   "text": "The strange communication began on a damp Tuesday evening while I was sitting alone in my modest second-floor apartment.",
    "who": "nar",
-   "start": 79.036,
-   "end": 82.874
+   "start": 78.304,
+   "end": 89.107
   },
   {
    "i": 9,
    "beat": 4,
    "chapter": null,
-   "text": "She had dropped her hand-carved doll down an old stone well on the edge of town, and returned at sunset with a hook and rope to retrieve it.",
+   "text": "Rain tapped incessantly against the window panes, and the blinking amber light on my router signaled that my internet connection was down for the third time that week.",
    "who": "nar",
-   "start": 83.174,
-   "end": 94.78
+   "start": 89.407,
+   "end": 103.664
   },
   {
    "i": 10,
-   "beat": 4,
+   "beat": 5,
    "chapter": null,
-   "text": "She was never seen again.",
+   "text": "As I dragged the virtual cards across the screen, the Solitaire game suddenly dissolved into pitch-black void.",
    "who": "nar",
-   "start": 95.08,
-   "end": 96.591
+   "start": 104.114,
+   "end": 113.0
   },
   {
    "i": 11,
    "beat": 5,
    "chapter": null,
-   "text": "Days later, another child vanished while walking an errand just two streets from his home.",
+   "text": "Bright red monospaced text appeared line by line: Hi Jack, I need a favor from you.",
    "who": "nar",
-   "start": 97.041,
-   "end": 104.272
+   "start": 113.3,
+   "end": 121.389
   },
   {
    "i": 12,
    "beat": 5,
    "chapter": null,
-   "text": "By late January, seven children had been torn from existence.",
+   "text": "You are a very special person, and I know you will help me.",
    "who": "nar",
-   "start": 104.572,
-   "end": 109.541
+   "start": 121.689,
+   "end": 125.853
   },
   {
    "i": 13,
-   "beat": 5,
+   "beat": 6,
    "chapter": null,
-   "text": "Fear consumed every cottage, turning neighbor against neighbor.",
+   "text": "A cold shiver crept down my spine as I leaned forward in my desk chair.",
    "who": "nar",
-   "start": 109.841,
-   "end": 114.475
+   "start": 126.303,
+   "end": 132.539
   },
   {
    "i": 14,
    "beat": 6,
-   "chapter": "The Outsider",
-   "text": "When two more children vanished in mid-February, the desperate town elder demanded a culprit.",
+   "chapter": null,
+   "text": "I thought it was a prank, but when I reached behind the tower and pulled the ethernet cable entirely from the wall, the screen did not falter.",
    "who": "nar",
-   "start": 115.075,
-   "end": 122.037
+   "start": 132.839,
+   "end": 144.551
   },
   {
    "i": 15,
-   "beat": 6,
+   "beat": 7,
    "chapter": null,
-   "text": "In every house and across every church pew, one whisper grew into a deafening roar: Herbert Solomon.",
+   "text": "Still here, Jack, the text printed in eerie, steady rhythm.",
    "who": "nar",
-   "start": 122.337,
-   "end": 130.824
+   "start": 145.001,
+   "end": 149.754
   },
   {
    "i": 16,
    "beat": 7,
    "chapter": null,
-   "text": "Solomon was an outsider who lived in a small wooden cabin deep within the Ettrick forest.",
+   "text": "Tomorrow when you arrive at work, I need you to move the large potted plant next to the elevator on the ground floor.",
    "who": "nar",
-   "start": 131.274,
-   "end": 138.756
+   "start": 150.054,
+   "end": 159.556
   },
   {
    "i": 17,
    "beat": 7,
    "chapter": null,
-   "text": "Ravaged by an unknown wasting disease, his body was emaciated, his skin sheet-white, and he covered his face with a tarnished hat and cloth.",
+   "text": "Pull it out exactly three inches from the wall at eight seventeen in the morning.",
    "who": "nar",
-   "start": 139.056,
-   "end": 152.187
+   "start": 159.856,
+   "end": 166.055
   },
   {
    "i": 18,
    "beat": 8,
    "chapter": null,
-   "text": "He would watch the village children play from the tree line.",
+   "text": "The text promised that no one would be in the lobby at that precise second, and that I would be richly rewarded for my cooperation.",
    "who": "nar",
-   "start": 152.637,
-   "end": 156.189
+   "start": 166.505,
+   "end": 176.88
   },
   {
    "i": 19,
    "beat": 8,
    "chapter": null,
-   "text": "On several occasions, children returned home carrying exquisitely carved wooden dolls and toys\u2014left on tree stumps as gifts from the gentle recluse.",
+   "text": "Panicked, I yanked the main power cord from the wall socket, plunging the room into absolute darkness.",
    "who": "nar",
-   "start": 156.489,
-   "end": 169.819
+   "start": 177.18,
+   "end": 185.118
   },
   {
    "i": 20,
-   "beat": 8,
+   "beat": 9,
    "chapter": null,
-   "text": "But to fearful parents, this was proof of evil.",
+   "text": "I lay awake in bed for hours, convincing myself that exhaustion was playing cruel tricks on my mind.",
    "who": "nar",
-   "start": 170.119,
-   "end": 173.66
+   "start": 185.568,
+   "end": 194.742
   },
   {
    "i": 21,
    "beat": 9,
-   "chapter": "The Fire",
-   "text": "On a freezing February night, grief and hatred reached a boiling pitch.",
+   "chapter": null,
+   "text": "Yet by morning, fear had subtly transformed into an overwhelming, irresistible curiosity.",
    "who": "nar",
-   "start": 174.26,
-   "end": 179.487
+   "start": 195.042,
+   "end": 203.709
   },
   {
    "i": 22,
-   "beat": 9,
-   "chapter": null,
-   "text": "Decreeing Solomon a child-killing abomination, a mob of villagers armed with axes, scythes, and flaming torches marched into the dark forest.",
+   "beat": 10,
+   "chapter": "The Lobby",
+   "text": "I arrived at the corporate office park at ten minutes past eight, parking my sedan at the far edge of the lot.",
    "who": "nar",
-   "start": 179.787,
-   "end": 193.539
+   "start": 204.309,
+   "end": 213.348
   },
   {
    "i": 23,
    "beat": 10,
    "chapter": null,
-   "text": "They surrounded his humble cabin and barred the heavy timbers from outside.",
+   "text": "At precisely eight sixteen, I walked through the revolving glass doors into the soaring marble atrium of the ten-story tower.",
    "who": "nar",
-   "start": 193.989,
-   "end": 199.753
+   "start": 213.648,
+   "end": 224.111
   },
   {
    "i": 24,
-   "beat": 10,
+   "beat": 11,
    "chapter": null,
-   "text": "Cheering in a frenzy of revenge, they tossed torches onto the dried thatched roof and watched the cabin ignite into a wall of roaring flame.",
+   "text": "To my astonishment, the normally bustling lobby was completely desolate, exactly as the midnight message had foretold.",
    "who": "nar",
-   "start": 200.053,
-   "end": 212.46
+   "start": 224.561,
+   "end": 235.255
   },
   {
    "i": 25,
    "beat": 11,
    "chapter": null,
-   "text": "Solomon's desperate screams echoed through the Scots pines, before fading into the crackle of falling timber.",
+   "text": "Heart pounding against my ribs, I approached the towering ceramic pot nestled between the two central elevator shafts.",
    "who": "nar",
-   "start": 212.91,
-   "end": 222.23
+   "start": 235.555,
+   "end": 245.021
   },
   {
    "i": 26,
-   "beat": 11,
+   "beat": 12,
    "chapter": null,
-   "text": "Satisfied that justice was served, the mob returned home, convinced the curse was lifted.",
+   "text": "The ornamental ficus plant was surprisingly heavy, filled with dense river rocks and moist soil.",
    "who": "nar",
-   "start": 222.53,
-   "end": 230.293
+   "start": 245.471,
+   "end": 254.108
   },
   {
    "i": 27,
    "beat": 12,
-   "chapter": "The Haunting",
-   "text": "Yet within days, a suffocating fog descended over Ettrick, and terror returned with a vengeance.",
+   "chapter": null,
+   "text": "Bracing my heels against the polished marble, I hauled the pot forward exactly three inches and stepped back into the shadows.",
    "who": "nar",
-   "start": 230.893,
-   "end": 239.704
+   "start": 254.408,
+   "end": 264.496
   },
   {
    "i": 28,
-   "beat": 12,
+   "beat": 13,
    "chapter": null,
-   "text": "Townsfolk began waking in the dead of night to the sound of floorboards creaking under an unnatural weight.",
+   "text": "Seconds later, the outer glass doors opened and the morning wave of commuters poured inside, walking past the shifted plant without a second glance.",
    "who": "nar",
-   "start": 240.004,
-   "end": 248.578
+   "start": 264.946,
+   "end": 278.063
   },
   {
    "i": 29,
    "beat": 13,
    "chapter": null,
-   "text": "An elderly woman woke to rustling beneath her bed, watching in paralyzed horror as a tall, skeletal figure dragged itself across the floor.",
+   "text": "I rode the elevator up to the seventh floor, settled into my cubicle, and waited for some supernatural consequence, but the morning remained mundane and quiet.",
    "who": "nar",
-   "start": 249.028,
-   "end": 261.246
+   "start": 278.363,
+   "end": 292.267
   },
   {
    "i": 30,
-   "beat": 13,
+   "beat": 14,
    "chapter": null,
-   "text": "In a cellar, a tradesman encountered the gaunt, sheet-white phantom hunched beneath the low rafters.",
+   "text": "My only genuine joy at the company was Allie, a radiant, warm-hearted woman who occupied the workstation just across the aisle.",
    "who": "nar",
-   "start": 261.546,
-   "end": 269.95
+   "start": 292.717,
+   "end": 304.496
   },
   {
    "i": 31,
    "beat": 14,
    "chapter": null,
-   "text": "Then, the impossible occurred: an orphan girl was snatched screaming from the foggy cobblestones.",
+   "text": "For months, our brief morning conversations had been the solitary anchor keeping my lonely existence afloat.",
    "who": "nar",
-   "start": 270.4,
-   "end": 278.311
+   "start": 304.796,
+   "end": 314.298
   },
   {
    "i": 32,
-   "beat": 14,
-   "chapter": null,
-   "text": "Days later, another child vanished from his bedroom.",
+   "beat": 15,
+   "chapter": "The Stumble",
+   "text": "As Allie and I were laughing over morning coffee, the elevator doors chime echoed down the hallway.",
    "who": "nar",
-   "start": 278.611,
-   "end": 282.445
+   "start": 314.898,
+   "end": 322.595
   },
   {
    "i": 33,
-   "beat": 14,
+   "beat": 15,
    "chapter": null,
-   "text": "Even inside the parish church, Solomon's tall, spindly shadow stepped into the aisle before dissolving into mist.",
+   "text": "Out hobbled James Bentley, the stern and demanding manager of our entire division, leaning heavily against the beige drywall.",
    "who": "nar",
-   "start": 282.745,
-   "end": 292.672
+   "start": 322.895,
+   "end": 334.143
   },
   {
    "i": 34,
-   "beat": 15,
-   "chapter": "The Ambush",
-   "text": "Believing Solomon's vengeful wraith had returned to punish the town, Vicar McKenzie assembled a group of chosen men armed with blessed steel, flaming torches, and vials of holy water to hunt the phantom down.",
+   "beat": 16,
+   "chapter": null,
+   "text": "Bentley was swearing loudly in agony, his face pale and contorted as he dragged his swollen right foot across the carpet.",
    "who": "nar",
-   "start": 293.272,
-   "end": 311.673
+   "start": 334.593,
+   "end": 345.548
   },
   {
    "i": 35,
    "beat": 16,
    "chapter": null,
-   "text": "They waited in the midnight mist until the solitary figure of Herbert Solomon appeared, walking the cobblestones with purposeful strides.",
+   "text": "When Allie rushed over with concern, he barked that he had tripped over a carelessly positioned decorative plant in the lobby and violently twisted his ankle.",
    "who": "nar",
-   "start": 312.123,
-   "end": 323.615
+   "start": 345.848,
+   "end": 358.58
   },
   {
    "i": 36,
-   "beat": 16,
+   "beat": 17,
    "chapter": null,
-   "text": "McKenzie and his men encircled the creature, brandishing weapons.",
+   "text": "A wave of sickening guilt washed over me as I retreated to my desk.",
    "who": "nar",
-   "start": 323.915,
-   "end": 329.256
+   "start": 359.03,
+   "end": 364.807
   },
   {
    "i": 37,
    "beat": 17,
    "chapter": null,
-   "text": "The vicar splashed holy water across the stone, and a torch struck Solomon's sleeve, setting the frayed cloth alight.",
+   "text": "Moving that pot three inches had caused my manager to stumble, an innocent mistake that I desperately hoped would heal with a few days of rest.",
    "who": "nar",
-   "start": 329.706,
-   "end": 339.684
+   "start": 365.107,
+   "end": 377.185
   },
   {
    "i": 38,
-   "beat": 17,
+   "beat": 18,
    "chapter": null,
-   "text": "But the tall figure broke through the circle, fleeing like a giant spider shadow across the village courtyards.",
+   "text": "When I returned home that evening, the computer screen flickered to life the moment I entered the room.",
    "who": "nar",
-   "start": 339.984,
-   "end": 348.363
+   "start": 377.635,
+   "end": 385.508
   },
   {
    "i": 39,
    "beat": 18,
-   "chapter": "The Cellar",
-   "text": "Pursued by the shouting mob, Solomon sprinted down the main street and ducked into an open cottage doorway.",
+   "chapter": null,
+   "text": "How was your day, Jack?",
    "who": "nar",
-   "start": 348.963,
-   "end": 357.589
+   "start": 385.808,
+   "end": 387.37
   },
   {
    "i": 40,
    "beat": 18,
    "chapter": null,
-   "text": "McKenzie and the villagers burst inside, only to find a weak, trembling young girl lying on the hall floor.",
+   "text": "the red letters asked with mocking politeness.",
    "who": "nar",
-   "start": 357.889,
-   "end": 367.046
+   "start": 387.67,
+   "end": 391.07
   },
   {
    "i": 41,
    "beat": 19,
    "chapter": null,
-   "text": "With her last ounce of strength, the child pointed toward the stone stairway and whispered a single word: Below.",
+   "text": "I sat motionless as the text continued: You are wondering why James Bentley had to twist his ankle.",
    "who": "nar",
-   "start": 367.496,
-   "end": 376.678
+   "start": 391.52,
+   "end": 400.259
   },
   {
    "i": 42,
    "beat": 19,
    "chapter": null,
-   "text": "The vicar descended with his torch into the cold cellar vault, and the breath caught in his throat.",
+   "text": "This chain of events is not done playing out.",
    "who": "nar",
-   "start": 376.978,
-   "end": 384.842
+   "start": 400.559,
+   "end": 404.069
   },
   {
    "i": 43,
-   "beat": 20,
+   "beat": 19,
    "chapter": null,
-   "text": "Chained against the damp stone walls were the missing children\u2014malnourished and terrified, but alive!",
+   "text": "Go to work tomorrow as you always do, and watch how smoothly the pieces fall into place.",
    "who": "nar",
-   "start": 385.292,
-   "end": 393.663
+   "start": 404.369,
+   "end": 411.53
   },
   {
    "i": 44,
    "beat": 20,
    "chapter": null,
-   "text": "And lying motionless upon the stone floor was the true fiend: Tom Sutherland, the father of the very first child who had vanished.",
+   "text": "A disturbing mixture of terror and dark fascination took hold of me, and that night, my sleep was haunted by the sound of falling dominos.",
    "who": "nar",
-   "start": 393.963,
-   "end": 405.427
+   "start": 411.98,
+   "end": 424.528
   },
   {
    "i": 45,
    "beat": 21,
-   "chapter": null,
-   "text": "Sutherland had killed his daughter in a drunken rage, and consumed by madness, had stolen the other children.",
+   "chapter": "The Accident",
+   "text": "The following afternoon at the office was unusually somber.",
    "who": "nar",
-   "start": 405.877,
-   "end": 414.795
+   "start": 425.128,
+   "end": 429.743
   },
   {
    "i": 46,
    "beat": 21,
    "chapter": null,
-   "text": "He was about to execute another captive when Herbert Solomon burst through the cellar door, ending Sutherland's reign of terror to save the innocent.",
+   "text": "James Bentley arrived after lunch, his ankle heavily bandaged, barely able to bear any weight on the swollen joint.",
    "who": "nar",
-   "start": 415.095,
-   "end": 426.901
+   "start": 430.043,
+   "end": 440.022
   },
   {
    "i": 47,
    "beat": 22,
-   "chapter": "The Guardian",
-   "text": "The town rejoiced, realizing with heavy shame that the gentle recluse they had burned alive was their protector all along.",
+   "chapter": null,
+   "text": "Shortly before three o'clock, Bentley limped over to Allie's cubicle in obvious distress.",
    "who": "nar",
-   "start": 427.501,
-   "end": 437.804
+   "start": 440.472,
+   "end": 447.752
   },
   {
    "i": 48,
    "beat": 22,
    "chapter": null,
-   "text": "Yet the story does not end in the 16th century.",
+   "text": "He pleaded with her to drive his car to an urgent care clinic, explaining that the throbbing pain had made it impossible for him to operate the gas pedal.",
    "who": "nar",
-   "start": 438.104,
-   "end": 441.958
+   "start": 448.052,
+   "end": 461.33
   },
   {
    "i": 49,
    "beat": 23,
    "chapter": null,
-   "text": "Centuries later, while researching the Ettrick tome, I visited a colleague's estate near the Scottish borders.",
+   "text": "Allie agreed without hesitation, grabbing her winter coat from the chair.",
    "who": "nar",
-   "start": 442.408,
-   "end": 450.856
+   "start": 461.78,
+   "end": 467.321
   },
   {
    "i": 50,
    "beat": 23,
    "chapter": null,
-   "text": "The following afternoon, panicked screams shattered the tranquil countryside\u2014my friend's little daughter had fallen into a violent, swollen river.",
+   "text": "She turned back to flash me a gentle smile, whispering, See you tomorrow, Jackie, as she escorted our limping boss toward the elevators.",
    "who": "nar",
-   "start": 451.156,
-   "end": 462.738
+   "start": 467.621,
+   "end": 478.963
   },
   {
    "i": 51,
    "beat": 24,
    "chapter": null,
-   "text": "Swept by torrential currents toward jagged rocks, the child lost her grip on a slippery tree root.",
+   "text": "Ten minutes later, a catastrophic sound shattered the afternoon tranquility of the seventh floor.",
    "who": "nar",
-   "start": 463.188,
-   "end": 471.045
+   "start": 479.413,
+   "end": 487.311
   },
   {
    "i": 52,
    "beat": 24,
    "chapter": null,
-   "text": "We plunged into the rapids, but we were too far away.",
+   "text": "A deafening air horn blared in frantic bursts, followed by the agonizing screech of burning rubber and a thunderous, violent metallic impact that shook the glass windows.",
    "who": "nar",
-   "start": 471.345,
-   "end": 475.197
+   "start": 487.611,
+   "end": 502.283
   },
   {
    "i": 53,
-   "beat": 24,
+   "beat": 25,
    "chapter": null,
-   "text": "She was seconds from drowning.",
+   "text": "Workers gasped and surged toward the panoramic glass overlooking the boulevard below.",
    "who": "nar",
-   "start": 475.497,
-   "end": 477.295
+   "start": 502.733,
+   "end": 509.97
   },
   {
    "i": 54,
    "beat": 25,
    "chapter": null,
-   "text": "Suddenly, the forest branches cracked.",
+   "text": "Down on the asphalt, an eighteen-wheeler truck had plowed broadside into Bentley's sedan, crushing the driver's side like an aluminum can.",
    "who": "nar",
-   "start": 477.745,
-   "end": 480.329
+   "start": 510.27,
+   "end": 522.09
   },
   {
    "i": 55,
-   "beat": 25,
+   "beat": 26,
    "chapter": null,
-   "text": "From the opposite bank, a tall, gaunt figure burst forth at superhuman speed.",
+   "text": "I scrambled down the emergency stairs in blind panic, bursting onto the street amidst wailing sirens and weeping bystanders.",
    "who": "nar",
-   "start": 480.629,
-   "end": 487.272
+   "start": 522.54,
+   "end": 533.475
   },
   {
    "i": 56,
-   "beat": 25,
+   "beat": 26,
    "chapter": null,
-   "text": "A long, skeletal hand plunged deep into the churning foam, pulling the girl gently to safety.",
+   "text": "James Bentley sat dazed and bleeding in the passenger seat, but the driver's compartment where Allie had been sitting had been compacted into twisted, unrecognizable scrap metal.",
    "who": "nar",
-   "start": 487.572,
-   "end": 495.358
+   "start": 533.775,
+   "end": 549.297
   },
   {
    "i": 57,
-   "beat": 26,
+   "beat": 27,
    "chapter": null,
-   "text": "The pale, withered man placed the child on the grass, gazed across the river with dark, sorrowful eyes, and vanished into the Scots pines.",
+   "text": "I did not return to the office that day.",
    "who": "nar",
-   "start": 495.808,
-   "end": 508.007
+   "start": 549.747,
+   "end": 552.149
   },
   {
    "i": 58,
-   "beat": 26,
+   "beat": 27,
    "chapter": null,
-   "text": "Even in death, Herbert Solomon was the kindest and gentlest of souls.",
+   "text": "I drove back to my apartment in a numb daze, vomiting into the sink as the unbearable truth crushed my soul: my hands had set that fatal collision into motion.",
    "who": "nar",
-   "start": 508.307,
-   "end": 514.66
+   "start": 552.449,
+   "end": 566.953
   },
   {
    "i": 59,
-   "beat": 27,
-   "chapter": null,
-   "text": "This story was adapted from Scottish folklore and the legend of Herbert Solomon.",
+   "beat": 28,
+   "chapter": "The Pact",
+   "text": "I stared at the computer for nearly an hour before trembling fingers pressed the power switch.",
    "who": "nar",
-   "start": 515.11,
-   "end": 521.502
+   "start": 567.553,
+   "end": 575.331
   },
   {
    "i": 60,
    "beat": 28,
    "chapter": null,
-   "text": "Now tell me.",
+   "text": "The display ignited instantly into that horrific black field: No Jack, it is not your fault.",
    "who": "nar",
-   "start": 521.952,
-   "end": 522.882
+   "start": 575.631,
+   "end": 584.326
   },
   {
    "i": 61,
    "beat": 28,
    "chapter": null,
-   "text": "Would you have judged him by his face?",
+   "text": "All people die eventually, some simply sooner than others.",
    "who": "nar",
-   "start": 523.182,
-   "end": 525.612
+   "start": 584.626,
+   "end": 589.342
+  },
+  {
+   "i": 62,
+   "beat": 29,
+   "chapter": null,
+   "text": "The text explained that Allie had been secretly unfaithful to her past partners and was planning to manipulate my naive affections into four agonizing years of emotional devastation.",
+   "who": "nar",
+   "start": 589.792,
+   "end": 605.463
+  },
+  {
+   "i": 63,
+   "beat": 29,
+   "chapter": null,
+   "text": "It insisted that by shifting the timeline, we had spared me a lifetime of bitter heartbreak.",
+   "who": "nar",
+   "start": 605.763,
+   "end": 613.282
+  },
+  {
+   "i": 64,
+   "beat": 30,
+   "chapter": null,
+   "text": "Enraged by the cold rationalization, I seized the CRT monitor and hurled it onto the hardwood floor, watching it shatter into sparks and smoking plastic.",
+   "who": "nar",
+   "start": 613.732,
+   "end": 628.072
+  },
+  {
+   "i": 65,
+   "beat": 30,
+   "chapter": null,
+   "text": "Yet the next morning, reality took an even more disorienting turn.",
+   "who": "nar",
+   "start": 628.372,
+   "end": 633.257
+  },
+  {
+   "i": 66,
+   "beat": 31,
+   "chapter": null,
+   "text": "Division Director Diego Salbara called me into the executive boardroom and offered me James Bentley's managerial role on the spot, citing the critical Lancaster project that could not pause while Bentley lay in an intensive care coma.",
+   "who": "nar",
+   "start": 633.707,
+   "end": 654.974
+  },
+  {
+   "i": 67,
+   "beat": 32,
+   "chapter": null,
+   "text": "The promotion doubled my salary overnight and vaulted me into executive leadership.",
+   "who": "nar",
+   "start": 655.424,
+   "end": 662.345
+  },
+  {
+   "i": 68,
+   "beat": 32,
+   "chapter": null,
+   "text": "That afternoon, I purchased a brand new flat-panel display and hooked it up in my study.",
+   "who": "nar",
+   "start": 662.645,
+   "end": 670.083
+  },
+  {
+   "i": 69,
+   "beat": 33,
+   "chapter": null,
+   "text": "The red text welcomed me back with warmth: I am called the Seer.",
+   "who": "nar",
+   "start": 670.533,
+   "end": 675.96
+  },
+  {
+   "i": 70,
+   "beat": 33,
+   "chapter": null,
+   "text": "For thousands of years I have seen all branching futures, what will be and what can be.",
+   "who": "nar",
+   "start": 676.26,
+   "end": 683.655
+  },
+  {
+   "i": 71,
+   "beat": 33,
+   "chapter": null,
+   "text": "But without a physical body, I require a living partner to act as my paintbrush upon the canvas of human history.",
+   "who": "nar",
+   "start": 683.955,
+   "end": 693.641
+  },
+  {
+   "i": 72,
+   "beat": 34,
+   "chapter": null,
+   "text": "The entity swore two unbreakable oaths: it would never speak an outright lie, and it would never command me to commit an illegal act.",
+   "who": "nar",
+   "start": 694.091,
+   "end": 705.421
+  },
+  {
+   "i": 73,
+   "beat": 34,
+   "chapter": null,
+   "text": "Transfixed by the promise of unlimited fortune, I placed my hands on the keys and typed: What do you want me to do next?",
+   "who": "nar",
+   "start": 705.721,
+   "end": 716.123
+  },
+  {
+   "i": 74,
+   "beat": 35,
+   "chapter": "The Ripple",
+   "text": "Two years passed in a whirlwind of ascending prosperity, with small monthly requests arriving like clockwork on my terminal.",
+   "who": "nar",
+   "start": 716.723,
+   "end": 727.472
+  },
+  {
+   "i": 75,
+   "beat": 35,
+   "chapter": null,
+   "text": "One afternoon, the Seer instructed me to enter Garmin's Liquor Store downtown at precisely twelve thirty-seven and answer any question with the number twenty-seven.",
+   "who": "nar",
+   "start": 727.772,
+   "end": 742.574
+  },
+  {
+   "i": 76,
+   "beat": 36,
+   "chapter": null,
+   "text": "Inside the dingy shop, a burly construction worker in dusty overalls was filling out a state lottery ticket at the counter.",
+   "who": "nar",
+   "start": 743.024,
+   "end": 753.292
+  },
+  {
+   "i": 77,
+   "beat": 36,
+   "chapter": null,
+   "text": "When the man turned around and casually asked me for a lucky number, I smiled and replied: Twenty-seven.",
+   "who": "nar",
+   "start": 753.592,
+   "end": 763.098
+  },
+  {
+   "i": 78,
+   "beat": 37,
+   "chapter": null,
+   "text": "Two weeks later, the same worker spotted me in a supermarket, beaming with joy and wearing an expensive gold wristwatch.",
+   "who": "nar",
+   "start": 763.548,
+   "end": 773.755
+  },
+  {
+   "i": 79,
+   "beat": 37,
+   "chapter": null,
+   "text": "He shouted that he had won the multi-million dollar jackpot, writing me a personal check for ten thousand dollars as his good luck charm.",
+   "who": "nar",
+   "start": 774.055,
+   "end": 785.63
+  },
+  {
+   "i": 80,
+   "beat": 38,
+   "chapter": null,
+   "text": "When I asked the Seer why we had finally performed an act of pure benevolence, the screen illuminated with cold clarity: Within twenty-four months, that lottery winner will squander every penny on reckless gambles.",
+   "who": "nar",
+   "start": 786.081,
+   "end": 804.309
+  },
+  {
+   "i": 81,
+   "beat": 38,
+   "chapter": null,
+   "text": "His wife will flee with their children, leaving him an impoverished, broken shell.",
+   "who": "nar",
+   "start": 804.609,
+   "end": 811.102
+  },
+  {
+   "i": 82,
+   "beat": 39,
+   "chapter": null,
+   "text": "Another favor instructed me to park my car in stall forty-three outside the County Courthouse at four forty-seven in the afternoon.",
+   "who": "nar",
+   "start": 811.552,
+   "end": 823.361
+  },
+  {
+   "i": 83,
+   "beat": 39,
+   "chapter": null,
+   "text": "That simple act displaced another driver, initiating a sprawling chain reaction across twenty-five strangers that resulted in a missed train, a mugging, and an emergency detour.",
+   "who": "nar",
+   "start": 823.661,
+   "end": 839.795
+  },
+  {
+   "i": 84,
+   "beat": 40,
+   "chapter": null,
+   "text": "At the end of that tangled web stood Donna, a brilliant, compassionate woman who entered the courthouse lobby at the exact second I was walking out.",
+   "who": "nar",
+   "start": 840.245,
+   "end": 852.84
+  },
+  {
+   "i": 85,
+   "beat": 40,
+   "chapter": null,
+   "text": "We fell deeply in love, married within the year, and built a life filled with laughter and devotion.",
+   "who": "nar",
+   "start": 853.14,
+   "end": 861.135
+  },
+  {
+   "i": 86,
+   "beat": 41,
+   "chapter": null,
+   "text": "Over twelve glorious years, every request bore the same twin fruits: an unseen disaster for a stranger, and radiant, golden fortune for me.",
+   "who": "nar",
+   "start": 861.585,
+   "end": 874.603
+  },
+  {
+   "i": 87,
+   "beat": 42,
+   "chapter": "The Order",
+   "text": "By our twelfth year together, Donna and I were living in a magnificent two-story estate nestled among the pine trees of the countryside.",
+   "who": "nar",
+   "start": 875.203,
+   "end": 886.777
+  },
+  {
+   "i": 88,
+   "beat": 42,
+   "chapter": null,
+   "text": "I had retired early, surrounded by wealth, deep respect, and a marriage that felt like heaven on earth.",
+   "who": "nar",
+   "start": 887.077,
+   "end": 896.167
+  },
+  {
+   "i": 89,
+   "beat": 43,
+   "chapter": null,
+   "text": "On a chilly November evening, while Donna was relaxing on the living room sofa, my computer chimed in the upstairs study.",
+   "who": "nar",
+   "start": 896.617,
+   "end": 906.682
+  },
+  {
+   "i": 90,
+   "beat": 43,
+   "chapter": null,
+   "text": "The Seer's request was simpler than ever: Call Riago's Pizza in exactly two minutes, let the line ring three times, and hang up.",
+   "who": "nar",
+   "start": 906.982,
+   "end": 919.293
+  },
+  {
+   "i": 91,
+   "beat": 44,
+   "chapter": null,
+   "text": "I dialed the number, counted three hollow rings over the speaker, and ended the call without a second thought.",
+   "who": "nar",
+   "start": 919.743,
+   "end": 928.579
+  },
+  {
+   "i": 92,
+   "beat": 44,
+   "chapter": null,
+   "text": "Thirty minutes later, the front doorbell chimed through the quiet halls.",
+   "who": "nar",
+   "start": 928.879,
+   "end": 934.083
+  },
+  {
+   "i": 93,
+   "beat": 45,
+   "chapter": null,
+   "text": "Standing on the front porch was a pizza delivery courier whose sheer physical presence sent a pang of dread through my chest.",
+   "who": "nar",
+   "start": 934.533,
+   "end": 945.504
+  },
+  {
+   "i": 94,
+   "beat": 45,
+   "chapter": null,
+   "text": "He was a towering young man, well over six feet six inches tall, with broad, muscular shoulders and hollow, furious eyes under a stained Riago's cap.",
+   "who": "nar",
+   "start": 945.804,
+   "end": 960.473
+  },
+  {
+   "i": 95,
+   "beat": 46,
+   "chapter": null,
+   "text": "The courier shoved a cardboard pizza box into my hands, snarling that it was already paid by card and he refused to drive it back down the dark rural highway.",
+   "who": "nar",
+   "start": 960.923,
+   "end": 975.25
+  },
+  {
+   "i": 96,
+   "beat": 46,
+   "chapter": null,
+   "text": "When I admitted that I carried no cash on me for a tip, the boy spat venomously into the flowerbed, glared into the hallway, and stormed back to his idling vehicle.",
+   "who": "nar",
+   "start": 975.55,
+   "end": 988.969
+  },
+  {
+   "i": 97,
+   "beat": 47,
+   "chapter": null,
+   "text": "Donna and I ate the pizza together on the plush couch, laughing as the rain drummed softly against the glass.",
+   "who": "nar",
+   "start": 989.419,
+   "end": 998.505
+  },
+  {
+   "i": 98,
+   "beat": 47,
+   "chapter": null,
+   "text": "Shortly after eleven, she drifted to sleep under a knitted blanket, looking peaceful and radiant.",
+   "who": "nar",
+   "start": 998.805,
+   "end": 1007.143
+  },
+  {
+   "i": 99,
+   "beat": 48,
+   "chapter": null,
+   "text": "Leaving Donna sleeping soundly, I tiptoed upstairs to my office, an inexplicable knot of anxiety tightening in my gut.",
+   "who": "nar",
+   "start": 1007.593,
+   "end": 1018.244
+  },
+  {
+   "i": 100,
+   "beat": 49,
+   "chapter": "The Reckoning",
+   "text": "As soon as I sat down, the monitor flashed into that familiar crimson glow: That delivery boy is quite an impressive specimen, isn't he Jack?",
+   "who": "nar",
+   "start": 1018.844,
+   "end": 1031.138
+  },
+  {
+   "i": 101,
+   "beat": 49,
+   "chapter": null,
+   "text": "He noticed that you forgot to lock the heavy front door after he left.",
+   "who": "nar",
+   "start": 1031.438,
+   "end": 1036.208
+  },
+  {
+   "i": 102,
+   "beat": 50,
+   "chapter": null,
+   "text": "Panic seized my limbs, but the text commanded: Stay seated, Jack.",
+   "who": "nar",
+   "start": 1036.658,
+   "end": 1042.517
+  },
+  {
+   "i": 103,
+   "beat": 50,
+   "chapter": null,
+   "text": "Locking the door now will not alter the geometry of fate.",
+   "who": "nar",
+   "start": 1042.817,
+   "end": 1047.59
+  },
+  {
+   "i": 104,
+   "beat": 50,
+   "chapter": null,
+   "text": "You see, every single favor you carried out across twelve years was directed toward one supreme artistic culmination.",
+   "who": "nar",
+   "start": 1047.89,
+   "end": 1058.626
+  },
+  {
+   "i": 105,
+   "beat": 51,
+   "chapter": null,
+   "text": "The Seer unraveled the horrifying tapestry: when Allie died twelve years ago, her devastated brother dropped out of medical school and never became the child psychologist who could have healed that troubled boy.",
+   "who": "nar",
+   "start": 1059.076,
+   "end": 1076.643
+  },
+  {
+   "i": 106,
+   "beat": 51,
+   "chapter": null,
+   "text": "The ruined lottery winner had moved into the boy's neighborhood, beating him mercilessly in an alcoholic rage.",
+   "who": "nar",
+   "start": 1076.943,
+   "end": 1086.152
+  },
+  {
+   "i": 107,
+   "beat": 52,
+   "chapter": null,
+   "text": "The boy's neglectful mother had fallen into severe addiction using narcotics purchased by the very mugger displaced by my courthouse parking favor.",
+   "who": "nar",
+   "start": 1086.602,
+   "end": 1099.671
+  },
+  {
+   "i": 108,
+   "beat": 52,
+   "chapter": null,
+   "text": "Over a decade of calculated suffering had engineered that young man into an unstoppable instrument of psychotic fury.",
+   "who": "nar",
+   "start": 1099.971,
+   "end": 1110.456
+  },
+  {
+   "i": 109,
+   "beat": 53,
+   "chapter": null,
+   "text": "Tonight, a wrong address and a missing tip pushed his fragile mind over the edge.",
+   "who": "nar",
+   "start": 1110.906,
+   "end": 1117.368
+  },
+  {
+   "i": 110,
+   "beat": 53,
+   "chapter": null,
+   "text": "The text concluded: He is standing in your living room right now, ending Donna's life at this exact second.",
+   "who": "nar",
+   "start": 1117.668,
+   "end": 1126.929
+  },
+  {
+   "i": 111,
+   "beat": 54,
+   "chapter": null,
+   "text": "A muffled, choked scream echoed up the stairwell, followed by the sickening wet sound of silence.",
+   "who": "nar",
+   "start": 1127.379,
+   "end": 1135.718
+  },
+  {
+   "i": 112,
+   "beat": 54,
+   "chapter": null,
+   "text": "I shrieked Donna's name and lunged toward the doorway, but a melodic, feminine voice suddenly resonated directly inside my skull.",
+   "who": "nar",
+   "start": 1136.018,
+   "end": 1147.872
+  },
+  {
+   "i": 113,
+   "beat": 55,
+   "chapter": null,
+   "text": "Stop, Jack, the soothing whisper echoed in my mind.",
+   "who": "nar",
+   "start": 1148.322,
+   "end": 1152.496
+  },
+  {
+   "i": 114,
+   "beat": 55,
+   "chapter": null,
+   "text": "You cannot save her.",
+   "who": "nar",
+   "start": 1152.796,
+   "end": 1154.065
+  },
+  {
+   "i": 115,
+   "beat": 55,
+   "chapter": null,
+   "text": "Had we never met, you would have lived eighty-five bitter, lonely, meaningless years, dying unloved and forgotten.",
+   "who": "nar",
+   "start": 1154.365,
+   "end": 1164.307
+  },
+  {
+   "i": 116,
+   "beat": 55,
+   "chapter": null,
+   "text": "Instead, I gave you twelve magnificent years of pure joy, and in return, you helped me create a masterpiece that begins and ends with you.",
+   "who": "nar",
+   "start": 1164.607,
+   "end": 1176.985
+  },
+  {
+   "i": 117,
+   "beat": 56,
+   "chapter": null,
+   "text": "Tears of agony and awe streamed down my face as heavy, deliberate footsteps ascended the wooden stairs.",
+   "who": "nar",
+   "start": 1177.435,
+   "end": 1186.845
+  },
+  {
+   "i": 118,
+   "beat": 56,
+   "chapter": null,
+   "text": "The massive silhouette of the delivery courier filled the doorway, his eyes dead and unblinking, a crimson blade gleaming in his grip.",
+   "who": "nar",
+   "start": 1187.145,
+   "end": 1198.523
+  },
+  {
+   "i": 119,
+   "beat": 57,
+   "chapter": null,
+   "text": "On the screen behind me, the Seer's final words pulsed softly in the dark: Don't you have something to say to me, Jack?",
+   "who": "nar",
+   "start": 1198.973,
+   "end": 1209.087
+  },
+  {
+   "i": 120,
+   "beat": 57,
+   "chapter": null,
+   "text": "I closed my eyes, accepted the beauty of the tapestry, and whispered my final breath: Thank you.",
+   "who": "nar",
+   "start": 1209.387,
+   "end": 1218.016
+  },
+  {
+   "i": 121,
+   "beat": 58,
+   "chapter": null,
+   "text": "This story was adapted from The Seer of Possibilities, inspired by the classic creepypasta legend.",
+   "who": "nar",
+   "start": 1218.466,
+   "end": 1226.76
+  },
+  {
+   "i": 122,
+   "beat": 59,
+   "chapter": null,
+   "text": "Would you trade eighty-five bitter years for twelve perfect ones?",
+   "who": "nar",
+   "start": 1227.21,
+   "end": 1231.936
   }
  ]
 }

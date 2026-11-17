@@ -27,16 +27,10 @@ def length(kind):
     if os.path.exists(f):
         r = subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', f], capture_output=True, text=True)
         return mmss(float(r.stdout.strip()))
-    _d = json.load(open(f'src/shots_{kind}.json'))
-    return mmss(_d.get('total_frames', _d.get('frames', 0)) / 10)
+    J = json.load(open(f'src/shots_{kind}.json')); return mmss(J['frames'] / J.get('fps', 30))
 def chapters():
     if U.get('chapters'): return U['chapters']
-    data = json.load(open('src/shots_long.json'))
-    if 'chapter_times' in data:
-        return [f'{mmss(t, floor=True)} {c}' for t, c in data['chapter_times']]
-    if 'chapters' in data:
-        return [f'{mmss(ch["t"], floor=True)} {ch["title"]}' for ch in data['chapters']]
-    return ['0:00 Intro']
+    return [f'{mmss(t, floor=True)} {c}' for t, c in json.load(open('src/shots_long.json'))['chapter_times']]
 def block(lines): return '```\n' + ('\n'.join(lines) if isinstance(lines, list) else lines) + '\n```'
 def tags():
     story = [t.strip() for t in U['tags_story'].split(',') if t.strip()]
