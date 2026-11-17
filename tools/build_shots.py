@@ -29,7 +29,7 @@ MINSHOT = 1.15  # never cut faster than this (a shorter picture cannot be read)
 shots, chapters, warn, specs = [], [], [], {}
 chn = 0
 # the end screen (long video only) starts on the last sentence and runs ENDS seconds
-end_start = (units[-1]['start'] - 0.05) if NAME == 'long' else None
+end_start = max(units[-1]['start'] - 0.1, units[-1]['end'] - 3.0) if NAME == 'long' else None
 for ui, u in enumerate(units):
     t0 = u['start'] if ui == 0 else max(u['start'] - 0.12, units[ui - 1]['end'])
     t1 = units[ui + 1]['start'] - 0.12 if ui + 1 < len(units) else (end_start + ENDS if NAME == 'long' else dur)
@@ -39,7 +39,9 @@ for ui, u in enumerate(units):
     if len(L) == 1 and L[0][0] in CARD_SETS:
         n = 1
     else:
-        n = max(len(L), min(max(1, round(d / gap)), max(1, int(d / MINSHOT))))
+        # the teaser must change picture at least every 2.6 s, so round UP there
+        want = math.ceil(d / gap) if u['beat'] <= TEASER else round(d / gap)
+        n = max(len(L), min(max(1, want), max(1, int(d / MINSHOT))))
     if len(L) < n: warn.append(f"unit {ui} ({d:.1f}s) has {len(L)} scene(s) for {n} shot(s) -> {n - len(L)} re-show(s): {u['text'][:60]}")
     for k in range(n):
         st, v = L[k] if k < len(L) else L[k % len(L)]

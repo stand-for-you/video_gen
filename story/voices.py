@@ -1,23 +1,14 @@
-# Kokoro voices for The Seer of Possibilities
+# One fixed Kokoro voice per speaking character (LONG video only; the Reel is always the narrator alone).
 VOICES = {
-    'nar': ('af_nicole', 1.08),
-    'allie': ('af_sky', 1.0),
-    'james': ('am_onyx', 1.05),
-    'diego': ('bm_george', 1.0),
-    'seer': ('af_bella', 0.95),
-    'hulk': ('am_adam', 0.92),
+  'nar':   ('af_nicole', 1.1),    # the storyteller
+  'seer':  ('bf_emma',   0.98),   # the Seer: calm, feminine, patient, never hurried
+  'jack':  ('am_adam',   1.0),    # Jack: flat, tired, ordinary
+  'allie': ('af_bella',  1.06),   # Allie: bright and quick
+  'james': ('am_onyx',   1.0),    # James Bentley: heavy, complaining
+  'diego': ('bm_george', 1.0),    # Diego Salbara: direct, senior
+  'man':   ('am_echo',   1.05),   # the lottery man: loud and friendly
+  'boy':   ('am_fenrir', 0.95),   # the delivery boy: slow, blank, too big for his age
+  'donna': ('af_sarah',  1.0),    # Donna: warm, easy
 }
-PITCH = {
-    'hulk': 0.85,
-    'seer': 1.05,
-}
-SAY = [
-    ("8:17am", "eight seventeen AM"),
-    ("12:37pm", "twelve thirty-seven PM"),
-    ("4:47pm", "four forty-seven PM"),
-    ("18 wheeler", "eighteen wheeler"),
-    ("18-wheeler", "eighteen wheeler"),
-    ("Riago's", "Ree ah go's"),
-    ("Garmin's", "Gar mins"),
-    ("Salbara", "Sal bah rah"),
-]
+PITCH = {'seer': 0.96}            # the Seer sits a little below a normal voice, so she feels older than the room
+SAY = [("Riago's", "Ree ahgo's"), ("Riago", "Ree ahgo"), ("Salbara", "Sal bahra"), ("Garmin's", "Gar min's"), ("Jackie", "Jack ee")]

@@ -1,83 +1,27 @@
 import React from 'react';
 import { AbsoluteFill } from 'remotion';
-
-// ===== KIT 'q': THE SEER OF POSSIBILITIES CHAPTER CARD =====
-// Sleek dark terminal window with glowing phosphor header and red cursor accent.
-export const ChapterCard: React.FC<{ W: number; H: number; t: number; n: number; title: string; vertical?: boolean }> = ({ W, H, t, n, title, vertical = false }) => {
-  if (t < 0 || t > 3) return null;
-  const e = (x: number) => { const c = Math.max(0, Math.min(1, x)); return 1 - Math.pow(1 - c, 3); };
-  const a = Math.min(e(t / 0.45), 1 - e((t - 2.45) / 0.55));
-  const sz = vertical ? W * 0.85 : H * 0.65, w = sz * 1.35, h = sz * 0.82;
-  const fs = h * 0.16 * (title.length > 14 ? 0.82 : 1);
-
+// ===== CHAPTER CARD (story kit q): a dark monitor with one red line of text, "FAVOUR 01".
+// It slides in from the left on a smoothstep curve, holds, and fades. No flashing.
+const ss = (x: number) => { const c = Math.max(0, Math.min(1, x)); return c * c * (3 - 2 * c); };
+export const ChapterCard: React.FC<{ W: number; H: number; t: number; n: number; title: string; vertical?: boolean }> = ({ W, H, t, n, title, vertical }) => {
+  const inn = ss(t / 0.6), out = 1 - ss((t - 2.1) / 0.6);
+  const k = Math.min(inn, out); if (k <= 0) return null;
+  const w = vertical ? W * 0.84 : W * 0.4, h = vertical ? H * 0.12 : H * 0.17;
+  const x = vertical ? (W - w) / 2 : W * 0.065, y = vertical ? H * 0.21 : H * 0.66;
+  const fs = vertical ? h * 0.3 : h * 0.26;
   return (
-    <AbsoluteFill style={{ background: `rgba(0,0,0,${0.55 * a})`, pointerEvents: 'none' }}>
-      <div
-        style={{
-          position: 'absolute',
-          left: (W - w) / 2,
-          top: (H - h) / 2 + (1 - a) * 50,
-          width: w,
-          height: h,
-          opacity: a,
-          filter: 'drop-shadow(0 20px 30px rgba(0,0,0,0.85))',
-        }}
-      >
-        <svg viewBox="0 0 540 330" style={{ position: 'absolute', inset: 0, width: '100%', height: '100%' }}>
-          {/* Main Dark Terminal Glass */}
-          <rect x={15} y={15} width={510} height={300} rx={12} fill="#070c14" stroke="#1e293b" strokeWidth={3} />
-          {/* Top Title Bar */}
-          <rect x={15} y={15} width={510} height={48} rx={12} fill="#0f172a" stroke="#1e293b" strokeWidth={2} />
-          {/* Terminal Dots */}
-          <circle cx={42} cy={39} r={6} fill="#ef4444" />
-          <circle cx={62} cy={39} r={6} fill="#eab308" />
-          <circle cx={82} cy={39} r={6} fill="#22c55e" />
-          {/* Inner Content Border */}
-          <rect x={35} y={80} width={470} height={215} rx={6} fill="#04070d" stroke="#334155" strokeWidth={1.5} />
-          {/* Red Scanner Line */}
-          <line x1={35} y1={80} x2={505} y2={80} stroke="#ff2a2a" strokeWidth={3} />
-        </svg>
-
-        {/* Top Header Label */}
-        <div
-          style={{
-            position: 'absolute',
-            left: 105,
-            top: 28,
-            fontFamily: 'monospace',
-            fontWeight: 700,
-            fontSize: 16,
-            letterSpacing: 2,
-            color: '#38bdf8',
-          }}
-        >
-          POSSIBILITY_CHAIN // NODE {String(n).padStart(2, '0')}
-        </div>
-
-        {/* Chapter Title */}
-        <div
-          style={{
-            position: 'absolute',
-            left: '12%',
-            right: '12%',
-            top: '36%',
-            height: '42%',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            textAlign: 'center',
-            fontFamily: 'Lora, Georgia, serif',
-            fontStyle: 'italic',
-            fontWeight: 700,
-            fontSize: fs,
-            lineHeight: 1.15,
-            color: '#f8fafc',
-            textShadow: '0 4px 14px rgba(0,0,0,0.9)',
-          }}
-        >
-          {title}
-        </div>
-      </div>
+    <AbsoluteFill style={{ pointerEvents: 'none', opacity: k }}>
+      <svg width={W} height={H}>
+        <g transform={`translate(${x - (1 - inn) * 60},${y})`}>
+          <rect x={-10} y={-10} width={w + 20} height={h + 44} rx={8} fill="#1a1c20" opacity={0.92} />
+          <rect x={0} y={0} width={w} height={h} rx={3} fill="#06070b" />
+          <rect x={0} y={0} width={w} height={h} rx={3} fill="none" stroke="#2a2e34" strokeWidth={3} />
+          {Array.from({ length: Math.floor(h / 6) }, (_, i) => <rect key={i} x={2} y={i * 6} width={w - 4} height={1} fill="#ffffff" opacity={0.03} />)}
+          <text x={w * 0.06} y={h * 0.42} fill="#ff2a1e" fontFamily="Lora, Georgia, serif" fontWeight={700} fontSize={fs * 0.62} letterSpacing={6} opacity={0.9}>{`FAVOUR ${String(n).padStart(2, '0')}`}</text>
+          <text x={w * 0.06} y={h * 0.78} fill="#f2e6cf" fontFamily="Lora, Georgia, serif" fontWeight={700} fontSize={fs} letterSpacing={1}>{title}</text>
+          <rect x={w * 0.06} y={h + 14} width={(w * 0.88) * inn} height={4} fill="#d8241f" opacity={0.8} />
+        </g>
+      </svg>
     </AbsoluteFill>
   );
 };

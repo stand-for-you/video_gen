@@ -15,6 +15,6 @@ esac
 rm -rf "$D" "$S"
 npx remotion render src/index.ts $C "$D" --sequence --image-format=jpeg --scale=0.3 --concurrency=2 --gl=swiftshader --timeout=240000 --log=error $BR > /dev/null
 LAB=""
-if [ -n "$K" ]; then LAB=$(python3 -c "import json; L=json.load(open('src/$K.json')); print(",".join(f"{s['u']}{s['set'][:7]}{'C' if s['close'] else ''}\" for s in L['shots']))"); fi
+if [ -n "$K" ]; then LAB=$(python3 tools/_labels.py "${K#shots_}"); fi
 python3 tools/sheet_s.py "$D" "$S" $G 1.0 $LAB
 ls "$S"

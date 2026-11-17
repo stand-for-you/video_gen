@@ -24,10 +24,6 @@ export const CAST3: Record<string, P3> = {
   terence: { id: 'terence', name: 'Terence', sex: 'm', age: 1, h: 1.76, skin: '#c99a73', hair: '#3a2a1e', hairStyle: 'short', eyeC: '#3a2a1c', jaw: 'soft', nose: 'straight', stubble: true, top: 'workshirt', topC: '#62584a', bottom: 'trousers', botC: '#413a30', shoeC: '#241c18', acc: ['apron'], accC: '#b3a88c' },
   lyra: { id: 'lyra', name: 'Lyra', sex: 'f', age: 0, kid: true, h: 1.18, skin: '#c89a74', hair: '#2f2420', hairStyle: 'wavy', eyeC: '#33231a', jaw: 'round', nose: 'button', lip: '#8f5b57', top: 'shift', topC: '#6b665c', bottom: 'dressKnee', botC: '#6b665c', shoeC: '#2a2018' },
   matthew: { id: 'matthew', name: 'Matthew', sex: 'm', age: 0, kid: true, h: 1.14, skin: '#d6a97f', hair: '#7a5a33', hairStyle: 'short', eyeC: '#3d2a18', jaw: 'round', nose: 'button', freckles: true, top: 'shirt', topC: '#7a7262', bottom: 'trousers', botC: '#4a4336', shoeC: '#2a2018' },
-  // ---- SEER OF POSSIBILITIES CAST
-  donna: { id: 'donna', name: 'Donna', sex: 'f', age: 1, h: 1.65, skin: '#d8ab88', hair: '#1c1512', hairStyle: 'long', eyeC: '#382618', jaw: 'soft', nose: 'small', lip: '#945250', top: 'cardigan', topC: '#7a4240', bottom: 'trousers', botC: '#2b2926', shoeC: '#1a1815' },
-  hulk: { id: 'hulk', name: 'Delivery Boy', sex: 'm', age: 1, h: 1.98, skin: '#c29270', hair: '#141210', hairStyle: 'short', eyeC: '#261b12', jaw: 'square', nose: 'broad', brow: 1.4, top: 'workshirt', topC: '#382220', bottom: 'trousers', botC: '#202630', shoeC: '#151515', acc: ['apron'] },
-  seer: { id: 'seer', name: 'The Seer', sex: 'f', age: 1, h: 1.75, skin: '#e5ecf0', hair: '#121218', hairStyle: 'long', ghost: 'woman', eyeC: '#ff2222', jaw: 'narrow', nose: 'small', lip: '#553333', top: 'shift', topC: '#18141e', bottom: 'skirtLong', botC: '#18141e' },
 };
 // ---- CREATURES. The channel's monster model. Herbert Solomon is the default creature design (the one the audience liked best).
 export const CREAT3: Record<string, C3> = {

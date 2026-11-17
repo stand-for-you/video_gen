@@ -1,230 +1,347 @@
 {
- "duration": 172.61441666666667,
+ "duration": 173.66770833333334,
  "units": [
   {
    "i": 0,
    "beat": 0,
    "chapter": "Intro",
-   "text": "The monitor in my dark bedroom went black, and glowing red text appeared: Hi Jack, I need a favor from you.",
+   "text": "A man sits in a dark room in front of a black screen.",
    "who": "nar",
    "start": 0.0,
-   "end": 9.526
+   "end": 3.606
   },
   {
    "i": 1,
-   "beat": 1,
+   "beat": 0,
    "chapter": null,
-   "text": "The internet was disconnected, yet the screen answered my thoughts.",
+   "text": "The red words tell him his wife is already dead downstairs.",
    "who": "nar",
-   "start": 9.976,
-   "end": 15.263
+   "start": 3.906,
+   "end": 8.419
   },
   {
    "i": 2,
    "beat": 1,
    "chapter": null,
-   "text": "It promised wealth if I moved an office plant.",
+   "text": "They say the man who did it is still in the house, coming up the stairs for him now.",
    "who": "nar",
-   "start": 15.563,
-   "end": 18.861
+   "start": 8.869,
+   "end": 14.834
   },
   {
    "i": 3,
-   "beat": 1,
+   "beat": 2,
    "chapter": null,
-   "text": "Let us begin.",
+   "text": "Jack does not run.",
    "who": "nar",
-   "start": 19.161,
-   "end": 20.242
+   "start": 15.284,
+   "end": 16.666
   },
   {
    "i": 4,
    "beat": 2,
    "chapter": null,
-   "text": "An entity called the Seer contacted me through my offline computer, claiming it saw all branching timelines.",
+   "text": "He is crying, and he is about to thank the thing on the screen.",
    "who": "nar",
-   "start": 20.692,
-   "end": 29.643
+   "start": 16.966,
+   "end": 21.173
   },
   {
    "i": 5,
-   "beat": 3,
+   "beat": 2,
    "chapter": null,
-   "text": "Its first favor was simple: move a potted plant in my office lobby at eight seventeen.",
+   "text": "Let us go back to the beginning.",
    "who": "nar",
-   "start": 30.093,
-   "end": 37.699
+   "start": 21.473,
+   "end": 23.236
   },
   {
    "i": 6,
-   "beat": 4,
+   "beat": 3,
    "chapter": null,
-   "text": "An hour later, my boss tripped over the plant, violently twisting his ankle.",
+   "text": "Twelve years earlier, Jack had a cheap flat and a tired job.",
    "who": "nar",
-   "start": 38.149,
-   "end": 44.43
+   "start": 23.686,
+   "end": 28.541
   },
   {
    "i": 7,
-   "beat": 5,
+   "beat": 3,
    "chapter": null,
-   "text": "Unable to drive, he asked my favorite coworker, Allie, to take him to the hospital.",
+   "text": "One night his screen went black, and red letters asked him for a favour.",
    "who": "nar",
-   "start": 44.88,
-   "end": 51.775
+   "start": 28.841,
+   "end": 34.622
   },
   {
    "i": 8,
-   "beat": 6,
+   "beat": 4,
    "chapter": null,
-   "text": "Minutes later, a speeding truck crushed their car, killing Allie instantly.",
+   "text": "In his office lobby there was a plant.",
    "who": "nar",
-   "start": 52.225,
-   "end": 58.544
+   "start": 35.072,
+   "end": 37.874
   },
   {
    "i": 9,
-   "beat": 7,
+   "beat": 4,
    "chapter": null,
-   "text": "In horror, I wanted to smash the monitor, but the Seer said her death spared me betrayal.",
+   "text": "Move it three inches to the left.",
    "who": "nar",
-   "start": 58.994,
-   "end": 66.457
+   "start": 38.174,
+   "end": 40.314
   },
   {
    "i": 10,
-   "beat": 8,
+   "beat": 4,
    "chapter": null,
-   "text": "The next morning, I was promoted to division manager with a fortune in bonuses.",
+   "text": "Nothing wrong, nothing against the law, nobody hurt.",
    "who": "nar",
-   "start": 66.907,
-   "end": 73.368
+   "start": 40.614,
+   "end": 44.693
   },
   {
    "i": 11,
-   "beat": 9,
+   "beat": 5,
    "chapter": null,
-   "text": "Every monthly favor brought ruin to a stranger, but immense wealth and love to me.",
+   "text": "So he did it, and he forgot about it.",
    "who": "nar",
-   "start": 73.818,
-   "end": 80.781
+   "start": 45.143,
+   "end": 47.748
   },
   {
    "i": 12,
-   "beat": 10,
+   "beat": 6,
    "chapter": null,
-   "text": "A lottery favor ruined a stranger's family, while a parking favor led me to Donna, my future wife.",
+   "text": "Three days later a woman stopped to push that plant straight, and was still there when the lift opened.",
    "who": "nar",
-   "start": 81.231,
-   "end": 89.89
+   "start": 48.198,
+   "end": 56.248
   },
   {
    "i": 13,
-   "beat": 11,
+   "beat": 7,
    "chapter": null,
-   "text": "For twelve glorious years, my life was heaven on earth.",
+   "text": "That is how Jack met Allie.",
    "who": "nar",
-   "start": 90.34,
-   "end": 94.839
+   "start": 56.698,
+   "end": 58.372
   },
   {
    "i": 14,
-   "beat": 12,
+   "beat": 7,
    "chapter": null,
-   "text": "Then came the final favor: call a pizza parlor, let it ring three times, and hang up.",
+   "text": "Two cubicles away for a year, and he had never spoken to her once.",
    "who": "nar",
-   "start": 95.289,
-   "end": 102.62
+   "start": 58.672,
+   "end": 63.699
   },
   {
    "i": 15,
-   "beat": 13,
+   "beat": 8,
    "chapter": null,
-   "text": "Thirty minutes later, a towering delivery brute arrived, glaring with fury when I had no cash tip.",
+   "text": "He asked what it was.",
    "who": "nar",
-   "start": 103.07,
-   "end": 111.223
+   "start": 64.149,
+   "end": 65.67
   },
   {
    "i": 16,
-   "beat": 14,
+   "beat": 8,
    "chapter": null,
-   "text": "Donna fell asleep on the couch, and I crept upstairs to the computer.",
+   "text": "It said it was a seer.",
    "who": "nar",
-   "start": 111.673,
-   "end": 116.932
+   "start": 65.97,
+   "end": 67.329
   },
   {
    "i": 17,
-   "beat": 15,
+   "beat": 8,
    "chapter": null,
-   "text": "The screen lit up with the horrifying truth.",
+   "text": "It could see every possible thing that could happen, and every road to it.",
    "who": "nar",
-   "start": 117.382,
-   "end": 120.501
+   "start": 67.629,
+   "end": 72.985
   },
   {
    "i": 18,
-   "beat": 16,
+   "beat": 9,
    "chapter": null,
-   "text": "Every past favor was an engineered domino to turn that delivery boy into a weapon and bring him here tonight.",
+   "text": "It had done this for thousands of years, and always took the same payment.",
    "who": "nar",
-   "start": 120.951,
-   "end": 130.779
+   "start": 73.435,
+   "end": 79.151
   },
   {
    "i": 19,
-   "beat": 17,
+   "beat": 9,
    "chapter": null,
-   "text": "The screen read: He is downstairs right now, ending Donna's life at this exact second.",
+   "text": "One favour, then the next.",
    "who": "nar",
-   "start": 131.229,
-   "end": 138.975
+   "start": 79.451,
+   "end": 81.392
   },
   {
    "i": 20,
-   "beat": 18,
+   "beat": 10,
    "chapter": null,
-   "text": "As heavy footsteps ascended the stairs, a soothing voice whispered in my mind: I gave you twelve magnificent years instead of eighty-five bitter, lonely ones.",
+   "text": "A lorry missed Allie by two seconds because Jack made a phone ring at a junction.",
    "who": "nar",
-   "start": 139.425,
-   "end": 154.078
+   "start": 81.842,
+   "end": 88.101
   },
   {
    "i": 21,
-   "beat": 19,
+   "beat": 10,
    "chapter": null,
-   "text": "The giant entered with a bloodstained blade.",
+   "text": "A stranger won twenty seven million because Jack stood in a queue.",
    "who": "nar",
-   "start": 154.528,
-   "end": 157.724
+   "start": 88.401,
+   "end": 93.209
   },
   {
    "i": 22,
-   "beat": 20,
+   "beat": 11,
    "chapter": null,
-   "text": "The screen pulsed: Don't you have something to say to me, Jack?",
+   "text": "The screen was not giving him luck.",
    "who": "nar",
-   "start": 158.174,
-   "end": 162.601
+   "start": 93.659,
+   "end": 96.007
   },
   {
    "i": 23,
-   "beat": 20,
+   "beat": 11,
    "chapter": null,
-   "text": "With tears in my eyes, I whispered: Thank you.",
+   "text": "It was spending other people to build the life he wanted.",
    "who": "nar",
-   "start": 162.901,
-   "end": 166.239
+   "start": 96.307,
+   "end": 100.264
   },
   {
    "i": 24,
-   "beat": 21,
+   "beat": 12,
    "chapter": null,
-   "text": "Would you trade eighty-five bitter years for twelve perfect ones?",
+   "text": "He married Donna.",
    "who": "nar",
-   "start": 166.689,
-   "end": 171.414
+   "start": 100.714,
+   "end": 101.845
+  },
+  {
+   "i": 25,
+   "beat": 12,
+   "chapter": null,
+   "text": "He bought the big house at the end of the long road.",
+   "who": "nar",
+   "start": 102.145,
+   "end": 105.33
+  },
+  {
+   "i": 26,
+   "beat": 12,
+   "chapter": null,
+   "text": "Twelve good years, paid for by favours he never questioned.",
+   "who": "nar",
+   "start": 105.63,
+   "end": 110.416
+  },
+  {
+   "i": 27,
+   "beat": 13,
+   "chapter": null,
+   "text": "Then came the doorbell, a delivery boy with a warm box, and a wife on the sofa who would not wake up again.",
+   "who": "nar",
+   "start": 110.866,
+   "end": 119.94
+  },
+  {
+   "i": 28,
+   "beat": 14,
+   "chapter": null,
+   "text": "Upstairs the red letters told him the truth.",
+   "who": "nar",
+   "start": 120.39,
+   "end": 123.6
+  },
+  {
+   "i": 29,
+   "beat": 14,
+   "chapter": null,
+   "text": "The boy had been a favour too.",
+   "who": "nar",
+   "start": 123.9,
+   "end": 125.718
+  },
+  {
+   "i": 30,
+   "beat": 14,
+   "chapter": null,
+   "text": "Years before, Jack had held a door for a frightened child.",
+   "who": "nar",
+   "start": 126.018,
+   "end": 130.353
+  },
+  {
+   "i": 31,
+   "beat": 15,
+   "chapter": null,
+   "text": "It said it had been painting one picture for a very long time, that Jack was one brush stroke in it, and it was nearly finished.",
+   "who": "nar",
+   "start": 130.803,
+   "end": 141.201
+  },
+  {
+   "i": 32,
+   "beat": 16,
+   "chapter": null,
+   "text": "In the doorway stood a large shape, breathing hard, with a knife held low.",
+   "who": "nar",
+   "start": 141.651,
+   "end": 147.53
+  },
+  {
+   "i": 33,
+   "beat": 16,
+   "chapter": null,
+   "text": "The screen asked if he had nothing to say.",
+   "who": "nar",
+   "start": 147.83,
+   "end": 150.711
+  },
+  {
+   "i": 34,
+   "beat": 17,
+   "chapter": null,
+   "text": "And Jack, who had been given twelve good years for a plant moved three inches, said the two words he had been promised.",
+   "who": "nar",
+   "start": 151.161,
+   "end": 160.629
+  },
+  {
+   "i": 35,
+   "beat": 17,
+   "chapter": null,
+   "text": "Thank you.",
+   "who": "nar",
+   "start": 160.929,
+   "end": 161.705
+  },
+  {
+   "i": 36,
+   "beat": 18,
+   "chapter": null,
+   "text": "This is my retelling of The Seer of Possibilities, by Thomas O., on creepypasta dot com.",
+   "who": "nar",
+   "start": 162.155,
+   "end": 170.183
+  },
+  {
+   "i": 37,
+   "beat": 19,
+   "chapter": null,
+   "text": "Would you have done the first favour?",
+   "who": "nar",
+   "start": 170.633,
+   "end": 172.468
   }
  ]
 }

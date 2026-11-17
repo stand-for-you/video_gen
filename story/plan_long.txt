@@ -1,0 +1,392 @@
+0 ho/w ho/t
+1 up/w up/t
+2 sc
+3 sc
+4 af/w
+5 dw
+6 sc up/b
+7 up/t
+8 up/b
+9 lv/w up/b
+10 up/t sc
+11 sc
+12 se/w
+13 ga
+14 fl/w
+15 fl/d fl/w
+16 fl/b
+17 lo/w fl/w
+18 fl/t sc
+19 fl/d
+20 fl/d
+21 fl/t
+22 sc
+23 sc
+24 sc fl/b
+25 sc
+26 fl/b
+27 fl/d
+28 fl/d
+29 fl/d
+30 fl/d
+31 fl/b
+32 fl/w
+33 sc
+34 sc fl/t
+35 fl/b
+36 fl/d
+37 sc
+38 sc
+39 fl/t sc
+40 sc lo/d
+41 fl/b
+42 fl/t
+43 sc
+44 fl/d
+45 sc
+46 fl/w
+47 fl/t
+48 fl/w fl/t
+49 fl/b
+50 fl/t
+51 fl/w
+52 fl/t
+53 to/w
+54 to/w
+55 to/t
+56 to/t
+57 fl/b
+58 to/b
+59 to/b
+60 lo/d
+61 lo/d
+62 lo/d
+63 to/b
+64 to/t
+65 to/w
+66 lo/w
+67 lo/t
+68 lo/w
+69 lo/w
+70 lo/w
+71 lo/t
+72 lo/b
+73 lo/b
+74 lo/t
+75 lo/d
+76 lo/d
+77 lo/w
+78 lo/d
+79 lo/t
+80 lo/d lo/t
+81 lo/t
+82 lo/d
+83 lo/w
+84 lo/w
+85 lo/w
+86 lo/d
+87 lo/w
+88 lo/t
+89 lo/b
+90 lo/w
+91 of/w
+92 of/w
+93 of/b
+94 of/t
+95 of/b
+96 of/w
+97 of/t
+98 al/w
+99 al/t
+100 al/w
+101 al/t
+102 al/t
+103 al/w of/t
+104 al/b
+105 al/t
+106 al/w al/t
+107 li/w li/t
+108 li/b
+109 li/w
+110 li/b
+111 of/w
+112 li/t lo/d
+113 of/b
+114 al/t
+115 li/t
+116 al/w
+117 of/t
+118 of/b
+119 of/b
+120 lo/d
+121 of/t
+122 of/b
+123 of/w
+124 of/t
+125 fl/t
+126 sc
+127 sc
+128 fl/b
+129 sc fl/t
+130 fl/w
+131 fl/b
+132 fl/b
+133 lo/d
+134 lo/w
+135 li/w li/t
+136 al/w
+137 al/t
+138 al/b
+139 al/t
+140 al/b
+141 al/t
+142 al/b of/t
+143 al/b
+144 al/w
+145 of/w
+146 of/t
+147 of/w
+148 cr/w
+149 cr/w
+150 cr/w
+151 of/w w7/w
+152 w7/w
+153 w7/t cr/w
+154 w7/t
+155 w7/w
+156 of/b
+157 of/b
+158 of/w
+159 lo/w
+160 lo/t
+161 cr/w
+162 cr/w
+163 cr/t
+164 cr/t
+165 cr/w
+166 cr/w al/b
+167 cr/t
+168 cr/w
+169 to/w
+170 to/t
+171 fl/t
+172 fl/b
+173 fl/b
+174 fl/d
+175 sc fl/t
+176 fl/b
+177 fl/d
+178 sc fl/t
+179 sc al/w
+180 sc
+181 fl/b
+182 fl/b
+183 sc
+184 se/w sc
+185 sc
+186 fl/b
+187 fl/t fl/d
+188 fl/w
+189 fl/t to/w
+190 of/w
+191 of/w
+192 of/w of/b
+193 of/t
+194 of/b
+195 of/b
+196 of/t
+197 of/b
+198 of/t
+199 of/b
+200 of/b
+201 of/t
+202 sh/w
+203 fl/d
+204 fl/t
+205 sc
+206 sc
+207 fl/d
+208 se/w sc
+209 se/t sc
+210 ga se/w
+211 fl/b sc
+212 sc
+213 sc se/w
+214 fl/b
+215 fl/t
+216 se/w
+217 st
+218 fl/b
+219 sc
+220 sc
+221 sc se/w
+222 fl/t
+223 fl/d
+224 sc
+225 fl/t sc
+226 fl/w
+227 sc
+228 to/w
+229 to/t
+230 sh/w
+231 se/w
+232 fl/t
+233 fl/b
+234 sc sh/w
+235 sh/w
+236 sh/d
+237 sh/t
+238 sh/t
+239 sh/b
+240 sh/b
+241 sh/b
+242 sh/t
+243 sh/w
+244 sh/b
+245 sh/w
+246 sh/d
+247 sh/t
+248 sh/t
+249 sh/d
+250 sh/b
+251 fl/t
+252 fl/b
+253 fl/t sc
+254 sc
+255 sc sh/w
+256 sc
+257 sc
+258 fl/t
+259 se/w sc
+260 sc
+261 fl/t
+262 ga
+263 sc cp/w
+264 cp/w
+265 lv/w
+266 fl/t
+267 sc cp/w
+268 sc
+269 sc ga
+270 fl/t lv/w
+271 fl/b
+272 fl/b
+273 lv/w
+274 se/w
+275 se/w
+276 ga se/t
+277 ga
+278 ga
+279 st
+280 se/w
+281 se/w se/b
+282 se/t
+283 se/w sc
+284 sc
+285 se/w up/t
+286 up/b
+287 ho/w lv/w
+288 lv/b
+289 lv/w
+290 ho/w
+291 ho/t
+292 ga
+293 up/w sc
+294 sc
+295 sc up/d
+296 up/b
+297 up/t
+298 up/d
+299 fd/w
+300 lv/t
+301 ho/w
+302 fd/t
+303 fd/w
+304 fd/b
+305 fd/d
+306 fd/b
+307 fd/t
+308 fd/t
+309 fd/b
+310 fd/w
+311 fd/w
+312 fd/b
+313 fd/d
+314 fd/b
+315 fd/b
+316 fd/t
+317 fd/t lv/w
+318 fd/w
+319 lv/w
+320 lv/t
+321 lv/b
+322 up/w
+323 sc up/t
+324 up/b sc
+325 sc
+326 sc
+327 lv/w
+328 lv/w lv/t
+329 lv/t
+330 lv/b
+331 lv/b
+332 lv/t up/w
+333 up/d sc
+334 sc
+335 sc
+336 up/b
+337 sc
+338 sc fd/w
+339 up/t
+340 sc
+341 up/t
+342 dw
+343 sc st
+344 sc
+345 sc al/w
+346 up/b
+347 sc ga
+348 sc ga
+349 sc sh/w
+350 sc ga
+351 sc
+352 sc
+353 ga sc
+354 up/w
+355 ga
+356 ga
+357 ga se/w
+358 sc fd/w
+359 sc up/b
+360 af/w
+361 af/w
+362 af/t
+363 up/b
+364 up/w
+365 sc
+366 up/t
+367 se/b
+368 se/b
+369 se/t
+370 se/w
+371 se/b up/b
+372 up/b
+373 up/b
+374 ga se/w
+375 se/w
+376 ga
+377 dw
+378 sc se/w
+379 sc lv/w
+380 up/t
+381 lv/t
+382 dw
+383 sc
+384 sc
+385 up/b
+386 dw
+387 up/b sc
+388 sc up/b
+389 ga
+390 lo/d
+391 en

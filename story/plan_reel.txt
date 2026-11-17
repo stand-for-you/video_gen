@@ -1,0 +1,38 @@
+0 rup/w rup/t
+1 rsc raf
+2 rdw rup/b
+3 rup/t
+4 rup/b rsc
+5 rse/w rga
+6 rfl/w rfl/t
+7 rsc rfl/b
+8 rlo/w rlo/d
+9 rlo/d
+10 rlo/d rlo/t
+11 rlo/t
+12 rlo/w rlo/t rlo/d
+13 rof/w
+14 rof/t rof/w
+15 rfl/t
+16 rse/w
+17 rse/w rga
+18 rse/w rga
+19 rsc
+20 rcr/w rcr/t
+21 rsh/w rsh/t
+22 rsc
+23 rga rse/w
+24 rlv/w
+25 rho/w rho/t
+26 rho/w rlv/w
+27 rdw/w rdw/t rlv/w raf
+28 rup/t rsc
+29 rsc
+30 rdw/t rga
+31 rga rse/w rga
+32 rdw rdw/t
+33 rsc rup/b
+34 rup/b rsc rup/t
+35 rsc
+36 rga rse/w rga
+37 rse/w

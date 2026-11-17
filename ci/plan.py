@@ -41,8 +41,9 @@ def plan():
         cfg = json.load(open('engine.json'))
         fps = int(cfg.get('fps', 30))
         nl = frames('long')
-        # about 45 s of video per runner, at least the engine's own value, at most 16 (free plan = 20 jobs at once)
-        P = max(int(cfg.get('parts', 10)), min(16, math.ceil(nl / (45 * fps))))
+        # about 30 s of video per runner, at least the engine's own value, at most 96 parts (20 run at once on the free plan,
+        # the rest queue; every part must finish well inside one job's 5 hour limit)
+        P = max(int(cfg.get('parts', 10)), min(96, math.ceil(nl / (30 * fps))))
         flags = f"--scale={cfg.get('scale', 1.0)} --crf=14 --muted --gl=swiftshader --timeout=240000 --log=error"
         if target in ('all', 'long'):
             step = (nl + P - 1) // P

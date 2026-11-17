@@ -14,7 +14,9 @@ cd "$(dirname "$0")/.."
 CMD="${1:?start | wait | get}"; REPO="${2:?owner/repo, e.g. stand-for-you/video_gen}"
 [[ "$REPO" =~ ^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$ ]] || { echo "bad repo name $REPO"; exit 1; }
 command -v gh > /dev/null || { echo "ERROR: GitHub CLI 'gh' is not installed (https://cli.github.com)"; exit 1; }
-gh auth status > /dev/null 2>&1 || { echo "ERROR: gh is not logged in. Run: gh auth login"; exit 1; }
+# Check real API access instead of `gh auth status`: in some sessions the proxy supplies the token and
+# `gh auth status` reports a failure although every API call works.
+gh api "repos/$REPO" --jq .full_name > /dev/null 2>&1 || { echo "ERROR: gh cannot reach $REPO. Run: gh auth login (or attach the repo to this session)"; exit 1; }
 
 if [ "$CMD" = start ]; then
   T="${3:?give a file prefix, e.g. I_Know_Youre_Awake}"; WHAT="${4:-all}"
@@ -29,23 +31,25 @@ if [ "$CMD" = start ]; then
   if [ -d "$D/.git" ]; then
     git -C "$D" fetch -q --depth 1 origin main && git -C "$D" reset -q --hard origin/main
   else
-    rm -rf "$D"; mkdir -p .cloud; gh repo clone "$REPO" "$D" -- -q --depth 1
+    # plain git (the GraphQL route that "gh repo clone" uses is blocked in this session)
+    rm -rf "$D"; mkdir -p .cloud; git clone -q --depth 1 "https://github.com/$REPO" "$D"
   fi
   # mirror this work folder into the repo (heavy and generated folders stay out; see .gitignore)
   # the compiler itself (.github, ci) stays in the repo; a newer copy from this folder overwrites it
-  find "$D" -mindepth 1 -maxdepth 1 ! -name .git ! -name README.md -exec rm -rf {} +
+  find "$D" -mindepth 1 -maxdepth 1 ! -name .git ! -name .github ! -name ci ! -name README.md -exec rm -rf {} +
   tar --exclude=./node_modules --exclude=./.cloud --exclude=./build --exclude=./renders --exclude=./final --exclude=./qa \
-      --exclude=./models --exclude='*.wav' --exclude=./.browser --exclude='__pycache__' --exclude=./old_v0.4_backup -cf - . | (cd "$D" && tar -xf -)
+      --exclude=./models --exclude='*.wav' --exclude=./.browser --exclude='__pycache__' -cf - . | (cd "$D" && tar -xf -)
   git -C "$D" add -A
   ID=(); [ -n "$(git -C "$D" config user.email)" ] || ID=(-c user.name="Scroll Kaos" -c user.email="scroll-kaos@localhost")
   git -C "$D" ${ID[@]+"${ID[@]}"} commit -q -m "compile $T ($WHAT) [skip ci]" || echo "(no file changes; compiling the current repo content)"
-  git -C "$D" push -f -q origin HEAD:main
+  git -C "$D" push -q origin HEAD:main
   SHA=$(git -C "$D" rev-parse HEAD)
-  gh workflow run compile.yml -R "$REPO" --ref main -f file_prefix="$T" -f target="$WHAT"
+  gh api -X POST "repos/$REPO/actions/workflows/compile.yml/dispatches" -f ref=main \
+    -f "inputs[file_prefix]=$T" -f "inputs[target]=$WHAT" > /dev/null
   RUN=""
   for i in $(seq 1 30); do
     sleep 4
-    RUN=$(gh run list -R "$REPO" --workflow compile.yml --event workflow_dispatch --limit 5 --json databaseId,headSha -q ".[] | select(.headSha == \"$SHA\") | .databaseId" | head -1)
+    RUN=$(gh api "repos/$REPO/actions/workflows/compile.yml/runs?event=workflow_dispatch&per_page=5" --jq ".workflow_runs[] | select(.head_sha == \"$SHA\") | .id" | head -1)
     [ -n "$RUN" ] && break
   done
   [ -n "$RUN" ] || { echo "ERROR: the run did not appear; check https://github.com/$REPO/actions"; exit 1; }
@@ -54,11 +58,10 @@ if [ "$CMD" = start ]; then
   echo "next:  bash tools/cloud_compile.sh wait $REPO $RUN"
 elif [ "$CMD" = wait ]; then
   RUN="${3:?RUN_ID}"
-  end=$(( $(date +%s) + 3600 ))
+  end=$(( $(date +%s) + 540 ))
   while :; do
-    S=$(gh run view "$RUN" -R "$REPO" --json status,conclusion -q '.status + " " + .conclusion')
-    INFO=$(gh run view "$RUN" -R "$REPO" --json jobs -q '([.jobs[] | select(.status == "in_progress")] | length | tostring) as $inp | ([.jobs[] | select(.status == "completed")] | length | tostring) as $comp | ([.jobs[] | select(.status == "queued")] | length | tostring) as $q | (.jobs | length | tostring) as $tot | "running: " + $inp + " | done: " + $comp + "/" + $tot + " | queued: " + $q' 2>/dev/null || true)
-    echo "$(date +%H:%M:%S) $S ($INFO)"
+    S=$(gh api "repos/$REPO/actions/runs/$RUN" --jq '.status + " " + (.conclusion // "")')
+    echo "$(date +%H:%M:%S) $S"
     case "$S" in completed\ success) echo "DONE: success. next: bash tools/cloud_compile.sh get $REPO $RUN <File_Prefix>"; exit 0;;
       completed\ *) echo "DONE: FAILED ($S). See: gh run view $RUN -R $REPO --log-failed"; exit 2;; esac
     [ "$(date +%s)" -ge "$end" ] && { echo "still running: run this command again"; exit 0; }
@@ -68,7 +71,10 @@ elif [ "$CMD" = get ]; then
   RUN="${3:?RUN_ID}"; T="${4:?File_Prefix}"
   [[ "$T" =~ ^[A-Za-z0-9_-]{1,80}$ ]] || { echo "bad file prefix $T"; exit 1; }
   rm -rf .cloud/dl; mkdir -p .cloud final   # fresh folder: gh does not overwrite files that already exist
-  gh run download "$RUN" -R "$REPO" -n "scroll-kaos-$T" -D .cloud/dl
+  AID=$(gh api "repos/$REPO/actions/runs/$RUN/artifacts" --jq ".artifacts[] | select(.name == \"scroll-kaos-$T\") | .id" | head -1)
+  [ -n "$AID" ] || { echo "ERROR: no artifact scroll-kaos-$T on run $RUN"; exit 2; }
+  mkdir -p .cloud/dl; gh api "repos/$REPO/actions/artifacts/$AID/zip" > .cloud/art.zip
+  (cd .cloud/dl && unzip -oq ../art.zip)
   cp -f .cloud/dl/* final/ && rm -rf .cloud/dl
   ls -la final
   [ -f final/QUALITY_GATE.txt ] && grep -E "^(==|FAIL|QUALITY)" final/QUALITY_GATE.txt || true
