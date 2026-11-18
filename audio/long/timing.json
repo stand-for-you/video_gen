@@ -1,1355 +1,509 @@
 {
- "duration": 775.805375,
+ "duration": 241.783375,
  "units": [
   {
    "i": 0,
    "beat": 0,
    "chapter": "Intro",
-   "text": "You wake up in your own room, in the middle of the night, because something close to your bed has made a sound.",
+   "text": "I woke up in the dark, and something was breathing right over my bed.",
    "who": "nar",
    "start": 0.0,
-   "end": 7.789
+   "end": 5.493
   },
   {
    "i": 1,
-   "beat": 1,
+   "beat": 0,
    "chapter": null,
-   "text": "You open your eyes and you see only black.",
+   "text": "I looked up, and two black holes stared back at me.",
    "who": "nar",
-   "start": 8.239,
-   "end": 11.576
+   "start": 5.793,
+   "end": 9.607
   },
   {
    "i": 2,
-   "beat": 1,
+   "beat": 0,
    "chapter": null,
-   "text": "You lie still and you listen.",
+   "text": "Where its eyes should be, there was only empty darkness, and it was leaking something black.",
    "who": "nar",
-   "start": 11.876,
-   "end": 14.039
+   "start": 9.907,
+   "end": 16.687
   },
   {
    "i": 3,
-   "beat": 2,
+   "beat": 1,
    "chapter": null,
-   "text": "Then your eyes begin to work in the dark, and you understand that the black above you is not the ceiling.",
+   "text": "A blue mask.",
    "who": "nar",
-   "start": 14.489,
-   "end": 22.482
+   "start": 17.137,
+   "end": 18.094
   },
   {
    "i": 4,
-   "beat": 3,
+   "beat": 1,
    "chapter": null,
-   "text": "It is two empty holes, in a face with no eyes, leaning over you, close enough to touch.",
+   "text": "A black hoodie.",
    "who": "nar",
-   "start": 22.932,
-   "end": 30.201
+   "start": 18.394,
+   "end": 19.295
   },
   {
    "i": 5,
-   "beat": 4,
+   "beat": 1,
    "chapter": null,
-   "text": "Something dark is running out of those holes and down the side of its face.",
+   "text": "No nose, and no mouth.",
    "who": "nar",
-   "start": 30.651,
-   "end": 36.351
+   "start": 19.595,
+   "end": 21.29
   },
   {
    "i": 6,
-   "beat": 4,
+   "beat": 1,
    "chapter": null,
-   "text": "This is the story of the thing people call Eyeless Jack.",
+   "text": "And this was not the first time it had come for me.",
    "who": "nar",
-   "start": 36.651,
-   "end": 40.833
+   "start": 21.59,
+   "end": 25.18
   },
   {
    "i": 7,
-   "beat": 4,
+   "beat": 1,
    "chapter": null,
-   "text": "Let us go back to the beginning.",
+   "text": "So what did it want?",
    "who": "nar",
-   "start": 41.133,
-   "end": 42.896
+   "start": 25.48,
+   "end": 26.79
   },
   {
    "i": 8,
-   "beat": 5,
-   "chapter": "The Move",
-   "text": "My name is Mitch, and until a few years ago I did not believe in anything I could not touch.",
+   "beat": 1,
+   "chapter": null,
+   "text": "And where was my brother?",
    "who": "nar",
-   "start": 43.496,
-   "end": 51.249
+   "start": 27.09,
+   "end": 28.431
   },
   {
    "i": 9,
-   "beat": 6,
+   "beat": 1,
    "chapter": null,
-   "text": "I lost my house that spring.",
+   "text": "Let us go back to the beginning.",
    "who": "nar",
-   "start": 51.699,
-   "end": 53.667
+   "start": 28.731,
+   "end": 30.494
   },
   {
    "i": 10,
-   "beat": 6,
-   "chapter": null,
-   "text": "The bank took it, the way banks do, slowly and then all at once.",
+   "beat": 2,
+   "chapter": "The Move",
+   "text": "My name is Mitch.",
    "who": "nar",
-   "start": 53.967,
-   "end": 59.372
+   "start": 31.094,
+   "end": 32.392
   },
   {
    "i": 11,
-   "beat": 7,
+   "beat": 2,
    "chapter": null,
-   "text": "My older brother Edwin called me the same week and told me to stop being proud and come and live with him.",
+   "text": "The bank took my family's house, so I moved in with my brother, Edwin.",
    "who": "nar",
-   "start": 59.822,
-   "end": 68.872
+   "start": 32.692,
+   "end": 38.262
   },
   {
    "i": 12,
-   "beat": 8,
+   "beat": 2,
    "chapter": null,
-   "text": "We had not seen each other properly in ten years, so part of me was actually glad about it.",
+   "text": "We had not seen each other for ten years, so we were both happy.",
    "who": "nar",
-   "start": 69.322,
-   "end": 76.744
+   "start": 38.562,
+   "end": 42.716
   },
   {
    "i": 13,
-   "beat": 9,
+   "beat": 2,
    "chapter": null,
-   "text": "His house was one of those cheap places at the end of a long street, with a wooden porch, a bare back yard, and pine woods standing behind the fence.",
+   "text": "For one whole week, everything was normal.",
    "who": "nar",
-   "start": 77.194,
-   "end": 90.169
+   "start": 43.016,
+   "end": 46.088
   },
   {
    "i": 14,
-   "beat": 10,
+   "beat": 2,
    "chapter": null,
-   "text": "It took me a week to unpack.",
+   "text": "I unpacked, and I slept, and I got used to the quiet house.",
    "who": "nar",
-   "start": 90.619,
-   "end": 92.459
+   "start": 46.388,
+   "end": 51.587
   },
   {
    "i": 15,
-   "beat": 10,
+   "beat": 3,
    "chapter": null,
-   "text": "Boxes in the hall, boxes on the landing, boxes down the side of the bed.",
+   "text": "Then, one night at about one in the morning, I heard rustling outside.",
    "who": "nar",
-   "start": 92.759,
-   "end": 98.53
+   "start": 52.037,
+   "end": 57.975
   },
   {
    "i": 16,
-   "beat": 11,
+   "beat": 3,
    "chapter": null,
-   "text": " \"Take the back room. It is quiet, and the window gets the morning.\"",
-   "who": "edwin",
-   "start": 98.98,
-   "end": 102.513
+   "text": "I thought it was a raccoon, so I ignored it.",
+   "who": "nar",
+   "start": 58.275,
+   "end": 61.359
   },
   {
    "i": 17,
-   "beat": 12,
+   "beat": 3,
    "chapter": null,
-   "text": "The back room was quiet.",
+   "text": "The next morning, I told Edwin about it, and he agreed.",
    "who": "nar",
-   "start": 102.963,
-   "end": 104.59
+   "start": 61.659,
+   "end": 66.373
   },
   {
    "i": 18,
-   "beat": 12,
-   "chapter": null,
-   "text": "That is the part I think about now.",
+   "beat": 4,
+   "chapter": "The Window",
+   "text": "The next night, I heard my window open.",
    "who": "nar",
-   "start": 104.89,
-   "end": 107.243
+   "start": 66.973,
+   "end": 70.014
   },
   {
    "i": 19,
-   "beat": 13,
+   "beat": 4,
    "chapter": null,
-   "text": "I slept well that first week.",
+   "text": "Then came a loud thump, as if something had climbed inside.",
    "who": "nar",
-   "start": 107.693,
-   "end": 109.664
+   "start": 70.314,
+   "end": 75.013
   },
   {
    "i": 20,
-   "beat": 13,
+   "beat": 4,
    "chapter": null,
-   "text": "I remember thinking that this was the first time in a year that I had felt safe.",
+   "text": "I sat up fast and looked around my room.",
    "who": "nar",
-   "start": 109.964,
-   "end": 115.662
+   "start": 75.313,
+   "end": 78.357
   },
   {
    "i": 21,
-   "beat": 14,
-   "chapter": "The Noise",
-   "text": "About a week in, I woke up at one in the morning.",
+   "beat": 4,
+   "chapter": null,
+   "text": "There was nothing there.",
    "who": "nar",
-   "start": 116.262,
-   "end": 119.942
+   "start": 78.657,
+   "end": 79.856
   },
   {
    "i": 22,
-   "beat": 15,
+   "beat": 5,
    "chapter": null,
-   "text": "There was a sound coming from outside, under the window.",
+   "text": "In the morning, Edwin dropped his coffee cup the moment he saw me.",
    "who": "nar",
-   "start": 120.392,
-   "end": 124.341
+   "start": 80.306,
+   "end": 85.487
   },
   {
    "i": 23,
-   "beat": 15,
+   "beat": 5,
    "chapter": null,
-   "text": "A slow, careful rustling, the way something moves when it does not want to be heard.",
+   "text": "He held up a mirror, and I saw a deep cut across my cheek.",
    "who": "nar",
-   "start": 124.641,
-   "end": 131.131
+   "start": 85.787,
+   "end": 90.461
   },
   {
    "i": 24,
-   "beat": 16,
-   "chapter": null,
-   "text": "I lay there and listened to it for a long time.",
+   "beat": 6,
+   "chapter": "The Hospital",
+   "text": "At the hospital, the doctor said I must have been sleepwalking.",
    "who": "nar",
-   "start": 131.581,
-   "end": 134.968
+   "start": 91.061,
+   "end": 95.298
   },
   {
    "i": 25,
-   "beat": 17,
+   "beat": 6,
    "chapter": null,
-   "text": "I told myself it was a raccoon in the bins.",
+   "text": "Then he showed me something that made my blood run cold.",
    "who": "nar",
-   "start": 135.418,
-   "end": 138.909
+   "start": 95.598,
+   "end": 99.571
   },
   {
    "i": 26,
-   "beat": 17,
+   "beat": 6,
    "chapter": null,
-   "text": "We had raccoons.",
+   "text": "There was a neat, stitched line on my side.",
    "who": "nar",
-   "start": 139.209,
-   "end": 140.376
+   "start": 99.871,
+   "end": 102.841
   },
   {
    "i": 27,
-   "beat": 17,
+   "beat": 7,
    "chapter": null,
-   "text": "Everybody on that street had raccoons.",
-   "who": "nar",
-   "start": 140.676,
-   "end": 143.603
+   "text": "\"You somehow lost your left kidney last night. We do not know how, Mitch. I am sorry.\"",
+   "who": "doc",
+   "start": 103.291,
+   "end": 108.442
   },
   {
    "i": 28,
-   "beat": 18,
-   "chapter": null,
-   "text": "So I turned over and I went back to sleep.",
+   "beat": 8,
+   "chapter": "The Face",
+   "text": "The next night was my breaking point.",
    "who": "nar",
-   "start": 144.053,
-   "end": 147.15
+   "start": 109.042,
+   "end": 111.663
   },
   {
    "i": 29,
-   "beat": 19,
+   "beat": 8,
    "chapter": null,
-   "text": "In the morning I told Edwin about it over his coffee.",
+   "text": "Around midnight, I woke up, and I froze.",
    "who": "nar",
-   "start": 147.6,
-   "end": 151.421
+   "start": 111.963,
+   "end": 115.204
   },
   {
    "i": 30,
-   "beat": 20,
+   "beat": 8,
    "chapter": null,
-   "text": " \"Raccoons. They get into everything out here. I will put a brick on the bin lid.\"",
-   "who": "edwin",
-   "start": 151.871,
-   "end": 156.094
+   "text": "A creature was staring down at me, face to face.",
+   "who": "nar",
+   "start": 115.504,
+   "end": 119.104
   },
   {
    "i": 31,
-   "beat": 21,
+   "beat": 9,
    "chapter": null,
-   "text": "He put a brick on the bin lid, and we both forgot about it.",
+   "text": "It wore a black hoodie and a dark blue mask, with no nose and no mouth.",
    "who": "nar",
-   "start": 156.544,
-   "end": 161.068
+   "start": 119.554,
+   "end": 125.9
   },
   {
    "i": 32,
-   "beat": 22,
+   "beat": 9,
    "chapter": null,
-   "text": "I want you to notice how easy that was.",
+   "text": "But the worst part was its eyes.",
    "who": "nar",
-   "start": 161.518,
-   "end": 164.228
+   "start": 126.2,
+   "end": 128.469
   },
   {
    "i": 33,
-   "beat": 22,
+   "beat": 9,
    "chapter": null,
-   "text": "A noise outside, a simple answer, and a man can sleep for one more night.",
+   "text": "It had none.",
    "who": "nar",
-   "start": 164.528,
-   "end": 170.703
+   "start": 128.769,
+   "end": 129.623
   },
   {
    "i": 34,
-   "beat": 23,
-   "chapter": "The Window",
-   "text": "The next night was different.",
+   "beat": 9,
+   "chapter": null,
+   "text": "There were only empty black sockets, with a black liquid dripping out.",
    "who": "nar",
-   "start": 171.303,
-   "end": 173.305
+   "start": 129.923,
+   "end": 135.031
   },
   {
    "i": 35,
-   "beat": 24,
+   "beat": 10,
    "chapter": null,
-   "text": "I did not wake up slowly.",
+   "text": "I grabbed the camera from the mantel and took a picture.",
    "who": "nar",
-   "start": 173.755,
-   "end": 175.417
+   "start": 135.481,
+   "end": 139.062
   },
   {
    "i": 36,
-   "beat": 24,
+   "beat": 10,
    "chapter": null,
-   "text": "I came awake all at once, the way you do when a sound belongs inside your room and not outside it.",
+   "text": "The moment I did, it lunged at me, and reached for my chest with its claws.",
    "who": "nar",
-   "start": 175.717,
-   "end": 184.064
+   "start": 139.362,
+   "end": 145.711
   },
   {
    "i": 37,
-   "beat": 25,
+   "beat": 10,
    "chapter": null,
-   "text": "I was almost sure I had heard my window being lifted open.",
+   "text": "I kicked it in the face as hard as I could.",
    "who": "nar",
-   "start": 184.514,
-   "end": 189.026
+   "start": 146.011,
+   "end": 149.271
   },
   {
    "i": 38,
-   "beat": 26,
+   "beat": 11,
    "chapter": null,
-   "text": "And then a thump, soft and heavy, like a person landing on the floor with their knees bent.",
+   "text": "Then I grabbed my wallet, because I knew I would need money, and I ran out into the night.",
    "who": "nar",
-   "start": 189.476,
-   "end": 196.738
+   "start": 149.721,
+   "end": 157.091
   },
   {
    "i": 39,
-   "beat": 27,
+   "beat": 11,
    "chapter": null,
-   "text": "I sat straight up and I looked at every corner of that room.",
+   "text": "I ran until I reached the woods near Edwin's house.",
    "who": "nar",
-   "start": 197.188,
-   "end": 201.394
+   "start": 157.391,
+   "end": 161.67
   },
   {
    "i": 40,
-   "beat": 28,
+   "beat": 11,
    "chapter": null,
-   "text": "The window was shut.",
+   "text": "Then I tripped on a rock, and everything went black.",
    "who": "nar",
-   "start": 201.844,
-   "end": 203.118
+   "start": 161.97,
+   "end": 165.637
   },
   {
    "i": 41,
-   "beat": 28,
-   "chapter": null,
-   "text": "The boxes were where I had left them.",
+   "beat": 12,
+   "chapter": "The Bad News",
+   "text": "I woke up in the hospital, and the same doctor came in.",
    "who": "nar",
-   "start": 203.418,
-   "end": 205.617
+   "start": 166.237,
+   "end": 170.44
   },
   {
    "i": 42,
-   "beat": 28,
+   "beat": 12,
    "chapter": null,
-   "text": "Nothing moved.",
-   "who": "nar",
-   "start": 205.917,
-   "end": 206.932
+   "text": "\"I have good news and bad news, Mitch. The good news is that your injuries are small, and your parents are coming to take you home.\"",
+   "who": "doc",
+   "start": 170.74,
+   "end": 178.802
   },
   {
    "i": 43,
-   "beat": 29,
+   "beat": 12,
    "chapter": null,
-   "text": "I listened until my ears were ringing with the effort, and the house gave me nothing back.",
+   "text": "I sighed with relief.",
    "who": "nar",
-   "start": 207.382,
-   "end": 214.103
+   "start": 179.102,
+   "end": 180.638
   },
   {
    "i": 44,
-   "beat": 30,
+   "beat": 13,
    "chapter": null,
-   "text": "After a while I told myself I had been dreaming, and I lay down again with my back to the wall.",
-   "who": "nar",
-   "start": 214.553,
-   "end": 222.336
+   "text": "\"The bad news is that your brother has been killed by something. I am sorry.\"",
+   "who": "doc",
+   "start": 181.088,
+   "end": 185.97
   },
   {
    "i": 45,
-   "beat": 31,
-   "chapter": null,
-   "text": "I slept.",
+   "beat": 14,
+   "chapter": "The Hallway",
+   "text": "My parents drove me back to Edwin's house, to collect my things.",
    "who": "nar",
-   "start": 222.786,
-   "end": 223.566
+   "start": 186.57,
+   "end": 191.275
   },
   {
    "i": 46,
-   "beat": 31,
+   "beat": 14,
    "chapter": null,
-   "text": "That is the thing I cannot explain to anybody who has not been through it.",
+   "text": "I was scared, but I stayed calm.",
    "who": "nar",
-   "start": 223.866,
-   "end": 228.804
+   "start": 191.575,
+   "end": 194.225
   },
   {
    "i": 47,
-   "beat": 31,
+   "beat": 14,
    "chapter": null,
-   "text": "I slept.",
+   "text": "I went into my room and took my camera.",
    "who": "nar",
-   "start": 229.104,
-   "end": 229.884
+   "start": 194.525,
+   "end": 197.476
   },
   {
    "i": 48,
-   "beat": 32,
-   "chapter": "The Mirror",
-   "text": "The next morning I walked into the kitchen, and Edwin dropped his cup.",
+   "beat": 14,
+   "chapter": null,
+   "text": "Then I stopped dead in the hallway.",
    "who": "nar",
-   "start": 230.484,
-   "end": 235.616
+   "start": 197.776,
+   "end": 200.045
   },
   {
    "i": 49,
-   "beat": 33,
+   "beat": 15,
    "chapter": null,
-   "text": "It hit the floor and broke and he did not even look at it.",
+   "text": "I saw my brother there, and I could not look for long.",
    "who": "nar",
-   "start": 236.066,
-   "end": 240.562
+   "start": 200.495,
+   "end": 204.269
   },
   {
    "i": 50,
-   "beat": 34,
+   "beat": 15,
    "chapter": null,
-   "text": "He was looking at my face.",
+   "text": "Next to him lay something small.",
    "who": "nar",
-   "start": 241.012,
-   "end": 242.612
+   "start": 204.569,
+   "end": 206.902
   },
   {
    "i": 51,
-   "beat": 35,
+   "beat": 15,
    "chapter": null,
-   "text": " \"Mitch. Do not touch it. Just stand there.\"",
-   "who": "edwin",
-   "start": 243.062,
-   "end": 245.479
+   "text": "I picked it up, and I walked to my parents' car without a word.",
+   "who": "nar",
+   "start": 207.202,
+   "end": 211.998
   },
   {
    "i": 52,
-   "beat": 36,
+   "beat": 16,
    "chapter": null,
-   "text": "He took the little mirror off the shelf by the door and held it up in front of me.",
+   "text": "Inside the car, I looked at what I was holding, and I nearly threw up.",
    "who": "nar",
-   "start": 245.929,
-   "end": 251.679
+   "start": 212.448,
+   "end": 218.013
   },
   {
    "i": 53,
-   "beat": 37,
+   "beat": 16,
    "chapter": null,
-   "text": "There was a long cut down my left cheek.",
+   "text": "It was the part of me that the creature had stolen, black with that same dark liquid.",
    "who": "nar",
-   "start": 252.129,
-   "end": 254.564
+   "start": 218.313,
+   "end": 224.982
   },
   {
    "i": 54,
-   "beat": 37,
+   "beat": 17,
    "chapter": null,
-   "text": "Clean, straight, and nothing like a scratch from a nail or a corner of a box.",
+   "text": "This story is inspired by the Eyeless Jack creepypasta, first posted by a user named Azelf5000, in twenty twelve.",
    "who": "nar",
-   "start": 254.864,
-   "end": 261.245
+   "start": 225.432,
+   "end": 236.999
   },
   {
    "i": 55,
-   "beat": 38,
+   "beat": 18,
    "chapter": null,
-   "text": "I had not felt it.",
+   "text": "Would you have stayed in that house a second night?",
    "who": "nar",
-   "start": 261.695,
-   "end": 262.972
-  },
-  {
-   "i": 56,
-   "beat": 38,
-   "chapter": null,
-   "text": "I had slept through the whole night and I had not felt a thing.",
-   "who": "nar",
-   "start": 263.272,
-   "end": 267.452
-  },
-  {
-   "i": 57,
-   "beat": 39,
-   "chapter": null,
-   "text": "Edwin drove me to the hospital with both hands tight on the wheel and the radio off.",
-   "who": "nar",
-   "start": 267.902,
-   "end": 275.003
-  },
-  {
-   "i": 58,
-   "beat": 40,
-   "chapter": "The Hospital",
-   "text": "The doctor cleaned the cut and asked me the questions they ask.",
-   "who": "nar",
-   "start": 275.603,
-   "end": 279.951
-  },
-  {
-   "i": 59,
-   "beat": 41,
-   "chapter": null,
-   "text": " \"Do you drink before bed? Do you take anything to sleep? Has anyone in your family ever walked in their sleep?\"",
-   "who": "doc",
-   "start": 280.401,
-   "end": 287.007
-  },
-  {
-   "i": 60,
-   "beat": 42,
-   "chapter": null,
-   "text": "I said no to all of it, and he wrote it down anyway.",
-   "who": "nar",
-   "start": 287.457,
-   "end": 291.455
-  },
-  {
-   "i": 61,
-   "beat": 43,
-   "chapter": null,
-   "text": " \"The most likely answer is that you did this to yourself while you were asleep. It happens more than people think.\"",
-   "who": "doc",
-   "start": 291.905,
-   "end": 298.915
-  },
-  {
-   "i": 62,
-   "beat": 44,
-   "chapter": null,
-   "text": "I was ready to believe him.",
-   "who": "nar",
-   "start": 299.365,
-   "end": 301.065
-  },
-  {
-   "i": 63,
-   "beat": 44,
-   "chapter": null,
-   "text": "I wanted to believe him.",
-   "who": "nar",
-   "start": 301.365,
-   "end": 302.917
-  },
-  {
-   "i": 64,
-   "beat": 44,
-   "chapter": null,
-   "text": "A sleepwalking man is a problem you can fix.",
-   "who": "nar",
-   "start": 303.217,
-   "end": 306.844
-  },
-  {
-   "i": 65,
-   "beat": 45,
-   "chapter": null,
-   "text": "Then he stopped writing, and his face changed, and he asked me to lie back and lift my shirt.",
-   "who": "nar",
-   "start": 307.294,
-   "end": 314.702
-  },
-  {
-   "i": 66,
-   "beat": 46,
-   "chapter": null,
-   "text": "He did not say anything for a long moment.",
-   "who": "nar",
-   "start": 315.152,
-   "end": 318.227
-  },
-  {
-   "i": 67,
-   "beat": 47,
-   "chapter": null,
-   "text": " \"Mitch. There is a surgical cut in your side, and it has been closed again with stitches. Neat ones.\"",
-   "who": "doc",
-   "start": 318.677,
-   "end": 324.999
-  },
-  {
-   "i": 68,
-   "beat": 48,
-   "chapter": null,
-   "text": "He turned the screen of the scanner round so that I could see it myself.",
-   "who": "nar",
-   "start": 325.449,
-   "end": 330.237
-  },
-  {
-   "i": 69,
-   "beat": 48,
-   "chapter": null,
-   "text": "I am not a doctor and even I could see that there was a space where something should have been.",
-   "who": "nar",
-   "start": 330.537,
-   "end": 337.285
-  },
-  {
-   "i": 70,
-   "beat": 49,
-   "chapter": null,
-   "text": " \"You have lost your left kidney. Some time last night. I am sorry. We do not know how.\"",
-   "who": "doc",
-   "start": 337.735,
-   "end": 343.225
-  },
-  {
-   "i": 71,
-   "beat": 50,
-   "chapter": null,
-   "text": "I remember the sound of the clock on that wall.",
-   "who": "nar",
-   "start": 343.675,
-   "end": 346.725
-  },
-  {
-   "i": 72,
-   "beat": 50,
-   "chapter": null,
-   "text": "I remember a trolley going past the door.",
-   "who": "nar",
-   "start": 347.025,
-   "end": 350.088
-  },
-  {
-   "i": 73,
-   "beat": 51,
-   "chapter": null,
-   "text": "I remember the word last night, sitting in the middle of the room like a stone.",
-   "who": "nar",
-   "start": 350.538,
-   "end": 356.289
-  },
-  {
-   "i": 74,
-   "beat": 52,
-   "chapter": null,
-   "text": "Somebody had opened me up while I slept, taken a piece of me out, closed me again, and gone back out through the window.",
-   "who": "nar",
-   "start": 356.739,
-   "end": 365.968
-  },
-  {
-   "i": 75,
-   "beat": 53,
-   "chapter": null,
-   "text": "This story is my own retelling of the creepypasta Eyeless Jack, first posted by a user called Azelf5000.",
-   "who": "nar",
-   "start": 366.418,
-   "end": 377.722
-  },
-  {
-   "i": 76,
-   "beat": 54,
-   "chapter": "Face to Face",
-   "text": "They kept me in for the day and sent me home with painkillers and a sheet of paper about infection.",
-   "who": "nar",
-   "start": 378.322,
-   "end": 386.186
-  },
-  {
-   "i": 77,
-   "beat": 55,
-   "chapter": null,
-   "text": "Edwin wanted me to sleep on the couch, downstairs, near him.",
-   "who": "nar",
-   "start": 386.636,
-   "end": 391.485
-  },
-  {
-   "i": 78,
-   "beat": 55,
-   "chapter": null,
-   "text": "I said I would be fine in the back room.",
-   "who": "nar",
-   "start": 391.785,
-   "end": 394.751
-  },
-  {
-   "i": 79,
-   "beat": 56,
-   "chapter": null,
-   "text": "I was not being brave.",
-   "who": "nar",
-   "start": 395.201,
-   "end": 396.742
-  },
-  {
-   "i": 80,
-   "beat": 56,
-   "chapter": null,
-   "text": "I think I wanted to know.",
-   "who": "nar",
-   "start": 397.042,
-   "end": 398.568
-  },
-  {
-   "i": 81,
-   "beat": 57,
-   "chapter": null,
-   "text": "I lay in that bed with the lamp off and the painkillers moving in my blood, and at some point I fell asleep.",
-   "who": "nar",
-   "start": 399.018,
-   "end": 408.257
-  },
-  {
-   "i": 82,
-   "beat": 58,
-   "chapter": null,
-   "text": "Around midnight I opened my eyes, and it was there.",
-   "who": "nar",
-   "start": 408.707,
-   "end": 412.844
-  },
-  {
-   "i": 83,
-   "beat": 59,
-   "chapter": null,
-   "text": "It was standing over my bed, bent forward at the waist, close enough that I could feel the air move when it breathed.",
-   "who": "nar",
-   "start": 413.294,
-   "end": 422.222
-  },
-  {
-   "i": 84,
-   "beat": 60,
-   "chapter": null,
-   "text": "A black hooded top, the hood up.",
-   "who": "nar",
-   "start": 422.672,
-   "end": 424.917
-  },
-  {
-   "i": 85,
-   "beat": 60,
-   "chapter": null,
-   "text": "A face the colour of old grey paint, with no nose and no mouth at all.",
-   "who": "nar",
-   "start": 425.217,
-   "end": 431.52
-  },
-  {
-   "i": 86,
-   "beat": 61,
-   "chapter": null,
-   "text": "And where the eyes should have been there were two black holes that went back further than a face should go.",
-   "who": "nar",
-   "start": 431.97,
-   "end": 439.039
-  },
-  {
-   "i": 87,
-   "beat": 62,
-   "chapter": null,
-   "text": "Something dark was running slowly out of both of them, down what would have been its cheeks, and dripping on to my blanket.",
-   "who": "nar",
-   "start": 439.489,
-   "end": 448.63
-  },
-  {
-   "i": 88,
-   "beat": 63,
-   "chapter": null,
-   "text": "I did not scream.",
-   "who": "nar",
-   "start": 449.08,
-   "end": 450.328
-  },
-  {
-   "i": 89,
-   "beat": 63,
-   "chapter": null,
-   "text": "I want to be honest about that, because people always ask.",
-   "who": "nar",
-   "start": 450.628,
-   "end": 454.971
-  },
-  {
-   "i": 90,
-   "beat": 63,
-   "chapter": null,
-   "text": "I did not make a sound.",
-   "who": "nar",
-   "start": 455.271,
-   "end": 456.779
-  },
-  {
-   "i": 91,
-   "beat": 64,
-   "chapter": null,
-   "text": "My hand went sideways, on its own, to the little shelf by the bed where I kept my camera.",
-   "who": "nar",
-   "start": 457.229,
-   "end": 464.566
-  },
-  {
-   "i": 92,
-   "beat": 65,
-   "chapter": null,
-   "text": "I lifted it, and I took the picture.",
-   "who": "nar",
-   "start": 465.016,
-   "end": 467.67
-  },
-  {
-   "i": 93,
-   "beat": 66,
-   "chapter": null,
-   "text": "The flash filled that room for half a second, and in that half a second I saw all of it at once, every fold of the hood and every finger.",
-   "who": "nar",
-   "start": 468.12,
-   "end": 479.522
-  },
-  {
-   "i": 94,
-   "beat": 67,
-   "chapter": null,
-   "text": "Then the dark came back, and it came at me.",
-   "who": "nar",
-   "start": 479.972,
-   "end": 483.219
-  },
-  {
-   "i": 95,
-   "beat": 68,
-   "chapter": null,
-   "text": "It was fast, and it was strong, and it went for my chest with both hands.",
-   "who": "nar",
-   "start": 483.669,
-   "end": 489.525
-  },
-  {
-   "i": 96,
-   "beat": 69,
-   "chapter": null,
-   "text": "I got my foot up between us and I kicked it in the face as hard as a man with stitches can kick anything.",
-   "who": "nar",
-   "start": 489.975,
-   "end": 498.768
-  },
-  {
-   "i": 97,
-   "beat": 70,
-   "chapter": null,
-   "text": "It went backwards into the boxes and I was out of that bed and through the door.",
-   "who": "nar",
-   "start": 499.218,
-   "end": 505.172
-  },
-  {
-   "i": 98,
-   "beat": 71,
-   "chapter": "The Run",
-   "text": "I grabbed my wallet off the hall table.",
-   "who": "nar",
-   "start": 505.772,
-   "end": 508.452
-  },
-  {
-   "i": 99,
-   "beat": 71,
-   "chapter": null,
-   "text": "I do not know why.",
-   "who": "nar",
-   "start": 508.752,
-   "end": 509.984
-  },
-  {
-   "i": 100,
-   "beat": 71,
-   "chapter": null,
-   "text": "You do strange things.",
-   "who": "nar",
-   "start": 510.284,
-   "end": 511.739
-  },
-  {
-   "i": 101,
-   "beat": 72,
-   "chapter": null,
-   "text": "I went out of the front door in bare feet and I ran down that long street with the porch lights going past me.",
-   "who": "nar",
-   "start": 512.189,
-   "end": 521.397
-  },
-  {
-   "i": 102,
-   "beat": 73,
-   "chapter": null,
-   "text": "I did not shout for Edwin.",
-   "who": "nar",
-   "start": 521.847,
-   "end": 523.513
-  },
-  {
-   "i": 103,
-   "beat": 73,
-   "chapter": null,
-   "text": "I did not go back for him.",
-   "who": "nar",
-   "start": 523.813,
-   "end": 525.388
-  },
-  {
-   "i": 104,
-   "beat": 73,
-   "chapter": null,
-   "text": "I have had a long time to think about that.",
-   "who": "nar",
-   "start": 525.688,
-   "end": 528.084
-  },
-  {
-   "i": 105,
-   "beat": 74,
-   "chapter": null,
-   "text": "At the end of the street I went over the fence and into the pine woods behind the houses.",
-   "who": "nar",
-   "start": 528.534,
-   "end": 535.462
-  },
-  {
-   "i": 106,
-   "beat": 75,
-   "chapter": null,
-   "text": "There was no moon under those trees.",
-   "who": "nar",
-   "start": 535.912,
-   "end": 538.278
-  },
-  {
-   "i": 107,
-   "beat": 75,
-   "chapter": null,
-   "text": "There was no path either, and I was running on roots and stones.",
-   "who": "nar",
-   "start": 538.578,
-   "end": 543.551
-  },
-  {
-   "i": 108,
-   "beat": 76,
-   "chapter": null,
-   "text": "I remember the cold, and my own breath, and the stitches in my side pulling with every step.",
-   "who": "nar",
-   "start": 544.001,
-   "end": 551.717
-  },
-  {
-   "i": 109,
-   "beat": 77,
-   "chapter": null,
-   "text": "I remember looking back once and seeing nothing at all, which was somehow worse.",
-   "who": "nar",
-   "start": 552.167,
-   "end": 558.251
-  },
-  {
-   "i": 110,
-   "beat": 78,
-   "chapter": null,
-   "text": "Then my foot caught a rock and the ground came up and hit me, and the woods went out like a light.",
-   "who": "nar",
-   "start": 558.701,
-   "end": 566.429
-  },
-  {
-   "i": 111,
-   "beat": 79,
-   "chapter": "The Bad News",
-   "text": "I woke up in a hospital bed with a drip in my arm and daylight on the wall.",
-   "who": "nar",
-   "start": 567.029,
-   "end": 573.581
-  },
-  {
-   "i": 112,
-   "beat": 80,
-   "chapter": null,
-   "text": "It was the same doctor.",
-   "who": "nar",
-   "start": 574.031,
-   "end": 575.454
-  },
-  {
-   "i": 113,
-   "beat": 80,
-   "chapter": null,
-   "text": "He came in with my notes under his arm and he sat down, which nobody does when the news is good.",
-   "who": "nar",
-   "start": 575.754,
-   "end": 583.608
-  },
-  {
-   "i": 114,
-   "beat": 81,
-   "chapter": null,
-   "text": " \"There is good news and bad news, Mitch.\"",
-   "who": "doc",
-   "start": 584.058,
-   "end": 586.854
-  },
-  {
-   "i": 115,
-   "beat": 82,
-   "chapter": null,
-   "text": " \"The good news is that you were lucky. Cuts, bruises, a mild concussion. Your parents are on their way to collect you.\"",
-   "who": "doc",
-   "start": 587.304,
-   "end": 594.658
-  },
-  {
-   "i": 116,
-   "beat": 83,
-   "chapter": null,
-   "text": "I let out a breath I think I had been holding since midnight.",
-   "who": "nar",
-   "start": 595.108,
-   "end": 599.354
-  },
-  {
-   "i": 117,
-   "beat": 84,
-   "chapter": null,
-   "text": " \"The bad news is that your brother was found in the house this morning. He was killed. I am very sorry.\"",
-   "who": "doc",
-   "start": 599.804,
-   "end": 606.09
-  },
-  {
-   "i": 118,
-   "beat": 85,
-   "chapter": null,
-   "text": " \"Killed by what?\"",
-   "who": "mitch",
-   "start": 606.54,
-   "end": 607.498
-  },
-  {
-   "i": 119,
-   "beat": 86,
-   "chapter": null,
-   "text": "He looked at the floor, and then he looked at me, and he told me the truth, which was that nobody could say.",
-   "who": "nar",
-   "start": 607.948,
-   "end": 615.99
-  },
-  {
-   "i": 120,
-   "beat": 87,
-   "chapter": null,
-   "text": "I had kicked it in the face and run out of the house, and it had not followed me into those woods.",
-   "who": "nar",
-   "start": 616.44,
-   "end": 623.739
-  },
-  {
-   "i": 121,
-   "beat": 88,
-   "chapter": null,
-   "text": "It had not needed to.",
-   "who": "nar",
-   "start": 624.189,
-   "end": 625.591
-  },
-  {
-   "i": 122,
-   "beat": 88,
-   "chapter": null,
-   "text": "There was already somebody in that house.",
-   "who": "nar",
-   "start": 625.891,
-   "end": 628.568
-  },
-  {
-   "i": 123,
-   "beat": 89,
-   "chapter": "What He Left",
-   "text": "Three days later my parents drove me back to get my things.",
-   "who": "nar",
-   "start": 629.168,
-   "end": 633.767
-  },
-  {
-   "i": 124,
-   "beat": 90,
-   "chapter": null,
-   "text": "They waited in the car.",
-   "who": "nar",
-   "start": 634.217,
-   "end": 635.825
-  },
-  {
-   "i": 125,
-   "beat": 90,
-   "chapter": null,
-   "text": "My mother did not want to go in and my father did not want to leave her out there on her own.",
-   "who": "nar",
-   "start": 636.125,
-   "end": 642.854
-  },
-  {
-   "i": 126,
-   "beat": 91,
-   "chapter": null,
-   "text": "The porch light was still on in the middle of the day.",
-   "who": "nar",
-   "start": 643.304,
-   "end": 646.93
-  },
-  {
-   "i": 127,
-   "beat": 91,
-   "chapter": null,
-   "text": "Edwin always forgot it.",
-   "who": "nar",
-   "start": 647.23,
-   "end": 648.907
-  },
-  {
-   "i": 128,
-   "beat": 92,
-   "chapter": null,
-   "text": "I went up the stairs to the back room and I made myself calm, the way you do when you have practised being calm in the car.",
-   "who": "nar",
-   "start": 649.357,
-   "end": 658.884
-  },
-  {
-   "i": 129,
-   "beat": 93,
-   "chapter": null,
-   "text": "My camera was still on the shelf where my hand had left it.",
-   "who": "nar",
-   "start": 659.334,
-   "end": 663.758
-  },
-  {
-   "i": 130,
-   "beat": 93,
-   "chapter": null,
-   "text": "I put it in my pocket.",
-   "who": "nar",
-   "start": 664.058,
-   "end": 665.695
-  },
-  {
-   "i": 131,
-   "beat": 94,
-   "chapter": null,
-   "text": "And then I stopped, because I could see along the hallway from there, and the hallway was not empty.",
-   "who": "nar",
-   "start": 666.145,
-   "end": 673.635
-  },
-  {
-   "i": 132,
-   "beat": 95,
-   "chapter": null,
-   "text": "I am not going to describe what the police had already photographed in that house.",
-   "who": "nar",
-   "start": 674.085,
-   "end": 680.056
-  },
-  {
-   "i": 133,
-   "beat": 95,
-   "chapter": null,
-   "text": "My brother was at the far end of it, and that is all I will say.",
-   "who": "nar",
-   "start": 680.356,
-   "end": 685.422
-  },
-  {
-   "i": 134,
-   "beat": 96,
-   "chapter": null,
-   "text": "There was something small lying on the floor beside him, wrapped in a piece of cloth.",
-   "who": "nar",
-   "start": 685.872,
-   "end": 691.81
-  },
-  {
-   "i": 135,
-   "beat": 97,
-   "chapter": null,
-   "text": "I picked it up without thinking, the way you pick up anything that does not belong on a floor.",
-   "who": "nar",
-   "start": 692.26,
-   "end": 698.874
-  },
-  {
-   "i": 136,
-   "beat": 98,
-   "chapter": null,
-   "text": "I carried it out past my mother and my father and I sat down in the back seat of their car with it in my lap.",
-   "who": "nar",
-   "start": 699.324,
-   "end": 708.273
-  },
-  {
-   "i": 137,
-   "beat": 99,
-   "chapter": null,
-   "text": "We were two streets away before I opened the cloth.",
-   "who": "nar",
-   "start": 708.723,
-   "end": 712.257
-  },
-  {
-   "i": 138,
-   "beat": 100,
-   "chapter": null,
-   "text": "It was the piece of me that had been taken out of my side four nights before.",
-   "who": "nar",
-   "start": 712.707,
-   "end": 717.817
-  },
-  {
-   "i": 139,
-   "beat": 101,
-   "chapter": null,
-   "text": "Some of it was gone.",
-   "who": "nar",
-   "start": 718.267,
-   "end": 719.559
-  },
-  {
-   "i": 140,
-   "beat": 101,
-   "chapter": null,
-   "text": "There was a dark stain on the cloth around it, the same colour as the stuff that had been running out of those empty holes.",
-   "who": "nar",
-   "start": 719.859,
-   "end": 729.297
-  },
-  {
-   "i": 141,
-   "beat": 102,
-   "chapter": null,
-   "text": "I was sick in my mother's car, and then I cried, and my father did not stop driving.",
-   "who": "nar",
-   "start": 729.747,
-   "end": 736.673
-  },
-  {
-   "i": 142,
-   "beat": 103,
-   "chapter": null,
-   "text": "The picture is still on that camera.",
-   "who": "nar",
-   "start": 737.123,
-   "end": 739.513
-  },
-  {
-   "i": 143,
-   "beat": 103,
-   "chapter": null,
-   "text": "I have never shown it to anybody who did not ask twice.",
-   "who": "nar",
-   "start": 739.813,
-   "end": 743.846
-  },
-  {
-   "i": 144,
-   "beat": 104,
-   "chapter": null,
-   "text": "It is dark, and it is blurred, because my hand was shaking.",
-   "who": "nar",
-   "start": 744.296,
-   "end": 748.861
-  },
-  {
-   "i": 145,
-   "beat": 104,
-   "chapter": null,
-   "text": "But the hood is there, and the face is there, and the two holes are there.",
-   "who": "nar",
-   "start": 749.161,
-   "end": 754.386
-  },
-  {
-   "i": 146,
-   "beat": 105,
-   "chapter": null,
-   "text": "And there is one more thing in that photograph that I have never been able to explain.",
-   "who": "nar",
-   "start": 754.836,
-   "end": 760.324
-  },
-  {
-   "i": 147,
-   "beat": 105,
-   "chapter": null,
-   "text": "The thing is not looking at me.",
-   "who": "nar",
-   "start": 760.624,
-   "end": 762.451
-  },
-  {
-   "i": 148,
-   "beat": 106,
-   "chapter": null,
-   "text": "It is looking past my shoulder, at the door of my room, which I had left open, and which leads to the rest of that house.",
-   "who": "nar",
-   "start": 762.901,
-   "end": 772.395
-  },
-  {
-   "i": 149,
-   "beat": 107,
-   "chapter": null,
-   "text": "Would you have taken the photograph?",
-   "who": "nar",
-   "start": 772.845,
-   "end": 774.605
+   "start": 237.449,
+   "end": 240.583
   }
  ]
 }

@@ -1,12 +1,5 @@
-[["bedroom", {"lamp":0.6}, 2.0, 4], ["bedroom", {"fr":"waist","open":0.9,"pose":"lie","expr":"fear"}, 1.8, 4],
- ["over", {}, 2.0, 5], ["sockets", {}, 2.0, 5], ["window7", {"open":0.9}, 1.8, 4], ["yard", {}, 2.0, 4],
- ["house", {}, 2.0, 5], ["porch", {"door":0.6}, 1.8, 4], ["hall", {"mitch":true}, 1.8, 4],
- ["kitchen", {"cup":1,"mitch":true,"eexpr":"shock"}, 1.8, 4], ["mirror", {}, 1.8, 4],
- ["ward", {"doc":true,"chart":true}, 1.8, 4], ["corridor", {"people":1}, 1.8, 4],
- ["woods", {}, 2.0, 4], ["car", {}, 1.8, 4], ["seat", {"open":true}, 1.8, 4],
- ["camera", {}, 1.8, 4], ["flash", {}, 1.2, 3], ["creature", {}, 2.0, 5], ["far", {}, 2.0, 4], ["end", {}, 4.0, 20],
- ["rbedroom", {"lamp":0.6}, 1.8, 4], ["rover", {}, 1.8, 4], ["rsockets", {}, 1.8, 4], ["rwindow", {"open":0.9}, 1.8, 4],
- ["ryard", {}, 1.8, 4], ["rhouse", {}, 1.8, 4], ["rporch", {"door":0.6}, 1.8, 4], ["rhall", {"mitch":true}, 1.8, 4],
- ["rkitchen", {"cup":1,"mitch":true}, 1.8, 4], ["rmirror", {}, 1.8, 4], ["rward", {"doc":true}, 1.8, 4],
- ["rcorridor", {}, 1.8, 4], ["rwoods", {}, 1.8, 4], ["rcar", {}, 1.8, 4], ["rseat", {"open":true}, 1.8, 4],
- ["rcamera", {}, 1.8, 4], ["rflash", {}, 1.2, 3], ["rcreature", {}, 1.8, 4], ["rfar", {}, 1.8, 4]]
+[["bedover", {"fr":"wide"}, 1.5, 3], ["bedover", {"fr":"close"}, 1.5, 3], ["bedover", {"fr":"bust"}, 1.5, 3], ["jackfull", {"fr":"wide","tags":1}, 2.6, 3],
+ ["houseout", {"fr":"wide","fig":1}, 1.5, 3], ["houseout", {"fr":"waist"}, 1.5, 3], ["bedwin", {"fr":"wide","sit":1}, 2.5, 3], ["kitchen", {"fr":"wide"}, 1.5, 3],
+ ["kitchen", {"fr":"waist","part":"mirror"}, 1.5, 3], ["hospital", {"fr":"wide"}, 1.5, 3], ["hospital", {"fr":"waist","who":"talk"}, 1.5, 3], ["snap", {"fr":"detail"}, 1.8, 3],
+ ["lunge", {"fr":"wide"}, 1.2, 3], ["flee", {"fr":"wide","fall":1}, 1.5, 3], ["hall", {"fr":"wide"}, 1.5, 3], ["hall", {"fr":"detail"}, 1.5, 3],
+ ["carout", {"fr":"wide"}, 1.5, 3], ["carin", {"fr":"waist"}, 1.5, 3]]
