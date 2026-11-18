@@ -1,347 +1,374 @@
 {
- "duration": 173.66770833333334,
+ "duration": 175.21783333333335,
  "units": [
   {
    "i": 0,
    "beat": 0,
    "chapter": "Intro",
-   "text": "A man sits in a dark room in front of a black screen.",
+   "text": "You wake in the night because something near your bed made a sound.",
    "who": "nar",
    "start": 0.0,
-   "end": 3.606
+   "end": 4.23
   },
   {
    "i": 1,
-   "beat": 0,
+   "beat": 1,
    "chapter": null,
-   "text": "The red words tell him his wife is already dead downstairs.",
+   "text": "You open your eyes, and the black above you is not the ceiling.",
    "who": "nar",
-   "start": 3.906,
-   "end": 8.419
+   "start": 4.68,
+   "end": 9.476
   },
   {
    "i": 2,
    "beat": 1,
    "chapter": null,
-   "text": "They say the man who did it is still in the house, coming up the stairs for him now.",
+   "text": "It is two empty holes where eyes should be.",
    "who": "nar",
-   "start": 8.869,
-   "end": 14.834
+   "start": 9.776,
+   "end": 12.933
   },
   {
    "i": 3,
    "beat": 2,
    "chapter": null,
-   "text": "Jack does not run.",
+   "text": "Something dark is running out of them.",
    "who": "nar",
-   "start": 15.284,
-   "end": 16.666
+   "start": 13.383,
+   "end": 15.976
   },
   {
    "i": 4,
    "beat": 2,
    "chapter": null,
-   "text": "He is crying, and he is about to thank the thing on the screen.",
+   "text": "Let us go back to the beginning.",
    "who": "nar",
-   "start": 16.966,
-   "end": 21.173
+   "start": 16.276,
+   "end": 18.039
   },
   {
    "i": 5,
-   "beat": 2,
+   "beat": 3,
    "chapter": null,
-   "text": "Let us go back to the beginning.",
+   "text": "Mitch lost his house that spring, so his brother Edwin took him in.",
    "who": "nar",
-   "start": 21.473,
-   "end": 23.236
+   "start": 18.489,
+   "end": 23.487
   },
   {
    "i": 6,
-   "beat": 3,
+   "beat": 4,
    "chapter": null,
-   "text": "Twelve years earlier, Jack had a cheap flat and a tired job.",
+   "text": "A cheap house at the end of a long street, pine woods behind the fence.",
    "who": "nar",
-   "start": 23.686,
-   "end": 28.541
+   "start": 23.937,
+   "end": 29.289
   },
   {
    "i": 7,
-   "beat": 3,
+   "beat": 4,
    "chapter": null,
-   "text": "One night his screen went black, and red letters asked him for a favour.",
+   "text": "He took the back room.",
    "who": "nar",
-   "start": 28.841,
-   "end": 34.622
+   "start": 29.589,
+   "end": 30.865
   },
   {
    "i": 8,
-   "beat": 4,
+   "beat": 5,
    "chapter": null,
-   "text": "In his office lobby there was a plant.",
+   "text": "A week in, a rustling under his window woke him at one in the morning.",
    "who": "nar",
-   "start": 35.072,
-   "end": 37.874
+   "start": 31.315,
+   "end": 37.081
   },
   {
    "i": 9,
-   "beat": 4,
+   "beat": 5,
    "chapter": null,
-   "text": "Move it three inches to the left.",
+   "text": "Probably a raccoon.",
    "who": "nar",
-   "start": 38.174,
-   "end": 40.314
+   "start": 37.381,
+   "end": 38.857
   },
   {
    "i": 10,
-   "beat": 4,
+   "beat": 6,
    "chapter": null,
-   "text": "Nothing wrong, nothing against the law, nobody hurt.",
+   "text": "The next night he woke all at once, sure he had heard the window lifted open.",
    "who": "nar",
-   "start": 40.614,
-   "end": 44.693
+   "start": 39.307,
+   "end": 45.486
   },
   {
    "i": 11,
-   "beat": 5,
+   "beat": 7,
    "chapter": null,
-   "text": "So he did it, and he forgot about it.",
+   "text": "Then a soft, heavy thump, like a person landing with their knees bent.",
    "who": "nar",
-   "start": 45.143,
-   "end": 47.748
+   "start": 45.936,
+   "end": 51.559
   },
   {
    "i": 12,
-   "beat": 6,
+   "beat": 7,
    "chapter": null,
-   "text": "Three days later a woman stopped to push that plant straight, and was still there when the lift opened.",
+   "text": "The window was shut.",
    "who": "nar",
-   "start": 48.198,
-   "end": 56.248
+   "start": 51.859,
+   "end": 53.133
   },
   {
    "i": 13,
-   "beat": 7,
+   "beat": 8,
    "chapter": null,
-   "text": "That is how Jack met Allie.",
+   "text": "In the morning Edwin dropped his coffee cup.",
    "who": "nar",
-   "start": 56.698,
-   "end": 58.372
+   "start": 53.583,
+   "end": 56.672
   },
   {
    "i": 14,
-   "beat": 7,
+   "beat": 8,
    "chapter": null,
-   "text": "Two cubicles away for a year, and he had never spoken to her once.",
+   "text": "There was a long clean cut down Mitch's cheek, and he had not felt it.",
    "who": "nar",
-   "start": 58.672,
-   "end": 63.699
+   "start": 56.972,
+   "end": 61.981
   },
   {
    "i": 15,
-   "beat": 8,
+   "beat": 9,
    "chapter": null,
-   "text": "He asked what it was.",
+   "text": "The doctor said it was probably sleepwalking.",
    "who": "nar",
-   "start": 64.149,
-   "end": 65.67
+   "start": 62.431,
+   "end": 65.132
   },
   {
    "i": 16,
-   "beat": 8,
+   "beat": 9,
    "chapter": null,
-   "text": "It said it was a seer.",
+   "text": "Then he asked him to lift his shirt.",
    "who": "nar",
-   "start": 65.97,
-   "end": 67.329
+   "start": 65.432,
+   "end": 67.92
   },
   {
    "i": 17,
-   "beat": 8,
+   "beat": 10,
    "chapter": null,
-   "text": "It could see every possible thing that could happen, and every road to it.",
+   "text": "There was a surgical cut in his side, closed with neat stitches.",
    "who": "nar",
-   "start": 67.629,
-   "end": 72.985
+   "start": 68.37,
+   "end": 73.441
   },
   {
    "i": 18,
-   "beat": 9,
+   "beat": 10,
    "chapter": null,
-   "text": "It had done this for thousands of years, and always took the same payment.",
+   "text": "His left kidney was gone.",
    "who": "nar",
-   "start": 73.435,
-   "end": 79.151
+   "start": 73.741,
+   "end": 75.594
   },
   {
    "i": 19,
-   "beat": 9,
+   "beat": 11,
    "chapter": null,
-   "text": "One favour, then the next.",
+   "text": "That evening he went back to the same room.",
    "who": "nar",
-   "start": 79.451,
-   "end": 81.392
+   "start": 76.044,
+   "end": 79.092
   },
   {
    "i": 20,
-   "beat": 10,
+   "beat": 11,
    "chapter": null,
-   "text": "A lorry missed Allie by two seconds because Jack made a phone ring at a junction.",
+   "text": "At midnight he opened his eyes, and it stood over his bed.",
    "who": "nar",
-   "start": 81.842,
-   "end": 88.101
+   "start": 79.392,
+   "end": 84.115
   },
   {
    "i": 21,
-   "beat": 10,
+   "beat": 12,
    "chapter": null,
-   "text": "A stranger won twenty seven million because Jack stood in a queue.",
+   "text": "A black hood.",
    "who": "nar",
-   "start": 88.401,
-   "end": 93.209
+   "start": 84.565,
+   "end": 85.455
   },
   {
    "i": 22,
-   "beat": 11,
+   "beat": 12,
    "chapter": null,
-   "text": "The screen was not giving him luck.",
+   "text": "A face the colour of old grey paint, with no nose and no mouth.",
    "who": "nar",
-   "start": 93.659,
-   "end": 96.007
+   "start": 85.755,
+   "end": 91.555
   },
   {
    "i": 23,
-   "beat": 11,
+   "beat": 13,
    "chapter": null,
-   "text": "It was spending other people to build the life he wanted.",
+   "text": "His hand went sideways on its own, to the camera on the shelf, and took the picture.",
    "who": "nar",
-   "start": 96.307,
-   "end": 100.264
+   "start": 92.005,
+   "end": 98.588
   },
   {
    "i": 24,
-   "beat": 12,
+   "beat": 14,
    "chapter": null,
-   "text": "He married Donna.",
+   "text": "The flash filled the room.",
    "who": "nar",
-   "start": 100.714,
-   "end": 101.845
+   "start": 99.038,
+   "end": 100.588
   },
   {
    "i": 25,
-   "beat": 12,
+   "beat": 14,
    "chapter": null,
-   "text": "He bought the big house at the end of the long road.",
+   "text": "Then the dark came back, and it came at him.",
    "who": "nar",
-   "start": 102.145,
-   "end": 105.33
+   "start": 100.888,
+   "end": 104.075
   },
   {
    "i": 26,
-   "beat": 12,
+   "beat": 15,
    "chapter": null,
-   "text": "Twelve good years, paid for by favours he never questioned.",
+   "text": "He kicked it in the face, ran barefoot into the woods, and tripped on a rock.",
    "who": "nar",
-   "start": 105.63,
-   "end": 110.416
+   "start": 104.525,
+   "end": 110.629
   },
   {
    "i": 27,
-   "beat": 13,
+   "beat": 16,
    "chapter": null,
-   "text": "Then came the doorbell, a delivery boy with a warm box, and a wife on the sofa who would not wake up again.",
+   "text": "He woke in a hospital bed, and the doctor sat down, which nobody does when the news is good.",
    "who": "nar",
-   "start": 110.866,
-   "end": 119.94
+   "start": 111.079,
+   "end": 118.784
   },
   {
    "i": 28,
-   "beat": 14,
+   "beat": 17,
    "chapter": null,
-   "text": "Upstairs the red letters told him the truth.",
+   "text": "Mitch was only bruised.",
    "who": "nar",
-   "start": 120.39,
-   "end": 123.6
+   "start": 119.234,
+   "end": 120.82
   },
   {
    "i": 29,
-   "beat": 14,
+   "beat": 17,
    "chapter": null,
-   "text": "The boy had been a favour too.",
+   "text": "His brother had been found in the house that morning.",
    "who": "nar",
-   "start": 123.9,
-   "end": 125.718
+   "start": 121.12,
+   "end": 124.427
   },
   {
    "i": 30,
-   "beat": 14,
+   "beat": 18,
    "chapter": null,
-   "text": "Years before, Jack had held a door for a frightened child.",
+   "text": "Three days later he went back for his things, and from his door he saw down the hallway.",
    "who": "nar",
-   "start": 126.018,
-   "end": 130.353
+   "start": 124.877,
+   "end": 131.706
   },
   {
    "i": 31,
-   "beat": 15,
+   "beat": 19,
    "chapter": null,
-   "text": "It said it had been painting one picture for a very long time, that Jack was one brush stroke in it, and it was nearly finished.",
+   "text": "Beside his brother was something small, wrapped in cloth.",
    "who": "nar",
-   "start": 130.803,
-   "end": 141.201
+   "start": 132.156,
+   "end": 136.605
   },
   {
    "i": 32,
-   "beat": 16,
+   "beat": 19,
    "chapter": null,
-   "text": "In the doorway stood a large shape, breathing hard, with a knife held low.",
+   "text": "He carried it out to the car.",
    "who": "nar",
-   "start": 141.651,
-   "end": 147.53
+   "start": 136.905,
+   "end": 138.589
   },
   {
    "i": 33,
-   "beat": 16,
+   "beat": 20,
    "chapter": null,
-   "text": "The screen asked if he had nothing to say.",
+   "text": "Two streets away he opened it.",
    "who": "nar",
-   "start": 147.83,
-   "end": 150.711
+   "start": 139.039,
+   "end": 141.374
   },
   {
    "i": 34,
-   "beat": 17,
+   "beat": 20,
    "chapter": null,
-   "text": "And Jack, who had been given twelve good years for a plant moved three inches, said the two words he had been promised.",
+   "text": "It was the piece taken out of his side, and some of it was gone.",
    "who": "nar",
-   "start": 151.161,
-   "end": 160.629
+   "start": 141.674,
+   "end": 146.567
   },
   {
    "i": 35,
-   "beat": 17,
+   "beat": 21,
    "chapter": null,
-   "text": "Thank you.",
+   "text": "The photograph is still on that camera.",
    "who": "nar",
-   "start": 160.929,
-   "end": 161.705
+   "start": 147.017,
+   "end": 149.872
   },
   {
    "i": 36,
-   "beat": 18,
+   "beat": 21,
    "chapter": null,
-   "text": "This is my retelling of The Seer of Possibilities, by Thomas O., on creepypasta dot com.",
+   "text": "It is dark and blurred, but the hood and the holes are there.",
    "who": "nar",
-   "start": 162.155,
-   "end": 170.183
+   "start": 150.172,
+   "end": 154.743
   },
   {
    "i": 37,
-   "beat": 19,
+   "beat": 22,
    "chapter": null,
-   "text": "Would you have done the first favour?",
+   "text": "And in the picture it is not looking at Mitch.",
    "who": "nar",
-   "start": 170.633,
-   "end": 172.468
+   "start": 155.193,
+   "end": 158.34
+  },
+  {
+   "i": 38,
+   "beat": 22,
+   "chapter": null,
+   "text": "It is looking past him, at his open door.",
+   "who": "nar",
+   "start": 158.64,
+   "end": 161.755
+  },
+  {
+   "i": 39,
+   "beat": 23,
+   "chapter": null,
+   "text": "This is my retelling of the creepypasta Eyeless Jack, posted by a user called Azelf5000.",
+   "who": "nar",
+   "start": 162.205,
+   "end": 171.807
+  },
+  {
+   "i": 40,
+   "beat": 24,
+   "chapter": null,
+   "text": "Would you have taken the photograph?",
+   "who": "nar",
+   "start": 172.257,
+   "end": 174.018
   }
  ]
 }

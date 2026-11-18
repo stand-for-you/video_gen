@@ -1,38 +1,41 @@
-0 rup/w rup/t
-1 rsc raf
-2 rdw rup/b
-3 rup/t
-4 rup/b rsc
-5 rse/w rga
-6 rfl/w rfl/t
-7 rsc rfl/b
-8 rlo/w rlo/d
-9 rlo/d
-10 rlo/d rlo/t
-11 rlo/t
-12 rlo/w rlo/t rlo/d
-13 rof/w
-14 rof/t rof/w
-15 rfl/t
-16 rse/w
-17 rse/w rga
-18 rse/w rga
-19 rsc
-20 rcr/w rcr/t
-21 rsh/w rsh/t
-22 rsc
-23 rga rse/w
-24 rlv/w
-25 rho/w rho/t
-26 rho/w rlv/w
-27 rdw/w rdw/t rlv/w raf
-28 rup/t rsc
-29 rsc
-30 rdw/t rga
-31 rga rse/w rga
-32 rdw rdw/t
-33 rsc rup/b
-34 rup/b rsc rup/t
-35 rsc
-36 rga rse/w rga
-37 rse/w
+0 rbd/b
+1 rbd/t
+2 rso
+3 rso
+4 rho/w
+5 rpo/w
+6 rho/w
+7 rbd/w
+8 rwi/t
+9 rya/w
+10 rbd/b
+11 rwi/w
+12 rwi/d
+13 rki/w
+14 rmi/b
+15 rwa/t
+16 rwa/b
+17 rwa/d
+18 rwa/t
+19 rbd/w
+20 rov/w
+21 rso
+22 rso
+23 rcm
+24 rfl
+25 rfl
+26 rwo/w
+27 rwa/t
+28 rwa/b
+29 rho/w
+30 rfa
+31 rfa
+32 rca/w
+33 rse/t
+34 rse/d
+35 rcm
+36 rso
+37 rcr/w
+38 rfa
+39 rcr/w
+40 rbd/w

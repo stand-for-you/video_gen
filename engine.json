@@ -2,7 +2,7 @@
  "fps": 60,
  "scale": 1.0,
  "dissolve": 14,
- "crf": 18,
- "parts": 72,
- "_note": "v0.5 3D engine. fps 60 = very smooth motion (the channel standard; never go below 60). scale 1.0 = crisp, no upscaling. dissolve = soft cut length in frames inside one narration unit (14 frames = 0.23 s at 60 fps). parts = resumable render parts for the long video and the number of parallel cloud jobs (3D at 60 fps is heavy: a 30 min video needs about 70 parts so every GitHub job stays well under its 5 hour limit)."
+ "crf": 21,
+ "parts": 32,
+ "_note": "v0.5 3D engine. fps 60. scale 1.0. dissolve = soft cut length in frames. crf 21 + a small gamma lift in tools/render.sh keep the night readable and the file small. parts = resumable parts and parallel cloud jobs."
 }

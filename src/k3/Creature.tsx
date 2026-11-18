@@ -11,7 +11,7 @@ import { mix } from './Person';
 export type C3 = {
   id: string; name: string; skin: string; height: number; hunch: number; armL: number; fingerL: number; legL: number; thin: number;
   eyes: 'black' | 'glow' | 'none'; mouth: 'teeth' | 'grin' | 'none'; teeth: number; veins: boolean; ribs: boolean; claws: string;
-  dress: 'living' | 'ghost' | 'bare'; hatC?: string; clothC?: string; coatC?: string; trouC?: string; ragC?: string; scar?: boolean; veinC?: string; glowC?: string;
+  dress: 'living' | 'ghost' | 'bare'; hood?: string; tears?: string; hatC?: string; clothC?: string; coatC?: string; trouC?: string; ragC?: string; scar?: boolean; veinC?: string; glowC?: string;
 };
 export const HERBERT: C3 = { id: 'herbert', name: 'HERBERT SOLOMON', skin: '#d6d3c6', height: 2.55, hunch: 0.48, armL: 1.3, fingerL: 1.28, legL: 1.14, thin: 0.98, eyes: 'black', mouth: 'teeth', teeth: 14, veins: true, ribs: true, claws: '#4a4038', dress: 'ghost', hatC: '#5a4630', clothC: '#8c8a80', coatC: '#4a3b2c', trouC: '#3d3934', ragC: '#2a2522', scar: true, veinC: '#5a4a62' };
 export const HERBERT_LIVING: C3 = { ...HERBERT, dress: 'living', scar: false };
@@ -103,14 +103,24 @@ const Skull: React.FC<{ c: C3; hr: number; jaw: number; t: number; cloth: boolea
         <Vein pts={[[hr * 0.1, hr * 1.18, hr * 0.0], [hr * 0.3, hr * 1.0, hr * 0.5], [hr * 0.45, hr * 0.8, hr * 0.68], [hr * 0.62, hr * 0.62, hr * 0.5]]} r={hr * 0.03} c={c.veinC || '#5a4a62'} />
         <Vein pts={[[hr * 0.0, hr * 1.2, -hr * 0.4], [-hr * 0.5, hr * 0.95, -hr * 0.6], [-hr * 0.82, hr * 0.5, -hr * 0.3]]} r={hr * 0.03} c={c.veinC || '#5a4a62'} />
       </>}
+      {c.tears && [-1, 1].map((k) => <group key={'tr' + k} position={[k * hr * 0.33, -hr * 0.1, hr * 0.74]}>
+        <mesh position={[0, -hr * 0.16, 0]} material={G(c.tears!)}><boxGeometry args={[hr * 0.12, hr * 0.5, hr * 0.03]} /></mesh>
+        <mesh position={[k * hr * 0.03, -hr * 0.52 - hr * 0.1 * (0.5 + 0.5 * Math.sin(t * 0.9 + k)), 0]} material={G(c.tears!)}><boxGeometry args={[hr * 0.08, hr * 0.3, hr * 0.03]} /></mesh>
+      </group>)}
+      {c.hood && <group position={[0, hr * 0.12, -hr * 0.3]}>
+        {/* a cowl that covers the back and the top of the head and leaves the face in shadow, not hidden */}
+        <mesh scale={[hr * 1.16, hr * 1.22, hr * 1.0]} material={M(c.hood, { side: 'double' })}><icosahedronGeometry args={[1, 1]} /></mesh>
+        <mesh position={[0, hr * 0.05, hr * 0.72]} rotation={[0.2, 0, 0]} material={M(mix(c.hood, '#000000', 0.25), { side: 'double' })}><torusGeometry args={[hr * 0.92, hr * 0.16, 4, 10]} /></mesh>
+        <mesh position={[0, hr * 0.6, -hr * 0.5]} rotation={[0.5, 0, 0]} material={M(c.hood)}><coneGeometry args={[hr * 0.72, hr * 0.8, 6]} /></mesh>
+      </group>}
       {c.scar && <mesh position={[hr * 0.55, hr * 0.5, hr * 0.35]} scale={[hr * 0.35, hr * 0.42, hr * 0.3]} material={M('#6a4a3e')}><icosahedronGeometry args={[1, 0]} /></mesh>}
-      {cloth && <group position={[0, -hr * 0.42, hr * 0.62]}>
+      {cloth && <group position={[0, -hr * (c.hood ? 0.66 : 0.42), hr * 0.62]} scale={c.hood ? [1, 0.72, 1] : [1, 1, 1]}>
         <mesh scale={[1, 1, 0.55]} material={M(c.clothC || '#8c8a80')}><cylinderGeometry args={[hr * 0.9, hr * 0.98, hr * 0.85, 8, 1, true, -Math.PI * 0.75, Math.PI * 1.5]} /></mesh>
         <mesh position={[0, 0, hr * 0.32]} material={M(mix(c.clothC || '#8c8a80', '#000000', 0.15))}><boxGeometry args={[hr * 1.3, hr * 0.85, hr * 0.06]} /></mesh>
         <mesh position={[hr * 0.1, -hr * 0.62, hr * 0.28]} rotation={[0.1 + sway(t, 3, 0.08, 2), 0, 0.15]} material={M(c.clothC || '#8c8a80')}><coneGeometry args={[hr * 0.3, hr * 0.6, 3]} /></mesh>
         {[-0.3, 0.05, 0.4].map((y, i) => <mesh key={i} position={[0, hr * y * 0.8, hr * 0.36]} material={M(mix(c.clothC || '#8c8a80', '#000000', 0.3))}><boxGeometry args={[hr * 1.2, hr * 0.02, hr * 0.01]} /></mesh>)}
       </group>}
-      {c.dress === 'living' && <group position={[0, hr * 0.95, -hr * 0.05]} rotation={[-0.1, 0, 0.05]}>
+      {c.dress === 'living' && !c.hood && <group position={[0, hr * 0.95, -hr * 0.05]} rotation={[-0.1, 0, 0.05]}>
         <mesh material={M(c.hatC || '#5a4630')}><cylinderGeometry args={[hr * 1.55, hr * 1.6, hr * 0.08, 12]} /></mesh>
         <mesh position={[0, hr * 0.38, 0]} material={M(c.hatC || '#5a4630')}><cylinderGeometry args={[hr * 0.78, hr * 0.92, hr * 0.72, 8]} /></mesh>
         <mesh position={[0, hr * 0.08, 0]} material={M(mix(c.hatC || '#5a4630', '#000000', 0.45))}><cylinderGeometry args={[hr * 0.93, hr * 0.93, hr * 0.12, 8]} /></mesh>

@@ -1,2451 +1,923 @@
 1
-00:00:00,000 --> 00:00:05,974
-There is a house at the end of a long
-road, and one window is still lit.
+00:00:00,000 --> 00:00:04,016
+You wake up in your own room, in the
+middle of the night,
 
 2
-00:00:05,994 --> 00:00:11,448
-Inside that house a man sits very still in
-front of a screen.
+00:00:04,036 --> 00:00:08,219
+because something close to your bed has
+made a sound.
 
 3
-00:00:11,468 --> 00:00:13,106
-The screen is black.
+00:00:08,239 --> 00:00:11,856
+You open your eyes and you see only black.
 
 4
-00:00:13,126 --> 00:00:15,362
-The words on it are red.
+00:00:11,876 --> 00:00:14,469
+You lie still and you listen.
 
 5
-00:00:15,382 --> 00:00:19,207
-They have just told him that his wife is
-already
+00:00:14,489 --> 00:00:19,080
+Then your eyes begin to work in the dark,
+and you understand
 
 6
-00:00:19,227 --> 00:00:22,390
-dead, downstairs, on their own sofa.
+00:00:19,100 --> 00:00:22,912
+that the black above you is not the
+ceiling.
 
 7
-00:00:22,410 --> 00:00:28,063
-They have told him that the boy who did it
-is still inside the house.
+00:00:22,932 --> 00:00:26,800
+It is two empty holes, in a face with no
+eyes,
 
 8
-00:00:28,083 --> 00:00:31,297
-"He is coming up for you now, Jack. You
-cannot stop him."
+00:00:26,820 --> 00:00:30,631
+leaning over you, close enough to touch.
 
 9
-00:00:31,317 --> 00:00:33,097
-The man does not run.
+00:00:30,651 --> 00:00:36,631
+Something dark is running out of those
+holes and down the side of its face.
 
 10
-00:00:33,117 --> 00:00:34,649
-He does not shout.
+00:00:36,651 --> 00:00:41,113
+This is the story of the thing people call
+Eyeless Jack.
 
 11
-00:00:34,669 --> 00:00:38,377
-He is crying, and he is also thinking
-about the
-
-12
-00:00:38,397 --> 00:00:42,475
-last twelve years, the best years of his
-life.
-
-13
-00:00:42,495 --> 00:00:47,150
-In a moment he will turn to that screen
-and say two words.
-
-14
-00:00:47,170 --> 00:00:48,376
-Thank you.
-
-15
-00:00:48,396 --> 00:00:52,860
-What can take everything from a man, and
-still be thanked for it?
-
-16
-00:00:52,880 --> 00:00:54,643
+00:00:41,133 --> 00:00:42,896
 Let us go back to the beginning.
 
+12
+00:00:43,496 --> 00:00:47,651
+My name is Mitch, and until a few years
+ago I did
+
+13
+00:00:47,671 --> 00:00:51,679
+not believe in anything I could not touch.
+
+14
+00:00:51,699 --> 00:00:53,947
+I lost my house that spring.
+
+15
+00:00:53,967 --> 00:00:59,802
+The bank took it, the way banks do, slowly
+and then all at once.
+
+16
+00:00:59,822 --> 00:01:04,542
+My older brother Edwin called me the same
+week and told
+
 17
-00:00:55,243 --> 00:00:59,396
-Jack lived alone in a small flat on the
-third floor.
+00:01:04,562 --> 00:01:09,302
+me to stop being proud and come and live
+with him.
 
 18
-00:00:59,416 --> 00:01:06,293
-He had a desk, a chair, an old computer,
-and a window that looked at a car park.
+00:01:09,322 --> 00:01:13,343
+We had not seen each other properly in ten
+years,
 
 19
-00:01:06,313 --> 00:01:08,312
-He was thirty one years old.
+00:01:13,363 --> 00:01:17,174
+so part of me was actually glad about it.
 
 20
-00:01:08,332 --> 00:01:15,878
-He was polite at work, quiet in the lift,
-and he went home every evening to nobody.
+00:01:17,194 --> 00:01:23,749
+His house was one of those cheap places at
+the end of a long street, with a
 
 21
-00:01:15,898 --> 00:01:19,987
-That night he was playing cards on the
-screen, moving
+00:01:23,769 --> 00:01:30,599
+wooden porch, a bare back yard, and pine
+woods standing behind the fence.
 
 22
-00:01:20,007 --> 00:01:23,388
-them one at a time, not really thinking.
+00:01:30,619 --> 00:01:32,739
+It took me a week to unpack.
 
 23
-00:01:23,408 --> 00:01:27,278
-The little light on his router was
-blinking red.
+00:01:32,759 --> 00:01:38,960
+Boxes in the hall, boxes on the landing,
+boxes down the side of the bed.
 
 24
-00:01:27,298 --> 00:01:29,915
-His internet was down again.
+00:01:38,980 --> 00:01:42,943
+"Take the back room. It is quiet, and the
+window gets the morning."
 
 25
-00:01:29,935 --> 00:01:34,816
-It went down almost every week, so he
-hardly noticed it.
+00:01:42,963 --> 00:01:44,870
+The back room was quiet.
 
 26
-00:01:34,836 --> 00:01:36,824
-Then the cards faded away.
+00:01:44,890 --> 00:01:47,673
+That is the part I think about now.
 
 27
-00:01:36,844 --> 00:01:38,547
-The screen went black.
+00:01:47,693 --> 00:01:49,944
+I slept well that first week.
 
 28
-00:01:38,567 --> 00:01:43,343
-And red letters began to appear, one line
-at a time.
+00:01:49,964 --> 00:01:55,662
+I remember thinking that this was the
+first time in a year that I had felt safe.
 
 29
-00:01:43,363 --> 00:01:45,916
-"Hello Jack. I need a favour from you."
+00:01:56,262 --> 00:02:00,372
+About a week in, I woke up at one in the
+morning.
 
 30
-00:01:45,936 --> 00:01:47,168
-Jack stopped.
+00:02:00,392 --> 00:02:04,621
+There was a sound coming from outside,
+under the window.
 
 31
-00:01:47,188 --> 00:01:48,783
-He looked at the router.
+00:02:04,641 --> 00:02:07,983
+A slow, careful rustling, the way
+something
 
 32
-00:01:48,803 --> 00:01:51,292
-The light was still blinking red.
+00:02:08,003 --> 00:02:11,561
+moves when it does not want to be heard.
 
 33
-00:01:51,312 --> 00:01:52,632
-No internet.
+00:02:11,581 --> 00:02:15,398
+I lay there and listened to it for a long
+time.
 
 34
-00:01:52,652 --> 00:01:54,558
-No connection at all.
+00:02:15,418 --> 00:02:19,189
+I told myself it was a raccoon in the
+bins.
 
 35
-00:01:54,578 --> 00:01:56,342
-"Is this some kind of joke?"
+00:02:19,209 --> 00:02:20,656
+We had raccoons.
 
 36
-00:01:56,362 --> 00:01:58,581
-he said to the empty room.
+00:02:20,676 --> 00:02:24,033
+Everybody on that street had raccoons.
 
 37
-00:01:58,601 --> 00:02:00,535
-The screen answered him.
+00:02:24,053 --> 00:02:27,580
+So I turned over and I went back to sleep.
 
 38
-00:02:00,555 --> 00:02:03,518
-"I know this is strange for you. But do
-not worry. It is
+00:02:27,600 --> 00:02:31,851
+In the morning I told Edwin about it over
+his coffee.
 
 39
-00:02:03,538 --> 00:02:06,897
-a small favour, an easy one. And you will
-be rewarded."
+00:02:31,871 --> 00:02:36,524
+"Raccoons. They get into everything out
+here. I will put a brick on the bin lid."
 
 40
-00:02:06,917 --> 00:02:08,609
-Now he was frightened.
+00:02:36,544 --> 00:02:41,498
+He put a brick on the bin lid, and we both
+forgot about it.
 
 41
-00:02:08,629 --> 00:02:15,204
-He reached behind the desk and pulled the
-internet cable right out of the wall.
+00:02:41,518 --> 00:02:44,508
+I want you to notice how easy that was.
 
 42
-00:02:15,224 --> 00:02:17,884
-The red letters did not stop.
+00:02:44,528 --> 00:02:50,703
+A noise outside, a simple answer, and a
+man can sleep for one more night.
 
 43
-00:02:17,904 --> 00:02:19,580
-"Still here, Jack."
+00:02:51,303 --> 00:02:53,735
+The next night was different.
 
 44
-00:02:19,600 --> 00:02:24,770
-He sat there with the cable in his hand,
-and the words kept coming.
+00:02:53,755 --> 00:02:55,697
+I did not wake up slowly.
 
 45
-00:02:24,790 --> 00:02:28,814
-"Tomorrow, when you go to work, move the
-big potted plant that stands next to
+00:02:55,717 --> 00:03:00,258
+I came awake all at once, the way you do
+when a sound
 
 46
-00:02:28,834 --> 00:02:32,647
-the lift on the ground floor. Pull it out
-from the wall, three inches. Do
+00:03:00,278 --> 00:03:04,494
+belongs inside your room and not outside
+it.
 
 47
-00:02:32,667 --> 00:02:36,931
-it at seventeen minutes past eight, and
-nobody will be there to see you."
+00:03:04,514 --> 00:03:09,456
+I was almost sure I had heard my window
+being lifted open.
 
 48
-00:02:36,951 --> 00:02:38,401
-Jack said nothing.
+00:03:09,476 --> 00:03:13,248
+And then a thump, soft and heavy, like a
+person
 
 49
-00:02:38,421 --> 00:02:40,543
-He did not know what to say.
+00:03:13,268 --> 00:03:17,168
+landing on the floor with their knees
+bent.
 
 50
-00:02:40,563 --> 00:02:43,538
-"I am asking you because I know you will
-do it. You will not
+00:03:17,188 --> 00:03:21,824
+I sat straight up and I looked at every
+corner of that room.
 
 51
-00:02:43,558 --> 00:02:46,634
-let me down. You are special. We will talk
-tomorrow."
+00:03:21,844 --> 00:03:23,398
+The window was shut.
 
 52
-00:02:46,654 --> 00:02:49,586
-He pulled the power cord out of the wall.
+00:03:23,418 --> 00:03:25,897
+The boxes were where I had left them.
 
 53
-00:02:49,606 --> 00:02:50,978
-The screen died.
+00:03:25,917 --> 00:03:27,362
+Nothing moved.
 
 54
-00:02:50,998 --> 00:02:56,472
-The room went dark, except for the orange
-street light outside.
+00:03:27,382 --> 00:03:30,836
+I listened until my ears were ringing with
+the
 
 55
-00:02:56,492 --> 00:02:59,500
-He stood in that dark for a long time.
+00:03:30,856 --> 00:03:34,533
+effort, and the house gave me nothing
+back.
 
 56
-00:02:59,520 --> 00:03:04,099
-Then he had a hot shower, and he went to
-bed, telling
+00:03:34,553 --> 00:03:38,507
+After a while I told myself I had been
+dreaming,
 
 57
-00:03:04,119 --> 00:03:08,541
-himself it was a dream, or a trick, or a
-joke.
+00:03:38,527 --> 00:03:42,766
+and I lay down again with my back to the
+wall.
 
 58
-00:03:08,561 --> 00:03:11,587
-But he had no friends who played jokes.
+00:03:42,786 --> 00:03:43,846
+I slept.
 
 59
-00:03:11,607 --> 00:03:13,997
-And he had no enemies either.
+00:03:43,866 --> 00:03:49,084
+That is the thing I cannot explain to
+anybody who has not been through it.
 
 60
-00:03:14,017 --> 00:03:15,663
-He had nobody at all.
+00:03:49,104 --> 00:03:49,884
+I slept.
 
 61
-00:03:16,263 --> 00:03:19,152
-He woke up feeling strangely rested.
+00:03:50,484 --> 00:03:56,046
+The next morning I walked into the
+kitchen, and Edwin dropped his cup.
 
 62
-00:03:19,172 --> 00:03:25,517
-Work started at half past eight, and Jack
-was never late in his life.
+00:03:56,066 --> 00:04:00,992
+It hit the floor and broke and he did not
+even look at it.
 
 63
-00:03:25,537 --> 00:03:27,918
-He parked at ten past eight.
+00:04:01,012 --> 00:04:03,042
+He was looking at my face.
 
 64
-00:03:27,938 --> 00:03:30,289
-Normally he would walk straight in.
+00:04:03,062 --> 00:04:05,909
+"Mitch. Do not touch it. Just stand
+there."
 
 65
-00:03:30,309 --> 00:03:34,214
-Today he sat in the car and watched the
-clock.
+00:04:05,929 --> 00:04:12,109
+He took the little mirror off the shelf by
+the door and held it up in front of me.
 
 66
-00:03:34,234 --> 00:03:36,404
-In the night he had been afraid.
+00:04:12,129 --> 00:04:14,844
+There was a long cut down my left cheek.
 
 67
-00:03:36,424 --> 00:03:39,453
-In the morning he was only curious.
+00:04:14,864 --> 00:04:21,675
+Clean, straight, and nothing like a
+scratch from a nail or a corner of a box.
 
 68
-00:03:39,473 --> 00:03:43,114
-He thought about it the way a careful man
-thinks.
+00:04:21,695 --> 00:04:23,252
+I had not felt it.
 
 69
-00:03:43,134 --> 00:03:45,585
-Moving a plant is not wrong.
+00:04:23,272 --> 00:04:27,882
+I had slept through the whole night and I
+had not felt a thing.
 
 70
-00:03:45,605 --> 00:03:47,508
-It is not against the law.
+00:04:27,902 --> 00:04:31,817
+Edwin drove me to the hospital with both
+hands
 
 71
-00:03:47,528 --> 00:03:51,693
-Nobody gets hurt when a plant moves three
-inches.
+00:04:31,837 --> 00:04:35,003
+tight on the wheel and the radio off.
 
 72
-00:03:51,713 --> 00:03:56,090
-So the most sensible thing, he decided,
-was to do it.
+00:04:35,603 --> 00:04:40,381
+The doctor cleaned the cut and asked me
+the questions they ask.
 
 73
-00:03:56,110 --> 00:04:01,496
-Nothing would happen, and then he could
-forget the whole stupid business.
+00:04:40,401 --> 00:04:43,744
+"Do you drink before bed? Do you take
+anything to sleep?
 
 74
-00:04:01,516 --> 00:04:05,783
-At sixteen minutes past eight he got out
-of the car.
+00:04:43,764 --> 00:04:47,437
+Has anyone in your family ever walked in
+their sleep?"
 
 75
-00:04:05,803 --> 00:04:12,142
-He walked into the lobby at exactly the
-right minute, and the lobby was empty.
+00:04:47,457 --> 00:04:51,885
+I said no to all of it, and he wrote it
+down anyway.
 
 76
-00:04:12,162 --> 00:04:14,571
-That was the first strange thing.
+00:04:51,905 --> 00:04:55,697
+"The most likely answer is that you did
+this to yourself while
 
 77
-00:04:14,591 --> 00:04:19,294
-At that time of the morning the ground
-floor was always full.
+00:04:55,717 --> 00:04:59,345
+you were asleep. It happens more than
+people think."
 
 78
-00:04:19,314 --> 00:04:22,988
-People, coats, coffee, the ping of the
-lifts.
+00:04:59,365 --> 00:05:01,345
+I was ready to believe him.
 
 79
-00:04:23,008 --> 00:04:24,670
-Today, nobody.
+00:05:01,365 --> 00:05:03,197
+I wanted to believe him.
 
 80
-00:04:24,690 --> 00:04:28,045
-The quiet had been predicted, to the
-minute.
+00:05:03,217 --> 00:05:07,274
+A sleepwalking man is a problem you can
+fix.
 
 81
-00:04:28,065 --> 00:04:28,944
-"Fine,"
+00:05:07,294 --> 00:05:10,978
+Then he stopped writing, and his face
+changed,
 
 82
-00:04:28,964 --> 00:04:30,845
-he said under his breath.
+00:05:10,998 --> 00:05:15,132
+and he asked me to lie back and lift my
+shirt.
 
 83
-00:04:30,865 --> 00:04:32,796
-"Let us see what happens."
+00:05:15,152 --> 00:05:18,657
+He did not say anything for a long moment.
 
 84
-00:04:32,816 --> 00:04:36,507
-The plant stood between the two lift
-doors,
+00:05:18,677 --> 00:05:21,944
+"Mitch. There is a surgical cut in your
+side, and it
 
 85
-00:04:36,527 --> 00:04:40,086
-a big dark green thing in a heavy pot.
+00:05:21,964 --> 00:05:25,429
+has been closed again with stitches. Neat
+ones."
 
 86
-00:04:40,106 --> 00:04:41,371
-It looked fake.
+00:05:25,449 --> 00:05:30,517
+He turned the screen of the scanner round
+so that I could see it myself.
 
 87
-00:04:41,391 --> 00:04:45,020
-It was the kind of thing a thousand people
-walk
+00:05:30,537 --> 00:05:34,035
+I am not a doctor and even I could see
+that there
 
 88
-00:04:45,040 --> 00:04:48,421
-past every day without ever seeing it.
+00:05:34,055 --> 00:05:37,715
+was a space where something should have
+been.
 
 89
-00:04:48,441 --> 00:04:50,825
-It was heavier than he expected.
+00:05:37,735 --> 00:05:40,715
+"You have lost your left kidney. Some time
+last
 
 90
-00:04:50,845 --> 00:04:52,534
-He had to lean into it.
+00:05:40,735 --> 00:05:43,655
+night. I am sorry. We do not know how."
 
 91
-00:04:52,554 --> 00:04:56,417
-The pot scraped across the floor, and he
-pulled it
+00:05:43,675 --> 00:05:47,005
+I remember the sound of the clock on that
+wall.
 
 92
-00:04:56,436 --> 00:05:00,749
-out about three inches, as well as he
-could judge.
+00:05:47,025 --> 00:05:50,518
+I remember a trolley going past the door.
 
 93
-00:05:00,769 --> 00:05:02,093
-He stepped back.
+00:05:50,538 --> 00:05:56,719
+I remember the word last night, sitting in
+the middle of the room like a stone.
 
 94
-00:05:02,113 --> 00:05:03,429
-He looked at it.
+00:05:56,739 --> 00:06:01,372
+Somebody had opened me up while I slept,
+taken a piece of me
 
 95
-00:05:03,449 --> 00:05:05,567
-Then he looked around the lobby.
+00:06:01,392 --> 00:06:06,398
+out, closed me again, and gone back out
+through the window.
 
 96
-00:05:05,587 --> 00:05:08,193
-People were coming in behind him now.
+00:06:06,418 --> 00:06:12,654
+This story is my own retelling of the
+creepypasta Eyeless
 
 97
-00:05:08,213 --> 00:05:13,597
-The doors were turning, voices were back,
-the floor was filling up.
+00:06:12,674 --> 00:06:17,722
+Jack, first posted by a user called
+Azelf5000.
 
 98
-00:05:13,617 --> 00:05:15,695
-Nobody looked at the plant.
+00:06:18,322 --> 00:06:22,234
+They kept me in for the day and sent me
+home with
 
 99
-00:05:15,715 --> 00:05:18,446
-Nobody noticed anything at all.
+00:06:22,254 --> 00:06:26,616
+painkillers and a sheet of paper about
+infection.
 
 100
-00:05:18,466 --> 00:05:21,040
-Jack let one lift go without him.
+00:06:26,636 --> 00:06:31,765
+Edwin wanted me to sleep on the couch,
+downstairs, near him.
 
 101
-00:05:21,060 --> 00:05:24,028
-He waited, for something, for anything.
+00:06:31,785 --> 00:06:35,181
+I said I would be fine in the back room.
 
 102
-00:05:24,048 --> 00:05:25,365
-Nothing happened.
+00:06:35,201 --> 00:06:37,022
+I was not being brave.
 
 103
-00:05:25,385 --> 00:05:29,696
-So he took the next lift up to the seventh
-floor
+00:06:37,042 --> 00:06:38,998
+I think I wanted to know.
 
 104
-00:05:29,716 --> 00:05:34,477
-and sat down in his cubicle, on time, as
-always.
+00:06:39,018 --> 00:06:43,747
+I lay in that bed with the lamp off and
+the painkillers
 
 105
-00:05:34,497 --> 00:05:38,500
-If you asked the people in that office
-about Jack,
+00:06:43,767 --> 00:06:48,687
+moving in my blood, and at some point I
+fell asleep.
 
 106
-00:05:38,520 --> 00:05:42,260
-they would say polite, quiet, hard
-working.
+00:06:48,707 --> 00:06:53,274
+Around midnight I opened my eyes, and it
+was there.
 
 107
-00:05:42,280 --> 00:05:44,651
-All true, and all useless.
+00:06:53,294 --> 00:06:57,969
+It was standing over my bed, bent forward
+at the waist, close
 
 108
-00:05:44,671 --> 00:05:48,876
-The truth was that Jack did not really
-like people.
+00:06:57,989 --> 00:07:02,652
+enough that I could feel the air move when
+it breathed.
 
 109
-00:05:48,896 --> 00:05:51,409
-Not hate, nothing so strong.
+00:07:02,672 --> 00:07:05,197
+A black hooded top, the hood up.
 
 110
-00:05:51,429 --> 00:05:54,056
-He simply had no interest in them.
+00:07:05,217 --> 00:07:11,950
+A face the colour of old grey paint, with
+no nose and no mouth at all.
 
 111
-00:05:54,076 --> 00:05:55,443
-Except one.
+00:07:11,970 --> 00:07:15,650
+And where the eyes should have been there
+were two black
 
 112
-00:05:55,463 --> 00:05:57,781
-Allie sat two cubicles down.
+00:07:15,670 --> 00:07:19,469
+holes that went back further than a face
+should go.
 
 113
-00:05:57,801 --> 00:06:02,577
-Big smile, loud laugh, always talking
-about her weekend.
+00:07:19,489 --> 00:07:24,264
+Something dark was running slowly out of
+both of them, down what
 
 114
-00:06:02,597 --> 00:06:07,117
-Every morning Jack stopped at her desk on
-his way past.
+00:07:24,284 --> 00:07:29,060
+would have been its cheeks, and dripping
+on to my blanket.
 
 115
-00:06:07,137 --> 00:06:09,397
-The first chats were one minute.
+00:07:29,080 --> 00:07:30,608
+I did not scream.
 
 116
-00:06:09,417 --> 00:06:10,752
-Then two minutes.
+00:07:30,628 --> 00:07:35,251
+I want to be honest about that, because
+people always ask.
 
 117
-00:06:10,772 --> 00:06:15,307
-Lately they were long enough that he had
-to hurry to his chair.
+00:07:35,271 --> 00:07:37,209
+I did not make a sound.
 
 118
-00:06:15,327 --> 00:06:17,278
-He could not believe his luck.
+00:07:37,229 --> 00:07:41,211
+My hand went sideways, on its own, to the
+little
 
 119
-00:06:17,298 --> 00:06:19,084
-She seemed to like him.
+00:07:41,231 --> 00:07:44,996
+shelf by the bed where I kept my camera.
 
 120
-00:06:19,104 --> 00:06:24,454
-That morning they talked about her wild
-night out, and he laughed
+00:07:45,016 --> 00:07:48,100
+I lifted it, and I took the picture.
 
 121
-00:06:24,474 --> 00:06:30,192
-in the right places, and then the lift
-doors opened behind them.
+00:07:48,120 --> 00:07:54,053
+The flash filled that room for half a
+second, and in that half a second
 
 122
-00:06:30,212 --> 00:06:37,541
-Out came James Bentley, the boss of them
-both, limping badly, holding the wall.
+00:07:54,073 --> 00:07:59,952
+I saw all of it at once, every fold of the
+hood and every finger.
 
 123
-00:06:37,561 --> 00:06:38,692
-"My foot,"
+00:07:59,972 --> 00:08:03,649
+Then the dark came back, and it came at
+me.
 
 124
-00:06:38,712 --> 00:06:42,146
-he was saying, loud enough for the whole
-floor.
+00:08:03,669 --> 00:08:09,955
+It was fast, and it was strong, and it
+went for my chest with both hands.
 
 125
-00:06:42,166 --> 00:06:43,629
-"My damn foot."
+00:08:09,975 --> 00:08:14,605
+I got my foot up between us and I kicked
+it in the face
 
 126
-00:06:43,649 --> 00:06:48,585
-People came out of their cubicles, asking
-him what had happened.
-
-127
-00:06:48,605 --> 00:06:51,022
-"That plant. The one downstairs by the
-lift. I
-
-128
-00:06:51,042 --> 00:06:53,908
-walked straight into it and twisted my
-ankle."
-
-129
-00:06:53,928 --> 00:06:56,477
-Jack felt the floor move under him.
-
-130
-00:06:56,497 --> 00:07:00,165
-"James, you can hardly walk. You should go
-to the hospital."
-
-131
-00:07:00,185 --> 00:07:04,933
-"I have meetings all day. Too important to
-cancel. I will just have to live with it."
-
-132
-00:07:04,953 --> 00:07:08,895
-Jack walked away from Allie in the middle
-of a sentence.
-
-133
-00:07:08,915 --> 00:07:13,339
-He sat down in his chair and stared at his
-screen.
-
-134
-00:07:13,359 --> 00:07:14,735
-It was his fault.
-
-135
-00:07:14,755 --> 00:07:16,026
-He had done that.
-
-136
-00:07:16,046 --> 00:07:19,816
-He had moved a plant three inches and hurt
-a man.
-
-137
-00:07:19,836 --> 00:07:22,326
-Then he told himself to be calm.
-
-138
-00:07:22,346 --> 00:07:24,397
-A twisted ankle heals.
-
-139
-00:07:24,417 --> 00:07:27,629
-In a week it would be a joke in the
-office.
-
-140
-00:07:27,649 --> 00:07:31,273
-Nothing was broken that could not be
-fixed.
-
-141
-00:07:31,293 --> 00:07:36,419
-That evening he went straight to his
-computer and switched it on.
-
-142
-00:07:36,439 --> 00:07:41,120
-The screen went black before the desktop
-even appeared.
-
-143
-00:07:41,140 --> 00:07:43,102
-"How was your day, Jack?"
-
-144
-00:07:43,122 --> 00:07:44,812
-He did not answer.
-
-145
-00:07:44,832 --> 00:07:48,500
-"I already know how your day was. But it
-is polite to ask. You want
-
-146
-00:07:48,520 --> 00:07:51,859
-to know why James Bentley had to twist his
-ankle. This is not
-
-147
-00:07:51,879 --> 00:07:55,437
-finished yet, Jack. Go to work tomorrow,
-as you always do. Do not
-
-148
-00:07:55,457 --> 00:07:59,245
-worry about anything. You will be
-rewarded. You are special."
-
-149
-00:07:59,265 --> 00:08:02,795
-And Jack, sitting alone in the orange
-street
-
-150
-00:08:02,815 --> 00:08:06,484
-light, felt something he had not expected.
-
-151
-00:08:06,504 --> 00:08:07,634
-Not fear.
-
-152
-00:08:07,654 --> 00:08:08,586
-Curiosity.
-
-153
-00:08:09,186 --> 00:08:13,583
-The next morning the plant had been pushed
-back against the wall.
-
-154
-00:08:13,603 --> 00:08:18,156
-The cleaners had done it in the night, the
-way cleaners do.
-
-155
-00:08:18,176 --> 00:08:23,400
-James came in after lunch, hopping on one
-good foot, still
-
-156
-00:08:23,420 --> 00:08:28,914
-refusing to go to a doctor, still going to
-his meetings.
-
-157
-00:08:28,934 --> 00:08:33,934
-At three in the afternoon he came limping
-up to Allie's desk.
-
-158
-00:08:33,954 --> 00:08:36,796
-"Allie, you are not busy right now, are
-you?"
-
-159
-00:08:36,816 --> 00:08:39,196
-"Nothing that cannot wait until tomorrow."
-
-160
-00:08:39,216 --> 00:08:42,434
-"Could you drive me to my doctor? I should
-have gone yesterday.
-
-161
-00:08:42,454 --> 00:08:45,453
-I can barely press the pedal. We can take
-my car."
-
-162
-00:08:45,473 --> 00:08:47,800
-"Of course. No problem at all."
-
-163
-00:08:47,820 --> 00:08:49,350
-She put on her coat.
-
-164
-00:08:49,370 --> 00:08:54,945
-She turned to Jack, half way down the
-aisle, and she smiled at him.
-
-165
-00:08:54,965 --> 00:08:56,959
-"See you tomorrow, Jackie."
-
-166
-00:08:56,979 --> 00:09:00,500
-That was the last thing she ever said to
-him.
-
-167
-00:09:00,520 --> 00:09:03,758
-The office felt emptier after she left.
-
-168
-00:09:03,778 --> 00:09:07,452
-Jack went back to his screen and tried to
-work.
-
-169
-00:09:07,472 --> 00:09:10,238
-Ten minutes later they all heard it.
-
-170
-00:09:10,258 --> 00:09:12,936
-A truck horn, long and flat.
-
-171
-00:09:12,956 --> 00:09:14,114
-Then brakes.
-
-172
-00:09:14,134 --> 00:09:17,544
-Then a sound like a wall falling over.
-
-173
-00:09:17,564 --> 00:09:22,179
-The whole floor stood up at once and ran
-to the windows.
-
-174
-00:09:22,199 --> 00:09:29,132
-Seven floors down, at the junction, a
-lorry had stopped across both lanes.
-
-175
-00:09:29,152 --> 00:09:34,042
-In front of it there was a car that no
-longer looked like a car.
-
-176
-00:09:34,062 --> 00:09:37,607
-Somebody asked whether that was James'
-car.
-
-177
-00:09:37,627 --> 00:09:41,220
-Somebody else said it was too smashed to
-tell.
-
-178
-00:09:41,240 --> 00:09:42,345
-Jack knew.
-
-179
-00:09:42,365 --> 00:09:45,702
-He knew before anyone said another word.
-
-180
-00:09:45,722 --> 00:09:46,766
-He ran.
-
-181
-00:09:46,786 --> 00:09:49,944
-He did not wait for the lift to come back.
-
-182
-00:09:49,964 --> 00:09:55,005
-He pushed in with four other people and
-watched the numbers fall.
-
-183
-00:09:55,025 --> 00:09:59,946
-On the street there was broken glass
-across the road, and
-
-184
-00:09:59,966 --> 00:10:04,713
-a crowd already standing in a wide ring,
-the way crowds
-
-185
-00:10:04,733 --> 00:10:09,671
-do, close enough to see and far enough to
-feel safe.
-
-186
-00:10:09,691 --> 00:10:13,423
-He could hear sirens somewhere behind the
-buildings.
-
-187
-00:10:13,443 --> 00:10:17,107
-The lorry had hit the car on the driver's
-side.
-
-188
-00:10:17,127 --> 00:10:20,871
-The driver's side was where Allie had been
-sitting.
-
-189
-00:10:20,891 --> 00:10:24,986
-I am not going to describe what the people
-in that crowd saw.
-
-190
-00:10:25,006 --> 00:10:28,999
-Allie died there, in the street, ten
-minutes after
-
-191
-00:10:29,019 --> 00:10:32,659
-she smiled at him and called him Jackie.
-
-192
-00:10:32,679 --> 00:10:33,926
-James lived.
-
-193
-00:10:33,946 --> 00:10:38,465
-He was carried away in an ambulance, deep
-in a coma,
-
-194
-00:10:38,485 --> 00:10:42,668
-and the doctors would not promise
+00:08:14,625 --> 00:08:19,198
+as hard as a man with stitches can kick
 anything.
 
-195
-00:10:42,688 --> 00:10:45,236
-Jack did not go back into the building.
+127
+00:08:19,218 --> 00:08:25,172
+It went backwards into the boxes and I was
+out of that bed and through the door.
 
-196
-00:10:45,256 --> 00:10:50,502
-He walked to his car with his hands
-shaking and he drove home.
+128
+00:08:25,772 --> 00:08:28,732
+I grabbed my wallet off the hall table.
 
-197
-00:10:50,522 --> 00:10:56,359
-He stood in front of his computer for a
-long time without turning it on.
+129
+00:08:28,752 --> 00:08:30,264
+I do not know why.
 
-198
-00:10:56,379 --> 00:10:58,649
-He was afraid of what it would say.
+130
+00:08:30,284 --> 00:08:32,169
+You do strange things.
 
-199
-00:10:58,669 --> 00:11:02,494
-He was more afraid that it would say
-nothing at all.
+131
+00:08:32,189 --> 00:08:36,900
+I went out of the front door in bare feet
+and I ran down
 
-200
-00:11:02,514 --> 00:11:04,408
-Then he pressed the button.
+132
+00:08:36,920 --> 00:08:41,827
+that long street with the porch lights
+going past me.
 
-201
-00:11:04,428 --> 00:11:07,932
-"No Jack. It is not your fault. I know you
-are blaming yourself.
+133
+00:08:41,847 --> 00:08:43,793
+I did not shout for Edwin.
 
-202
-00:11:07,952 --> 00:11:11,850
-But everyone dies. Some of them simply die
-sooner than others."
+134
+00:08:43,813 --> 00:08:45,668
+I did not go back for him.
 
-203
-00:11:11,870 --> 00:11:14,982
-He wanted to throw the screen on the
+135
+00:08:45,688 --> 00:08:48,514
+I have had a long time to think about
+that.
+
+136
+00:08:48,534 --> 00:08:52,135
+At the end of the street I went over the
+fence
+
+137
+00:08:52,155 --> 00:08:55,892
+and into the pine woods behind the houses.
+
+138
+00:08:55,912 --> 00:08:58,558
+There was no moon under those trees.
+
+139
+00:08:58,578 --> 00:09:03,981
+There was no path either, and I was
+running on roots and stones.
+
+140
+00:09:04,001 --> 00:09:07,966
+I remember the cold, and my own breath,
+and the
+
+141
+00:09:07,986 --> 00:09:12,147
+stitches in my side pulling with every
+step.
+
+142
+00:09:12,167 --> 00:09:18,681
+I remember looking back once and seeing
+nothing at all, which was somehow worse.
+
+143
+00:09:18,701 --> 00:09:22,585
+Then my foot caught a rock and the ground
+came up
+
+144
+00:09:22,605 --> 00:09:26,429
+and hit me, and the woods went out like a
+light.
+
+145
+00:09:27,029 --> 00:09:34,011
+I woke up in a hospital bed with a drip in
+my arm and daylight on the wall.
+
+146
+00:09:34,031 --> 00:09:35,734
+It was the same doctor.
+
+147
+00:09:35,754 --> 00:09:39,785
+He came in with my notes under his arm and
+he sat
+
+148
+00:09:39,805 --> 00:09:44,038
+down, which nobody does when the news is
+good.
+
+149
+00:09:44,058 --> 00:09:47,284
+"There is good news and bad news, Mitch."
+
+150
+00:09:47,304 --> 00:09:51,023
+"The good news is that you were lucky.
+Cuts, bruises, a mild
+
+151
+00:09:51,043 --> 00:09:55,088
+concussion. Your parents are on their way
+to collect you."
+
+152
+00:09:55,108 --> 00:09:59,784
+I let out a breath I think I had been
+holding since midnight.
+
+153
+00:09:59,804 --> 00:10:03,263
+"The bad news is that your brother was
+found in the house
+
+154
+00:10:03,283 --> 00:10:06,520
+this morning. He was killed. I am very
+sorry."
+
+155
+00:10:06,540 --> 00:10:07,928
+"Killed by what?"
+
+156
+00:10:07,948 --> 00:10:12,137
+He looked at the floor, and then he looked
+at me, and he
+
+157
+00:10:12,157 --> 00:10:16,420
+told me the truth, which was that nobody
+could say.
+
+158
+00:10:16,440 --> 00:10:20,408
+I had kicked it in the face and run out of
+the house,
+
+159
+00:10:20,428 --> 00:10:24,169
+and it had not followed me into those
+woods.
+
+160
+00:10:24,189 --> 00:10:25,871
+It had not needed to.
+
+161
+00:10:25,891 --> 00:10:28,568
+There was already somebody in that house.
+
+162
+00:10:29,168 --> 00:10:34,197
+Three days later my parents drove me back
+to get my things.
+
+163
+00:10:34,217 --> 00:10:36,105
+They waited in the car.
+
+164
+00:10:36,125 --> 00:10:39,689
+My mother did not want to go in and my
+father did
+
+165
+00:10:39,709 --> 00:10:43,284
+not want to leave her out there on her
+own.
+
+166
+00:10:43,304 --> 00:10:47,210
+The porch light was still on in the middle
+of the day.
+
+167
+00:10:47,230 --> 00:10:49,337
+Edwin always forgot it.
+
+168
+00:10:49,357 --> 00:10:54,100
+I went up the stairs to the back room and
+I made myself calm,
+
+169
+00:10:54,120 --> 00:10:59,314
+the way you do when you have practised
+being calm in the car.
+
+170
+00:10:59,334 --> 00:11:04,038
+My camera was still on the shelf where my
+hand had left it.
+
+171
+00:11:04,058 --> 00:11:06,125
+I put it in my pocket.
+
+172
+00:11:06,145 --> 00:11:10,437
+And then I stopped, because I could see
+along the hallway
+
+173
+00:11:10,457 --> 00:11:14,065
+from there, and the hallway was not empty.
+
+174
+00:11:14,085 --> 00:11:20,336
+I am not going to describe what the police
+had already photographed in that house.
+
+175
+00:11:20,356 --> 00:11:25,852
+My brother was at the far end of it, and
+that is all I will say.
+
+176
+00:11:25,872 --> 00:11:28,962
+There was something small lying on the
+floor
+
+177
+00:11:28,982 --> 00:11:32,240
+beside him, wrapped in a piece of cloth.
+
+178
+00:11:32,260 --> 00:11:35,725
+I picked it up without thinking, the way
+you pick
+
+179
+00:11:35,745 --> 00:11:39,304
+up anything that does not belong on a
 floor.
 
-204
-00:11:15,002 --> 00:11:18,511
-He held on to the edge of the desk
-instead.
-
-205
-00:11:18,531 --> 00:11:22,564
-"Jack, I am going to tell you something,
-and I want you to think about it properly.
-
-206
-00:11:22,584 --> 00:11:26,031
-You believed you were in love with Allie.
-You were not. You wanted her.
-
-207
-00:11:26,051 --> 00:11:30,094
-That is a different thing, and please
-excuse me for saying it so plainly."
-
-208
-00:11:30,114 --> 00:11:33,389
-"She was not the one for you. She would
-have made your life small and
-
-209
-00:11:33,409 --> 00:11:36,684
-bitter. Yes, you would have found the
-courage one day. She would have
-
-210
-00:11:36,704 --> 00:11:40,286
-said yes. She thought you would be an
-interesting little project."
-
-211
-00:11:40,306 --> 00:11:42,489
-"Think about the things she told you
-herself.
-
-212
-00:11:42,509 --> 00:11:44,800
-Why did her last boyfriend leave her?"
-
-213
-00:11:44,820 --> 00:11:50,849
-Jack answered out loud, to an empty room,
-in a very quiet voice.
-
-214
-00:11:50,869 --> 00:11:52,635
-"Because she cheated on him."
-
-215
-00:11:52,655 --> 00:11:56,502
-"Because she cheated on him, Jack. And she
-would have done the same to you. Two
-
-216
-00:11:56,522 --> 00:12:00,466
-happy months. Four miserable years. Your
-money, your evenings, your name in other
-
-217
-00:12:00,486 --> 00:12:04,636
-people's jokes. And when it finally ended
-you would never have tried again."
-
-218
-00:12:04,656 --> 00:12:08,082
-"This is true. I see every possibility,
-the ones that happen and
-
-219
-00:12:08,102 --> 00:12:11,529
-the ones that do not. You saw what she
-was, and you chose not to
-
-220
-00:12:11,549 --> 00:12:15,210
-look. Together, you and I, we have taken
-you off that road."
-
-221
-00:12:15,230 --> 00:12:18,229
-"One more thing, Jack. This is still not
-finished."
-
-222
-00:12:18,249 --> 00:12:20,203
-Jack screamed at the screen.
-
-223
-00:12:20,223 --> 00:12:24,499
-He picked up the monitor with both hands
-and threw it
-
-224
-00:12:24,519 --> 00:12:28,572
-on the floor, where it sparked once and
-went dark.
-
-225
-00:12:29,172 --> 00:12:30,561
-He hardly slept.
-
-226
-00:12:30,581 --> 00:12:36,225
-In the morning he did not want to go to
-work, but the last words on that
-
-227
-00:12:36,245 --> 00:12:41,788
-screen had hooked him, and his anger had
-already started to cool.
-
-228
-00:12:41,808 --> 00:12:43,640
-Nobody worked that day.
-
-229
-00:12:43,660 --> 00:12:46,270
-The company brought in counsellors.
-
-230
-00:12:46,290 --> 00:12:50,541
-People sat in meeting rooms and cried and
-hugged each
-
-231
-00:12:50,561 --> 00:12:54,859
-other, and Jack sat among them and said
-nothing.
-
-232
-00:12:54,879 --> 00:13:02,127
-In the afternoon Diego Salbara, the head
-of the division, came and found him.
-
-233
-00:13:02,147 --> 00:13:04,293
-Diego was a direct man.
-
-234
-00:13:04,313 --> 00:13:06,550
-He did not soften anything.
-
-235
-00:13:06,570 --> 00:13:11,267
-"I am offering you James' position.
-Temporary, officially. But James will
-
-236
-00:13:11,287 --> 00:13:16,175
-not be back soon, and when enough time has
-passed, it becomes yours."
-
-237
-00:13:16,195 --> 00:13:17,840
-Jack stared at him.
-
-238
-00:13:17,860 --> 00:13:21,731
-"Keep it quiet for now. I know how it
-looks, two days after.
-
-239
-00:13:21,751 --> 00:13:25,687
-But the Lancaster project cannot stop. It
-is too big for this
-
-240
-00:13:25,707 --> 00:13:29,833
-company to lose. I need somebody in that
-chair tomorrow."
-
-241
-00:13:29,853 --> 00:13:31,230
-Jack said yes.
-
-242
-00:13:31,250 --> 00:13:33,822
-He did not even decide to say it.
-
-243
-00:13:33,842 --> 00:13:35,527
-It simply came out.
-
-244
-00:13:35,547 --> 00:13:41,393
-On the way home he stopped at an
-electronics shop under cold white lights
-
-245
-00:13:41,413 --> 00:13:47,549
-and bought a new monitor, and he carried
-it up three flights of stairs.
-
-246
-00:13:47,569 --> 00:13:49,048
-He plugged it in.
-
-247
-00:13:49,068 --> 00:13:50,352
-He sat down.
-
-248
-00:13:50,372 --> 00:13:53,304
-The red letters were already waiting.
-
-249
-00:13:53,324 --> 00:13:55,613
-"Jack. I want to be the first to
-congratulate
-
-250
-00:13:55,633 --> 00:13:58,064
-you. I am proud of what you have done."
-
-251
-00:13:58,084 --> 00:14:02,944
-He put his hands flat on the desk and made
-himself breathe.
-
-252
-00:14:02,964 --> 00:14:06,702
-"Forgive me, I have not introduced myself.
-I am called the Seer. I
-
-253
-00:14:06,722 --> 00:14:10,910
-see what will be, and I see what could be.
-It is a powerful gift."
-
-254
-00:14:10,930 --> 00:14:14,369
-"But for all of it, I can touch nothing. I
-can predict. I can
-
-255
-00:14:14,389 --> 00:14:17,602
-watch. With great effort, I can speak.
-What I do not have
-
-256
-00:14:17,622 --> 00:14:21,228
-is a body. That was taken from me a very
-long time ago."
-
-257
-00:14:21,248 --> 00:14:24,451
-"That is why I need you. I am an artist.
-My art is people.
-
-258
-00:14:24,471 --> 00:14:27,291
-You will be my brush, Jack, and my
-canvas."
-
-259
-00:14:27,311 --> 00:14:32,807
-And Jack, who had no friends and no
-enemies and nobody at all,
-
-260
-00:14:32,827 --> 00:14:38,596
-read that word, needed, and felt it go
-into him like a hook.
-
-261
-00:14:38,616 --> 00:14:42,900
-"Before you answer, two things. First, I
-will never lie to you. Second, I will
-
-262
-00:14:42,920 --> 00:14:47,379
-never ask you to do anything that is wrong
-or against the law by itself."
-
-263
-00:14:47,399 --> 00:14:51,570
-"Bad things will come of it. People will
-die. But they were going to die anyway,
-
-264
-00:14:51,590 --> 00:14:56,210
-were they not? And every bad thing will be
-balanced by something good, for you."
-
-265
-00:14:56,230 --> 00:14:57,785
-He thought about that.
-
-266
-00:14:57,805 --> 00:15:01,437
-He hated it, and it still sounded
-reasonable,
-
-267
-00:15:01,457 --> 00:15:04,646
-and that was the frightening part.
-
-268
-00:15:04,666 --> 00:15:06,919
-The Seer had not lied to him.
-
-269
-00:15:06,939 --> 00:15:09,906
-It had simply not told him everything.
-
-270
-00:15:09,926 --> 00:15:13,462
-He noticed the difference, and he let it
-pass.
-
-271
-00:15:13,482 --> 00:15:17,127
-"Work with me, Jack. Small tasks, from
-time to time. Little things
-
-272
-00:15:17,147 --> 00:15:20,626
-with enormous results. That is my art. One
-small act, something
-
-273
-00:15:20,646 --> 00:15:23,964
-bad and something good, and both of them
-beautiful."
-
-274
-00:15:23,984 --> 00:15:27,604
-"One last thing, because I can see you
-struggling. If I stopped speaking
-
-275
-00:15:27,624 --> 00:15:31,092
-to you now, it would take you about two
-weeks to come back and agree.
-
-276
-00:15:31,112 --> 00:15:34,778
-But you would come back. You are going to
-say yes. So why wait?"
-
-277
-00:15:34,798 --> 00:15:37,291
-"Let us begin. And when all of this is
-over, you
-
-278
-00:15:37,311 --> 00:15:39,992
-are going to thank me. I promise you
-that."
-
-279
-00:15:40,012 --> 00:15:43,261
-Jack sat in the glow of the new monitor.
-
-280
-00:15:43,281 --> 00:15:49,535
-Then, for the first time, he put his
-fingers on the keys and typed an answer.
-
-281
-00:15:49,555 --> 00:15:50,968
-"What do you want me to do next?"
-
-282
-00:15:51,568 --> 00:15:56,172
-After that, Jack did every favour he was
-asked to do.
-
-283
-00:15:56,192 --> 00:15:58,933
-One a month, more or less, for years.
-
-284
-00:15:58,953 --> 00:16:05,879
-The tasks were always small, always
-strange, and never once against the law.
-
-285
-00:16:05,899 --> 00:16:09,311
-Stand on a certain corner at a certain
-minute.
-
-286
-00:16:09,331 --> 00:16:13,325
-Post a letter on a Thursday instead of a
-Wednesday.
-
-287
-00:16:13,345 --> 00:16:16,823
-Let a stranger go in front of you at a
-till.
-
-288
-00:16:16,843 --> 00:16:20,519
-And every time, the Seer kept its promise.
-
-289
-00:16:20,539 --> 00:16:25,984
-Something good came back to Jack, in ways
-he could never have guessed.
-
-290
-00:16:26,004 --> 00:16:31,548
-About two years in, there was one he
-remembered for the rest of his life.
-
-291
-00:16:31,568 --> 00:16:36,063
-"Go into town tomorrow. Enter Garmin's off
-licence at twelve thirty seven
-
-292
-00:16:36,083 --> 00:16:40,780
-exactly. A man will ask you a question.
-Your answer is twenty seven."
-
-293
-00:16:40,800 --> 00:16:45,123
-The next day Jack walked in at exactly
-that minute.
-
-294
-00:16:45,143 --> 00:16:49,386
-At the counter there was a big man in work
-clothes,
-
-295
-00:16:49,406 --> 00:16:53,848
-filling in a lottery slip with a stub of
-pencil.
-
-296
-00:16:53,868 --> 00:16:56,645
-"My birthday, that is the fifteenth.
-Wife's birthday,
-
-297
-00:16:56,665 --> 00:16:59,787
-the twenty fourth. Kids are two, ten and
-thirteen."
-
-298
-00:16:59,807 --> 00:17:06,381
-He scratched his head and looked round the
-shop, and his eyes landed on Jack.
-
-299
-00:17:06,401 --> 00:17:09,583
-"Hey, mate. I need one more number. Got
-one for me?"
-
-300
-00:17:09,603 --> 00:17:11,017
-Jack smiled.
-
-301
-00:17:11,037 --> 00:17:12,322
-"Twenty seven."
-
-302
-00:17:12,342 --> 00:17:15,161
-"Twenty seven? I was going to put thirty
-five. But you
-
-303
-00:17:15,181 --> 00:17:18,188
-know what, I like your face. Twenty seven
-it is."
-
-304
-00:17:18,208 --> 00:17:24,528
-He paid for his ticket, patted Jack on the
-shoulder, and walked out whistling.
-
-305
-00:17:24,548 --> 00:17:29,257
-Jack tried not to think about what he had
-just done to that man.
-
-306
-00:17:29,277 --> 00:17:33,563
-Two weeks later he met him again, in a
-supermarket,
-
-307
-00:17:33,583 --> 00:17:37,324
-and the man looked like a million pounds.
-
-308
-00:17:37,344 --> 00:17:44,049
-New coat, new boots, a gold watch, and a
-smile that took up half his face.
-
-309
-00:17:44,069 --> 00:17:48,381
-"It is you! I won, mate. I won. I would
-never have won without you."
-
-310
-00:17:48,401 --> 00:17:50,650
-He tried to pay for Jack's shopping.
-
-311
-00:17:50,670 --> 00:17:56,279
-Then he decided shopping was not enough,
-took out a chequebook, leaned
-
-312
-00:17:56,299 --> 00:18:01,955
-it on a freezer, and wrote Jack a cheque
-for ten thousand pounds.
-
-313
-00:18:01,975 --> 00:18:06,014
-"For my lucky charm. My mum always said,
-treat people right."
-
-314
-00:18:06,034 --> 00:18:12,185
-Jack drove home with that cheque on the
-passenger seat, and he felt something new.
-
-315
-00:18:12,205 --> 00:18:13,641
-He felt good.
-
-316
-00:18:13,661 --> 00:18:16,772
-"We have never helped anybody before. Why
-now?"
-
-317
-00:18:16,792 --> 00:18:18,946
-"Oh Jack. We have not helped him."
-
-318
-00:18:18,966 --> 00:18:22,643
-"That man will lose every penny inside two
-years. You saw him. He
-
-319
-00:18:22,663 --> 00:18:26,511
-gives money away. Old friends will come
-back. Relatives he has never
-
-320
-00:18:26,531 --> 00:18:30,317
-met will find him. There will be two very
-bad investments."
-
-321
-00:18:30,337 --> 00:18:34,365
-"The money will go, and the fear of losing
-it will finish his marriage. His wife
-
-322
-00:18:34,385 --> 00:18:38,059
-will take the children. He will end up
-alone and poor and smaller than he
-
-323
-00:18:38,079 --> 00:18:42,254
-started, and he would have been happier if
-he had never held that ticket."
-
-324
-00:18:42,274 --> 00:18:46,429
-"You need not feel bad. It is his own
-greed that will do it, not you."
-
-325
-00:18:46,449 --> 00:18:49,020
-And that was how it always went.
-
-326
-00:18:49,040 --> 00:18:55,505
-The Seer explained, and the explanation
-always made room for Jack, and Jack
-
-327
-00:18:55,525 --> 00:19:01,923
-always had something in his hand to make
-the explanation easier to accept.
-
-328
-00:19:02,523 --> 00:19:05,345
-The tasks never repeated themselves.
-
-329
-00:19:05,365 --> 00:19:08,770
-Sometimes the result was easy to see.
-
-330
-00:19:08,790 --> 00:19:14,549
-Sometimes it was so tangled that Jack
-could not follow it at all.
-
-331
-00:19:14,569 --> 00:19:19,590
-"Go to the county offices. Park in space
-forty three, at seven minutes to five."
-
-332
-00:19:19,610 --> 00:19:21,829
-He did it, and nothing happened.
-
-333
-00:19:21,849 --> 00:19:25,491
-Two months later he met a woman called
-Donna,
-
-334
-00:19:25,511 --> 00:19:29,603
-and sixteen months after that he married
-her.
-
-335
-00:19:29,623 --> 00:19:33,590
-He would never have connected the two if
-he had not asked.
-
-336
-00:19:33,610 --> 00:19:37,130
-"When you parked in that space, Jack, the
-woman who would have parked
-
-337
-00:19:37,150 --> 00:19:40,106
-there had to use another one. She
-scratched the car beside
-
-338
-00:19:40,126 --> 00:19:43,685
-her. Barely a mark, but she called her
-insurance man anyway."
-
-339
-00:19:43,705 --> 00:19:47,633
-"He left his office eleven minutes late.
-He missed his train. While he waited
-
-340
-00:19:47,653 --> 00:19:51,774
-for the next one he was robbed, and he
-will never be quite right again."
-
-341
-00:19:51,794 --> 00:19:55,808
-"The men who robbed him took his cards and
-used them, and I could go on, Jack,
-
-342
-00:19:55,828 --> 00:19:59,427
-but there are another twenty three people
-in this chain. Let us simply
-
-343
-00:19:59,447 --> 00:20:03,549
-say that your small action put Donna
-exactly where you would find her."
-
-344
-00:20:03,569 --> 00:20:08,555
-Jack read that, and he thought about the
-man on the platform,
-
-345
-00:20:08,575 --> 00:20:13,150
-and then he looked across the room at his
-wife asleep on
-
-346
-00:20:13,170 --> 00:20:18,195
-the sofa, and he decided not to think
-about it any more.
-
-347
-00:20:18,215 --> 00:20:22,711
-That is the part people never understand
-about Jack.
-
-348
-00:20:22,731 --> 00:20:24,405
-He was not a monster.
-
-349
-00:20:24,425 --> 00:20:28,426
-He was a quiet man who had been lonely for
-thirty
-
-350
-00:20:28,446 --> 00:20:31,995
-one years and was not lonely any more.
-
-351
-00:20:32,015 --> 00:20:36,216
-Over the years the Seer told him a little
-about
-
-352
-00:20:36,236 --> 00:20:40,438
-itself, never very much, always in pieces.
-
-353
-00:20:40,458 --> 00:20:46,420
-From the things it mentioned, Jack worked
-out that it was thousands of years old.
-
-354
-00:20:46,440 --> 00:20:50,425
-When it was alive it had been a fortune
-teller and an
-
-355
-00:20:50,445 --> 00:20:54,353
-artist, and it painted what was going to
-happen.
-
-356
-00:20:54,373 --> 00:20:56,836
-Kings paid for those paintings.
-
-357
-00:20:56,856 --> 00:21:03,403
-One king read a painting badly, took his
-army out, and lost everything.
-
-358
-00:21:03,423 --> 00:21:07,765
-Angry and ashamed, he had the painter
-executed.
-
-359
-00:21:07,785 --> 00:21:10,382
-And then something went wrong with death.
-
-360
-00:21:10,402 --> 00:21:17,313
-With no body, no eyes, no hands, floating
-in a dark with nothing to look at, the
-
-361
-00:21:17,333 --> 00:21:24,260
-Seer's gift grew and grew, until it could
-see every road a life could take.
-
-362
-00:21:24,280 --> 00:21:28,959
-It took a very long time to learn how to
-speak to the living.
-
-363
-00:21:28,979 --> 00:21:33,944
-When it finally could, it reached out to
-the ones who would answer.
-
-364
-00:21:33,964 --> 00:21:35,415
-Jack answered.
-
-365
-00:21:35,435 --> 00:21:40,690
-In the end it was as close to a friendship
-as a living man can
-
-366
-00:21:40,710 --> 00:21:46,244
-have with something that died before his
-country had a name.
-
-367
-00:21:46,264 --> 00:21:48,043
-And Jack was grateful.
-
-368
-00:21:48,063 --> 00:21:53,139
-He had a good job, a big house in the
-country, a wife who laughed
-
-369
-00:21:53,159 --> 00:21:57,745
-at his jokes, and people who were pleased
-to see him.
-
-370
-00:21:57,765 --> 00:21:58,999
-He was happy.
-
-371
-00:21:59,019 --> 00:22:01,312
-He had never been happy before.
-
-372
-00:22:01,332 --> 00:22:03,636
-Twelve years passed like that.
-
-373
-00:22:03,656 --> 00:22:05,118
-Twelve good years.
-
-374
-00:22:05,138 --> 00:22:11,623
-More than a hundred favours, each one
-small, each one harmless on its own.
-
-375
-00:22:12,223 --> 00:22:15,683
-It was a Friday evening in the office of
-his
-
-376
-00:22:15,703 --> 00:22:19,454
-big house, and the red letters came again.
-
-377
-00:22:19,474 --> 00:22:22,713
-"Hello Jack. I have a favour to ask. This
-one is the easiest
-
-378
-00:22:22,733 --> 00:22:25,715
-of them all. You do not even have to stand
-up."
-
-379
-00:22:25,735 --> 00:22:28,654
-"In exactly two minutes, call Riago's
-pizza. Let
-
-380
-00:22:28,674 --> 00:22:31,921
-it ring three times. Then put the phone
-down."
-
-381
-00:22:31,941 --> 00:22:33,205
-Jack smiled.
-
-382
-00:22:33,225 --> 00:22:36,748
-After twelve years he did not wonder any
-more.
-
-383
-00:22:36,768 --> 00:22:42,181
-He waited two minutes, dialled, counted
-three rings, and hung up.
-
-384
-00:22:42,201 --> 00:22:44,905
-Half an hour later the doorbell rang.
-
-385
-00:22:44,925 --> 00:22:46,193
-That was odd.
-
-386
-00:22:46,213 --> 00:22:50,494
-Neither of them was expecting anybody out
-here,
-
-387
-00:22:50,514 --> 00:22:54,513
-at the end of a long road, in the dark.
-
-388
-00:22:54,533 --> 00:23:00,329
-Jack looked through the little glass in
-the door and saw a delivery
-
-389
-00:23:00,349 --> 00:23:05,641
-boy holding a flat box, with Riago's
-printed on his cap.
-
-390
-00:23:05,661 --> 00:23:07,308
-He opened the door.
-
-391
-00:23:07,328 --> 00:23:08,589
-"Your pizza."
-
-392
-00:23:08,609 --> 00:23:12,043
-The boy pushed the box into Jack's hands.
-
-393
-00:23:12,063 --> 00:23:13,725
-"I did not order this."
-
-394
-00:23:13,745 --> 00:23:17,210
-"I do not care whether you ordered it.
-Mister Riago told
-
-395
-00:23:17,230 --> 00:23:20,834
-me this address, so this is the address I
-came to."
-
-396
-00:23:20,854 --> 00:23:25,253
-And Jack, standing in his own doorway with
-a warm box in
-
-397
-00:23:25,273 --> 00:23:29,727
-his hands, really looked at him for the
-first time.
-
-398
-00:23:29,747 --> 00:23:32,013
-The boy was about seventeen.
-
-399
-00:23:32,033 --> 00:23:33,451
-And he was enormous.
-
-400
-00:23:33,471 --> 00:23:37,590
-Six and a half feet of him, filling the
-whole door
-
-401
-00:23:37,610 --> 00:23:41,930
-frame, with shoulders like a man twice his
-age.
-
-402
-00:23:41,950 --> 00:23:45,100
-"It is paid for. Card. I am not driving it
-back."
-
-403
-00:23:45,120 --> 00:23:47,480
-He put out his hand for a tip.
-
-404
-00:23:47,500 --> 00:23:50,222
-"I am sorry. I have no cash in the house."
-
-405
-00:23:50,242 --> 00:23:51,867
-"Of course you do not."
-
-406
-00:23:51,887 --> 00:23:54,365
-The boy did not move for a moment.
-
-407
-00:23:54,385 --> 00:23:58,946
-He looked past Jack, into the hall, at the
-warm light
-
-408
-00:23:58,966 --> 00:24:03,718
-and the big rooms and the sound of the
-television.
-
-409
-00:24:03,738 --> 00:24:07,903
-Then he turned and walked back to his car,
-slowly,
-
-410
-00:24:07,923 --> 00:24:12,454
-looking over his shoulder twice before he
-got in.
-
-411
-00:24:12,474 --> 00:24:16,616
-Jack shut the door and carried the pizza
-through to the
-
-412
-00:24:16,636 --> 00:24:20,926
-living room, where Donna was curled up on
-the sofa.
-
-413
-00:24:20,946 --> 00:24:26,937
-He told her the whole silly story, and she
-opened the box and laughed.
-
-414
-00:24:26,957 --> 00:24:29,594
-"It has got every single one of your
-toppings on
-
-415
-00:24:29,614 --> 00:24:32,479
-it. Come back quickly, before I eat it
-all."
-
-416
-00:24:32,499 --> 00:24:36,716
-He promised he would be two minutes, and
-he went upstairs
-
-417
-00:24:36,736 --> 00:24:40,436
-to the office, because he always checked
-in.
-
-418
-00:24:40,456 --> 00:24:44,990
-"Confused? Do not be. Your neighbours down
-the road ordered that pizza. Mister Riago
-
-419
-00:24:45,010 --> 00:24:49,164
-gave the boy the right address, but a
-telephone was ringing while he said it,
-
-420
-00:24:49,184 --> 00:24:53,789
-and the boy heard it wrongly. Give him
-some credit. He found the right road."
-
-421
-00:24:53,809 --> 00:24:55,819
-"So my reward is a pizza?"
-
-422
-00:24:55,839 --> 00:24:59,466
-"Your reward is a pizza, and an evening
-with your wife. Go down.
-
-423
-00:24:59,486 --> 00:25:02,599
-Share it. Enjoy it. Afterwards, hold her.
-That is not a
-
-424
-00:25:02,619 --> 00:25:06,411
-task, that is only advice, and I think you
-should take it."
-
-425
-00:25:06,431 --> 00:25:09,856
-"Your neighbours, by the way, are arguing
-about the pizza that
-
-426
-00:25:09,876 --> 00:25:13,523
-never came. People argue about the
-strangest things. Their evening
-
-427
-00:25:13,543 --> 00:25:17,140
-will get much worse than yours. Go on.
-Enjoy your night."
-
-428
-00:25:17,160 --> 00:25:18,251
-So he did.
-
-429
-00:25:18,271 --> 00:25:23,369
-They ate on the sofa with the lamp low and
-the television murmuring,
-
-430
-00:25:23,389 --> 00:25:28,334
-and they laughed, and later they fell
-asleep there together.
-
-431
-00:25:28,354 --> 00:25:34,260
-Donna went to sleep a little after eleven,
-with her head on his shoulder.
-
-432
-00:25:34,280 --> 00:25:37,488
-Jack lay in the dark with his eyes open.
-
-433
-00:25:37,508 --> 00:25:43,826
-Something about this favour was sitting
-wrong in him, and he could not say why.
-
-434
-00:25:43,846 --> 00:25:47,607
-He moved his arm out from under her very
-carefully,
-
-435
-00:25:47,627 --> 00:25:51,689
-so that she would not wake, and he went
-upstairs.
-
-436
-00:25:51,709 --> 00:25:52,953
-"Are you there?"
-
-437
-00:25:52,973 --> 00:25:56,682
-"I am always here. I have been waiting for
-you to come back up."
-
-438
-00:25:56,702 --> 00:25:59,970
-"That delivery boy. He really is quite a
-specimen, is he not?"
-
-439
-00:26:00,570 --> 00:26:02,746
-Jack read the line twice.
-
-440
-00:26:02,766 --> 00:26:06,024
-"He is a terrible employee. Three days in
-the job and
-
-441
-00:26:06,044 --> 00:26:09,425
-Mister Riago already wants rid of him. But
-as a body he
-
-442
-00:26:09,445 --> 00:26:12,967
-is magnificent. Strong, fast, and very
-observant."
-
-443
-00:26:12,987 --> 00:26:17,238
-"For example, he noticed that you did not
-lock your front door after he left."
-
-444
-00:26:17,258 --> 00:26:19,655
-Jack was already standing up.
-
-445
-00:26:19,675 --> 00:26:22,223
-"Sit down, Jack. Locking it now will
-change nothing,
-
-446
-00:26:22,243 --> 00:26:24,796
-and there is something I want you to
-hear."
-
-447
-00:26:24,816 --> 00:26:26,100
-He sat down.
-
-448
-00:26:26,120 --> 00:26:31,048
-He looked back at the dark doorway behind
-him, and he sat down.
-
-449
-00:26:31,068 --> 00:26:33,960
-"It is true that I have never lied to you.
-Everything I
-
-450
-00:26:33,980 --> 00:26:37,270
-have told you is honest. But I have kept
-things back."
-
-451
-00:26:37,290 --> 00:26:40,545
-"I told you that every task brings one bad
-thing for the world
-
-452
-00:26:40,565 --> 00:26:43,555
-and one good thing for you. There is a
-third thing, Jack.
-
-453
-00:26:43,575 --> 00:26:47,016
-Every task has also been working towards
-one single end."
-
-454
-00:26:47,036 --> 00:26:48,724
-"Do you remember Allie?"
-
-455
-00:26:48,744 --> 00:26:50,606
-Jack did not answer.
-
-456
-00:26:50,626 --> 00:26:54,574
-"Of course you do. What you never knew is
-that Allie was paying for her
-
-457
-00:26:54,594 --> 00:26:58,374
-younger brother's studies. When she died,
-he left university. He was
-
-458
-00:26:58,394 --> 00:27:02,456
-going to be a very good psychologist. He
-works in a factory now."
-
-459
-00:27:02,476 --> 00:27:06,517
-"Which is a pity for our delivery boy. He
-needed a very good psychologist
-
-460
-00:27:06,537 --> 00:27:09,749
-four years ago. Instead he was sent to a
-bad one."
-
-461
-00:27:09,769 --> 00:27:13,278
-"And our lottery winner? He lost his
-money, exactly as I said, and
-
-462
-00:27:13,298 --> 00:27:17,044
-he moved to a cheaper street. He became
-that boy's neighbour."
-
-463
-00:27:17,064 --> 00:27:21,514
-"One evening the boy ran into the road in
-front of his car, and that ruined, angry
-
-464
-00:27:21,534 --> 00:27:26,215
-man beat him in the street until people
-pulled him off. The boy was fourteen."
-
-465
-00:27:26,235 --> 00:27:29,543
-"His mother did not protect him. She could
-not. She was not really
-
-466
-00:27:29,563 --> 00:27:33,270
-there any more, because of the drugs her
-boyfriend brought home."
-
-467
-00:27:33,290 --> 00:27:37,061
-"And her boyfriend was one of the two men
-who robbed an insurance agent
-
-468
-00:27:37,081 --> 00:27:40,532
-at a railway station, twelve years ago, on
-the evening you parked
-
-469
-00:27:40,552 --> 00:27:44,239
-in space forty three. He bought those
-drugs with that money."
-
-470
-00:27:44,259 --> 00:27:46,394
-"Now. Do you see the size of it?"
-
-471
-00:27:46,414 --> 00:27:52,193
-Jack sat in his chair with his hands in
-his lap and did not move.
-
-472
-00:27:52,213 --> 00:27:55,506
-"You have done more than a hundred favours
-for me, Jack, and
-
-473
-00:27:55,526 --> 00:27:59,040
-every one of them was a brush stroke. One
-boy, broken carefully,
-
-474
-00:27:59,060 --> 00:28:02,140
-over years, by people who never met each
-other."
-
-475
-00:28:02,160 --> 00:28:05,614
-"Tens of thousands of lives were touched.
-Billions of possibilities
-
-476
-00:28:05,634 --> 00:28:08,104
-had to fall the right way. If you had
-failed one
-
-477
-00:28:08,124 --> 00:28:11,302
-single task, the whole picture would have
-collapsed."
-
-478
-00:28:11,322 --> 00:28:13,696
-"I saw it. You made it. It begins and it
-ends
-
-479
-00:28:13,716 --> 00:28:16,381
-with you, and that is what makes it mine."
-
-480
-00:28:16,401 --> 00:28:19,539
-"Tonight, the wrong address, and no tip,
-and the big house,
-
-481
-00:28:19,559 --> 00:28:22,718
-and the open door. Tonight that boy
-finally broke."
-
-482
-00:28:22,738 --> 00:28:25,348
-"He is downstairs now, Jack. He is
-standing over
-
-483
-00:28:25,368 --> 00:28:28,429
-your wife. He is doing it at this exact
-moment."
-
-484
-00:28:28,449 --> 00:28:31,367
-From the living room came a short sound.
-
-485
-00:28:31,387 --> 00:28:32,657
-Not a scream.
-
-486
-00:28:32,677 --> 00:28:36,009
-Something smaller, and then nothing at
-all.
-
-487
-00:28:36,029 --> 00:28:36,993
-"No!"
-
-488
-00:28:37,013 --> 00:28:39,191
-Jack was already out of the chair.
-
-489
-00:28:39,791 --> 00:28:41,339
-"Jack. Stop."
-
-490
-00:28:41,359 --> 00:28:46,979
-And Jack stopped, because this time the
-words were not on the screen.
-
-491
-00:28:46,999 --> 00:28:48,860
-They were inside his head.
-
-492
-00:28:48,880 --> 00:28:50,563
-It was a woman's voice.
-
-493
-00:28:50,583 --> 00:28:53,000
-Calm, warm, almost kind.
-
-494
-00:28:53,020 --> 00:28:58,597
-The voice of somebody telling a child that
-the hard part is over.
-
-495
-00:28:58,617 --> 00:29:01,399
-"You cannot help her. She was gone before
-you stood up.
-
-496
-00:29:01,419 --> 00:29:04,448
-He is coming for you now, and you cannot
-stop him."
-
-497
-00:29:04,468 --> 00:29:05,661
-"But why?"
-
-498
-00:29:05,681 --> 00:29:09,922
-Jack said it with the tears running down
-his face.
-
-499
-00:29:09,942 --> 00:29:12,240
-"Because a picture is not finished if it
-does
-
-500
-00:29:12,260 --> 00:29:14,905
-not end where it began. It began with
-you."
-
-501
-00:29:14,925 --> 00:29:18,605
-"I want you to understand what it costs me
-to speak to you like this.
-
-502
-00:29:18,625 --> 00:29:22,090
-All of my strength, at once. I will have
-to rest for years before
-
-503
-00:29:22,110 --> 00:29:25,865
-I can reach anybody again. That is how
-much you matter to me."
-
-504
-00:29:25,885 --> 00:29:30,106
-"Do not feel bad, Jack. Stand still for a
-moment and look at what we made."
-
-505
-00:29:30,126 --> 00:29:32,667
-Downstairs, a door moved.
-
-506
-00:29:32,687 --> 00:29:36,247
-"Shall I tell you something? If I had
-never spoken to you, you would have
-
-507
-00:29:36,267 --> 00:29:39,532
-lived to eighty five. Eighty five careful,
-empty, bitter years. You
-
-508
-00:29:39,552 --> 00:29:43,317
-would have died in a chair, and nobody
-would have come to bury you."
-
-509
-00:29:43,337 --> 00:29:47,089
-"I gave you twelve years that meant
-something. You were happy, Jack. You were
-
-510
-00:29:47,109 --> 00:29:51,262
-loved. And together we made a thing that
-nobody in the world will ever see."
-
-511
-00:29:51,282 --> 00:29:57,372
-Jack stood in the red light of the screen
-and thought about the twelve years.
-
-512
-00:29:57,392 --> 00:30:00,925
-He thought about Donna laughing with the
-pizza
-
-513
-00:30:00,945 --> 00:30:04,619
-box on her knees, an hour ago, downstairs.
-
-514
-00:30:04,639 --> 00:30:10,718
-And behind him, filling the doorway of the
-little office, there was a very
-
-515
-00:30:10,738 --> 00:30:16,772
-large shape, breathing hard, with a knife
-held low in its left hand.
-
-516
-00:30:16,792 --> 00:30:20,491
-On the screen, the last red words
-appeared.
-
-517
-00:30:20,511 --> 00:30:22,873
-"Have you nothing to say to me, Jack?"
-
-518
-00:30:22,893 --> 00:30:26,296
-Jack wiped his face with the back of his
-hand.
-
-519
-00:30:26,316 --> 00:30:28,786
-The shape took one step closer.
-
-520
-00:30:28,806 --> 00:30:32,226
-And Jack said the two words he had been
-promised,
-
-521
-00:30:32,246 --> 00:30:35,414
-twelve years before, that he would say.
-
-522
-00:30:35,434 --> 00:30:36,595
-"Thank you."
-
-523
-00:30:36,615 --> 00:30:41,977
-This story is my retelling of The Seer of
-Possibilities,
-
-524
-00:30:41,997 --> 00:30:47,233
-by Thomas O., as published on creepypasta
-dot com.
-
-525
-00:30:47,253 --> 00:30:53,379
-It began with a plant, moved three inches,
-by a man who was told that it
-
-526
-00:30:53,399 --> 00:30:59,804
-was not wrong, and not against the law,
-and that nobody would be hurt.
-
-527
-00:30:59,824 --> 00:31:01,658
-Would you have done the first favour?
+180
+00:11:39,324 --> 00:11:43,861
+I carried it out past my mother and my
+father and I sat
+
+181
+00:11:43,881 --> 00:11:48,703
+down in the back seat of their car with it
+in my lap.
+
+182
+00:11:48,723 --> 00:11:52,687
+We were two streets away before I opened
+the cloth.
+
+183
+00:11:52,707 --> 00:11:58,247
+It was the piece of me that had been taken
+out of my side four nights before.
+
+184
+00:11:58,267 --> 00:11:59,839
+Some of it was gone.
+
+185
+00:11:59,859 --> 00:12:04,635
+There was a dark stain on the cloth around
+it, the same colour
+
+186
+00:12:04,655 --> 00:12:09,727
+as the stuff that had been running out of
+those empty holes.
+
+187
+00:12:09,747 --> 00:12:17,103
+I was sick in my mother's car, and then I
+cried, and my father did not stop driving.
+
+188
+00:12:17,123 --> 00:12:19,793
+The picture is still on that camera.
+
+189
+00:12:19,813 --> 00:12:24,276
+I have never shown it to anybody who did
+not ask twice.
+
+190
+00:12:24,296 --> 00:12:29,141
+It is dark, and it is blurred, because my
+hand was shaking.
+
+191
+00:12:29,161 --> 00:12:34,816
+But the hood is there, and the face is
+there, and the two holes are there.
+
+192
+00:12:34,836 --> 00:12:37,786
+And there is one more thing in that
+photograph
+
+193
+00:12:37,806 --> 00:12:40,604
+that I have never been able to explain.
+
+194
+00:12:40,624 --> 00:12:42,881
+The thing is not looking at me.
+
+195
+00:12:42,901 --> 00:12:47,707
+It is looking past my shoulder, at the
+door of my room, which
+
+196
+00:12:47,727 --> 00:12:52,825
+I had left open, and which leads to the
+rest of that house.
+
+197
+00:12:52,845 --> 00:12:54,605
+Would you have taken the photograph?
 

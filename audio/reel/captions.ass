@@ -10,72 +10,71 @@ Style: Cap,Lora,70,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,-1,0,0,0,100,100,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:01.92,Cap,,0,0,0,,A man sits in a dark\Nroom in
-Dialogue: 0,0:00:01.94,0:00:03.89,Cap,,0,0,0,,front of a black\Nscreen.
-Dialogue: 0,0:00:03.91,0:00:06.30,Cap,,0,0,0,,The red words tell him\Nhis wife
-Dialogue: 0,0:00:06.32,0:00:08.85,Cap,,0,0,0,,is already dead\Ndownstairs.
-Dialogue: 0,0:00:08.87,0:00:11.94,Cap,,0,0,0,,They say the man who\Ndid it is still in the
-Dialogue: 0,0:00:11.96,0:00:15.26,Cap,,0,0,0,,house, coming up the\Nstairs for him now.
-Dialogue: 0,0:00:15.28,0:00:16.95,Cap,,0,0,0,,Jack does not run.
-Dialogue: 0,0:00:16.97,0:00:19.12,Cap,,0,0,0,,He is crying, and he\Nis about to
-Dialogue: 0,0:00:19.14,0:00:21.45,Cap,,0,0,0,,thank the thing on the\Nscreen.
-Dialogue: 0,0:00:21.47,0:00:23.67,Cap,,0,0,0,,Let us go back to the\Nbeginning.
-Dialogue: 0,0:00:23.69,0:00:26.13,Cap,,0,0,0,,Twelve years earlier,\NJack had
-Dialogue: 0,0:00:26.15,0:00:28.82,Cap,,0,0,0,,a cheap flat and a\Ntired job.
-Dialogue: 0,0:00:28.84,0:00:31.75,Cap,,0,0,0,,One night his screen\Nwent black, and
-Dialogue: 0,0:00:31.77,0:00:35.05,Cap,,0,0,0,,red letters asked him\Nfor a favour.
-Dialogue: 0,0:00:35.07,0:00:38.15,Cap,,0,0,0,,In his office lobby\Nthere was a plant.
-Dialogue: 0,0:00:38.17,0:00:40.59,Cap,,0,0,0,,Move it three inches\Nto the left.
-Dialogue: 0,0:00:40.61,0:00:42.99,Cap,,0,0,0,,Nothing wrong, nothing\Nagainst
-Dialogue: 0,0:00:43.01,0:00:45.12,Cap,,0,0,0,,the law, nobody hurt.
-Dialogue: 0,0:00:45.14,0:00:48.18,Cap,,0,0,0,,So he did it, and he\Nforgot about it.
-Dialogue: 0,0:00:48.20,0:00:50.97,Cap,,0,0,0,,Three days later a\Nwoman stopped to
-Dialogue: 0,0:00:50.99,0:00:53.60,Cap,,0,0,0,,push that plant\Nstraight, and was
-Dialogue: 0,0:00:53.62,0:00:56.68,Cap,,0,0,0,,still there when the\Nlift opened.
-Dialogue: 0,0:00:56.70,0:00:58.65,Cap,,0,0,0,,That is how Jack met\NAllie.
-Dialogue: 0,0:00:58.67,0:01:01.20,Cap,,0,0,0,,Two cubicles away for\Na year, and
-Dialogue: 0,0:01:01.22,0:01:04.13,Cap,,0,0,0,,he had never spoken to\Nher once.
-Dialogue: 0,0:01:04.15,0:01:05.95,Cap,,0,0,0,,He asked what it was.
-Dialogue: 0,0:01:05.97,0:01:07.61,Cap,,0,0,0,,It said it was a seer.
-Dialogue: 0,0:01:07.63,0:01:10.40,Cap,,0,0,0,,It could see every\Npossible thing that
-Dialogue: 0,0:01:10.42,0:01:13.42,Cap,,0,0,0,,could happen, and\Nevery road to it.
-Dialogue: 0,0:01:13.44,0:01:16.55,Cap,,0,0,0,,It had done this for\Nthousands of years,
-Dialogue: 0,0:01:16.57,0:01:19.43,Cap,,0,0,0,,and always took the\Nsame payment.
-Dialogue: 0,0:01:19.45,0:01:21.82,Cap,,0,0,0,,One favour, then the\Nnext.
-Dialogue: 0,0:01:21.84,0:01:25.19,Cap,,0,0,0,,A lorry missed Allie\Nby two seconds because
-Dialogue: 0,0:01:25.21,0:01:28.38,Cap,,0,0,0,,Jack made a phone ring\Nat a junction.
-Dialogue: 0,0:01:28.40,0:01:30.97,Cap,,0,0,0,,A stranger won twenty\Nseven million
-Dialogue: 0,0:01:30.99,0:01:33.64,Cap,,0,0,0,,because Jack stood in\Na queue.
-Dialogue: 0,0:01:33.66,0:01:36.29,Cap,,0,0,0,,The screen was not\Ngiving him luck.
-Dialogue: 0,0:01:36.31,0:01:38.27,Cap,,0,0,0,,It was spending other\Npeople
-Dialogue: 0,0:01:38.29,0:01:40.69,Cap,,0,0,0,,to build the life he\Nwanted.
-Dialogue: 0,0:01:40.71,0:01:42.12,Cap,,0,0,0,,He married Donna.
-Dialogue: 0,0:01:42.14,0:01:43.75,Cap,,0,0,0,,He bought the big\Nhouse at
-Dialogue: 0,0:01:43.77,0:01:45.61,Cap,,0,0,0,,the end of the long\Nroad.
-Dialogue: 0,0:01:45.63,0:01:48.09,Cap,,0,0,0,,Twelve good years,\Npaid for by
-Dialogue: 0,0:01:48.11,0:01:50.85,Cap,,0,0,0,,favours he never\Nquestioned.
-Dialogue: 0,0:01:50.87,0:01:53.81,Cap,,0,0,0,,Then came the\Ndoorbell, a delivery
-Dialogue: 0,0:01:53.83,0:01:55.56,Cap,,0,0,0,,boy with a warm box,
-Dialogue: 0,0:01:55.58,0:01:57.83,Cap,,0,0,0,,and a wife on the sofa\Nwho
-Dialogue: 0,0:01:57.85,0:02:00.37,Cap,,0,0,0,,would not wake up\Nagain.
-Dialogue: 0,0:02:00.39,0:02:02.16,Cap,,0,0,0,,Upstairs the red\Nletters
-Dialogue: 0,0:02:02.18,0:02:03.88,Cap,,0,0,0,,told him the truth.
-Dialogue: 0,0:02:03.90,0:02:06.00,Cap,,0,0,0,,The boy had been a\Nfavour too.
-Dialogue: 0,0:02:06.02,0:02:08.20,Cap,,0,0,0,,Years before, Jack had\Nheld a
-Dialogue: 0,0:02:08.22,0:02:10.78,Cap,,0,0,0,,door for a frightened\Nchild.
-Dialogue: 0,0:02:10.80,0:02:13.44,Cap,,0,0,0,,It said it had been\Npainting one
-Dialogue: 0,0:02:13.46,0:02:16.27,Cap,,0,0,0,,picture for a very\Nlong time, that
-Dialogue: 0,0:02:16.29,0:02:18.60,Cap,,0,0,0,,Jack was one brush\Nstroke in
-Dialogue: 0,0:02:18.62,0:02:21.63,Cap,,0,0,0,,it, and it was nearly\Nfinished.
-Dialogue: 0,0:02:21.65,0:02:25.26,Cap,,0,0,0,,In the doorway stood a\Nlarge shape, breathing
-Dialogue: 0,0:02:25.28,0:02:27.81,Cap,,0,0,0,,hard, with a knife\Nheld low.
-Dialogue: 0,0:02:27.83,0:02:31.14,Cap,,0,0,0,,The screen asked if he\Nhad nothing to say.
-Dialogue: 0,0:02:31.16,0:02:34.00,Cap,,0,0,0,,And Jack, who had been\Ngiven twelve
-Dialogue: 0,0:02:34.02,0:02:36.28,Cap,,0,0,0,,good years for a plant\Nmoved
-Dialogue: 0,0:02:36.30,0:02:38.41,Cap,,0,0,0,,three inches, said the\Ntwo
-Dialogue: 0,0:02:38.43,0:02:40.91,Cap,,0,0,0,,words he had been\Npromised.
-Dialogue: 0,0:02:40.93,0:02:42.14,Cap,,0,0,0,,Thank you.
-Dialogue: 0,0:02:42.16,0:02:45.12,Cap,,0,0,0,,This is my retelling\Nof The Seer
-Dialogue: 0,0:02:45.14,0:02:47.64,Cap,,0,0,0,,of Possibilities, by\NThomas
-Dialogue: 0,0:02:47.66,0:02:50.61,Cap,,0,0,0,,O., on creepypasta dot\Ncom.
-Dialogue: 0,0:02:50.63,0:02:52.47,Cap,,0,0,0,,Would you have done\Nthe first favour?
+Dialogue: 0,0:00:00.00,0:00:02.48,Cap,,0,0,0,,You wake in the night\Nbecause something
+Dialogue: 0,0:00:02.50,0:00:04.66,Cap,,0,0,0,,near your bed made a\Nsound.
+Dialogue: 0,0:00:04.68,0:00:07.21,Cap,,0,0,0,,You open your eyes,\Nand the black
+Dialogue: 0,0:00:07.23,0:00:09.76,Cap,,0,0,0,,above you is not the\Nceiling.
+Dialogue: 0,0:00:09.78,0:00:13.36,Cap,,0,0,0,,It is two empty holes\Nwhere eyes should be.
+Dialogue: 0,0:00:13.38,0:00:16.26,Cap,,0,0,0,,Something dark is\Nrunning out of them.
+Dialogue: 0,0:00:16.28,0:00:18.47,Cap,,0,0,0,,Let us go back to the\Nbeginning.
+Dialogue: 0,0:00:18.49,0:00:20.97,Cap,,0,0,0,,Mitch lost his house\Nthat spring,
+Dialogue: 0,0:00:20.99,0:00:23.92,Cap,,0,0,0,,so his brother Edwin\Ntook him in.
+Dialogue: 0,0:00:23.94,0:00:27.13,Cap,,0,0,0,,A cheap house at the\Nend of a long street,
+Dialogue: 0,0:00:27.15,0:00:29.57,Cap,,0,0,0,,pine woods behind the\Nfence.
+Dialogue: 0,0:00:29.59,0:00:31.30,Cap,,0,0,0,,He took the back room.
+Dialogue: 0,0:00:31.32,0:00:34.47,Cap,,0,0,0,,A week in, a rustling\Nunder his window
+Dialogue: 0,0:00:34.49,0:00:37.36,Cap,,0,0,0,,woke him at one in the\Nmorning.
+Dialogue: 0,0:00:37.38,0:00:39.29,Cap,,0,0,0,,Probably a raccoon.
+Dialogue: 0,0:00:39.31,0:00:42.54,Cap,,0,0,0,,The next night he woke\Nall at once, sure
+Dialogue: 0,0:00:42.56,0:00:45.92,Cap,,0,0,0,,he had heard the\Nwindow lifted open.
+Dialogue: 0,0:00:45.94,0:00:49.09,Cap,,0,0,0,,Then a soft, heavy\Nthump, like a person
+Dialogue: 0,0:00:49.11,0:00:51.84,Cap,,0,0,0,,landing with their\Nknees bent.
+Dialogue: 0,0:00:51.86,0:00:53.56,Cap,,0,0,0,,The window was shut.
+Dialogue: 0,0:00:53.58,0:00:55.57,Cap,,0,0,0,,In the morning Edwin\Ndropped
+Dialogue: 0,0:00:55.59,0:00:56.95,Cap,,0,0,0,,his coffee cup.
+Dialogue: 0,0:00:56.97,0:00:59.78,Cap,,0,0,0,,There was a long clean\Ncut down Mitch's
+Dialogue: 0,0:00:59.80,0:01:02.41,Cap,,0,0,0,,cheek, and he had not\Nfelt it.
+Dialogue: 0,0:01:02.43,0:01:05.41,Cap,,0,0,0,,The doctor said it was\Nprobably sleepwalking.
+Dialogue: 0,0:01:05.43,0:01:08.35,Cap,,0,0,0,,Then he asked him to\Nlift his shirt.
+Dialogue: 0,0:01:08.37,0:01:11.33,Cap,,0,0,0,,There was a surgical\Ncut in his side,
+Dialogue: 0,0:01:11.35,0:01:13.72,Cap,,0,0,0,,closed with neat\Nstitches.
+Dialogue: 0,0:01:13.74,0:01:16.02,Cap,,0,0,0,,His left kidney was\Ngone.
+Dialogue: 0,0:01:16.04,0:01:19.37,Cap,,0,0,0,,That evening he went\Nback to the same room.
+Dialogue: 0,0:01:19.39,0:01:21.94,Cap,,0,0,0,,At midnight he opened\Nhis eyes,
+Dialogue: 0,0:01:21.96,0:01:24.54,Cap,,0,0,0,,and it stood over his\Nbed.
+Dialogue: 0,0:01:24.56,0:01:25.74,Cap,,0,0,0,,A black hood.
+Dialogue: 0,0:01:25.76,0:01:29.10,Cap,,0,0,0,,A face the colour of\Nold grey paint,
+Dialogue: 0,0:01:29.12,0:01:31.98,Cap,,0,0,0,,with no nose and no\Nmouth.
+Dialogue: 0,0:01:32.00,0:01:34.31,Cap,,0,0,0,,His hand went sideways\Non its
+Dialogue: 0,0:01:34.33,0:01:36.88,Cap,,0,0,0,,own, to the camera on\Nthe shelf,
+Dialogue: 0,0:01:36.90,0:01:39.02,Cap,,0,0,0,,and took the picture.
+Dialogue: 0,0:01:39.04,0:01:40.87,Cap,,0,0,0,,The flash filled the\Nroom.
+Dialogue: 0,0:01:40.89,0:01:42.65,Cap,,0,0,0,,Then the dark came\Nback,
+Dialogue: 0,0:01:42.67,0:01:44.51,Cap,,0,0,0,,and it came at him.
+Dialogue: 0,0:01:44.52,0:01:47.56,Cap,,0,0,0,,He kicked it in the\Nface, ran barefoot
+Dialogue: 0,0:01:47.58,0:01:51.06,Cap,,0,0,0,,into the woods, and\Ntripped on a rock.
+Dialogue: 0,0:01:51.08,0:01:53.63,Cap,,0,0,0,,He woke in a hospital\Nbed, and
+Dialogue: 0,0:01:53.65,0:01:56.45,Cap,,0,0,0,,the doctor sat down,\Nwhich nobody
+Dialogue: 0,0:01:56.47,0:01:59.21,Cap,,0,0,0,,does when the news is\Ngood.
+Dialogue: 0,0:01:59.23,0:02:01.10,Cap,,0,0,0,,Mitch was only\Nbruised.
+Dialogue: 0,0:02:01.12,0:02:02.75,Cap,,0,0,0,,His brother had been\Nfound
+Dialogue: 0,0:02:02.77,0:02:04.86,Cap,,0,0,0,,in the house that\Nmorning.
+Dialogue: 0,0:02:04.88,0:02:07.16,Cap,,0,0,0,,Three days later he\Nwent back
+Dialogue: 0,0:02:07.18,0:02:09.78,Cap,,0,0,0,,for his things, and\Nfrom his door
+Dialogue: 0,0:02:09.80,0:02:12.14,Cap,,0,0,0,,he saw down the\Nhallway.
+Dialogue: 0,0:02:12.16,0:02:14.68,Cap,,0,0,0,,Beside his brother was\Nsomething
+Dialogue: 0,0:02:14.70,0:02:16.88,Cap,,0,0,0,,small, wrapped in\Ncloth.
+Dialogue: 0,0:02:16.90,0:02:19.02,Cap,,0,0,0,,He carried it out to\Nthe car.
+Dialogue: 0,0:02:19.04,0:02:21.65,Cap,,0,0,0,,Two streets away he\Nopened it.
+Dialogue: 0,0:02:21.67,0:02:24.22,Cap,,0,0,0,,It was the piece taken\Nout of his
+Dialogue: 0,0:02:24.24,0:02:27.00,Cap,,0,0,0,,side, and some of it\Nwas gone.
+Dialogue: 0,0:02:27.02,0:02:30.15,Cap,,0,0,0,,The photograph is\Nstill on that camera.
+Dialogue: 0,0:02:30.17,0:02:32.51,Cap,,0,0,0,,It is dark and\Nblurred, but the
+Dialogue: 0,0:02:32.53,0:02:35.17,Cap,,0,0,0,,hood and the holes are\Nthere.
+Dialogue: 0,0:02:35.19,0:02:36.85,Cap,,0,0,0,,And in the picture it\Nis
+Dialogue: 0,0:02:36.87,0:02:38.62,Cap,,0,0,0,,not looking at Mitch.
+Dialogue: 0,0:02:38.64,0:02:42.18,Cap,,0,0,0,,It is looking past\Nhim, at his open door.
+Dialogue: 0,0:02:42.21,0:02:46.54,Cap,,0,0,0,,This is my retelling\Nof the creepypasta
+Dialogue: 0,0:02:46.56,0:02:48.77,Cap,,0,0,0,,Eyeless Jack, posted
+Dialogue: 0,0:02:48.79,0:02:52.24,Cap,,0,0,0,,by a user called\NAzelf5000.
+Dialogue: 0,0:02:52.26,0:02:54.02,Cap,,0,0,0,,Would you have taken\Nthe photograph?

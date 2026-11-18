@@ -39,9 +39,7 @@ for ui, u in enumerate(units):
     if len(L) == 1 and L[0][0] in CARD_SETS:
         n = 1
     else:
-        # the teaser must change picture at least every 2.6 s, so round UP there
-        want = math.ceil(d / gap) if u['beat'] <= TEASER else round(d / gap)
-        n = max(len(L), min(max(1, want), max(1, int(d / MINSHOT))))
+        n = max(len(L), min(max(1, round(d / gap)), max(1, int(d / MINSHOT))))
     if len(L) < n: warn.append(f"unit {ui} ({d:.1f}s) has {len(L)} scene(s) for {n} shot(s) -> {n - len(L)} re-show(s): {u['text'][:60]}")
     for k in range(n):
         st, v = L[k] if k < len(L) else L[k % len(L)]

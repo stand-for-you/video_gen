@@ -1,3533 +1,1355 @@
 {
- "duration": 1862.8583333333333,
+ "duration": 775.805375,
  "units": [
   {
    "i": 0,
    "beat": 0,
    "chapter": "Intro",
-   "text": "There is a house at the end of a long road, and one window is still lit.",
+   "text": "You wake up in your own room, in the middle of the night, because something close to your bed has made a sound.",
    "who": "nar",
    "start": 0.0,
-   "end": 5.694
+   "end": 7.789
   },
   {
    "i": 1,
-   "beat": 0,
+   "beat": 1,
    "chapter": null,
-   "text": "Inside that house a man sits very still in front of a screen.",
+   "text": "You open your eyes and you see only black.",
    "who": "nar",
-   "start": 5.994,
-   "end": 11.168
+   "start": 8.239,
+   "end": 11.576
   },
   {
    "i": 2,
-   "beat": 0,
+   "beat": 1,
    "chapter": null,
-   "text": "The screen is black.",
+   "text": "You lie still and you listen.",
    "who": "nar",
-   "start": 11.468,
-   "end": 12.826
+   "start": 11.876,
+   "end": 14.039
   },
   {
    "i": 3,
-   "beat": 0,
+   "beat": 2,
    "chapter": null,
-   "text": "The words on it are red.",
+   "text": "Then your eyes begin to work in the dark, and you understand that the black above you is not the ceiling.",
    "who": "nar",
-   "start": 13.126,
-   "end": 14.932
+   "start": 14.489,
+   "end": 22.482
   },
   {
    "i": 4,
-   "beat": 1,
+   "beat": 3,
    "chapter": null,
-   "text": "They have just told him that his wife is already dead, downstairs, on their own sofa.",
+   "text": "It is two empty holes, in a face with no eyes, leaning over you, close enough to touch.",
    "who": "nar",
-   "start": 15.382,
-   "end": 22.11
+   "start": 22.932,
+   "end": 30.201
   },
   {
    "i": 5,
-   "beat": 1,
+   "beat": 4,
    "chapter": null,
-   "text": "They have told him that the boy who did it is still inside the house.",
+   "text": "Something dark is running out of those holes and down the side of its face.",
    "who": "nar",
-   "start": 22.41,
-   "end": 27.633
+   "start": 30.651,
+   "end": 36.351
   },
   {
    "i": 6,
-   "beat": 2,
+   "beat": 4,
    "chapter": null,
-   "text": "\"He is coming up for you now, Jack. You cannot stop him.\"",
-   "who": "seer",
-   "start": 28.083,
-   "end": 30.867
+   "text": "This is the story of the thing people call Eyeless Jack.",
+   "who": "nar",
+   "start": 36.651,
+   "end": 40.833
   },
   {
    "i": 7,
-   "beat": 3,
-   "chapter": null,
-   "text": "The man does not run.",
-   "who": "nar",
-   "start": 31.317,
-   "end": 32.817
-  },
-  {
-   "i": 8,
-   "beat": 3,
-   "chapter": null,
-   "text": "He does not shout.",
-   "who": "nar",
-   "start": 33.117,
-   "end": 34.369
-  },
-  {
-   "i": 9,
-   "beat": 3,
-   "chapter": null,
-   "text": "He is crying, and he is also thinking about the last twelve years, the best years of his life.",
-   "who": "nar",
-   "start": 34.669,
-   "end": 42.045
-  },
-  {
-   "i": 10,
    "beat": 4,
-   "chapter": null,
-   "text": "In a moment he will turn to that screen and say two words.",
-   "who": "nar",
-   "start": 42.495,
-   "end": 46.87
-  },
-  {
-   "i": 11,
-   "beat": 4,
-   "chapter": null,
-   "text": "Thank you.",
-   "who": "nar",
-   "start": 47.17,
-   "end": 47.946
-  },
-  {
-   "i": 12,
-   "beat": 5,
-   "chapter": null,
-   "text": "What can take everything from a man, and still be thanked for it?",
-   "who": "nar",
-   "start": 48.396,
-   "end": 52.58
-  },
-  {
-   "i": 13,
-   "beat": 5,
    "chapter": null,
    "text": "Let us go back to the beginning.",
    "who": "nar",
-   "start": 52.88,
-   "end": 54.643
+   "start": 41.133,
+   "end": 42.896
+  },
+  {
+   "i": 8,
+   "beat": 5,
+   "chapter": "The Move",
+   "text": "My name is Mitch, and until a few years ago I did not believe in anything I could not touch.",
+   "who": "nar",
+   "start": 43.496,
+   "end": 51.249
+  },
+  {
+   "i": 9,
+   "beat": 6,
+   "chapter": null,
+   "text": "I lost my house that spring.",
+   "who": "nar",
+   "start": 51.699,
+   "end": 53.667
+  },
+  {
+   "i": 10,
+   "beat": 6,
+   "chapter": null,
+   "text": "The bank took it, the way banks do, slowly and then all at once.",
+   "who": "nar",
+   "start": 53.967,
+   "end": 59.372
+  },
+  {
+   "i": 11,
+   "beat": 7,
+   "chapter": null,
+   "text": "My older brother Edwin called me the same week and told me to stop being proud and come and live with him.",
+   "who": "nar",
+   "start": 59.822,
+   "end": 68.872
+  },
+  {
+   "i": 12,
+   "beat": 8,
+   "chapter": null,
+   "text": "We had not seen each other properly in ten years, so part of me was actually glad about it.",
+   "who": "nar",
+   "start": 69.322,
+   "end": 76.744
+  },
+  {
+   "i": 13,
+   "beat": 9,
+   "chapter": null,
+   "text": "His house was one of those cheap places at the end of a long street, with a wooden porch, a bare back yard, and pine woods standing behind the fence.",
+   "who": "nar",
+   "start": 77.194,
+   "end": 90.169
   },
   {
    "i": 14,
-   "beat": 6,
-   "chapter": "The First Favour",
-   "text": "Jack lived alone in a small flat on the third floor.",
+   "beat": 10,
+   "chapter": null,
+   "text": "It took me a week to unpack.",
    "who": "nar",
-   "start": 55.243,
-   "end": 59.116
+   "start": 90.619,
+   "end": 92.459
   },
   {
    "i": 15,
-   "beat": 6,
+   "beat": 10,
    "chapter": null,
-   "text": "He had a desk, a chair, an old computer, and a window that looked at a car park.",
+   "text": "Boxes in the hall, boxes on the landing, boxes down the side of the bed.",
    "who": "nar",
-   "start": 59.416,
-   "end": 65.863
+   "start": 92.759,
+   "end": 98.53
   },
   {
    "i": 16,
-   "beat": 7,
+   "beat": 11,
    "chapter": null,
-   "text": "He was thirty one years old.",
-   "who": "nar",
-   "start": 66.313,
-   "end": 68.032
+   "text": " \"Take the back room. It is quiet, and the window gets the morning.\"",
+   "who": "edwin",
+   "start": 98.98,
+   "end": 102.513
   },
   {
    "i": 17,
-   "beat": 7,
+   "beat": 12,
    "chapter": null,
-   "text": "He was polite at work, quiet in the lift, and he went home every evening to nobody.",
+   "text": "The back room was quiet.",
    "who": "nar",
-   "start": 68.332,
-   "end": 75.448
+   "start": 102.963,
+   "end": 104.59
   },
   {
    "i": 18,
-   "beat": 8,
+   "beat": 12,
    "chapter": null,
-   "text": "That night he was playing cards on the screen, moving them one at a time, not really thinking.",
+   "text": "That is the part I think about now.",
    "who": "nar",
-   "start": 75.898,
-   "end": 83.108
+   "start": 104.89,
+   "end": 107.243
   },
   {
    "i": 19,
-   "beat": 8,
+   "beat": 13,
    "chapter": null,
-   "text": "The little light on his router was blinking red.",
+   "text": "I slept well that first week.",
    "who": "nar",
-   "start": 83.408,
-   "end": 86.998
+   "start": 107.693,
+   "end": 109.664
   },
   {
    "i": 20,
-   "beat": 8,
+   "beat": 13,
    "chapter": null,
-   "text": "His internet was down again.",
+   "text": "I remember thinking that this was the first time in a year that I had felt safe.",
    "who": "nar",
-   "start": 87.298,
-   "end": 89.485
+   "start": 109.964,
+   "end": 115.662
   },
   {
    "i": 21,
-   "beat": 9,
-   "chapter": null,
-   "text": "It went down almost every week, so he hardly noticed it.",
+   "beat": 14,
+   "chapter": "The Noise",
+   "text": "About a week in, I woke up at one in the morning.",
    "who": "nar",
-   "start": 89.935,
-   "end": 94.386
+   "start": 116.262,
+   "end": 119.942
   },
   {
    "i": 22,
-   "beat": 10,
+   "beat": 15,
    "chapter": null,
-   "text": "Then the cards faded away.",
+   "text": "There was a sound coming from outside, under the window.",
    "who": "nar",
-   "start": 94.836,
-   "end": 96.544
+   "start": 120.392,
+   "end": 124.341
   },
   {
    "i": 23,
-   "beat": 10,
+   "beat": 15,
    "chapter": null,
-   "text": "The screen went black.",
+   "text": "A slow, careful rustling, the way something moves when it does not want to be heard.",
    "who": "nar",
-   "start": 96.844,
-   "end": 98.267
+   "start": 124.641,
+   "end": 131.131
   },
   {
    "i": 24,
-   "beat": 10,
+   "beat": 16,
    "chapter": null,
-   "text": "And red letters began to appear, one line at a time.",
+   "text": "I lay there and listened to it for a long time.",
    "who": "nar",
-   "start": 98.567,
-   "end": 102.913
+   "start": 131.581,
+   "end": 134.968
   },
   {
    "i": 25,
-   "beat": 11,
+   "beat": 17,
    "chapter": null,
-   "text": "\"Hello Jack. I need a favour from you.\"",
-   "who": "seer",
-   "start": 103.363,
-   "end": 105.486
+   "text": "I told myself it was a raccoon in the bins.",
+   "who": "nar",
+   "start": 135.418,
+   "end": 138.909
   },
   {
    "i": 26,
-   "beat": 12,
+   "beat": 17,
    "chapter": null,
-   "text": "Jack stopped.",
+   "text": "We had raccoons.",
    "who": "nar",
-   "start": 105.936,
-   "end": 106.888
+   "start": 139.209,
+   "end": 140.376
   },
   {
    "i": 27,
-   "beat": 12,
+   "beat": 17,
    "chapter": null,
-   "text": "He looked at the router.",
+   "text": "Everybody on that street had raccoons.",
    "who": "nar",
-   "start": 107.188,
-   "end": 108.503
+   "start": 140.676,
+   "end": 143.603
   },
   {
    "i": 28,
-   "beat": 12,
+   "beat": 18,
    "chapter": null,
-   "text": "The light was still blinking red.",
+   "text": "So I turned over and I went back to sleep.",
    "who": "nar",
-   "start": 108.803,
-   "end": 111.012
+   "start": 144.053,
+   "end": 147.15
   },
   {
    "i": 29,
-   "beat": 12,
+   "beat": 19,
    "chapter": null,
-   "text": "No internet.",
+   "text": "In the morning I told Edwin about it over his coffee.",
    "who": "nar",
-   "start": 111.312,
-   "end": 112.352
+   "start": 147.6,
+   "end": 151.421
   },
   {
    "i": 30,
-   "beat": 12,
+   "beat": 20,
    "chapter": null,
-   "text": "No connection at all.",
-   "who": "nar",
-   "start": 112.652,
-   "end": 114.128
+   "text": " \"Raccoons. They get into everything out here. I will put a brick on the bin lid.\"",
+   "who": "edwin",
+   "start": 151.871,
+   "end": 156.094
   },
   {
    "i": 31,
-   "beat": 13,
+   "beat": 21,
    "chapter": null,
-   "text": "\"Is this some kind of joke?\"",
-   "who": "jack",
-   "start": 114.578,
-   "end": 116.062
+   "text": "He put a brick on the bin lid, and we both forgot about it.",
+   "who": "nar",
+   "start": 156.544,
+   "end": 161.068
   },
   {
    "i": 32,
-   "beat": 13,
+   "beat": 22,
    "chapter": null,
-   "text": "he said to the empty room.",
+   "text": "I want you to notice how easy that was.",
    "who": "nar",
-   "start": 116.362,
-   "end": 118.151
+   "start": 161.518,
+   "end": 164.228
   },
   {
    "i": 33,
-   "beat": 14,
+   "beat": 22,
    "chapter": null,
-   "text": "The screen answered him.",
+   "text": "A noise outside, a simple answer, and a man can sleep for one more night.",
    "who": "nar",
-   "start": 118.601,
-   "end": 120.105
+   "start": 164.528,
+   "end": 170.703
   },
   {
    "i": 34,
-   "beat": 15,
-   "chapter": null,
-   "text": "\"I know this is strange for you. But do not worry. It is a small favour, an easy one. And you will be rewarded.\"",
-   "who": "seer",
-   "start": 120.555,
-   "end": 126.467
+   "beat": 23,
+   "chapter": "The Window",
+   "text": "The next night was different.",
+   "who": "nar",
+   "start": 171.303,
+   "end": 173.305
   },
   {
    "i": 35,
-   "beat": 16,
+   "beat": 24,
    "chapter": null,
-   "text": "Now he was frightened.",
+   "text": "I did not wake up slowly.",
    "who": "nar",
-   "start": 126.917,
-   "end": 128.329
+   "start": 173.755,
+   "end": 175.417
   },
   {
    "i": 36,
-   "beat": 16,
+   "beat": 24,
    "chapter": null,
-   "text": "He reached behind the desk and pulled the internet cable right out of the wall.",
+   "text": "I came awake all at once, the way you do when a sound belongs inside your room and not outside it.",
    "who": "nar",
-   "start": 128.629,
-   "end": 134.774
+   "start": 175.717,
+   "end": 184.064
   },
   {
    "i": 37,
-   "beat": 17,
+   "beat": 25,
    "chapter": null,
-   "text": "The red letters did not stop.",
+   "text": "I was almost sure I had heard my window being lifted open.",
    "who": "nar",
-   "start": 135.224,
-   "end": 137.454
+   "start": 184.514,
+   "end": 189.026
   },
   {
    "i": 38,
-   "beat": 18,
+   "beat": 26,
    "chapter": null,
-   "text": "\"Still here, Jack.\"",
-   "who": "seer",
-   "start": 137.904,
-   "end": 139.15
+   "text": "And then a thump, soft and heavy, like a person landing on the floor with their knees bent.",
+   "who": "nar",
+   "start": 189.476,
+   "end": 196.738
   },
   {
    "i": 39,
-   "beat": 19,
+   "beat": 27,
    "chapter": null,
-   "text": "He sat there with the cable in his hand, and the words kept coming.",
+   "text": "I sat straight up and I looked at every corner of that room.",
    "who": "nar",
-   "start": 139.6,
-   "end": 144.34
+   "start": 197.188,
+   "end": 201.394
   },
   {
    "i": 40,
-   "beat": 20,
+   "beat": 28,
    "chapter": null,
-   "text": "\"Tomorrow, when you go to work, move the big potted plant that stands next to the lift on the ground floor. Pull it out from the wall, three inches. Do it at seventeen minutes past eight, and nobody will be there to see you.\"",
-   "who": "seer",
-   "start": 144.79,
-   "end": 156.501
+   "text": "The window was shut.",
+   "who": "nar",
+   "start": 201.844,
+   "end": 203.118
   },
   {
    "i": 41,
-   "beat": 21,
+   "beat": 28,
    "chapter": null,
-   "text": "Jack said nothing.",
+   "text": "The boxes were where I had left them.",
    "who": "nar",
-   "start": 156.951,
-   "end": 158.121
+   "start": 203.418,
+   "end": 205.617
   },
   {
    "i": 42,
-   "beat": 21,
+   "beat": 28,
    "chapter": null,
-   "text": "He did not know what to say.",
+   "text": "Nothing moved.",
    "who": "nar",
-   "start": 158.421,
-   "end": 160.113
+   "start": 205.917,
+   "end": 206.932
   },
   {
    "i": 43,
-   "beat": 22,
+   "beat": 29,
    "chapter": null,
-   "text": "\"I am asking you because I know you will do it. You will not let me down. You are special. We will talk tomorrow.\"",
-   "who": "seer",
-   "start": 160.563,
-   "end": 166.204
+   "text": "I listened until my ears were ringing with the effort, and the house gave me nothing back.",
+   "who": "nar",
+   "start": 207.382,
+   "end": 214.103
   },
   {
    "i": 44,
-   "beat": 23,
+   "beat": 30,
    "chapter": null,
-   "text": "He pulled the power cord out of the wall.",
+   "text": "After a while I told myself I had been dreaming, and I lay down again with my back to the wall.",
    "who": "nar",
-   "start": 166.654,
-   "end": 169.306
+   "start": 214.553,
+   "end": 222.336
   },
   {
    "i": 45,
-   "beat": 23,
+   "beat": 31,
    "chapter": null,
-   "text": "The screen died.",
+   "text": "I slept.",
    "who": "nar",
-   "start": 169.606,
-   "end": 170.698
+   "start": 222.786,
+   "end": 223.566
   },
   {
    "i": 46,
-   "beat": 23,
+   "beat": 31,
    "chapter": null,
-   "text": "The room went dark, except for the orange street light outside.",
+   "text": "That is the thing I cannot explain to anybody who has not been through it.",
    "who": "nar",
-   "start": 170.998,
-   "end": 176.042
+   "start": 223.866,
+   "end": 228.804
   },
   {
    "i": 47,
-   "beat": 24,
+   "beat": 31,
    "chapter": null,
-   "text": "He stood in that dark for a long time.",
+   "text": "I slept.",
    "who": "nar",
-   "start": 176.492,
-   "end": 179.22
+   "start": 229.104,
+   "end": 229.884
   },
   {
    "i": 48,
-   "beat": 24,
-   "chapter": null,
-   "text": "Then he had a hot shower, and he went to bed, telling himself it was a dream, or a trick, or a joke.",
+   "beat": 32,
+   "chapter": "The Mirror",
+   "text": "The next morning I walked into the kitchen, and Edwin dropped his cup.",
    "who": "nar",
-   "start": 179.52,
-   "end": 188.111
+   "start": 230.484,
+   "end": 235.616
   },
   {
    "i": 49,
-   "beat": 25,
+   "beat": 33,
    "chapter": null,
-   "text": "But he had no friends who played jokes.",
+   "text": "It hit the floor and broke and he did not even look at it.",
    "who": "nar",
-   "start": 188.561,
-   "end": 191.307
+   "start": 236.066,
+   "end": 240.562
   },
   {
    "i": 50,
-   "beat": 25,
+   "beat": 34,
    "chapter": null,
-   "text": "And he had no enemies either.",
+   "text": "He was looking at my face.",
    "who": "nar",
-   "start": 191.607,
-   "end": 193.717
+   "start": 241.012,
+   "end": 242.612
   },
   {
    "i": 51,
-   "beat": 25,
+   "beat": 35,
    "chapter": null,
-   "text": "He had nobody at all.",
-   "who": "nar",
-   "start": 194.017,
-   "end": 195.663
+   "text": " \"Mitch. Do not touch it. Just stand there.\"",
+   "who": "edwin",
+   "start": 243.062,
+   "end": 245.479
   },
   {
    "i": 52,
-   "beat": 26,
-   "chapter": "The Plant",
-   "text": "He woke up feeling strangely rested.",
+   "beat": 36,
+   "chapter": null,
+   "text": "He took the little mirror off the shelf by the door and held it up in front of me.",
    "who": "nar",
-   "start": 196.263,
-   "end": 198.872
+   "start": 245.929,
+   "end": 251.679
   },
   {
    "i": 53,
-   "beat": 26,
+   "beat": 37,
    "chapter": null,
-   "text": "Work started at half past eight, and Jack was never late in his life.",
+   "text": "There was a long cut down my left cheek.",
    "who": "nar",
-   "start": 199.172,
-   "end": 205.087
+   "start": 252.129,
+   "end": 254.564
   },
   {
    "i": 54,
-   "beat": 27,
+   "beat": 37,
    "chapter": null,
-   "text": "He parked at ten past eight.",
+   "text": "Clean, straight, and nothing like a scratch from a nail or a corner of a box.",
    "who": "nar",
-   "start": 205.537,
-   "end": 207.638
+   "start": 254.864,
+   "end": 261.245
   },
   {
    "i": 55,
-   "beat": 27,
+   "beat": 38,
    "chapter": null,
-   "text": "Normally he would walk straight in.",
+   "text": "I had not felt it.",
    "who": "nar",
-   "start": 207.938,
-   "end": 210.009
+   "start": 261.695,
+   "end": 262.972
   },
   {
    "i": 56,
-   "beat": 27,
+   "beat": 38,
    "chapter": null,
-   "text": "Today he sat in the car and watched the clock.",
+   "text": "I had slept through the whole night and I had not felt a thing.",
    "who": "nar",
-   "start": 210.309,
-   "end": 213.784
+   "start": 263.272,
+   "end": 267.452
   },
   {
    "i": 57,
-   "beat": 28,
+   "beat": 39,
    "chapter": null,
-   "text": "In the night he had been afraid.",
+   "text": "Edwin drove me to the hospital with both hands tight on the wheel and the radio off.",
    "who": "nar",
-   "start": 214.234,
-   "end": 216.124
+   "start": 267.902,
+   "end": 275.003
   },
   {
    "i": 58,
-   "beat": 28,
-   "chapter": null,
-   "text": "In the morning he was only curious.",
+   "beat": 40,
+   "chapter": "The Hospital",
+   "text": "The doctor cleaned the cut and asked me the questions they ask.",
    "who": "nar",
-   "start": 216.424,
-   "end": 219.023
+   "start": 275.603,
+   "end": 279.951
   },
   {
    "i": 59,
-   "beat": 29,
+   "beat": 41,
    "chapter": null,
-   "text": "He thought about it the way a careful man thinks.",
-   "who": "nar",
-   "start": 219.473,
-   "end": 222.834
+   "text": " \"Do you drink before bed? Do you take anything to sleep? Has anyone in your family ever walked in their sleep?\"",
+   "who": "doc",
+   "start": 280.401,
+   "end": 287.007
   },
   {
    "i": 60,
-   "beat": 29,
+   "beat": 42,
    "chapter": null,
-   "text": "Moving a plant is not wrong.",
+   "text": "I said no to all of it, and he wrote it down anyway.",
    "who": "nar",
-   "start": 223.134,
-   "end": 225.305
+   "start": 287.457,
+   "end": 291.455
   },
   {
    "i": 61,
-   "beat": 29,
+   "beat": 43,
    "chapter": null,
-   "text": "It is not against the law.",
-   "who": "nar",
-   "start": 225.605,
-   "end": 227.228
+   "text": " \"The most likely answer is that you did this to yourself while you were asleep. It happens more than people think.\"",
+   "who": "doc",
+   "start": 291.905,
+   "end": 298.915
   },
   {
    "i": 62,
-   "beat": 29,
+   "beat": 44,
    "chapter": null,
-   "text": "Nobody gets hurt when a plant moves three inches.",
+   "text": "I was ready to believe him.",
    "who": "nar",
-   "start": 227.528,
-   "end": 231.263
+   "start": 299.365,
+   "end": 301.065
   },
   {
    "i": 63,
-   "beat": 30,
+   "beat": 44,
    "chapter": null,
-   "text": "So the most sensible thing, he decided, was to do it.",
+   "text": "I wanted to believe him.",
    "who": "nar",
-   "start": 231.713,
-   "end": 235.81
+   "start": 301.365,
+   "end": 302.917
   },
   {
    "i": 64,
-   "beat": 30,
+   "beat": 44,
    "chapter": null,
-   "text": "Nothing would happen, and then he could forget the whole stupid business.",
+   "text": "A sleepwalking man is a problem you can fix.",
    "who": "nar",
-   "start": 236.11,
-   "end": 241.066
+   "start": 303.217,
+   "end": 306.844
   },
   {
    "i": 65,
-   "beat": 31,
+   "beat": 45,
    "chapter": null,
-   "text": "At sixteen minutes past eight he got out of the car.",
+   "text": "Then he stopped writing, and his face changed, and he asked me to lie back and lift my shirt.",
    "who": "nar",
-   "start": 241.516,
-   "end": 245.353
+   "start": 307.294,
+   "end": 314.702
   },
   {
    "i": 66,
-   "beat": 32,
+   "beat": 46,
    "chapter": null,
-   "text": "He walked into the lobby at exactly the right minute, and the lobby was empty.",
+   "text": "He did not say anything for a long moment.",
    "who": "nar",
-   "start": 245.803,
-   "end": 251.862
+   "start": 315.152,
+   "end": 318.227
   },
   {
    "i": 67,
-   "beat": 32,
+   "beat": 47,
    "chapter": null,
-   "text": "That was the first strange thing.",
-   "who": "nar",
-   "start": 252.162,
-   "end": 254.141
+   "text": " \"Mitch. There is a surgical cut in your side, and it has been closed again with stitches. Neat ones.\"",
+   "who": "doc",
+   "start": 318.677,
+   "end": 324.999
   },
   {
    "i": 68,
-   "beat": 33,
+   "beat": 48,
    "chapter": null,
-   "text": "At that time of the morning the ground floor was always full.",
+   "text": "He turned the screen of the scanner round so that I could see it myself.",
    "who": "nar",
-   "start": 254.591,
-   "end": 259.014
+   "start": 325.449,
+   "end": 330.237
   },
   {
    "i": 69,
-   "beat": 33,
+   "beat": 48,
    "chapter": null,
-   "text": "People, coats, coffee, the ping of the lifts.",
+   "text": "I am not a doctor and even I could see that there was a space where something should have been.",
    "who": "nar",
-   "start": 259.314,
-   "end": 262.708
+   "start": 330.537,
+   "end": 337.285
   },
   {
    "i": 70,
-   "beat": 33,
+   "beat": 49,
    "chapter": null,
-   "text": "Today, nobody.",
-   "who": "nar",
-   "start": 263.008,
-   "end": 264.24
+   "text": " \"You have lost your left kidney. Some time last night. I am sorry. We do not know how.\"",
+   "who": "doc",
+   "start": 337.735,
+   "end": 343.225
   },
   {
    "i": 71,
-   "beat": 34,
+   "beat": 50,
    "chapter": null,
-   "text": "The quiet had been predicted, to the minute.",
+   "text": "I remember the sound of the clock on that wall.",
    "who": "nar",
-   "start": 264.69,
-   "end": 267.615
+   "start": 343.675,
+   "end": 346.725
   },
   {
    "i": 72,
-   "beat": 35,
+   "beat": 50,
    "chapter": null,
-   "text": "\"Fine,\"",
-   "who": "jack",
-   "start": 268.065,
-   "end": 268.664
+   "text": "I remember a trolley going past the door.",
+   "who": "nar",
+   "start": 347.025,
+   "end": 350.088
   },
   {
    "i": 73,
-   "beat": 35,
+   "beat": 51,
    "chapter": null,
-   "text": "he said under his breath.",
+   "text": "I remember the word last night, sitting in the middle of the room like a stone.",
    "who": "nar",
-   "start": 268.964,
-   "end": 270.565
+   "start": 350.538,
+   "end": 356.289
   },
   {
    "i": 74,
-   "beat": 35,
+   "beat": 52,
    "chapter": null,
-   "text": "\"Let us see what happens.\"",
+   "text": "Somebody had opened me up while I slept, taken a piece of me out, closed me again, and gone back out through the window.",
    "who": "nar",
-   "start": 270.865,
-   "end": 272.366
+   "start": 356.739,
+   "end": 365.968
   },
   {
    "i": 75,
-   "beat": 36,
+   "beat": 53,
    "chapter": null,
-   "text": "The plant stood between the two lift doors, a big dark green thing in a heavy pot.",
+   "text": "This story is my own retelling of the creepypasta Eyeless Jack, first posted by a user called Azelf5000.",
    "who": "nar",
-   "start": 272.816,
-   "end": 279.806
+   "start": 366.418,
+   "end": 377.722
   },
   {
    "i": 76,
-   "beat": 36,
-   "chapter": null,
-   "text": "It looked fake.",
+   "beat": 54,
+   "chapter": "Face to Face",
+   "text": "They kept me in for the day and sent me home with painkillers and a sheet of paper about infection.",
    "who": "nar",
-   "start": 280.106,
-   "end": 281.091
+   "start": 378.322,
+   "end": 386.186
   },
   {
    "i": 77,
-   "beat": 36,
+   "beat": 55,
    "chapter": null,
-   "text": "It was the kind of thing a thousand people walk past every day without ever seeing it.",
+   "text": "Edwin wanted me to sleep on the couch, downstairs, near him.",
    "who": "nar",
-   "start": 281.391,
-   "end": 287.991
+   "start": 386.636,
+   "end": 391.485
   },
   {
    "i": 78,
-   "beat": 37,
+   "beat": 55,
    "chapter": null,
-   "text": "It was heavier than he expected.",
+   "text": "I said I would be fine in the back room.",
    "who": "nar",
-   "start": 288.441,
-   "end": 290.545
+   "start": 391.785,
+   "end": 394.751
   },
   {
    "i": 79,
-   "beat": 37,
+   "beat": 56,
    "chapter": null,
-   "text": "He had to lean into it.",
+   "text": "I was not being brave.",
    "who": "nar",
-   "start": 290.845,
-   "end": 292.254
+   "start": 395.201,
+   "end": 396.742
   },
   {
    "i": 80,
-   "beat": 37,
+   "beat": 56,
    "chapter": null,
-   "text": "The pot scraped across the floor, and he pulled it out about three inches, as well as he could judge.",
+   "text": "I think I wanted to know.",
    "who": "nar",
-   "start": 292.554,
-   "end": 300.319
+   "start": 397.042,
+   "end": 398.568
   },
   {
    "i": 81,
-   "beat": 38,
+   "beat": 57,
    "chapter": null,
-   "text": "He stepped back.",
+   "text": "I lay in that bed with the lamp off and the painkillers moving in my blood, and at some point I fell asleep.",
    "who": "nar",
-   "start": 300.769,
-   "end": 301.813
+   "start": 399.018,
+   "end": 408.257
   },
   {
    "i": 82,
-   "beat": 38,
+   "beat": 58,
    "chapter": null,
-   "text": "He looked at it.",
+   "text": "Around midnight I opened my eyes, and it was there.",
    "who": "nar",
-   "start": 302.113,
-   "end": 303.149
+   "start": 408.707,
+   "end": 412.844
   },
   {
    "i": 83,
-   "beat": 38,
+   "beat": 59,
    "chapter": null,
-   "text": "Then he looked around the lobby.",
+   "text": "It was standing over my bed, bent forward at the waist, close enough that I could feel the air move when it breathed.",
    "who": "nar",
-   "start": 303.449,
-   "end": 305.137
+   "start": 413.294,
+   "end": 422.222
   },
   {
    "i": 84,
-   "beat": 39,
+   "beat": 60,
    "chapter": null,
-   "text": "People were coming in behind him now.",
+   "text": "A black hooded top, the hood up.",
    "who": "nar",
-   "start": 305.587,
-   "end": 307.913
+   "start": 422.672,
+   "end": 424.917
   },
   {
    "i": 85,
-   "beat": 39,
+   "beat": 60,
    "chapter": null,
-   "text": "The doors were turning, voices were back, the floor was filling up.",
+   "text": "A face the colour of old grey paint, with no nose and no mouth at all.",
    "who": "nar",
-   "start": 308.213,
-   "end": 313.167
+   "start": 425.217,
+   "end": 431.52
   },
   {
    "i": 86,
-   "beat": 40,
+   "beat": 61,
    "chapter": null,
-   "text": "Nobody looked at the plant.",
+   "text": "And where the eyes should have been there were two black holes that went back further than a face should go.",
    "who": "nar",
-   "start": 313.617,
-   "end": 315.415
+   "start": 431.97,
+   "end": 439.039
   },
   {
    "i": 87,
-   "beat": 40,
+   "beat": 62,
    "chapter": null,
-   "text": "Nobody noticed anything at all.",
+   "text": "Something dark was running slowly out of both of them, down what would have been its cheeks, and dripping on to my blanket.",
    "who": "nar",
-   "start": 315.715,
-   "end": 318.016
+   "start": 439.489,
+   "end": 448.63
   },
   {
    "i": 88,
-   "beat": 41,
+   "beat": 63,
    "chapter": null,
-   "text": "Jack let one lift go without him.",
+   "text": "I did not scream.",
    "who": "nar",
-   "start": 318.466,
-   "end": 320.76
+   "start": 449.08,
+   "end": 450.328
   },
   {
    "i": 89,
-   "beat": 41,
+   "beat": 63,
    "chapter": null,
-   "text": "He waited, for something, for anything.",
+   "text": "I want to be honest about that, because people always ask.",
    "who": "nar",
-   "start": 321.06,
-   "end": 323.598
+   "start": 450.628,
+   "end": 454.971
   },
   {
    "i": 90,
-   "beat": 42,
+   "beat": 63,
    "chapter": null,
-   "text": "Nothing happened.",
+   "text": "I did not make a sound.",
    "who": "nar",
-   "start": 324.048,
-   "end": 325.085
+   "start": 455.271,
+   "end": 456.779
   },
   {
    "i": 91,
-   "beat": 42,
+   "beat": 64,
    "chapter": null,
-   "text": "So he took the next lift up to the seventh floor and sat down in his cubicle, on time, as always.",
+   "text": "My hand went sideways, on its own, to the little shelf by the bed where I kept my camera.",
    "who": "nar",
-   "start": 325.385,
-   "end": 334.047
+   "start": 457.229,
+   "end": 464.566
   },
   {
    "i": 92,
-   "beat": 43,
+   "beat": 65,
    "chapter": null,
-   "text": "If you asked the people in that office about Jack, they would say polite, quiet, hard working.",
+   "text": "I lifted it, and I took the picture.",
    "who": "nar",
-   "start": 334.497,
-   "end": 341.98
+   "start": 465.016,
+   "end": 467.67
   },
   {
    "i": 93,
-   "beat": 43,
+   "beat": 66,
    "chapter": null,
-   "text": "All true, and all useless.",
+   "text": "The flash filled that room for half a second, and in that half a second I saw all of it at once, every fold of the hood and every finger.",
    "who": "nar",
-   "start": 342.28,
-   "end": 344.221
+   "start": 468.12,
+   "end": 479.522
   },
   {
    "i": 94,
-   "beat": 44,
+   "beat": 67,
    "chapter": null,
-   "text": "The truth was that Jack did not really like people.",
+   "text": "Then the dark came back, and it came at me.",
    "who": "nar",
-   "start": 344.671,
-   "end": 348.596
+   "start": 479.972,
+   "end": 483.219
   },
   {
    "i": 95,
-   "beat": 44,
+   "beat": 68,
    "chapter": null,
-   "text": "Not hate, nothing so strong.",
+   "text": "It was fast, and it was strong, and it went for my chest with both hands.",
    "who": "nar",
-   "start": 348.896,
-   "end": 351.129
+   "start": 483.669,
+   "end": 489.525
   },
   {
    "i": 96,
-   "beat": 44,
+   "beat": 69,
    "chapter": null,
-   "text": "He simply had no interest in them.",
+   "text": "I got my foot up between us and I kicked it in the face as hard as a man with stitches can kick anything.",
    "who": "nar",
-   "start": 351.429,
-   "end": 353.626
+   "start": 489.975,
+   "end": 498.768
   },
   {
    "i": 97,
-   "beat": 45,
+   "beat": 70,
    "chapter": null,
-   "text": "Except one.",
+   "text": "It went backwards into the boxes and I was out of that bed and through the door.",
    "who": "nar",
-   "start": 354.076,
-   "end": 355.013
+   "start": 499.218,
+   "end": 505.172
   },
   {
    "i": 98,
-   "beat": 46,
-   "chapter": null,
-   "text": "Allie sat two cubicles down.",
+   "beat": 71,
+   "chapter": "The Run",
+   "text": "I grabbed my wallet off the hall table.",
    "who": "nar",
-   "start": 355.463,
-   "end": 357.501
+   "start": 505.772,
+   "end": 508.452
   },
   {
    "i": 99,
-   "beat": 46,
+   "beat": 71,
    "chapter": null,
-   "text": "Big smile, loud laugh, always talking about her weekend.",
+   "text": "I do not know why.",
    "who": "nar",
-   "start": 357.801,
-   "end": 362.147
+   "start": 508.752,
+   "end": 509.984
   },
   {
    "i": 100,
-   "beat": 47,
+   "beat": 71,
    "chapter": null,
-   "text": "Every morning Jack stopped at her desk on his way past.",
+   "text": "You do strange things.",
    "who": "nar",
-   "start": 362.597,
-   "end": 366.837
+   "start": 510.284,
+   "end": 511.739
   },
   {
    "i": 101,
-   "beat": 47,
+   "beat": 72,
    "chapter": null,
-   "text": "The first chats were one minute.",
+   "text": "I went out of the front door in bare feet and I ran down that long street with the porch lights going past me.",
    "who": "nar",
-   "start": 367.137,
-   "end": 369.117
+   "start": 512.189,
+   "end": 521.397
   },
   {
    "i": 102,
-   "beat": 47,
+   "beat": 73,
    "chapter": null,
-   "text": "Then two minutes.",
+   "text": "I did not shout for Edwin.",
    "who": "nar",
-   "start": 369.417,
-   "end": 370.472
+   "start": 521.847,
+   "end": 523.513
   },
   {
    "i": 103,
-   "beat": 47,
+   "beat": 73,
    "chapter": null,
-   "text": "Lately they were long enough that he had to hurry to his chair.",
+   "text": "I did not go back for him.",
    "who": "nar",
-   "start": 370.772,
-   "end": 374.877
+   "start": 523.813,
+   "end": 525.388
   },
   {
    "i": 104,
-   "beat": 48,
+   "beat": 73,
    "chapter": null,
-   "text": "He could not believe his luck.",
+   "text": "I have had a long time to think about that.",
    "who": "nar",
-   "start": 375.327,
-   "end": 376.998
+   "start": 525.688,
+   "end": 528.084
   },
   {
    "i": 105,
-   "beat": 48,
+   "beat": 74,
    "chapter": null,
-   "text": "She seemed to like him.",
+   "text": "At the end of the street I went over the fence and into the pine woods behind the houses.",
    "who": "nar",
-   "start": 377.298,
-   "end": 378.654
+   "start": 528.534,
+   "end": 535.462
   },
   {
    "i": 106,
-   "beat": 49,
+   "beat": 75,
    "chapter": null,
-   "text": "That morning they talked about her wild night out, and he laughed in the right places, and then the lift doors opened behind them.",
+   "text": "There was no moon under those trees.",
    "who": "nar",
-   "start": 379.104,
-   "end": 389.762
+   "start": 535.912,
+   "end": 538.278
   },
   {
    "i": 107,
-   "beat": 50,
+   "beat": 75,
    "chapter": null,
-   "text": "Out came James Bentley, the boss of them both, limping badly, holding the wall.",
+   "text": "There was no path either, and I was running on roots and stones.",
    "who": "nar",
-   "start": 390.212,
-   "end": 397.111
+   "start": 538.578,
+   "end": 543.551
   },
   {
    "i": 108,
-   "beat": 51,
+   "beat": 76,
    "chapter": null,
-   "text": "\"My foot,\"",
-   "who": "james",
-   "start": 397.561,
-   "end": 398.412
+   "text": "I remember the cold, and my own breath, and the stitches in my side pulling with every step.",
+   "who": "nar",
+   "start": 544.001,
+   "end": 551.717
   },
   {
    "i": 109,
-   "beat": 51,
+   "beat": 77,
    "chapter": null,
-   "text": "he was saying, loud enough for the whole floor.",
+   "text": "I remember looking back once and seeing nothing at all, which was somehow worse.",
    "who": "nar",
-   "start": 398.712,
-   "end": 401.866
+   "start": 552.167,
+   "end": 558.251
   },
   {
    "i": 110,
-   "beat": 51,
+   "beat": 78,
    "chapter": null,
-   "text": "\"My damn foot.\"",
+   "text": "Then my foot caught a rock and the ground came up and hit me, and the woods went out like a light.",
    "who": "nar",
-   "start": 402.166,
-   "end": 403.199
+   "start": 558.701,
+   "end": 566.429
   },
   {
    "i": 111,
-   "beat": 52,
-   "chapter": null,
-   "text": "People came out of their cubicles, asking him what had happened.",
+   "beat": 79,
+   "chapter": "The Bad News",
+   "text": "I woke up in a hospital bed with a drip in my arm and daylight on the wall.",
    "who": "nar",
-   "start": 403.649,
-   "end": 408.155
+   "start": 567.029,
+   "end": 573.581
   },
   {
    "i": 112,
-   "beat": 53,
+   "beat": 80,
    "chapter": null,
-   "text": "\"That plant. The one downstairs by the lift. I walked straight into it and twisted my ankle.\"",
-   "who": "james",
-   "start": 408.605,
-   "end": 413.478
+   "text": "It was the same doctor.",
+   "who": "nar",
+   "start": 574.031,
+   "end": 575.454
   },
   {
    "i": 113,
-   "beat": 54,
+   "beat": 80,
    "chapter": null,
-   "text": "Jack felt the floor move under him.",
+   "text": "He came in with my notes under his arm and he sat down, which nobody does when the news is good.",
    "who": "nar",
-   "start": 413.928,
-   "end": 416.047
+   "start": 575.754,
+   "end": 583.608
   },
   {
    "i": 114,
-   "beat": 55,
+   "beat": 81,
    "chapter": null,
-   "text": "\"James, you can hardly walk. You should go to the hospital.\"",
-   "who": "allie",
-   "start": 416.497,
-   "end": 419.735
+   "text": " \"There is good news and bad news, Mitch.\"",
+   "who": "doc",
+   "start": 584.058,
+   "end": 586.854
   },
   {
    "i": 115,
-   "beat": 56,
+   "beat": 82,
    "chapter": null,
-   "text": "\"I have meetings all day. Too important to cancel. I will just have to live with it.\"",
-   "who": "james",
-   "start": 420.185,
-   "end": 424.503
+   "text": " \"The good news is that you were lucky. Cuts, bruises, a mild concussion. Your parents are on their way to collect you.\"",
+   "who": "doc",
+   "start": 587.304,
+   "end": 594.658
   },
   {
    "i": 116,
-   "beat": 57,
+   "beat": 83,
    "chapter": null,
-   "text": "Jack walked away from Allie in the middle of a sentence.",
+   "text": "I let out a breath I think I had been holding since midnight.",
    "who": "nar",
-   "start": 424.953,
-   "end": 428.615
+   "start": 595.108,
+   "end": 599.354
   },
   {
    "i": 117,
-   "beat": 57,
+   "beat": 84,
    "chapter": null,
-   "text": "He sat down in his chair and stared at his screen.",
-   "who": "nar",
-   "start": 428.915,
-   "end": 432.909
+   "text": " \"The bad news is that your brother was found in the house this morning. He was killed. I am very sorry.\"",
+   "who": "doc",
+   "start": 599.804,
+   "end": 606.09
   },
   {
    "i": 118,
-   "beat": 58,
+   "beat": 85,
    "chapter": null,
-   "text": "It was his fault.",
-   "who": "nar",
-   "start": 433.359,
-   "end": 434.455
+   "text": " \"Killed by what?\"",
+   "who": "mitch",
+   "start": 606.54,
+   "end": 607.498
   },
   {
    "i": 119,
-   "beat": 58,
+   "beat": 86,
    "chapter": null,
-   "text": "He had done that.",
+   "text": "He looked at the floor, and then he looked at me, and he told me the truth, which was that nobody could say.",
    "who": "nar",
-   "start": 434.755,
-   "end": 435.746
+   "start": 607.948,
+   "end": 615.99
   },
   {
    "i": 120,
-   "beat": 58,
+   "beat": 87,
    "chapter": null,
-   "text": "He had moved a plant three inches and hurt a man.",
+   "text": "I had kicked it in the face and run out of the house, and it had not followed me into those woods.",
    "who": "nar",
-   "start": 436.046,
-   "end": 439.386
+   "start": 616.44,
+   "end": 623.739
   },
   {
    "i": 121,
-   "beat": 59,
+   "beat": 88,
    "chapter": null,
-   "text": "Then he told himself to be calm.",
+   "text": "It had not needed to.",
    "who": "nar",
-   "start": 439.836,
-   "end": 442.046
+   "start": 624.189,
+   "end": 625.591
   },
   {
    "i": 122,
-   "beat": 59,
+   "beat": 88,
    "chapter": null,
-   "text": "A twisted ankle heals.",
+   "text": "There was already somebody in that house.",
    "who": "nar",
-   "start": 442.346,
-   "end": 444.117
+   "start": 625.891,
+   "end": 628.568
   },
   {
    "i": 123,
-   "beat": 59,
-   "chapter": null,
-   "text": "In a week it would be a joke in the office.",
+   "beat": 89,
+   "chapter": "What He Left",
+   "text": "Three days later my parents drove me back to get my things.",
    "who": "nar",
-   "start": 444.417,
-   "end": 447.349
+   "start": 629.168,
+   "end": 633.767
   },
   {
    "i": 124,
-   "beat": 59,
+   "beat": 90,
    "chapter": null,
-   "text": "Nothing was broken that could not be fixed.",
+   "text": "They waited in the car.",
    "who": "nar",
-   "start": 447.649,
-   "end": 450.843
+   "start": 634.217,
+   "end": 635.825
   },
   {
    "i": 125,
-   "beat": 60,
+   "beat": 90,
    "chapter": null,
-   "text": "That evening he went straight to his computer and switched it on.",
+   "text": "My mother did not want to go in and my father did not want to leave her out there on her own.",
    "who": "nar",
-   "start": 451.293,
-   "end": 456.139
+   "start": 636.125,
+   "end": 642.854
   },
   {
    "i": 126,
-   "beat": 60,
+   "beat": 91,
    "chapter": null,
-   "text": "The screen went black before the desktop even appeared.",
+   "text": "The porch light was still on in the middle of the day.",
    "who": "nar",
-   "start": 456.439,
-   "end": 460.69
+   "start": 643.304,
+   "end": 646.93
   },
   {
    "i": 127,
-   "beat": 61,
+   "beat": 91,
    "chapter": null,
-   "text": "\"How was your day, Jack?\"",
-   "who": "seer",
-   "start": 461.14,
-   "end": 462.672
+   "text": "Edwin always forgot it.",
+   "who": "nar",
+   "start": 647.23,
+   "end": 648.907
   },
   {
    "i": 128,
-   "beat": 62,
+   "beat": 92,
    "chapter": null,
-   "text": "He did not answer.",
+   "text": "I went up the stairs to the back room and I made myself calm, the way you do when you have practised being calm in the car.",
    "who": "nar",
-   "start": 463.122,
-   "end": 464.382
+   "start": 649.357,
+   "end": 658.884
   },
   {
    "i": 129,
-   "beat": 63,
+   "beat": 93,
    "chapter": null,
-   "text": "\"I already know how your day was. But it is polite to ask. You want to know why James Bentley had to twist his ankle. This is not finished yet, Jack. Go to work tomorrow, as you always do. Do not worry about anything. You will be rewarded. You are special.\"",
-   "who": "seer",
-   "start": 464.832,
-   "end": 478.815
+   "text": "My camera was still on the shelf where my hand had left it.",
+   "who": "nar",
+   "start": 659.334,
+   "end": 663.758
   },
   {
    "i": 130,
-   "beat": 64,
+   "beat": 93,
    "chapter": null,
-   "text": "And Jack, sitting alone in the orange street light, felt something he had not expected.",
+   "text": "I put it in my pocket.",
    "who": "nar",
-   "start": 479.265,
-   "end": 486.204
+   "start": 664.058,
+   "end": 665.695
   },
   {
    "i": 131,
-   "beat": 64,
+   "beat": 94,
    "chapter": null,
-   "text": "Not fear.",
+   "text": "And then I stopped, because I could see along the hallway from there, and the hallway was not empty.",
    "who": "nar",
-   "start": 486.504,
-   "end": 487.354
+   "start": 666.145,
+   "end": 673.635
   },
   {
    "i": 132,
-   "beat": 64,
+   "beat": 95,
    "chapter": null,
-   "text": "Curiosity.",
+   "text": "I am not going to describe what the police had already photographed in that house.",
    "who": "nar",
-   "start": 487.654,
-   "end": 488.586
+   "start": 674.085,
+   "end": 680.056
   },
   {
    "i": 133,
-   "beat": 65,
-   "chapter": "Allie",
-   "text": "The next morning the plant had been pushed back against the wall.",
+   "beat": 95,
+   "chapter": null,
+   "text": "My brother was at the far end of it, and that is all I will say.",
    "who": "nar",
-   "start": 489.186,
-   "end": 493.303
+   "start": 680.356,
+   "end": 685.422
   },
   {
    "i": 134,
-   "beat": 65,
+   "beat": 96,
    "chapter": null,
-   "text": "The cleaners had done it in the night, the way cleaners do.",
+   "text": "There was something small lying on the floor beside him, wrapped in a piece of cloth.",
    "who": "nar",
-   "start": 493.603,
-   "end": 497.726
+   "start": 685.872,
+   "end": 691.81
   },
   {
    "i": 135,
-   "beat": 66,
+   "beat": 97,
    "chapter": null,
-   "text": "James came in after lunch, hopping on one good foot, still refusing to go to a doctor, still going to his meetings.",
+   "text": "I picked it up without thinking, the way you pick up anything that does not belong on a floor.",
    "who": "nar",
-   "start": 498.176,
-   "end": 508.484
+   "start": 692.26,
+   "end": 698.874
   },
   {
    "i": 136,
-   "beat": 67,
+   "beat": 98,
    "chapter": null,
-   "text": "At three in the afternoon he came limping up to Allie's desk.",
+   "text": "I carried it out past my mother and my father and I sat down in the back seat of their car with it in my lap.",
    "who": "nar",
-   "start": 508.934,
-   "end": 513.504
+   "start": 699.324,
+   "end": 708.273
   },
   {
    "i": 137,
-   "beat": 68,
+   "beat": 99,
    "chapter": null,
-   "text": "\"Allie, you are not busy right now, are you?\"",
-   "who": "james",
-   "start": 513.954,
-   "end": 516.366
+   "text": "We were two streets away before I opened the cloth.",
+   "who": "nar",
+   "start": 708.723,
+   "end": 712.257
   },
   {
    "i": 138,
-   "beat": 69,
+   "beat": 100,
    "chapter": null,
-   "text": "\"Nothing that cannot wait until tomorrow.\"",
-   "who": "allie",
-   "start": 516.816,
-   "end": 518.766
+   "text": "It was the piece of me that had been taken out of my side four nights before.",
+   "who": "nar",
+   "start": 712.707,
+   "end": 717.817
   },
   {
    "i": 139,
-   "beat": 70,
+   "beat": 101,
    "chapter": null,
-   "text": "\"Could you drive me to my doctor? I should have gone yesterday. I can barely press the pedal. We can take my car.\"",
-   "who": "james",
-   "start": 519.216,
-   "end": 525.023
+   "text": "Some of it was gone.",
+   "who": "nar",
+   "start": 718.267,
+   "end": 719.559
   },
   {
    "i": 140,
-   "beat": 71,
+   "beat": 101,
    "chapter": null,
-   "text": "\"Of course. No problem at all.\"",
-   "who": "allie",
-   "start": 525.473,
-   "end": 527.37
+   "text": "There was a dark stain on the cloth around it, the same colour as the stuff that had been running out of those empty holes.",
+   "who": "nar",
+   "start": 719.859,
+   "end": 729.297
   },
   {
    "i": 141,
-   "beat": 72,
+   "beat": 102,
    "chapter": null,
-   "text": "She put on her coat.",
+   "text": "I was sick in my mother's car, and then I cried, and my father did not stop driving.",
    "who": "nar",
-   "start": 527.82,
-   "end": 529.07
+   "start": 729.747,
+   "end": 736.673
   },
   {
    "i": 142,
-   "beat": 72,
+   "beat": 103,
    "chapter": null,
-   "text": "She turned to Jack, half way down the aisle, and she smiled at him.",
+   "text": "The picture is still on that camera.",
    "who": "nar",
-   "start": 529.37,
-   "end": 534.515
+   "start": 737.123,
+   "end": 739.513
   },
   {
    "i": 143,
-   "beat": 73,
+   "beat": 103,
    "chapter": null,
-   "text": "\"See you tomorrow, Jackie.\"",
-   "who": "allie",
-   "start": 534.965,
-   "end": 536.529
+   "text": "I have never shown it to anybody who did not ask twice.",
+   "who": "nar",
+   "start": 739.813,
+   "end": 743.846
   },
   {
    "i": 144,
-   "beat": 74,
+   "beat": 104,
    "chapter": null,
-   "text": "That was the last thing she ever said to him.",
+   "text": "It is dark, and it is blurred, because my hand was shaking.",
    "who": "nar",
-   "start": 536.979,
-   "end": 540.07
+   "start": 744.296,
+   "end": 748.861
   },
   {
    "i": 145,
-   "beat": 75,
+   "beat": 104,
    "chapter": null,
-   "text": "The office felt emptier after she left.",
+   "text": "But the hood is there, and the face is there, and the two holes are there.",
    "who": "nar",
-   "start": 540.52,
-   "end": 543.478
+   "start": 749.161,
+   "end": 754.386
   },
   {
    "i": 146,
-   "beat": 75,
+   "beat": 105,
    "chapter": null,
-   "text": "Jack went back to his screen and tried to work.",
+   "text": "And there is one more thing in that photograph that I have never been able to explain.",
    "who": "nar",
-   "start": 543.778,
-   "end": 547.022
+   "start": 754.836,
+   "end": 760.324
   },
   {
    "i": 147,
-   "beat": 76,
+   "beat": 105,
    "chapter": null,
-   "text": "Ten minutes later they all heard it.",
+   "text": "The thing is not looking at me.",
    "who": "nar",
-   "start": 547.472,
-   "end": 549.958
+   "start": 760.624,
+   "end": 762.451
   },
   {
    "i": 148,
-   "beat": 76,
+   "beat": 106,
    "chapter": null,
-   "text": "A truck horn, long and flat.",
+   "text": "It is looking past my shoulder, at the door of my room, which I had left open, and which leads to the rest of that house.",
    "who": "nar",
-   "start": 550.258,
-   "end": 552.656
+   "start": 762.901,
+   "end": 772.395
   },
   {
    "i": 149,
-   "beat": 76,
-   "chapter": null,
-   "text": "Then brakes.",
-   "who": "nar",
-   "start": 552.956,
-   "end": 553.834
-  },
-  {
-   "i": 150,
-   "beat": 76,
-   "chapter": null,
-   "text": "Then a sound like a wall falling over.",
-   "who": "nar",
-   "start": 554.134,
-   "end": 557.114
-  },
-  {
-   "i": 151,
-   "beat": 77,
-   "chapter": null,
-   "text": "The whole floor stood up at once and ran to the windows.",
-   "who": "nar",
-   "start": 557.564,
-   "end": 561.749
-  },
-  {
-   "i": 152,
-   "beat": 78,
-   "chapter": null,
-   "text": "Seven floors down, at the junction, a lorry had stopped across both lanes.",
-   "who": "nar",
-   "start": 562.199,
-   "end": 568.852
-  },
-  {
-   "i": 153,
-   "beat": 78,
-   "chapter": null,
-   "text": "In front of it there was a car that no longer looked like a car.",
-   "who": "nar",
-   "start": 569.152,
-   "end": 573.612
-  },
-  {
-   "i": 154,
-   "beat": 79,
-   "chapter": null,
-   "text": "Somebody asked whether that was James' car.",
-   "who": "nar",
-   "start": 574.062,
-   "end": 577.327
-  },
-  {
-   "i": 155,
-   "beat": 79,
-   "chapter": null,
-   "text": "Somebody else said it was too smashed to tell.",
-   "who": "nar",
-   "start": 577.627,
-   "end": 580.79
-  },
-  {
-   "i": 156,
-   "beat": 80,
-   "chapter": null,
-   "text": "Jack knew.",
-   "who": "nar",
-   "start": 581.24,
-   "end": 582.065
-  },
-  {
-   "i": 157,
-   "beat": 80,
-   "chapter": null,
-   "text": "He knew before anyone said another word.",
-   "who": "nar",
-   "start": 582.365,
-   "end": 585.272
-  },
-  {
-   "i": 158,
-   "beat": 81,
-   "chapter": null,
-   "text": "He ran.",
-   "who": "nar",
-   "start": 585.722,
-   "end": 586.486
-  },
-  {
-   "i": 159,
-   "beat": 81,
-   "chapter": null,
-   "text": "He did not wait for the lift to come back.",
-   "who": "nar",
-   "start": 586.786,
-   "end": 589.664
-  },
-  {
-   "i": 160,
-   "beat": 81,
-   "chapter": null,
-   "text": "He pushed in with four other people and watched the numbers fall.",
-   "who": "nar",
-   "start": 589.964,
-   "end": 594.575
-  },
-  {
-   "i": 161,
-   "beat": 82,
-   "chapter": null,
-   "text": "On the street there was broken glass across the road, and a crowd already standing in a wide ring, the way crowds do, close enough to see and far enough to feel safe.",
-   "who": "nar",
-   "start": 595.025,
-   "end": 609.241
-  },
-  {
-   "i": 162,
-   "beat": 83,
-   "chapter": null,
-   "text": "He could hear sirens somewhere behind the buildings.",
-   "who": "nar",
-   "start": 609.691,
-   "end": 612.993
-  },
-  {
-   "i": 163,
-   "beat": 84,
-   "chapter": null,
-   "text": "The lorry had hit the car on the driver's side.",
-   "who": "nar",
-   "start": 613.443,
-   "end": 616.827
-  },
-  {
-   "i": 164,
-   "beat": 84,
-   "chapter": null,
-   "text": "The driver's side was where Allie had been sitting.",
-   "who": "nar",
-   "start": 617.127,
-   "end": 620.441
-  },
-  {
-   "i": 165,
-   "beat": 85,
-   "chapter": null,
-   "text": "I am not going to describe what the people in that crowd saw.",
-   "who": "nar",
-   "start": 620.891,
-   "end": 624.706
-  },
-  {
-   "i": 166,
-   "beat": 85,
-   "chapter": null,
-   "text": "Allie died there, in the street, ten minutes after she smiled at him and called him Jackie.",
-   "who": "nar",
-   "start": 625.006,
-   "end": 632.229
-  },
-  {
-   "i": 167,
-   "beat": 86,
-   "chapter": null,
-   "text": "James lived.",
-   "who": "nar",
-   "start": 632.679,
-   "end": 633.646
-  },
-  {
-   "i": 168,
-   "beat": 86,
-   "chapter": null,
-   "text": "He was carried away in an ambulance, deep in a coma, and the doctors would not promise anything.",
-   "who": "nar",
-   "start": 633.946,
-   "end": 642.238
-  },
-  {
-   "i": 169,
-   "beat": 87,
-   "chapter": null,
-   "text": "Jack did not go back into the building.",
-   "who": "nar",
-   "start": 642.688,
-   "end": 644.956
-  },
-  {
-   "i": 170,
-   "beat": 87,
-   "chapter": null,
-   "text": "He walked to his car with his hands shaking and he drove home.",
-   "who": "nar",
-   "start": 645.256,
-   "end": 650.072
-  },
-  {
-   "i": 171,
-   "beat": 88,
-   "chapter": null,
-   "text": "He stood in front of his computer for a long time without turning it on.",
-   "who": "nar",
-   "start": 650.522,
-   "end": 656.079
-  },
-  {
-   "i": 172,
-   "beat": 88,
-   "chapter": null,
-   "text": "He was afraid of what it would say.",
-   "who": "nar",
-   "start": 656.379,
-   "end": 658.369
-  },
-  {
-   "i": 173,
-   "beat": 88,
-   "chapter": null,
-   "text": "He was more afraid that it would say nothing at all.",
-   "who": "nar",
-   "start": 658.669,
-   "end": 662.064
-  },
-  {
-   "i": 174,
-   "beat": 89,
-   "chapter": null,
-   "text": "Then he pressed the button.",
-   "who": "nar",
-   "start": 662.514,
-   "end": 663.978
-  },
-  {
-   "i": 175,
-   "beat": 90,
-   "chapter": null,
-   "text": "\"No Jack. It is not your fault. I know you are blaming yourself. But everyone dies. Some of them simply die sooner than others.\"",
-   "who": "seer",
-   "start": 664.428,
-   "end": 671.42
-  },
-  {
-   "i": 176,
-   "beat": 91,
-   "chapter": null,
-   "text": "He wanted to throw the screen on the floor.",
-   "who": "nar",
-   "start": 671.87,
-   "end": 674.702
-  },
-  {
-   "i": 177,
-   "beat": 91,
-   "chapter": null,
-   "text": "He held on to the edge of the desk instead.",
-   "who": "nar",
-   "start": 675.002,
-   "end": 678.081
-  },
-  {
-   "i": 178,
-   "beat": 92,
-   "chapter": null,
-   "text": "\"Jack, I am going to tell you something, and I want you to think about it properly. You believed you were in love with Allie. You were not. You wanted her. That is a different thing, and please excuse me for saying it so plainly.\"",
-   "who": "seer",
-   "start": 678.531,
-   "end": 689.664
-  },
-  {
-   "i": 179,
-   "beat": 93,
-   "chapter": null,
-   "text": "\"She was not the one for you. She would have made your life small and bitter. Yes, you would have found the courage one day. She would have said yes. She thought you would be an interesting little project.\"",
-   "who": "seer",
-   "start": 690.114,
-   "end": 699.856
-  },
-  {
-   "i": 180,
-   "beat": 94,
-   "chapter": null,
-   "text": "\"Think about the things she told you herself. Why did her last boyfriend leave her?\"",
-   "who": "seer",
-   "start": 700.306,
-   "end": 704.37
-  },
-  {
-   "i": 181,
-   "beat": 95,
-   "chapter": null,
-   "text": "Jack answered out loud, to an empty room, in a very quiet voice.",
-   "who": "nar",
-   "start": 704.82,
-   "end": 710.419
-  },
-  {
-   "i": 182,
-   "beat": 96,
-   "chapter": null,
-   "text": "\"Because she cheated on him.\"",
-   "who": "jack",
-   "start": 710.869,
-   "end": 712.205
-  },
-  {
-   "i": 183,
-   "beat": 97,
-   "chapter": null,
-   "text": "\"Because she cheated on him, Jack. And she would have done the same to you. Two happy months. Four miserable years. Your money, your evenings, your name in other people's jokes. And when it finally ended you would never have tried again.\"",
-   "who": "seer",
-   "start": 712.655,
-   "end": 724.206
-  },
-  {
-   "i": 184,
-   "beat": 98,
-   "chapter": null,
-   "text": "\"This is true. I see every possibility, the ones that happen and the ones that do not. You saw what she was, and you chose not to look. Together, you and I, we have taken you off that road.\"",
-   "who": "seer",
-   "start": 724.656,
-   "end": 734.78
-  },
-  {
-   "i": 185,
-   "beat": 99,
-   "chapter": null,
-   "text": "\"One more thing, Jack. This is still not finished.\"",
-   "who": "seer",
-   "start": 735.23,
-   "end": 737.799
-  },
-  {
-   "i": 186,
-   "beat": 100,
-   "chapter": null,
-   "text": "Jack screamed at the screen.",
-   "who": "nar",
-   "start": 738.249,
-   "end": 739.923
-  },
-  {
-   "i": 187,
-   "beat": 100,
-   "chapter": null,
-   "text": "He picked up the monitor with both hands and threw it on the floor, where it sparked once and went dark.",
-   "who": "nar",
-   "start": 740.223,
-   "end": 748.572
-  },
-  {
-   "i": 188,
-   "beat": 101,
-   "chapter": "The Seer",
-   "text": "He hardly slept.",
-   "who": "nar",
-   "start": 749.172,
-   "end": 750.281
-  },
-  {
-   "i": 189,
-   "beat": 101,
-   "chapter": null,
-   "text": "In the morning he did not want to go to work, but the last words on that screen had hooked him, and his anger had already started to cool.",
-   "who": "nar",
-   "start": 750.581,
-   "end": 761.358
-  },
-  {
-   "i": 190,
-   "beat": 102,
-   "chapter": null,
-   "text": "Nobody worked that day.",
-   "who": "nar",
-   "start": 761.808,
-   "end": 763.36
-  },
-  {
-   "i": 191,
-   "beat": 102,
-   "chapter": null,
-   "text": "The company brought in counsellors.",
-   "who": "nar",
-   "start": 763.66,
-   "end": 765.99
-  },
-  {
-   "i": 192,
-   "beat": 102,
-   "chapter": null,
-   "text": "People sat in meeting rooms and cried and hugged each other, and Jack sat among them and said nothing.",
-   "who": "nar",
-   "start": 766.29,
-   "end": 774.429
-  },
-  {
-   "i": 193,
-   "beat": 103,
-   "chapter": null,
-   "text": "In the afternoon Diego Salbara, the head of the division, came and found him.",
-   "who": "nar",
-   "start": 774.879,
-   "end": 781.697
-  },
-  {
-   "i": 194,
-   "beat": 104,
-   "chapter": null,
-   "text": "Diego was a direct man.",
-   "who": "nar",
-   "start": 782.147,
-   "end": 784.013
-  },
-  {
-   "i": 195,
-   "beat": 104,
-   "chapter": null,
-   "text": "He did not soften anything.",
-   "who": "nar",
-   "start": 784.313,
-   "end": 786.12
-  },
-  {
-   "i": 196,
-   "beat": 105,
-   "chapter": null,
-   "text": "\"I am offering you James' position. Temporary, officially. But James will not be back soon, and when enough time has passed, it becomes yours.\"",
-   "who": "diego",
-   "start": 786.57,
-   "end": 795.745
-  },
-  {
-   "i": 197,
-   "beat": 106,
-   "chapter": null,
-   "text": "Jack stared at him.",
-   "who": "nar",
-   "start": 796.195,
-   "end": 797.41
-  },
-  {
-   "i": 198,
    "beat": 107,
    "chapter": null,
-   "text": "\"Keep it quiet for now. I know how it looks, two days after. But the Lancaster project cannot stop. It is too big for this company to lose. I need somebody in that chair tomorrow.\"",
-   "who": "diego",
-   "start": 797.86,
-   "end": 809.403
-  },
-  {
-   "i": 199,
-   "beat": 108,
-   "chapter": null,
-   "text": "Jack said yes.",
+   "text": "Would you have taken the photograph?",
    "who": "nar",
-   "start": 809.853,
-   "end": 810.95
-  },
-  {
-   "i": 200,
-   "beat": 108,
-   "chapter": null,
-   "text": "He did not even decide to say it.",
-   "who": "nar",
-   "start": 811.25,
-   "end": 813.542
-  },
-  {
-   "i": 201,
-   "beat": 108,
-   "chapter": null,
-   "text": "It simply came out.",
-   "who": "nar",
-   "start": 813.842,
-   "end": 815.097
-  },
-  {
-   "i": 202,
-   "beat": 109,
-   "chapter": null,
-   "text": "On the way home he stopped at an electronics shop under cold white lights and bought a new monitor, and he carried it up three flights of stairs.",
-   "who": "nar",
-   "start": 815.547,
-   "end": 827.119
-  },
-  {
-   "i": 203,
-   "beat": 110,
-   "chapter": null,
-   "text": "He plugged it in.",
-   "who": "nar",
-   "start": 827.569,
-   "end": 828.768
-  },
-  {
-   "i": 204,
-   "beat": 110,
-   "chapter": null,
-   "text": "He sat down.",
-   "who": "nar",
-   "start": 829.068,
-   "end": 830.072
-  },
-  {
-   "i": 205,
-   "beat": 110,
-   "chapter": null,
-   "text": "The red letters were already waiting.",
-   "who": "nar",
-   "start": 830.372,
-   "end": 832.874
-  },
-  {
-   "i": 206,
-   "beat": 111,
-   "chapter": null,
-   "text": "\"Jack. I want to be the first to congratulate you. I am proud of what you have done.\"",
-   "who": "seer",
-   "start": 833.324,
-   "end": 837.634
-  },
-  {
-   "i": 207,
-   "beat": 112,
-   "chapter": null,
-   "text": "He put his hands flat on the desk and made himself breathe.",
-   "who": "nar",
-   "start": 838.084,
-   "end": 842.514
-  },
-  {
-   "i": 208,
-   "beat": 113,
-   "chapter": null,
-   "text": "\"Forgive me, I have not introduced myself. I am called the Seer. I see what will be, and I see what could be. It is a powerful gift.\"",
-   "who": "seer",
-   "start": 842.964,
-   "end": 850.48
-  },
-  {
-   "i": 209,
-   "beat": 114,
-   "chapter": null,
-   "text": "\"But for all of it, I can touch nothing. I can predict. I can watch. With great effort, I can speak. What I do not have is a body. That was taken from me a very long time ago.\"",
-   "who": "seer",
-   "start": 850.93,
-   "end": 860.798
-  },
-  {
-   "i": 210,
-   "beat": 115,
-   "chapter": null,
-   "text": "\"That is why I need you. I am an artist. My art is people. You will be my brush, Jack, and my canvas.\"",
-   "who": "seer",
-   "start": 861.248,
-   "end": 866.861
-  },
-  {
-   "i": 211,
-   "beat": 116,
-   "chapter": null,
-   "text": "And Jack, who had no friends and no enemies and nobody at all, read that word, needed, and felt it go into him like a hook.",
-   "who": "nar",
-   "start": 867.311,
-   "end": 878.166
-  },
-  {
-   "i": 212,
-   "beat": 117,
-   "chapter": null,
-   "text": "\"Before you answer, two things. First, I will never lie to you. Second, I will never ask you to do anything that is wrong or against the law by itself.\"",
-   "who": "seer",
-   "start": 878.616,
-   "end": 886.949
-  },
-  {
-   "i": 213,
-   "beat": 118,
-   "chapter": null,
-   "text": "\"Bad things will come of it. People will die. But they were going to die anyway, were they not? And every bad thing will be balanced by something good, for you.\"",
-   "who": "seer",
-   "start": 887.399,
-   "end": 895.78
-  },
-  {
-   "i": 214,
-   "beat": 119,
-   "chapter": null,
-   "text": "He thought about that.",
-   "who": "nar",
-   "start": 896.23,
-   "end": 897.505
-  },
-  {
-   "i": 215,
-   "beat": 119,
-   "chapter": null,
-   "text": "He hated it, and it still sounded reasonable, and that was the frightening part.",
-   "who": "nar",
-   "start": 897.805,
-   "end": 904.216
-  },
-  {
-   "i": 216,
-   "beat": 120,
-   "chapter": null,
-   "text": "The Seer had not lied to him.",
-   "who": "nar",
-   "start": 904.666,
-   "end": 906.639
-  },
-  {
-   "i": 217,
-   "beat": 120,
-   "chapter": null,
-   "text": "It had simply not told him everything.",
-   "who": "nar",
-   "start": 906.939,
-   "end": 909.626
-  },
-  {
-   "i": 218,
-   "beat": 120,
-   "chapter": null,
-   "text": "He noticed the difference, and he let it pass.",
-   "who": "nar",
-   "start": 909.926,
-   "end": 913.032
-  },
-  {
-   "i": 219,
-   "beat": 121,
-   "chapter": null,
-   "text": "\"Work with me, Jack. Small tasks, from time to time. Little things with enormous results. That is my art. One small act, something bad and something good, and both of them beautiful.\"",
-   "who": "seer",
-   "start": 913.482,
-   "end": 923.534
-  },
-  {
-   "i": 220,
-   "beat": 122,
-   "chapter": null,
-   "text": "\"One last thing, because I can see you struggling. If I stopped speaking to you now, it would take you about two weeks to come back and agree. But you would come back. You are going to say yes. So why wait?\"",
-   "who": "seer",
-   "start": 923.984,
-   "end": 934.348
-  },
-  {
-   "i": 221,
-   "beat": 123,
-   "chapter": null,
-   "text": "\"Let us begin. And when all of this is over, you are going to thank me. I promise you that.\"",
-   "who": "seer",
-   "start": 934.798,
-   "end": 939.562
-  },
-  {
-   "i": 222,
-   "beat": 124,
-   "chapter": null,
-   "text": "Jack sat in the glow of the new monitor.",
-   "who": "nar",
-   "start": 940.012,
-   "end": 942.981
-  },
-  {
-   "i": 223,
-   "beat": 124,
-   "chapter": null,
-   "text": "Then, for the first time, he put his fingers on the keys and typed an answer.",
-   "who": "nar",
-   "start": 943.281,
-   "end": 949.105
-  },
-  {
-   "i": 224,
-   "beat": 125,
-   "chapter": null,
-   "text": "\"What do you want me to do next?\"",
-   "who": "jack",
-   "start": 949.555,
-   "end": 950.968
-  },
-  {
-   "i": 225,
-   "beat": 126,
-   "chapter": "Twenty Seven",
-   "text": "After that, Jack did every favour he was asked to do.",
-   "who": "nar",
-   "start": 951.568,
-   "end": 955.892
-  },
-  {
-   "i": 226,
-   "beat": 126,
-   "chapter": null,
-   "text": "One a month, more or less, for years.",
-   "who": "nar",
-   "start": 956.192,
-   "end": 958.503
-  },
-  {
-   "i": 227,
-   "beat": 127,
-   "chapter": null,
-   "text": "The tasks were always small, always strange, and never once against the law.",
-   "who": "nar",
-   "start": 958.953,
-   "end": 965.449
-  },
-  {
-   "i": 228,
-   "beat": 128,
-   "chapter": null,
-   "text": "Stand on a certain corner at a certain minute.",
-   "who": "nar",
-   "start": 965.899,
-   "end": 969.031
-  },
-  {
-   "i": 229,
-   "beat": 128,
-   "chapter": null,
-   "text": "Post a letter on a Thursday instead of a Wednesday.",
-   "who": "nar",
-   "start": 969.331,
-   "end": 973.045
-  },
-  {
-   "i": 230,
-   "beat": 128,
-   "chapter": null,
-   "text": "Let a stranger go in front of you at a till.",
-   "who": "nar",
-   "start": 973.345,
-   "end": 976.393
-  },
-  {
-   "i": 231,
-   "beat": 129,
-   "chapter": null,
-   "text": "And every time, the Seer kept its promise.",
-   "who": "nar",
-   "start": 976.843,
-   "end": 980.239
-  },
-  {
-   "i": 232,
-   "beat": 129,
-   "chapter": null,
-   "text": "Something good came back to Jack, in ways he could never have guessed.",
-   "who": "nar",
-   "start": 980.539,
-   "end": 985.554
-  },
-  {
-   "i": 233,
-   "beat": 130,
-   "chapter": null,
-   "text": "About two years in, there was one he remembered for the rest of his life.",
-   "who": "nar",
-   "start": 986.004,
-   "end": 991.118
-  },
-  {
-   "i": 234,
-   "beat": 131,
-   "chapter": null,
-   "text": "\"Go into town tomorrow. Enter Garmin's off licence at twelve thirty seven exactly. A man will ask you a question. Your answer is twenty seven.\"",
-   "who": "seer",
-   "start": 991.568,
-   "end": 1000.35
-  },
-  {
-   "i": 235,
-   "beat": 132,
-   "chapter": null,
-   "text": "The next day Jack walked in at exactly that minute.",
-   "who": "nar",
-   "start": 1000.8,
-   "end": 1004.843
-  },
-  {
-   "i": 236,
-   "beat": 132,
-   "chapter": null,
-   "text": "At the counter there was a big man in work clothes, filling in a lottery slip with a stub of pencil.",
-   "who": "nar",
-   "start": 1005.143,
-   "end": 1013.418
-  },
-  {
-   "i": 237,
-   "beat": 133,
-   "chapter": null,
-   "text": "\"My birthday, that is the fifteenth. Wife's birthday, the twenty fourth. Kids are two, ten and thirteen.\"",
-   "who": "man",
-   "start": 1013.868,
-   "end": 1019.357
-  },
-  {
-   "i": 238,
-   "beat": 134,
-   "chapter": null,
-   "text": "He scratched his head and looked round the shop, and his eyes landed on Jack.",
-   "who": "nar",
-   "start": 1019.807,
-   "end": 1025.951
-  },
-  {
-   "i": 239,
-   "beat": 135,
-   "chapter": null,
-   "text": "\"Hey, mate. I need one more number. Got one for me?\"",
-   "who": "man",
-   "start": 1026.401,
-   "end": 1029.153
-  },
-  {
-   "i": 240,
-   "beat": 136,
-   "chapter": null,
-   "text": "Jack smiled.",
-   "who": "nar",
-   "start": 1029.603,
-   "end": 1030.587
-  },
-  {
-   "i": 241,
-   "beat": 137,
-   "chapter": null,
-   "text": "\"Twenty seven.\"",
-   "who": "jack",
-   "start": 1031.037,
-   "end": 1031.892
-  },
-  {
-   "i": 242,
-   "beat": 138,
-   "chapter": null,
-   "text": "\"Twenty seven? I was going to put thirty five. But you know what, I like your face. Twenty seven it is.\"",
-   "who": "man",
-   "start": 1032.342,
-   "end": 1037.758
-  },
-  {
-   "i": 243,
-   "beat": 139,
-   "chapter": null,
-   "text": "He paid for his ticket, patted Jack on the shoulder, and walked out whistling.",
-   "who": "nar",
-   "start": 1038.208,
-   "end": 1044.098
-  },
-  {
-   "i": 244,
-   "beat": 140,
-   "chapter": null,
-   "text": "Jack tried not to think about what he had just done to that man.",
-   "who": "nar",
-   "start": 1044.548,
-   "end": 1048.827
-  },
-  {
-   "i": 245,
-   "beat": 141,
-   "chapter": null,
-   "text": "Two weeks later he met him again, in a supermarket, and the man looked like a million pounds.",
-   "who": "nar",
-   "start": 1049.277,
-   "end": 1057.044
-  },
-  {
-   "i": 246,
-   "beat": 141,
-   "chapter": null,
-   "text": "New coat, new boots, a gold watch, and a smile that took up half his face.",
-   "who": "nar",
-   "start": 1057.344,
-   "end": 1063.619
-  },
-  {
-   "i": 247,
-   "beat": 142,
-   "chapter": null,
-   "text": "\"It is you! I won, mate. I won. I would never have won without you.\"",
-   "who": "man",
-   "start": 1064.069,
-   "end": 1067.951
-  },
-  {
-   "i": 248,
-   "beat": 143,
-   "chapter": null,
-   "text": "He tried to pay for Jack's shopping.",
-   "who": "nar",
-   "start": 1068.401,
-   "end": 1070.37
-  },
-  {
-   "i": 249,
-   "beat": 143,
-   "chapter": null,
-   "text": "Then he decided shopping was not enough, took out a chequebook, leaned it on a freezer, and wrote Jack a cheque for ten thousand pounds.",
-   "who": "nar",
-   "start": 1070.67,
-   "end": 1081.525
-  },
-  {
-   "i": 250,
-   "beat": 144,
-   "chapter": null,
-   "text": "\"For my lucky charm. My mum always said, treat people right.\"",
-   "who": "man",
-   "start": 1081.975,
-   "end": 1085.584
-  },
-  {
-   "i": 251,
-   "beat": 145,
-   "chapter": null,
-   "text": "Jack drove home with that cheque on the passenger seat, and he felt something new.",
-   "who": "nar",
-   "start": 1086.034,
-   "end": 1091.905
-  },
-  {
-   "i": 252,
-   "beat": 145,
-   "chapter": null,
-   "text": "He felt good.",
-   "who": "nar",
-   "start": 1092.205,
-   "end": 1093.211
-  },
-  {
-   "i": 253,
-   "beat": 146,
-   "chapter": null,
-   "text": "\"We have never helped anybody before. Why now?\"",
-   "who": "jack",
-   "start": 1093.661,
-   "end": 1096.342
-  },
-  {
-   "i": 254,
-   "beat": 147,
-   "chapter": null,
-   "text": "\"Oh Jack. We have not helped him.\"",
-   "who": "seer",
-   "start": 1096.792,
-   "end": 1098.516
-  },
-  {
-   "i": 255,
-   "beat": 148,
-   "chapter": null,
-   "text": "\"That man will lose every penny inside two years. You saw him. He gives money away. Old friends will come back. Relatives he has never met will find him. There will be two very bad investments.\"",
-   "who": "seer",
-   "start": 1098.966,
-   "end": 1109.887
-  },
-  {
-   "i": 256,
-   "beat": 149,
-   "chapter": null,
-   "text": "\"The money will go, and the fear of losing it will finish his marriage. His wife will take the children. He will end up alone and poor and smaller than he started, and he would have been happier if he had never held that ticket.\"",
-   "who": "seer",
-   "start": 1110.337,
-   "end": 1121.824
-  },
-  {
-   "i": 257,
-   "beat": 150,
-   "chapter": null,
-   "text": "\"You need not feel bad. It is his own greed that will do it, not you.\"",
-   "who": "seer",
-   "start": 1122.274,
-   "end": 1125.999
-  },
-  {
-   "i": 258,
-   "beat": 151,
-   "chapter": null,
-   "text": "And that was how it always went.",
-   "who": "nar",
-   "start": 1126.449,
-   "end": 1128.74
-  },
-  {
-   "i": 259,
-   "beat": 151,
-   "chapter": null,
-   "text": "The Seer explained, and the explanation always made room for Jack, and Jack always had something in his hand to make the explanation easier to accept.",
-   "who": "nar",
-   "start": 1129.04,
-   "end": 1141.923
-  },
-  {
-   "i": 260,
-   "beat": 152,
-   "chapter": "Twelve Good Years",
-   "text": "The tasks never repeated themselves.",
-   "who": "nar",
-   "start": 1142.523,
-   "end": 1145.065
-  },
-  {
-   "i": 261,
-   "beat": 152,
-   "chapter": null,
-   "text": "Sometimes the result was easy to see.",
-   "who": "nar",
-   "start": 1145.365,
-   "end": 1148.49
-  },
-  {
-   "i": 262,
-   "beat": 152,
-   "chapter": null,
-   "text": "Sometimes it was so tangled that Jack could not follow it at all.",
-   "who": "nar",
-   "start": 1148.79,
-   "end": 1154.119
-  },
-  {
-   "i": 263,
-   "beat": 153,
-   "chapter": null,
-   "text": "\"Go to the county offices. Park in space forty three, at seven minutes to five.\"",
-   "who": "seer",
-   "start": 1154.569,
-   "end": 1159.16
-  },
-  {
-   "i": 264,
-   "beat": 154,
-   "chapter": null,
-   "text": "He did it, and nothing happened.",
-   "who": "nar",
-   "start": 1159.61,
-   "end": 1161.549
-  },
-  {
-   "i": 265,
-   "beat": 154,
-   "chapter": null,
-   "text": "Two months later he met a woman called Donna, and sixteen months after that he married her.",
-   "who": "nar",
-   "start": 1161.849,
-   "end": 1169.173
-  },
-  {
-   "i": 266,
-   "beat": 155,
-   "chapter": null,
-   "text": "He would never have connected the two if he had not asked.",
-   "who": "nar",
-   "start": 1169.623,
-   "end": 1173.16
-  },
-  {
-   "i": 267,
-   "beat": 156,
-   "chapter": null,
-   "text": "\"When you parked in that space, Jack, the woman who would have parked there had to use another one. She scratched the car beside her. Barely a mark, but she called her insurance man anyway.\"",
-   "who": "seer",
-   "start": 1173.61,
-   "end": 1183.255
-  },
-  {
-   "i": 268,
-   "beat": 157,
-   "chapter": null,
-   "text": "\"He left his office eleven minutes late. He missed his train. While he waited for the next one he was robbed, and he will never be quite right again.\"",
-   "who": "seer",
-   "start": 1183.705,
-   "end": 1191.344
-  },
-  {
-   "i": 269,
-   "beat": 158,
-   "chapter": null,
-   "text": "\"The men who robbed him took his cards and used them, and I could go on, Jack, but there are another twenty three people in this chain. Let us simply say that your small action put Donna exactly where you would find her.\"",
-   "who": "seer",
-   "start": 1191.794,
-   "end": 1203.119
-  },
-  {
-   "i": 270,
-   "beat": 159,
-   "chapter": null,
-   "text": "Jack read that, and he thought about the man on the platform, and then he looked across the room at his wife asleep on the sofa, and he decided not to think about it any more.",
-   "who": "nar",
-   "start": 1203.569,
-   "end": 1217.765
-  },
-  {
-   "i": 271,
-   "beat": 160,
-   "chapter": null,
-   "text": "That is the part people never understand about Jack.",
-   "who": "nar",
-   "start": 1218.215,
-   "end": 1222.431
-  },
-  {
-   "i": 272,
-   "beat": 160,
-   "chapter": null,
-   "text": "He was not a monster.",
-   "who": "nar",
-   "start": 1222.731,
-   "end": 1224.125
-  },
-  {
-   "i": 273,
-   "beat": 160,
-   "chapter": null,
-   "text": "He was a quiet man who had been lonely for thirty one years and was not lonely any more.",
-   "who": "nar",
-   "start": 1224.425,
-   "end": 1231.565
-  },
-  {
-   "i": 274,
-   "beat": 161,
-   "chapter": null,
-   "text": "Over the years the Seer told him a little about itself, never very much, always in pieces.",
-   "who": "nar",
-   "start": 1232.015,
-   "end": 1240.008
-  },
-  {
-   "i": 275,
-   "beat": 162,
-   "chapter": null,
-   "text": "From the things it mentioned, Jack worked out that it was thousands of years old.",
-   "who": "nar",
-   "start": 1240.458,
-   "end": 1245.99
-  },
-  {
-   "i": 276,
-   "beat": 163,
-   "chapter": null,
-   "text": "When it was alive it had been a fortune teller and an artist, and it painted what was going to happen.",
-   "who": "nar",
-   "start": 1246.44,
-   "end": 1254.073
-  },
-  {
-   "i": 277,
-   "beat": 163,
-   "chapter": null,
-   "text": "Kings paid for those paintings.",
-   "who": "nar",
-   "start": 1254.373,
-   "end": 1256.406
-  },
-  {
-   "i": 278,
-   "beat": 164,
-   "chapter": null,
-   "text": "One king read a painting badly, took his army out, and lost everything.",
-   "who": "nar",
-   "start": 1256.856,
-   "end": 1263.123
-  },
-  {
-   "i": 279,
-   "beat": 164,
-   "chapter": null,
-   "text": "Angry and ashamed, he had the painter executed.",
-   "who": "nar",
-   "start": 1263.423,
-   "end": 1267.335
-  },
-  {
-   "i": 280,
-   "beat": 165,
-   "chapter": null,
-   "text": "And then something went wrong with death.",
-   "who": "nar",
-   "start": 1267.785,
-   "end": 1270.102
-  },
-  {
-   "i": 281,
-   "beat": 165,
-   "chapter": null,
-   "text": "With no body, no eyes, no hands, floating in a dark with nothing to look at, the Seer's gift grew and grew, until it could see every road a life could take.",
-   "who": "nar",
-   "start": 1270.402,
-   "end": 1283.83
-  },
-  {
-   "i": 282,
-   "beat": 166,
-   "chapter": null,
-   "text": "It took a very long time to learn how to speak to the living.",
-   "who": "nar",
-   "start": 1284.28,
-   "end": 1288.679
-  },
-  {
-   "i": 283,
-   "beat": 166,
-   "chapter": null,
-   "text": "When it finally could, it reached out to the ones who would answer.",
-   "who": "nar",
-   "start": 1288.979,
-   "end": 1293.664
-  },
-  {
-   "i": 284,
-   "beat": 166,
-   "chapter": null,
-   "text": "Jack answered.",
-   "who": "nar",
-   "start": 1293.964,
-   "end": 1294.985
-  },
-  {
-   "i": 285,
-   "beat": 167,
-   "chapter": null,
-   "text": "In the end it was as close to a friendship as a living man can have with something that died before his country had a name.",
-   "who": "nar",
-   "start": 1295.435,
-   "end": 1305.814
-  },
-  {
-   "i": 286,
-   "beat": 168,
-   "chapter": null,
-   "text": "And Jack was grateful.",
-   "who": "nar",
-   "start": 1306.264,
-   "end": 1307.763
-  },
-  {
-   "i": 287,
-   "beat": 168,
-   "chapter": null,
-   "text": "He had a good job, a big house in the country, a wife who laughed at his jokes, and people who were pleased to see him.",
-   "who": "nar",
-   "start": 1308.063,
-   "end": 1317.315
-  },
-  {
-   "i": 288,
-   "beat": 169,
-   "chapter": null,
-   "text": "He was happy.",
-   "who": "nar",
-   "start": 1317.765,
-   "end": 1318.719
-  },
-  {
-   "i": 289,
-   "beat": 169,
-   "chapter": null,
-   "text": "He had never been happy before.",
-   "who": "nar",
-   "start": 1319.019,
-   "end": 1320.882
-  },
-  {
-   "i": 290,
-   "beat": 170,
-   "chapter": null,
-   "text": "Twelve years passed like that.",
-   "who": "nar",
-   "start": 1321.332,
-   "end": 1323.356
-  },
-  {
-   "i": 291,
-   "beat": 170,
-   "chapter": null,
-   "text": "Twelve good years.",
-   "who": "nar",
-   "start": 1323.656,
-   "end": 1324.838
-  },
-  {
-   "i": 292,
-   "beat": 170,
-   "chapter": null,
-   "text": "More than a hundred favours, each one small, each one harmless on its own.",
-   "who": "nar",
-   "start": 1325.138,
-   "end": 1331.623
-  },
-  {
-   "i": 293,
-   "beat": 171,
-   "chapter": "The Pizza",
-   "text": "It was a Friday evening in the office of his big house, and the red letters came again.",
-   "who": "nar",
-   "start": 1332.223,
-   "end": 1339.024
-  },
-  {
-   "i": 294,
-   "beat": 172,
-   "chapter": null,
-   "text": "\"Hello Jack. I have a favour to ask. This one is the easiest of them all. You do not even have to stand up.\"",
-   "who": "seer",
-   "start": 1339.474,
-   "end": 1345.285
-  },
-  {
-   "i": 295,
-   "beat": 173,
-   "chapter": null,
-   "text": "\"In exactly two minutes, call Riago's pizza. Let it ring three times. Then put the phone down.\"",
-   "who": "seer",
-   "start": 1345.735,
-   "end": 1351.491
-  },
-  {
-   "i": 296,
-   "beat": 174,
-   "chapter": null,
-   "text": "Jack smiled.",
-   "who": "nar",
-   "start": 1351.941,
-   "end": 1352.925
-  },
-  {
-   "i": 297,
-   "beat": 174,
-   "chapter": null,
-   "text": "After twelve years he did not wonder any more.",
-   "who": "nar",
-   "start": 1353.225,
-   "end": 1356.468
-  },
-  {
-   "i": 298,
-   "beat": 174,
-   "chapter": null,
-   "text": "He waited two minutes, dialled, counted three rings, and hung up.",
-   "who": "nar",
-   "start": 1356.768,
-   "end": 1361.751
-  },
-  {
-   "i": 299,
-   "beat": 175,
-   "chapter": null,
-   "text": "Half an hour later the doorbell rang.",
-   "who": "nar",
-   "start": 1362.201,
-   "end": 1364.475
-  },
-  {
-   "i": 300,
-   "beat": 176,
-   "chapter": null,
-   "text": "That was odd.",
-   "who": "nar",
-   "start": 1364.925,
-   "end": 1365.913
-  },
-  {
-   "i": 301,
-   "beat": 176,
-   "chapter": null,
-   "text": "Neither of them was expecting anybody out here, at the end of a long road, in the dark.",
-   "who": "nar",
-   "start": 1366.213,
-   "end": 1374.083
-  },
-  {
-   "i": 302,
-   "beat": 177,
-   "chapter": null,
-   "text": "Jack looked through the little glass in the door and saw a delivery boy holding a flat box, with Riago's printed on his cap.",
-   "who": "nar",
-   "start": 1374.533,
-   "end": 1385.211
-  },
-  {
-   "i": 303,
-   "beat": 178,
-   "chapter": null,
-   "text": "He opened the door.",
-   "who": "nar",
-   "start": 1385.661,
-   "end": 1386.878
-  },
-  {
-   "i": 304,
-   "beat": 179,
-   "chapter": null,
-   "text": "\"Your pizza.\"",
-   "who": "boy",
-   "start": 1387.328,
-   "end": 1388.159
-  },
-  {
-   "i": 305,
-   "beat": 180,
-   "chapter": null,
-   "text": "The boy pushed the box into Jack's hands.",
-   "who": "nar",
-   "start": 1388.609,
-   "end": 1391.613
-  },
-  {
-   "i": 306,
-   "beat": 181,
-   "chapter": null,
-   "text": "\"I did not order this.\"",
-   "who": "jack",
-   "start": 1392.063,
-   "end": 1393.295
-  },
-  {
-   "i": 307,
-   "beat": 182,
-   "chapter": null,
-   "text": "\"I do not care whether you ordered it. Mister Riago told me this address, so this is the address I came to.\"",
-   "who": "boy",
-   "start": 1393.745,
-   "end": 1400.404
-  },
-  {
-   "i": 308,
-   "beat": 183,
-   "chapter": null,
-   "text": "And Jack, standing in his own doorway with a warm box in his hands, really looked at him for the first time.",
-   "who": "nar",
-   "start": 1400.854,
-   "end": 1409.297
-  },
-  {
-   "i": 309,
-   "beat": 184,
-   "chapter": null,
-   "text": "The boy was about seventeen.",
-   "who": "nar",
-   "start": 1409.747,
-   "end": 1411.733
-  },
-  {
-   "i": 310,
-   "beat": 184,
-   "chapter": null,
-   "text": "And he was enormous.",
-   "who": "nar",
-   "start": 1412.033,
-   "end": 1413.171
-  },
-  {
-   "i": 311,
-   "beat": 184,
-   "chapter": null,
-   "text": "Six and a half feet of him, filling the whole door frame, with shoulders like a man twice his age.",
-   "who": "nar",
-   "start": 1413.471,
-   "end": 1421.5
-  },
-  {
-   "i": 312,
-   "beat": 185,
-   "chapter": null,
-   "text": "\"It is paid for. Card. I am not driving it back.\"",
-   "who": "boy",
-   "start": 1421.95,
-   "end": 1424.67
-  },
-  {
-   "i": 313,
-   "beat": 186,
-   "chapter": null,
-   "text": "He put out his hand for a tip.",
-   "who": "nar",
-   "start": 1425.12,
-   "end": 1427.05
-  },
-  {
-   "i": 314,
-   "beat": 187,
-   "chapter": null,
-   "text": "\"I am sorry. I have no cash in the house.\"",
-   "who": "jack",
-   "start": 1427.5,
-   "end": 1429.792
-  },
-  {
-   "i": 315,
-   "beat": 188,
-   "chapter": null,
-   "text": "\"Of course you do not.\"",
-   "who": "boy",
-   "start": 1430.242,
-   "end": 1431.437
-  },
-  {
-   "i": 316,
-   "beat": 189,
-   "chapter": null,
-   "text": "The boy did not move for a moment.",
-   "who": "nar",
-   "start": 1431.887,
-   "end": 1434.085
-  },
-  {
-   "i": 317,
-   "beat": 189,
-   "chapter": null,
-   "text": "He looked past Jack, into the hall, at the warm light and the big rooms and the sound of the television.",
-   "who": "nar",
-   "start": 1434.385,
-   "end": 1443.288
-  },
-  {
-   "i": 318,
-   "beat": 190,
-   "chapter": null,
-   "text": "Then he turned and walked back to his car, slowly, looking over his shoulder twice before he got in.",
-   "who": "nar",
-   "start": 1443.738,
-   "end": 1452.024
-  },
-  {
-   "i": 319,
-   "beat": 191,
-   "chapter": null,
-   "text": "Jack shut the door and carried the pizza through to the living room, where Donna was curled up on the sofa.",
-   "who": "nar",
-   "start": 1452.474,
-   "end": 1460.496
-  },
-  {
-   "i": 320,
-   "beat": 192,
-   "chapter": null,
-   "text": "He told her the whole silly story, and she opened the box and laughed.",
-   "who": "nar",
-   "start": 1460.946,
-   "end": 1466.507
-  },
-  {
-   "i": 321,
-   "beat": 193,
-   "chapter": null,
-   "text": "\"It has got every single one of your toppings on it. Come back quickly, before I eat it all.\"",
-   "who": "donna",
-   "start": 1466.957,
-   "end": 1472.049
-  },
-  {
-   "i": 322,
-   "beat": 194,
-   "chapter": null,
-   "text": "He promised he would be two minutes, and he went upstairs to the office, because he always checked in.",
-   "who": "nar",
-   "start": 1472.499,
-   "end": 1480.006
-  },
-  {
-   "i": 323,
-   "beat": 195,
-   "chapter": null,
-   "text": "\"Confused? Do not be. Your neighbours down the road ordered that pizza. Mister Riago gave the boy the right address, but a telephone was ringing while he said it, and the boy heard it wrongly. Give him some credit. He found the right road.\"",
-   "who": "seer",
-   "start": 1480.456,
-   "end": 1493.359
-  },
-  {
-   "i": 324,
-   "beat": 196,
-   "chapter": null,
-   "text": "\"So my reward is a pizza?\"",
-   "who": "jack",
-   "start": 1493.809,
-   "end": 1495.389
-  },
-  {
-   "i": 325,
-   "beat": 197,
-   "chapter": null,
-   "text": "\"Your reward is a pizza, and an evening with your wife. Go down. Share it. Enjoy it. Afterwards, hold her. That is not a task, that is only advice, and I think you should take it.\"",
-   "who": "seer",
-   "start": 1495.839,
-   "end": 1505.981
-  },
-  {
-   "i": 326,
-   "beat": 198,
-   "chapter": null,
-   "text": "\"Your neighbours, by the way, are arguing about the pizza that never came. People argue about the strangest things. Their evening will get much worse than yours. Go on. Enjoy your night.\"",
-   "who": "seer",
-   "start": 1506.431,
-   "end": 1516.71
-  },
-  {
-   "i": 327,
-   "beat": 199,
-   "chapter": null,
-   "text": "So he did.",
-   "who": "nar",
-   "start": 1517.16,
-   "end": 1517.971
-  },
-  {
-   "i": 328,
-   "beat": 199,
-   "chapter": null,
-   "text": "They ate on the sofa with the lamp low and the television murmuring, and they laughed, and later they fell asleep there together.",
-   "who": "nar",
-   "start": 1518.271,
-   "end": 1527.904
-  },
-  {
-   "i": 329,
-   "beat": 200,
-   "chapter": null,
-   "text": "Donna went to sleep a little after eleven, with her head on his shoulder.",
-   "who": "nar",
-   "start": 1528.354,
-   "end": 1533.83
-  },
-  {
-   "i": 330,
-   "beat": 201,
-   "chapter": null,
-   "text": "Jack lay in the dark with his eyes open.",
-   "who": "nar",
-   "start": 1534.28,
-   "end": 1537.208
-  },
-  {
-   "i": 331,
-   "beat": 201,
-   "chapter": null,
-   "text": "Something about this favour was sitting wrong in him, and he could not say why.",
-   "who": "nar",
-   "start": 1537.508,
-   "end": 1543.396
-  },
-  {
-   "i": 332,
-   "beat": 202,
-   "chapter": null,
-   "text": "He moved his arm out from under her very carefully, so that she would not wake, and he went upstairs.",
-   "who": "nar",
-   "start": 1543.846,
-   "end": 1551.259
-  },
-  {
-   "i": 333,
-   "beat": 203,
-   "chapter": null,
-   "text": "\"Are you there?\"",
-   "who": "jack",
-   "start": 1551.709,
-   "end": 1552.523
-  },
-  {
-   "i": 334,
-   "beat": 204,
-   "chapter": null,
-   "text": "\"I am always here. I have been waiting for you to come back up.\"",
-   "who": "seer",
-   "start": 1552.973,
-   "end": 1556.252
-  },
-  {
-   "i": 335,
-   "beat": 205,
-   "chapter": null,
-   "text": "\"That delivery boy. He really is quite a specimen, is he not?\"",
-   "who": "seer",
-   "start": 1556.702,
-   "end": 1559.97
-  },
-  {
-   "i": 336,
-   "beat": 206,
-   "chapter": "The Masterpiece",
-   "text": "Jack read the line twice.",
-   "who": "nar",
-   "start": 1560.57,
-   "end": 1562.316
-  },
-  {
-   "i": 337,
-   "beat": 207,
-   "chapter": null,
-   "text": "\"He is a terrible employee. Three days in the job and Mister Riago already wants rid of him. But as a body he is magnificent. Strong, fast, and very observant.\"",
-   "who": "seer",
-   "start": 1562.766,
-   "end": 1572.537
-  },
-  {
-   "i": 338,
-   "beat": 208,
-   "chapter": null,
-   "text": "\"For example, he noticed that you did not lock your front door after he left.\"",
-   "who": "seer",
-   "start": 1572.987,
-   "end": 1576.808
-  },
-  {
-   "i": 339,
-   "beat": 209,
-   "chapter": null,
-   "text": "Jack was already standing up.",
-   "who": "nar",
-   "start": 1577.258,
-   "end": 1579.225
-  },
-  {
-   "i": 340,
-   "beat": 210,
-   "chapter": null,
-   "text": "\"Sit down, Jack. Locking it now will change nothing, and there is something I want you to hear.\"",
-   "who": "seer",
-   "start": 1579.675,
-   "end": 1584.366
-  },
-  {
-   "i": 341,
-   "beat": 211,
-   "chapter": null,
-   "text": "He sat down.",
-   "who": "nar",
-   "start": 1584.816,
-   "end": 1585.82
-  },
-  {
-   "i": 342,
-   "beat": 211,
-   "chapter": null,
-   "text": "He looked back at the dark doorway behind him, and he sat down.",
-   "who": "nar",
-   "start": 1586.12,
-   "end": 1590.618
-  },
-  {
-   "i": 343,
-   "beat": 212,
-   "chapter": null,
-   "text": "\"It is true that I have never lied to you. Everything I have told you is honest. But I have kept things back.\"",
-   "who": "seer",
-   "start": 1591.068,
-   "end": 1596.84
-  },
-  {
-   "i": 344,
-   "beat": 213,
-   "chapter": null,
-   "text": "\"I told you that every task brings one bad thing for the world and one good thing for you. There is a third thing, Jack. Every task has also been working towards one single end.\"",
-   "who": "seer",
-   "start": 1597.29,
-   "end": 1606.586
-  },
-  {
-   "i": 345,
-   "beat": 214,
-   "chapter": null,
-   "text": "\"Do you remember Allie?\"",
-   "who": "seer",
-   "start": 1607.036,
-   "end": 1608.294
-  },
-  {
-   "i": 346,
-   "beat": 215,
-   "chapter": null,
-   "text": "Jack did not answer.",
-   "who": "nar",
-   "start": 1608.744,
-   "end": 1610.176
-  },
-  {
-   "i": 347,
-   "beat": 216,
-   "chapter": null,
-   "text": "\"Of course you do. What you never knew is that Allie was paying for her younger brother's studies. When she died, he left university. He was going to be a very good psychologist. He works in a factory now.\"",
-   "who": "seer",
-   "start": 1610.626,
-   "end": 1622.026
-  },
-  {
-   "i": 348,
-   "beat": 217,
-   "chapter": null,
-   "text": "\"Which is a pity for our delivery boy. He needed a very good psychologist four years ago. Instead he was sent to a bad one.\"",
-   "who": "seer",
-   "start": 1622.476,
-   "end": 1629.319
-  },
-  {
-   "i": 349,
-   "beat": 218,
-   "chapter": null,
-   "text": "\"And our lottery winner? He lost his money, exactly as I said, and he moved to a cheaper street. He became that boy's neighbour.\"",
-   "who": "seer",
-   "start": 1629.769,
-   "end": 1636.614
-  },
-  {
-   "i": 350,
-   "beat": 219,
-   "chapter": null,
-   "text": "\"One evening the boy ran into the road in front of his car, and that ruined, angry man beat him in the street until people pulled him off. The boy was fourteen.\"",
-   "who": "seer",
-   "start": 1637.064,
-   "end": 1645.785
-  },
-  {
-   "i": 351,
-   "beat": 220,
-   "chapter": null,
-   "text": "\"His mother did not protect him. She could not. She was not really there any more, because of the drugs her boyfriend brought home.\"",
-   "who": "seer",
-   "start": 1646.235,
-   "end": 1652.84
-  },
-  {
-   "i": 352,
-   "beat": 221,
-   "chapter": null,
-   "text": "\"And her boyfriend was one of the two men who robbed an insurance agent at a railway station, twelve years ago, on the evening you parked in space forty three. He bought those drugs with that money.\"",
-   "who": "seer",
-   "start": 1653.29,
-   "end": 1663.809
-  },
-  {
-   "i": 353,
-   "beat": 222,
-   "chapter": null,
-   "text": "\"Now. Do you see the size of it?\"",
-   "who": "seer",
-   "start": 1664.259,
-   "end": 1665.964
-  },
-  {
-   "i": 354,
-   "beat": 223,
-   "chapter": null,
-   "text": "Jack sat in his chair with his hands in his lap and did not move.",
-   "who": "nar",
-   "start": 1666.414,
-   "end": 1671.763
-  },
-  {
-   "i": 355,
-   "beat": 224,
-   "chapter": null,
-   "text": "\"You have done more than a hundred favours for me, Jack, and every one of them was a brush stroke. One boy, broken carefully, over years, by people who never met each other.\"",
-   "who": "seer",
-   "start": 1672.213,
-   "end": 1681.71
-  },
-  {
-   "i": 356,
-   "beat": 225,
-   "chapter": null,
-   "text": "\"Tens of thousands of lives were touched. Billions of possibilities had to fall the right way. If you had failed one single task, the whole picture would have collapsed.\"",
-   "who": "seer",
-   "start": 1682.16,
-   "end": 1690.872
-  },
-  {
-   "i": 357,
-   "beat": 226,
-   "chapter": null,
-   "text": "\"I saw it. You made it. It begins and it ends with you, and that is what makes it mine.\"",
-   "who": "seer",
-   "start": 1691.322,
-   "end": 1695.951
-  },
-  {
-   "i": 358,
-   "beat": 227,
-   "chapter": null,
-   "text": "\"Tonight, the wrong address, and no tip, and the big house, and the open door. Tonight that boy finally broke.\"",
-   "who": "seer",
-   "start": 1696.401,
-   "end": 1702.288
-  },
-  {
-   "i": 359,
-   "beat": 228,
-   "chapter": null,
-   "text": "\"He is downstairs now, Jack. He is standing over your wife. He is doing it at this exact moment.\"",
-   "who": "seer",
-   "start": 1702.738,
-   "end": 1707.999
-  },
-  {
-   "i": 360,
-   "beat": 229,
-   "chapter": null,
-   "text": "From the living room came a short sound.",
-   "who": "nar",
-   "start": 1708.449,
-   "end": 1711.087
-  },
-  {
-   "i": 361,
-   "beat": 229,
-   "chapter": null,
-   "text": "Not a scream.",
-   "who": "nar",
-   "start": 1711.387,
-   "end": 1712.377
-  },
-  {
-   "i": 362,
-   "beat": 229,
-   "chapter": null,
-   "text": "Something smaller, and then nothing at all.",
-   "who": "nar",
-   "start": 1712.677,
-   "end": 1715.579
-  },
-  {
-   "i": 363,
-   "beat": 230,
-   "chapter": null,
-   "text": "\"No!\"",
-   "who": "jack",
-   "start": 1716.029,
-   "end": 1716.563
-  },
-  {
-   "i": 364,
-   "beat": 231,
-   "chapter": null,
-   "text": "Jack was already out of the chair.",
-   "who": "nar",
-   "start": 1717.013,
-   "end": 1719.191
-  },
-  {
-   "i": 365,
-   "beat": 232,
-   "chapter": "Thank You",
-   "text": "\"Jack. Stop.\"",
-   "who": "seer",
-   "start": 1719.791,
-   "end": 1720.909
-  },
-  {
-   "i": 366,
-   "beat": 233,
-   "chapter": null,
-   "text": "And Jack stopped, because this time the words were not on the screen.",
-   "who": "nar",
-   "start": 1721.359,
-   "end": 1726.699
-  },
-  {
-   "i": 367,
-   "beat": 233,
-   "chapter": null,
-   "text": "They were inside his head.",
-   "who": "nar",
-   "start": 1726.999,
-   "end": 1728.43
-  },
-  {
-   "i": 368,
-   "beat": 234,
-   "chapter": null,
-   "text": "It was a woman's voice.",
-   "who": "nar",
-   "start": 1728.88,
-   "end": 1730.283
-  },
-  {
-   "i": 369,
-   "beat": 234,
-   "chapter": null,
-   "text": "Calm, warm, almost kind.",
-   "who": "nar",
-   "start": 1730.583,
-   "end": 1732.72
-  },
-  {
-   "i": 370,
-   "beat": 234,
-   "chapter": null,
-   "text": "The voice of somebody telling a child that the hard part is over.",
-   "who": "nar",
-   "start": 1733.02,
-   "end": 1738.167
-  },
-  {
-   "i": 371,
-   "beat": 235,
-   "chapter": null,
-   "text": "\"You cannot help her. She was gone before you stood up. He is coming for you now, and you cannot stop him.\"",
-   "who": "seer",
-   "start": 1738.617,
-   "end": 1744.018
-  },
-  {
-   "i": 372,
-   "beat": 236,
-   "chapter": null,
-   "text": "\"But why?\"",
-   "who": "jack",
-   "start": 1744.468,
-   "end": 1745.231
-  },
-  {
-   "i": 373,
-   "beat": 237,
-   "chapter": null,
-   "text": "Jack said it with the tears running down his face.",
-   "who": "nar",
-   "start": 1745.681,
-   "end": 1749.492
-  },
-  {
-   "i": 374,
-   "beat": 238,
-   "chapter": null,
-   "text": "\"Because a picture is not finished if it does not end where it began. It began with you.\"",
-   "who": "seer",
-   "start": 1749.942,
-   "end": 1754.475
-  },
-  {
-   "i": 375,
-   "beat": 239,
-   "chapter": null,
-   "text": "\"I want you to understand what it costs me to speak to you like this. All of my strength, at once. I will have to rest for years before I can reach anybody again. That is how much you matter to me.\"",
-   "who": "seer",
-   "start": 1754.925,
-   "end": 1765.435
-  },
-  {
-   "i": 376,
-   "beat": 240,
-   "chapter": null,
-   "text": "\"Do not feel bad, Jack. Stand still for a moment and look at what we made.\"",
-   "who": "seer",
-   "start": 1765.885,
-   "end": 1769.676
-  },
-  {
-   "i": 377,
-   "beat": 241,
-   "chapter": null,
-   "text": "Downstairs, a door moved.",
-   "who": "nar",
-   "start": 1770.126,
-   "end": 1772.237
-  },
-  {
-   "i": 378,
-   "beat": 242,
-   "chapter": null,
-   "text": "\"Shall I tell you something? If I had never spoken to you, you would have lived to eighty five. Eighty five careful, empty, bitter years. You would have died in a chair, and nobody would have come to bury you.\"",
-   "who": "seer",
-   "start": 1772.687,
-   "end": 1782.887
-  },
-  {
-   "i": 379,
-   "beat": 243,
-   "chapter": null,
-   "text": "\"I gave you twelve years that meant something. You were happy, Jack. You were loved. And together we made a thing that nobody in the world will ever see.\"",
-   "who": "seer",
-   "start": 1783.337,
-   "end": 1790.832
-  },
-  {
-   "i": 380,
-   "beat": 244,
-   "chapter": null,
-   "text": "Jack stood in the red light of the screen and thought about the twelve years.",
-   "who": "nar",
-   "start": 1791.282,
-   "end": 1796.942
-  },
-  {
-   "i": 381,
-   "beat": 245,
-   "chapter": null,
-   "text": "He thought about Donna laughing with the pizza box on her knees, an hour ago, downstairs.",
-   "who": "nar",
-   "start": 1797.392,
-   "end": 1804.189
-  },
-  {
-   "i": 382,
-   "beat": 246,
-   "chapter": null,
-   "text": "And behind him, filling the doorway of the little office, there was a very large shape, breathing hard, with a knife held low in its left hand.",
-   "who": "nar",
-   "start": 1804.639,
-   "end": 1816.342
-  },
-  {
-   "i": 383,
-   "beat": 247,
-   "chapter": null,
-   "text": "On the screen, the last red words appeared.",
-   "who": "nar",
-   "start": 1816.792,
-   "end": 1820.061
-  },
-  {
-   "i": 384,
-   "beat": 248,
-   "chapter": null,
-   "text": "\"Have you nothing to say to me, Jack?\"",
-   "who": "seer",
-   "start": 1820.511,
-   "end": 1822.443
-  },
-  {
-   "i": 385,
-   "beat": 249,
-   "chapter": null,
-   "text": "Jack wiped his face with the back of his hand.",
-   "who": "nar",
-   "start": 1822.893,
-   "end": 1826.016
-  },
-  {
-   "i": 386,
-   "beat": 249,
-   "chapter": null,
-   "text": "The shape took one step closer.",
-   "who": "nar",
-   "start": 1826.316,
-   "end": 1828.356
-  },
-  {
-   "i": 387,
-   "beat": 250,
-   "chapter": null,
-   "text": "And Jack said the two words he had been promised, twelve years before, that he would say.",
-   "who": "nar",
-   "start": 1828.806,
-   "end": 1834.984
-  },
-  {
-   "i": 388,
-   "beat": 251,
-   "chapter": null,
-   "text": "\"Thank you.\"",
-   "who": "jack",
-   "start": 1835.434,
-   "end": 1836.165
-  },
-  {
-   "i": 389,
-   "beat": 252,
-   "chapter": null,
-   "text": "This story is my retelling of The Seer of Possibilities, by Thomas O., as published on creepypasta dot com.",
-   "who": "nar",
-   "start": 1836.615,
-   "end": 1846.803
-  },
-  {
-   "i": 390,
-   "beat": 253,
-   "chapter": null,
-   "text": "It began with a plant, moved three inches, by a man who was told that it was not wrong, and not against the law, and that nobody would be hurt.",
-   "who": "nar",
-   "start": 1847.253,
-   "end": 1859.374
-  },
-  {
-   "i": 391,
-   "beat": 254,
-   "chapter": null,
-   "text": "Would you have done the first favour?",
-   "who": "nar",
-   "start": 1859.824,
-   "end": 1861.658
+   "start": 772.845,
+   "end": 774.605
   }
  ]
 }

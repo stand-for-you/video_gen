@@ -1,48 +1,48 @@
 {
- "title": "The Seer of Possibilities",
- "question": "Would you have done the first favour?",
+ "title": "Eyeless Jack",
+ "question": "Would you have taken the photograph?",
  "titles": {
-  "A": {"angle": "the story name people search for + a short hook", "text": "The Seer of Possibilities | It Only Wanted a Favour"},
-  "B": {"angle": "a fact from the story", "text": "Twelve Good Years for a Plant Moved Three Inches"},
-  "C": {"angle": "a short warning", "text": "Never Do the First Favour | A Horror Story"}
+  "A": {"angle": "the name people search for + the hook", "text": "Eyeless Jack | It Took a Piece of Me While I Slept"},
+  "B": {"angle": "a fact from the story", "text": "I Woke Up With a Kidney Missing | Eyeless Jack"},
+  "C": {"angle": "a short warning", "text": "Never Sleep With the Window Unlocked | Horror Story"}
  },
- "hindi_title": "सीअर ऑफ़ पॉसिबिलिटीज़ | उसे सिर्फ़ एक छोटी मदद चाहिए थी",
+ "hindi_title": "आईलेस जैक | वह सोते हुए मेरा एक हिस्सा ले गया",
  "thumbs": {
-  "A": "Main: the tall ghost figure of the Seer on the right, title \"ONE SMALL FAVOUR\" on the left, tiny Jack seen from behind, big red moon",
-  "B": "Much closer crop (the glowing eyes and shoulders fill the frame), short 2-word title \"SAY THANK YOU\", smaller red moon",
-  "C": "Key story object big and glowing: the dark screen with the red words \"Hello Jack. I need a favour from you.\", the Seer small and far away, title on top"
+  "A": "Main: the tall hooded figure with the blank pale face and two empty black sockets on the right, title \"IT TOOK A PIECE\" on the left, tiny Mitch seen from behind, big red moon",
+  "B": "Much closer crop (the hood, the pale face and the two black sockets fill the frame), short 2-word title \"NO EYES\"",
+  "C": "Key story object big and glowing: the camera with its red record light, the hooded figure small and far away, title on top"
  },
  "description": [
-  "A black screen. Red letters. One small favour: move a potted plant three inches to the left. Nothing wrong, nothing against the law, and nobody gets hurt.",
-  "Jack was thirty one, lonely, and had nothing to lose. So he moved the plant. Twelve years later he had the job, the big house and a wife who laughed at his jokes, and every single one of those years had been paid for by somebody he never met.",
-  "A Scroll Kaos 3D horror story. Watch to the end, and ask yourself what you would have answered."
+  "A week after Mitch moved in with his brother, something started moving under his window at one in the morning. He told himself it was a raccoon.",
+  "Two nights later he woke up with a clean cut on his cheek that he had not felt, and a surgical wound in his side that nobody in the house could explain. The night after that, he opened his eyes and saw the thing that had been doing it: a black hood, a face the colour of old grey paint, no nose, no mouth, and two black holes where the eyes should be.",
+  "He got one photograph. A Scroll Kaos 3D horror story, told in our own words."
  ],
- "credit_long": "Inspired by the creepypasta \"The Seer of Possibilities\" by Thomas O., as published on Creepypasta.com (26 January 2015). This is a non-graphic retelling in our own words, with original 3D animation and original character designs.",
- "hashtags_long": "#horrorstories #creepypasta #scarystories #theseerofpossibilities",
- "tags_story": "the seer of possibilities, seer of possibilities creepypasta, thomas o creepypasta, favour horror story, one small favour, red letters on screen, fortune teller horror, ghost on the computer, 3d horror story, animated horror story, slow burn horror, twist ending horror story, creepypasta narration, horror story about fate, possibilities",
- "short_title": "One Small Favour #shorts",
- "short_hook": "A black screen asked Jack to move a plant three inches. It paid him back with twelve of the best years of his life, and then it sent somebody to his door.",
- "short_credit": "Inspired by \"The Seer of Possibilities\" by Thomas O. (as published on Creepypasta.com). AI narration, original 3D animation.",
- "short_hashtags": "#shorts #horrorstories #creepypasta #scarystories",
- "ig_caption": ["A black screen. Red letters. Move the plant in the lobby three inches to the left. 🪴🖥️", "Nothing wrong. Nothing against the law. Nobody hurt.", "Twelve good years later, the doorbell rang."],
- "ig_credit": "Inspired by the creepypasta \"The Seer of Possibilities\" by Thomas O. (as published on Creepypasta.com). AI narration, original 3D animation by Scroll Kaos.",
- "ig_hashtags": "#horrorstories #scarystories #creepypasta #theseerofpossibilities #horrorreels #scaryreels #3danimation #animatedhorror #storytime #latenightstories #twistending #scrollkaos",
- "hindi_caption": ["एक काली स्क्रीन। लाल अक्षर। लॉबी में रखा गमला तीन इंच बाईं तरफ़ हिला दो। 🪴🖥️", "कुछ ग़लत नहीं। कानून के ख़िलाफ़ नहीं। किसी को चोट नहीं।", "बारह अच्छे साल बाद, दरवाज़े की घंटी बजी।", "", "क्रीपीपास्ता \"The Seer of Possibilities\" (थॉमस ओ., Creepypasta.com पर प्रकाशित) से प्रेरित। AI आवाज़, ओरिजिनल 3D एनिमेशन।", "", "क्या आपने वह पहली मदद की होती?"],
- "facebook": ["One night Jack's screen went black on its own and red letters asked him for a favour: move the big plant in his office lobby three inches to the left. Nothing wrong, nothing against the law, nobody hurt. Three days later he met the woman he thought he loved. Twelve years later he found out what every favour had really been for."],
- "facebook_credit": "Our new 3D horror story, inspired by the creepypasta \"The Seer of Possibilities\" by Thomas O. (as published on Creepypasta.com). AI narration, original animation.",
- "threads": ["Move the plant three inches. Nothing wrong, nothing against the law, nobody hurt.", "That was the first favour. There were more than a hundred.", "New Scroll Kaos story, inspired by the creepypasta \"The Seer of Possibilities\"."],
- "pinterest_title": "The Seer of Possibilities - 3D Horror Story",
- "pinterest_description": "A black screen asks a lonely man for one small favour: move a plant three inches. Twelve good years later he learns what he has been painting. Original 3D horror animation by Scroll Kaos, inspired by the creepypasta \"The Seer of Possibilities\" by Thomas O. (as published on Creepypasta.com). AI narration.",
+ "credit_long": "Inspired by the creepypasta \"Eyeless Jack\", first posted to Creepypasta by the user Azelf5000 (25 February 2012). This is a non-graphic retelling in our own words, with original 3D animation and an original creature design.",
+ "hashtags_long": "#horrorstories #creepypasta #eyelessjack #scarystories",
+ "tags_story": "eyeless jack, eyeless jack creepypasta, eyeless jack story, azelf5000, creepypasta narration, hooded creature horror, organ thief horror story, 3d horror story, animated horror story, slow burn horror, night time horror story, scary story about a brother, creature in the bedroom, horror story with a twist, no eyes",
+ "short_title": "It Took a Piece of Me #shorts",
+ "short_hook": "Mitch heard something under his window at one in the morning. Two nights later he woke up missing a kidney, and on the third night he saw what had been taking it.",
+ "short_credit": "Inspired by the creepypasta \"Eyeless Jack\" (posted by Azelf5000). AI narration, original 3D animation.",
+ "short_hashtags": "#shorts #horrorstories #creepypasta #eyelessjack",
+ "ig_caption": ["A slow rustling under the window at one in the morning. 🪟", "A clean cut on his cheek that he never felt.", "And on the third night, two black holes where the eyes should be."],
+ "ig_credit": "Inspired by the creepypasta \"Eyeless Jack\" (first posted by the user Azelf5000). AI narration, original 3D animation by Scroll Kaos.",
+ "ig_hashtags": "#horrorstories #scarystories #creepypasta #eyelessjack #horrorreels #scaryreels #3danimation #animatedhorror #storytime #latenightstories #creaturehorror #scrollkaos",
+ "hindi_caption": ["रात एक बजे खिड़की के नीचे धीमी सरसराहट। 🪟", "गाल पर एक साफ़ कटा निशान, जो उसे महसूस ही नहीं हुआ।", "और तीसरी रात, वहाँ दो काले गड्ढे थे जहाँ आँखें होनी चाहिए थीं।", "", "क्रीपीपास्ता \"Eyeless Jack\" (Azelf5000 द्वारा) से प्रेरित। AI आवाज़, ओरिजिनल 3D एनिमेशन।", "", "क्या आपने वह तस्वीर खींची होती?"],
+ "facebook": ["Mitch moved in with his brother after the bank took his house. A week later something was moving under his bedroom window at one in the morning, and he told himself it was a raccoon. Two nights after that a doctor showed him a surgical cut in his side that nobody could explain."],
+ "facebook_credit": "Our new 3D horror story, inspired by the creepypasta \"Eyeless Jack\" (posted by the user Azelf5000). AI narration, original animation.",
+ "threads": ["A slow rustling under the window. A cut on his cheek he never felt. A kidney gone.", "On the third night he opened his eyes and it was already leaning over the bed.", "New Scroll Kaos story, inspired by the creepypasta \"Eyeless Jack\"."],
+ "pinterest_title": "Eyeless Jack - 3D Horror Story",
+ "pinterest_description": "A man moves in with his brother and something starts coming through his bedroom window at night. Original 3D horror animation by Scroll Kaos, inspired by the creepypasta \"Eyeless Jack\" (posted by Azelf5000). AI narration.",
  "community": {
-  "teaser": ["Move the plant in the lobby three inches to the left.", "Nothing wrong. Nothing against the law. Nobody hurt.", "Tomorrow's story is about the man who did it."],
-  "long_first_line": "New story is live: \"The Seer of Possibilities\" 🪴🖥️",
-  "long_second_line": "One small favour, twelve good years, and a picture that needed a hundred brush strokes.",
-  "short_line": "A black screen asked him for one small favour. He said yes for twelve years.",
-  "poll_options": ["The plant moved three inches", "The lottery slip and the number 27", "The pizza nobody ordered", "The shape in the office doorway"]
+  "teaser": ["A slow rustling under the window at one in the morning.", "He told himself it was a raccoon.", "Tomorrow's story is about what it really was."],
+  "long_first_line": "New story is live: \"Eyeless Jack\" 🪟",
+  "long_second_line": "A rustling under the window, a cut nobody felt, and one photograph.",
+  "short_line": "He woke up missing a piece of himself, and the thing that took it came back.",
+  "poll_options": ["The rustling under the window", "The cut on his cheek", "The thing leaning over the bed", "What was in the cloth"]
  },
  "flags": {
-  "top": ["- **Story rights (important):** the source page is \"The Seer of Possibilities\" by Thomas O. on Creepypasta.com (26 January 2015). That site's own rules say its stories may not be narrated or performed in any form (UNVERIFIED wording, read it yourself). This video is a retelling in our own words with original animation, not a reading of the text, but **before you monetise it, write to Creepypasta.com and to the author and ask for narration permission.** Whether permission is needed, and who can give it, is UNVERIFIED.", "- No famous image is copied: the Seer, Jack, Allie, Donna and the delivery boy are the channel's own 3D designs."],
-  "age_restriction": "- Age-restriction risk: a knife is seen in a doorway but never used on anybody, two deaths happen off screen, and a beating is only described in one short line. YouTube may still age-restrict it (UNVERIFIED).",
-  "bottom": ["- Non-graphic changes: nothing is shown of the wife's death or of the attack on the boy; the original's harder lines about the beating, the drugs and the robbery are kept short and are only spoken, never pictured. No blood anywhere.", "- Photosensitive safety: no flashing or strobe anywhere; the screen light, the red words and the car lights are steady or fade slowly.", "- Reel shortening: the Reel keeps every main beat and the twist, but drops the counsellors and the promotion, the \"she was not the one for you\" speech, the Seer's own history as a painter, and most of the favours, and it names fewer people."]
+  "top": ["- **Story rights (important):** the source is the creepypasta \"Eyeless Jack\", first posted to Creepypasta by the user **Azelf5000** on 25 February 2012. The page the user supplied says the author later removed the original story himself, so who holds the rights now, and whether narration permission can be given, is **UNVERIFIED**. This video is a retelling in our own words with original animation, not a reading of the text. **Ask Creepypasta.com before you monetise it.**", "- **The famous mask is not used:** the well-known blue-mask photograph was made in 2009 by two DeviantArt users (nickteezy408 and Pirate-Cashoo) and is not ours to copy. Our creature is an original design built only from the words of the story: a hood, a blank grey-green face with no nose and no mouth, two hollow black sockets and something dark running out of them."],
+  "age_restriction": "- Age-restriction risk: the story is about organs being taken while a man sleeps. Nothing is shown (no wound, no blood, no surgery, no body), but YouTube may still age-restrict it (UNVERIFIED).",
+  "bottom": ["- Non-graphic changes: the organ taking and the eating are never shown or described in detail; the hospital scene shows only a doctor, a chart and a covered shoulder; the brother is a dark shape at the far end of a dark corridor; the piece in the cloth is a small dark bundle that is never opened on camera. No blood anywhere.", "- Photosensitive safety: the camera flash is one slow white fade of about half a second, not a strobe; nothing else flashes.", "- Reel shortening: the Reel keeps every main beat and the twist, but drops the move-in week, the raccoon conversation with Edwin, the doctor's questions, the run through the street, and the last line about the stain on the cloth."]
  }
 }

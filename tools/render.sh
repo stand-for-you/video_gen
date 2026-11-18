@@ -33,7 +33,7 @@ if [ "$WHAT" = all ] || [ "$WHAT" = long ]; then
   done
   ffmpeg -hide_banner -loglevel error -y -f concat -safe 0 -i renders/list.txt -c copy renders/long_raw.mp4
   python3 tools/safe_audio.py long
-  ffmpeg -hide_banner -loglevel error -y -i renders/long_raw.mp4 -i audio/long/final_safe.m4a -map 0:v -map 1:a -c:v libx264 -preset veryfast -crf $CRF -maxrate 8M -bufsize 16M -pix_fmt yuv420p -r $FPS -c:a copy -movflags +faststart -shortest "final/${T}_YouTube_1920x1080.mp4"
+  ffmpeg -hide_banner -loglevel error -y -i renders/long_raw.mp4 -i audio/long/final_safe.m4a -map 0:v -map 1:a -vf eq=gamma=1.22:contrast=1.04:saturation=1.04 -c:v libx264 -preset veryfast -crf $CRF -maxrate 8M -bufsize 16M -pix_fmt yuv420p -r $FPS -c:a copy -movflags +faststart -shortest "final/${T}_YouTube_1920x1080.mp4"
   cp out/en.srt "final/${T}_English.srt"; cp out/hi.srt "final/${T}_Hindi.srt"
   echo "LONG OK"
 fi
@@ -48,6 +48,6 @@ if [ "$WHAT" = all ] || [ "$WHAT" = reel ]; then
     ffmpeg -hide_banner -loglevel error -y -f concat -safe 0 -i renders/rlist.txt -c copy renders/reel_raw.mp4
   fi
   python3 tools/safe_audio.py reel
-  ffmpeg -hide_banner -loglevel error -y -i renders/reel_raw.mp4 -i audio/reel/final_safe.m4a -map 0:v -map 1:a -c:v libx264 -preset veryfast -crf $((CRF + 2)) -maxrate 6M -bufsize 12M -pix_fmt yuv420p -r $FPS -c:a copy -movflags +faststart -shortest "final/${T}_Reel_1080x1920.mp4"
+  ffmpeg -hide_banner -loglevel error -y -i renders/reel_raw.mp4 -i audio/reel/final_safe.m4a -map 0:v -map 1:a -vf eq=gamma=1.22:contrast=1.04:saturation=1.04 -c:v libx264 -preset veryfast -crf $((CRF + 2)) -maxrate 6M -bufsize 12M -pix_fmt yuv420p -r $FPS -c:a copy -movflags +faststart -shortest "final/${T}_Reel_1080x1920.mp4"
   echo "REEL OK"
 fi

@@ -1,33 +1,30 @@
-# THE SEER OF POSSIBILITIES - Reel script (9:16). ONE speaker only: the narrator.
-# Instagram refused a Scroll Kaos Reel that had several voices, so no character voices here.
-# Source: "The Seer of Possibilities" by Thomas O., creepypasta.com, 26 January 2015. Own-words, non-graphic retelling.
+# "Eyeless Jack" - Reel script (9:16). ONE speaker only: the narrator.
+# Own-words retelling of the creepypasta "Eyeless Jack" (posted by Azelf5000, 2012).
 BEATS = [
-# ---- TEASER (about 18 s) ----
-("Intro", "A man sits in a dark room in front of a black screen. The red words tell him his wife is already dead downstairs."),
-(None, "They say the man who did it is still in the house, coming up the stairs for him now."),
-(None, "Jack does not run. He is crying, and he is about to thank the thing on the screen. Let us go back to the beginning."),
-# ---- THE FIRST FAVOUR ----
-(None, "Twelve years earlier, Jack had a cheap flat and a tired job. One night his screen went black, and red letters asked him for a favour."),
-(None, "In his office lobby there was a plant. Move it three inches to the left. Nothing wrong, nothing against the law, nobody hurt."),
-(None, "So he did it, and he forgot about it."),
-# ---- THE PLANT ----
-(None, "Three days later a woman stopped to push that plant straight, and was still there when the lift opened."),
-(None, "That is how Jack met Allie. Two cubicles away for a year, and he had never spoken to her once."),
-(None, "He asked what it was. It said it was a seer. It could see every possible thing that could happen, and every road to it."),
-# ---- THE PRICE ----
-(None, "It had done this for thousands of years, and always took the same payment. One favour, then the next."),
-(None, "A lorry missed Allie by two seconds because Jack made a phone ring at a junction. A stranger won twenty seven million because Jack stood in a queue."),
-(None, "The screen was not giving him luck. It was spending other people to build the life he wanted."),
-# ---- TWELVE GOOD YEARS ----
-(None, "He married Donna. He bought the big house at the end of the long road. Twelve good years, paid for by favours he never questioned."),
-(None, "Then came the doorbell, a delivery boy with a warm box, and a wife on the sofa who would not wake up again."),
-(None, "Upstairs the red letters told him the truth. The boy had been a favour too. Years before, Jack had held a door for a frightened child."),
-# ---- THE MASTERPIECE ----
-(None, "It said it had been painting one picture for a very long time, that Jack was one brush stroke in it, and it was nearly finished."),
-(None, "In the doorway stood a large shape, breathing hard, with a knife held low. The screen asked if he had nothing to say."),
-(None, "And Jack, who had been given twelve good years for a plant moved three inches, said the two words he had been promised. Thank you."),
-# ---- CREDIT AND CLOSING QUESTION ----
-(None, "This is my retelling of The Seer of Possibilities, by Thomas O., on creepypasta dot com."),
-(None, "Would you have done the first favour?"),
+("Intro", "You wake in the night because something near your bed made a sound."),
+(None, "You open your eyes, and the black above you is not the ceiling. It is two empty holes where eyes should be."),
+(None, "Something dark is running out of them. Let us go back to the beginning."),
+(None, "Mitch lost his house that spring, so his brother Edwin took him in."),
+(None, "A cheap house at the end of a long street, pine woods behind the fence. He took the back room."),
+(None, "A week in, a rustling under his window woke him at one in the morning. Probably a raccoon."),
+(None, "The next night he woke all at once, sure he had heard the window lifted open."),
+(None, "Then a soft, heavy thump, like a person landing with their knees bent. The window was shut."),
+(None, "In the morning Edwin dropped his coffee cup. There was a long clean cut down Mitch's cheek, and he had not felt it."),
+(None, "The doctor said it was probably sleepwalking. Then he asked him to lift his shirt."),
+(None, "There was a surgical cut in his side, closed with neat stitches. His left kidney was gone."),
+(None, "That evening he went back to the same room. At midnight he opened his eyes, and it stood over his bed."),
+(None, "A black hood. A face the colour of old grey paint, with no nose and no mouth."),
+(None, "His hand went sideways on its own, to the camera on the shelf, and took the picture."),
+(None, "The flash filled the room. Then the dark came back, and it came at him."),
+(None, "He kicked it in the face, ran barefoot into the woods, and tripped on a rock."),
+(None, "He woke in a hospital bed, and the doctor sat down, which nobody does when the news is good."),
+(None, "Mitch was only bruised. His brother had been found in the house that morning."),
+(None, "Three days later he went back for his things, and from his door he saw down the hallway."),
+(None, "Beside his brother was something small, wrapped in cloth. He carried it out to the car."),
+(None, "Two streets away he opened it. It was the piece taken out of his side, and some of it was gone."),
+(None, "The photograph is still on that camera. It is dark and blurred, but the hood and the holes are there."),
+(None, "And in the picture it is not looking at Mitch. It is looking past him, at his open door."),
+(None, "This is my retelling of the creepypasta Eyeless Jack, posted by a user called Azelf5000."),
+(None, "Would you have taken the photograph?"),
 ]
 TEASER_LAST_BEAT = 2
