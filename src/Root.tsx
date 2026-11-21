@@ -6,6 +6,9 @@ import { SETS as SR } from './SetsR';
 import { Gal, GalR, GAL_N, GALR_N } from './Gal';
 import { Lab3, LAB3_PLATES } from './Lab3';
 import { ThumbA, ThumbB, ThumbC, ThumbR } from './ThumbsStory';
+import { UniqueL, UniqueR } from './Unique';
+import UL from './unique_long.json';
+import UR from './unique_reel.json';
 import L from './shots_long.json';
 import RL from './shots_reel.json';
 import WL from './words_long.json';
@@ -33,6 +36,8 @@ export const Root: React.FC = () => (<>
   <Composition id="Gal" component={Gal} width={1920} height={1080} fps={FPS} durationInFrames={Math.max(1, GAL_N)} />
   <Composition id="GalR" component={GalR} width={1080} height={1920} fps={FPS} durationInFrames={Math.max(1, GALR_N)} />
   <Composition id="Lab" component={Lab3} width={1920} height={1080} fps={FPS} durationInFrames={LAB3_PLATES * 100} />
+  <Composition id="UniqueL" component={UniqueL} width={1920} height={1080} fps={30} durationInFrames={UL.length} />
+  <Composition id="UniqueR" component={UniqueR} width={1080} height={1920} fps={30} durationInFrames={UR.length} />
   <Still id="ThumbA" component={ThumbA} width={1280} height={720} />
   <Still id="ThumbB" component={ThumbB} width={1280} height={720} />
   <Still id="ThumbC" component={ThumbC} width={1280} height={720} />

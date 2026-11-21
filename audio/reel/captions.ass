@@ -10,76 +10,76 @@ Style: Cap,Lora,70,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,-1,0,0,0,100,100,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:02.89,Cap,,0,0,0,,I woke up in the dark,\Nand something
-Dialogue: 0,0:00:02.91,0:00:05.77,Cap,,0,0,0,,was breathing right\Nover my bed.
-Dialogue: 0,0:00:05.79,0:00:07.76,Cap,,0,0,0,,I looked up, and two\Nblack
-Dialogue: 0,0:00:07.78,0:00:09.89,Cap,,0,0,0,,holes stared back at\Nme.
-Dialogue: 0,0:00:09.91,0:00:11.14,Cap,,0,0,0,,A blue mask.
-Dialogue: 0,0:00:11.16,0:00:12.34,Cap,,0,0,0,,A black hoodie.
-Dialogue: 0,0:00:12.36,0:00:14.21,Cap,,0,0,0,,No nose, no mouth.
-Dialogue: 0,0:00:14.23,0:00:15.98,Cap,,0,0,0,,And black liquid\Ndripping
-Dialogue: 0,0:00:16.00,0:00:17.84,Cap,,0,0,0,,from its empty eyes.
-Dialogue: 0,0:00:17.86,0:00:19.71,Cap,,0,0,0,,And this was not the\Nfirst
-Dialogue: 0,0:00:19.73,0:00:21.74,Cap,,0,0,0,,time it had come for\Nme.
-Dialogue: 0,0:00:21.76,0:00:23.34,Cap,,0,0,0,,So what did it want?
-Dialogue: 0,0:00:23.36,0:00:25.56,Cap,,0,0,0,,Let us go back to the\Nbeginning.
-Dialogue: 0,0:00:25.58,0:00:27.16,Cap,,0,0,0,,My name is Mitch.
-Dialogue: 0,0:00:27.18,0:00:29.64,Cap,,0,0,0,,After the bank took\Nour house, I
-Dialogue: 0,0:00:29.66,0:00:32.41,Cap,,0,0,0,,moved in with my\Nbrother, Edwin.
-Dialogue: 0,0:00:32.43,0:00:35.42,Cap,,0,0,0,,We had not seen each\Nother for ten years,
-Dialogue: 0,0:00:35.44,0:00:38.81,Cap,,0,0,0,,and for one week,\Neverything was normal.
-Dialogue: 0,0:00:38.83,0:00:41.92,Cap,,0,0,0,,Then, one night at one\Nin the morning,
-Dialogue: 0,0:00:41.94,0:00:44.26,Cap,,0,0,0,,I heard rustling\Noutside.
-Dialogue: 0,0:00:44.28,0:00:46.38,Cap,,0,0,0,,I thought it was a\Nraccoon,
-Dialogue: 0,0:00:46.40,0:00:48.16,Cap,,0,0,0,,and Edwin agreed.
-Dialogue: 0,0:00:48.18,0:00:51.10,Cap,,0,0,0,,The next night, I\Nheard my window
-Dialogue: 0,0:00:51.12,0:00:53.68,Cap,,0,0,0,,open, and a loud\Nthump, as if
-Dialogue: 0,0:00:53.70,0:00:56.56,Cap,,0,0,0,,something had climbed\Ninside.
-Dialogue: 0,0:00:56.58,0:00:58.79,Cap,,0,0,0,,I sat up and looked\Naround.
-Dialogue: 0,0:00:58.81,0:01:00.44,Cap,,0,0,0,,There was nothing\Nthere.
-Dialogue: 0,0:01:00.46,0:01:03.07,Cap,,0,0,0,,In the morning, Edwin\Ndropped his
-Dialogue: 0,0:01:03.09,0:01:05.92,Cap,,0,0,0,,coffee cup the moment\Nhe saw me.
-Dialogue: 0,0:01:05.94,0:01:08.38,Cap,,0,0,0,,He held up a mirror,\Nand I saw
-Dialogue: 0,0:01:08.40,0:01:11.04,Cap,,0,0,0,,a deep cut across my\Ncheek.
-Dialogue: 0,0:01:11.06,0:01:13.23,Cap,,0,0,0,,At the hospital, the\Ndoctor said
-Dialogue: 0,0:01:13.25,0:01:15.58,Cap,,0,0,0,,I must have been\Nsleepwalking.
-Dialogue: 0,0:01:15.60,0:01:17.31,Cap,,0,0,0,,Then he showed me a\Nneat,
-Dialogue: 0,0:01:17.33,0:01:19.35,Cap,,0,0,0,,stitched line on my\Nside.
-Dialogue: 0,0:01:19.37,0:01:21.48,Cap,,0,0,0,,I had lost my left\Nkidney,
-Dialogue: 0,0:01:21.50,0:01:23.57,Cap,,0,0,0,,and nobody knew how.
-Dialogue: 0,0:01:23.59,0:01:26.49,Cap,,0,0,0,,The next night was my\Nbreaking point.
-Dialogue: 0,0:01:26.51,0:01:30.03,Cap,,0,0,0,,Around midnight, I\Nwoke up, and I froze.
-Dialogue: 0,0:01:30.05,0:01:32.10,Cap,,0,0,0,,A creature was staring\Ndown
-Dialogue: 0,0:01:32.12,0:01:34.08,Cap,,0,0,0,,at me, face to face.
-Dialogue: 0,0:01:34.10,0:01:36.57,Cap,,0,0,0,,It had a black hoodie,\Na dark
-Dialogue: 0,0:01:36.59,0:01:38.84,Cap,,0,0,0,,blue mask, and no\Neyes.
-Dialogue: 0,0:01:38.86,0:01:40.86,Cap,,0,0,0,,There were only empty\Nblack
-Dialogue: 0,0:01:40.88,0:01:42.66,Cap,,0,0,0,,sockets, dripping.
-Dialogue: 0,0:01:42.68,0:01:45.70,Cap,,0,0,0,,I grabbed my camera\Nand took a picture.
-Dialogue: 0,0:01:45.72,0:01:48.08,Cap,,0,0,0,,It lunged at me,\Nreaching for
-Dialogue: 0,0:01:48.10,0:01:50.35,Cap,,0,0,0,,my chest with its\Nclaws.
-Dialogue: 0,0:01:50.37,0:01:53.13,Cap,,0,0,0,,I kicked it in the\Nface, grabbed my
-Dialogue: 0,0:01:53.15,0:01:56.36,Cap,,0,0,0,,wallet, and ran out\Ninto the night.
-Dialogue: 0,0:01:56.38,0:01:58.64,Cap,,0,0,0,,I ran into the woods\Nnear the
-Dialogue: 0,0:01:58.66,0:02:00.76,Cap,,0,0,0,,house, I tripped on a\Nrock,
-Dialogue: 0,0:02:00.78,0:02:03.25,Cap,,0,0,0,,and everything went\Nblack.
-Dialogue: 0,0:02:03.27,0:02:05.29,Cap,,0,0,0,,I woke up in the\Nhospital.
-Dialogue: 0,0:02:05.31,0:02:08.15,Cap,,0,0,0,,The doctor said my\Ninjuries were small,
-Dialogue: 0,0:02:08.17,0:02:10.42,Cap,,0,0,0,,and my parents were\Ncoming.
-Dialogue: 0,0:02:10.44,0:02:12.50,Cap,,0,0,0,,Then he told me that\Nmy brother
-Dialogue: 0,0:02:12.52,0:02:14.89,Cap,,0,0,0,,had been killed by\Nsomething.
-Dialogue: 0,0:02:14.91,0:02:17.07,Cap,,0,0,0,,My parents drove me\Nback to the
-Dialogue: 0,0:02:17.09,0:02:19.27,Cap,,0,0,0,,house to collect my\Nthings.
-Dialogue: 0,0:02:19.29,0:02:21.83,Cap,,0,0,0,,In the hallway, I saw\Nmy brother,
-Dialogue: 0,0:02:21.85,0:02:24.46,Cap,,0,0,0,,and I could not look\Nfor long.
-Dialogue: 0,0:02:24.48,0:02:27.24,Cap,,0,0,0,,Next to him lay\Nsomething small.
-Dialogue: 0,0:02:27.26,0:02:29.64,Cap,,0,0,0,,I picked it up, and I\Nwalked to
-Dialogue: 0,0:02:29.66,0:02:32.34,Cap,,0,0,0,,my parents' car\Nwithout a word.
-Dialogue: 0,0:02:32.36,0:02:34.18,Cap,,0,0,0,,When I looked at what\NI was
-Dialogue: 0,0:02:34.20,0:02:36.32,Cap,,0,0,0,,holding, I nearly\Nthrew up.
-Dialogue: 0,0:02:36.34,0:02:39.73,Cap,,0,0,0,,It was the part of me\Nthat the creature had
-Dialogue: 0,0:02:39.75,0:02:43.44,Cap,,0,0,0,,stolen, black with\Nthat same dark liquid.
-Dialogue: 0,0:02:43.46,0:02:47.90,Cap,,0,0,0,,This story is inspired\Nby the Eyeless Jack
-Dialogue: 0,0:02:47.92,0:02:52.50,Cap,,0,0,0,,creepypasta, first\Nposted by Azelf5000.
-Dialogue: 0,0:02:52.52,0:02:54.32,Cap,,0,0,0,,Would you have stayed\Nin that
-Dialogue: 0,0:02:54.34,0:02:55.66,Cap,,0,0,0,,house a second night?
+Dialogue: 0,0:00:00.00,0:00:02.63,Cap,,0,0,0,,In nineteen\Neighty-three, deep
+Dialogue: 0,0:00:02.65,0:00:05.29,Cap,,0,0,0,,beneath an underground\Nbunker,
+Dialogue: 0,0:00:05.31,0:00:07.77,Cap,,0,0,0,,an old man lay\Nstrapped to a
+Dialogue: 0,0:00:07.79,0:00:10.55,Cap,,0,0,0,,metal table in total\Nsilence.
+Dialogue: 0,0:00:10.57,0:00:12.88,Cap,,0,0,0,,Every sensory nerve in\Nhis body
+Dialogue: 0,0:00:12.90,0:00:15.01,Cap,,0,0,0,,had been surgically\Ncut.
+Dialogue: 0,0:00:15.03,0:00:17.84,Cap,,0,0,0,,The scientists\Nbelieved that without
+Dialogue: 0,0:00:17.86,0:00:20.68,Cap,,0,0,0,,the five senses, human\Nthought could
+Dialogue: 0,0:00:20.70,0:00:23.34,Cap,,0,0,0,,reach the pure\Npresence of God.
+Dialogue: 0,0:00:23.36,0:00:26.82,Cap,,0,0,0,,Instead, something far\Ndarker found him
+Dialogue: 0,0:00:26.84,0:00:30.03,Cap,,0,0,0,,in the void: hundreds\Nof dead voices
+Dialogue: 0,0:00:30.05,0:00:33.21,Cap,,0,0,0,,that refused to leave\Nhim alone.
+Dialogue: 0,0:00:33.23,0:00:36.24,Cap,,0,0,0,,And before his heart\Nstopped forever,
+Dialogue: 0,0:00:36.26,0:00:39.00,Cap,,0,0,0,,he delivered one final\Nmessage.
+Dialogue: 0,0:00:39.02,0:00:41.10,Cap,,0,0,0,,Let us go back to the\Nbeginning.
+Dialogue: 0,0:00:41.12,0:00:44.49,Cap,,0,0,0,,A team of deeply\Nreligious scientists
+Dialogue: 0,0:00:44.51,0:00:47.62,Cap,,0,0,0,,had theorized that\Nphysical senses
+Dialogue: 0,0:00:47.64,0:00:50.77,Cap,,0,0,0,,cloud our awareness of\Neternity.
+Dialogue: 0,0:00:50.79,0:00:53.24,Cap,,0,0,0,,They believed that\Nwithout stimuli,
+Dialogue: 0,0:00:53.26,0:00:55.82,Cap,,0,0,0,,a person could touch\Nthe divine.
+Dialogue: 0,0:00:55.84,0:00:59.39,Cap,,0,0,0,,An elderly volunteer\Nwith nothing left to
+Dialogue: 0,0:00:59.41,0:01:03.00,Cap,,0,0,0,,live for agreed to the\Nradical surgery.
+Dialogue: 0,0:01:03.02,0:01:05.97,Cap,,0,0,0,,Surgeons severed every\Nsensory nerve
+Dialogue: 0,0:01:05.99,0:01:09.11,Cap,,0,0,0,,connection leading\Ninto his brain.
+Dialogue: 0,0:01:09.13,0:01:11.92,Cap,,0,0,0,,Although he retained\Nfull muscular
+Dialogue: 0,0:01:11.94,0:01:14.15,Cap,,0,0,0,,function, he was\Ncompletely
+Dialogue: 0,0:01:14.17,0:01:16.69,Cap,,0,0,0,,trapped inside his own\Nmind.
+Dialogue: 0,0:01:16.71,0:01:20.05,Cap,,0,0,0,,Through one-way glass,\Nresearchers monitored
+Dialogue: 0,0:01:20.07,0:01:23.20,Cap,,0,0,0,,his slurred speech\Ninto a microphone.
+Dialogue: 0,0:01:23.22,0:01:25.60,Cap,,0,0,0,,On day four, he\Nwhispered that
+Dialogue: 0,0:01:25.62,0:01:28.07,Cap,,0,0,0,,he heard hushed,\Nunintelligible
+Dialogue: 0,0:01:28.09,0:01:29.80,Cap,,0,0,0,,voices in his head.
+Dialogue: 0,0:01:29.82,0:01:32.57,Cap,,0,0,0,,Two days later, he\Nbegan to weep,
+Dialogue: 0,0:01:32.59,0:01:34.59,Cap,,0,0,0,,crying out that his\Ndead
+Dialogue: 0,0:01:34.61,0:01:37.01,Cap,,0,0,0,,wife was speaking to\Nhim.
+Dialogue: 0,0:01:37.03,0:01:40.28,Cap,,0,0,0,,Then, he began\Nreciting the private
+Dialogue: 0,0:01:40.30,0:01:43.65,Cap,,0,0,0,,names and secrets of\Nthe scientists'
+Dialogue: 0,0:01:43.67,0:01:45.65,Cap,,0,0,0,,own dead relatives.
+Dialogue: 0,0:01:45.67,0:01:48.58,Cap,,0,0,0,,Terrified by what they\Nhad unsealed,
+Dialogue: 0,0:01:48.60,0:01:50.62,Cap,,0,0,0,,half of the research\Nteam
+Dialogue: 0,0:01:50.64,0:01:53.30,Cap,,0,0,0,,fled the facility that\Nnight.
+Dialogue: 0,0:01:53.32,0:01:56.39,Cap,,0,0,0,,Within a week, the\Nwhispers turned into a
+Dialogue: 0,0:01:56.41,0:01:59.47,Cap,,0,0,0,,deafening roar of\Nhundreds of spirits.
+Dialogue: 0,0:01:59.49,0:02:02.24,Cap,,0,0,0,,The man slammed\Nhimself against
+Dialogue: 0,0:02:02.26,0:02:05.00,Cap,,0,0,0,,walls seeking pain,\Nthen begged
+Dialogue: 0,0:02:05.02,0:02:07.37,Cap,,0,0,0,,for sedatives to\Nsleep.
+Dialogue: 0,0:02:07.39,0:02:09.32,Cap,,0,0,0,,But in his dreams, he\Ncould
+Dialogue: 0,0:02:09.34,0:02:11.41,Cap,,0,0,0,,see the dead circling\Nhim.
+Dialogue: 0,0:02:11.43,0:02:13.80,Cap,,0,0,0,,He clawed at his\Nuseless eyes,
+Dialogue: 0,0:02:13.82,0:02:15.78,Cap,,0,0,0,,screaming that the\Nvoices
+Dialogue: 0,0:02:15.80,0:02:17.62,Cap,,0,0,0,,spoke only of hell.
+Dialogue: 0,0:02:17.64,0:02:20.72,Cap,,0,0,0,,For five straight\Nhours, he shrieked:
+Dialogue: 0,0:02:20.74,0:02:23.13,Cap,,0,0,0,,No heaven, no\Nforgiveness!
+Dialogue: 0,0:02:23.15,0:02:25.70,Cap,,0,0,0,,The scientists refused\Nto stop,
+Dialogue: 0,0:02:25.72,0:02:27.94,Cap,,0,0,0,,convinced they were\Nmoments
+Dialogue: 0,0:02:27.96,0:02:30.33,Cap,,0,0,0,,away from contacting\NGod.
+Dialogue: 0,0:02:30.35,0:02:33.35,Cap,,0,0,0,,Driven to absolute\Nmadness, he began
+Dialogue: 0,0:02:33.37,0:02:35.45,Cap,,0,0,0,,thrashing violently\Nuntil
+Dialogue: 0,0:02:35.47,0:02:38.19,Cap,,0,0,0,,researchers strapped\Nhim down.
+Dialogue: 0,0:02:38.21,0:02:41.35,Cap,,0,0,0,,For two weeks, he\Nstared blankly
+Dialogue: 0,0:02:41.37,0:02:44.31,Cap,,0,0,0,,at the ceiling as\Nsilent tears
+Dialogue: 0,0:02:44.33,0:02:47.18,Cap,,0,0,0,,ran down his face,\Nkept alive
+Dialogue: 0,0:02:47.20,0:02:50.16,Cap,,0,0,0,,only by intravenous\Nfluids.
+Dialogue: 0,0:02:50.18,0:02:53.29,Cap,,0,0,0,,On the fifteenth\Nnight, the blind man
+Dialogue: 0,0:02:53.31,0:02:55.90,Cap,,0,0,0,,slowly turned his head\Nand made
+Dialogue: 0,0:02:55.92,0:02:58.60,Cap,,0,0,0,,dead-center eye\Ncontact with the
+Dialogue: 0,0:02:58.62,0:03:01.60,Cap,,0,0,0,,lead scientist through\Nthe glass.
+Dialogue: 0,0:03:01.62,0:03:04.09,Cap,,0,0,0,,He whispered: I have\Nspoken with
+Dialogue: 0,0:03:04.11,0:03:06.56,Cap,,0,0,0,,God, and he has\Nabandoned us.
+Dialogue: 0,0:03:06.58,0:03:08.57,Cap,,0,0,0,,In that exact second,\Nhis
+Dialogue: 0,0:03:08.59,0:03:10.66,Cap,,0,0,0,,heart stopped forever.
+Dialogue: 0,0:03:10.68,0:03:13.21,Cap,,0,0,0,,Would you have severed\Nevery sensory
+Dialogue: 0,0:03:13.23,0:03:15.42,Cap,,0,0,0,,nerve to hear the\Nvoice of God?

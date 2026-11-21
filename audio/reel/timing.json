@@ -1,383 +1,257 @@
 {
- "duration": 176.85891666666666,
+ "duration": 196.02454166666666,
  "units": [
   {
    "i": 0,
    "beat": 0,
    "chapter": "Intro",
-   "text": "I woke up in the dark, and something was breathing right over my bed.",
+   "text": "In nineteen eighty-three, deep beneath an underground bunker, an old man lay strapped to a metal table in total silence.",
    "who": "nar",
    "start": 0.0,
-   "end": 5.493
+   "end": 10.354
   },
   {
    "i": 1,
    "beat": 0,
    "chapter": null,
-   "text": "I looked up, and two black holes stared back at me.",
+   "text": "Every sensory nerve in his body had been surgically cut.",
    "who": "nar",
-   "start": 5.793,
-   "end": 9.607
+   "start": 10.574,
+   "end": 14.708
   },
   {
    "i": 2,
-   "beat": 0,
+   "beat": 1,
    "chapter": null,
-   "text": "A blue mask.",
+   "text": "The scientists believed that without the five senses, human thought could reach the pure presence of God.",
    "who": "nar",
-   "start": 9.907,
-   "end": 10.864
+   "start": 15.028,
+   "end": 23.136
   },
   {
    "i": 3,
-   "beat": 0,
+   "beat": 1,
    "chapter": null,
-   "text": "A black hoodie.",
+   "text": "Instead, something far darker found him in the void: hundreds of dead voices that refused to leave him alone.",
    "who": "nar",
-   "start": 11.164,
-   "end": 12.065
+   "start": 23.356,
+   "end": 32.906
   },
   {
    "i": 4,
-   "beat": 0,
+   "beat": 2,
    "chapter": null,
-   "text": "No nose, no mouth.",
+   "text": "And before his heart stopped forever, he delivered one final message.",
    "who": "nar",
-   "start": 12.365,
-   "end": 13.932
+   "start": 33.226,
+   "end": 38.803
   },
   {
    "i": 5,
-   "beat": 0,
-   "chapter": null,
-   "text": "And black liquid dripping from its empty eyes.",
-   "who": "nar",
-   "start": 14.232,
-   "end": 17.415
-  },
-  {
-   "i": 6,
-   "beat": 1,
-   "chapter": null,
-   "text": "And this was not the first time it had come for me.",
-   "who": "nar",
-   "start": 17.865,
-   "end": 21.456
-  },
-  {
-   "i": 7,
-   "beat": 1,
-   "chapter": null,
-   "text": "So what did it want?",
-   "who": "nar",
-   "start": 21.756,
-   "end": 23.065
-  },
-  {
-   "i": 8,
-   "beat": 1,
+   "beat": 2,
    "chapter": null,
    "text": "Let us go back to the beginning.",
    "who": "nar",
-   "start": 23.365,
-   "end": 25.129
+   "start": 39.023,
+   "end": 40.796
+  },
+  {
+   "i": 6,
+   "beat": 3,
+   "chapter": null,
+   "text": "A team of deeply religious scientists had theorized that physical senses cloud our awareness of eternity.",
+   "who": "nar",
+   "start": 41.116,
+   "end": 50.574
+  },
+  {
+   "i": 7,
+   "beat": 3,
+   "chapter": null,
+   "text": "They believed that without stimuli, a person could touch the divine.",
+   "who": "nar",
+   "start": 50.794,
+   "end": 55.522
+  },
+  {
+   "i": 8,
+   "beat": 4,
+   "chapter": null,
+   "text": "An elderly volunteer with nothing left to live for agreed to the radical surgery.",
+   "who": "nar",
+   "start": 55.842,
+   "end": 62.795
   },
   {
    "i": 9,
-   "beat": 2,
+   "beat": 4,
    "chapter": null,
-   "text": "My name is Mitch.",
+   "text": "Surgeons severed every sensory nerve connection leading into his brain.",
    "who": "nar",
-   "start": 25.579,
-   "end": 26.877
+   "start": 63.015,
+   "end": 68.809
   },
   {
    "i": 10,
-   "beat": 2,
+   "beat": 5,
    "chapter": null,
-   "text": "After the bank took our house, I moved in with my brother, Edwin.",
+   "text": "Although he retained full muscular function, he was completely trapped inside his own mind.",
    "who": "nar",
-   "start": 27.177,
-   "end": 32.133
+   "start": 69.129,
+   "end": 76.489
   },
   {
    "i": 11,
-   "beat": 2,
+   "beat": 5,
    "chapter": null,
-   "text": "We had not seen each other for ten years, and for one week, everything was normal.",
+   "text": "Through one-way glass, researchers monitored his slurred speech into a microphone.",
    "who": "nar",
-   "start": 32.433,
-   "end": 38.376
+   "start": 76.709,
+   "end": 82.903
   },
   {
    "i": 12,
-   "beat": 3,
+   "beat": 6,
    "chapter": null,
-   "text": "Then, one night at one in the morning, I heard rustling outside.",
+   "text": "On day four, he whispered that he heard hushed, unintelligible voices in his head.",
    "who": "nar",
-   "start": 38.826,
-   "end": 43.985
+   "start": 83.223,
+   "end": 89.604
   },
   {
    "i": 13,
-   "beat": 3,
+   "beat": 6,
    "chapter": null,
-   "text": "I thought it was a raccoon, and Edwin agreed.",
+   "text": "Two days later, he began to weep, crying out that his dead wife was speaking to him.",
    "who": "nar",
-   "start": 44.285,
-   "end": 47.734
+   "start": 89.824,
+   "end": 96.708
   },
   {
    "i": 14,
-   "beat": 4,
+   "beat": 7,
    "chapter": null,
-   "text": "The next night, I heard my window open, and a loud thump, as if something had climbed inside.",
+   "text": "Then, he began reciting the private names and secrets of the scientists' own dead relatives.",
    "who": "nar",
-   "start": 48.184,
-   "end": 56.285
+   "start": 97.028,
+   "end": 105.452
   },
   {
    "i": 15,
-   "beat": 4,
+   "beat": 7,
    "chapter": null,
-   "text": "I sat up and looked around.",
+   "text": "Terrified by what they had unsealed, half of the research team fled the facility that night.",
    "who": "nar",
-   "start": 56.585,
-   "end": 58.509
+   "start": 105.672,
+   "end": 113.002
   },
   {
    "i": 16,
-   "beat": 4,
+   "beat": 8,
    "chapter": null,
-   "text": "There was nothing there.",
+   "text": "Within a week, the whispers turned into a deafening roar of hundreds of spirits.",
    "who": "nar",
-   "start": 58.809,
-   "end": 60.008
+   "start": 113.322,
+   "end": 119.273
   },
   {
    "i": 17,
-   "beat": 5,
+   "beat": 8,
    "chapter": null,
-   "text": "In the morning, Edwin dropped his coffee cup the moment he saw me.",
+   "text": "The man slammed himself against walls seeking pain, then begged for sedatives to sleep.",
    "who": "nar",
-   "start": 60.458,
-   "end": 65.638
+   "start": 119.493,
+   "end": 127.067
   },
   {
    "i": 18,
-   "beat": 5,
+   "beat": 9,
    "chapter": null,
-   "text": "He held up a mirror, and I saw a deep cut across my cheek.",
+   "text": "But in his dreams, he could see the dead circling him.",
    "who": "nar",
-   "start": 65.938,
-   "end": 70.612
+   "start": 127.387,
+   "end": 131.211
   },
   {
    "i": 19,
-   "beat": 6,
+   "beat": 9,
    "chapter": null,
-   "text": "At the hospital, the doctor said I must have been sleepwalking.",
+   "text": "He clawed at his useless eyes, screaming that the voices spoke only of hell.",
    "who": "nar",
-   "start": 71.062,
-   "end": 75.3
+   "start": 131.431,
+   "end": 137.316
   },
   {
    "i": 20,
-   "beat": 6,
+   "beat": 10,
    "chapter": null,
-   "text": "Then he showed me a neat, stitched line on my side.",
+   "text": "For five straight hours, he shrieked: No heaven, no forgiveness!",
    "who": "nar",
-   "start": 75.6,
-   "end": 79.067
+   "start": 137.636,
+   "end": 142.928
   },
   {
    "i": 21,
-   "beat": 6,
+   "beat": 10,
    "chapter": null,
-   "text": "I had lost my left kidney, and nobody knew how.",
+   "text": "The scientists refused to stop, convinced they were moments away from contacting God.",
    "who": "nar",
-   "start": 79.367,
-   "end": 83.14
+   "start": 143.148,
+   "end": 150.032
   },
   {
    "i": 22,
-   "beat": 7,
+   "beat": 11,
    "chapter": null,
-   "text": "The next night was my breaking point.",
+   "text": "Driven to absolute madness, he began thrashing violently until researchers strapped him down.",
    "who": "nar",
-   "start": 83.59,
-   "end": 86.212
+   "start": 150.352,
+   "end": 157.989
   },
   {
    "i": 23,
-   "beat": 7,
+   "beat": 11,
    "chapter": null,
-   "text": "Around midnight, I woke up, and I froze.",
+   "text": "For two weeks, he stared blankly at the ceiling as silent tears ran down his face, kept alive only by intravenous fluids.",
    "who": "nar",
-   "start": 86.512,
-   "end": 89.753
+   "start": 158.209,
+   "end": 169.865
   },
   {
    "i": 24,
-   "beat": 7,
+   "beat": 12,
    "chapter": null,
-   "text": "A creature was staring down at me, face to face.",
+   "text": "On the fifteenth night, the blind man slowly turned his head and made dead-center eye contact with the lead scientist through the glass.",
    "who": "nar",
-   "start": 90.053,
-   "end": 93.653
+   "start": 170.185,
+   "end": 181.401
   },
   {
    "i": 25,
-   "beat": 8,
+   "beat": 12,
    "chapter": null,
-   "text": "It had a black hoodie, a dark blue mask, and no eyes.",
+   "text": "He whispered: I have spoken with God, and he has abandoned us.",
    "who": "nar",
-   "start": 94.103,
-   "end": 98.558
+   "start": 181.621,
+   "end": 186.362
   },
   {
    "i": 26,
-   "beat": 8,
+   "beat": 12,
    "chapter": null,
-   "text": "There were only empty black sockets, dripping.",
+   "text": "In that exact second, his heart stopped forever.",
    "who": "nar",
-   "start": 98.858,
-   "end": 102.226
+   "start": 186.582,
+   "end": 190.357
   },
   {
    "i": 27,
-   "beat": 9,
-   "chapter": null,
-   "text": "I grabbed my camera and took a picture.",
-   "who": "nar",
-   "start": 102.676,
-   "end": 105.415
-  },
-  {
-   "i": 28,
-   "beat": 9,
-   "chapter": null,
-   "text": "It lunged at me, reaching for my chest with its claws.",
-   "who": "nar",
-   "start": 105.715,
-   "end": 110.068
-  },
-  {
-   "i": 29,
-   "beat": 9,
-   "chapter": null,
-   "text": "I kicked it in the face, grabbed my wallet, and ran out into the night.",
-   "who": "nar",
-   "start": 110.368,
-   "end": 115.929
-  },
-  {
-   "i": 30,
-   "beat": 10,
-   "chapter": null,
-   "text": "I ran into the woods near the house, I tripped on a rock, and everything went black.",
-   "who": "nar",
-   "start": 116.379,
-   "end": 122.821
-  },
-  {
-   "i": 31,
-   "beat": 11,
-   "chapter": null,
-   "text": "I woke up in the hospital.",
-   "who": "nar",
-   "start": 123.271,
-   "end": 125.007
-  },
-  {
-   "i": 32,
-   "beat": 11,
-   "chapter": null,
-   "text": "The doctor said my injuries were small, and my parents were coming.",
-   "who": "nar",
-   "start": 125.307,
-   "end": 130.144
-  },
-  {
-   "i": 33,
-   "beat": 11,
-   "chapter": null,
-   "text": "Then he told me that my brother had been killed by something.",
-   "who": "nar",
-   "start": 130.444,
-   "end": 134.463
-  },
-  {
-   "i": 34,
-   "beat": 12,
-   "chapter": null,
-   "text": "My parents drove me back to the house to collect my things.",
-   "who": "nar",
-   "start": 134.913,
-   "end": 138.991
-  },
-  {
-   "i": 35,
-   "beat": 12,
-   "chapter": null,
-   "text": "In the hallway, I saw my brother, and I could not look for long.",
-   "who": "nar",
-   "start": 139.291,
-   "end": 144.182
-  },
-  {
-   "i": 36,
-   "beat": 12,
-   "chapter": null,
-   "text": "Next to him lay something small.",
-   "who": "nar",
-   "start": 144.482,
-   "end": 146.815
-  },
-  {
-   "i": 37,
    "beat": 13,
    "chapter": null,
-   "text": "I picked it up, and I walked to my parents' car without a word.",
+   "text": "Would you have severed every sensory nerve to hear the voice of God?",
    "who": "nar",
-   "start": 147.265,
-   "end": 152.061
-  },
-  {
-   "i": 38,
-   "beat": 13,
-   "chapter": null,
-   "text": "When I looked at what I was holding, I nearly threw up.",
-   "who": "nar",
-   "start": 152.361,
-   "end": 156.036
-  },
-  {
-   "i": 39,
-   "beat": 13,
-   "chapter": null,
-   "text": "It was the part of me that the creature had stolen, black with that same dark liquid.",
-   "who": "nar",
-   "start": 156.336,
-   "end": 163.005
-  },
-  {
-   "i": 40,
-   "beat": 14,
-   "chapter": null,
-   "text": "This story is inspired by the Eyeless Jack creepypasta, first posted by Azelf5000.",
-   "who": "nar",
-   "start": 163.455,
-   "end": 172.074
-  },
-  {
-   "i": 41,
-   "beat": 15,
-   "chapter": null,
-   "text": "Would you have stayed in that house a second night?",
-   "who": "nar",
-   "start": 172.524,
-   "end": 175.659
+   "start": 190.677,
+   "end": 195.425
   }
  ]
 }

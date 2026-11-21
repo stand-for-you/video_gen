@@ -1,88 +1,89 @@
-# Scene table for the REEL (engine v0.5, 3D, 9:16 sets in src/SetsR.tsx). ONE speaker (narrator) only.
+# Scene table for REEL (9:16 vertical sets in src/SetsR.tsx).
+# ONE LIST PER SPOKEN SENTENCE (28 sentences total).
 def S(st, **v): return (st, v)
+
 SC = [
- #  0  I woke up in the dark, and something was breathing right over my bed.
- [S('bedover', fr='wide'), S('bedover', fr='waist')],
- #  1  I looked up, and two black holes stared back at me.
- [S('jackfull', fr='detail'), S('jackfull', fr='close')],
- #  2  A blue mask.
- [S('jackfull', fr='bust')],
- #  3  A black hoodie.
- [S('jackfull', fr='waist')],
- #  4  No nose, no mouth.
- [S('jackfull', fr='detail')],
- #  5  And black liquid dripping from its empty eyes.
- [S('jackfull', fr='close')],
- #  6  And this was not the first time it had come for me.
- [S('bedover', fr='wide', ang=1), S('bedover', fr='waist', ang=-1)],
- #  7  So what did it want?
- [S('jackfull', fr='wide')],
- #  8  Let us go back to the beginning.
- [S('kitchen', fr='wide')],
- #  9  My name is Mitch.
- [S('kitchen', fr='waist')],
- # 10  After the bank took our house, I moved in with my brother, Edwin.
- [S('kitchen', fr='wide', ang=1), S('kitchen', fr='waist', ang=-1)],
- # 11  We had not seen each other for ten years, and for one week, everything was normal.
- [S('kitchen', fr='bust'), S('kitchen', fr='waist'), S('kitchen', fr='wide', ang=1)],
- # 12  Then, one night at one in the morning, I heard rustling outside.
- [S('bedwin', fr='wide'), S('bedwin', fr='waist')],
- # 13  I thought it was a raccoon, and Edwin agreed.
- [S('bedwin', fr='bust'), S('kitchen', fr='waist', ang=1)],
- # 14  The next night, I heard my window open, and a loud thump, as if something had climbed inside.
- [S('bedwin', fr='waist', ang=1), S('bedwin', fr='detail'), S('bedover', fr='wide'), S('bedover', fr='waist')],
- # 15  I sat up and looked around.
- [S('bedover', fr='bust')],
- # 16  There was nothing there.
- [S('bedover', fr='close')],
- # 17  In the morning, Edwin dropped his coffee cup the moment he saw me.
- [S('kitchen', fr='wide', ang=-1), S('kitchen', fr='detail')],
- # 18  He held up a mirror, and I saw a deep cut across my cheek.
- [S('kitchen', fr='bust', ang=1), S('kitchen', fr='detail', ang=-1)],
- # 19  At the hospital, the doctor said I must have been sleepwalking.
- [S('hospital', fr='wide'), S('hospital', fr='waist')],
- # 20  Then he showed me a neat, stitched line on my side.
- [S('hospital', fr='bust'), S('hospital', fr='detail')],
- # 21  I had lost my left kidney, and nobody knew how.
- [S('hospital', fr='waist', ang=1), S('hospital', fr='bust', ang=-1)],
- # 22  The next night was my breaking point.
- [S('bedover', fr='wide', ang=1)],
- # 23  Around midnight, I woke up, and I froze.
- [S('bedover', fr='waist', ang=-1)],
- # 24  A creature was staring down at me, face to face.
- [S('jackfull', fr='close'), S('jackfull', fr='bust')],
- # 25  It had a black hoodie, a dark blue mask, and no eyes.
- [S('jackfull', fr='waist', ang=1), S('jackfull', fr='detail')],
- # 26  There were only empty black sockets, dripping.
- [S('jackfull', fr='detail', ang=-1), S('jackfull', fr='close')],
- # 27  I grabbed my camera and took a picture.
- [S('snap', fr='detail')],
- # 28  It lunged at me, reaching for my chest with its claws.
- [S('lunge', fr='wide'), S('lunge', fr='waist')],
- # 29  I kicked it in the face, grabbed my wallet, and ran out into the night.
- [S('lunge', fr='bust'), S('flee', fr='wide'), S('flee', fr='waist')],
- # 30  I ran into the woods near the house, I tripped on a rock, and everything went black.
- [S('flee', fr='waist', ang=1), S('houseout', fr='wide', fig=1), S('flee', fr='bust')],
- # 31  I woke up in the hospital.
- [S('hospital', fr='wide')],
- # 32  The doctor said my injuries were small, and my parents were coming.
- [S('hospital', fr='waist'), S('hospital', fr='bust')],
- # 33  Then he told me that my brother had been killed by something.
- [S('hospital', fr='bust', ang=1), S('hospital', fr='detail')],
- # 34  My parents drove me back to the house to collect my things.
- [S('carout', fr='wide'), S('houseout', fr='wide', ang=1)],
- # 35  In the hallway, I saw my brother, and I could not look for long.
- [S('hall', fr='wide'), S('hall', fr='waist')],
- # 36  Next to him lay something small.
- [S('hall', fr='detail')],
- # 37  I picked it up, and I walked to my parents' car without a word.
- [S('hall', fr='detail', ang=1), S('carout', fr='wide', part='walk')],
- # 38  When I looked at what I was holding, I nearly threw up.
- [S('carin', fr='wide'), S('carin', fr='waist')],
- # 39  It was the part of me that the creature had stolen, black with that same dark liquid.
- [S('carin', fr='bust'), S('carin', fr='detail'), S('carin', fr='waist', ang=1)],
- # 40  This story is inspired by the Eyeless Jack creepypasta, first posted by Azelf5000.  (credit)
- [S('houseout', fr='wide'), S('kitchen', fr='wide'), S('bedover', fr='wide'), S('jackfull', fr='wide')],
- # 41  Would you have stayed in that house a second night?
- [S('jackfull', fr='close')],
+  # 0: In nineteen eighty-three, deep beneath an underground bunker, an old man lay strapped to a metal table in total silence. (10.5s -> 5)
+  [S('rchamber', fr='wide'), S('rchamber', fr='waist'), S('robs', fr='wide'), S('rtapes', fr='bust'), S('rchamber', fr='bust')],
+  
+  # 1: Every sensory nerve in his body had been surgically cut. (4.5s -> 2)
+  [S('rsurgery', fr='wide'), S('rsurgery', fr='waist')],
+  
+  # 2: The scientists believed that without the five senses, human thought could reach the pure presence of God. (8.3s -> 3)
+  [S('robs', fr='wide'), S('robs', fr='waist'), S('rtapes', fr='waist')],
+  
+  # 3: Instead, something far darker found him in the void: hundreds of dead voices that refused to leave him alone. (9.9s -> 4)
+  [S('rvoid', fr='wide'), S('rvoid', fr='waist'), S('rwife', fr='bust'), S('rvoid', fr='bust')],
+  
+  # 4: And before his heart stopped forever, he delivered one final message. (5.8s -> 2)
+  [S('reye', fr='waist'), S('reye', fr='close')],
+  
+  # 5: Let us go back to the beginning. (2.1s -> 1)
+  [S('rchamber', fr='wide')],
+  
+  # 6: A team of deeply religious scientists had theorized that physical senses cloud our awareness of eternity. (9.7s -> 4)
+  [S('robs', fr='wide'), S('robs', fr='waist'), S('rtapes', fr='waist'), S('robs', fr='bust')],
+  
+  # 7: They believed that without stimuli, a person could touch the divine. (5.0s -> 2)
+  [S('rtapes', fr='wide'), S('rtapes', fr='bust')],
+  
+  # 8: An elderly volunteer with nothing left to live for agreed to the radical surgery. (7.2s -> 3)
+  [S('rchamber', fr='wide'), S('rchamber', fr='waist'), S('rchamber', fr='bust')],
+  
+  # 9: Surgeons severed every sensory nerve connection leading into his brain. (6.1s -> 2)
+  [S('rsurgery', fr='wide'), S('rsurgery', fr='bust')],
+  
+  # 10: Although he retained full muscular function, he was completely trapped inside his own mind. (7.6s -> 3)
+  [S('rchamber', fr='wide'), S('rchamber', fr='waist'), S('rchamber', fr='bust')],
+  
+  # 11: Through one-way glass, researchers monitored his slurred speech into a microphone. (6.5s -> 2)
+  [S('robs', fr='wide'), S('rmic', fr='bust')],
+  
+  # 12: On day four, he whispered that he heard hushed, unintelligible voices in his head. (6.6s -> 2)
+  [S('rwhisper', fr='wide'), S('rwhisper', fr='bust')],
+  
+  # 13: Two days later, he began to weep, crying out that his dead wife was speaking to him. (7.2s -> 3)
+  [S('rchamber', fr='waist'), S('rwife', fr='wide'), S('rwife', fr='bust')],
+  
+  # 14: Then, he began reciting the private names and secrets of the scientists' own dead relatives. (8.6s -> 3)
+  [S('rshock', fr='wide'), S('rshock', fr='waist'), S('rshock', fr='bust')],
+  
+  # 15: Terrified by what they had unsealed, half of the research team fled the facility that night. (7.7s -> 3)
+  [S('rhall', fr='wide'), S('rhall', fr='waist'), S('rhall', fr='wide')],
+  
+  # 16: Within a week, the whispers turned into a deafening roar of hundreds of spirits. (6.2s -> 2)
+  [S('rvoid', fr='wide'), S('rvoid', fr='bust')],
+  
+  # 17: The man slammed himself against walls seeking pain, then begged for sedatives to sleep. (7.9s -> 3)
+  [S('rslam', fr='wide'), S('rslam', fr='waist'), S('rsedative', fr='bust')],
+  
+  # 18: But in his dreams, he could see the dead circling him. (4.0s -> 1)
+  [S('rvoid', fr='bust')],
+  
+  # 19: He clawed at his useless eyes, screaming that the voices spoke only of hell. (6.2s -> 2)
+  [S('ralarm', fr='wide'), S('ralarm', fr='bust')],
+  
+  # 20: For five straight hours, he shrieked: No heaven, no forgiveness! (5.5s -> 2)
+  [S('ralarm', fr='waist'), S('rmic', fr='bust')],
+  
+  # 21: The scientists refused to stop, convinced they were moments away from contacting God. (7.2s -> 3)
+  [S('robs', fr='wide'), S('robs', fr='waist'), S('robs', fr='bust')],
+  
+  # 22: Driven to absolute madness, he began thrashing violently until researchers strapped him down. (7.9s -> 3)
+  [S('rslam', fr='wide'), S('rrestrain', fr='wide'), S('rrestrain', fr='bust')],
+  
+  # 23: For two weeks, he stared blankly at the ceiling as silent tears ran down his face, kept alive only by intravenous fluids. (12.0s -> 4)
+  [S('rrestrain', fr='waist'), S('rtears', fr='waist'), S('rtears', fr='bust'), S('rtears', fr='close')],
+  
+  # 24: On the fifteenth night, the blind man slowly turned his head and made dead-center eye contact with the lead scientist through the glass. (11.4s -> 4)
+  [S('rchamber', fr='wide'), S('reye', fr='waist'), S('reye', fr='bust'), S('reye', fr='close')],
+  
+  # 25: He whispered: I have spoken with God, and he has abandoned us. (5.0s -> 2)
+  [S('reye', fr='bust'), S('reye', fr='close')],
+  
+  # 26: In that exact second, his heart stopped forever. (4.1s -> 2)
+  [S('rflatline', fr='waist'), S('rflatline', fr='detail')],
+  
+  # 27: Would you have severed every sensory nerve to hear the voice of God? (5.5s -> 1)
+  [S('rqcard')],
 ]

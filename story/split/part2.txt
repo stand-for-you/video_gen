@@ -1,0 +1,24 @@
+# part2 - narration lines (writer reviews, then the normal pipeline runs on this text)
+
+## The Swarm
+[188.30-200.53] After a week of conversing with the dead through his mind, the subject became intensely distressed, saying the voices were overwhelming his consciousness.
+[200.84-208.78] In every waking moment, he was bombarded by hundreds of spirits that refused to leave him alone.
+[209.24-218.21] He frequently threw his body against the padded walls, desperately seeking any sensation of physical pain.
+[218.51-224.95] He begged the scientists for heavy sedatives so he could escape the voices through sleep.
+[225.40-230.93] This tactic worked for three days, until violent night terrors began.
+[231.23-242.61] The subject repeatedly cried that in his dreams, the dead were no longer just voices; he could clearly see and hear them surrounding him.
+[243.06-253.27] Only a day later, he began to scream, clawing at his useless eyes in hopes of sensing something in the physical world.
+[253.57-262.36] The hysterical man said the voices were now deafening and hostile, speaking of hell and the end of the world.
+[262.81-270.67] For five agonizing hours, he shrieked the words: [subject]"No heaven! No forgiveness!"
+[270.97-279.45] He continually begged to be killed, but the remaining scientists were convinced they were close to touching God.
+## The Silence
+[280.05-285.72] After another day, the subject could no longer form coherent sentences.
+[286.02-293.27] Seemingly mad, he began thrashing violently, biting at his own flesh in frenzy.
+[293.57-302.58] The scientists rushed into the chamber and strapped him flat against a metal table so he could not harm himself.
+[303.03-310.28] After hours of being tied down, the subject abruptly halted his struggling and screaming.
+[310.58-317.02] He stared blankly at the ceiling as teardrops silently streaked across his face.
+[317.47-327.93] For two whole weeks, he lay motionless and had to be manually rehydrated through intravenous fluids due to the constant crying.
+[328.23-341.01] Eventually, he turned his head and, despite his blindness, made direct, focused eye contact with a scientist for the first time in the study.
+[341.46-348.84] He whispered his final words: [subject]"I have spoken with God, and he has abandoned us."
+[349.14-356.82] And in that exact second, his vital signs stopped forever, with no apparent cause of death.
+[357.27-362.01] Would you have severed every sensory nerve to hear the voice of God?

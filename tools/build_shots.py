@@ -29,7 +29,7 @@ MINSHOT = 1.15  # never cut faster than this (a shorter picture cannot be read)
 shots, chapters, warn, specs = [], [], [], {}
 chn = 0
 # the end screen (long video only) starts on the last sentence and runs ENDS seconds
-end_start = max(units[-1]['start'] - 0.1, units[-1]['end'] - 3.0) if NAME == 'long' else None
+end_start = max(units[-1]['start'] - 0.12, units[-2]['end']) if NAME == 'long' else None
 for ui, u in enumerate(units):
     t0 = u['start'] if ui == 0 else max(u['start'] - 0.12, units[ui - 1]['end'])
     t1 = units[ui + 1]['start'] - 0.12 if ui + 1 < len(units) else (end_start + ENDS if NAME == 'long' else dur)

@@ -24,6 +24,9 @@ export const CAST3: Record<string, P3> = {
   terence: { id: 'terence', name: 'Terence', sex: 'm', age: 1, h: 1.76, skin: '#c99a73', hair: '#3a2a1e', hairStyle: 'short', eyeC: '#3a2a1c', jaw: 'soft', nose: 'straight', stubble: true, top: 'workshirt', topC: '#62584a', bottom: 'trousers', botC: '#413a30', shoeC: '#241c18', acc: ['apron'], accC: '#b3a88c' },
   lyra: { id: 'lyra', name: 'Lyra', sex: 'f', age: 0, kid: true, h: 1.18, skin: '#c89a74', hair: '#2f2420', hairStyle: 'wavy', eyeC: '#33231a', jaw: 'round', nose: 'button', lip: '#8f5b57', top: 'shift', topC: '#6b665c', bottom: 'dressKnee', botC: '#6b665c', shoeC: '#2a2018' },
   matthew: { id: 'matthew', name: 'Matthew', sex: 'm', age: 0, kid: true, h: 1.14, skin: '#d6a97f', hair: '#7a5a33', hairStyle: 'short', eyeC: '#3d2a18', jaw: 'round', nose: 'button', freckles: true, top: 'shirt', topC: '#7a7262', bottom: 'trousers', botC: '#4a4336', shoeC: '#2a2018' },
+  // ---- GATEWAY OF THE MIND (Kit q)
+  subject: { id: 'subject', name: 'Subject 83', sex: 'm', age: 3, h: 1.70, skin: '#c8bbb0', hair: '#9a948e', hairStyle: 'greyshort', eyeC: '#1a1816', jaw: 'long', nose: 'straight', brow: 1.2, top: 'shift', topC: '#dfded8', bottom: 'trousers', botC: '#cac8c0', shoeC: '#202020' },
+  dr_reed: { id: 'dr_reed', name: 'Dr. Reed', sex: 'm', age: 1, h: 1.78, skin: '#c99a73', hair: '#1d1a19', hairStyle: 'messy', eyeC: '#3a2a1c', jaw: 'square', nose: 'straight', brow: 1.2, glasses: true, top: 'coat', topC: '#e0e2e0', inner: '#4e7a84', bottom: 'trousers', botC: '#3a342e', shoeC: '#201a14', acc: ['redThread'] },
 };
 // ---- CREATURES. The channel's monster model. Herbert Solomon is the default creature design (the one the audience liked best).
 export const CREAT3: Record<string, C3> = {
