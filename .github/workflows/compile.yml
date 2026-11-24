@@ -156,6 +156,9 @@ jobs:
         env:
           PREFIX: ${{ needs.plan.outputs.prefix }}
         run: |
+          # Everything here is reporting only: it must never fail the job. The step runs
+          # under `bash -e`, and on a thumbs-only build QUALITY_GATE.txt is empty, so the
+          # grep exited 1 and failed a build whose deliverables were all fine.
           {
             echo "## Scroll Kaos package: $PREFIX"
             echo ""
@@ -163,6 +166,10 @@ jobs:
             echo ""
             echo '```'
             ls -la final 2>/dev/null || echo "no final folder"
-            [ -f final/QUALITY_GATE.txt ] && grep -E "^(==|PASS|FAIL|QUALITY)" final/QUALITY_GATE.txt
+            if [ -s final/QUALITY_GATE.txt ]; then
+              grep -E "^(==|PASS|FAIL|QUALITY)" final/QUALITY_GATE.txt || echo "quality gate: no summary lines"
+            else
+              echo "quality gate: not run (no video in this target)"
+            fi
             echo '```'
-          } >> "$GITHUB_STEP_SUMMARY"
+          } >> "$GITHUB_STEP_SUMMARY" || true
