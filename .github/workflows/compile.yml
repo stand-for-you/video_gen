@@ -137,11 +137,7 @@ jobs:
           PREFIX: ${{ needs.plan.outputs.prefix }}
           TARGET: ${{ needs.plan.outputs.target }}
         run: |
-          # target=thumbs renders no parts, so renders/ may not exist. The step runs
-          # under `bash -e`, so a bare `ls` on a missing folder aborted the whole job
-          # before assemble.sh could run.
-          mkdir -p renders
-          ls -la renders || true
+          ls -la renders
           bash ci/assemble.sh "$PREFIX" "$TARGET"
       - name: Upload the package
         if: always()
@@ -156,9 +152,6 @@ jobs:
         env:
           PREFIX: ${{ needs.plan.outputs.prefix }}
         run: |
-          # Everything here is reporting only: it must never fail the job. The step runs
-          # under `bash -e`, and on a thumbs-only build QUALITY_GATE.txt is empty, so the
-          # grep exited 1 and failed a build whose deliverables were all fine.
           {
             echo "## Scroll Kaos package: $PREFIX"
             echo ""
@@ -166,10 +159,6 @@ jobs:
             echo ""
             echo '```'
             ls -la final 2>/dev/null || echo "no final folder"
-            if [ -s final/QUALITY_GATE.txt ]; then
-              grep -E "^(==|PASS|FAIL|QUALITY)" final/QUALITY_GATE.txt || echo "quality gate: no summary lines"
-            else
-              echo "quality gate: not run (no video in this target)"
-            fi
+            [ -f final/QUALITY_GATE.txt ] && grep -E "^(==|PASS|FAIL|QUALITY)" final/QUALITY_GATE.txt
             echo '```'
-          } >> "$GITHUB_STEP_SUMMARY" || true
+          } >> "$GITHUB_STEP_SUMMARY"

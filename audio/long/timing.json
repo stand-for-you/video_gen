@@ -1,365 +1,374 @@
 {
- "duration": 358.29270833333334,
+ "duration": 195.68770833333335,
  "units": [
   {
    "i": 0,
    "beat": 0,
    "chapter": "Intro",
-   "text": "In nineteen eighty-three, deep beneath a concrete bunker, an old man lay strapped to a metal table in total silence.",
+   "text": "A man lay in a sealed room for four days.",
    "who": "nar",
    "start": 0.0,
-   "end": 10.003
+   "end": 2.717
   },
   {
    "i": 1,
    "beat": 0,
    "chapter": null,
-   "text": "Every sensory nerve in his body had been surgically cut, leaving him unable to see, hear, smell, taste, or feel a single thing.",
+   "text": "He could not see, hear, taste, smell, or feel anything.",
    "who": "nar",
-   "start": 10.223,
-   "end": 22.452
+   "start": 3.017,
+   "end": 7.4
   },
   {
    "i": 2,
-   "beat": 1,
+   "beat": 0,
    "chapter": null,
-   "text": "The scientists believed that without the five physical senses, human thought could reach the pure presence of God.",
+   "text": "Then he began to hear his dead wife.",
    "who": "nar",
-   "start": 22.772,
-   "end": 31.605
+   "start": 7.7,
+   "end": 10.142
   },
   {
    "i": 3,
-   "beat": 1,
+   "beat": 0,
    "chapter": null,
-   "text": "Instead, something else found him in the dark: hundreds of dead voices that refused to leave.",
+   "text": "Why did the scientists keep listening?",
    "who": "nar",
-   "start": 31.825,
-   "end": 39.867
+   "start": 10.442,
+   "end": 12.54
   },
   {
    "i": 4,
-   "beat": 2,
+   "beat": 1,
    "chapter": null,
-   "text": "And before his heart stopped forever, he opened his blind eyes and delivered one final message.",
+   "text": "What did they want from him?",
    "who": "nar",
-   "start": 40.187,
-   "end": 48.297
+   "start": 12.99,
+   "end": 14.335
   },
   {
    "i": 5,
-   "beat": 2,
+   "beat": 1,
    "chapter": null,
    "text": "Let us go back to the beginning.",
    "who": "nar",
-   "start": 48.517,
-   "end": 50.289
+   "start": 14.635,
+   "end": 16.398
   },
   {
    "i": 6,
-   "beat": 3,
+   "beat": 2,
    "chapter": "The Experiment",
-   "text": "In nineteen eighty-three, a team of deeply religious scientists gathered at an undisclosed research facility.",
+   "text": "In nineteen eighty-three, a group of deeply religious scientists ran a secret test in an undisclosed facility.",
    "who": "nar",
-   "start": 50.709,
-   "end": 59.725
+   "start": 16.998,
+   "end": 26.401
   },
   {
    "i": 7,
-   "beat": 3,
+   "beat": 2,
    "chapter": null,
-   "text": "They had theorized that our physical senses cloud our awareness of eternity, and without them, a human could actually contact God by thought alone.",
+   "text": "They believed the five senses clouded our view of eternity.",
    "who": "nar",
-   "start": 59.945,
-   "end": 72.279
+   "start": 26.701,
+   "end": 31.258
   },
   {
    "i": 8,
-   "beat": 4,
+   "beat": 2,
    "chapter": null,
-   "text": "An elderly man who claimed he had nothing left to live for was the only test subject to volunteer.",
+   "text": "Take them away, they thought, and a human mind could reach God by thought alone.",
    "who": "nar",
-   "start": 72.599,
-   "end": 80.227
+   "start": 31.558,
+   "end": 37.526
   },
   {
    "i": 9,
-   "beat": 4,
+   "beat": 3,
    "chapter": null,
-   "text": "To purge him of all stimuli, surgeons performed a complex operation, severing every sensory nerve connection leading into his brain.",
+   "text": "They chose an elderly man who said he had nothing left to live for.",
    "who": "nar",
-   "start": 80.447,
-   "end": 92.178
+   "start": 37.976,
+   "end": 43.123
   },
   {
    "i": 10,
-   "beat": 5,
+   "beat": 3,
    "chapter": null,
-   "text": "Although the man retained full muscular function, he could no longer see, hear, taste, smell, or feel.",
+   "text": "He volunteered.",
    "who": "nar",
-   "start": 92.498,
-   "end": 101.474
+   "start": 43.423,
+   "end": 44.524
   },
   {
    "i": 11,
-   "beat": 5,
+   "beat": 3,
    "chapter": null,
-   "text": "With no possible way to sense the outside world, he was completely alone with his thoughts.",
+   "text": "Surgeons cut every nerve that carried feeling from his body to his brain.",
    "who": "nar",
-   "start": 101.694,
-   "end": 108.642
+   "start": 44.824,
+   "end": 50.918
   },
   {
    "i": 12,
-   "beat": 6,
+   "beat": 3,
    "chapter": null,
-   "text": "This story is inspired by Gateway of the Mind, as published on the Creepypasta Wiki.",
+   "text": "His muscles still worked, but he could no longer see, hear, taste, smell, or feel.",
    "who": "nar",
-   "start": 108.962,
-   "end": 116.231
+   "start": 51.218,
+   "end": 58.012
   },
   {
    "i": 13,
-   "beat": 7,
-   "chapter": "The Voices",
-   "text": "Scientists monitored him through one-way glass as he spoke aloud in jumbled, slurred sentences that he could not even hear.",
+   "beat": 4,
+   "chapter": "Alone With His Thoughts",
+   "text": "Nothing reached him from the outside world.",
    "who": "nar",
-   "start": 116.651,
-   "end": 127.631
+   "start": 58.612,
+   "end": 61.481
   },
   {
    "i": 14,
-   "beat": 7,
+   "beat": 4,
    "chapter": null,
-   "text": "After four days, the man claimed he was hearing hushed, unintelligible voices whispering inside his head.",
+   "text": "The scientists watched through the glass, and a tape recorder caught his slurred words.",
    "who": "nar",
-   "start": 127.851,
-   "end": 136.754
+   "start": 61.781,
+   "end": 68.185
   },
   {
    "i": 15,
-   "beat": 8,
+   "beat": 4,
    "chapter": null,
-   "text": "Assuming it was merely an onset of psychosis, the researchers paid little attention to his concerns.",
+   "text": "He could not hear himself speak.",
    "who": "nar",
-   "start": 137.074,
-   "end": 145.29
+   "start": 68.485,
+   "end": 70.388
   },
   {
    "i": 16,
-   "beat": 8,
+   "beat": 5,
    "chapter": null,
-   "text": "Two days later, the subject began to weep, crying out that he could hear his dead wife conversing with him.",
+   "text": "After four days, he said hushed, unclear voices were speaking inside his head.",
    "who": "nar",
-   "start": 145.51,
-   "end": 154.368
+   "start": 70.838,
+   "end": 77.347
   },
   {
    "i": 17,
-   "beat": 9,
+   "beat": 5,
    "chapter": null,
-   "text": "He claimed he could communicate back through his thoughts, whispering: [subject]\"She is right here with me.\"",
+   "text": "The scientists assumed he was sliding into psychosis, a serious break from reality, so they paid him little attention.",
    "who": "nar",
-   "start": 154.688,
-   "end": 162.315
+   "start": 77.647,
+   "end": 87.6
   },
   {
    "i": 18,
-   "beat": 10,
-   "chapter": null,
-   "text": "The scientists were skeptical, until the man began reciting the private names and secrets of their own dead relatives.",
+   "beat": 6,
+   "chapter": "The Voice of His Wife",
+   "text": "Two days later, he said his dead wife was talking to him, and that he could answer her.",
    "who": "nar",
-   "start": 162.635,
-   "end": 172.642
+   "start": 88.2,
+   "end": 94.677
   },
   {
    "i": 19,
-   "beat": 10,
+   "beat": 6,
    "chapter": null,
-   "text": "He repeated personal truths that only their deceased spouses and parents could have known, driving a sizable portion of the team to abandon the facility.",
+   "text": "Then he began naming dead relatives of the scientists.",
    "who": "nar",
-   "start": 172.862,
-   "end": 185.579
+   "start": 94.977,
+   "end": 99.294
   },
   {
    "i": 20,
-   "beat": 11,
-   "chapter": "The Swarm",
-   "text": "After a week of conversing with the dead through his mind, the subject became intensely distressed, saying the voices were overwhelming his consciousness.",
+   "beat": 6,
+   "chapter": null,
+   "text": "He repeated private details that only their spouses and parents could have known.",
    "who": "nar",
-   "start": 185.999,
-   "end": 198.235
+   "start": 99.594,
+   "end": 105.474
   },
   {
    "i": 21,
-   "beat": 11,
+   "beat": 6,
    "chapter": null,
-   "text": "In every waking moment, he was bombarded by hundreds of spirits that refused to leave him alone.",
+   "text": "Some of them walked out of the study.",
    "who": "nar",
-   "start": 198.455,
-   "end": 206.405
+   "start": 105.774,
+   "end": 108.068
   },
   {
    "i": 22,
-   "beat": 12,
-   "chapter": null,
-   "text": "He frequently threw his body against the padded walls, desperately seeking any sensation of physical pain.",
+   "beat": 7,
+   "chapter": "The Voices Never Stop",
+   "text": "For a week, the voices filled every waking moment.",
    "who": "nar",
-   "start": 206.725,
-   "end": 215.699
+   "start": 108.668,
+   "end": 112.551
   },
   {
    "i": 23,
-   "beat": 12,
+   "beat": 7,
    "chapter": null,
-   "text": "He begged the scientists for heavy sedatives so he could escape the voices through sleep.",
+   "text": "He threw his body against the wall, hoping for pain to drown them out.",
    "who": "nar",
-   "start": 215.919,
-   "end": 222.358
+   "start": 112.851,
+   "end": 118.165
   },
   {
    "i": 24,
-   "beat": 13,
+   "beat": 7,
    "chapter": null,
-   "text": "This tactic worked for three days, until violent night terrors began.",
+   "text": "He begged for sedatives, so he could escape by sleeping.",
    "who": "nar",
-   "start": 222.678,
-   "end": 228.213
+   "start": 118.465,
+   "end": 122.505
   },
   {
    "i": 25,
-   "beat": 13,
+   "beat": 7,
    "chapter": null,
-   "text": "The subject repeatedly cried that in his dreams, the dead were no longer just voices; he could clearly see and hear them surrounding him.",
+   "text": "Sleep brought nightmares, and in them, the dead were waiting.",
    "who": "nar",
-   "start": 228.433,
-   "end": 239.812
+   "start": 122.805,
+   "end": 127.379
   },
   {
    "i": 26,
-   "beat": 14,
-   "chapter": null,
-   "text": "Only a day later, he began to scream, clawing at his useless eyes in hopes of sensing something in the physical world.",
+   "beat": 8,
+   "chapter": "No Heaven",
+   "text": "Then the voices turned hostile.",
    "who": "nar",
-   "start": 240.132,
-   "end": 250.343
+   "start": 127.979,
+   "end": 129.935
   },
   {
    "i": 27,
-   "beat": 14,
+   "beat": 8,
    "chapter": null,
-   "text": "The hysterical man said the voices were now deafening and hostile, speaking of hell and the end of the world.",
+   "text": "They spoke of hell and the end of the world.",
    "who": "nar",
-   "start": 250.563,
-   "end": 259.351
+   "start": 130.235,
+   "end": 133.102
   },
   {
    "i": 28,
-   "beat": 15,
+   "beat": 8,
    "chapter": null,
-   "text": "For five agonizing hours, he shrieked the words: [subject]\"No heaven! No forgiveness!\"",
+   "text": "For five hours, he shouted the same words.",
    "who": "nar",
-   "start": 259.671,
-   "end": 267.531
+   "start": 133.402,
+   "end": 136.714
   },
   {
    "i": 29,
-   "beat": 15,
+   "beat": 8,
    "chapter": null,
-   "text": "He continually begged to be killed, but the remaining scientists were convinced they were close to touching God.",
-   "who": "nar",
-   "start": 267.751,
-   "end": 276.232
+   "text": "\"No heaven. No forgiveness.\"",
+   "who": "elias",
+   "start": 137.014,
+   "end": 138.867
   },
   {
    "i": 30,
-   "beat": 16,
-   "chapter": "The Silence",
-   "text": "After another day, the subject could no longer form coherent sentences.",
+   "beat": 8,
+   "chapter": null,
+   "text": "The scientists were certain he was close to God.",
    "who": "nar",
-   "start": 276.652,
-   "end": 282.318
+   "start": 139.167,
+   "end": 142.463
   },
   {
    "i": 31,
-   "beat": 16,
+   "beat": 9,
    "chapter": null,
-   "text": "Seemingly mad, he began thrashing violently, biting at his own flesh in frenzy.",
+   "text": "Soon he could no longer form a sentence.",
    "who": "nar",
-   "start": 282.538,
-   "end": 289.787
+   "start": 142.913,
+   "end": 145.63
   },
   {
    "i": 32,
-   "beat": 16,
+   "beat": 9,
    "chapter": null,
-   "text": "The scientists rushed into the chamber and strapped him flat against a metal table so he could not harm himself.",
+   "text": "He lost control of his body, and the team had to tie him down so he could not harm himself.",
    "who": "nar",
-   "start": 290.007,
-   "end": 299.024
+   "start": 145.93,
+   "end": 153.158
   },
   {
    "i": 33,
-   "beat": 17,
+   "beat": 9,
    "chapter": null,
-   "text": "After hours of being tied down, the subject abruptly halted his struggling and screaming.",
+   "text": "Later he went still, tears running silently down his face, and they kept him hydrated for two weeks.",
    "who": "nar",
-   "start": 299.344,
-   "end": 306.588
+   "start": 153.458,
+   "end": 161.781
   },
   {
    "i": 34,
-   "beat": 17,
-   "chapter": null,
-   "text": "He stared blankly at the ceiling as teardrops silently streaked across his face.",
+   "beat": 10,
+   "chapter": "The Last Words",
+   "text": "At last, though he was blind, he turned his head and looked straight at a scientist for the first time.",
    "who": "nar",
-   "start": 306.808,
-   "end": 313.247
+   "start": 162.381,
+   "end": 170.592
   },
   {
    "i": 35,
-   "beat": 18,
+   "beat": 10,
    "chapter": null,
-   "text": "For two whole weeks, he lay motionless and had to be manually rehydrated through intravenous fluids due to the constant crying.",
+   "text": "He whispered that he had spoken with God, and God had abandoned them.",
    "who": "nar",
-   "start": 313.567,
-   "end": 324.032
+   "start": 170.892,
+   "end": 175.861
   },
   {
    "i": 36,
-   "beat": 18,
+   "beat": 10,
    "chapter": null,
-   "text": "Eventually, he turned his head and, despite his blindness, made direct, focused eye contact with a scientist for the first time in the study.",
+   "text": "Then his vital signs stopped.",
    "who": "nar",
-   "start": 324.252,
-   "end": 337.033
+   "start": 176.161,
+   "end": 178.274
   },
   {
    "i": 37,
-   "beat": 19,
+   "beat": 10,
    "chapter": null,
-   "text": "He whispered his final words: [subject]\"I have spoken with God, and he has abandoned us.\"",
+   "text": "No cause of death was ever found.",
    "who": "nar",
-   "start": 337.353,
-   "end": 344.727
+   "start": 178.574,
+   "end": 181.144
   },
   {
    "i": 38,
-   "beat": 19,
+   "beat": 11,
    "chapter": null,
-   "text": "And in that exact second, his vital signs stopped forever, with no apparent cause of death.",
+   "text": "This video is inspired by the story Gateway of the Mind, as published on an online horror story page.",
    "who": "nar",
-   "start": 344.947,
-   "end": 352.626
+   "start": 181.594,
+   "end": 190.35
   },
   {
    "i": 39,
-   "beat": 20,
+   "beat": 12,
    "chapter": null,
-   "text": "Would you have severed every sensory nerve to hear the voice of God?",
+   "text": "Now tell me.",
    "who": "nar",
-   "start": 352.946,
-   "end": 357.693
+   "start": 190.8,
+   "end": 191.721
+  },
+  {
+   "i": 40,
+   "beat": 12,
+   "chapter": null,
+   "text": "Would you have kept listening to the voices?",
+   "who": "nar",
+   "start": 192.021,
+   "end": 194.488
   }
  ]
 }

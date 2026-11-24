@@ -43,7 +43,7 @@ def plan():
         nl = frames('long')
         # about 45 s of video per runner, at least the engine's own value, at most 16 (free plan = 20 jobs at once)
         P = max(int(cfg.get('parts', 10)), min(16, math.ceil(nl / (45 * fps))))
-        flags = f"--scale={cfg.get('scale', 1.0)} --crf=14 --muted --gl=swiftshader --timeout=240000 --log=error"
+        flags = f"--scale={cfg.get('scale', 1.0)} --crf=14 --muted --gl=swiftshader --log=error"
         if target in ('all', 'long'):
             step = (nl + P - 1) // P
             for i in range(P):
@@ -55,7 +55,7 @@ def plan():
                 a, b = i * step, min(nr - 1, (i + 1) * step - 1)
                 if a < nr: m.append(dict(comp='Reel', i=i, a=a, b=b, file=f'reel_part{i}.mp4', parts=P, flags=flags))
     else:
-        flags = '--scale=0.6 --crf=22 --muted --gl=swiftshader --timeout=240000 --log=error'
+        flags = '--scale=0.6 --crf=22 --muted --gl=swiftshader --log=error'
         if target in ('all', 'long'):
             nl = frames('long'); step = (nl + 3) // 4
             for i in range(4):

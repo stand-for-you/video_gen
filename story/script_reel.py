@@ -1,19 +1,16 @@
-# Gateway of the Mind — Reel Script (9:16). ONE speaker only (narrator af_nicole at speed 1.1).
-# Pacing aimed at 2:40-2:55.
+# GATEWAY OF THE MIND (Reel, 2:40-2:55). ONE speaker: the narrator. Own words; fiction.
 BEATS = [
-  ("Intro", "In nineteen eighty-three, deep beneath an underground bunker, an old man lay strapped to a metal table in total silence. Every sensory nerve in his body had been surgically cut."),
-  (None, "The scientists believed that without the five senses, human thought could reach the pure presence of God. Instead, something far darker found him in the void: hundreds of dead voices that refused to leave him alone."),
-  (None, "And before his heart stopped forever, he delivered one final message. Let us go back to the beginning."),
-  (None, "A team of deeply religious scientists had theorized that physical senses cloud our awareness of eternity. They believed that without stimuli, a person could touch the divine."),
-  (None, "An elderly volunteer with nothing left to live for agreed to the radical surgery. Surgeons severed every sensory nerve connection leading into his brain."),
-  (None, "Although he retained full muscular function, he was completely trapped inside his own mind. Through one-way glass, researchers monitored his slurred speech into a microphone."),
-  (None, "On day four, he whispered that he heard hushed, unintelligible voices in his head. Two days later, he began to weep, crying out that his dead wife was speaking to him."),
-  (None, "Then, he began reciting the private names and secrets of the scientists' own dead relatives. Terrified by what they had unsealed, half of the research team fled the facility that night."),
-  (None, "Within a week, the whispers turned into a deafening roar of hundreds of spirits. The man slammed himself against walls seeking pain, then begged for sedatives to sleep."),
-  (None, "But in his dreams, he could see the dead circling him. He clawed at his useless eyes, screaming that the voices spoke only of hell."),
-  (None, "For five straight hours, he shrieked: No heaven, no forgiveness! The scientists refused to stop, convinced they were moments away from contacting God."),
-  (None, "Driven to absolute madness, he began thrashing violently until researchers strapped him down. For two weeks, he stared blankly at the ceiling as silent tears ran down his face, kept alive only by intravenous fluids."),
-  (None, "On the fifteenth night, the blind man slowly turned his head and made dead-center eye contact with the lead scientist through the glass. He whispered: I have spoken with God, and he has abandoned us. In that exact second, his heart stopped forever."),
-  (None, "Would you have severed every sensory nerve to hear the voice of God?"),
+("Intro", "A man lay in a sealed room for four days. He could not see, hear, taste, smell, or feel anything. Then he began to hear his dead wife. Why did the scientists keep listening? What did they want from him? Let us go back to the beginning."),
+(None, "In nineteen eighty-three, a group of deeply religious scientists ran a secret test in an undisclosed facility. They believed the five senses clouded our view of eternity. Take them away, they thought, and a human mind could reach God by thought alone."),
+(None, "They chose an elderly man who said he had nothing left to live for. He volunteered. Surgeons cut every nerve that carried feeling from his body to his brain. His muscles still worked, but he could no longer see, hear, taste, smell, or feel."),
+(None, "Nothing reached him from the outside world. The scientists watched through the glass, and a tape recorder caught his slurred words. He could not hear himself speak. After four days, he said hushed voices were speaking inside his head."),
+(None, "Two days later, he said his dead wife was talking to him, and that he could answer her. Then he began naming dead relatives of the scientists. He repeated private details that only their spouses and parents could have known."),
+(None, "For a week, the voices filled every waking moment. He threw his body against the wall, hoping for pain to drown them out. He begged for sedatives, so he could escape by sleeping. Sleep brought nightmares, and in them, the dead were waiting."),
+(None, "Then the voices turned hostile. They spoke of hell and the end of the world. For five hours, he shouted that there was no heaven and no forgiveness. The scientists were certain he was close to God."),
+(None, "Soon he could no longer form a sentence. He lost control of his body, and the team had to tie him down so he could not harm himself."),
+(None, "At last, though he was blind, he turned his head and looked straight at a scientist for the first time. He whispered that he had spoken with God, and God had abandoned them. Then his vital signs stopped. No cause of death was ever found."),
+(None, "This video is inspired by the story Gateway of the Mind, as published on an online horror story page."),
+(None, "Would you have kept listening to the voices?"),
 ]
 TEASER_LAST_BEAT = 0
+QUESTION = "Would you have kept listening to the voices?"

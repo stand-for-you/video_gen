@@ -1,11 +1,2 @@
-{
- "fps": 60,
- "scale": 1.0,
- "dissolve": 14,
- "crf": 18,
- "parts": 16,
- "_note": "v0.5 3D engine. fps 60 = very smooth motion (the channel standard; never go below 60). scale 1.0 = crisp, no upscaling. dissolve = soft cut length in frames inside one narration unit (14 frames = 0.23 s at 60 fps). parts = resumable render parts for the long video (3D at 60 fps is heavy: more parts = safer).",
- "split_over_seconds": 360,
- "min_part_seconds": 120,
- "_note_v06": "v0.6: look is 2D (references/style-2d.md). split_over_seconds: narration longer than this becomes two parts (tools/split_story.py). Keys fps, scale, dissolve, crf, parts are unchanged."
-}
+{ "fps": 30, "scale": 1.0, "dissolve": 8, "crf": 18, "parts": 10,
+  "_note": "fps 30 = smooth motion (never below 24). scale 1.0 = crisp, no upscaling. dissolve = soft cut length in frames between shots inside one beat (0 = hard cuts). parts = resumable render parts for the long video." }

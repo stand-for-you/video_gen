@@ -11,4 +11,3 @@ models/
 *.log
 __pycache__/
 *.pyc
-build

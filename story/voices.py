@@ -1,4 +1,4 @@
-# One fixed Kokoro voice per speaking character (LONG video only; the Reel is always the narrator alone).
-VOICES = {'nar': ('af_nicole', 1.1), 'subject': ('bm_george', 0.95), 'scientist': ('am_michael', 1.05)}
-PITCH = {'subject': 0.92}
-SAY = [("1983", "nineteen eighty-three"), ("psychosis", "sigh-co-sis")]
+# Long video: narrator plus the subject Elias (old man, slower and lower). Reel uses the narrator only.
+VOICES = {'nar': ('af_nicole', 1.1), 'elias': ('am_michael', 0.9)}
+PITCH = {}
+SAY = [("1983", "nineteen eighty-three")]

@@ -17,7 +17,7 @@ BEATS = mod.BEATS
 OUT = f'audio/{NAME}'
 os.makedirs(f'{OUT}/units', exist_ok=True)
 SR = 24000
-GAP, BEAT_GAP, CHAP_GAP = 0.22, 0.32, 0.42
+GAP, BEAT_GAP, CHAP_GAP = 0.30, 0.45, 0.60
 VOICES, PITCH, SAY = {'nar': ('af_nicole', 1.1)}, {}, []
 try:
     _v = importlib.import_module('voices')
@@ -103,7 +103,7 @@ def main():
             pieces.append(np.zeros(int(g * SR), np.float32)); t += g
         start = t; pieces.append(c.astype(np.float32)); t += len(c) / SR
         timing.append({'i': idx, 'beat': bi, 'chapter': chap, 'text': u, 'who': who, 'start': round(start, 3), 'end': round(t, 3)})
-    pieces.append(np.zeros(int(0.6 * SR), np.float32))
+    pieces.append(np.zeros(int(1.2 * SR), np.float32))
     voice = np.concatenate(pieces)
     sf.write(f'{OUT}/voice.wav', voice, SR)
     json.dump({'duration': len(voice) / SR, 'units': timing}, open(f'{OUT}/timing.json', 'w'), indent=1)
