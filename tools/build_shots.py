@@ -78,6 +78,28 @@ out = dict(fps=FPS, teaser=TEASER, frames=frames, end_s=(round(bstart[-1], 3) if
 json.dump(out, open(f'src/shots_{NAME}.json', 'w'))
 lens = [s['e'] - s['s'] for s in shots]
 print(f'{NAME}: {dur:.1f}s, {len(shots)} shots, {len(specs)} unique scenes, {len(shots) / (dur / 60):.1f} screens/min, shot len min {min(lens) / FPS:.1f}s max {max(lens) / FPS:.1f}s; teaser max {max(l for s, l in zip(shots, lens) if s["b"] <= TEASER) / FPS:.1f}s')
-re = sum(1 for x in shots if x['reuse']); print(f'{NAME}: re-shown scenes {re}/{len(shots)} = {re / len(shots) * 100:.0f}% (keep <= 10%: add scenes to the beats listed in WARN)')
+re = sum(1 for x in shots if x['reuse']); print(f'{NAME}: re-shown scenes {re}/{len(shots)} = {re / len(shots) * 100:.0f}% (the law is 0)')
 for w in warn: print('WARN', w)
 for k, v in dups.items(): print('DUP', k[:120], v)
+
+# ---- ONE-USE LAW. A picture is used ONCE.
+# This used to be a printed warning while the builder quietly recycled a beat's own scene
+# as L[k % len(L)] with v.alt = 1 and a nudged framing tag. That silent recycling is what
+# put the same picture on screen several times in one video. It is now a hard stop, so the
+# fault is caught in 1 second here instead of after a 14-minute cloud render.
+# SK_ALLOW_RESHOW=1 is for a throwaway draft only, never for a delivered video.
+import os as _os
+if (re or dups) and _os.environ.get('SK_ALLOW_RESHOW') != '1':
+    need = {}
+    for x in shots:
+        if x['reuse']: need[x['b']] = need.get(x['b'], 0) + 1
+    msg = ['ONE-USE LAW FAILED (tools/build_shots.py)']
+    if re:
+        msg.append(f'{re} shot(s) recycle a scene from their own beat.')
+        msg.append('Add this many MORE scenes to story/scenes_%s.py: ' % NAME +
+                   ', '.join(f'beat {b} +{n}' for b, n in sorted(need.items(), key=lambda x: -x[1])))
+    if dups:
+        msg.append(f'{len(dups)} scene spec(s) appear in more than one beat (see DUP lines above).')
+        msg.append('Change the camera, the people positions or a prop so each use is a NEW picture.')
+    msg.append('Draft override (never for delivery): SK_ALLOW_RESHOW=1 python3 tools/build_shots.py ' + NAME)
+    raise SystemExit('\n  '.join(msg))
