@@ -68,6 +68,23 @@ body = min(dur, end_start or dur)
 print(f'{NAME}: {dur:.1f}s, {len(units)} sentences, {len(shots)} shots, {len(specs)} unique scenes, '
       f'{len(shots) / (body / 60):.1f} screens/min, shot len min {min(lens) / FPS:.1f}s max {max(lens) / FPS:.1f}s; '
       f'teaser max {max(l for s, l in zip(shots, lens) if s["b"] <= TEASER) / FPS:.1f}s')
-re_ = sum(1 for x in shots if x['reuse']); print(f'{NAME}: re-shown scenes {re_}/{len(shots)} = {re_ / len(shots) * 100:.0f}% (keep <= 10%: add scenes to the units listed in WARN)')
+re_ = sum(1 for x in shots if x['reuse'])
+print(f'{NAME}: re-shown scenes {re_}/{len(shots)} = {re_ / len(shots) * 100:.0f}% (the law is 0)')
 for w in warn: print('WARN', w)
 for k, v in dups.items(): print('DUP', k[:120], 'in units', v)
+
+# ---- ONE-USE LAW (v0.6). A picture is used ONCE.
+# This used to be a printed warning while the builder quietly recycled a unit's own
+# scene as L[k % len(L)] with v.alt = 1. That silent recycling is what put the same
+# picture on screen several times in one video. It is now a hard stop.
+# Set SK_ALLOW_RESHOW=1 only for a throwaway draft render; never for a delivered video.
+if (re_ or dups) and os.environ.get('SK_ALLOW_RESHOW') != '1':
+    lines = []
+    if re_:
+        lines.append(f'{re_} shot(s) recycle a scene from their own sentence.')
+        lines.append('Fix: add one more scene to each unit listed in WARN above, so every shot has its own entry.')
+    if dups:
+        lines.append(f'{len(dups)} scene spec(s) appear in more than one sentence.')
+        lines.append('Fix: change the camera, the people positions or a prop so each use is a NEW picture.')
+    raise SystemExit('\nONE-USE LAW FAILED (tools/build_shots.py)\n  ' + '\n  '.join(lines) +
+                     '\n  Draft override (never for delivery): SK_ALLOW_RESHOW=1 python3 tools/build_shots.py ' + NAME)
