@@ -1,5 +1,6 @@
 import React from 'react';
 import { Set3, SetP } from './Stage3';
+import { MI_SETS } from './MI3';
 import { CamSpec } from './k3/Cam';
 import { V3, PAL, M, G, sway } from './k3/core';
 import { Night, Ground, Mist } from './k3/World';
@@ -317,7 +318,10 @@ rqcard.camR = (): CamSpec => ({
   amt: 0.22,
 });
 
+// The monster-introduction pack carries its own vertical cameras (camR), so the same
+// set names work in the Reel without being redrawn.
 export const SETS: Record<string, Set3> = {
+  ...MI_SETS,
   rchamber,
   robs,
   rtapes,

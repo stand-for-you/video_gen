@@ -1,10 +1,26 @@
 import { P3 } from './k3/Person';
 import { C3, HERBERT, HERBERT_LIVING } from './k3/Creature';
-// ===== SCROLL KAOS PERMANENT CAST, 3D (engine v0.5). ONE fixed character model for the whole channel.
-// These are the faces that worked best on the channel: the painted cast rebuilt as low-poly flat-shaded 3D people.
-// LAW: face, hair, body shape and height of a cast member NEVER change between videos. Only clothes may change, and only for a
-// story reason written in the story bible. A story person who is not here gets ONE new spec at the bottom of this file.
-// Look: muted palette, ONE red accent (ribbons, scarf), dark night light. Human proportions: adult about 7 heads, child bigger head.
+// ===== SCROLL KAOS CHARACTER LIBRARY, 3D (engine v0.6) =====
+//
+// LAW CHANGE (v0.6). The old law was "one fixed cast for the whole channel, reused in every
+// video". That is OVER. The character sheets are a TEMPLATE, not a cast: EVERY STORY CASTS
+// NEW PEOPLE. What carries across videos is the design language, not the faces.
+//
+//   Build a story's people with  makeCast(slug, roles)  from src/CastGen3.ts.
+//   Check the result with        castProblems(cast)     before drawing anything.
+//   Write it into the bible with describeCast(cast).
+//
+// The specs below are NOT a cast to reuse. They are REFERENCE EXAMPLES: worked specs that
+// show the house style (muted palette, ONE red accent per story, night-ready colours, adult
+// about 7 heads, child bigger head). Read them to learn the shape of a P3; do not drop them
+// into a new story. The only exception is a returning character the story itself names.
+//
+// The design language the generator enforces, read off the character sheets:
+//   1. Build variety is the point - a cast of one body width is a failure.
+//   2. Silhouette first - recognisable as a black shape: width, height, hair, posture.
+//   3. Posture carries the role - boss straight, dogsbody stooped, old man hunched.
+//   4. Costume says the job before the face does.
+//   5. ONE red accent per story, on one person only.
 export const CAST3: Record<string, P3> = {
   // ---- HERO
   noah: { id: 'noah', name: 'Noah Reed', sex: 'm', age: 1, h: 1.78, skin: '#c99a73', hair: '#1d1a19', hairStyle: 'messy', eyeC: '#3a2a1c', jaw: 'square', nose: 'straight', brow: 1.2, stubble: true, top: 'shirt', topC: '#4e7a84', inner: '#9fc0c6', bottom: 'trousers', botC: '#4a3728', shoeC: '#3a2a1e', acc: ['satchel', 'redThread'], accC: '#7a5a36' },

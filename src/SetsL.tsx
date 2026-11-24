@@ -1,5 +1,6 @@
 import React from 'react';
 import { Set3, SetP } from './Stage3';
+import { MI_SETS } from './MI3';
 import { CamSpec } from './k3/Cam';
 import { V3, PAL, M, G, ss, seg, sway } from './k3/core';
 import { Night, Ground, Grass, Mist, Flakes } from './k3/World';
@@ -427,8 +428,13 @@ restricted_door.cam = (v, t, len): CamSpec => ({
 export const end: Set3 = ({ t }: SetP) => <EndScreen3 t={t} />;
 end.cam = endCam;
 
-// Export all 16:9 sets
+// Export all 16:9 sets.
+// MI_SETS (src/MI3.tsx) is the shared monster-introduction pack: mi_reveal, mi_height,
+// mi_anatomy, mi_ability, mi_compare, mi_scale, mi_threat. It is spread in here so the
+// block is available to every story without being rewritten. A story that has no
+// creature simply never names those sets in its scene table.
 export const SETS: Record<string, Set3> = {
+  ...MI_SETS,
   chamber_iso,
   obs_window,
   reels_tape,

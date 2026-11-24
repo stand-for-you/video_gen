@@ -7,6 +7,7 @@ import { Gal, GalR, GAL_N, GALR_N } from './Gal';
 import { Lab3, LAB3_PLATES } from './Lab3';
 import { ThumbA, ThumbB, ThumbC, ThumbR } from './ThumbsStory';
 import { UniqueL, UniqueR } from './Unique';
+import { MISheet, MISheetL, MI_N } from './MIDemo';
 import UL from './unique_long.json';
 import UR from './unique_reel.json';
 import L from './shots_long.json';
@@ -16,8 +17,9 @@ import WR from './words_reel.json';
 // Generic root (engine v0.5: 3D, native 60 fps from engine.json).
 // STORY SLOTS (replace for each story): SetsL.tsx, SetsR.tsx, a story kit (like HS3.tsx), End3 story.json, ThumbsStory.tsx,
 // Card.tsx (chapter card look), gal.json, story/*.
-// FIXED ENGINE (never rewrite per story): k3/* (core, Cam, World, Nature, Build, Interior, Fx, Person, Creature, Thumbs3),
-// Cast3D.ts (the permanent cast), Stage3.tsx, Player3.tsx, Subs3.tsx, Gal.tsx, Lab3.tsx.
+// FIXED ENGINE (never rewrite per story): k3/* (core, Cam, World, Nature, Build, Interior, Fx, Person, Creature,
+// Thumbs3, Hud3), CastGen3.ts (the character TEMPLATE - v0.6 casts new people per story), Cast3D.ts (reference
+// specs + creatures), MI3.tsx (the monster-introduction pack), Stage3.tsx, Player3.tsx, Subs3.tsx, Gal.tsx, Lab3.tsx.
 // GENERATED: shots_long.json, shots_reel.json (tools/build_shots.py), words_long.json, words_reel.json (tools/words.py).
 if (typeof document !== 'undefined' && !document.getElementById('sk-lora')) {
   const el = document.createElement('style'); el.id = 'sk-lora';
@@ -38,6 +40,9 @@ export const Root: React.FC = () => (<>
   <Composition id="Lab" component={Lab3} width={1920} height={1080} fps={FPS} durationInFrames={LAB3_PLATES * 100} />
   <Composition id="UniqueL" component={UniqueL} width={1920} height={1080} fps={30} durationInFrames={UL.length} />
   <Composition id="UniqueR" component={UniqueR} width={1080} height={1920} fps={30} durationInFrames={UR.length} />
+  {/* QA only: the monster-introduction reference sheet, one frame per card */}
+  <Composition id="MISheet" component={MISheet} width={1080} height={1920} fps={FPS} durationInFrames={MI_N} />
+  <Composition id="MISheetL" component={MISheetL} width={1920} height={1080} fps={FPS} durationInFrames={MI_N} />
   <Still id="ThumbA" component={ThumbA} width={1280} height={720} />
   <Still id="ThumbB" component={ThumbB} width={1280} height={720} />
   <Still id="ThumbC" component={ThumbC} width={1280} height={720} />
