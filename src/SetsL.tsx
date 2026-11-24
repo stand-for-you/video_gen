@@ -107,10 +107,10 @@ const chamber: React.FC<SetProps> = ({ f, v, t = 0, len = 90 }) => {
     <g>
       <Defs />
       <Lit>
-        <Chamber f={f}>
+        <g transform={v.flip ? 'translate(1920,0) scale(-1,1)' : undefined}><Chamber f={f}>
           <SteelBed x={560} y={CH_FLOOR - 10} w={800} f={f} />
           <LyingElias x={960} y={CH_FLOOR - 50 - 6 * p} k={0.4} f={f} expr={v.expr ?? 'sleepy'} uid="chA" />
-        </Chamber>
+        </Chamber></g>
         <ObsGlass x={WIN.x} y={WIN.y} w={WIN.w} h={WIN.h} f={f} />
         <rect x={0} y={800} width={W} height={280} fill={PAL_LAB.floorD} opacity={0.5} />
         <Tag at={[1140, 300]} to={[1480, 220]} text="SENSES CUT" f={t} t0={0.5} />
