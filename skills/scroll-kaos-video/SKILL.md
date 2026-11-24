@@ -13,9 +13,9 @@ Reply to the user in simple English, explain hard words in (brackets), bold key 
 Read `references/quality-law.md` BEFORE planning. It is the user's standard, written from the videos they rated best (the flight story, the monster short, the "1st (2)" long video) and the one they rejected ("I Know You're Awake"). In short:
 
 1. **Smooth.** 30 fps. Every shot moves (camera plus a moving thing). No freeze over 2.5 s unless planned.
-2. **No repeats.** Every shot is a new picture. The same face, blanket or room angle shown again is a failure.
+2. **THE ONE-USE LAW: a picture is used ONCE, ever.** Zero repeats inside a video, and no picture may repeat one from an earlier video on the channel. A near-copy counts as a copy. Returning to a room is fine; returning to a *picture* is not — change at least two of {camera position, who is in shot and where, the light, a prop's state}. Never let a tool fill a gap by recycling a scene: if a sentence needs four shots, **write four scenes**. (quality-law.md section 6)
 3. **Full bodies and waist-up.** At least 50 % of shots show the body. Face-only close-ups at most 15 %.
-4. **The monster matches the story** word by word (write `story/creature.md`), is shown full body from two angles, and moves.
+4. **THE ONE-CREATURE LAW: one story, one antagonist, one design, never drifting.** Build the creature from `story/creature.md` word by word, write the spec **once**, and import that one spec everywhere — never re-type its numbers inside a set. The only allowed difference between shots is a **declared state** (alive/burnt, dry/soaked, dressed/bare); a different design is a different monster and is a failure. Show it in at least 6 shots, full body from two angles, moving. The thumbnail creature is the same creature. (quality-law.md section 7)
 5. **Readable rooms.** At least 5 readable objects per room; blankets and sheets have folds and texture; no near-black shots except a planned dark moment.
 6. **Blood is shown clearly** when the story has blood (bright red stains, drips, pools), never as an open wound or a body being cut on screen. Ask the user to confirm this limit once (see the policy note in quality-law.md 4d).
 
@@ -52,6 +52,10 @@ Create a task list with these stages and tick them off. Tell the user in one lin
     `python3 engine/tools/quality_gate.py final/<Prefix>_YouTube_1920x1080.mp4 --kind long --sheet qa/long_sheet.png`
     `python3 engine/tools/quality_gate.py final/<Prefix>_Reel_1080x1920.mp4 --kind reel --sheet qa/reel_sheet.png`
     The gate must print no hard fails (exit code 0). Each warning must be explained in the final message.
+    Then check the video against every earlier video on the channel (the one-use law across videos):
+    `python3 tools/frame_ledger.py check final/<Prefix>_Reel_1080x1920.mp4 <story-slug>`
+    Re-stage anything it flags. Only once the user approves the finished video, record it:
+    `python3 tools/frame_ledger.py add final/<Prefix>_Reel_1080x1920.mp4 <story-slug>`
 13. **Send** exactly the deliverables from `final/` with SendUserFile in one call.
 
 ## Final message
@@ -59,7 +63,10 @@ Keep it short and clear: what was made (lengths, sizes, loudness), the gate numb
 
 ## Rules that are easy to forget
 - The gate and the contact sheets are both required. A pass on one is not a pass on the other.
-- A repeated picture is a failure, even when it is a good picture. Change the camera angle, the people's position or a prop.
+- **A repeated picture is a failure, even when it is a good picture.** It is still a failure when it is 20 seconds later, when only the framing tag changed, and when it came from a different video. Change at least two of {camera position, who is in shot and where, the light, a prop's state}.
+- **Count scenes against shots before building.** A sentence that will get 4 shots needs 4 written scenes. A gap filled by the tool is a duplicate picture.
+- **Run the frame ledger before delivery** so the new video does not repeat an earlier one, and add it to the ledger only after the user approves.
+- **The antagonist never drifts.** One spec, imported everywhere, never re-typed in a set.
 - Faces alone are a failure. Show the body in at least half the shots.
 - The monster is the story's monster. If the text says it is tall, it is tall in every shot.
 - First frame = the creepiest picture; a creepy shape before 0:20; picture change every <= 2.5 s in the teaser.

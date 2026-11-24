@@ -18,8 +18,9 @@ The rejected videos did not fail on style alone. They failed on **repeated pictu
 
 1. **Frame rate 30 fps. Exact sizes:** long 1920x1080, Reel 1080x1920.
 2. **Shots per minute:** long video at least 20, Reel at least 18.
-3. **No repeated shot.** A shot is a repeat when its picture is almost the same as an earlier shot 8 s or more before it (measured threshold 1.5 on a 96 px grey image). Zero repeats allowed. If one room is used twice, the camera must show a NEW part of it, a NEW prop, or the people in NEW positions.
+3. **THE ONE-USE LAW. A picture is used once, ever.** See section 6 — this is the strictest rule on the channel and the one most often broken.
 4. **Every shot moves.** Each shot has a camera move (push, pull, pan, orbit or shake) and at least one moving thing (a person, a creature, a prop, light or fog).
+5. **THE ONE-CREATURE LAW.** One story, one antagonist, one design, never drifting. See section 7.
 
 ## 3. Warnings (the gate reports them; the author must justify them in the scene table)
 
@@ -58,8 +59,48 @@ The rejected videos did not fail on style alone. They failed on **repeated pictu
 - Use **parallax** (background moves slower than the front layer) in every room shot.
 - Frames must not be **held more than 2.5 s** unless listed as a planned hold.
 
-## 5. Process (every run)
+## 6. THE ONE-USE LAW (a picture is used once, ever)
 
+**The user's words:** *"never use the frames after use it one time, and always make the new frames, and always make the frames different from any previous frames."* They also reported the exact symptom: *"you make multiple frames which are totally similar from the previous frames and you use that frames in entire video — one scene you use multiple times in a video."*
+
+### 6a. The rule
+- **Inside one video:** no picture may appear twice. Not "nearly never" — **zero**.
+- **Across videos:** no picture may repeat a picture from any earlier video on the channel.
+- A **near-copy counts as a copy.** If a viewer would say "I've seen this already", it is a repeat, whatever the pixel difference says.
+- Re-showing a **place** is allowed. Re-showing a **picture** is not.
+
+### 6b. Why this keeps happening (know the trap)
+The shot builder used to fill a gap by recycling a unit's own scene when a sentence needed more shots than the scene table provided. It changed the framing tag and nothing else, so the same picture went out several times, silently. **Never let a tool fill a gap for you.** If a sentence needs four shots, write four scenes.
+
+### 6c. How to make a return to a room legal
+Change **at least two** of these, never framing alone:
+- camera on a different wall, at a different height, or on the other side of the room
+- different people in shot, or the same people in new positions
+- different light (lamp on/off, fire grown, time of day, door now spilling light)
+- a prop changed or in a new state (door open, drawer out, blood now present)
+
+### 6d. What is measured
+- shot list: re-shown scenes **0**; identical scene specs anywhere in the video **0**; no set carrying more than 18 % of shots
+- video: every sampled second compared against **every earlier second** (not just 20 s back); exact repeats **≤ 2 %**; near-copies **≤ 6 %**; at least 82 % of seconds are a new picture
+- across videos: a frame ledger of every delivered video; at most 1.5 % of seconds may match an earlier video, 5 % may resemble one
+
+### 6e. Writing the scene table so this passes
+Before building shots, count: **one scene entry per shot the sentence will get**, each visibly different from every other entry in the whole table. Read the table top to bottom and ask of each line, *"have I already made this picture?"* If yes, change it there and then — it is far cheaper than a re-render.
+
+## 7. THE ONE-CREATURE LAW (the antagonist never drifts)
+
+**The user's words:** *"if i give you the some monster or antagonist of the video so always make them much much similar in entire video."*
+
+- **One story, one antagonist, one design.** Height, build, head, eyes, hands, clothes and colour are fixed the moment the creature sheet is written, and every shot obeys them.
+- Build the creature spec **once** from `story/creature.md` and import that one spec everywhere. **Never re-type its numbers inside a set** — that is how a monster drifts.
+- The only allowed difference between shots is **state**, declared in advance: alive/dead, dressed/bare, dry/soaked, clean/burnt. A state change is the same character. A different design is a different monster, and is a failure.
+- It must be **seen**, not described: at least 6 shots, full body from **two** angles, and moving.
+- The creature in the **thumbnail** is the same creature as in the video.
+- A story with a creature declares it in `story/creature.json` (`id`, `variants`, `min_shots`). The gate fails any creature id that is not the declared one or a declared variant.
+
+## 8. Process (every run)
+
+0. **Before writing the scene table, re-read sections 6 and 7.** The one-use law and the one-creature law are the two rules this channel has actually been burned by.
 1. Read the references in this order: `quality-law.md` (this file), `channel-policy.md`, `pipeline.md`, `art-library.md`.
 2. Before any drawing, write `story/creature.md` (rule 4a) and `story/rooms.md` (5 readable objects per room, and the light sources).
 3. Write the scene table with a **framing tag** per shot (`full`, `waist`, `face`) and a **motion note** per shot. Keep `face` at 15 % or below.
