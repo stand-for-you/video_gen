@@ -68,7 +68,7 @@ const rchamber: React.FC<SetProps> = ({ f, v, t = 0, len = 90 }) => {
             <rect x={WIN.x + 40} y={1040} width={WIN.w - 80} height={24} fill="#9aa6a2" />
             <LyingElias x={540} y={1020 - 6 * p} k={0.5} f={f} expr={v.expr ?? 'sleepy'} uid="rcA" />
           </Chamber>
-          <Tag at={[700, 360]} to={[930, 300]} text="SENSES CUT" f={t} t0={0.5} />
+          <Tag at={[700, 360]} to={[790, 300]} text="SENSES CUT" f={t} t0={0.5} />
           <Dust x={60} y={100} w={960} h={1200} f={f} n={16} />
         </Room>
         <NightMask W={W} H={H} x={540} y={900} r={1000} o={0.55} c="#0a1210" />
@@ -88,7 +88,7 @@ const rwall: React.FC<SetProps> = ({ f, v, t = 0, len = 90 }) => {
             <rect x={WIN.x} y={CHF - 6} width={WIN.w} height={20} fill="#2c3c3a" />
           </Chamber>
           <FullPerson s={CAST.elias} x={540 + 30 * p} y={CHF} k={0.3} f={f} view="three" face={-1} expr="fear" motion={{ type: 'recoil' }} />
-          <Tag at={[760, 330]} to={[930, 280]} text="HE HITS THE WALL" f={t} t0={0.6} red />
+          <Tag at={[760, 330]} to={[680, 280]} text="HE HITS THE WALL" f={t} t0={0.6} red />
           <Dust x={60} y={100} w={960} h={1200} f={f} n={14} />
         </Room>
         <NightMask W={W} H={H} x={540} y={900} r={1000} o={0.55} c="#0a1210" />
@@ -109,7 +109,7 @@ const rghost: React.FC<SetProps> = ({ f, v, t = 0, len = 90 }) => {
           </Chamber>
           <FullPerson s={CAST.elias} x={430} y={CHF} k={0.28} f={f} view="three" face={1} expr="speak" motion={{ type: 'reach' }} />
           <GhostWoman x={780 - 60 * p} y={CHF} s={0.28} f={f} view="front" motion={{ type: 'idle' }} />
-          <Tag at={[720, 300]} to={[930, 240]} text="HIS DEAD WIFE" f={t} t0={0.6} />
+          <Tag at={[720, 300]} to={[740, 240]} text="HIS DEAD WIFE" f={t} t0={0.6} />
           <Dust x={60} y={100} w={960} h={1200} f={f} n={14} />
         </Room>
         <NightMask W={W} H={H} x={540} y={900} r={1000} o={0.55} c="#0a1210" />

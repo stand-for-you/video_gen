@@ -66,13 +66,15 @@ jobs:
         if: ${{ github.event.inputs.skip_preflight != 'true' }}
         run: |
           fail=0
+          # labels: clipped or over-used callouts are pure arithmetic, so they never reach a render
+          python3 tools/lint_tags.py || fail=1
           for n in long reel; do
             [ -f "src/shots_$n.json" ] || continue
             echo "== $n"
             python3 tools/quality_gate.py shots "$n" || fail=1
           done
           if [ "$fail" != 0 ]; then
-            echo "::error::Shot list fails the one-use law. Nothing was rendered - fix the scene table and push again. The FIX LIST above names the repeated shots and the beats that need more scenes."
+            echo "::error::Pre-flight failed. Nothing was rendered. Fix what is listed above (repeated pictures, clipped or over-used labels, creature drift) and push again. Locally: python3 tools/checkpoint.py"
             exit 1
           fi
       - name: Make the plan

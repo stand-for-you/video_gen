@@ -11,6 +11,9 @@
 #   then, and only then:  gh workflow run compile.yml -f target=all
 set -u
 cd "$(dirname "$0")/.."
+# The staged board is the real entry point; this wrapper keeps the old command working.
+exec python3 tools/checkpoint.py "$@"
+# (unreachable - kept so the stages below are documented in one place)
 fail=0
 for n in long reel; do
   [ -f "story/scenes_$n.py" ] || continue
@@ -18,6 +21,7 @@ for n in long reel; do
   if ! python3 tools/build_shots.py "$n"; then fail=1; echo "  (build_shots stopped: see the fix list above)"; continue; fi
   python3 tools/quality_gate.py shots "$n" || fail=1
 done
+python3 tools/lint_tags.py || fail=1
 echo
 if [ "$fail" = 0 ]; then
   echo "PRE-FLIGHT PASS - safe to compile:  gh workflow run compile.yml -f target=all"
