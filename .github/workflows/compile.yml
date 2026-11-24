@@ -137,7 +137,11 @@ jobs:
           PREFIX: ${{ needs.plan.outputs.prefix }}
           TARGET: ${{ needs.plan.outputs.target }}
         run: |
-          ls -la renders
+          # target=thumbs renders no parts, so renders/ may not exist. The step runs
+          # under `bash -e`, so a bare `ls` on a missing folder aborted the whole job
+          # before assemble.sh could run.
+          mkdir -p renders
+          ls -la renders || true
           bash ci/assemble.sh "$PREFIX" "$TARGET"
       - name: Upload the package
         if: always()
