@@ -1,0 +1,7 @@
+{
+  "name": "scroll-kaos-studio",
+  "version": "0.4.0",
+  "description": "Makes finished Scroll Kaos paper-cutout horror videos from a story: YouTube 16:9 video with end screen, a separately drawn 9:16 Reel, English and Hindi subtitles, 3 A/B thumbnails, a Reel thumbnail and upload notes, using the channel's permanent cast and a bundled Remotion + Kokoro engine.",
+  "author": { "name": "Scroll Kaos" },
+  "keywords": ["horror", "video", "remotion", "kokoro", "youtube", "reels", "creepypasta"]
+}

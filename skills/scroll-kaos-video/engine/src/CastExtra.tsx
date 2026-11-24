@@ -1,0 +1,6 @@
+import type { Spec } from './Cast';
+// Extra permanent side cast added in later videos (same Cast.tsx builder, same style). Use with FullPerson / FacePerson.
+// lyra + oliver: added for Ticci-Toby (kit i). terence: added for Smile Dog (kit k).
+export const LYRA: Spec = { id: 'lyra', name: 'LYRA (teen girl)', sex: 'f', age: 0, skin: '#dcb090', skinD: '#93684a', hair: '#b08a48', hairStyle: 'long', eyeC: '#2a2418', lip: '#a05656', fw: 0.95, top: 'shirt', topC: '#7a7a76', topD: '#555552', inner: '#d8d0bc', sw: 250, hw: 230, rolled: true, bottom: 'trousers', botC: '#3c4b66', shoeC: '#2b2019', gs: 0.93, acc: [] } as Spec;
+export const OLIVER: Spec = { id: 'oliver', name: 'DR. OLIVER (young doctor)', sex: 'f', age: 0, skin: '#e0b896', skinD: '#98704e', hair: '#d2bc84', hairStyle: 'bun', eyeC: '#3a3020', lip: '#a65a5a', fw: 0.97, top: 'cardigan', topC: '#26242a', topD: '#16151a', inner: '#e4dcc8', sw: 252, hw: 240, bottom: 'dressKnee', botC: '#26242a', shoeC: '#1a1612', gs: 0.96, acc: [] } as Spec;
+export const TERENCE: Spec = { id: 'terence', name: 'TERENCE (new cast)', sex: 'm', age: 2, skin: '#c69a76', skinD: '#80603f', hair: '#4a3a2e', hairStyle: 'crop', glasses: true, fw: 1.0, top: 'cardigan', topC: '#5c5648', topD: '#3e3a30', inner: '#cfc6b0', sw: 300, hw: 244, bottom: 'trousers', botC: '#3a3a44', shoeC: '#2b2019', gs: 1.0 } as Spec;
