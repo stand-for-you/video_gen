@@ -71,6 +71,36 @@ def shots_gate(name):
     chk('first frame is a scene, not a card', S[0]['set'] not in ('end', 'qcard', 'rqcard'), S[0]['set'], 'a story picture')
     same = sum(1 for a, b in zip(body, body[1:]) if a['set'] == b['set'] and a.get('fr') == 'close' and b.get('fr') == 'close')
     chk('two close-ups of the same set in a row', same == 0, same, '0')
+    # ---- ONE-CREATURE LAW. One story, one antagonist, one design, in every shot.
+    # A design that drifts between shots reads as several different monsters and kills the
+    # fear. Declare the antagonist once in story/creature.json:
+    #   {"id": "woman", "variants": [], "min_shots": 6}
+    # 'variants' is ONLY the same character in another state (alive/burnt/soaked), never a
+    # second design. This engine selects the creature with v.ghost (or v.c).
+    cids = {}
+    for s in body:
+        v = s.get('v') or {}
+        c = v.get('c') or v.get('ghost')
+        if c: cids[c] = cids.get(c, 0) + 1
+    decl = None
+    try:
+        with open('story/creature.json') as fh: decl = json.load(fh)
+    except (FileNotFoundError, ValueError):
+        pass
+    if cids or decl:
+        print('      creature shots: ' + (', '.join(f'{k} x{v}' for k, v in sorted(cids.items())) or 'none'))
+        if decl:
+            allowed = {decl['id']} | set(decl.get('variants') or [])
+            stray = sorted(set(cids) - allowed)
+            chk('creature matches story/creature.json', not stray, stray or sorted(cids),
+                f'only {sorted(allowed)} - one antagonist, one design, whole video')
+            n = sum(cids.get(k, 0) for k in allowed)
+            need = int(decl.get('min_shots', 6))
+            chk('shots showing the creature', n >= need, n, f'>= {need} (it must be SEEN, not described)')
+        else:
+            chk('creature declared', False, sorted(cids),
+                'story/creature.json is missing - declare the antagonist so its design is locked '
+                '(if the story really has several, list them as variants and say why in the bible)')
 
 def frames(p, vf, w, h):
     import numpy as np
