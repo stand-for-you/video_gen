@@ -8,8 +8,8 @@ Run everything with: `python3 tools/checkpoint.py`
 
 | # | Fault | Caught by |
 |---|---|---|
-| 1 | Lying character drawn as a standing rig tipped 90°, cane still in hand, legs through the wall | **EYES** — frame_qa Q1 |
-| 2 | Body flips left/right between shots | **EYES** — Q1 |
+| 1 | Lying character drawn as a standing rig tipped 90°, cane still in hand, legs through the wall | `lint_poses.py` + `kits/Lying.tsx` |
+| 2 | Body flips left/right between shots | `kits/Lying.tsx` (`head` is fixed, not tied to facing) |
 | 3 | Ghosts standing on top of the lying body; floating red dot by his head | **EYES** — Q5 |
 | 4 | Close-up sleeves float as separate blocks; offset hair halo | **EYES** — Q3, Q4 |
 | 5 | Wrong costume/prop for the scene (cardigan + cane in a surgical chamber) | **EYES** — Q2 |
@@ -57,6 +57,37 @@ python3 tools/checkpoint.py
 
 It stops at the first failing stage, because everything after it depends on that stage.
 Stages 1–5 need no render at all: they run in about a second, which is the whole point.
+
+## Lying people — the generic fix
+
+Rows 1 and 2 came from one line in a story kit:
+
+```tsx
+<g transform={`translate(${x},${y}) rotate(-90) scale(${k})`}>
+  <CloseUp s={CAST.elias} ... />     // a head-and-shoulders close-up, tipped on its side
+```
+
+The engine's own `'lie'` motion was the same shape — the standing idle rig plus `rot:-90` —
+so arms hung out into the air, props stayed in the hand, and the body flipped end-for-end
+whenever the facing changed. `rotate(-90)` on a character appeared in **three** story kits.
+
+Now:
+
+- **`src/kits/Lying.tsx` → `LyingPerson`** is the only supported way to lay a body down.
+  It uses the new `'supine'` / `'supineDead'` rig (arms along the body, legs together, head
+  settled back, breathing in the chest), **strips props**, seats the body on the surface you
+  name, draws a sheet and a contact shadow, and takes `fit` — the usable length of the bed —
+  so the body is scaled down and **can never overhang the thing it lies on**.
+- **`head` is fixed per scene** and never tied to the camera facing, so a body cannot flip
+  end-for-end between two shots of the same bed.
+- **`tools/lint_poses.py`** fails the build on any character wrapped in a rotation past 60°,
+  and on the old `'lie'` motion. A genuinely intentional rotation is allowed with the
+  comment `lint-ok: rotation`.
+
+**Honest limit:** `LyingPerson` is still a front-view figure laid flat, not a purpose-drawn
+side-on supine body. It no longer reads as a statue with a cane, and it stays inside the
+bed, but a truly convincing lying figure needs real character art, not a rig change. Treat
+this as "correct and safe", not "finished".
 
 ## The rule behind rows 1–9
 

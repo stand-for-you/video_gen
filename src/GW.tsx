@@ -6,6 +6,7 @@ import type { RoomPal } from './kits/Interior';
 import { BloodDefs } from './kits/Blood';
 import { Tag } from './kits/Explain';
 import { GhostWoman, GhostGrin, GhostChild } from './Body';
+import { LyingPerson } from './kits/Lying';
 import type { Motion } from './Rig';
 // ===== STORY KIT: "Gateway of the Mind" (look kit "lab"): a cold 1983 observation room, ash-green tile, pale fluorescent light,
 // steel bed, one RED accent (the tape recorder's REC lamp and the flatline monitor). Cast: Elias Gray (subject, grey cardigan),
@@ -60,11 +61,17 @@ export const SteelBed: React.FC<{ x: number; y: number; w: number; f: number; st
     {straps && [0.2, 0.5, 0.8].map((q, i) => <rect key={i} x={x + w * q - 14} y={y - 42} width={28} height={70} fill="#3a4a46" opacity={0.85} />)}
   </g>
 );
-// the subject, head and shoulders, lying on the steel bed (turned flat, face up)
-export const LyingElias: React.FC<{ x: number; y: number; k: number; f: number; expr?: 'sleepy' | 'fear' | 'speak' | 'shock' | 'sad' | 'neutral'; uid?: string }> = ({ x, y, k, f, expr = 'sleepy', uid = 'le' }) => (
-  <g transform={`translate(${x},${y}) rotate(-90) scale(${k})`}>
-    <LightSet {...LIGHT_LAB}><CloseUp s={CAST.elias} expr={expr} f={f} turn={0.1} uid={uid + expr} /></LightSet>
-  </g>
+// The subject lying face up on the steel bed.
+// This used to be a head-and-shoulders CloseUp wrapped in rotate(-90): a stiff statue on its
+// side, still holding his walking cane, parts poking through the chamber wall, and the body
+// flipping end-for-end between shots. It is now the shared LyingPerson, which uses the real
+// 'supine' rig, strips props and seats the whole body on the surface.
+// `y` is the SURFACE the body rests on (the bed top).
+export const LyingElias: React.FC<{ x: number; y: number; k: number; f: number; expr?: 'sleepy' | 'fear' | 'speak' | 'shock' | 'sad' | 'neutral'; uid?: string; dead?: boolean; sheet?: boolean; fit?: number }> = ({ x, y, k, f, expr = 'sleepy', uid = 'le', dead = false, sheet = true, fit }) => (
+  <LightSet {...LIGHT_LAB}>
+    <LyingPerson s={CAST.elias} x={x} surfaceY={y} k={k} f={f} expr={expr} head={-1}
+      dead={dead} sheet={sheet} sheetC={PAL_LAB.sheet} uid={uid + expr} fit={fit} />
+  </LightSet>
 );
 // the ceiling of the lab and the glow of the tape recorder's red REC lamp
 export const RecLamp: React.FC<{ x: number; y: number }> = ({ x, y }) => <g><circle cx={x} cy={y} r={14} fill="#b3221f" /><circle cx={x} cy={y} r={26} fill="#e0483c" opacity={0.25} /></g>;

@@ -6,6 +6,7 @@ import { RoomDefs, Wall, Floor, Window, Door, PictureFrame, Nightstand, Bed, Dus
 import type { RoomPal } from './kits/Interior';
 import { CREATURES } from './kits/Monster';
 import { BloodDefs } from './kits/Blood';
+import { LyingPerson } from './kits/Lying';
 // ===== STORY KIT: "I Know You're Awake" (v0.4 demo remake). Look kit: 1970s bedroom, moon-blue night -> grey-rose dawn,
 // one red accent (the blood / the clock digits). Creature = CREATURES.waxman (hairless, eyeless, waxy, hunched, long arms and fingers).
 export const NOAH_PJ: Spec = { ...CAST.noah, id: 'noahpj', top: 'tshirt', topC: '#5a6478', bottom: 'trousers', botC: '#3a4254', barefoot: true, acc: [] };
@@ -28,8 +29,11 @@ export const BedroomBack: React.FC<{ W: number; H: number; floorY: number; f: nu
   </g>
 );
 // Noah lying on his back, head on the pillow (Bed occupant). Bed is drawn at x with scale s; this sits in Bed coords.
+// Was a CloseUp wrapped in rotate(-90) - the tipped-statue fault. Now the shared supine body.
+// UNVERIFIED: this story kit is not the active one, so these coordinates have not been rendered.
+// Check NoahLying on screen before building a video from this kit again.
 export const NoahLying: React.FC<{ f: number; expr?: Expr; s?: Spec }> = ({ f, expr = 'sleepy', s = NOAH_PJ }) => (
-  <g transform="translate(205,-432) rotate(-90)"><g transform="scale(0.3)"><CloseUp s={s} expr={expr} f={f} turn={0.15} uid={`nl-${expr}`} /></g></g>
+  <LyingPerson s={s} x={205} surfaceY={-400} k={0.3} fit={640} f={f} expr={expr} head={-1} uid={`nl-${expr}`} />
 );
 // CLOSE / BUST in bed: Noah on the pillow, quilt up to the chest, one hand gripping the quilt edge. W x H frame.
 export const NoahInBedCU: React.FC<{ W: number; H: number; f: number; expr?: Expr; P?: RoomPal; tight?: boolean; kk?: number; at?: [number, number] }> = ({ W, H, f, expr = 'sleepy', P = PAL_NIGHT, tight = false, kk, at }) => {
@@ -40,6 +44,8 @@ export const NoahInBedCU: React.FC<{ W: number; H: number; f: number; expr?: Exp
       <path d={`M${cx - 520 * k},${cy - 420 * k} C${cx - 300 * k},${cy - 600 * k} ${cx + 500 * k},${cy - 560 * k} ${cx + 560 * k},${cy - 300 * k} C${cx + 600 * k},${cy + 200 * k} ${cx + 300 * k},${cy + 520 * k} ${cx - 300 * k},${cy + 500 * k} C${cx - 700 * k},${cy + 300 * k} ${cx - 700 * k},${cy - 200 * k} ${cx - 520 * k},${cy - 420 * k}Z`} fill="#e2ded6" />
       <path d={`M${cx - 400 * k},${cy - 200 * k} C${cx - 250 * k},${cy - 120 * k} ${cx - 150 * k},${cy - 260 * k} ${cx},${cy - 360 * k} M${cx - 420 * k},${cy + 240 * k} C${cx - 300 * k},${cy + 120 * k} ${cx - 200 * k},${cy + 300 * k} ${cx - 80 * k},${cy + 380 * k}`} stroke="#9a96a4" strokeWidth={8 * k} fill="none" opacity={0.6} />
       <rect x={-200} y={-200} width={W + 400} height={H + 400} fill="#0a1020" opacity={0.62} />
+      {/* lint-ok: rotation - a deliberate BUST of a face on a pillow seen from above. There is no
+          body to pose here: the quilt below covers it. This is framing, not a tipped-over figure. */}
       <g transform={`translate(${cx},${cy}) rotate(-78) scale(${k})`}><LightSet {...LIGHT_NIGHT}><CloseUp s={NOAH_PJ} expr={expr} f={f} turn={0.25} uid={`nib-${expr}`} /></LightSet></g>
       {/* a band of moonlight across the eyes */}
       <g style={{ mixBlendMode: 'screen' as const }}><path d={`M${-200},${cy - 40 * k} L${W + 200},${cy - 160 * k} L${W + 200},${cy + 10 * k} L${-200},${cy + 120 * k}Z`} fill="#9fc0ff" opacity={0.16} filter="url(#rm-b14)" /></g>

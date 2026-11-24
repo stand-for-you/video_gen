@@ -83,10 +83,14 @@ def st_scenes():
 
 
 def st_labels():
-    if not have('tools/lint_tags.py'):
-        return True, ['tools/lint_tags.py missing (skipped)']
-    c, out = run([PY, 'tools/lint_tags.py'])
-    return c == 0, out.strip().splitlines()
+    ok, msgs = True, []
+    for tool in ('tools/lint_tags.py', 'tools/lint_poses.py'):
+        if not have(tool):
+            msgs.append(f'{tool} missing (skipped)'); continue
+        c, out = run([PY, tool])
+        msgs += out.strip().splitlines()
+        if c: ok = False
+    return ok, msgs
 
 
 def st_shots():
@@ -135,7 +139,7 @@ def st_deliver():
 STAGES = [('story', 'script + scene table + narration exist', st_story),
           ('cast', 'the antagonist is declared and locked', st_cast),
           ('scenes', 'enough DIFFERENT scenes; nothing recycled', st_scenes),
-          ('labels', 'every callout fits the frame', st_labels),
+          ('labels', 'callouts fit the frame; no rotated-character hacks', st_labels),
           ('shots', 'the shot list passes the quality gate', st_shots),
           ('look', 'the review sheet is built and read BY EYE', st_look),
           ('deliver', 'rendered files pass the video gate + ledger', st_deliver)]

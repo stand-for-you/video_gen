@@ -20,7 +20,8 @@ export type Rig = {
 // leg 0 = left leg in front view / far leg in three-quarter view; leg 1 = right leg / near leg
 export type MotionType =
   | 'still' | 'idle' | 'walk' | 'run' | 'climbUp' | 'climbDown' | 'sit' | 'sitFloor' | 'crouch' | 'kneel' | 'lie' | 'headDown'
-  | 'reach' | 'point' | 'knock' | 'cover' | 'recoil' | 'lookBack' | 'tremble' | 'carry' | 'peek';
+  | 'reach' | 'point' | 'knock' | 'cover' | 'recoil' | 'lookBack' | 'tremble' | 'carry' | 'peek'
+  | 'supine' | 'supineDead';
 export type Motion = {
   type: MotionType;
   p?: number;        // progress in cycles (1 cycle = 2 steps). Default f / 30
@@ -30,6 +31,8 @@ export type Motion = {
   seat?: number;     // chair seat height (default 820)
   travel?: boolean;  // walk/run/climb: move along the path (default true). false = in place (camera follows)
   target?: XY;       // reach/point target in upper-body coords
+  head?: -1 | 1;     // supine only: which way the head points (-1 = left, default). NOT tied to facing,
+                     // so a character on a bed never flips end-for-end between shots.
 };
 
 const TAU = Math.PI * 2;
@@ -131,7 +134,43 @@ export const motionRig = (m: Motion | undefined, F: number, legK = 1, f = 0): Ri
       return { ...base, pelvis: [-kk * 90, -820 * legK + breathe * 4], lean: 28, ankles: [[kk * 250, A0], [kk * 120, A0]], toes: [0, 0], hands: [[kk * 380, -1900], [kk * 300, -1840]], swing: [0, 0], bend: [0, 0], nod: -12 };
     case 'kneel':
       return { ...base, pelvis: [0, -880 * legK], lean: 4, ankles: [[kk * 360, A0], [-kk * 470, -100 * legK]], toes: [0, -35], hands: [[kk * 330, -1760], null], swing: [0, 4], bend: [0, 20] };
+    // 'lie' is kept only so old story kits still build. It is the standing idle rig tipped on
+    // its side: the arms hang out sideways, props stay in the hand and the whole figure flips
+    // end-for-end with the facing. That is the "tipped statue" fault. Use 'supine'.
     case 'lie': return { ...base, rot: -90 * kk, swing: [3, 3], bend: [6, 6], pelvis: [0, P0 + breathe * 4], ankles: [[-20, A0], [20, A0]] };
+    // A person actually lying on their back. Built for beds, tables and the floor.
+    //   - arms rest ALONG the body, wrists by the hips (not hanging out into the air)
+    //   - legs together and straight, feet relaxed apart
+    //   - the head points a FIXED way (m.head), never with the facing, so a body on a bed
+    //     cannot flip end-for-end between two shots of the same scene
+    //   - breathing is a small chest/head motion, not the standing bob (which would slide
+    //     the whole body along the bed once rotated)
+    // Draw it with kits/Lying.tsx LyingPerson, which also strips props and seats the body
+    // on the surface so nothing pokes through the bed.
+    case 'supine':
+    case 'supineDead': {
+      const dead = m.type === 'supineDead';
+      const br = dead ? 0 : breathe;
+      // sign verified by rendering: -90 puts the head on the RIGHT, +90 on the left
+      const hd = m.head === 1 ? -90 : 90;
+      return {
+        ...base,
+        rot: hd,
+        pelvis: [0, P0],
+        lean: 0,
+        // legs together, straight out; one foot lolls a little further than the other
+        ankles: [[-26, A0 + br * 2], [30, A0]],
+        toes: [dead ? 26 : 12 + br * 3, dead ? -22 : -10],
+        // wrists by the hips, arms tight along the torso
+        hands: [[-250, -1680 + br * 5], [250, -1660]],
+        swing: [0, 0],
+        bend: [12, 12],
+        // the head settles back; a living body moves a little, a dead one does not
+        nod: dead ? -16 : -7 + br * 2.2,
+        tilt: dead ? 9 : Math.sin(f / 53) * 1.1,
+        turn: dead ? 0.22 : Math.sin(f / 67) * 0.07,
+      };
+    }
     case 'reach': { const t = m.target ?? [kk * 760, -2320]; return { ...idle, lean: 6, hands: [null, t], swing: [-4, 0], ankles: [[kk * 120, A0], [-kk * 140, A0]] }; }
     case 'point': { const t = m.target ?? [kk * 940, -2470]; return { ...idle, lean: 2, hands: [null, t], swing: [0, 0] }; }
     case 'knock': { const tap = Math.max(0, Math.sin(TAU * p * 2)) * 60; return { ...idle, lean: 4, hands: [null, [kk * (560 + tap), -2420]], swing: [0, 0] }; }

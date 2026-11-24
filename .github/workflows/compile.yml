@@ -68,6 +68,8 @@ jobs:
           fail=0
           # labels: clipped or over-used callouts are pure arithmetic, so they never reach a render
           python3 tools/lint_tags.py || fail=1
+          # poses: a character wrapped in rotate(90) is a tipped statue, not a lying person
+          python3 tools/lint_poses.py || fail=1
           for n in long reel; do
             [ -f "src/shots_$n.json" ] || continue
             echo "== $n"
