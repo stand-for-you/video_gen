@@ -1,54 +1,44 @@
+// ThumbsStory.tsx — ThumbA, ThumbB, ThumbC (1280x720) and ThumbR (1080x1920).
 import React from 'react';
-import { AbsoluteFill } from 'remotion';
-import { Defs } from './GW';
-import { HorrorBack, Title } from './Thumbs';
-import { LightSet, LIGHT_GHOST } from './Paint';
+import { HorrorBack, Reach, Title } from './Thumbs';
+import { M, EyelessJack } from './EJ';
 import { FullMan } from './Body';
-import { CloseUp, CAST, GHOSTS } from './Cast';
-import { Snow } from './Room';
-import { Creature } from './kits/Monster';
-// STORY SLOT: thumbnails for "Gateway of the Mind". A/B/C = YouTube A/B test (1280x720, one difference each), R = Reel (1080x1920).
-// No blood on thumbnails. The subject of the picture is the Long-Hair Woman (her face), the back-view figure is a small permanent-cast person.
-const Back: React.FC<{ W: number; H: number; moon: [number, number, number]; gy: number }> = (p) => <><Defs /><HorrorBack {...p} /></>;
-// giant ghost face (CloseUp with the ghost spec: pale skin, hollow eyes, dark tear tracks)
-const GhostFace: React.FC<{ s: 'woman' | 'grin' | 'child'; k: number; x: number; y: number }> = ({ s, k, x, y }) => (
-  <g transform={`translate(${x},${y}) scale(${k})`}><LightSet {...LIGHT_GHOST}><CloseUp s={GHOSTS[s]} expr="fear" f={30} turn={0.1} uid={`th${s}`} /></LightSet></g>
-);
+
 export const ThumbA: React.FC = () => (
-  <AbsoluteFill style={{ background: '#000' }}>
-    <svg width={1280} height={720} style={{ position: 'absolute' }}><Back W={1280} H={720} moon={[470, 330, 170]} gy={520} />
-      <GhostFace s="woman" k={0.9} x={930} y={300} />
-      <FullMan view="back" x={500} y={716} s={0.1} f={4} /><Snow f={9} n={26} op={0.5} /></svg>
-    <AbsoluteFill style={{ background: 'radial-gradient(ellipse at 70% 50%, rgba(0,0,0,0) 35%, rgba(0,0,0,0.55) 100%)' }} />
-    <div style={{ position: 'absolute', left: 40, top: 40, width: 640 }}><Title a="GATEWAY" b="OF THE MIND" sa={86} sb={110} align="left" /></div>
-  </AbsoluteFill>
+  <g>
+    <HorrorBack W={1280} H={720} moon={[1080, 140, 90]} gy={560} />
+    <EyelessJack x={700} y={620} k={1.6} f={40} face={1} pose="lean" ooze={0.7} />
+    <Reach x={220} y={700} s={1.0} rot={-20} />
+    <FullMan look="sam" view="back" x={260} y={660} s={0.22} f={10} expr="fear" />
+    <Title a="EYELESS JACK" b="CAME THROUGH MY WINDOW" sa={64} sb={42} align="left" />
+  </g>
 );
+
 export const ThumbB: React.FC = () => (
-  <AbsoluteFill style={{ background: '#000' }}>
-    <svg width={1280} height={720} style={{ position: 'absolute' }}><Back W={1280} H={720} moon={[260, 160, 90]} gy={560} />
-      <GhostFace s="woman" k={1.25} x={820} y={160} /><Snow f={9} n={20} op={0.4} /></svg>
-    <AbsoluteFill style={{ background: 'radial-gradient(ellipse at 65% 45%, rgba(0,0,0,0) 35%, rgba(0,0,0,0.6) 100%)' }} />
-    <div style={{ position: 'absolute', left: 40, top: 60, width: 520 }}><Title a="HER" b="VOICE" sa={130} sb={150} align="left" /></div>
-  </AbsoluteFill>
+  <g>
+    <HorrorBack W={1280} H={720} moon={[980, 560, 46]} gy={520} />
+    <g transform="translate(640 340) scale(2.2)">
+      <EyelessJack x={0} y={0} k={1.4} f={30} face={1} pose="stand" ooze={0.9} />
+    </g>
+    <Title a="NO EYES" b="" sa={92} sb={0} align="left" />
+  </g>
 );
+
 export const ThumbC: React.FC = () => (
-  <AbsoluteFill style={{ background: '#000' }}>
-    <svg width={1280} height={720} style={{ position: 'absolute' }}><Back W={1280} H={720} moon={[980, 300, 150]} gy={560} />
-      <rect x={430} y={250} width={260} height={470} fill="#e0a060" opacity={0.85} /><rect x={430} y={250} width={260} height={470} fill="none" stroke="#2a1c14" strokeWidth={18} />
-      <GhostFace s="grin" k={0.5} x={600} y={300} />
-      <FullMan view="back" x={250} y={716} s={0.12} f={4} /><Snow f={9} n={20} op={0.4} /></svg>
-    <AbsoluteFill style={{ background: 'radial-gradient(ellipse at 45% 60%, rgba(0,0,0,0) 35%, rgba(0,0,0,0.6) 100%)' }} />
-    <div style={{ position: 'absolute', left: 0, right: 0, top: 24 }}><Title a="NO" b="HEAVEN" sa={80} sb={92} /></div>
-  </AbsoluteFill>
+  <g>
+    <HorrorBack W={1280} H={720} moon={[1100, 120, 70]} gy={560} />
+    <rect x={420} y={420} width={220} height={60} rx={10} fill="#e9e3d6" />
+    <rect x={420} y={420} width={220} height={60} rx={10} fill={M.red} opacity={0.4} />
+    <EyelessJack x={900} y={640} k={1.0} f={20} face={-1} pose="lean" ooze={0.5} />
+    <Title a="THE KIDNEY" b="WAS STILL WARM" sa={60} sb={40} align="left" />
+  </g>
 );
+
 export const ThumbR: React.FC = () => (
-  <AbsoluteFill style={{ background: '#000' }}>
-    <svg width={1080} height={1920} style={{ position: 'absolute' }}><Back W={1080} H={1920} moon={[860, 520, 200]} gy={1320} />
-      <GhostFace s="woman" k={1.45} x={540} y={420} />
-      <rect x={-100} y={1380} width={1300} height={600} fill="#08060a" opacity={0.85} />
-      <FullMan view="back" x={540} y={1880} s={0.13} f={4} /><Snow f={9} n={40} op={0.5} /></svg>
-    <AbsoluteFill style={{ background: 'radial-gradient(ellipse at 50% 42%, rgba(0,0,0,0) 40%, rgba(0,0,0,0.55) 100%)' }} />
-    <div style={{ position: 'absolute', left: 30, right: 30, top: 70 }}><Title a="GATEWAY" b="OF THE MIND" sa={110} sb={150} /></div>
-  </AbsoluteFill>
+  <g>
+    <HorrorBack W={1080} H={1920} moon={[860, 240, 90]} gy={1500} />
+    <EyelessJack x={540} y={1460} k={1.8} f={40} face={1} pose="lean" ooze={0.7} />
+    <Reach x={220} y={1600} s={1.4} rot={-20} />
+    <Title a="EYELESS JACK" b="CAME THROUGH MY WINDOW" sa={56} sb={36} align="left" />
+  </g>
 );
-void Creature; void CAST;

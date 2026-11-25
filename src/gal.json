@@ -1,1 +1,24 @@
-[["glass",{"ghost":"woman"},60,90],["glass",{"ghost":"grin","close":true},60,90],["glass",{"ghost":"child"},60,90],["recorder",{},60,90],["recorder",{"rev":true},60,90],["corridor",{},60,90],["corridor",{"leave":true},60,90],["chamber",{"expr":"sleepy"},60,90],["chamber",{"expr":"fear"},60,90],["chambercu",{"expr":"fear","tag":true},60,90],["chambercu",{"expr":"sad"},60,90],["wallhit",{},60,90],["ghostbed",{},60,90],["relatives",{},60,90],["child",{},60,90],["lastlook",{},60,90],["flatline",{},60,90],["credit",{},60,90],["end",{},90,600],["rglass",{"ghost":"woman"},60,90],["rglass",{"close":true},60,90],["rchamber",{},60,90],["rwall",{},60,90],["rghost",{},60,90],["rlast",{},60,90],["rflat",{},60,90],["rqcard",{},60,90],["rqend",{},60,90]]
+[
+  {"set": "bedroom", "v": {"night": true, "tossing": true}},
+  {"set": "bedroom", "v": {"night": true, "creature": "jack", "pose": "lean", "ooze": 0.6}},
+  {"set": "bedroom", "v": {"night": true, "creature": "jack", "pose": "lunge", "ooze": 0.9, "face": -1}},
+  {"set": "bedroom", "v": {"day": true, "settling": true}},
+  {"set": "hallway", "v": {"day": true, "greet": true, "who2": "edwin"}},
+  {"set": "hallway", "v": {"day": true, "mirror": true, "gash": true}},
+  {"set": "hallway", "v": {"night": true, "fleeing": true}},
+  {"set": "kitchen", "v": {"day": true, "boxes": true}},
+  {"set": "kitchen", "v": {"day": true, "broken_mug": true}},
+  {"set": "kitchen", "v": {"day": true, "who2": "edwin", "expr": "worry"}},
+  {"set": "hospital", "v": {"day": true, "who2": "doctor"}},
+  {"set": "hospital", "v": {"day": true, "bandage": true, "red": 0.4}},
+  {"set": "hospital", "v": {"day": true, "bedridden": true}},
+  {"set": "woods", "v": {"night": true, "running": true}},
+  {"set": "woods", "v": {"night": true, "creature": "jack", "pose": "stand"}},
+  {"set": "woods", "v": {"night": true, "fallen": true}},
+  {"set": "car", "v": {"day": true, "driving": true}},
+  {"set": "car", "v": {"day": true, "holding": true}},
+  {"set": "face", "v": {"who": "mitch", "expr": "fear"}},
+  {"set": "face", "v": {"who": "mitch", "expr": "fear", "gash": true}},
+  {"set": "qcard", "v": {"credit": true}},
+  {"set": "end", "v": {}}
+]

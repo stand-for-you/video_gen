@@ -1,48 +1,87 @@
 {
- "title": "Gateway of the Mind",
- "question": "Would you have kept listening to the voices?",
- "titles": {
-  "A": {"angle": "the legend hook: the experiment and the voices", "text": "Gateway of the Mind | The Experiment That Heard the Dead"},
-  "B": {"angle": "a place and time fact", "text": "1983: A Sealed Room, Four Days, and the Voice of a Dead Wife"},
-  "C": {"angle": "a short warning", "text": "Don't Listen to the Voices | A Gateway of the Mind Story"}
- },
- "hindi_title": "गेटवे ऑफ़ द माइंड | जिसने मरे हुए लोगों की आवाज़ सुनी",
- "thumbs": {
-  "A": "Main: giant ghost face (the Long-Hair Woman, hollow black eyes, dark tear tracks) on the right, title \"GATEWAY OF THE MIND\" on the left, tiny back-view figure, big red moon",
-  "B": "Much closer face crop (eyes and open mouth huge), 2-word title \"HER VOICE\", smaller red moon",
-  "C": "Key story object big and glowing (the lit doorway), the Grinner smaller behind it, title \"NO HEAVEN\" on top"
- },
- "description": [
-  "A man lay in a sealed room for four days. He could not see, hear, taste, smell, or feel anything. Then he began to hear his dead wife.",
-  "In 1983, a group of deeply religious scientists tried to cut off the five senses, so a human mind could reach God. The volunteer was an elderly man who said he had nothing left to live for. Soon he was hearing the dead, and they knew private things only the scientists' own families could have known.",
-  "A Scroll Kaos paper-cutout horror story, told in our own words. Watch until the very end."
- ],
- "credit_long": "Inspired by the story \"Gateway of the Mind\" (author not verified), as published on an online horror story page (source and date not verified). This is a non-graphic retelling in our own words, with original artwork. No existing image is copied.",
- "hashtags_long": "#horrorstories #gatewayofthemind #scarystories #creepypasta",
- "tags_story": "gateway of the mind, sensory deprivation horror, experiment horror story, dead wife voices, creepypasta experiment, 1983 experiment, horror voices, ghost story, paper cutout horror, scary legend",
- "short_title": "Don't Listen to the Voices #shorts",
- "short_hook": "1983. A sealed room. A man with no senses. And the voice of his dead wife, speaking back to him.",
- "short_credit": "Inspired by the story \"Gateway of the Mind\" (author not verified). AI narration, original animation.",
- "short_hashtags": "#shorts #horrorstories #gatewayofthemind #scarystories",
- "ig_caption": ["Four days in a sealed room. No sight, no sound, no touch. Then the voice of his dead wife began to answer him. 🕯️", "The scientists kept listening."],
- "ig_credit": "Inspired by the story \"Gateway of the Mind\" (author not verified). AI narration, original paper-cutout animation by Scroll Kaos.",
- "ig_hashtags": "#horrorstories #scarystories #creepypasta #gatewayofthemind #horrorreels #scaryreels #animation #paperanimation #storytime #latenightstories #scrollkaos",
- "hindi_caption": ["चार दिन सील किए हुए कमरे में। न रोशनी, न आवाज़, न स्पर्श। फिर उसकी मरी हुई पत्नी की आवाज़ उससे बात करने लगी। 🕯️", "", "क्या आप उन आवाज़ों को सुनते रहते?"],
- "facebook": ["In 1983, scientists sealed a volunteer in a room with no senses. Then he began to hear the dead. Our new paper-cutout horror story is up now."],
- "facebook_credit": "Our new paper-cutout horror story, inspired by the story \"Gateway of the Mind\" (author not verified). AI narration, original animation.",
- "threads": ["No sight. No sound. No touch.", "Then the voice of his dead wife starts talking back.", "New Scroll Kaos story, inspired by \"Gateway of the Mind\"."],
- "pinterest_title": "Gateway of the Mind - Paper-Cutout Horror Story",
- "pinterest_description": "A sealed room, a volunteer with no senses, and the dead who start to speak. Original paper-cutout horror animation by Scroll Kaos, inspired by the story \"Gateway of the Mind\" (author not verified). AI narration.",
- "community": {
-  "teaser": ["1983. A sealed room. A man who cannot see, hear, or feel anything.", "Then he says his dead wife is talking to him.", "Tomorrow's story is about what the scientists heard next."],
-  "long_first_line": "New story is live: \"Gateway of the Mind\" 🕯️",
-  "long_second_line": "A sealed room, a volunteer with no senses, and voices that will not stop.",
-  "short_line": "The voices are still talking. Watch the full story now.",
-  "poll_options": ["The voice of his dead wife", "The Grinner behind the glass", "The Drenched Child at the door", "The line: No heaven, no forgiveness"]
- },
- "flags": {
-  "top": ["- **Story rights (important):** the source page and the author could not be verified, so the credit line says \"author not verified\" and \"an online horror story page\". **Before you monetise, find the original author and page, and ask for written permission.** Whether permission is needed is UNVERIFIED.", "- The story is presented as a real 1983 experiment; it is a legend. The video is fiction, retold in our own words."],
-  "age_restriction": "- Age-restriction risk: horror voices, a man restrained on a bed, and a death with no cause shown. No wounds, no blood, no gore on screen. YouTube may still age-restrict it (UNVERIFIED).",
-  "bottom": ["- Non-graphic changes: the self-harm in the source (biting his own flesh) is only described as losing control and being restrained; no wound or method is shown. The death has no method and no gore.", "- Photosensitive safety: no flashing or strobe anywhere; the lab light is steady and the red lamp does not blink.", "- Reel shortening: the Reel keeps every main beat, the twist and the ending, and removes the small details (the sedation lead-in, one scientist leaving, the tears detail)."]
- }
+  "title": "Eyeless Jack Came Through My Window",
+  "question": "Would you have believed it was only a raccoon?",
+  "titles": {
+    "A": {
+      "angle": "Short hook + legend name",
+      "text": "Eyeless Jack Came Through My Window"
+    },
+    "B": {
+      "angle": "What he took in the dark",
+      "text": "He Took My Kidney While I Slept"
+    },
+    "C": {
+      "angle": "The blue mask mystery",
+      "text": "The Blue Mask With No Eyes"
+    }
+  },
+  "hindi_title": "आईलेस जैक खिड़की से अंदर आया",
+  "thumbs": {
+    "A": "Mitch asleep, Eyeless Jack leaning over the bed with empty sockets oozing dark fluid, red moon high.",
+    "B": "Extreme close crop of the cracked blue mask with empty black sockets and 2-word title overlay.",
+    "C": "The stitched incision and kidney in shadow, dark ooze sheen, glowing against cold blue night."
+  },
+  "description": [
+    "A true-crime-style horror retelling of the Eyeless Jack creepypasta.",
+    "A week after foreclosure, Mitch moves in with his brother Edwin. What begins as faint scratching at the bedroom window soon turns into midnight visits from a figure wearing a mouthless blue mask with empty, oozing eye sockets.",
+    "A Scroll Kaos paper-cutout horror story, told from Mitch's own memories. Watch until the very end."
+  ],
+  "credit_long": "Inspired by the Eyeless Jack creepypasta, as published on Creepypasta.com (2012). Author not independently verified. This is a non-graphic retelling in our own words with original artwork.",
+  "hashtags_long": "#horrorstories #eyelessjack #creepypasta #scarystories",
+  "tags_story": "eyeless jack, creepypasta, horror story, scary story, blue mask, true crime horror narration, organ theft, midnight intruder",
+  "short_title": "He Took My Kidney (Eyeless Jack) #shorts",
+  "short_hook": "The thing with no eyes came through my window three nights in a row.",
+  "short_credit": "Inspired by the Eyeless Jack creepypasta (2012). AI narration, original animation.",
+  "short_hashtags": "#shorts #horrorstories #eyelessjack #creepypasta #scarystories",
+  "ig_caption": [
+    "He came through the window three nights in a row.",
+    "On the third night, I finally saw his face. Or what was left of it."
+  ],
+  "ig_credit": "Inspired by the Eyeless Jack creepypasta (2012). AI narration, original paper-cutout animation by Scroll Kaos.",
+  "ig_hashtags": "#eyelessjack #creepypasta #scarystories #reels #horrorstory #creepypastastories #darkart #paperart #scrollkaos",
+  "hindi_caption": [
+    "तीन रातों तक वह खिड़की से अंदर आया।",
+    "और तीसरी रात, मैंने उसका चेहरा देख लिया।",
+    "",
+    "क्या आपको भी लगता कि वह सिर्फ एक रैकून था?"
+  ],
+  "facebook": [
+    "A man moves in with his brother. Three nights later, something wearing a cracked blue mask with empty sockets is leaning over his bed."
+  ],
+  "facebook_credit": "Our new paper-cutout horror story, inspired by the Eyeless Jack creepypasta (2012). AI narration, original animation.",
+  "threads": [
+    "Eyeless Jack came through my bedroom window three nights running.",
+    "The doctor told me I lost a kidney in my sleep, but nobody believed me until Edwin was found.",
+    "New Scroll Kaos story inspired by Eyeless Jack."
+  ],
+  "pinterest_title": "Eyeless Jack Paper-Cutout Horror Story",
+  "pinterest_description": "A narrated retelling of the Eyeless Jack creepypasta — a blue-masked intruder that steals organs in the night. Original paper animation, AI narration.",
+  "community": {
+    "teaser": [
+      "Something scratched against the window pane at 1:00 AM. I told myself it was only a raccoon.",
+      "Tomorrow's story: Eyeless Jack Came Through My Window.",
+      "Would you have checked the glass?"
+    ],
+    "long_first_line": "New story is live: \"Eyeless Jack Came Through My Window\" 👁️🩸",
+    "long_second_line": "A quiet suburban bedroom, a midnight visitor, and a fresh scar with no memory of how it got there.",
+    "short_line": "Catch the midnight intruder before he disappears back into the woods.",
+    "poll_options": [
+      "The window slowly sliding open in the dark",
+      "Looking in the mirror to find a deep stitched gash",
+      "Waking up with the blue mask inches from your face",
+      "Finding the dark object left behind in the car"
+    ]
+  },
+  "flags": {
+    "top": [
+      "- Story rights: user-submitted creepypasta (2012), author not independently verified (UNVERIFIED). Get written permission before monetising.",
+      "- Legend name: Eyeless Jack is a known internet urban legend. Original character depiction used; no copyrighted photos or artwork copied."
+    ],
+    "age_restriction": "- Age restriction: nothing graphic is shown on screen, but dark horror themes and non-graphic medical scars may trigger content review (UNVERIFIED).",
+    "bottom": [
+      "- Blood-limit softening (quality-law 4d): on-screen chest-clawing and organ removal are NOT shown; the camera stays on a red-stained bandage, a stitched scar line, and the final kidney prop kept in dark shadow with a wet sheen, never drawn as an anatomical organ. Confirmed by default.",
+      "- AI voice licences: UNVERIFIED (Kokoro-onnx open-weights model).",
+      "- Photosensitive safety: no flashing strobe effects used in this story."
+    ]
+  }
 }

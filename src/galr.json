@@ -1,0 +1,17 @@
+[
+  {"set": "rbedroom", "v": {"night": true, "tossing": true}},
+  {"set": "rbedroom", "v": {"night": true, "creature": "jack", "pose": "lean", "ooze": 0.6}},
+  {"set": "rbedroom", "v": {"night": true, "creature": "jack", "pose": "lunge", "ooze": 0.9, "face": -1}},
+  {"set": "rhallway", "v": {"day": true, "greet": true, "who2": "edwin"}},
+  {"set": "rhallway", "v": {"day": true, "mirror": true, "gash": true}},
+  {"set": "rkitchen", "v": {"day": true, "boxes": true}},
+  {"set": "rhospital", "v": {"day": true, "who2": "doctor"}},
+  {"set": "rhospital", "v": {"day": true, "bandage": true, "red": 0.4}},
+  {"set": "rwoods", "v": {"night": true, "running": true}},
+  {"set": "rwoods", "v": {"night": true, "creature": "jack", "pose": "stand"}},
+  {"set": "rwoods", "v": {"night": true, "fallen": true}},
+  {"set": "rcar", "v": {"day": true, "holding": true}},
+  {"set": "rface", "v": {"who": "mitch", "expr": "fear"}},
+  {"set": "rqcard", "v": {"credit": true}},
+  {"set": "rqcard", "v": {"question": true}}
+]
