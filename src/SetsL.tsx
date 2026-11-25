@@ -60,7 +60,7 @@ export const bedroom: React.FC<SProps> = ({ f, v }) => {
           face={(v.face ?? 1) as 1 | -1} pose={(v.pose as any) ?? 'stand'}
           ooze={v.ooze ?? 0.3} />
       )}
-      <R c="#05030a" op={v.dark ?? (night ? 0.3 : 0.12)} />
+      <R c="#05030a" op={Math.min(0.2, v.dark ?? (night ? 0.2 : 0.1))} />
     </g>
   );
 };
@@ -82,6 +82,20 @@ export const hallway: React.FC<SProps> = ({ f, v }) => {
           <Glow x={590} y={440} r={320} c="#c0d8f0" op={0.3} />
           <Frame x={1100} y={300} w={140} h={180} />
           <Frame x={1400} y={320} w={120} h={160} />
+        </g>
+      )}
+
+      {angle === 'stairs' && (
+        <g>
+          {/* Diagonal wooden staircase going up */}
+          <polygon points="0,760 0,300 1200,80 1920,80 1920,760" fill="#241a14" />
+          <path d="M 0 320 L 1200 100" stroke="#5a3c26" strokeWidth={16} />
+          {[160, 360, 560, 760, 960].map((bx, i) => (
+            <line key={i} x1={bx} y1={320 - i * 36} x2={bx} y2={760} stroke="#3a2618" strokeWidth={8} />
+          ))}
+          <Glow x={600} y={280} r={420} c={M.warm} op={0.4} />
+          <Person who="mitch" x={560} y={760} s={0.24} f={f} expr={v.expr ?? 'fear'} />
+          <Person who="edwin" x={1060} y={760} s={0.25} f={f} expr={v.expr ?? 'neutral'} />
         </g>
       )}
 
@@ -124,7 +138,7 @@ export const hallway: React.FC<SProps> = ({ f, v }) => {
       {v.shadowed && (
         <Person who="mitch" x={960} y={760} s={0.25} f={f} expr="fear" />
       )}
-      <R c="#05030a" op={v.dark ?? (day ? 0.12 : 0.35)} />
+      <R c="#05030a" op={Math.min(0.18, v.dark ?? (day ? 0.08 : 0.18))} />
     </g>
   );
 };
@@ -184,6 +198,8 @@ export const kitchen: React.FC<SProps> = ({ f, v }) => {
 
       {angle === 'counter' && (
         <g>
+          <rect x={160} y={140} width={400} height={460} fill="#eef8fc" stroke="#483624" strokeWidth={10} />
+          <Glow x={360} y={370} r={420} c="#fff4c0" op={0.4} />
           <Nightstand x={1500} y={660} s={1.0} />
           <Glow x={960} y={160} r={320} c={M.warm} op={0.3} />
           <Glow x={1600} y={260} r={260} c={M.cold} op={0.18} />
@@ -322,7 +338,7 @@ export const woods: React.FC<SProps> = ({ f, v }) => {
       {v.fallen && (
         <Person who="mitch" x={820} y={920} s={0.22} f={f} expr="fear" />
       )}
-      <R c="#05030a" op={v.dark ?? 0.4} />
+      <R c="#05030a" op={Math.min(0.2, v.dark ?? 0.2)} />
     </g>
   );
 };
@@ -333,6 +349,21 @@ export const car: React.FC<SProps> = ({ f, v }) => {
   return (
     <g>
       <R c="#15161e" />
+
+      {angle === 'wheel_steer' && (
+        <g>
+          {/* Driver steering wheel side profile with street lights */}
+          <rect x={0} y={0} width={1920} height={1080} fill="#1c2434" />
+          <polygon points="0,0 900,0 700,680 0,680" fill="#284460" stroke="#080a0e" strokeWidth={8} />
+          <Glow x={350} y={300} r={450} c="#80c0ff" op={0.35} />
+          {/* Driver steering wheel side arc */}
+          <ellipse cx={1300} cy={720} rx={180} ry={300} fill="none" stroke="#2a2e38" strokeWidth={36} />
+          <rect x={1100} y={760} width={820} height={320} fill="#181a20" stroke="#0e1014" strokeWidth={8} />
+          <circle cx={1260} cy={680} r={50} fill="#0c1018" stroke="#20ff80" strokeWidth={8} />
+          <Glow x={1260} y={680} r={180} c="#20ff80" op={0.35} />
+          <Glow x={1400} y={720} r={280} c="#ff8040" op={0.25} />
+        </g>
+      )}
 
       {angle === 'dash_interior' && (
         <g>
@@ -378,7 +409,7 @@ export const car: React.FC<SProps> = ({ f, v }) => {
         </g>
       )}
 
-      <R c="#05030a" op={v.dark ?? 0.25} />
+      <R c="#05030a" op={Math.min(0.15, v.dark ?? 0.12)} />
     </g>
   );
 };

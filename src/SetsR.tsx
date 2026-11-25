@@ -54,7 +54,7 @@ export const rbedroom: React.FC<SProps> = ({ f, v }) => {
         <EyelessJack x={(angle === 'window_top' ? 440 : 620) + (v.px ?? 0)} y={1340} k={1.25} f={f}
           face={(v.face ?? 1) as 1 | -1} pose={(v.pose as any) ?? 'stand'} ooze={v.ooze ?? 0.3} />
       )}
-      <R c="#05030a" op={v.dark ?? (night ? 0.3 : 0.12)} />
+      <R c="#05030a" op={Math.min(0.2, v.dark ?? (night ? 0.2 : 0.1))} />
     </g>
   );
 };
@@ -65,8 +65,9 @@ export const rhallway: React.FC<SProps> = ({ f, v }) => {
 
   return (
     <g>
-      <R c={day ? M.hallDay : M.hallNight} />
+      <R c={day ? '#2e364a' : '#1c2236'} />
       <Walls W={1080} fy={1360} c={day ? M.wallDay : M.wallNight} wain={true} />
+      <Glow x={540} y={400} r={500} c={day ? M.warm : M.cold} op={0.4} />
 
       {angle === 'mirror' && (
         <g>
@@ -118,7 +119,7 @@ export const rhallway: React.FC<SProps> = ({ f, v }) => {
       )}
       {v.fleeing && <Person who="mitch" x={540} y={1300} s={0.3} f={f} expr="fear" />}
       {v.shadowed && <Person who="mitch" x={540} y={1300} s={0.3} f={f} expr="fear" />}
-      <R c="#05030a" op={v.dark ?? (day ? 0.12 : 0.35)} />
+      <R c="#05030a" op={Math.min(0.06, v.dark ?? (day ? 0.04 : 0.06))} />
     </g>
   );
 };
@@ -183,16 +184,17 @@ export const rkitchen: React.FC<SProps> = ({ f, v }) => {
 
       {angle === 'door_yard' && (
         <g>
-          <rect x={0} y={0} width={1080} height={1920} fill="#18120c" />
-          <rect x={440} y={240} width={540} height={1160} fill="#06120c" stroke="#3a2818" strokeWidth={16} />
+          <rect x={0} y={0} width={1080} height={1920} fill="#323a4c" />
+          <rect x={440} y={240} width={540} height={1160} fill="#9ac4e8" stroke="#3a2818" strokeWidth={16} />
+          <rect x={440} y={780} width={540} height={620} fill="#3a5a34" />
           <PitchPine x={600} y={1100} s={1.1} f={f} />
           <PitchPine x={820} y={1120} s={1.0} f={f} />
-          <Glow x={710} y={440} r={440} c="#8cb0a0" op={0.28} />
+          <Glow x={710} y={440} r={480} c="#ffe8a0" op={0.45} />
           <Person who="mitch" x={240} y={1340} s={0.29} f={f} expr="neutral" />
         </g>
       )}
 
-      <R c="#05030a" op={v.dark ?? 0.14} />
+      <R c="#05030a" op={Math.min(0.06, v.dark ?? 0.05)} />
     </g>
   );
 };
@@ -259,24 +261,26 @@ export const rwoods: React.FC<SProps> = ({ f, v }) => {
 
   return (
     <g>
-      <Sky W={1080} H={1920} f={f} tone="night" />
+      <Sky W={1080} H={1920} f={f} tone={v.day ? 'dusk' : 'night'} />
       <Clouds W={1080} y={240} f={f} />
+      <ellipse cx={540} cy={760} rx={600} ry={380} fill="#466484" opacity={0.35} />
+      <Glow x={540} y={740} r={650} c="#b0d8f8" op={0.42} />
 
       {angle === 'pines_left' && (
         <g>
           {/* Dense cluster of tall pines on the left half */}
           <PitchPine x={120} y={1240} s={1.3} f={f} />
           <PitchPine x={300} y={1200} s={1.2} f={f} />
-          <circle cx={880} cy={340} r={160} fill="#d8eef8" opacity={0.4} />
-          <Glow x={880} y={340} r={460} c="#9ed8f0" op={0.35} />
+          <circle cx={780} cy={540} r={180} fill="#eef6fa" opacity={0.75} />
+          <Glow x={780} y={540} r={550} c="#9ed8f0" op={0.45} />
         </g>
       )}
 
       {angle === 'moon_left' && (
         <g>
           {/* Dense pines on right, big low moon on left */}
-          <circle cx={240} cy={380} r={180} fill="#d8eef8" opacity={0.4} />
-          <Glow x={240} y={380} r={500} c="#9ed8f0" op={0.35} />
+          <circle cx={300} cy={560} r={200} fill="#eef6fa" opacity={0.75} />
+          <Glow x={300} y={560} r={550} c="#9ed8f0" op={0.45} />
           <PitchPine x={700} y={1240} s={1.15} f={f} />
           <PitchPine x={920} y={1260} s={1.05} f={f} />
         </g>
@@ -285,8 +289,8 @@ export const rwoods: React.FC<SProps> = ({ f, v }) => {
       {angle === 'clearing' && (
         <g>
           {/* Open foggy clearing with big centered moon */}
-          <circle cx={540} cy={420} r={220} fill="#e2f2fc" opacity={0.45} />
-          <Glow x={540} y={420} r={640} c="#b0daf0" op={0.4} />
+          <circle cx={540} cy={580} r={240} fill="#eef6fa" opacity={0.78} />
+          <Glow x={540} y={580} r={650} c="#b0daf0" op={0.48} />
           <PitchPine x={80} y={1280} s={1.0} f={f} />
           <PitchPine x={1000} y={1280} s={1.0} f={f} />
         </g>
@@ -294,20 +298,22 @@ export const rwoods: React.FC<SProps> = ({ f, v }) => {
 
       {angle === 'standard' && (
         <g>
+          <circle cx={540} cy={560} r={190} fill="#eef6fa" opacity={0.75} />
+          <Glow x={540} y={560} r={580} c="#b8dcfa" op={0.48} />
           <PitchPine x={180} y={1240} s={1.1} f={f} />
           <PitchPine x={900} y={1260} s={1.0} f={f} />
-          <Glow x={520} y={300} r={420} c={M.cold} op={0.3} />
         </g>
       )}
 
       <Barrens W={1080} gy={1360} f={f} />
+      <ellipse cx={300} cy={1000} rx={400} ry={120} fill="#6a8ca8" opacity={0.3} />
+      <ellipse cx={780} cy={1080} rx={450} ry={140} fill="#6a8ca8" opacity={0.3} />
       {v.running && <Person who="mitch" x={520} y={1320} s={0.3} f={f} expr="fear" />}
       {v.creature === 'jack' && (
         <EyelessJack x={(angle === 'pines_left' ? 760 : 600) + (v.px ?? 0)} y={1340} k={1.15} f={f}
           face={(v.face ?? 1) as 1 | -1} pose={(v.pose as any) ?? 'stand'} ooze={v.ooze ?? 0.4} />
       )}
       {v.fallen && <Person who="mitch" x={520} y={1420} s={0.26} f={f} expr="fear" />}
-      <R c="#05030a" op={v.dark ?? 0.4} />
     </g>
   );
 };
@@ -317,17 +323,18 @@ export const rcar: React.FC<SProps> = ({ f, v }) => {
 
   return (
     <g>
-      <R c="#15161e" />
+      <R c={v.day ? '#384458' : '#222a3a'} />
 
       {angle === 'dash_interior' && (
         <g>
           {/* Vertical windshield view cutting through dark night */}
-          <polygon points="100,0 980,0 1080,1100 0,1100" fill="#0d141e" />
-          <polygon points="300,1100 420,380 660,380 780,1100" fill="#fff" opacity={0.18} />
-          <Glow x={540} y={480} r={360} c="#fff4c0" op={0.3} />
-          <rect x={0} y={1100} width={1080} height={820} fill="#101116" stroke="#222630" strokeWidth={8} />
-          <circle cx={340} cy={1340} r={90} fill="#080a0e" stroke="#20c080" strokeWidth={8} />
-          <circle cx={580} cy={1340} r={90} fill="#080a0e" stroke="#20c080" strokeWidth={8} />
+          <polygon points="100,0 980,0 1080,1100 0,1100" fill="#243044" />
+          <polygon points="260,1100 400,340 680,340 820,1100" fill="#fffbe0" opacity={0.35} />
+          <Glow x={540} y={480} r={460} c="#fff4c0" op={0.4} />
+          <rect x={0} y={1100} width={1080} height={820} fill="#181a22" stroke="#2a303e" strokeWidth={8} />
+          <circle cx={340} cy={1340} r={90} fill="#0c1018" stroke="#20ff80" strokeWidth={10} />
+          <circle cx={580} cy={1340} r={90} fill="#0c1018" stroke="#20ff80" strokeWidth={10} />
+          <Glow x={460} y={1340} r={280} c="#20ff80" op={0.25} />
           <path d="M 180 1540 Q 460 1100 740 1540" stroke="#1c1f26" strokeWidth={40} fill="none" />
         </g>
       )}
@@ -335,41 +342,42 @@ export const rcar: React.FC<SProps> = ({ f, v }) => {
       {angle === 'wheel_steer' && (
         <g>
           {/* Side view / driver steering wheel */}
-          <rect x={0} y={0} width={1080} height={1920} fill="#0d1016" />
-          <polygon points="0,200 480,200 400,1000 0,1000" fill="#142030" stroke="#080a0e" strokeWidth={10} />
-          <Glow x={200} y={500} r={350} c="#4080a0" op={0.25} />
+          <rect x={0} y={0} width={1080} height={1920} fill="#242c3c" />
+          <polygon points="0,200 480,200 400,1000 0,1000" fill="#344860" stroke="#1a202c" strokeWidth={10} />
+          <Glow x={300} y={500} r={450} c="#60a0c0" op={0.35} />
           {/* Steering wheel side arc */}
-          <ellipse cx={740} cy={1100} rx={160} ry={280} fill="none" stroke="#2a2e38" strokeWidth={40} />
-          <rect x={600} y={1180} width={480} height={740} fill="#181a20" stroke="#0e1014" strokeWidth={8} />
-          <Glow x={740} y={1100} r={280} c="#ff8040" op={0.15} />
+          <ellipse cx={740} cy={1100} rx={160} ry={280} fill="none" stroke="#363c4a" strokeWidth={40} />
+          <rect x={600} y={1180} width={480} height={740} fill="#1c202a" stroke="#0e1014" strokeWidth={8} />
+          <Glow x={740} y={1100} r={400} c="#ff9050" op={0.3} />
         </g>
       )}
 
       {angle === 'seat_prop' && (
         <g>
           {/* Passenger seat close up with dark wrapped kidney prop */}
-          <rect x={0} y={0} width={1080} height={1920} fill="#14151c" />
-          <rect x={240} y={400} width={600} height={1000} rx={48} fill="#242632" stroke="#0e1014" strokeWidth={12} />
-          <Glow x={540} y={900} r={440} c={M.warm} op={0.3} />
+          <rect x={0} y={0} width={1080} height={1920} fill="#262c3e" />
+          <rect x={240} y={400} width={600} height={1000} rx={48} fill="#3c4254" stroke="#1c202c" strokeWidth={12} />
+          <Glow x={540} y={900} r={520} c={M.warm} op={0.4} />
           <g transform="translate(540 1020)">
             <rect x={-110} y={-70} width={220} height={140} rx={18} fill="#120e0e" stroke="#2a2222" strokeWidth={5} />
             <ellipse cx={0} cy={-4} rx={64} ry={44} fill="#0a0608" />
             <ellipse cx={-12} cy={-12} rx={26} ry={16} fill={M.oozeC} opacity={0.85} />
           </g>
-          <polygon points="600,0 900,0 1080,1920 780,1920" fill="#ffa820" opacity={0.12} />
+          <polygon points="500,0 900,0 1080,1920 680,1920" fill="#ffa820" opacity={0.2} />
         </g>
       )}
 
       {angle === 'exterior' && (
         <g>
+          <rect x={0} y={0} width={1080} height={920} fill={v.day ? '#50647c' : '#1e283c'} />
+          <rect x={0} y={920} width={1080} height={1000} fill="#2c2a30" stroke="#18161c" strokeWidth={6} />
+          <line x1={0} y1={1380} x2={1080} y2={1380} stroke="#cca030" strokeWidth={12} strokeDasharray="60,60" />
+          <Glow x={540} y={960} r={550} c={v.day ? M.warm : M.cold} op={0.35} />
           <Sedan x={540} y={1060} s={1.1} f={f} lights={v.driving ? 1 : 0} />
           <StreetLamp x={940} y={420} on={v.driving} />
-          <Glow x={540} y={1240} r={300} c={M.warm} op={0.28} />
           {v.driving && <Person who="mitch" x={380} y={1300} s={0.24} f={f} expr="fear" />}
         </g>
       )}
-
-      <R c="#05030a" op={v.dark ?? 0.25} />
     </g>
   );
 };
