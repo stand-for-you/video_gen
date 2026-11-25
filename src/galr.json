@@ -1,0 +1,9 @@
+[
+ {"set":"rlibrary","v":{"watch":true}},
+ {"set":"rcafeteria","v":{"tag":true}},
+ {"set":"rapartment","v":{"dark":true,"tears":true}},
+ {"set":"rclearing","v":{"c":"mask","unmask":true}},
+ {"set":"rritual","v":{"c":"mask","tend":0.8}},
+ {"set":"runleashed","v":{"c":"mask"}},
+ {"set":"rhospital","v":{}}
+]

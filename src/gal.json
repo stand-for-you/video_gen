@@ -1,1 +1,15 @@
-[["glass",{"ghost":"woman"},60,90],["glass",{"ghost":"grin","close":true},60,90],["glass",{"ghost":"child"},60,90],["recorder",{},60,90],["recorder",{"rev":true},60,90],["corridor",{},60,90],["corridor",{"leave":true},60,90],["chamber",{"expr":"sleepy"},60,90],["chamber",{"expr":"fear"},60,90],["chambercu",{"expr":"fear","tag":true},60,90],["chambercu",{"expr":"sad"},60,90],["wallhit",{},60,90],["ghostbed",{},60,90],["relatives",{},60,90],["child",{},60,90],["lastlook",{},60,90],["flatline",{},60,90],["credit",{},60,90],["end",{},90,600],["rglass",{"ghost":"woman"},60,90],["rglass",{"close":true},60,90],["rchamber",{},60,90],["rwall",{},60,90],["rghost",{},60,90],["rlast",{},60,90],["rflat",{},60,90],["rqcard",{},60,90],["rqend",{},60,90]]
+[
+ {"set":"library","v":{"watch":true,"expr":"fear"}},
+ {"set":"common","v":{"who":"both"}},
+ {"set":"cafeteria","v":{"tray":true}},
+ {"set":"hall","v":{"tag":true}},
+ {"set":"phone","v":{}},
+ {"set":"apartment","v":{"dark":true,"tears":true}},
+ {"set":"door","v":{"ethan":true}},
+ {"set":"woods","v":{"run":true}},
+ {"set":"clearing","v":{"c":"mask","unmask":true,"read":true}},
+ {"set":"ritual","v":{"c":"mask","tend":0.8}},
+ {"set":"unleashed","v":{"c":"mask","pose2":"loom"}},
+ {"set":"hospital","v":{"officer":true}},
+ {"set":"face","v":{"who":"jack","tears":true}}
+]

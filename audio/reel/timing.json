@@ -1,329 +1,437 @@
 {
- "duration": 170.75504166666667,
+ "duration": 163.41195833333333,
  "units": [
   {
    "i": 0,
    "beat": 0,
    "chapter": "Intro",
-   "text": "A man lay in a sealed room for four days.",
+   "text": "I am writing this from a library computer, and I think I am being watched from the dark between the shelves.",
    "who": "nar",
    "start": 0.0,
-   "end": 2.717
+   "end": 6.11
   },
   {
    "i": 1,
    "beat": 0,
    "chapter": null,
-   "text": "He could not see, hear, taste, smell, or feel anything.",
+   "text": "I know how that sounds.",
    "who": "nar",
-   "start": 3.017,
-   "end": 7.4
+   "start": 6.41,
+   "end": 7.799
   },
   {
    "i": 2,
    "beat": 0,
    "chapter": null,
-   "text": "Then he began to hear his dead wife.",
+   "text": "My best friend trusted the wrong person, and now he is gone.",
    "who": "nar",
-   "start": 7.7,
-   "end": 10.142
+   "start": 8.099,
+   "end": 11.708
   },
   {
    "i": 3,
    "beat": 0,
    "chapter": null,
-   "text": "Why did the scientists keep listening?",
+   "text": "Let me take you back to the beginning.",
    "who": "nar",
-   "start": 10.442,
-   "end": 12.54
+   "start": 12.008,
+   "end": 13.729
   },
   {
    "i": 4,
-   "beat": 0,
+   "beat": 1,
    "chapter": null,
-   "text": "What did they want from him?",
+   "text": "Last year I met a guy named Jack.",
    "who": "nar",
-   "start": 12.84,
-   "end": 14.185
+   "start": 14.179,
+   "end": 16.426
   },
   {
    "i": 5,
-   "beat": 0,
+   "beat": 1,
    "chapter": null,
-   "text": "Let us go back to the beginning.",
+   "text": "We liked the same games and the same films, and we played online almost every night.",
    "who": "nar",
-   "start": 14.485,
-   "end": 16.248
+   "start": 16.726,
+   "end": 21.743
   },
   {
    "i": 6,
    "beat": 1,
    "chapter": null,
-   "text": "In nineteen eighty-three, a group of deeply religious scientists ran a secret test in an undisclosed facility.",
+   "text": "For the first time at that school I had a real friend.",
    "who": "nar",
-   "start": 16.698,
-   "end": 26.101
+   "start": 22.043,
+   "end": 25.076
   },
   {
    "i": 7,
    "beat": 1,
    "chapter": null,
-   "text": "They believed the five senses clouded our view of eternity.",
+   "text": "Then, last winter, he started seeing a girl from class named Elisa.",
    "who": "nar",
-   "start": 26.401,
-   "end": 30.958
+   "start": 25.376,
+   "end": 29.575
   },
   {
    "i": 8,
-   "beat": 1,
+   "beat": 2,
    "chapter": null,
-   "text": "Take them away, they thought, and a human mind could reach God by thought alone.",
+   "text": "At first she seemed kind.",
    "who": "nar",
-   "start": 31.258,
-   "end": 37.226
+   "start": 30.025,
+   "end": 31.58
   },
   {
    "i": 9,
    "beat": 2,
    "chapter": null,
-   "text": "They chose an elderly man who said he had nothing left to live for.",
+   "text": "But a month in, Jack began to pull away.",
    "who": "nar",
-   "start": 37.676,
-   "end": 42.823
+   "start": 31.88,
+   "end": 34.294
   },
   {
    "i": 10,
    "beat": 2,
    "chapter": null,
-   "text": "He volunteered.",
+   "text": "He stopped answering, and he only wanted to be with her.",
    "who": "nar",
-   "start": 43.123,
-   "end": 44.224
+   "start": 34.594,
+   "end": 37.681
   },
   {
    "i": 11,
    "beat": 2,
    "chapter": null,
-   "text": "Surgeons cut every nerve that carried feeling from his body to his brain.",
+   "text": "One morning in the cafeteria line he turned on me, shouted at a stranger, and ran out of the building.",
    "who": "nar",
-   "start": 44.524,
-   "end": 50.618
+   "start": 37.981,
+   "end": 43.97
   },
   {
    "i": 12,
    "beat": 2,
    "chapter": null,
-   "text": "His muscles still worked, but he could no longer see, hear, taste, smell, or feel.",
+   "text": "That was not my friend.",
    "who": "nar",
-   "start": 50.918,
-   "end": 57.712
+   "start": 44.27,
+   "end": 45.621
   },
   {
    "i": 13,
    "beat": 3,
    "chapter": null,
-   "text": "Nothing reached him from the outside world.",
+   "text": "He stopped coming to class.",
    "who": "nar",
-   "start": 58.162,
-   "end": 61.031
+   "start": 46.071,
+   "end": 47.566
   },
   {
    "i": 14,
    "beat": 3,
    "chapter": null,
-   "text": "The scientists watched through the glass, and a tape recorder caught his slurred words.",
+   "text": "One evening I passed Elisa in the hall and asked if Jack was okay.",
    "who": "nar",
-   "start": 61.331,
-   "end": 67.735
+   "start": 47.866,
+   "end": 52.08
   },
   {
    "i": 15,
    "beat": 3,
    "chapter": null,
-   "text": "He could not hear himself speak.",
+   "text": "She smiled, and the smile was wrong.",
    "who": "nar",
-   "start": 68.035,
-   "end": 69.938
+   "start": 52.38,
+   "end": 54.41
   },
   {
    "i": 16,
    "beat": 3,
    "chapter": null,
-   "text": "After four days, he said hushed voices were speaking inside his head.",
+   "text": "She said he was better than ever, each word slow, like a warning, and walked away.",
    "who": "nar",
-   "start": 70.238,
-   "end": 75.697
+   "start": 54.71,
+   "end": 59.307
   },
   {
    "i": 17,
    "beat": 4,
    "chapter": null,
-   "text": "Two days later, he said his dead wife was talking to him, and that he could answer her.",
+   "text": "That night I called him.",
    "who": "nar",
-   "start": 76.147,
-   "end": 82.624
+   "start": 59.757,
+   "end": 61.141
   },
   {
    "i": 18,
    "beat": 4,
    "chapter": null,
-   "text": "Then he began naming dead relatives of the scientists.",
+   "text": "He picked up at once, his voice low and shaking.",
    "who": "nar",
-   "start": 82.924,
-   "end": 87.241
+   "start": 61.441,
+   "end": 64.186
   },
   {
    "i": 19,
    "beat": 4,
    "chapter": null,
-   "text": "He repeated private details that only their spouses and parents could have known.",
+   "text": "Forty minutes later he was at my door, and I knew something was badly wrong.",
    "who": "nar",
-   "start": 87.541,
-   "end": 93.421
+   "start": 64.486,
+   "end": 69.043
   },
   {
    "i": 20,
-   "beat": 5,
+   "beat": 4,
    "chapter": null,
-   "text": "For a week, the voices filled every waking moment.",
+   "text": "I let him in and turned off the lights because he begged me to.",
    "who": "nar",
-   "start": 93.871,
-   "end": 97.754
+   "start": 69.343,
+   "end": 72.668
   },
   {
    "i": 21,
-   "beat": 5,
+   "beat": 4,
    "chapter": null,
-   "text": "He threw his body against the wall, hoping for pain to drown them out.",
+   "text": "In the dark he was crying, but the tears were black, like ink running down his face.",
    "who": "nar",
-   "start": 98.054,
-   "end": 103.368
+   "start": 72.968,
+   "end": 77.872
   },
   {
    "i": 22,
    "beat": 5,
    "chapter": null,
-   "text": "He begged for sedatives, so he could escape by sleeping.",
+   "text": "He said Elisa did this to him.",
    "who": "nar",
-   "start": 103.668,
-   "end": 107.708
+   "start": 78.322,
+   "end": 80.235
   },
   {
    "i": 23,
    "beat": 5,
    "chapter": null,
-   "text": "Sleep brought nightmares, and in them, the dead were waiting.",
+   "text": "She caught him crying the black stuff and said he was ready.",
    "who": "nar",
-   "start": 108.008,
-   "end": 112.582
+   "start": 80.535,
+   "end": 83.763
   },
   {
    "i": 24,
-   "beat": 6,
+   "beat": 5,
    "chapter": null,
-   "text": "Then the voices turned hostile.",
+   "text": "Then a soft knock came at the door, and her calm voice said it was time, that they were waiting.",
    "who": "nar",
-   "start": 113.032,
-   "end": 114.988
+   "start": 84.063,
+   "end": 89.269
   },
   {
    "i": 25,
-   "beat": 6,
+   "beat": 5,
    "chapter": null,
-   "text": "They spoke of hell and the end of the world.",
+   "text": "Jack ran out the back and vanished into the woods.",
    "who": "nar",
-   "start": 115.288,
-   "end": 118.155
+   "start": 89.569,
+   "end": 92.286
   },
   {
    "i": 26,
    "beat": 6,
    "chapter": null,
-   "text": "For five hours, he shouted that there was no heaven and no forgiveness.",
+   "text": "I called the police and chased him.",
    "who": "nar",
-   "start": 118.455,
-   "end": 123.929
+   "start": 92.736,
+   "end": 94.645
   },
   {
    "i": 27,
    "beat": 6,
    "chapter": null,
-   "text": "The scientists were certain he was close to God.",
+   "text": "Something hit the back of my head, and I woke tied to a tree.",
    "who": "nar",
-   "start": 124.229,
-   "end": 127.525
+   "start": 94.945,
+   "end": 98.535
   },
   {
    "i": 28,
-   "beat": 7,
+   "beat": 6,
    "chapter": null,
-   "text": "Soon he could no longer form a sentence.",
+   "text": "My mouth was taped shut.",
    "who": "nar",
-   "start": 127.975,
-   "end": 130.692
+   "start": 98.835,
+   "end": 100.231
   },
   {
    "i": 29,
-   "beat": 7,
+   "beat": 6,
    "chapter": null,
-   "text": "He lost control of his body, and the team had to tie him down so he could not harm himself.",
+   "text": "In a clearing stood a ring of figures in black robes and pale blue masks.",
    "who": "nar",
-   "start": 130.992,
-   "end": 138.22
+   "start": 100.531,
+   "end": 104.731
   },
   {
    "i": 30,
-   "beat": 8,
+   "beat": 6,
    "chapter": null,
-   "text": "At last, though he was blind, he turned his head and looked straight at a scientist for the first time.",
+   "text": "In the middle, strapped to a chair, was Jack.",
    "who": "nar",
-   "start": 138.67,
-   "end": 146.88
+   "start": 105.031,
+   "end": 107.363
   },
   {
    "i": 31,
-   "beat": 8,
+   "beat": 6,
    "chapter": null,
-   "text": "He whispered that he had spoken with God, and God had abandoned them.",
+   "text": "One lifted her mask.",
    "who": "nar",
-   "start": 147.18,
-   "end": 152.15
+   "start": 107.663,
+   "end": 108.953
   },
   {
    "i": 32,
-   "beat": 8,
+   "beat": 6,
    "chapter": null,
-   "text": "Then his vital signs stopped.",
+   "text": "It was Elisa.",
    "who": "nar",
-   "start": 152.45,
-   "end": 154.562
+   "start": 109.253,
+   "end": 110.247
   },
   {
    "i": 33,
-   "beat": 8,
+   "beat": 7,
    "chapter": null,
-   "text": "No cause of death was ever found.",
+   "text": "A taller one read from an old black book.",
    "who": "nar",
-   "start": 154.862,
-   "end": 157.433
+   "start": 110.697,
+   "end": 113.191
   },
   {
    "i": 34,
-   "beat": 9,
+   "beat": 7,
    "chapter": null,
-   "text": "This video is inspired by the story Gateway of the Mind, as published on an online horror story page.",
+   "text": "The ground shook, and black tendrils rose from the frost and wrapped the chair.",
    "who": "nar",
-   "start": 157.883,
-   "end": 166.638
+   "start": 113.491,
+   "end": 117.639
   },
   {
    "i": 35,
+   "beat": 7,
+   "chapter": null,
+   "text": "They pressed a cracked blue mask over Jack's face, and where his eyes had been, only black tar ran down.",
+   "who": "nar",
+   "start": 117.939,
+   "end": 124.313
+  },
+  {
+   "i": 36,
+   "beat": 8,
+   "chapter": null,
+   "text": "Then I heard sirens.",
+   "who": "nar",
+   "start": 124.763,
+   "end": 126.045
+  },
+  {
+   "i": 37,
+   "beat": 8,
+   "chapter": null,
+   "text": "The reading stopped.",
+   "who": "nar",
+   "start": 126.345,
+   "end": 127.408
+  },
+  {
+   "i": 38,
+   "beat": 8,
+   "chapter": null,
+   "text": "A low laugh came from the chair, and the thing wearing my friend tore free and turned on the circle.",
+   "who": "nar",
+   "start": 127.708,
+   "end": 133.35
+  },
+  {
+   "i": 39,
+   "beat": 8,
+   "chapter": null,
+   "text": "The frost went red.",
+   "who": "nar",
+   "start": 133.65,
+   "end": 134.84
+  },
+  {
+   "i": 40,
+   "beat": 8,
+   "chapter": null,
+   "text": "One by one, the robed figures stopped screaming, and the clearing went still.",
+   "who": "nar",
+   "start": 135.14,
+   "end": 139.511
+  },
+  {
+   "i": 41,
+   "beat": 9,
+   "chapter": null,
+   "text": "I woke to a flashlight and an officer shouting for help.",
+   "who": "nar",
+   "start": 139.961,
+   "end": 143.32
+  },
+  {
+   "i": 42,
+   "beat": 9,
+   "chapter": null,
+   "text": "At the hospital they said I would live, but a kidney was gone.",
+   "who": "nar",
+   "start": 143.62,
+   "end": 147.175
+  },
+  {
+   "i": 43,
+   "beat": 9,
+   "chapter": null,
+   "text": "A year later, Jack is still missing, blamed for ten deaths and one attempted murder.",
+   "who": "nar",
+   "start": 147.475,
+   "end": 152.428
+  },
+  {
+   "i": 44,
+   "beat": 9,
+   "chapter": null,
+   "text": "Mine.",
+   "who": "nar",
+   "start": 152.728,
+   "end": 153.276
+  },
+  {
+   "i": 45,
    "beat": 10,
    "chapter": null,
-   "text": "Would you have kept listening to the voices?",
+   "text": "This is inspired by the story You Can't Trust Everyone, from an online horror story page.",
    "who": "nar",
-   "start": 167.088,
-   "end": 169.555
+   "start": 153.726,
+   "end": 159.368
+  },
+  {
+   "i": 46,
+   "beat": 11,
+   "chapter": null,
+   "text": "So tell me.",
+   "who": "nar",
+   "start": 159.818,
+   "end": 160.707
+  },
+  {
+   "i": 47,
+   "beat": 11,
+   "chapter": null,
+   "text": "Who would you have trusted?",
+   "who": "nar",
+   "start": 161.007,
+   "end": 162.212
   }
  ]
 }
