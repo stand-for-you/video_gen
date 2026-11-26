@@ -28,7 +28,7 @@ on:
         type: choice
         options: ['false', 'true']
   push:
-    branches: [main, 'story/*']
+    branches: [main]
     paths:
       - 'src/**'
       - 'story/**'
@@ -42,7 +42,7 @@ permissions:
   contents: read
 
 concurrency:
-  group: compile-${{ github.ref }}
+  group: compile-${{ github.workflow }}-${{ github.run_id }}
   cancel-in-progress: true
 
 jobs:
