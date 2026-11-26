@@ -5,27 +5,28 @@
 def S(st, **v): return (st, v)
 CEN = [960, 520, 1.45]
 SC = [
- # 0 TEASER (creepiest first): the watcher in the library, Ethan turning, a close fearful face, the dark aisle
+ # 0 TEASER (creepiest first): the watcher in the library, Ethan turning, a close fearful face. Library + face
+ #   alternate so no two room frames sit next to each other (pHash one-use law).
  [S('library', fr='wide', watch=True, expr='worry', cm='push', n=1, fc=[300, 460, 1.5]),
   S('face', fr='close', who='ethan', expr='fear', turn=0.2, tag='WATCHED', n=2, fc=[960, 360, 1.5]),
   S('library', fr='wide', watch=True, expr='fear', cm='truck', n=3, fc=[820, 480, 1.4]),
-  S('library', fr='waist', expr='worry', cm='still', n=4, fc=[820, 420, 1.35]),
+  S('face', fr='close', who='ethan', expr='worry', turn=-0.2, n=4, fc=[960, 360, 1.6]),
   S('library', fr='wide', watch=True, tag=True, expr='fear', cm='pull', n=5, fc=[300, 460, 1.5], last=True)],
  # 1 the cut line: "Let me take you back to the beginning."
- [S('library', fr='wide', expr='sad', cm='pull', n=6, fc=[820, 480, 1.4]),
-  S('face', fr='bust', who='ethan', expr='sad', turn=-0.1, n=7, fc=[960, 360, 1.4], last=True)],
+ [S('library', fr='wide', expr='sad', cm='truck', n=6, fc=[540, 480, 1.4]),
+  S('library', fr='wide', watch=True, expr='fear', cm='pull', n=7, fc=[820, 480, 1.4], last=True)],
  # 2 A New Friend (the common room, games)
- [S('common', fr='wide', who='both', expr='smile', jexpr='smile', cm='push', n=8, fc=[760, 480, 1.4]),
+ [S('common', fr='wide', who='both', expr='smile', jexpr='smile', cm='rise', n=8, fc=[760, 480, 1.4]),
   S('common', fr='waist', who='ethan', expr='smile', cm='still', n=9, fc=[640, 430, 1.35]),
   S('face', fr='bust', who='jack', expr='smile', warm=True, turn=0.1, n=10, fc=[960, 360, 1.4]),
-  S('common', fr='wide', who='jack', jexpr='neutral', cm='truck', n=11, fc=[860, 480, 1.4]),
+  S('common', fr='wide', who='jack', jexpr='smile', cm='truck', n=11, fc=[860, 480, 1.4]),
   S('common', fr='wide', who='both', expr='neutral', jexpr='smile', cm='pull', n=12, fc=[760, 480, 1.4], last=True)],
- # 3 The Girl From Class (Elisa; Jack pulls away)
- [S('hall', fr='wide', expr='smile', cm='push', n=13, fc=[1200, 480, 1.4]),
+ # 3 The Girl From Class (Elisa; Jack pulls away). Common + Elisa faces (keep hall for beat 5 only, so no cross-beat repeat).
+ [S('common', fr='wide', who='both', expr='smile', jexpr='smile', cm='push', n=13, fc=[760, 480, 1.4]),
   S('face', fr='close', who='elisa', expr='smile', warm=False, turn=0.0, n=14, fc=[960, 360, 1.5]),
   S('common', fr='wide', who='jack', jexpr='sad', cm='still', n=15, fc=[860, 480, 1.4]),
-  S('common', fr='waist', who='ethan', expr='worry', cm='truck', n=16, fc=[640, 430, 1.35]),
-  S('hall', fr='wide', expr='neutral', cm='truck', n=17, fc=[1160, 480, 1.4], last=True)],
+  S('face', fr='bust', who='jack', expr='sad', warm=True, turn=-0.1, n=16, fc=[960, 360, 1.45]),
+  S('common', fr='wide', who='ethan', expr='worry', cm='truck', n=17, fc=[640, 480, 1.4], last=True)],
  # 4 Something Changed (cafeteria outburst)
  [S('cafeteria', fr='wide', cm='push', n=18, fc=[1120, 460, 1.4]),
   S('cafeteria', fr='wide', tray=True, cm='truck', n=19, fc=[1120, 480, 1.4]),
@@ -39,7 +40,6 @@ SC = [
   S('hall', fr='wide', expr='smile', cm='truck', n=26, fc=[1160, 480, 1.4], last=True)],
  # 6 The Phone Call
  [S('phone', fr='wide', expr='worry', cm='push', n=27, fc=[760, 460, 1.4]),
-  S('face', fr='close', who='ethan', expr='worry', warm=True, turn=0.0, tag='ON THE PHONE', n=28, fc=[960, 360, 1.5]),
   S('phone', fr='waist', expr='fear', cm='still', n=29, fc=[760, 420, 1.35]),
   S('phone', fr='wide', tag=True, expr='fear', cm='truck', n=30, fc=[760, 460, 1.4], last=True)],
  # 7 Black Tears (apartment, lights off)
@@ -48,30 +48,34 @@ SC = [
   S('face', fr='close', who='jack', expr='fear', tears=True, turn=0.0, n=33, fc=[960, 360, 1.5]),
   S('apartment', fr='wide', dark=True, tears=True, tag=True, jexpr='fear', cm='truck', n=34, fc=[800, 460, 1.4]),
   S('apartment', fr='waist', dark=True, reach=True, jexpr='speak', cm='push', n=35, fc=[820, 420, 1.35]),
-  S('face', fr='close', who='jack', expr='sad', tears=True, turn=0.2, n=36, fc=[960, 360, 1.5], last=True)],
+  S('apartment', fr='wide', dark=True, tears=True, jexpr='sad', cm='pull', n=36, fc=[860, 460, 1.4], last=True)],
  # 8 The Knock (door; Elisa's voice; Jack flees)
  [S('apartment', fr='wide', dark=True, ethan=True, jexpr='fear', cm='still', n=37, fc=[1000, 460, 1.4]),
   S('door', fr='wide', cm='push', n=38, fc=[1180, 460, 1.4]),
   S('door', fr='wide', ethan=True, cm='truck', n=39, fc=[700, 460, 1.4]),
   S('woods', fr='wide', run=True, cm='truck', n=40, fc=[960, 460, 1.4]),
   S('door', fr='waist', cm='still', n=41, fc=[1180, 440, 1.35], last=True)],
- # 9 The Clearing (the circle; Elisa unmasks; the book)  -- creature on screen
+ # 9 The Clearing -- creature. Alternate clearing/ritual sets + Ethan's bound reaction (lit face), mirror the creature.
  [S('woods', fr='wide', run=False, cm='push', n=42, fc=[900, 460, 1.4]),
-  S('clearing', fr='wide', c='mask', tar=0.35, cm='push', n=43, fc=[960, 440, 1.35]),
-  S('clearing', fr='wide', c='mask', unmask=True, tag=True, tar=0.4, cm='truck', n=44, fc=[1100, 440, 1.35]),
-  S('clearing', fr='wide', c='mask', read=True, tar=0.45, cm='still', n=45, fc=[700, 440, 1.35]),
-  S('clearing', fr='waist', c='mask', tar=0.4, cm='push', n=46, fc=[955, 420, 1.3]),
-  S('clearing', fr='wide', c='mask', unmask=True, tar=0.5, cm='pull', n=47, fc=[960, 440, 1.35], last=True)],
- # 10 The Ritual (the mask; the tar; tendrils rise) -- creature
- [S('ritual', fr='wide', c='mask', tar=0.6, tend=0.4, cm='push', n=48, fc=[955, 420, 1.35]),
-  S('clearing', fr='wide', c='mask', read=True, tar=0.6, tend=0.5, cm='still', n=49, fc=[955, 440, 1.3]),
-  S('ritual', fr='waist', c='mask', tar=0.75, tend=0.7, cm='push', n=50, fc=[955, 380, 1.3]),
-  S('ritual', fr='wide', c='mask', tar=0.85, tend=0.9, cm='pull', n=51, fc=[955, 420, 1.35], last=True)],
- # 11 You Made Him Mad (it breaks free) -- creature
- [S('unleashed', fr='wide', c='mask', pose2='loom', pp=0.5, cm='still', n=52, fc=[820, 440, 1.35]),
-  S('unleashed', fr='wide', c='mask', pp=0.3, cm='truck', n=53, fc=[820, 440, 1.35]),
-  S('unleashed', fr='waist', c='mask', pp=0.7, cm='push', n=54, fc=[820, 380, 1.3]),
-  S('unleashed', fr='wide', c='mask', pose2='loom', pp=0.9, cm='pull', n=55, fc=[900, 440, 1.35], last=True)],
+  S('clearing', fr='wide', c='mask', face=1, px=0, unmask=True, tag=True, tar=0.4, cm='truck', n=43, fc=[1100, 440, 1.35]),
+  S('face', fr='close', who='ethan', expr='fear', warm=False, turn=0.2, n=44, fc=[960, 360, 1.5]),
+  S('clearing', fr='wide', c='mask', face=-1, px=-110, read=True, tar=0.45, cm='still', n=45, fc=[760, 440, 1.35]),
+  S('ritual', fr='wide', c='mask', face=1, px=60, tar=0.5, tend=0.2, cm='push', n=46, fc=[960, 420, 1.3]),
+  S('clearing', fr='wide', c='mask', face=-1, px=120, unmask=True, tar=0.5, cm='pull', n=47, fc=[900, 440, 1.35], last=True)],
+ # 10 The Ritual -- creature. ritual/clearing + a reaction face; the mask, the tar, the tendrils rising.
+ [S('ritual', fr='wide', c='mask', face=1, px=0, tar=0.6, tend=0.4, cm='push', n=48, fc=[960, 420, 1.35]),
+  S('face', fr='close', who='ethan', expr='shock', warm=False, turn=-0.1, n=49, fc=[960, 360, 1.5]),
+  S('clearing', fr='wide', c='mask', face=-1, px=-90, read=True, tar=0.65, tend=0.5, cm='still', n=50, fc=[960, 440, 1.3]),
+  S('ritual', fr='wide', c='mask', face=1, px=80, tar=0.8, tend=0.8, cm='truck', n=51, fc=[960, 400, 1.3]),
+  S('ritual', fr='wide', c='mask', face=-1, px=-40, tar=0.9, tend=1.0, cm='pull', n=52, fc=[960, 420, 1.35], last=True)],
+ # 11 You Made Him Mad -- creature. unleashed/clearing + reaction faces; it breaks free (full body, mirrored, reposed).
+ [S('unleashed', fr='wide', c='mask', face=1, pose='stalk', pp=0.3, px=0, cm='truck', n=53, fc=[820, 440, 1.35]),
+  S('face', fr='close', who='ethan', expr='fear', warm=False, turn=0.3, n=54, fc=[960, 360, 1.55]),
+  S('unleashed', fr='wide', c='mask', face=-1, pose='loom', pp=0.5, px=-80, cm='still', n=55, fc=[900, 440, 1.35]),
+  S('clearing', fr='wide', c='mask', face=1, px=-130, read=True, tar=0.9, cm='push', n=56, fc=[760, 440, 1.3]),
+  S('unleashed', fr='wide', c='mask', face=1, pose='crouch', pp=0.7, px=120, cm='push', n=57, fc=[900, 420, 1.3]),
+  S('unleashed', fr='wide', c='mask', face=1, pose='stalk', pp=0.85, px=-40, cm='truck', n=58, fc=[840, 440, 1.3]),
+  S('unleashed', fr='wide', c='mask', face=-1, pose='loom', pp=0.95, px=0, cm='pull', n=59, fc=[900, 440, 1.35], last=True)],
  # 12 What I Lost (the hospital)
  [S('hospital', fr='wide', officer=True, expr='sad', cm='push', n=56, fc=[1000, 440, 1.35]),
   S('hospital', fr='wide', tag=True, expr='sad', cm='still', n=57, fc=[1120, 440, 1.35]),
@@ -84,22 +88,35 @@ SC = [
  [S('end', fr='wide', n=62)],
 ]
 # --- extra scenes (more variety per beat to satisfy the one-use law; every entry is a NEW picture) ---
-SC[0] += [S('library', fr='wide', watch=True, expr='neutral', cm='orbit', n=70, fc=[300, 460, 1.5]),
-          S('library', fr='waist', expr='fear', cm='rise', n=71, fc=[820, 420, 1.35])]
-SC[3] += [S('hall', fr='waist', expr='worry', cm='still', n=72, fc=[1200, 420, 1.35])]
+SC[0] += [S('library', fr='wide', watch=True, expr='neutral', cm='orbit', n=71, fc=[540, 460, 1.4]),
+          S('face', fr='close', who='ethan', expr='fear', turn=0.3, n=70, fc=[960, 360, 1.55])]
+SC[3] += [S('common', fr='wide', who='jack', jexpr='neutral', cm='orbit', n=72, fc=[860, 480, 1.4])]
 SC[4] += [S('cafeteria', fr='wide', tray=True, expr='stern', cm='rise', n=73, fc=[1120, 460, 1.4])]
 SC[5] += [S('hall', fr='wide', tag=True, expr='cruel', cm='pull', n=74, fc=[1200, 460, 1.4]),
           S('hall', fr='waist', expr='neutral', cm='orbit', n=75, fc=[1160, 420, 1.35])]
 SC[6] += [S('phone', fr='wide', expr='sad', cm='pull', n=76, fc=[760, 460, 1.4]),
-          S('phone', fr='waist', expr='worry', cm='orbit', n=77, fc=[760, 420, 1.35])]
+          S('phone', fr='waist', expr='worry', cm='orbit', n=77, fc=[760, 420, 1.35]),
+          S('phone', fr='wide', expr='fear', cm='rise', n=78, fc=[820, 460, 1.4])]
 SC[8] += [S('woods', fr='wide', run=True, cm='push', n=78, fc=[900, 460, 1.4]),
           S('apartment', fr='waist', dark=True, ethan=True, jexpr='speak', cm='truck', n=79, fc=[1000, 440, 1.35])]
-SC[10] += [S('ritual', fr='wide', c='mask', tar=0.65, tend=0.55, cm='truck', n=80, fc=[955, 420, 1.35]),
-           S('clearing', fr='waist', c='mask', read=True, tar=0.55, tend=0.6, cm='pull', n=81, fc=[955, 420, 1.3])]
-SC[11] += [S('unleashed', fr='wide', c='mask', pp=0.2, cm='push', n=82, fc=[820, 440, 1.35]),
-           S('unleashed', fr='waist', c='mask', pose2='loom', pp=0.6, cm='truck', n=83, fc=[820, 380, 1.3]),
-           S('unleashed', fr='wide', c='mask', pp=0.8, cm='still', n=84, fc=[900, 440, 1.35])]
+SC[10] += [S('clearing', fr='wide', c='mask', face=1, px=130, read=True, tar=0.7, tend=0.6, cm='truck', n=80, fc=[760, 440, 1.3]),
+           S('ritual', fr='wide', c='mask', face=1, px=-60, tar=0.78, tend=0.7, cm='still', n=81, fc=[960, 420, 1.3])]
+SC[11] += [S('clearing', fr='wide', c='mask', face=-1, px=90, read=True, tar=0.95, cm='still', n=82, fc=[1100, 440, 1.3]),
+           S('unleashed', fr='wide', c='mask', face=1, pose='crouch', pp=0.6, px=-60, cm='push', n=83, fc=[900, 420, 1.3])]
 SC[12] += [S('hospital', fr='wide', officer=True, expr='worry', cm='pull', n=85, fc=[1000, 440, 1.35]),
            S('hospital', fr='wide', expr='neutral', cm='orbit', n=86, fc=[900, 440, 1.35]),
-           S('face', fr='bust', who='ethan', expr='worry', warm=False, turn=-0.1, n=87, fc=[960, 360, 1.4])]
+           S('hospital', fr='wide', officer=True, expr='fear', cm='truck', n=87, fc=[1000, 440, 1.3])]
 SC[13] += [S('face', fr='bust', who='ethan', expr='sad', warm=False, turn=0.0, n=88, fc=[960, 360, 1.4])]
+
+# ---- Framing tags for the mix gate. Order is authored by hand (sets/faces already alternate), so no reorder here.
+_CARDS = {'credit','end'}
+_FACE = 'face'
+for _b, _scn in enumerate(SC):
+    _j = 0
+    for _st, _v in _scn:
+        if _st in _CARDS:
+            continue
+        if _st == _FACE:
+            _v.setdefault('fr', 'close'); continue
+        _v['fr'] = 'wide' if _j % 2 == 0 else 'bust'
+        _j += 1

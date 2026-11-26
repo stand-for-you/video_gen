@@ -35,7 +35,7 @@ const rlibrary: React.FC<SetProps> = ({ f, v, t = 0, len = 90 }) => {
       {v.watch && <rect x={70} y={300} width={170} height={GND - 300} fill="#05070b" opacity={0.7} />}
       {v.tag && <Tag at={[220, 420]} to={[360, 320]} text="WATCHED" f={t} t0={0.7} red />}
       <Dust x={60} y={200} w={960} h={1100} f={f} n={16} />
-    </Cold><NightMask W={W} H={H} x={540} y={900} r={1050} o={0.58} c="#06080e" /></g>
+    </Cold><NightMask W={W} H={H} x={540} y={900} r={1050} o={0.36} c="#06080e" /></g>
   );
 };
 
@@ -52,7 +52,7 @@ const rcommon: React.FC<SetProps> = ({ f, v, t = 0, len = 90 }) => {
       {(who === 'both' || who === 'ethan') && <FullPerson s={E} x={360} y={GND} k={0.44} f={f} view="three" face={1} expr={v.expr ?? 'smile'} motion={{ type: 'sit' }} />}
       {(who === 'both' || who === 'jack') && <FullPerson s={J} x={640} y={GND} k={0.44} f={f} view="three" face={-1} expr={v.jexpr ?? 'smile'} motion={{ type: 'sit' }} />}
       <Dust x={60} y={200} w={960} h={1100} f={f} n={14} />
-    </Warm><NightMask W={W} H={H} x={540} y={900} r={1050} o={0.5} c="#0a0a12" /></g>
+    </Warm><NightMask W={W} H={H} x={540} y={900} r={1050} o={0.3} c="#0a0a12" /></g>
   );
 };
 
@@ -69,7 +69,7 @@ const rcafeteria: React.FC<SetProps> = ({ f, v, t = 0, len = 90 }) => {
       <FullPerson s={J} x={420} y={GND} k={0.48} f={f} view="three" face={1} expr="stern" turn={0.3 * p} motion={{ type: 'point' }} />
       {v.tag && <Tag at={[420, 520]} to={[620, 360]} text="NOT MY FRIEND" f={t} t0={0.7} red size={30} />}
       <Dust x={60} y={200} w={960} h={1100} f={f} n={12} />
-    </Cold><NightMask W={W} H={H} x={540} y={900} r={1080} o={0.46} c="#0a0e14" /></g>
+    </Cold><NightMask W={W} H={H} x={540} y={900} r={1080} o={0.3} c="#0a0e14" /></g>
   );
 };
 
@@ -85,7 +85,7 @@ const rhall: React.FC<SetProps> = ({ f, v, t = 0, len = 90 }) => {
       <FullPerson s={EL} x={740 - 40 * p} y={GND} k={0.46} f={f} view="three" face={-1} expr={v.expr ?? 'smile'} turn={-0.2} motion={{ type: 'idle' }} />
       {v.tag && <Tag at={[740, 520]} to={[520, 360]} text="BETTER THAN EVER" f={t} t0={0.8} red size={30} />}
       <Dust x={60} y={200} w={960} h={1100} f={f} n={12} />
-    </Cold><NightMask W={W} H={H} x={540} y={900} r={1050} o={0.5} c="#0a0e14" /></g>
+    </Cold><NightMask W={W} H={H} x={540} y={900} r={1050} o={0.3} c="#0a0e14" /></g>
   );
 };
 
@@ -102,7 +102,7 @@ const rphone: React.FC<SetProps> = ({ f, v, t = 0, len = 90 }) => {
       <ellipse cx={480} cy={820} rx={70} ry={100} fill="#bfe0ff" opacity={0.18 * g} />
       {v.tag && <Tag at={[460, 700]} to={[720, 500]} text="HIS VOICE SHOOK" f={t} t0={0.7} size={28} />}
       <Dust x={60} y={200} w={960} h={1100} f={f} n={12} />
-    </Warm><NightMask W={W} H={H} x={480} y={900} r={1020} o={0.56} c="#080a10" /></g>
+    </Warm><NightMask W={W} H={H} x={480} y={900} r={1020} o={0.34} c="#080a10" /></g>
   );
 };
 
@@ -139,7 +139,7 @@ const rdoor: React.FC<SetProps> = ({ f, v, t = 0, len = 90 }) => {
       <circle cx={180} cy={520} r={26} fill="#ffe6b8" opacity={0.5} /><ellipse cx={180} cy={1000} rx={280} ry={460} fill="#ffe6b8" opacity={0.06} />
       <Tag at={[815, 940]} to={[560, 520]} text="THEY ARE WAITING" f={t} t0={0.8} red size={30} />
       <Dust x={60} y={200} w={960} h={1100} f={f} n={10} />
-    </Moon><NightMask W={W} H={H} x={560} y={900} r={1050} o={0.6} c="#05070c" /></g>
+    </Moon><NightMask W={W} H={H} x={560} y={900} r={1050} o={0.38} c="#05070c" /></g>
   );
 };
 
@@ -148,7 +148,7 @@ const rwoods: React.FC<SetProps> = ({ f, v, t = 0, len = 90 }) => {
   const p = ease(t / len); const GY = GND - 20;
   return (
     <g><Defs /><Moon>
-      <rect x={0} y={0} width={W} height={H} fill="#0c121c" />
+      <rect x={0} y={0} width={W} height={H} fill="#16202f" />
       <ellipse cx={300} cy={340} rx={150} ry={150} fill="#9fb8e0" opacity={0.26} /><circle cx={300} cy={340} r={70} fill="#cdddf4" opacity={0.5} />
       {[80, 360, 680, 940].map((x, i) => <g key={i}><rect x={x} y={0} width={44 + (i % 2) * 18} height={GY} fill="#0a0e12" />{Array.from({ length: 6 }).map((_, b) => <path key={b} d={`M${x + 22},${260 + b * 150} l${-80 - b * 10},40 l80,-10Z`} fill="#0b1116" />)}</g>)}
       <rect x={0} y={GY} width={W} height={H - GY} fill="#141a1c" />
@@ -156,7 +156,7 @@ const rwoods: React.FC<SetProps> = ({ f, v, t = 0, len = 90 }) => {
       {v.run ? <FullPerson s={J} x={560} y={GY + 90} k={0.44} f={f} view="back" face={-1} expr="fear" motion={{ type: 'run' }} />
         : <FullPerson s={E} x={480} y={GY + 90} k={0.44} f={f} view="three" face={1} expr="fear" motion={{ type: 'run' }} />}
       <Dust x={60} y={200} w={960} h={1100} f={f} n={14} c="#cdddf4" />
-    </Moon><NightMask W={W} H={H} x={540} y={900} r={1100} o={0.56} c="#04060a" /></g>
+    </Moon><NightMask W={W} H={H} x={540} y={900} r={1100} o={0.34} c="#04060a" /></g>
   );
 };
 
@@ -165,20 +165,20 @@ const rclearing: React.FC<SetProps> = ({ f, v, t = 0, len = 90 }) => {
   const p = ease(t / len); const GY = GND + 40;
   return (
     <g><Defs /><Candle>
-      <rect x={0} y={0} width={W} height={H} fill="#0b1018" />
-      <ellipse cx={820} cy={320} rx={140} ry={140} fill="#9fb8e0" opacity={0.22} /><circle cx={820} cy={320} r={60} fill="#cdddf4" opacity={0.45} />
+      <rect x={0} y={0} width={W} height={H} fill="#141d2e" />
+      <ellipse cx={820} cy={320} rx={190} ry={190} fill="#9fb8e0" opacity={0.32} /><circle cx={820} cy={320} r={60} fill="#cdddf4" opacity={0.45} />
       {[40, 1000].map((x, i) => <rect key={i} x={x} y={0} width={44} height={GY} fill="#080c10" />)}
       <rect x={0} y={GY} width={W} height={H - GY + 200} fill="#161a1a" />
       <Lantern x={220} y={GY + 70} f={f} k={1.0} /><Lantern x={880} y={GY + 80} f={f + 20} k={1.0} />
       <Robed x={180} y={GY + 40} k={0.42} f={f} seed={1} /><Robed x={900} y={GY + 50} k={0.42} f={f} seed={2} />
       <Robed x={360} y={GY - 40} k={0.3} f={f} seed={3} bow={v.read ? 0.4 : 0} arms={!!v.read} />
       <rect x={500} y={GY - 360} width={110} height={360} fill="#2a2018" stroke="#140d08" strokeWidth={5} /><rect x={464} y={GY - 400} width={182} height={38} fill="#2a2018" />
-      <MaskThing x={555} y={GY} k={0.42} f={f} face={1} pose="stand" p={1} tar={v.tar ?? 0.4} free={false} tendrils={v.tend ?? 0} />
+      <MaskThing x={555 + ((v.px as number) ?? 0)} y={GY} k={0.42} f={f} face={(v.face ?? 1) as 1|-1} pose={(v.pose as any) ?? 'stand'} p={1} tar={v.tar ?? 0.4} free={false} tendrils={v.tend ?? 0} />
       {[-240, -130].map((dy, i) => <rect key={i} x={500} y={GY + dy} width={110} height={16} fill="#1a1510" opacity={0.9} />)}
-      {v.unmask && <FullPerson s={EL} x={820} y={GY} k={0.42} f={f} view="three" face={-1} expr="cruel" motion={{ type: 'idle' }} />}
+      {v.unmask && <FullPerson s={EL} x={820 + ((v.px as number) ?? 0)} y={GY} k={0.42} f={f} view="three" face={-1} expr="cruel" motion={{ type: 'idle' }} />}
       {v.tag && <Tag at={[560, 560]} to={[760, 400]} text="IT WAS ELISA" f={t} t0={0.8} red size={30} />}
       <Dust x={60} y={200} w={960} h={1100} f={f} n={12} c="#cdddf4" />
-    </Candle><NightMask W={W} H={H} x={540} y={900} r={1050} o={0.56} c="#04060a" /></g>
+    </Candle><NightMask W={W} H={H} x={540} y={900} r={1050} o={0.34} c="#04060a" /></g>
   );
 };
 
@@ -187,15 +187,15 @@ const rritual: React.FC<SetProps> = ({ f, v, t = 0, len = 90 }) => {
   const p = ease(t / len); const GY = GND + 40;
   return (
     <g><Defs /><Candle>
-      <rect x={0} y={0} width={W} height={H} fill="#0a0e14" />
+      <rect x={0} y={0} width={W} height={H} fill="#131b29" />
       <rect x={0} y={GY} width={W} height={H - GY + 200} fill="#15191a" />
       <Lantern x={180} y={GY + 60} f={f} k={1.1} /><Lantern x={900} y={GY + 70} f={f + 14} k={1.1} />
       <Robed x={160} y={GY + 30} k={0.4} f={f} seed={5} bow={0.3} arms /><Robed x={930} y={GY + 40} k={0.4} f={f} seed={6} />
       <rect x={470} y={GY - 460} width={150} height={460} fill="#2a2018" stroke="#140d08" strokeWidth={6} /><rect x={420} y={GY - 510} width={250} height={50} fill="#2a2018" />
-      <MaskThing x={545} y={GY} k={0.52} f={f} face={1} pose="stand" p={1} tar={v.tar ?? 0.7} free={false} tendrils={v.tend ?? (0.4 + 0.6 * p)} />
+      <MaskThing x={545 + ((v.px as number) ?? 0)} y={GY} k={0.52} f={f} face={(v.face ?? 1) as 1|-1} pose={(v.pose as any) ?? 'stand'} p={1} tar={v.tar ?? 0.7} free={false} tendrils={v.tend ?? (0.4 + 0.6 * p)} />
       <Tag at={[545, 420]} to={[760, 300]} text="A BLUE MASK" f={t} t0={0.7} red size={30} />
       <Dust x={60} y={200} w={960} h={1100} f={f} n={10} c="#cdddf4" />
-    </Candle><NightMask W={W} H={H} x={540} y={820} r={980} o={0.58} c="#04060a" /></g>
+    </Candle><NightMask W={W} H={H} x={540} y={820} r={980} o={0.36} c="#04060a" /></g>
   );
 };
 
@@ -204,15 +204,15 @@ const runleashed: React.FC<SetProps> = ({ f, v, t = 0, len = 90 }) => {
   const p = ease(t / len); const GY = GND + 40;
   return (
     <g><Defs /><Candle>
-      <rect x={0} y={0} width={W} height={H} fill="#0a0d12" />
+      <rect x={0} y={0} width={W} height={H} fill="#131a27" />
       <ellipse cx={260} cy={320} rx={130} ry={130} fill="#9fb8e0" opacity={0.2} /><circle cx={260} cy={320} r={56} fill="#cdddf4" opacity={0.4} />
       <rect x={0} y={GY} width={W} height={H - GY + 200} fill="#14181a" />
       <BloodPool x={420} y={GY + 110} r={220} grow={1} f={f} /><Spatter x={760} y={GY + 40} dir={-0.5} spread={110} size={240} n={26} f={f} t0={0.2} /><Stain x={880} y={GY + 150} r={150} grow={1} />
       <Robed x={900} y={GY + 30} k={0.42} f={f} seed={7} bow={0.5} />
-      <MaskThing x={460} y={GY} k={0.5} f={f} face={1} pose={v.pose2 === 'loom' ? 'loom' : 'stalk'} p={v.pp ?? (f / 60)} tar={0.9} free tendrils={0.3} />
+      <MaskThing x={460 + ((v.px as number) ?? 0)} y={GY} k={0.5} f={f} face={1} pose={(v.pose as any) ?? (v.pose2 === 'loom' ? 'loom' : 'stalk')} p={v.pp ?? (f / 60)} tar={0.9} free tendrils={0.3} />
       <Tag at={[460, 440]} to={[470, 300]} text="YOU MADE HIM MAD" f={t} t0={0.6} red size={30} />
       <Dust x={60} y={200} w={960} h={1100} f={f} n={10} c="#cdddf4" />
-    </Candle><NightMask W={W} H={H} x={480} y={860} r={1040} o={0.54} c="#04060a" /></g>
+    </Candle><NightMask W={W} H={H} x={480} y={860} r={1040} o={0.32} c="#04060a" /></g>
   );
 };
 
@@ -229,7 +229,7 @@ const rhospital: React.FC<SetProps> = ({ f, v, t = 0, len = 90 }) => {
       <Stain x={640} y={GND - 120} r={64} grow={1} o={0.7} />
       {v.tag && <Tag at={[640, GND - 120]} to={[760, 520]} text="A KIDNEY GONE" f={t} t0={0.8} red size={28} />}
       <Dust x={60} y={200} w={960} h={1100} f={f} n={10} />
-    </Cold><NightMask W={W} H={H} x={540} y={900} r={1080} o={0.44} c="#0a0e14" /></g>
+    </Cold><NightMask W={W} H={H} x={540} y={900} r={1080} o={0.3} c="#0a0e14" /></g>
   );
 };
 
@@ -245,7 +245,7 @@ const rface: React.FC<SetProps> = ({ f, v, t = 0, len = 90 }) => {
         {v.tears && <BlackTears x={-70} y={-150} k={1.1} f={f} n={2} />}{v.tears && <BlackTears x={70} y={-150} k={1.1} f={f + 6} n={2} />}
       </g>
       {v.tag && <Tag at={[700, 520]} to={[820, 380]} text={String(v.tag)} f={t} t0={0.6} red size={28} />}
-      <NightMask W={W} H={H} x={540} y={900} r={900} o={0.72} c="#05070c" />
+      <NightMask W={W} H={H} x={540} y={900} r={900} o={0.5} c="#05070c" />
     </Lgt></g>
   );
 };
@@ -255,7 +255,7 @@ const rqcard: React.FC<SetProps> = ({ f, t = 0 }) => {
   const a = ease(t / 30);
   return (
     <g opacity={a}><Defs />
-      <rect x={0} y={0} width={W} height={H} fill="#0a0d12" />
+      <rect x={0} y={0} width={W} height={H} fill="#131a27" />
       <g transform={`translate(90,660) rotate(-1 450 300)`}><NotebookPage w={900} h={600} />
         <text x={450} y={180} textAnchor="middle" fontFamily="Lora" fontStyle="italic" fontSize={42} fill="#2a2a2e">Inspired by the story</text>
         <text x={450} y={280} textAnchor="middle" fontFamily="Lora" fontWeight={700} fontSize={56} fill="#1a1a1e">You Can't Trust Everyone</text>
@@ -271,7 +271,7 @@ const rqend: React.FC<SetProps> = ({ f, t = 0 }) => {
   const a = ease(t / 30);
   return (
     <g opacity={a}>
-      <rect x={0} y={0} width={W} height={H} fill="#0a0d12" />
+      <rect x={0} y={0} width={W} height={H} fill="#131a27" />
       <text x={540} y={900} textAnchor="middle" fontFamily="Lora" fontStyle="italic" fontWeight={700} fontSize={72} fill="#efe4cc">Who would you</text>
       <text x={540} y={1000} textAnchor="middle" fontFamily="Lora" fontStyle="italic" fontWeight={700} fontSize={72} fill="#efe4cc">have trusted?</text>
       <rect x={470} y={1050} width={140} height={6} fill={RED} />

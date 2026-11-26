@@ -31,19 +31,22 @@ SC = [
   S('rface', fr='close', who='jack', expr='fear', tears=True, turn=0.0, n=21, fc=[540, 760, 1.5]),
   S('rapartment', fr='wide', dark=True, tears=True, tag=True, jexpr='fear', cm='push', n=22, fc=[540, 800, 1.35]),
   S('rdoor', fr='wide', cm='truck', n=23, fc=[560, 760, 1.35], last=True)],
- # 6 chased, taken, the clearing  -- creature
+ # 6 chased, taken, the clearing -- creature. Alternate rwoods/rclearing/rritual + Ethan reaction (lit face), mirror.
  [S('rwoods', fr='wide', run=False, cm='push', n=24, fc=[480, 800, 1.35]),
-  S('rclearing', fr='wide', c='mask', tar=0.35, cm='push', n=25, fc=[560, 760, 1.3]),
-  S('rclearing', fr='wide', c='mask', unmask=True, tag=True, tar=0.4, cm='truck', n=26, fc=[700, 760, 1.3]),
-  S('rclearing', fr='waist', c='mask', read=True, tar=0.45, cm='still', n=27, fc=[555, 720, 1.3], last=True)],
+  S('rclearing', fr='wide', c='mask', face=1, px=0, unmask=True, tag=True, tar=0.4, cm='truck', n=25, fc=[700, 760, 1.3]),
+  S('rface', fr='close', who='ethan', expr='fear', warm=False, turn=0.2, n=26, fc=[540, 760, 1.5]),
+  S('rritual', fr='wide', c='mask', face=-1, px=-70, read=True, tar=0.45, cm='still', n=27, fc=[545, 720, 1.3], last=True)],
  # 7 the ritual -- creature
- [S('rritual', fr='wide', c='mask', tar=0.6, tend=0.4, cm='push', n=28, fc=[545, 700, 1.3]),
-  S('rclearing', fr='wide', c='mask', read=True, tar=0.6, tend=0.5, cm='still', n=29, fc=[555, 760, 1.3]),
-  S('rritual', fr='waist', c='mask', tar=0.8, tend=0.8, cm='pull', n=30, fc=[545, 680, 1.28], last=True)],
- # 8 you made him mad -- creature
- [S('runleashed', fr='wide', c='mask', pose2='loom', pp=0.5, cm='still', n=31, fc=[460, 760, 1.3]),
-  S('runleashed', fr='wide', c='mask', pp=0.3, cm='truck', n=32, fc=[460, 760, 1.3]),
-  S('runleashed', fr='waist', c='mask', pp=0.8, cm='push', n=33, fc=[460, 700, 1.28], last=True)],
+ [S('rritual', fr='wide', c='mask', face=1, px=0, tar=0.6, tend=0.4, cm='push', n=28, fc=[545, 700, 1.3]),
+  S('rface', fr='close', who='ethan', expr='shock', warm=False, turn=-0.1, n=29, fc=[540, 760, 1.5]),
+  S('rclearing', fr='wide', c='mask', face=-1, px=-80, read=True, tar=0.7, tend=0.5, cm='still', n=30, fc=[560, 760, 1.3]),
+  S('rritual', fr='wide', c='mask', face=1, px=70, tar=0.85, tend=0.9, cm='pull', n=31, fc=[545, 680, 1.28], last=True)],
+ # 8 you made him mad -- creature. runleashed/rclearing + reaction faces; full body, mirrored, reposed.
+ [S('runleashed', fr='wide', c='mask', face=1, pose='stalk', pp=0.3, px=0, cm='truck', n=32, fc=[460, 760, 1.3]),
+  S('rface', fr='close', who='ethan', expr='fear', warm=False, turn=0.3, n=33, fc=[540, 760, 1.55]),
+  S('runleashed', fr='wide', c='mask', face=-1, pose='loom', pp=0.55, px=-70, cm='still', n=34, fc=[500, 760, 1.3]),
+  S('rclearing', fr='wide', c='mask', face=1, px=-90, read=True, tar=0.95, cm='push', n=35, fc=[560, 760, 1.28]),
+  S('runleashed', fr='wide', c='mask', face=-1, pose='loom', pp=0.95, px=60, cm='pull', n=36, fc=[500, 760, 1.3], last=True)],
  # 9 what I lost (hospital)
  [S('rhospital', fr='wide', expr='sad', cm='push', n=34, fc=[540, 760, 1.3]),
   S('rface', fr='close', who='ethan', expr='sad', warm=False, turn=0.1, n=35, fc=[540, 760, 1.5]),
@@ -66,13 +69,27 @@ SC[4] += [S('rphone', fr='wide', expr='sad', cm='pull', n=58, fc=[440, 760, 1.35
           S('rphone', fr='waist', expr='worry', cm='orbit', n=59, fc=[440, 700, 1.3]),
           S('rapartment', fr='wide', dark=False, jexpr='neutral', cm='push', n=60, fc=[560, 800, 1.35])]
 SC[5] += [S('rapartment', fr='waist', dark=True, reach=True, jexpr='speak', cm='push', n=61, fc=[560, 720, 1.3])]
-SC[6] += [S('rwoods', fr='waist', run=False, cm='truck', n=62, fc=[480, 720, 1.3]),
-          S('rclearing', fr='wide', c='mask', read=True, tar=0.4, cm='still', n=63, fc=[555, 760, 1.3]),
-          S('rclearing', fr='waist', c='mask', unmask=True, tar=0.5, cm='pull', n=64, fc=[555, 720, 1.3])]
-SC[7] += [S('rritual', fr='wide', c='mask', tar=0.7, tend=0.6, cm='truck', n=65, fc=[545, 700, 1.3]),
-          S('rclearing', fr='wide', c='mask', read=True, tar=0.55, tend=0.5, cm='pull', n=66, fc=[555, 760, 1.3])]
-SC[8] += [S('runleashed', fr='wide', c='mask', pp=0.2, cm='push', n=67, fc=[460, 760, 1.3]),
-          S('runleashed', fr='waist', c='mask', pose2='loom', pp=0.6, cm='truck', n=68, fc=[460, 700, 1.28])]
-SC[9] += [S('rhospital', fr='waist', expr='sad', cm='truck', n=69, fc=[540, 720, 1.3]),
-          S('rhospital', fr='wide', tag=True, expr='worry', cm='orbit', n=70, fc=[640, 760, 1.3])]
+SC[6] += [S('rwoods', fr='wide', run=False, cm='truck', n=62, fc=[480, 720, 1.3]),
+          S('rwoods', fr='wide', run=False, cm='truck', n=63, fc=[560, 780, 1.3]),
+          S('rclearing', fr='wide', c='mask', face=1, px=120, unmask=True, tar=0.5, cm='pull', n=64, fc=[555, 720, 1.3])]
+SC[7] += [S('rritual', fr='wide', c='mask', face=-1, px=-60, tar=0.7, tend=0.6, cm='truck', n=65, fc=[545, 700, 1.3]),
+          S('rclearing', fr='wide', c='mask', face=1, px=100, read=True, tar=0.65, tend=0.4, cm='still', n=66, fc=[560, 760, 1.3])]
+SC[8] += [S('runleashed', fr='wide', c='mask', face=1, pose='crouch', pp=0.65, px=-100, cm='truck', n=67, fc=[460, 760, 1.3]),
+          S('rclearing', fr='wide', c='mask', face=1, px=-120, read=True, tar=0.95, cm='push', n=68, fc=[700, 760, 1.28])]
+SC[9] += [S('rhospital', fr='wide', expr='sad', cm='truck', n=69, fc=[540, 760, 1.3]),
+          S('rhospital', fr='wide', tag=True, expr='worry', cm='orbit', n=70, fc=[640, 760, 1.3]),
+          S('rhospital', fr='wide', expr='neutral', cm='pull', n=72, fc=[600, 760, 1.3])]
 SC[8] += [S('runleashed', fr='wide', c='mask', pose2='loom', pp=0.95, cm='pull', n=71, fc=[500, 760, 1.3])]
+
+# ---- Framing tags for the mix gate. Order is authored by hand (sets/faces already alternate), so no reorder here.
+_CARDS = {'rqcard','rqend'}
+_FACE = 'rface'
+for _b, _scn in enumerate(SC):
+    _j = 0
+    for _st, _v in _scn:
+        if _st in _CARDS:
+            continue
+        if _st == _FACE:
+            _v.setdefault('fr', 'close'); continue
+        _v['fr'] = 'wide' if _j % 2 == 0 else 'bust'
+        _j += 1
