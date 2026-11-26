@@ -1,2 +1,0 @@
-{ "fps": 30, "scale": 1.0, "dissolve": 8, "crf": 18, "parts": 10,
-  "_note": "fps 30 = smooth motion (never below 24). scale 1.0 = crisp, no upscaling. dissolve = soft cut length in frames between shots inside one beat (0 = hard cuts). parts = resumable render parts for the long video." }

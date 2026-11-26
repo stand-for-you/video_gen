@@ -1,14 +1,47 @@
-# ROOMS — each with 5+ readable objects and 2 light sources
+# Rooms - built FIRST, looked at, then filled with people
 
-1. **library** (college computer lab) — objects: row of monitors (glow), keyboard/desk, tall bookshelf, swivel chair, tall window with blinds, ceiling strip light. Lights: cold ceiling strip + warm monitor glow. Ethan typing, glancing back.
-2. **common** (dorm common room where Ethan + Jack hang out) — objects: old couch, TV with a game on, two controllers, pizza box on a low table, band poster, floor lamp. Lights: TV glow + warm floor lamp.
-3. **cafeteria** (the food line) — objects: steel serving counter with trays, menu board, hanging lights, tables and benches, students in line, a dropped tray. Lights: overhead canteen lights + a cold window wall.
-4. **hall** (a hall of lockers / notice boards) — objects: lockers, cork notice board with flyers, a clock, a water fountain, floor tiles, a tall window. Lights: fluorescent hall light + pale window.
-5. **phone** (Ethan's room at night, on the phone) — objects: bed, desk with laptop, desk lamp, phone screen glow, window with blinds, a mug. Lights: warm desk lamp + cold window / phone screen.
-6. **apartment** (Jack visits; the living room) — objects: sagging couch, old TV (off), floor lamp (the ONE red-shaded lamp), coffee table, a blanket, the front door. Lights: one warm lamp (then off) + cold street light through the blinds. This is where the lights go OFF and the black tears show.
-7. **door** (the front door, Elisa knocking) — objects: the door with a frosted side-window, a coat hook, a shoe rack, a hall rug, a ceiling bulb, Elisa's dark shape behind the frosted glass. Lights: dim hall bulb + cold light behind the glass.
-8. **woods** (Jack runs into the trees; Ethan dragged) — objects: pine trunks, bare branches, snow/frost on the ground, a far porch light, mist, footprints. Lights: blue moonlight + a far warm porch light.
-9. **clearing** (the cult circle) — objects: a ring of robed figures in blue masks, Jack strapped to a wooden chair, an old black book held open, candles/lanterns on the frost, the tree Ethan is tied to, black tendrils from the ground. Lights: blue moonlight + warm candle/lantern light.
-10. **hospital** (the end) — objects: hospital bed, heart monitor (steady line), IV stand, a window with grey dawn, a chair, Ethan with a bandaged side, Officer Reyes. Lights: cold morning window + warm bedside lamp.
+Kit: `src/kits/AwakeHouse.ts`, three rooms. Every room has at least 5 readable objects and
+2 light sources (quality law 4c). The six option keys below are the ones the one-use
+signature can see (`room`, `door`, `window`, `ground`, `shape`, `clock`), so every one of
+them is both a story state AND a legal way to make a returning room a new picture.
 
-Card rooms: **credit** (torn notebook page), **end** (forest end screen with the closing question).
+## Shared layout
+Camera convention: yaw 0 looks down -Z. The near wall is at z = +1.0, the end wall at
+z = -(D - 1). Floor y = 0, ceiling y = 2.6.
+
+## bedroom   (W 4.0 x D 4.6)
+| Readable object | Where |
+|---|---|
+| bed, head to the end wall, bedding with six folds + turned sheet + pillow | x -1.1, z -2.35 |
+| bedside table with the digital clock (red digits) | x -0.1, z -3.15 |
+| wooden chair, turned to face the bed | x 1.25, z -2.0 |
+| window with a curtain on the right-hand wall | x 2.0, z -2.3 |
+| chest of drawers with three drawers and knobs | x 1.3, z -3.3 |
+| bedroom door, near wall, handle and two sunken panels | x 0.6, z 1.0 |
+| poster on the left wall above the bed | x -2.0, z -1.6 |
+| floor clutter: school bag, three blocks, a shoe | around the bed |
+| ceiling light fitting (never switched on in this story) | centre |
+| the under-bed gap, 0.17 m of clearance | under the bed |
+
+Light 1: the window - cool moonlight `window:'curtained'|'blind'`, pale dawn `window:'dawn'`.
+Light 2: the hall, through the bedroom door - a warm slot that widens with `door`.
+`lightOn:false` for the whole frame story: the room is lit by window + door only, and it must
+still be readable at phone size. No near-black frames except the one planned dark beat.
+
+States used: `clock: '2:20'|'2:40'|'3:00'|'5:30'`, `door: 'shut'|'ajar'|'open'|'wide'`,
+`ground: 'clean'|'drops'|'smear'|'pool'`, `shape: 'none'|'circle'|'pentagram'|'message'`,
+`window: 'curtained'|'blind'|'dawn'`.
+
+## hall   (W 1.9 x D 8.0)
+Carpet (so blood reads on it), four panelled doors with numbers off, a framed picture, a side
+table with a telephone, a wall light, and the stair landing at the far end.
+Light 1: the wall light, warm, half way down. Light 2: cool spill from the landing window.
+States used: `ground` (the blood: clean -> drops -> smear -> pool), `door` (the far bedroom
+door), `window: 'blind'|'dawn'`.
+
+## bathroom   (W 1.9 x D 2.2)
+Tiled walls with a grout grid, basin with a tap and a mirror above it, a towel on a rail, a
+toilet drawn as a simple closed white form, a frosted window, a pull cord.
+Light 1: the bathroom light (`lightOn:true` - this is the one lit room in the story).
+Light 2: the frosted window.
+States used: `door: 'shut'|'ajar'|'open'`, `ground`, `lightOn`.

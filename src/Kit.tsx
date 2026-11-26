@@ -4,7 +4,7 @@ import React, { useMemo } from 'react';
 export const W = 1920, H = 1080;
 export const INK = '#0b0713';
 export const RED = '#b3171d';
-export const st = (f: number, _n = 3) => f; // smooth (stepped motion is banned: it looked choppy)
+export const st = (f: number, n = 3) => Math.floor(f / n) * n;
 export const ease = (t: number) => (t < 0 ? 0 : t > 1 ? 1 : t * t * (3 - 2 * t));
 export const rng = (seed: number) => {
   let s = seed * 9301 + 49297;

@@ -1,7 +1,22 @@
-"""Subtitles. long -> out/en.srt + out/hi.srt (UTF-8, CRLF, no BOM). reel -> audio/reel/captions.ass (burned-in)."""
-import sys, json, re, os
+"""Subtitles. long -> out/en.srt + out/hi.srt (UTF-8, CRLF, no BOM). reel -> audio/reel/captions.ass (burned-in).
+
+Two burned-in caption styles (v0.5), both taken from the reference videos:
+  Cap  - Lora serif, 2 lines, lower third. The normal storytelling caption.
+  Word - one word at a time, heavy bold sans, uppercase. Used only inside the
+         monster-introduction block, where the reference short puts a single
+         word on screen per beat ("HAS  PERFECTLY  COPIED  YOUR  VOICE").
+Declare the word-mode beats in story/script_reel.py:  WORD_BEATS = [1, 2, 3]
+The .srt files are never word-split: subtitles must stay readable sentences.
+"""
+import sys, json, re, os, importlib
 NAME = sys.argv[1]
 tm = json.load(open(f'audio/{NAME}/timing.json')); units = tm['units']
+sys.path[:0] = ['story', '.']
+try:
+    _script = importlib.import_module('script_long' if NAME == 'long' else 'script_reel')
+    WORD_BEATS = set(getattr(_script, 'WORD_BEATS', []) or [])
+except Exception:
+    WORD_BEATS = set()
 def wrap(text, width):
     words = text.split(); lines, cur = [], ''
     for w in words:
@@ -73,13 +88,25 @@ WrapStyle: 2
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Cap,Lora,70,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,-1,0,0,0,100,100,1,0,1,6,2,2,70,70,430,1
+Style: Word,Inter,96,&H00FFFFFF,&H00FFFFFF,&H00000000,&H78000000,-1,0,0,0,100,100,4,0,1,9,3,2,70,70,400,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 """
-    ev = []
+    ev, nword = [], 0
     for c in cues:
+        if c['u'] < len(units) and units[c['u']].get('beat') in WORD_BEATS:
+            # one word at a time, each word holding its share of the cue
+            ws = c['text'].split()
+            if ws:
+                span = (c['e'] - c['s']) / len(ws)
+                for i, w in enumerate(ws):
+                    a, b = c['s'] + i * span, c['s'] + (i + 1) * span
+                    ev.append(f"Dialogue: 0,{fmt(a, True)},{fmt(b - 0.01, True)},Word,,0,0,0,,{w.upper()}")
+                    nword += 1
+            continue
         txt = '\\N'.join(wrap(c['text'], 22))
         ev.append(f"Dialogue: 0,{fmt(c['s'], True)},{fmt(c['e'], True)},Cap,,0,0,0,,{txt}")
     open('audio/reel/captions.ass', 'w', encoding='utf-8').write(head + '\n'.join(ev) + '\n')
-    print('reel captions', len(cues), 'max line', max(len(l) for c in cues for l in wrap(c['text'], 22)))
+    print('reel captions', len(cues), 'cues;', nword, 'word-mode cues (beats', sorted(WORD_BEATS) or '-', ')',
+          'max line', max(len(l) for c in cues for l in wrap(c['text'], 22)))

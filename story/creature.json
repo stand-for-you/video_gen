@@ -1,1 +1,8 @@
-{"id": "mask", "variants": [], "min_shots": 8}
+{
+ "id": "entity",
+ "variants": ["entity_blood"],
+ "min_shots": 6,
+ "angles": 2,
+ "height_m": 2.6,
+ "note": "From the story's own words: 'It was not human... It was hairless, with no eyes and no clothing. It walked like a caveman, with its back slouched as it dragged my dead parents.' Built as scale 1.52 (about 2.6 m), armLong 1.62, face 'blank' (no eyes, no nose, no mouth), skull 'bulb', hairStyle 'none', no garment. Locked in story/cast.json under the key 'entity' and imported from there by every scene. The only declared state that changes between shots is blood on the hands and forearms (variant 'entity_blood') from the moment it touches the parents, plus head tilt. Full sheet: story/creature.md."
+}

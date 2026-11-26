@@ -19,7 +19,7 @@ if [ -f tools/quality_gate.py ]; then
     [ -f "$f" ] || continue
     k=long; case "$f" in *Reel_1080x1920*) k=reel;; esac
     echo "== $f" | tee -a final/QUALITY_GATE.txt
-    python3 tools/quality_gate.py video "$f" "$k" 2>&1 | tee -a final/QUALITY_GATE.txt || STATUS=1
+    python3 tools/quality_gate.py "$f" --kind "$k" 2>&1 | tee -a final/QUALITY_GATE.txt || STATUS=1
   done
 fi
 [ -f tools/qa_final.sh ] && bash tools/qa_final.sh > final/QA_numbers.txt 2>&1 || true

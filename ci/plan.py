@@ -18,6 +18,13 @@ def frames(name):
     d = json.load(open(f'src/shots_{name}.json'))
     return int(d.get('frames') or d.get('total_frames'))
 
+def total_frames(name):
+    if os.path.exists('src/film.json'):
+        f = json.load(open('src/film.json'))
+        if name in f and 'filmFrames' in f[name]:
+            return int(f[name]['filmFrames'])
+    return frames(name)
+
 def prefix():
     p = (os.environ.get('IN_PREFIX') or '').strip()
     if not p and os.path.exists('story/upload.json'):
@@ -57,12 +64,12 @@ def plan():
     else:
         flags = '--scale=0.6 --crf=22 --muted --gl=swiftshader --log=error'
         if target in ('all', 'long'):
-            nl = frames('long'); step = (nl + 3) // 4
+            nl = total_frames('long'); step = (nl + 3) // 4
             for i in range(4):
                 a, b = i * step, min(nl - 1, (i + 1) * step - 1)
                 m.append(dict(comp='Long', i=i, a=a, b=b, file=f'long_part{i}.mp4', parts=4, flags=flags))
         if target in ('all', 'reel'):
-            nr = frames('reel')
+            nr = total_frames('reel')
             m.append(dict(comp='Reel', i=0, a=0, b=nr - 1, file='reel_raw.mp4', parts=1, flags=flags))
     return target, ('v04' if v04 else 'legacy'), m
 

@@ -1,0 +1,50 @@
+{
+  "title": "I KNOW YOU'RE",
+  "accent": "AWAKE",
+  "tagline": "do *not* let it know you can see.",
+  "stakes1": "A BOY, TWELVE.",
+  "stakes2": "three hours of not moving.",
+  "closer": "it already knew.",
+  "cta": "If you were in that bed, would you have stayed still, or run for the door? Comment what you'd do 👇",
+  "teaser": "a message on the wall, written before you woke up... tell us 👇",
+  "question": "If you were in that bed, would you have stayed still, or run for the door?",
+  "parts": [
+    { "n": 1, "aEmoji": "🔊", "aText": "GO AND LOOK", "aSub": "straight at whatever screamed",
+      "bEmoji": "🚽", "bText": "BATHROOM FIRST", "bSub": "three minutes you cannot get back",
+      "chosen": "B", "nextLabel": "PART 2" },
+    { "n": 2, "aEmoji": "🚪", "aText": "RUN FOR THE FRONT DOOR", "aSub": "twelve steps, past the blood",
+      "bEmoji": "🛏️", "bText": "HIDE IN YOUR BED", "bSub": "sheets over your head",
+      "chosen": "B", "nextLabel": "PART 3" },
+    { "n": 3, "aEmoji": "🙈", "aText": "STAY PERFECTLY STILL", "aSub": "it must not know you are awake",
+      "bEmoji": "🏃", "bText": "RUN FOR THE DOOR", "bSub": "nine feet, feet on the floor",
+      "chosen": "A", "nextLabel": "PART 4 - FINALE" }
+  ],
+  "recap": [
+    { "part": 1, "emoji": "🚽", "text": "BATHROOM FIRST" },
+    { "part": 2, "emoji": "🛏️", "text": "HIDE IN YOUR BED" },
+    { "part": 3, "emoji": "🙈", "text": "STAY PERFECTLY STILL" }
+  ],
+  "recapShot": [18, 50, 140],
+  "epilogue": [
+    { "name": "THE THING", "villain": true, "line": "still under the bed." },
+    { "name": "THE BOY", "you": true, "line": "still pretending to sleep." }
+  ],
+  "epilogueShot": [168, 166],
+  "brandShot": 162,
+  "reelTail": {
+    "line1": "WOULD YOU HAVE STAYED STILL?",
+    "line2": "or run for the door? tell us 👇",
+    "frames": 78
+  },
+  "cards": {
+    "long": [
+      { "kind": "title", "shot": "b01_1" },
+      { "kind": "choice", "part": 1, "shot": "b15_1" },
+      { "kind": "choice", "part": 2, "shot": "b27_1" },
+      { "kind": "choice", "part": 3, "shot": "b56_1" }
+    ],
+    "reel": [
+      { "kind": "title", "shot": "b00_2" }
+    ]
+  }
+}

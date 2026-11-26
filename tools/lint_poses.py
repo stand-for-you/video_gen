@@ -24,7 +24,8 @@ Default: every .tsx under src/. Exit 1 on any finding.
 """
 import re, sys, os, glob
 
-PEOPLE = r'(?:FullPerson|CloseUp|FullMan|LyingPerson|Person|GhostWoman|GhostGrin|GhostChild|LyingElias)'
+PEOPLE = (r'(?:FullPerson|FacePerson|BodyGen|CastSheet|FullMan|CloseUp|LyingPerson|Person'
+          r'|GhostWoman|GhostGrin|GhostChild|Noah|Face)')
 ALLOW = 'lint-ok: rotation'   # put this comment on the line to allow a deliberate rotation
 
 

@@ -1,0 +1,52 @@
+{
+ "fps": 30,
+ "long": {
+  "storyFrames": 11518,
+  "endFrames": 1770,
+  "tailFrames": 0,
+  "filmFrames": 13288,
+  "cards": [
+   {
+    "kind": "title",
+    "from": 222,
+    "dur": 61,
+    "shot": "b01_1"
+   },
+   {
+    "kind": "choice",
+    "from": 2567,
+    "dur": 122,
+    "shot": "b15_1",
+    "part": 1
+   },
+   {
+    "kind": "choice",
+    "from": 4457,
+    "dur": 115,
+    "shot": "b27_1",
+    "part": 2
+   },
+   {
+    "kind": "choice",
+    "from": 9691,
+    "dur": 95,
+    "shot": "b56_1",
+    "part": 3
+   }
+  ]
+ },
+ "reel": {
+  "storyFrames": 4173,
+  "endFrames": 0,
+  "tailFrames": 78,
+  "filmFrames": 4251,
+  "cards": [
+   {
+    "kind": "title",
+    "from": 69,
+    "dur": 69,
+    "shot": "b00_2"
+   }
+  ]
+ }
+}

@@ -1,105 +1,154 @@
-"""Build the shot list (JSON for Remotion) from narration timing + the scene table.
-Usage: python3 build_shots.py long|reel
-n = round(beat_seconds / 2.7) shots per beat (teaser: /2.2 so the picture changes at least every 2.5 s); shot k shows scene k mod S.
-A scene shown a SECOND time becomes a close-up AND a later moment (+5 s of animation, v.alt = 1 so the set can change pose/expression).
-Re-shows should be rare: write at least as many scenes per beat as shots (tools/quality_gate.py shots fails above 10 % re-shows).
-Scene keys read by the engine: 'fr' = framing class (wide | waist | bust | close | detail; default wide), 'cm' = camera move override
-(push | pull | truck | rise | still | orbit), 'fc' = close-up focus [x, y, zoom], 'last' = always the final shot of its beat, 'hard' = hard cut in.
-Frame rate comes from engine.json (30 fps)."""
-import sys, json, math, importlib, os
-sys.path[:0] = ['story', '.', os.path.dirname(__file__)]
-from cfg import FPS
-NAME = sys.argv[1]
-tm = json.load(open(f'audio/{NAME}/timing.json'))
-script = importlib.import_module('script_long' if NAME == 'long' else 'script_reel')
-table = importlib.import_module('scenes_long' if NAME == 'long' else 'scenes_reel').SC
-BEATS = script.BEATS
-assert len(table) == len(BEATS), (len(table), len(BEATS))
-units = tm['units']; dur = tm['duration']; nb = len(BEATS)
-last = {}
-for u in units: last[u['beat']] = u
-bstart = [0.0] + [last[b - 1]['end'] + 0.08 for b in range(1, nb)]
-if NAME == 'long': bstart[-1] = max(last[nb - 1]['start'] - 0.1, last[nb - 1]['end'] - 3.0)  # end screen starts on the closing question itself ('Now tell me.' stays on the credit card)
-bend = bstart[1:] + [dur]
-# story/script_*.py may set TEASER_LAST_BEAT (index of the last teaser beat; long default 2, reel default 0)
-# and END_SCREEN_S (long video only, default 20 s). Card sets shown as ONE still shot: CARD_SETS.
-TEASER = getattr(script, 'TEASER_LAST_BEAT', 2 if NAME == 'long' else 0)
-ENDS = float(getattr(script, 'END_SCREEN_S', 20.0))
-CARD_SETS = ('end', 'qcard', 'rqcard')
-shots, chapters, warn, specs = [], [], [], {}
-chn = 0
-for b in range(nb):
-    t0, t1 = bstart[b], bend[b]
-    if NAME == 'long' and b == nb - 1: t1 = t0 + ENDS  # end screen: last 20 s, narration ends inside its first 3 s
-    d = t1 - t0
-    n = max(1, round(d / (2.2 if b <= TEASER else 2.7))); Lall = table[b]
-    if len(Lall) == 1 and Lall[0][0] in CARD_SETS: n = 1
-    lasts = [x for x in Lall if x[1].get('last')]; L = [x for x in Lall if not x[1].get('last')]; m = len(L)
-    n = max(n, len(lasts) + 1)
-    n_main = n - len(lasts)
-    if m + len(lasts) < n: warn.append(f'beat {b}: {m + len(lasts)} scenes for {n} shots ({d:.1f}s) -> {n - m - len(lasts)} re-show(s)')
-    ustarts = [u['start'] for u in units if u['beat'] == b]
-    cuts = [t0]
-    for k in range(1, n):
-        ideal = t0 + d * k / n
-        near = min(ustarts, key=lambda s: abs(s - 0.1 - ideal)) - 0.1 if ustarts else ideal
-        c = near if b > TEASER and abs(near - ideal) < 0.7 and near - cuts[-1] > 1.4 and t1 - near > 1.4 else ideal
-        cuts.append(c)
-    cuts.append(t1)
-    if NAME == 'reel':  # keep story order: each scene's close-up follows its wide shot
-        extra = max(0, n_main - m); order = []
-        for i in range(m):
-            order.append((i, False))
-            if i < extra: order.append((i, True))
-        order = order[:n_main]
-    else:
-        order = [(k % m, k >= m) for k in range(n_main)]
-    for k in range(n):
-        if k >= n_main: st, v = lasts[k - n_main]; isc = False
-        else: st, v = L[order[k][0]]; isc = order[k][1]
-        v = dict(json.loads(json.dumps(v))); v.pop('last', None)
-        fc = v.pop('fc', [960, 540, 1.6] if NAME == 'long' else [540, 960, 1.6])
-        key = json.dumps([st, v], sort_keys=True); specs.setdefault(key, []).append(b)
-        if isc: v['alt'] = 1
-        fr = v.get('fr', 'wide'); fr = {'wide': 'waist', 'waist': 'bust', 'bust': 'close'}.get(fr, fr) if isc else fr
-        shots.append(dict(b=b, s=int(round(cuts[k] * FPS)), e=int(round(cuts[k + 1] * FPS)), set=st, v=v, close=isc, fr=fr, reuse=isc,
-                          z=fc[2], fx=fc[0], fy=fc[1], dir=1 if (len(shots) % 2 == 0) else -1, off=((len(shots) * 37) % 120) * 3 + (150 if isc else 0)))
-    ch = BEATS[b][0]
-    if ch is not None:
-        if ch != 'Intro':
-            chn += 1; chapters.append(dict(s=int(round(t0 * FPS)) + int(0.2 * FPS), n=chn, title=ch, t=round(t0, 2)))
-        else:
-            chapters.append(dict(s=-999, n=0, title=ch, t=0.0))
-for i in range(len(shots) - 1): shots[i]['e'] = shots[i + 1]['s']
-frames = int(math.ceil((bstart[-1] + ENDS if NAME == 'long' else dur) * FPS)); shots[-1]['e'] = frames
-if NAME == 'long': assert last[nb - 1]['end'] - bstart[-1] <= 3.0, ('question longer than 3 s', last[nb - 1]['end'] - bstart[-1])
-dups = {k: v for k, v in specs.items() if len(set(v)) > 1}
-out = dict(fps=FPS, teaser=TEASER, frames=frames, end_s=(round(bstart[-1], 3) if NAME == 'long' else None), shots=shots, chapters=[c for c in chapters if c['s'] >= 0], chapter_times=[(c['t'], c['title']) for c in chapters])
-json.dump(out, open(f'src/shots_{NAME}.json', 'w'))
-lens = [s['e'] - s['s'] for s in shots]
-print(f'{NAME}: {dur:.1f}s, {len(shots)} shots, {len(specs)} unique scenes, {len(shots) / (dur / 60):.1f} screens/min, shot len min {min(lens) / FPS:.1f}s max {max(lens) / FPS:.1f}s; teaser max {max(l for s, l in zip(shots, lens) if s["b"] <= TEASER) / FPS:.1f}s')
-re = sum(1 for x in shots if x['reuse']); print(f'{NAME}: re-shown scenes {re}/{len(shots)} = {re / len(shots) * 100:.0f}% (the law is 0)')
-for w in warn: print('WARN', w)
-for k, v in dups.items(): print('DUP', k[:120], v)
+"""Scroll Kaos v0.5 - turn a scene table into src/shots_long.json / shots_reel.json.
 
-# ---- ONE-USE LAW. A picture is used ONCE.
-# This used to be a printed warning while the builder quietly recycled a beat's own scene
-# as L[k % len(L)] with v.alt = 1 and a nudged framing tag. That silent recycling is what
-# put the same picture on screen several times in one video. It is now a hard stop, so the
-# fault is caught in 1 second here instead of after a 14-minute cloud render.
-# SK_ALLOW_RESHOW=1 is for a throwaway draft only, never for a delivered video.
-import os as _os
-if (re or dups) and _os.environ.get('SK_ALLOW_RESHOW') != '1':
-    need = {}
-    for x in shots:
-        if x['reuse']: need[x['b']] = need.get(x['b'], 0) + 1
-    msg = ['ONE-USE LAW FAILED (tools/build_shots.py)']
-    if re:
-        msg.append(f'{re} shot(s) recycle a scene from their own beat.')
-        msg.append('Add this many MORE scenes to story/scenes_%s.py: ' % NAME +
-                   ', '.join(f'beat {b} +{n}' for b, n in sorted(need.items(), key=lambda x: -x[1])))
-    if dups:
-        msg.append(f'{len(dups)} scene spec(s) appear in more than one beat (see DUP lines above).')
-        msg.append('Change the camera, the people positions or a prop so each use is a NEW picture.')
-    msg.append('Draft override (never for delivery): SK_ALLOW_RESHOW=1 python3 tools/build_shots.py ' + NAME)
-    raise SystemExit('\n  '.join(msg))
+A SCENE is one line the writer wrote. A SHOT is one picture. A scene that needs four pictures
+must declare four shots - the builder will NOT quietly stretch one picture to fill the time,
+because that is how a duplicate gets born (quality-law.md section 6).
+
+Scene table format (story/scenes_long.py):
+
+    from scenes_dsl import S
+    SCENES = [
+      S('p1_01', kit='ApartmentInterior', opts=dict(room='bedroom', lightOn=True),
+        anchor=dict(pos=[0.6,1.55,1.5], yaw=-10), preset='idle_breath',
+        framing='full', secs=3.2, hands='hold_phone',
+        actors=[dict(id='lily', pose='stand', at=[-0.9,0,-2.0], yaw=160,
+                     look=dict(h=1.12, top='#efa8c0', hairStyle='pigtail'))],
+        sfx=[dict(t='*creak*', at=40, x=0.72, y=0.44)]),
+      ...
+    ]
+
+Usage:  python3 tools/build_shots.py long
+        python3 tools/build_shots.py reel
+"""
+from __future__ import annotations
+import importlib
+import json
+import os
+import sys
+
+sys.path[:0] = ["story", os.path.dirname(os.path.abspath(__file__)), "."]
+import shotsig  # noqa: E402
+
+FPS = 30
+NAME = sys.argv[1] if len(sys.argv) > 1 else "long"
+W, H = (1920, 1080) if NAME == "long" else (1080, 1920)
+
+# Pacing law, measured off the reference video (mean shot 3.5 s, 72 % under 2.5 s in the
+# chase sections). A shot longer than MAX_HOLD is a held beat and must say so.
+MIN_SECS, MAX_SECS, MAX_HOLD = 0.8, 9.0, 6.0
+TEASER_MAX = 2.5          # every shot in the first 30 s is at most this long
+MIN_SHOTS_PER_MIN = 14    # the 3D engine moves inside a shot, so this is lower than v0.4's 20
+
+
+def main() -> int:
+    mod = importlib.import_module("scenes_long" if NAME == "long" else "scenes_reel")
+    scenes = mod.SCENES
+
+    # Optional: stretch each beat's scenes onto the MEASURED narration. tools/retime.py
+    # writes story/retime_<name>.json from audio/<name>/timing.json after tools/tts.py has
+    # run, so a picture always lands on its own words instead of on an estimate. The scenes
+    # inside a beat keep their relative lengths - this scales, it never invents or drops a
+    # picture, because a gap filled by a tool is how a duplicate gets born.
+    rt_path = "story/retime_%s.json" % NAME
+    if os.path.exists(rt_path):
+        with open(rt_path) as _fh:
+            rt = json.load(_fh)
+        tot = {}
+        for sc in scenes:
+            k = sc["id"].split("_")[0]
+            tot[k] = tot.get(k, 0.0) + float(sc.get("secs", 2.4))
+        scaled = 0
+        for sc in scenes:
+            k = sc["id"].split("_")[0]
+            if k in rt and tot.get(k):
+                sc["secs"] = round(float(sc.get("secs", 2.4)) * rt[k] / tot[k], 3)
+                scaled += 1
+        print("retimed %d of %d scenes from %s" % (scaled, len(scenes), rt_path))
+    shots, warn, fail = [], [], []
+    f = 0
+    for sc in scenes:
+        secs = float(sc.get("secs", 2.4))
+        if secs < MIN_SECS:
+            fail.append("%s: %.2fs is below the %.1fs floor" % (sc["id"], secs, MIN_SECS))
+        if secs > MAX_SECS:
+            fail.append("%s: %.2fs is over the %.1fs ceiling" % (sc["id"], secs, MAX_SECS))
+        if secs > MAX_HOLD and not sc.get("held"):
+            fail.append("%s: %.2fs is a held beat - add held=True and say why in the scene "
+                        "table, or split it into separate pictures" % (sc["id"], secs))
+        if f < 30 * FPS and secs > TEASER_MAX:
+            warn.append("%s: %.2fs inside the first 30s (teaser limit %.1fs)" % (sc["id"], secs, TEASER_MAX))
+        n = max(1, round(secs * FPS))
+        shots.append({
+            "id": sc["id"], "s": f, "e": f + n,
+            "kit": sc["kit"], "kitOpts": sc.get("opts", {}),
+            "anchor": sc["anchor"], "preset": sc.get("preset", "idle_breath"),
+            "hands": sc.get("hands"), "actors": sc.get("actors", []),
+            "framing": sc.get("framing", "full"),
+            "glitch": sc.get("glitch", 0), "wash": sc.get("wash"),
+            "washAmount": sc.get("washAmount", 0), "boil": sc.get("boil", 2.2),
+            "sfx": sc.get("sfx", []),
+        })
+        f += n
+
+    for sh in shots:
+        sh["sig"] = shotsig.sig_hash(sh)
+
+    # ---- framing mix (quality law 4b) ----
+    tot = len(shots)
+    face = sum(1 for s in shots if s["framing"] == "face")
+    body = sum(1 for s in shots if s["framing"] in ("full", "waist"))
+    if tot and face / tot > 0.15:
+        fail.append("face-only shots are %d%% of the video (limit 15%%)" % round(100 * face / tot))
+    if tot and body / tot < 0.50:
+        fail.append("only %d%% of shots show the body (floor 50%%)" % round(100 * body / tot))
+    for i in range(1, tot):
+        if shots[i]["framing"] == "face" and shots[i - 1]["framing"] == "face":
+            fail.append("%s and %s are two face shots in a row" % (shots[i - 1]["id"], shots[i]["id"]))
+
+    # ---- Studio is a character-sheet backdrop, not a room ----
+    for s_ in shots:
+        if s_["kit"] == "Studio":
+            fail.append("%s uses the Studio kit - that is a character-sheet backdrop, "
+                        "not a readable room" % s_["id"])
+
+    # ---- first-person law ----
+    for s in shots:
+        if s["preset"] == "drift_wide":
+            fail.append("%s uses drift_wide - that camera is for the epilogue roll only" % s["id"])
+
+    # ---- the one-use law ----
+    for a, b, n, why in shotsig.find_repeats(shots, FPS):
+        fail.append("REPEAT %s <-> %s (%d/4 buckets) - %s" % (a, b, n, why))
+
+    # ---- pacing ----
+    mins = f / FPS / 60 or 1e-9
+    spm = tot / mins
+    if spm < MIN_SHOTS_PER_MIN:
+        warn.append("%.1f shots/min (floor %d)" % (spm, MIN_SHOTS_PER_MIN))
+
+    # ---- hands on screen: the first-person format lives or dies on this ----
+    withhands = sum(1 for s in shots if s.get("hands"))
+    if tot and withhands / tot < 0.25:
+        warn.append("hands visible in only %d%% of shots - the reference runs about a third"
+                    % round(100 * withhands / tot))
+
+    out = {
+        "fps": FPS, "w": W, "h": H, "frames": f, "shots": shots,
+        "chapters": getattr(mod, "CHAPTERS", []), "parts": getattr(mod, "PARTS", []),
+    }
+    os.makedirs("src", exist_ok=True)
+    with open("src/shots_%s.json" % NAME, "w") as fh:
+        json.dump(out, fh, indent=1)
+
+    for w in warn:
+        print("WARN", w)
+    for e in fail:
+        print("FAIL", e)
+    print("%s: %d shots, %.1fs, %.1f shots/min, %d%% with hands, face %d%%, body %d%%"
+          % (NAME, tot, f / FPS, spm, round(100 * withhands / max(1, tot)),
+             round(100 * face / max(1, tot)), round(100 * body / max(1, tot))))
+    return 1 if fail else 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

@@ -3,13 +3,10 @@ Why: AAC encoding can push a few sharp speech peaks ABOVE 0 dBFS even when final
 (found in the Smile Dog QA: +2.4 / +3.5 dBFS). This step limits, re-measures and nudges the gain until
 loudness is on target (long -16 LUFS, reel -14 LUFS, within 0.2 LU) and the decoded peak is at or below -1 dBFS.
 Usage (work folder): python3 tools/safe_audio.py long|reel   ->  audio/<name>/final_safe.m4a"""
-import sys, os, json, subprocess
+import sys, json, subprocess
 import numpy as np
 NAME = sys.argv[1]; TARGET = -16.0 if NAME == 'long' else -14.0
 src, dst = f'audio/{NAME}/final.wav', f'audio/{NAME}/final_safe.m4a'
-if os.path.exists(dst) and not os.path.exists(src):
-    print(f'already have safe audio {dst} (no final.wav here, e.g. on a cloud runner): keeping it')
-    sys.exit(0)
 def run(a): return subprocess.run(a, capture_output=True, text=True)
 def measure(path):
     r = run(['ffmpeg', '-hide_banner', '-nostats', '-i', path, '-af', 'ebur128=peak=true', '-f', 'null', '-']).stderr

@@ -17,11 +17,12 @@ BEATS = mod.BEATS
 OUT = f'audio/{NAME}'
 os.makedirs(f'{OUT}/units', exist_ok=True)
 SR = 24000
-GAP, BEAT_GAP, CHAP_GAP = 0.30, 0.45, 0.60
+GAP, BEAT_GAP, CHAP_GAP = 0.30, 0.45, 0.60   # overridden by story/voices.py if it sets them
 VOICES, PITCH, SAY = {'nar': ('af_nicole', 1.1)}, {}, []
 try:
     _v = importlib.import_module('voices')
     VOICES = {**VOICES, **getattr(_v, 'VOICES', {})}; PITCH = getattr(_v, 'PITCH', {}); SAY = getattr(_v, 'SAY', [])
+    GAP = getattr(_v, 'GAP', GAP); BEAT_GAP = getattr(_v, 'BEAT_GAP', BEAT_GAP); CHAP_GAP = getattr(_v, 'CHAP_GAP', CHAP_GAP)
 except ModuleNotFoundError:
     pass
 MODELS = os.environ.get('KOKORO_DIR', 'models')

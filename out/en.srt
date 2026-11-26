@@ -1,330 +1,606 @@
 1
-00:00:00,000 --> 00:00:03,512
-I am writing this on a computer in my
-college library, and I
+00:00:00,000 --> 00:00:04,457
+It is five thirty in the morning and I
+have not moved for three hours.
 
 2
-00:00:03,532 --> 00:00:07,285
-think I am being watched from the dark
-between the shelves.
+00:00:04,477 --> 00:00:05,870
+Not my legs.
 
 3
-00:00:07,305 --> 00:00:08,974
-I know how that sounds.
+00:00:05,890 --> 00:00:07,403
+Not my hands.
 
 4
-00:00:08,994 --> 00:00:13,008
-But my best friend trusted the wrong
-person, and now he is gone.
+00:00:07,423 --> 00:00:09,897
+My mother is in the chair by my window.
 
 5
-00:00:13,028 --> 00:00:15,313
-If you read nothing else, read this.
+00:00:09,917 --> 00:00:12,813
+My father is propped against the foot of
+my bed.
 
 6
-00:00:15,333 --> 00:00:17,054
-Let me take you back to the beginning.
+00:00:12,833 --> 00:00:17,374
+Both of them are turned to face me, and
+both of their mouths are open.
 
 7
-00:00:17,654 --> 00:00:20,181
-Last year I met a guy named Jack.
+00:00:17,394 --> 00:00:20,943
+The smell of blood in here is so strong I
+can taste it.
 
 8
-00:00:20,201 --> 00:00:24,572
-We liked the same games, the same films,
-even the same dumb jokes.
+00:00:20,963 --> 00:00:23,942
+Neither of them has blinked since I woke
+up.
 
 9
-00:00:24,592 --> 00:00:27,968
-For the first time at that school, I had a
-real friend.
+00:00:23,962 --> 00:00:27,174
+The thing that put them there has not left
+this room.
 
 10
-00:00:27,988 --> 00:00:30,891
-We played online almost every night after
-class.
+00:00:27,194 --> 00:00:30,310
+If it finds out I am awake, I die in this
+bed, and
 
 11
-00:00:31,491 --> 00:00:36,010
-Then, last winter, Jack started seeing a
-girl from one of our classes.
+00:00:30,330 --> 00:00:33,645
+there is nobody left in this house to stop
+it.
 
 12
-00:00:36,030 --> 00:00:37,601
-Her name was Elisa.
+00:00:33,665 --> 00:00:35,280
+Let us go back to the beginning.
 
 13
-00:00:37,621 --> 00:00:41,500
-At first she seemed kind, and I was
-honestly happy for him.
+00:00:35,880 --> 00:00:39,503
+Three hours ago I was asleep, like any
+other night.
 
 14
-00:00:41,520 --> 00:00:44,214
-But a month in, Jack began to pull away.
+00:00:39,523 --> 00:00:42,827
+The last thing I remember before all of it
+is my mother
 
 15
-00:00:44,234 --> 00:00:45,722
-He stopped answering.
+00:00:42,847 --> 00:00:45,997
+at my door with the landing light behind
+her.
 
 16
-00:00:45,742 --> 00:00:47,415
-He only wanted to be with her.
+00:00:46,017 --> 00:00:49,850
+"Lights out, love. I do not want to hear
+that tablet at midnight."
 
 17
-00:00:48,015 --> 00:00:51,096
-One morning we were waiting in the
-cafeteria line.
+00:00:49,870 --> 00:00:53,476
+And my father, further down the hall, not
+even coming in.
 
 18
-00:00:51,116 --> 00:00:54,094
-I made a small joke, and Jack turned on
-me.
+00:00:53,496 --> 00:00:56,298
+"Door is locked, mate. Go to sleep."
 
 19
-00:00:54,114 --> 00:00:56,829
-"This line is too long. I need to get out
-of here."
+00:00:56,318 --> 00:00:58,964
+He checked the locks every night of my
+life.
 
 20
-00:00:56,849 --> 00:00:59,058
-He shouted at a girl behind us.
+00:00:58,984 --> 00:01:02,118
+I need you to know that he checked them
+that night too.
 
 21
-00:00:59,078 --> 00:01:01,159
-Then he just ran out of the building.
+00:01:02,138 --> 00:01:07,860
+At 2:20 I woke up because somebody was
+screaming on the other side of the house.
 
 22
-00:01:01,179 --> 00:01:02,531
-That was not my friend.
+00:01:07,880 --> 00:01:09,073
+Not a shout.
 
 23
-00:01:03,131 --> 00:01:05,427
-After that he stopped coming to class.
+00:01:09,093 --> 00:01:10,282
+Not a word.
 
 24
-00:01:05,447 --> 00:01:09,941
-One evening I passed Elisa in the hall and
-asked if Jack was okay.
+00:01:10,302 --> 00:01:15,255
+A long high scream that stopped in the
+middle, like a door had been closed on it.
 
 25
-00:01:09,961 --> 00:01:12,846
-She smiled at me, and the smile was wrong.
+00:01:15,275 --> 00:01:19,320
+This is a retelling, inspired by a story
+told online.
 
 26
-00:01:12,866 --> 00:01:14,342
-"He is better than ever."
+00:01:19,340 --> 00:01:20,409
+I sat up.
 
 27
-00:01:14,362 --> 00:01:17,829
-She said each word slowly, like a warning,
-and walked away.
+00:01:20,429 --> 00:01:21,970
+I got to my door.
 
 28
-00:01:18,429 --> 00:01:21,131
-That night I called him, expecting
-nothing.
+00:01:21,990 --> 00:01:25,539
+I want that on the record, because of what
+I did next.
 
 29
-00:01:21,151 --> 00:01:22,645
-He picked up at once.
+00:01:25,559 --> 00:01:28,588
+You are twelve years old and somebody just
+screamed.
 
 30
-00:01:22,665 --> 00:01:27,088
-His voice was low and shaking, like a man
-trying to get out of a trap.
+00:01:28,608 --> 00:01:31,719
+Do you go and look, or do you use the
+bathroom first?
 
 31
-00:01:27,108 --> 00:01:29,327
-I told him I was coming over.
+00:01:32,319 --> 00:01:34,909
+My body told me something very stupid.
 
 32
-00:01:29,347 --> 00:01:33,905
-Forty minutes later he was at my door, and
-I knew something was badly wrong.
+00:01:34,929 --> 00:01:36,621
+I needed the toilet.
 
 33
-00:01:34,505 --> 00:01:38,110
-I let him in and turned off the lights
-because he begged me to.
+00:01:36,641 --> 00:01:41,761
+Somebody had screamed in my house, and I
+turned left into the bathroom first.
 
 34
-00:01:38,130 --> 00:01:40,768
-In the dark he was crying, but the tears
-were
+00:01:41,781 --> 00:01:45,198
+I have had three hours to think about
+those three minutes.
 
 35
-00:01:40,788 --> 00:01:43,313
-black, like ink running down his face.
+00:01:45,218 --> 00:01:46,736
+I put the light on.
 
 36
-00:01:43,333 --> 00:01:46,894
-"She did this to me. She caught me crying
-this stuff and said I was ready."
+00:01:46,756 --> 00:01:48,279
+I remember the light.
 
 37
-00:01:46,914 --> 00:01:48,709
-Ready for what, he did not know.
+00:01:48,299 --> 00:01:51,705
+It was the last normal thing that ever
+happened to me.
 
 38
-00:01:49,309 --> 00:01:51,356
-Then a soft knock came at the door.
+00:01:51,725 --> 00:01:54,368
+I washed my hands, because that is what
+you
 
 39
-00:01:51,376 --> 00:01:53,406
-A girl's voice, calm and sweet.
+00:01:54,388 --> 00:01:57,482
+do, even at half past two, even after
+that.
 
 40
-00:01:53,426 --> 00:01:57,415
-"Jackie, I know you are in there. It is
-time. They are waiting for us."
+00:01:57,502 --> 00:02:01,726
+Then I turned the light off, opened the
+door a crack, and looked out at the hall.
 
 41
-00:01:57,435 --> 00:02:00,130
-Jack jumped up, ran out the back, and
-vanished
+00:02:02,326 --> 00:02:04,246
+There was blood on the carpet.
 
 42
-00:02:00,150 --> 00:02:02,437
-into the woods behind my building.
+00:02:04,266 --> 00:02:05,451
+Not a drop.
 
 43
-00:02:02,457 --> 00:02:05,177
-I called the police and chased after him.
+00:02:05,471 --> 00:02:06,458
+A smear.
 
 44
-00:02:05,197 --> 00:02:08,390
-Something hit the back of my head, and the
-world went black.
+00:02:06,478 --> 00:02:10,012
+A wide dark one that started at the far
+end by my parents'
 
 45
-00:02:08,990 --> 00:02:10,683
-I woke tied to a tree.
+00:02:10,032 --> 00:02:13,587
+room and went all the way to the top of
+the stairs.
 
 46
-00:02:10,703 --> 00:02:13,709
-In a clearing in front of me stood a ring
-of figures
+00:02:13,607 --> 00:02:16,495
+Something heavy had been pulled along that
+carpet.
 
 47
-00:02:13,729 --> 00:02:16,337
-in long black robes and pale blue masks.
+00:02:16,515 --> 00:02:18,770
+The front door was down those stairs.
 
 48
-00:02:16,357 --> 00:02:18,969
-In the middle, strapped to a chair, was
-Jack.
+00:02:18,790 --> 00:02:22,491
+Twelve steps, the hall, one latch, and
+then the street, and the
 
 49
-00:02:18,989 --> 00:02:20,779
-One of them lifted her mask.
+00:02:22,511 --> 00:02:26,308
+Kellys across the road with their bedroom
+light still on.
 
 50
-00:02:20,799 --> 00:02:22,073
-It was Elisa.
+00:02:26,328 --> 00:02:28,492
+I did not go down the stairs.
 
 51
-00:02:22,093 --> 00:02:25,732
-A taller one opened an old black book and
-began to read.
+00:02:28,512 --> 00:02:30,003
+Blood on the carpet.
 
 52
-00:02:26,332 --> 00:02:29,259
-As the voice read, the ground began to
-shake.
+00:02:30,023 --> 00:02:32,345
+The front door is twelve steps away.
 
 53
-00:02:29,279 --> 00:02:33,927
-Black tendrils rose from the frost like
-weeds and wrapped around Jack's chair.
+00:02:32,365 --> 00:02:34,952
+Do you run for it, or hide in your bed?
 
 54
-00:02:33,947 --> 00:02:36,616
-They pressed a cracked blue mask over his
-face.
+00:02:34,972 --> 00:02:39,233
+I went back into my room, got into my bed,
+and pulled the sheets over
 
 55
-00:02:36,636 --> 00:02:39,971
-Where his eyes had been, only black tar
-ran down.
+00:02:39,253 --> 00:02:43,901
+my head like a seven-year-old, as if that
+does anything to anything.
 
 56
-00:02:39,991 --> 00:02:42,580
-He was still alive, and I could not look
-away.
+00:02:43,921 --> 00:02:47,206
+I lay under there and told myself I was
+dreaming.
 
 57
-00:02:43,180 --> 00:02:45,261
-Then, far off, I heard sirens.
+00:02:47,226 --> 00:02:49,316
+I kept that up for about eight minutes.
 
 58
-00:02:45,281 --> 00:02:46,624
-The reader stopped.
+00:02:49,916 --> 00:02:52,438
+Then my bedroom door creaked open.
 
 59
-00:02:46,644 --> 00:02:49,881
-In the sudden quiet, a low laugh came from
-the chair.
+00:02:52,458 --> 00:02:55,300
+And because something in me needed to
+know, I pulled
 
 60
-00:02:49,901 --> 00:02:51,305
-"You made him mad."
+00:02:55,320 --> 00:02:57,952
+the blanket down off one eye and looked.
 
 61
-00:02:51,325 --> 00:02:55,782
-The thing wearing my friend tore free of
-its straps and turned on the circle.
+00:02:57,972 --> 00:03:02,551
+It was bent over in my doorway, and it was
+far too tall for my room.
 
 62
-00:02:55,802 --> 00:02:58,177
-I will not describe what I heard next.
+00:03:02,571 --> 00:03:03,851
+It was hairless.
 
 63
-00:02:58,197 --> 00:03:02,324
-The frost went red, and the robed figures
-stopped screaming one by one.
+00:03:03,871 --> 00:03:04,889
+All of it.
 
 64
-00:03:02,924 --> 00:03:07,260
-I woke to a flashlight in my face and an
-officer shouting for help.
+00:03:04,909 --> 00:03:08,312
+Nothing on its head, no eyebrows, nothing
+anywhere.
 
 65
-00:03:07,280 --> 00:03:08,612
-They got me out.
+00:03:08,332 --> 00:03:09,759
+It had no eyes.
 
 66
-00:03:08,632 --> 00:03:13,435
-At the hospital they told me I would live,
-but one of my kidneys was gone.
+00:03:09,779 --> 00:03:12,388
+I do not mean shut, or white, or hidden.
 
 67
-00:03:13,455 --> 00:03:14,885
-A year has passed.
+00:03:12,408 --> 00:03:17,299
+There was nothing on its face where eyes
+go, and nothing where a mouth goes either.
 
 68
-00:03:14,905 --> 00:03:19,319
-Jack is still missing, blamed for ten
-deaths and one attempted murder.
+00:03:17,319 --> 00:03:21,267
+A smooth pale plate, hanging lower than
+its own shoulders.
 
 69
-00:03:19,339 --> 00:03:20,317
-Mine.
+00:03:21,287 --> 00:03:23,237
+It wore nothing at all.
 
 70
-00:03:20,337 --> 00:03:24,317
-This video is inspired by the story You
-Can't Trust Everyone,
+00:03:23,257 --> 00:03:26,828
+It moved like something that was never
+taught to stand up,
 
 71
-00:03:24,337 --> 00:03:27,653
-as published on an online horror story
-page.
+00:03:26,848 --> 00:03:30,621
+back slouched right over, arms hanging
+past its knees.
 
 72
-00:03:27,673 --> 00:03:28,842
-So tell me.
+00:03:30,641 --> 00:03:33,605
+And it was dragging my mother and my
+father into
 
 73
-00:03:28,862 --> 00:03:30,067
-Who would you have trusted?
+00:03:33,625 --> 00:03:36,174
+my bedroom by the arms, one in each hand.
+
+74
+00:03:36,774 --> 00:03:38,286
+It was not stupid.
+
+75
+00:03:38,306 --> 00:03:41,291
+That is the part I need you to understand.
+
+76
+00:03:41,311 --> 00:03:45,730
+A thing that walks like that should not
+have been able to do what it did next.
+
+77
+00:03:45,750 --> 00:03:49,144
+It propped my father against the foot of
+my bed, sitting up,
+
+78
+00:03:49,164 --> 00:03:52,666
+and turned his face until he was looking
+at my pillow.
+
+79
+00:03:52,686 --> 00:03:57,745
+Then it lifted my mother into the chair by
+my window and turned her the same way.
+
+80
+00:03:57,765 --> 00:03:59,103
+It arranged them.
+
+81
+00:03:59,123 --> 00:04:00,596
+Like a photograph.
+
+82
+00:04:00,616 --> 00:04:03,772
+Like something that wanted the picture to
+come out right.
+
+83
+00:04:03,792 --> 00:04:08,305
+Then it put both hands flat on my wall and
+started dragging them along it.
+
+84
+00:04:08,325 --> 00:04:09,656
+It drew a circle.
+
+85
+00:04:09,676 --> 00:04:13,694
+Then a star inside the circle, upside
+down, five points, the kind
+
+86
+00:04:13,714 --> 00:04:17,622
+of thing boys scratch on the back of their
+school books.
+
+87
+00:04:17,642 --> 00:04:19,731
+It was painting with my parents.
+
+88
+00:04:19,751 --> 00:04:24,065
+And then it stepped back from the wall,
+the way you step back from a drawing.
+
+89
+00:04:24,085 --> 00:04:26,352
+Then it wrote something under the circle.
+
+90
+00:04:26,372 --> 00:04:30,660
+One line of letters, pulled across my
+wallpaper with one finger.
+
+91
+00:04:30,680 --> 00:04:32,042
+It was too dark.
+
+92
+00:04:32,062 --> 00:04:33,692
+I could not read it.
+
+93
+00:04:33,712 --> 00:04:38,673
+And then it got down on my floor, folded
+itself up, and went under my bed.
+
+94
+00:04:38,693 --> 00:04:39,984
+Under my bed.
+
+95
+00:04:40,004 --> 00:04:41,319
+With me on top of it.
+
+96
+00:04:41,919 --> 00:04:43,827
+That was three hours ago.
+
+97
+00:04:43,847 --> 00:04:47,005
+Here is the thing about lying still for
+three hours.
+
+98
+00:04:47,025 --> 00:04:49,349
+Your eyes get better at the dark.
+
+99
+00:04:49,369 --> 00:04:51,923
+The clock on my table says 5:30.
+
+100
+00:04:51,943 --> 00:04:54,416
+My window has gone from black to grey.
+
+101
+00:04:54,436 --> 00:04:58,946
+And the writing on my wall has been
+getting clearer for about twenty minutes.
+
+102
+00:04:58,966 --> 00:05:00,717
+I have not looked at it.
+
+103
+00:05:00,737 --> 00:05:03,613
+I have been looking at my father instead,
+because he
+
+104
+00:05:03,633 --> 00:05:06,904
+is the only thing in this room that cannot
+hurt me.
+
+105
+00:05:06,924 --> 00:05:09,542
+I have one plan and it is a bad one.
+
+106
+00:05:09,562 --> 00:05:11,506
+The door is nine feet away.
+
+107
+00:05:11,526 --> 00:05:14,371
+I run, I take the stairs, I get the latch,
+and
+
+108
+00:05:14,391 --> 00:05:17,624
+I scream until the Kellys put their light
+on.
+
+109
+00:05:17,644 --> 00:05:18,811
+Nine feet.
+
+110
+00:05:18,831 --> 00:05:20,585
+And it is under the bed.
+
+111
+00:05:20,605 --> 00:05:23,028
+I would have to put my feet on the floor.
+
+112
+00:05:23,048 --> 00:05:24,616
+Nine feet to the door.
+
+113
+00:05:24,636 --> 00:05:26,245
+It is under the bed.
+
+114
+00:05:26,265 --> 00:05:28,281
+Do you stay still, or run?
+
+115
+00:05:28,301 --> 00:05:32,602
+So I have been doing the only thing I can
+do, which is nothing at all.
+
+116
+00:05:32,622 --> 00:05:33,879
+Breathing slow.
+
+117
+00:05:33,899 --> 00:05:35,622
+Keeping my face soft.
+
+118
+00:05:35,642 --> 00:05:39,813
+Not blinking too much, because I read once
+that they can tell.
+
+119
+00:05:39,833 --> 00:05:41,955
+"It does not know I am awake."
+
+120
+00:05:41,975 --> 00:05:45,070
+I have been saying that to myself for
+three hours.
+
+121
+00:05:45,090 --> 00:05:47,269
+I am going to read the wall now.
+
+122
+00:05:47,289 --> 00:05:48,751
+I do not want to.
+
+123
+00:05:48,771 --> 00:05:52,610
+But I would rather know what it says than
+die next to it not knowing.
+
+124
+00:05:53,210 --> 00:05:54,885
+So I move my eyes.
+
+125
+00:05:54,905 --> 00:05:56,176
+Not my head.
+
+126
+00:05:56,196 --> 00:06:00,954
+Just my eyes, right, to the circle and the
+star and the line underneath it.
+
+127
+00:06:00,974 --> 00:06:02,773
+And my eyes have adjusted.
+
+128
+00:06:02,793 --> 00:06:04,332
+And I can read it.
+
+129
+00:06:04,352 --> 00:06:06,436
+It says: I know you're awake.
+
+130
+00:06:06,456 --> 00:06:08,978
+Under the bed, something shifts its
+weight.
+
+131
+00:06:08,998 --> 00:06:11,957
+It was never waiting to find out if I woke
+up.
+
+132
+00:06:11,977 --> 00:06:16,091
+It wrote that before I opened my eyes,
+because it already knew.
+
+133
+00:06:16,111 --> 00:06:19,132
+It has been waiting three hours for me to
+read it.
+
+134
+00:06:19,152 --> 00:06:22,658
+If you were in that bed, would you have
+stayed still, or run for the door?
 

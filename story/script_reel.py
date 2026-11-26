@@ -1,17 +1,34 @@
-# YOU CAN'T TRUST EVERYONE (Reel, 2:40-2:55). ONE speaker: the narrator. Own words; fiction.
+# I Know You're Awake - REEL retelling (9:16), 2:40-2:55, ONE speaker (the narrator).
+# No [tags] anywhere: tools/tts.py forces a single voice for the Reel, because an Instagram
+# Reel with more than one speaker is refused for voice translation (channel rule).
+#
+# WORD_BEATS lists the beats that get one-word-at-a-time captions - the creature-introduction
+# block, exactly where the reference short puts one word on screen per beat.
 BEATS = [
-("Intro", "I am writing this from a library computer, and I think I am being watched from the dark between the shelves. I know how that sounds. My best friend trusted the wrong person, and now he is gone. Let me take you back to the beginning."),
-(None, "Last year I met a guy named Jack. We liked the same games and the same films, and we played online almost every night. For the first time at that school I had a real friend. Then, last winter, he started seeing a girl from class named Elisa."),
-(None, "At first she seemed kind. But a month in, Jack began to pull away. He stopped answering, and he only wanted to be with her. One morning in the cafeteria line he turned on me, shouted at a stranger, and ran out of the building. That was not my friend."),
-(None, "He stopped coming to class. One evening I passed Elisa in the hall and asked if Jack was okay. She smiled, and the smile was wrong. She said he was better than ever, each word slow, like a warning, and walked away."),
-(None, "That night I called him. He picked up at once, his voice low and shaking. Forty minutes later he was at my door, and I knew something was badly wrong. I let him in and turned off the lights because he begged me to. In the dark he was crying, but the tears were black, like ink running down his face."),
-(None, "He said Elisa did this to him. She caught him crying the black stuff and said he was ready. Then a soft knock came at the door, and her calm voice said it was time, that they were waiting. Jack ran out the back and vanished into the woods."),
-(None, "I called the police and chased him. Something hit the back of my head, and I woke tied to a tree. My mouth was taped shut. In a clearing stood a ring of figures in black robes and pale blue masks. In the middle, strapped to a chair, was Jack. One lifted her mask. It was Elisa."),
-(None, "A taller one read from an old black book. The ground shook, and black tendrils rose from the frost and wrapped the chair. They pressed a cracked blue mask over Jack's face, and where his eyes had been, only black tar ran down."),
-(None, "Then I heard sirens. The reading stopped. A low laugh came from the chair, and the thing wearing my friend tore free and turned on the circle. The frost went red. One by one, the robed figures stopped screaming, and the clearing went still."),
-(None, "I woke to a flashlight and an officer shouting for help. At the hospital they said I would live, but a kidney was gone. A year later, Jack is still missing, blamed for ten deaths and one attempted murder. Mine."),
-(None, "This is inspired by the story You Can't Trust Everyone, from an online horror story page."),
-(None, "So tell me. Who would you have trusted?"),
+("Intro", "It is five thirty in the morning and I have not moved for three hours."),
+(None, "My mother is in the chair by my window. My father is propped against the foot of my bed. Both of them are facing me. Both of their mouths are open."),
+(None, "Neither of them has blinked since I woke up, and the thing that arranged them has not left this room."),
+(None, "At twenty past two I woke up to a scream on the other side of the house. It stopped in the middle, like a door had been shut on it."),
+(None, "I got as far as my door. Then I did the stupidest thing I will ever do. I went to the bathroom first."),
+(None, "Three minutes. I put the light on, I washed my hands, and I opened the door a crack."),
+(None, "There was blood on the carpet. Not a drop. A smear, dragged from my parents' room all the way to the top of the stairs."),
+(None, "The front door was twelve steps down those stairs. I did not take them."),
+(None, "I got into my bed and pulled the sheets over my head."),
+(None, "Then my bedroom door creaked open, and I pulled the blanket down off one eye."),
+(None, "It was bent over in my doorway and it was far too tall for my room."),
+(None, "Hairless. No eyes. No mouth. Nothing on its face at all."),
+(None, "Arms hanging past its knees. Back slouched right over. Wearing nothing."),
+(None, "And it was dragging my mother and my father in by the arms, one in each hand."),
+(None, "It propped my father against my bed, facing my pillow. Then it sat my mother in the chair, turned the same way."),
+(None, "It arranged them, like something that wanted the picture to come out right."),
+(None, "Then it put both hands on my wall and painted a circle, and a star inside the circle, upside down."),
+(None, "Then it dragged one line of letters underneath it with one finger. It was too dark to read."),
+(None, "And then it folded itself up on my floor and went under my bed. Under my bed, with me on top of it."),
+(None, "That was three hours ago. Lie still that long and your eyes get better at the dark."),
+(None, "So I move my eyes. Not my head. Just my eyes. And I can read it now."),
+(None, "It says: I know you're awake."),
+(None, "It never had to check. It wrote that before I opened my eyes, and it has waited three hours for me to read it."),
+(None, "If you were in that bed, would you have stayed still, or run for the door?"),
 ]
-TEASER_LAST_BEAT = 0
-QUESTION = "Who would you have trusted?"
+TEASER_LAST_BEAT = 2
+WORD_BEATS = [10, 11, 12]

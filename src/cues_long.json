@@ -1,0 +1,1836 @@
+[
+{
+"s": 0,
+"e": 37,
+"who": "THE BOY",
+"role": "you",
+"text": "It is five thirty in"
+},
+{
+"s": 37,
+"e": 77,
+"who": "THE BOY",
+"role": "you",
+"text": "the morning and I have"
+},
+{
+"s": 77,
+"e": 133,
+"who": "THE BOY",
+"role": "you",
+"text": "not moved for three hours."
+},
+{
+"s": 134,
+"e": 176,
+"who": "THE BOY",
+"role": "you",
+"text": "Not my legs."
+},
+{
+"s": 177,
+"e": 222,
+"who": "THE BOY",
+"role": "you",
+"text": "Not my hands."
+},
+{
+"s": 223,
+"e": 256,
+"who": "THE BOY",
+"role": "you",
+"text": "My mother is in the"
+},
+{
+"s": 256,
+"e": 297,
+"who": "THE BOY",
+"role": "you",
+"text": "chair by my window."
+},
+{
+"s": 298,
+"e": 344,
+"who": "THE BOY",
+"role": "you",
+"text": "My father is propped against"
+},
+{
+"s": 344,
+"e": 384,
+"who": "THE BOY",
+"role": "you",
+"text": "the foot of my bed."
+},
+{
+"s": 385,
+"e": 427,
+"who": "THE BOY",
+"role": "you",
+"text": "Both of them are turned"
+},
+{
+"s": 427,
+"e": 463,
+"who": "THE BOY",
+"role": "you",
+"text": "to face me, and both"
+},
+{
+"s": 463,
+"e": 521,
+"who": "THE BOY",
+"role": "you",
+"text": "of their mouths are open."
+},
+{
+"s": 522,
+"e": 561,
+"who": "THE BOY",
+"role": "you",
+"text": "The smell of blood in"
+},
+{
+"s": 561,
+"e": 596,
+"who": "THE BOY",
+"role": "you",
+"text": "here is so strong I"
+},
+{
+"s": 596,
+"e": 628,
+"who": "THE BOY",
+"role": "you",
+"text": "can taste it."
+},
+{
+"s": 629,
+"e": 677,
+"who": "THE BOY",
+"role": "you",
+"text": "Neither of them has blinked"
+},
+{
+"s": 677,
+"e": 718,
+"who": "THE BOY",
+"role": "you",
+"text": "since I woke up."
+},
+{
+"s": 719,
+"e": 758,
+"who": "THE BOY",
+"role": "you",
+"text": "The thing that put them"
+},
+{
+"s": 758,
+"e": 815,
+"who": "THE BOY",
+"role": "you",
+"text": "there has not left this room."
+},
+{
+"s": 816,
+"e": 849,
+"who": "THE BOY",
+"role": "you",
+"text": "If it finds out I"
+},
+{
+"s": 849,
+"e": 884,
+"who": "THE BOY",
+"role": "you",
+"text": "am awake, I die in"
+},
+{
+"s": 884,
+"e": 927,
+"who": "THE BOY",
+"role": "you",
+"text": "this bed, and there is"
+},
+{
+"s": 927,
+"e": 975,
+"who": "THE BOY",
+"role": "you",
+"text": "nobody left in this house"
+},
+{
+"s": 975,
+"e": 1009,
+"who": "THE BOY",
+"role": "you",
+"text": "to stop it."
+},
+{
+"s": 1010,
+"e": 1037,
+"who": "THE BOY",
+"role": "you",
+"text": "Let us go back to"
+},
+{
+"s": 1037,
+"e": 1058,
+"who": "THE BOY",
+"role": "you",
+"text": "the beginning."
+},
+{
+"s": 1076,
+"e": 1117,
+"who": "THE BOY",
+"role": "you",
+"text": "Three hours ago I was"
+},
+{
+"s": 1117,
+"e": 1185,
+"who": "THE BOY",
+"role": "you",
+"text": "asleep, like any other night."
+},
+{
+"s": 1186,
+"e": 1232,
+"who": "THE BOY",
+"role": "you",
+"text": "The last thing I remember"
+},
+{
+"s": 1232,
+"e": 1267,
+"who": "THE BOY",
+"role": "you",
+"text": "before all of it is"
+},
+{
+"s": 1267,
+"e": 1304,
+"who": "THE BOY",
+"role": "you",
+"text": "my mother at my door"
+},
+{
+"s": 1304,
+"e": 1380,
+"who": "THE BOY",
+"role": "you",
+"text": "with the landing light behind her."
+},
+{
+"s": 1381,
+"e": 1417,
+"who": "MOTHER",
+"role": "family",
+"state": "(at the door)",
+"text": "Lights out, love. I do"
+},
+{
+"s": 1417,
+"e": 1451,
+"who": "MOTHER",
+"role": "family",
+"state": "(at the door)",
+"text": "not want to hear that"
+},
+{
+"s": 1451,
+"e": 1495,
+"who": "MOTHER",
+"role": "family",
+"state": "(at the door)",
+"text": "tablet at midnight."
+},
+{
+"s": 1496,
+"e": 1542,
+"who": "THE BOY",
+"role": "you",
+"text": "And my father, further down"
+},
+{
+"s": 1542,
+"e": 1604,
+"who": "THE BOY",
+"role": "you",
+"text": "the hall, not even coming in."
+},
+{
+"s": 1605,
+"e": 1657,
+"who": "FATHER",
+"role": "stranger",
+"state": "(down the hall)",
+"text": "Door is locked, mate. Go"
+},
+{
+"s": 1657,
+"e": 1689,
+"who": "FATHER",
+"role": "stranger",
+"state": "(down the hall)",
+"text": "to sleep."
+},
+{
+"s": 1690,
+"e": 1732,
+"who": "THE BOY",
+"role": "you",
+"text": "He checked the locks every"
+},
+{
+"s": 1732,
+"e": 1769,
+"who": "THE BOY",
+"role": "you",
+"text": "night of my life."
+},
+{
+"s": 1770,
+"e": 1797,
+"who": "THE BOY",
+"role": "you",
+"text": "I need you to know"
+},
+{
+"s": 1797,
+"e": 1835,
+"who": "THE BOY",
+"role": "you",
+"text": "that he checked them that"
+},
+{
+"s": 1835,
+"e": 1863,
+"who": "THE BOY",
+"role": "you",
+"text": "night too."
+},
+{
+"s": 1864,
+"e": 1899,
+"who": "THE BOY",
+"role": "you",
+"text": "At 2:20 I woke up"
+},
+{
+"s": 1899,
+"e": 1966,
+"who": "THE BOY",
+"role": "you",
+"text": "because somebody was screaming on"
+},
+{
+"s": 1966,
+"e": 2035,
+"who": "THE BOY",
+"role": "you",
+"text": "the other side of the house."
+},
+{
+"s": 2036,
+"e": 2072,
+"who": "THE BOY",
+"role": "you",
+"text": "Not a shout."
+},
+{
+"s": 2073,
+"e": 2108,
+"who": "THE BOY",
+"role": "you",
+"text": "Not a word."
+},
+{
+"s": 2109,
+"e": 2149,
+"who": "THE BOY",
+"role": "you",
+"text": "A long high scream that"
+},
+{
+"s": 2149,
+"e": 2196,
+"who": "THE BOY",
+"role": "you",
+"text": "stopped in the middle, like"
+},
+{
+"s": 2196,
+"e": 2234,
+"who": "THE BOY",
+"role": "you",
+"text": "a door had been closed"
+},
+{
+"s": 2234,
+"e": 2257,
+"who": "THE BOY",
+"role": "you",
+"text": "on it."
+},
+{
+"s": 2258,
+"e": 2319,
+"who": "THE BOY",
+"role": "you",
+"text": "This is a retelling, inspired"
+},
+{
+"s": 2319,
+"e": 2379,
+"who": "THE BOY",
+"role": "you",
+"text": "by a story told online."
+},
+{
+"s": 2380,
+"e": 2412,
+"who": "THE BOY",
+"role": "you",
+"text": "I sat up."
+},
+{
+"s": 2413,
+"e": 2459,
+"who": "THE BOY",
+"role": "you",
+"text": "I got to my door."
+},
+{
+"s": 2460,
+"e": 2492,
+"who": "THE BOY",
+"role": "you",
+"text": "I want that on the"
+},
+{
+"s": 2492,
+"e": 2537,
+"who": "THE BOY",
+"role": "you",
+"text": "record, because of what I"
+},
+{
+"s": 2537,
+"e": 2566,
+"who": "THE BOY",
+"role": "you",
+"text": "did next."
+},
+{
+"s": 2567,
+"e": 2606,
+"who": "THE BOY",
+"role": "you",
+"text": "You are twelve years old"
+},
+{
+"s": 2606,
+"e": 2657,
+"who": "THE BOY",
+"role": "you",
+"text": "and somebody just screamed."
+},
+{
+"s": 2658,
+"e": 2693,
+"who": "THE BOY",
+"role": "you",
+"text": "Do you go and look,"
+},
+{
+"s": 2693,
+"e": 2724,
+"who": "THE BOY",
+"role": "you",
+"text": "or do you use the"
+},
+{
+"s": 2724,
+"e": 2752,
+"who": "THE BOY",
+"role": "you",
+"text": "bathroom first?"
+},
+{
+"s": 2770,
+"e": 2816,
+"who": "THE BOY",
+"role": "you",
+"text": "My body told me something"
+},
+{
+"s": 2816,
+"e": 2847,
+"who": "THE BOY",
+"role": "you",
+"text": "very stupid."
+},
+{
+"s": 2848,
+"e": 2898,
+"who": "THE BOY",
+"role": "you",
+"text": "I needed the toilet."
+},
+{
+"s": 2899,
+"e": 2950,
+"who": "THE BOY",
+"role": "you",
+"text": "Somebody had screamed in my"
+},
+{
+"s": 2950,
+"e": 2995,
+"who": "THE BOY",
+"role": "you",
+"text": "house, and I turned left"
+},
+{
+"s": 2995,
+"e": 3052,
+"who": "THE BOY",
+"role": "you",
+"text": "into the bathroom first."
+},
+{
+"s": 3053,
+"e": 3088,
+"who": "THE BOY",
+"role": "you",
+"text": "I have had three hours"
+},
+{
+"s": 3088,
+"e": 3156,
+"who": "THE BOY",
+"role": "you",
+"text": "to think about those three minutes."
+},
+{
+"s": 3157,
+"e": 3202,
+"who": "THE BOY",
+"role": "you",
+"text": "I put the light on."
+},
+{
+"s": 3203,
+"e": 3248,
+"who": "THE BOY",
+"role": "you",
+"text": "I remember the light."
+},
+{
+"s": 3249,
+"e": 3286,
+"who": "THE BOY",
+"role": "you",
+"text": "It was the last normal"
+},
+{
+"s": 3286,
+"e": 3351,
+"who": "THE BOY",
+"role": "you",
+"text": "thing that ever happened to me."
+},
+{
+"s": 3352,
+"e": 3401,
+"who": "THE BOY",
+"role": "you",
+"text": "I washed my hands, because"
+},
+{
+"s": 3401,
+"e": 3439,
+"who": "THE BOY",
+"role": "you",
+"text": "that is what you do,"
+},
+{
+"s": 3439,
+"e": 3481,
+"who": "THE BOY",
+"role": "you",
+"text": "even at half past two,"
+},
+{
+"s": 3481,
+"e": 3524,
+"who": "THE BOY",
+"role": "you",
+"text": "even after that."
+},
+{
+"s": 3525,
+"e": 3562,
+"who": "THE BOY",
+"role": "you",
+"text": "Then I turned the light"
+},
+{
+"s": 3562,
+"e": 3598,
+"who": "THE BOY",
+"role": "you",
+"text": "off, opened the door a"
+},
+{
+"s": 3598,
+"e": 3637,
+"who": "THE BOY",
+"role": "you",
+"text": "crack, and looked out at"
+},
+{
+"s": 3637,
+"e": 3652,
+"who": "THE BOY",
+"role": "you",
+"text": "the hall."
+},
+{
+"s": 3670,
+"e": 3727,
+"who": "THE BOY",
+"role": "you",
+"text": "There was blood on the carpet."
+},
+{
+"s": 3728,
+"e": 3763,
+"who": "THE BOY",
+"role": "you",
+"text": "Not a drop."
+},
+{
+"s": 3764,
+"e": 3793,
+"who": "THE BOY",
+"role": "you",
+"text": "A smear."
+},
+{
+"s": 3794,
+"e": 3832,
+"who": "THE BOY",
+"role": "you",
+"text": "A wide dark one that"
+},
+{
+"s": 3832,
+"e": 3874,
+"who": "THE BOY",
+"role": "you",
+"text": "started at the far end"
+},
+{
+"s": 3874,
+"e": 3917,
+"who": "THE BOY",
+"role": "you",
+"text": "by my parents' room and"
+},
+{
+"s": 3917,
+"e": 3953,
+"who": "THE BOY",
+"role": "you",
+"text": "went all the way to"
+},
+{
+"s": 3953,
+"e": 4007,
+"who": "THE BOY",
+"role": "you",
+"text": "the top of the stairs."
+},
+{
+"s": 4008,
+"e": 4055,
+"who": "THE BOY",
+"role": "you",
+"text": "Something heavy had been pulled"
+},
+{
+"s": 4055,
+"e": 4094,
+"who": "THE BOY",
+"role": "you",
+"text": "along that carpet."
+},
+{
+"s": 4095,
+"e": 4133,
+"who": "THE BOY",
+"role": "you",
+"text": "The front door was down"
+},
+{
+"s": 4133,
+"e": 4163,
+"who": "THE BOY",
+"role": "you",
+"text": "those stairs."
+},
+{
+"s": 4164,
+"e": 4213,
+"who": "THE BOY",
+"role": "you",
+"text": "Twelve steps, the hall, one"
+},
+{
+"s": 4213,
+"e": 4262,
+"who": "THE BOY",
+"role": "you",
+"text": "latch, and then the street,"
+},
+{
+"s": 4262,
+"e": 4307,
+"who": "THE BOY",
+"role": "you",
+"text": "and the Kellys across the"
+},
+{
+"s": 4307,
+"e": 4360,
+"who": "THE BOY",
+"role": "you",
+"text": "road with their bedroom light"
+},
+{
+"s": 4360,
+"e": 4389,
+"who": "THE BOY",
+"role": "you",
+"text": "still on."
+},
+{
+"s": 4390,
+"e": 4421,
+"who": "THE BOY",
+"role": "you",
+"text": "I did not go down"
+},
+{
+"s": 4421,
+"e": 4454,
+"who": "THE BOY",
+"role": "you",
+"text": "the stairs."
+},
+{
+"s": 4455,
+"e": 4500,
+"who": "THE BOY",
+"role": "you",
+"text": "Blood on the carpet."
+},
+{
+"s": 4501,
+"e": 4543,
+"who": "THE BOY",
+"role": "you",
+"text": "The front door is twelve"
+},
+{
+"s": 4543,
+"e": 4570,
+"who": "THE BOY",
+"role": "you",
+"text": "steps away."
+},
+{
+"s": 4571,
+"e": 4602,
+"who": "THE BOY",
+"role": "you",
+"text": "Do you run for it,"
+},
+{
+"s": 4602,
+"e": 4648,
+"who": "THE BOY",
+"role": "you",
+"text": "or hide in your bed?"
+},
+{
+"s": 4649,
+"e": 4686,
+"who": "THE BOY",
+"role": "you",
+"text": "I went back into my"
+},
+{
+"s": 4686,
+"e": 4728,
+"who": "THE BOY",
+"role": "you",
+"text": "room, got into my bed,"
+},
+{
+"s": 4728,
+"e": 4778,
+"who": "THE BOY",
+"role": "you",
+"text": "and pulled the sheets over"
+},
+{
+"s": 4778,
+"e": 4835,
+"who": "THE BOY",
+"role": "you",
+"text": "my head like a seven-year-old,"
+},
+{
+"s": 4835,
+"e": 4881,
+"who": "THE BOY",
+"role": "you",
+"text": "as if that does anything"
+},
+{
+"s": 4881,
+"e": 4917,
+"who": "THE BOY",
+"role": "you",
+"text": "to anything."
+},
+{
+"s": 4918,
+"e": 4957,
+"who": "THE BOY",
+"role": "you",
+"text": "I lay under there and"
+},
+{
+"s": 4957,
+"e": 5016,
+"who": "THE BOY",
+"role": "you",
+"text": "told myself I was dreaming."
+},
+{
+"s": 5017,
+"e": 5046,
+"who": "THE BOY",
+"role": "you",
+"text": "I kept that up for"
+},
+{
+"s": 5046,
+"e": 5079,
+"who": "THE BOY",
+"role": "you",
+"text": "about eight minutes."
+},
+{
+"s": 5097,
+"e": 5173,
+"who": "THE BOY",
+"role": "you",
+"text": "Then my bedroom door creaked open."
+},
+{
+"s": 5174,
+"e": 5219,
+"who": "THE BOY",
+"role": "you",
+"text": "And because something in me"
+},
+{
+"s": 5219,
+"e": 5260,
+"who": "THE BOY",
+"role": "you",
+"text": "needed to know, I pulled"
+},
+{
+"s": 5260,
+"e": 5300,
+"who": "THE BOY",
+"role": "you",
+"text": "the blanket down off one"
+},
+{
+"s": 5300,
+"e": 5338,
+"who": "THE BOY",
+"role": "you",
+"text": "eye and looked."
+},
+{
+"s": 5339,
+"e": 5375,
+"who": "THE BOY",
+"role": "you",
+"text": "It was bent over in"
+},
+{
+"s": 5375,
+"e": 5416,
+"who": "THE BOY",
+"role": "you",
+"text": "my doorway, and it was"
+},
+{
+"s": 5416,
+"e": 5476,
+"who": "THE BOY",
+"role": "you",
+"text": "far too tall for my room."
+},
+{
+"s": 5477,
+"e": 5515,
+"who": "THE BOY",
+"role": "you",
+"text": "It was hairless."
+},
+{
+"s": 5516,
+"e": 5546,
+"who": "THE BOY",
+"role": "you",
+"text": "All of it."
+},
+{
+"s": 5547,
+"e": 5588,
+"who": "THE BOY",
+"role": "you",
+"text": "Nothing on its head, no"
+},
+{
+"s": 5588,
+"e": 5649,
+"who": "THE BOY",
+"role": "you",
+"text": "eyebrows, nothing anywhere."
+},
+{
+"s": 5650,
+"e": 5692,
+"who": "THE BOY",
+"role": "you",
+"text": "It had no eyes."
+},
+{
+"s": 5693,
+"e": 5727,
+"who": "THE BOY",
+"role": "you",
+"text": "I do not mean shut,"
+},
+{
+"s": 5727,
+"e": 5771,
+"who": "THE BOY",
+"role": "you",
+"text": "or white, or hidden."
+},
+{
+"s": 5772,
+"e": 5813,
+"who": "THE BOY",
+"role": "you",
+"text": "There was nothing on its"
+},
+{
+"s": 5813,
+"e": 5853,
+"who": "THE BOY",
+"role": "you",
+"text": "face where eyes go, and"
+},
+{
+"s": 5853,
+"e": 5919,
+"who": "THE BOY",
+"role": "you",
+"text": "nothing where a mouth goes either."
+},
+{
+"s": 5920,
+"e": 5971,
+"who": "THE BOY",
+"role": "you",
+"text": "A smooth pale plate, hanging"
+},
+{
+"s": 5971,
+"e": 6038,
+"who": "THE BOY",
+"role": "you",
+"text": "lower than its own shoulders."
+},
+{
+"s": 6039,
+"e": 6097,
+"who": "THE BOY",
+"role": "you",
+"text": "It wore nothing at all."
+},
+{
+"s": 6098,
+"e": 6151,
+"who": "THE BOY",
+"role": "you",
+"text": "It moved like something that"
+},
+{
+"s": 6151,
+"e": 6198,
+"who": "THE BOY",
+"role": "you",
+"text": "was never taught to stand"
+},
+{
+"s": 6198,
+"e": 6253,
+"who": "THE BOY",
+"role": "you",
+"text": "up, back slouched right over,"
+},
+{
+"s": 6253,
+"e": 6318,
+"who": "THE BOY",
+"role": "you",
+"text": "arms hanging past its knees."
+},
+{
+"s": 6319,
+"e": 6361,
+"who": "THE BOY",
+"role": "you",
+"text": "And it was dragging my"
+},
+{
+"s": 6361,
+"e": 6409,
+"who": "THE BOY",
+"role": "you",
+"text": "mother and my father into"
+},
+{
+"s": 6409,
+"e": 6453,
+"who": "THE BOY",
+"role": "you",
+"text": "my bedroom by the arms,"
+},
+{
+"s": 6453,
+"e": 6485,
+"who": "THE BOY",
+"role": "you",
+"text": "one in each hand."
+},
+{
+"s": 6503,
+"e": 6548,
+"who": "THE BOY",
+"role": "you",
+"text": "It was not stupid."
+},
+{
+"s": 6549,
+"e": 6583,
+"who": "THE BOY",
+"role": "you",
+"text": "That is the part I"
+},
+{
+"s": 6583,
+"e": 6638,
+"who": "THE BOY",
+"role": "you",
+"text": "need you to understand."
+},
+{
+"s": 6639,
+"e": 6676,
+"who": "THE BOY",
+"role": "you",
+"text": "A thing that walks like"
+},
+{
+"s": 6676,
+"e": 6716,
+"who": "THE BOY",
+"role": "you",
+"text": "that should not have been"
+},
+{
+"s": 6716,
+"e": 6745,
+"who": "THE BOY",
+"role": "you",
+"text": "able to do what it"
+},
+{
+"s": 6745,
+"e": 6771,
+"who": "THE BOY",
+"role": "you",
+"text": "did next."
+},
+{
+"s": 6772,
+"e": 6822,
+"who": "THE BOY",
+"role": "you",
+"text": "It propped my father against"
+},
+{
+"s": 6822,
+"e": 6855,
+"who": "THE BOY",
+"role": "you",
+"text": "the foot of my bed,"
+},
+{
+"s": 6855,
+"e": 6900,
+"who": "THE BOY",
+"role": "you",
+"text": "sitting up, and turned his"
+},
+{
+"s": 6900,
+"e": 6944,
+"who": "THE BOY",
+"role": "you",
+"text": "face until he was looking"
+},
+{
+"s": 6944,
+"e": 6980,
+"who": "THE BOY",
+"role": "you",
+"text": "at my pillow."
+},
+{
+"s": 6981,
+"e": 7023,
+"who": "THE BOY",
+"role": "you",
+"text": "Then it lifted my mother"
+},
+{
+"s": 7023,
+"e": 7059,
+"who": "THE BOY",
+"role": "you",
+"text": "into the chair by my"
+},
+{
+"s": 7059,
+"e": 7103,
+"who": "THE BOY",
+"role": "you",
+"text": "window and turned her the"
+},
+{
+"s": 7103,
+"e": 7132,
+"who": "THE BOY",
+"role": "you",
+"text": "same way."
+},
+{
+"s": 7133,
+"e": 7173,
+"who": "THE BOY",
+"role": "you",
+"text": "It arranged them."
+},
+{
+"s": 7174,
+"e": 7217,
+"who": "THE BOY",
+"role": "you",
+"text": "Like a photograph."
+},
+{
+"s": 7218,
+"e": 7262,
+"who": "THE BOY",
+"role": "you",
+"text": "Like something that wanted the"
+},
+{
+"s": 7262,
+"e": 7313,
+"who": "THE BOY",
+"role": "you",
+"text": "picture to come out right."
+},
+{
+"s": 7314,
+"e": 7351,
+"who": "THE BOY",
+"role": "you",
+"text": "Then it put both hands"
+},
+{
+"s": 7351,
+"e": 7384,
+"who": "THE BOY",
+"role": "you",
+"text": "flat on my wall and"
+},
+{
+"s": 7384,
+"e": 7449,
+"who": "THE BOY",
+"role": "you",
+"text": "started dragging them along it."
+},
+{
+"s": 7450,
+"e": 7489,
+"who": "THE BOY",
+"role": "you",
+"text": "It drew a circle."
+},
+{
+"s": 7490,
+"e": 7532,
+"who": "THE BOY",
+"role": "you",
+"text": "Then a star inside the"
+},
+{
+"s": 7532,
+"e": 7595,
+"who": "THE BOY",
+"role": "you",
+"text": "circle, upside down, five points,"
+},
+{
+"s": 7595,
+"e": 7637,
+"who": "THE BOY",
+"role": "you",
+"text": "the kind of thing boys"
+},
+{
+"s": 7637,
+"e": 7679,
+"who": "THE BOY",
+"role": "you",
+"text": "scratch on the back of"
+},
+{
+"s": 7679,
+"e": 7728,
+"who": "THE BOY",
+"role": "you",
+"text": "their school books."
+},
+{
+"s": 7729,
+"e": 7792,
+"who": "THE BOY",
+"role": "you",
+"text": "It was painting with my parents."
+},
+{
+"s": 7793,
+"e": 7830,
+"who": "THE BOY",
+"role": "you",
+"text": "And then it stepped back"
+},
+{
+"s": 7830,
+"e": 7864,
+"who": "THE BOY",
+"role": "you",
+"text": "from the wall, the way"
+},
+{
+"s": 7864,
+"e": 7922,
+"who": "THE BOY",
+"role": "you",
+"text": "you step back from a drawing."
+},
+{
+"s": 7923,
+"e": 7966,
+"who": "THE BOY",
+"role": "you",
+"text": "Then it wrote something under"
+},
+{
+"s": 7966,
+"e": 7990,
+"who": "THE BOY",
+"role": "you",
+"text": "the circle."
+},
+{
+"s": 7991,
+"e": 8041,
+"who": "THE BOY",
+"role": "you",
+"text": "One line of letters, pulled"
+},
+{
+"s": 8041,
+"e": 8119,
+"who": "THE BOY",
+"role": "you",
+"text": "across my wallpaper with one finger."
+},
+{
+"s": 8120,
+"e": 8161,
+"who": "THE BOY",
+"role": "you",
+"text": "It was too dark."
+},
+{
+"s": 8162,
+"e": 8210,
+"who": "THE BOY",
+"role": "you",
+"text": "I could not read it."
+},
+{
+"s": 8211,
+"e": 8249,
+"who": "THE BOY",
+"role": "you",
+"text": "And then it got down"
+},
+{
+"s": 8249,
+"e": 8298,
+"who": "THE BOY",
+"role": "you",
+"text": "on my floor, folded itself"
+},
+{
+"s": 8298,
+"e": 8360,
+"who": "THE BOY",
+"role": "you",
+"text": "up, and went under my bed."
+},
+{
+"s": 8361,
+"e": 8399,
+"who": "THE BOY",
+"role": "you",
+"text": "Under my bed."
+},
+{
+"s": 8400,
+"e": 8440,
+"who": "THE BOY",
+"role": "you",
+"text": "With me on top of it."
+},
+{
+"s": 8458,
+"e": 8514,
+"who": "THE BOY",
+"role": "you",
+"text": "That was three hours ago."
+},
+{
+"s": 8515,
+"e": 8554,
+"who": "THE BOY",
+"role": "you",
+"text": "Here is the thing about"
+},
+{
+"s": 8554,
+"e": 8610,
+"who": "THE BOY",
+"role": "you",
+"text": "lying still for three hours."
+},
+{
+"s": 8611,
+"e": 8652,
+"who": "THE BOY",
+"role": "you",
+"text": "Your eyes get better at"
+},
+{
+"s": 8652,
+"e": 8680,
+"who": "THE BOY",
+"role": "you",
+"text": "the dark."
+},
+{
+"s": 8681,
+"e": 8727,
+"who": "THE BOY",
+"role": "you",
+"text": "The clock on my table"
+},
+{
+"s": 8727,
+"e": 8757,
+"who": "THE BOY",
+"role": "you",
+"text": "says 5:30."
+},
+{
+"s": 8758,
+"e": 8799,
+"who": "THE BOY",
+"role": "you",
+"text": "My window has gone from"
+},
+{
+"s": 8799,
+"e": 8832,
+"who": "THE BOY",
+"role": "you",
+"text": "black to grey."
+},
+{
+"s": 8833,
+"e": 8867,
+"who": "THE BOY",
+"role": "you",
+"text": "And the writing on my"
+},
+{
+"s": 8867,
+"e": 8915,
+"who": "THE BOY",
+"role": "you",
+"text": "wall has been getting clearer"
+},
+{
+"s": 8915,
+"e": 8968,
+"who": "THE BOY",
+"role": "you",
+"text": "for about twenty minutes."
+},
+{
+"s": 8969,
+"e": 9021,
+"who": "THE BOY",
+"role": "you",
+"text": "I have not looked at it."
+},
+{
+"s": 9022,
+"e": 9060,
+"who": "THE BOY",
+"role": "you",
+"text": "I have been looking at"
+},
+{
+"s": 9060,
+"e": 9109,
+"who": "THE BOY",
+"role": "you",
+"text": "my father instead, because he"
+},
+{
+"s": 9109,
+"e": 9143,
+"who": "THE BOY",
+"role": "you",
+"text": "is the only thing in"
+},
+{
+"s": 9143,
+"e": 9207,
+"who": "THE BOY",
+"role": "you",
+"text": "this room that cannot hurt me."
+},
+{
+"s": 9208,
+"e": 9246,
+"who": "THE BOY",
+"role": "you",
+"text": "I have one plan and"
+},
+{
+"s": 9246,
+"e": 9286,
+"who": "THE BOY",
+"role": "you",
+"text": "it is a bad one."
+},
+{
+"s": 9287,
+"e": 9345,
+"who": "THE BOY",
+"role": "you",
+"text": "The door is nine feet away."
+},
+{
+"s": 9346,
+"e": 9378,
+"who": "THE BOY",
+"role": "you",
+"text": "I run, I take the"
+},
+{
+"s": 9378,
+"e": 9424,
+"who": "THE BOY",
+"role": "you",
+"text": "stairs, I get the latch,"
+},
+{
+"s": 9424,
+"e": 9466,
+"who": "THE BOY",
+"role": "you",
+"text": "and I scream until the"
+},
+{
+"s": 9466,
+"e": 9528,
+"who": "THE BOY",
+"role": "you",
+"text": "Kellys put their light on."
+},
+{
+"s": 9529,
+"e": 9564,
+"who": "THE BOY",
+"role": "you",
+"text": "Nine feet."
+},
+{
+"s": 9565,
+"e": 9617,
+"who": "THE BOY",
+"role": "you",
+"text": "And it is under the bed."
+},
+{
+"s": 9618,
+"e": 9647,
+"who": "THE BOY",
+"role": "you",
+"text": "I would have to put"
+},
+{
+"s": 9647,
+"e": 9690,
+"who": "THE BOY",
+"role": "you",
+"text": "my feet on the floor."
+},
+{
+"s": 9691,
+"e": 9738,
+"who": "THE BOY",
+"role": "you",
+"text": "Nine feet to the door."
+},
+{
+"s": 9739,
+"e": 9787,
+"who": "THE BOY",
+"role": "you",
+"text": "It is under the bed."
+},
+{
+"s": 9788,
+"e": 9848,
+"who": "THE BOY",
+"role": "you",
+"text": "Do you stay still, or run?"
+},
+{
+"s": 9849,
+"e": 9885,
+"who": "THE BOY",
+"role": "you",
+"text": "So I have been doing"
+},
+{
+"s": 9885,
+"e": 9920,
+"who": "THE BOY",
+"role": "you",
+"text": "the only thing I can"
+},
+{
+"s": 9920,
+"e": 9978,
+"who": "THE BOY",
+"role": "you",
+"text": "do, which is nothing at all."
+},
+{
+"s": 9979,
+"e": 10016,
+"who": "THE BOY",
+"role": "you",
+"text": "Breathing slow."
+},
+{
+"s": 10017,
+"e": 10068,
+"who": "THE BOY",
+"role": "you",
+"text": "Keeping my face soft."
+},
+{
+"s": 10069,
+"e": 10125,
+"who": "THE BOY",
+"role": "you",
+"text": "Not blinking too much, because"
+},
+{
+"s": 10125,
+"e": 10165,
+"who": "THE BOY",
+"role": "you",
+"text": "I read once that they"
+},
+{
+"s": 10165,
+"e": 10194,
+"who": "THE BOY",
+"role": "you",
+"text": "can tell."
+},
+{
+"s": 10195,
+"e": 10229,
+"who": "THE BOY",
+"role": "you",
+"state": "(not moving)",
+"text": "It does not know I"
+},
+{
+"s": 10229,
+"e": 10258,
+"who": "THE BOY",
+"role": "you",
+"state": "(not moving)",
+"text": "am awake."
+},
+{
+"s": 10259,
+"e": 10297,
+"who": "THE BOY",
+"role": "you",
+"text": "I have been saying that"
+},
+{
+"s": 10297,
+"e": 10352,
+"who": "THE BOY",
+"role": "you",
+"text": "to myself for three hours."
+},
+{
+"s": 10353,
+"e": 10386,
+"who": "THE BOY",
+"role": "you",
+"text": "I am going to read"
+},
+{
+"s": 10386,
+"e": 10418,
+"who": "THE BOY",
+"role": "you",
+"text": "the wall now."
+},
+{
+"s": 10419,
+"e": 10462,
+"who": "THE BOY",
+"role": "you",
+"text": "I do not want to."
+},
+{
+"s": 10463,
+"e": 10503,
+"who": "THE BOY",
+"role": "you",
+"text": "But I would rather know"
+},
+{
+"s": 10503,
+"e": 10539,
+"who": "THE BOY",
+"role": "you",
+"text": "what it says than die"
+},
+{
+"s": 10539,
+"e": 10578,
+"who": "THE BOY",
+"role": "you",
+"text": "next to it not knowing."
+},
+{
+"s": 10596,
+"e": 10646,
+"who": "THE BOY",
+"role": "you",
+"text": "So I move my eyes."
+},
+{
+"s": 10647,
+"e": 10685,
+"who": "THE BOY",
+"role": "you",
+"text": "Not my head."
+},
+{
+"s": 10686,
+"e": 10727,
+"who": "THE BOY",
+"role": "you",
+"text": "Just my eyes, right, to"
+},
+{
+"s": 10727,
+"e": 10768,
+"who": "THE BOY",
+"role": "you",
+"text": "the circle and the star"
+},
+{
+"s": 10768,
+"e": 10828,
+"who": "THE BOY",
+"role": "you",
+"text": "and the line underneath it."
+},
+{
+"s": 10829,
+"e": 10883,
+"who": "THE BOY",
+"role": "you",
+"text": "And my eyes have adjusted."
+},
+{
+"s": 10884,
+"e": 10930,
+"who": "THE BOY",
+"role": "you",
+"text": "And I can read it."
+},
+{
+"s": 10931,
+"e": 10993,
+"who": "THE BOY",
+"role": "you",
+"text": "It says: I know you're awake."
+},
+{
+"s": 10994,
+"e": 11040,
+"who": "THE BOY",
+"role": "you",
+"text": "Under the bed, something shifts"
+},
+{
+"s": 11040,
+"e": 11069,
+"who": "THE BOY",
+"role": "you",
+"text": "its weight."
+},
+{
+"s": 11070,
+"e": 11111,
+"who": "THE BOY",
+"role": "you",
+"text": "It was never waiting to"
+},
+{
+"s": 11111,
+"e": 11158,
+"who": "THE BOY",
+"role": "you",
+"text": "find out if I woke up."
+},
+{
+"s": 11159,
+"e": 11199,
+"who": "THE BOY",
+"role": "you",
+"text": "It wrote that before I"
+},
+{
+"s": 11199,
+"e": 11246,
+"who": "THE BOY",
+"role": "you",
+"text": "opened my eyes, because it"
+},
+{
+"s": 11246,
+"e": 11282,
+"who": "THE BOY",
+"role": "you",
+"text": "already knew."
+},
+{
+"s": 11283,
+"e": 11323,
+"who": "THE BOY",
+"role": "you",
+"text": "It has been waiting three"
+},
+{
+"s": 11323,
+"e": 11374,
+"who": "THE BOY",
+"role": "you",
+"text": "hours for me to read it."
+},
+{
+"s": 11375,
+"e": 11402,
+"who": "THE BOY",
+"role": "you",
+"text": "If you were in that"
+},
+{
+"s": 11402,
+"e": 11440,
+"who": "THE BOY",
+"role": "you",
+"text": "bed, would you have stayed"
+},
+{
+"s": 11440,
+"e": 11480,
+"who": "THE BOY",
+"role": "you",
+"text": "still, or run for the door?"
+}
+]

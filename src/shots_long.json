@@ -1,1 +1,9299 @@
-{"fps": 30, "teaser": 1, "frames": 6863, "end_s": 208.762, "shots": [{"b": 0, "s": 0, "e": 64, "set": "library", "v": {"fr": "wide", "watch": true, "expr": "worry", "cm": "push", "n": 1}, "close": false, "fr": "wide", "reuse": false, "z": 1.5, "fx": 300, "fy": 460, "dir": 1, "off": 0}, {"b": 0, "s": 64, "e": 128, "set": "face", "v": {"fr": "close", "who": "ethan", "expr": "fear", "turn": 0.2, "tag": "WATCHED", "n": 2}, "close": false, "fr": "close", "reuse": false, "z": 1.5, "fx": 960, "fy": 360, "dir": -1, "off": 111}, {"b": 0, "s": 128, "e": 192, "set": "library", "v": {"fr": "bust", "watch": true, "expr": "fear", "cm": "truck", "n": 3}, "close": false, "fr": "bust", "reuse": false, "z": 1.4, "fx": 820, "fy": 480, "dir": 1, "off": 222}, {"b": 0, "s": 192, "e": 257, "set": "face", "v": {"fr": "close", "who": "ethan", "expr": "worry", "turn": -0.2, "n": 4}, "close": false, "fr": "close", "reuse": false, "z": 1.6, "fx": 960, "fy": 360, "dir": -1, "off": 333}, {"b": 0, "s": 257, "e": 321, "set": "library", "v": {"fr": "bust", "watch": true, "expr": "neutral", "cm": "orbit", "n": 71}, "close": false, "fr": "bust", "reuse": false, "z": 1.4, "fx": 540, "fy": 460, "dir": 1, "off": 84}, {"b": 0, "s": 321, "e": 385, "set": "face", "v": {"fr": "close", "who": "ethan", "expr": "fear", "turn": 0.3, "n": 70}, "close": false, "fr": "close", "reuse": false, "z": 1.55, "fx": 960, "fy": 360, "dir": -1, "off": 195}, {"b": 0, "s": 385, "e": 449, "set": "library", "v": {"fr": "wide", "watch": true, "tag": true, "expr": "fear", "cm": "pull", "n": 5}, "close": false, "fr": "wide", "reuse": false, "z": 1.5, "fx": 300, "fy": 460, "dir": 1, "off": 306}, {"b": 1, "s": 449, "e": 481, "set": "library", "v": {"fr": "wide", "expr": "sad", "cm": "truck", "n": 6}, "close": false, "fr": "wide", "reuse": false, "z": 1.4, "fx": 540, "fy": 480, "dir": -1, "off": 57}, {"b": 1, "s": 481, "e": 514, "set": "library", "v": {"fr": "bust", "watch": true, "expr": "fear", "cm": "pull", "n": 7}, "close": false, "fr": "bust", "reuse": false, "z": 1.4, "fx": 820, "fy": 480, "dir": 1, "off": 168}, {"b": 2, "s": 514, "e": 603, "set": "common", "v": {"fr": "wide", "who": "both", "expr": "smile", "jexpr": "smile", "cm": "rise", "n": 8}, "close": false, "fr": "wide", "reuse": false, "z": 1.4, "fx": 760, "fy": 480, "dir": -1, "off": 279}, {"b": 2, "s": 603, "e": 680, "set": "common", "v": {"fr": "bust", "who": "ethan", "expr": "smile", "cm": "still", "n": 9}, "close": false, "fr": "bust", "reuse": false, "z": 1.35, "fx": 640, "fy": 430, "dir": 1, "off": 30}, {"b": 2, "s": 680, "e": 763, "set": "face", "v": {"fr": "bust", "who": "jack", "expr": "smile", "warm": true, "turn": 0.1, "n": 10}, "close": false, "fr": "bust", "reuse": false, "z": 1.4, "fx": 960, "fy": 360, "dir": -1, "off": 141}, {"b": 2, "s": 763, "e": 837, "set": "common", "v": {"fr": "wide", "who": "jack", "jexpr": "smile", "cm": "truck", "n": 11}, "close": false, "fr": "wide", "reuse": false, "z": 1.4, "fx": 860, "fy": 480, "dir": 1, "off": 252}, {"b": 2, "s": 837, "e": 929, "set": "common", "v": {"fr": "bust", "who": "both", "expr": "neutral", "jexpr": "smile", "cm": "pull", "n": 12}, "close": false, "fr": "bust", "reuse": false, "z": 1.4, "fx": 760, "fy": 480, "dir": -1, "off": 3}, {"b": 3, "s": 929, "e": 1012, "set": "common", "v": {"fr": "wide", "who": "both", "expr": "smile", "jexpr": "smile", "cm": "push", "n": 13}, "close": false, "fr": "wide", "reuse": false, "z": 1.4, "fx": 760, "fy": 480, "dir": 1, "off": 114}, {"b": 3, "s": 1012, "e": 1078, "set": "face", "v": {"fr": "close", "who": "elisa", "expr": "smile", "warm": false, "turn": 0.0, "n": 14}, "close": false, "fr": "close", "reuse": false, "z": 1.5, "fx": 960, "fy": 360, "dir": -1, "off": 225}, {"b": 3, "s": 1078, "e": 1177, "set": "common", "v": {"fr": "bust", "who": "jack", "jexpr": "sad", "cm": "still", "n": 15}, "close": false, "fr": "bust", "reuse": false, "z": 1.4, "fx": 860, "fy": 480, "dir": 1, "off": 336}, {"b": 3, "s": 1177, "e": 1243, "set": "face", "v": {"fr": "bust", "who": "jack", "expr": "sad", "warm": true, "turn": -0.1, "n": 16}, "close": false, "fr": "bust", "reuse": false, "z": 1.45, "fx": 960, "fy": 360, "dir": -1, "off": 87}, {"b": 3, "s": 1243, "e": 1324, "set": "common", "v": {"fr": "bust", "who": "jack", "jexpr": "neutral", "cm": "orbit", "n": 72}, "close": false, "fr": "bust", "reuse": false, "z": 1.4, "fx": 860, "fy": 480, "dir": 1, "off": 198}, {"b": 3, "s": 1324, "e": 1425, "set": "common", "v": {"fr": "wide", "who": "ethan", "expr": "worry", "cm": "truck", "n": 17}, "close": false, "fr": "wide", "reuse": false, "z": 1.4, "fx": 640, "fy": 480, "dir": -1, "off": 309}, {"b": 4, "s": 1425, "e": 1500, "set": "cafeteria", "v": {"fr": "wide", "cm": "push", "n": 18}, "close": false, "fr": "wide", "reuse": false, "z": 1.4, "fx": 1120, "fy": 460, "dir": 1, "off": 60}, {"b": 4, "s": 1500, "e": 1576, "set": "cafeteria", "v": {"fr": "bust", "tray": true, "cm": "truck", "n": 19}, "close": false, "fr": "bust", "reuse": false, "z": 1.4, "fx": 1120, "fy": 480, "dir": -1, "off": 171}, {"b": 4, "s": 1576, "e": 1652, "set": "face", "v": {"fr": "close", "who": "jack", "expr": "stern", "turn": 0.2, "n": 20}, "close": false, "fr": "close", "reuse": false, "z": 1.5, "fx": 960, "fy": 360, "dir": 1, "off": 282}, {"b": 4, "s": 1652, "e": 1727, "set": "cafeteria", "v": {"fr": "wide", "cm": "still", "n": 21}, "close": false, "fr": "wide", "reuse": false, "z": 1.35, "fx": 1200, "fy": 420, "dir": -1, "off": 33}, {"b": 4, "s": 1727, "e": 1803, "set": "cafeteria", "v": {"fr": "wide", "tray": true, "expr": "stern", "cm": "rise", "n": 73}, "close": false, "fr": "wide", "reuse": false, "z": 1.4, "fx": 1120, "fy": 460, "dir": 1, "off": 144}, {"b": 4, "s": 1803, "e": 1878, "set": "cafeteria", "v": {"fr": "bust", "tray": true, "cm": "pull", "n": 22}, "close": false, "fr": "bust", "reuse": false, "z": 1.4, "fx": 1000, "fy": 480, "dir": -1, "off": 255}, {"b": 5, "s": 1878, "e": 1960, "set": "hall", "v": {"fr": "wide", "tag": true, "expr": "smile", "cm": "push", "n": 23}, "close": false, "fr": "wide", "reuse": false, "z": 1.4, "fx": 1200, "fy": 460, "dir": 1, "off": 6}, {"b": 5, "s": 1960, "e": 2031, "set": "face", "v": {"fr": "close", "who": "elisa", "expr": "cruel", "turn": -0.1, "n": 24}, "close": false, "fr": "close", "reuse": false, "z": 1.5, "fx": 960, "fy": 360, "dir": -1, "off": 117}, {"b": 5, "s": 2031, "e": 2096, "set": "hall", "v": {"fr": "bust", "expr": "cruel", "cm": "still", "n": 25}, "close": false, "fr": "bust", "reuse": false, "z": 1.35, "fx": 1200, "fy": 420, "dir": 1, "off": 228}, {"b": 5, "s": 2096, "e": 2183, "set": "hall", "v": {"fr": "bust", "tag": true, "expr": "cruel", "cm": "pull", "n": 74}, "close": false, "fr": "bust", "reuse": false, "z": 1.4, "fx": 1200, "fy": 460, "dir": -1, "off": 339}, {"b": 5, "s": 2183, "e": 2261, "set": "hall", "v": {"fr": "wide", "expr": "neutral", "cm": "orbit", "n": 75}, "close": false, "fr": "wide", "reuse": false, "z": 1.35, "fx": 1160, "fy": 420, "dir": 1, "off": 90}, {"b": 5, "s": 2261, "e": 2337, "set": "hall", "v": {"fr": "wide", "expr": "smile", "cm": "truck", "n": 26}, "close": false, "fr": "wide", "reuse": false, "z": 1.4, "fx": 1160, "fy": 480, "dir": -1, "off": 201}, {"b": 6, "s": 2337, "e": 2432, "set": "phone", "v": {"fr": "wide", "expr": "worry", "cm": "push", "n": 27}, "close": false, "fr": "wide", "reuse": false, "z": 1.4, "fx": 760, "fy": 460, "dir": 1, "off": 312}, {"b": 6, "s": 2432, "e": 2498, "set": "phone", "v": {"fr": "bust", "expr": "fear", "cm": "still", "n": 29}, "close": false, "fr": "bust", "reuse": false, "z": 1.35, "fx": 760, "fy": 420, "dir": -1, "off": 63}, {"b": 6, "s": 2498, "e": 2578, "set": "phone", "v": {"fr": "bust", "expr": "sad", "cm": "pull", "n": 76}, "close": false, "fr": "bust", "reuse": false, "z": 1.4, "fx": 760, "fy": 460, "dir": 1, "off": 174}, {"b": 6, "s": 2578, "e": 2677, "set": "phone", "v": {"fr": "wide", "expr": "worry", "cm": "orbit", "n": 77}, "close": false, "fr": "wide", "reuse": false, "z": 1.35, "fx": 760, "fy": 420, "dir": -1, "off": 285}, {"b": 6, "s": 2677, "e": 2739, "set": "phone", "v": {"fr": "bust", "expr": "fear", "cm": "rise", "n": 78}, "close": false, "fr": "bust", "reuse": false, "z": 1.4, "fx": 820, "fy": 460, "dir": 1, "off": 36}, {"b": 6, "s": 2739, "e": 2820, "set": "phone", "v": {"fr": "wide", "tag": true, "expr": "fear", "cm": "truck", "n": 30}, "close": false, "fr": "wide", "reuse": false, "z": 1.4, "fx": 760, "fy": 460, "dir": -1, "off": 147}, {"b": 7, "s": 2820, "e": 2908, "set": "apartment", "v": {"fr": "wide", "dark": false, "jexpr": "sad", "cm": "push", "n": 31}, "close": false, "fr": "wide", "reuse": false, "z": 1.4, "fx": 820, "fy": 460, "dir": 1, "off": 258}, {"b": 7, "s": 2908, "e": 2997, "set": "apartment", "v": {"fr": "bust", "dark": true, "jexpr": "fear", "cm": "still", "n": 32}, "close": false, "fr": "bust", "reuse": false, "z": 1.4, "fx": 820, "fy": 460, "dir": -1, "off": 9}, {"b": 7, "s": 2997, "e": 3097, "set": "face", "v": {"fr": "close", "who": "jack", "expr": "fear", "tears": true, "turn": 0.0, "n": 33}, "close": false, "fr": "close", "reuse": false, "z": 1.5, "fx": 960, "fy": 360, "dir": 1, "off": 120}, {"b": 7, "s": 3097, "e": 3175, "set": "apartment", "v": {"fr": "wide", "dark": true, "tears": true, "tag": true, "jexpr": "fear", "cm": "truck", "n": 34}, "close": false, "fr": "wide", "reuse": false, "z": 1.4, "fx": 800, "fy": 460, "dir": -1, "off": 231}, {"b": 7, "s": 3175, "e": 3264, "set": "apartment", "v": {"fr": "wide", "dark": true, "tears": true, "jexpr": "sad", "cm": "pull", "n": 36}, "close": false, "fr": "wide", "reuse": false, "z": 1.4, "fx": 860, "fy": 460, "dir": 1, "off": 342}, {"b": 8, "s": 3264, "e": 3338, "set": "apartment", "v": {"fr": "wide", "dark": true, "ethan": true, "jexpr": "fear", "cm": "still", "n": 37}, "close": false, "fr": "wide", "reuse": false, "z": 1.4, "fx": 1000, "fy": 460, "dir": -1, "off": 93}, {"b": 8, "s": 3338, "e": 3432, "set": "door", "v": {"fr": "bust", "cm": "push", "n": 38}, "close": false, "fr": "bust", "reuse": false, "z": 1.4, "fx": 1180, "fy": 460, "dir": 1, "off": 204}, {"b": 8, "s": 3432, "e": 3520, "set": "door", "v": {"fr": "wide", "ethan": true, "cm": "truck", "n": 39}, "close": false, "fr": "wide", "reuse": false, "z": 1.4, "fx": 700, "fy": 460, "dir": -1, "off": 315}, {"b": 8, "s": 3520, "e": 3601, "set": "woods", "v": {"fr": "bust", "run": true, "cm": "truck", "n": 40}, "close": false, "fr": "bust", "reuse": false, "z": 1.4, "fx": 960, "fy": 460, "dir": 1, "off": 66}, {"b": 8, "s": 3601, "e": 3671, "set": "woods", "v": {"fr": "bust", "run": true, "cm": "push", "n": 78}, "close": false, "fr": "bust", "reuse": false, "z": 1.4, "fx": 900, "fy": 460, "dir": -1, "off": 177}, {"b": 8, "s": 3671, "e": 3753, "set": "apartment", "v": {"fr": "wide", "dark": true, "ethan": true, "jexpr": "speak", "cm": "truck", "n": 79}, "close": false, "fr": "wide", "reuse": false, "z": 1.35, "fx": 1000, "fy": 440, "dir": 1, "off": 288}, {"b": 8, "s": 3753, "e": 3854, "set": "door", "v": {"fr": "wide", "cm": "still", "n": 41}, "close": false, "fr": "wide", "reuse": false, "z": 1.35, "fx": 1180, "fy": 440, "dir": -1, "off": 39}, {"b": 9, "s": 3854, "e": 3941, "set": "woods", "v": {"fr": "wide", "run": false, "cm": "push", "n": 42}, "close": false, "fr": "wide", "reuse": false, "z": 1.4, "fx": 900, "fy": 460, "dir": 1, "off": 150}, {"b": 9, "s": 3941, "e": 4028, "set": "clearing", "v": {"fr": "bust", "c": "mask", "face": 1, "px": 0, "unmask": true, "tag": true, "tar": 0.4, "cm": "truck", "n": 43}, "close": false, "fr": "bust", "reuse": false, "z": 1.35, "fx": 1100, "fy": 440, "dir": -1, "off": 261}, {"b": 9, "s": 4028, "e": 4114, "set": "face", "v": {"fr": "close", "who": "ethan", "expr": "fear", "warm": false, "turn": 0.2, "n": 44}, "close": false, "fr": "close", "reuse": false, "z": 1.5, "fx": 960, "fy": 360, "dir": 1, "off": 12}, {"b": 9, "s": 4114, "e": 4221, "set": "clearing", "v": {"fr": "wide", "c": "mask", "face": -1, "px": -110, "read": true, "tar": 0.45, "cm": "still", "n": 45}, "close": false, "fr": "wide", "reuse": false, "z": 1.35, "fx": 760, "fy": 440, "dir": -1, "off": 123}, {"b": 9, "s": 4221, "e": 4288, "set": "ritual", "v": {"fr": "bust", "c": "mask", "face": 1, "px": 60, "tar": 0.5, "tend": 0.2, "cm": "push", "n": 46}, "close": false, "fr": "bust", "reuse": false, "z": 1.3, "fx": 960, "fy": 420, "dir": 1, "off": 234}, {"b": 9, "s": 4288, "e": 4374, "set": "clearing", "v": {"fr": "wide", "c": "mask", "face": -1, "px": 120, "unmask": true, "tar": 0.5, "cm": "pull", "n": 47}, "close": false, "fr": "wide", "reuse": false, "z": 1.35, "fx": 900, "fy": 440, "dir": -1, "off": 345}, {"b": 10, "s": 4374, "e": 4475, "set": "ritual", "v": {"fr": "wide", "c": "mask", "face": 1, "px": 0, "tar": 0.6, "tend": 0.4, "cm": "push", "n": 48}, "close": false, "fr": "wide", "reuse": false, "z": 1.35, "fx": 960, "fy": 420, "dir": 1, "off": 96}, {"b": 10, "s": 4475, "e": 4543, "set": "face", "v": {"fr": "close", "who": "ethan", "expr": "shock", "warm": false, "turn": -0.1, "n": 49}, "close": false, "fr": "close", "reuse": false, "z": 1.5, "fx": 960, "fy": 360, "dir": -1, "off": 207}, {"b": 10, "s": 4543, "e": 4615, "set": "clearing", "v": {"fr": "bust", "c": "mask", "face": -1, "px": -90, "read": true, "tar": 0.65, "tend": 0.5, "cm": "still", "n": 50}, "close": false, "fr": "bust", "reuse": false, "z": 1.3, "fx": 960, "fy": 440, "dir": 1, "off": 318}, {"b": 10, "s": 4615, "e": 4696, "set": "ritual", "v": {"fr": "wide", "c": "mask", "face": 1, "px": 80, "tar": 0.8, "tend": 0.8, "cm": "truck", "n": 51}, "close": false, "fr": "wide", "reuse": false, "z": 1.3, "fx": 960, "fy": 400, "dir": -1, "off": 69}, {"b": 10, "s": 4696, "e": 4797, "set": "clearing", "v": {"fr": "wide", "c": "mask", "face": 1, "px": 130, "read": true, "tar": 0.7, "tend": 0.6, "cm": "truck", "n": 80}, "close": false, "fr": "wide", "reuse": false, "z": 1.3, "fx": 760, "fy": 440, "dir": 1, "off": 180}, {"b": 10, "s": 4797, "e": 4880, "set": "ritual", "v": {"fr": "bust", "c": "mask", "face": -1, "px": -40, "tar": 0.9, "tend": 1.0, "cm": "pull", "n": 52}, "close": false, "fr": "bust", "reuse": false, "z": 1.35, "fx": 960, "fy": 420, "dir": -1, "off": 291}, {"b": 11, "s": 4880, "e": 4955, "set": "unleashed", "v": {"fr": "wide", "c": "mask", "face": 1, "pose": "stalk", "pp": 0.3, "px": 0, "cm": "truck", "n": 53}, "close": false, "fr": "wide", "reuse": false, "z": 1.35, "fx": 820, "fy": 440, "dir": 1, "off": 42}, {"b": 11, "s": 4955, "e": 5049, "set": "face", "v": {"fr": "close", "who": "ethan", "expr": "fear", "warm": false, "turn": 0.3, "n": 54}, "close": false, "fr": "close", "reuse": false, "z": 1.55, "fx": 960, "fy": 360, "dir": -1, "off": 153}, {"b": 11, "s": 5049, "e": 5137, "set": "unleashed", "v": {"fr": "bust", "c": "mask", "face": -1, "pose": "loom", "pp": 0.5, "px": -80, "cm": "still", "n": 55}, "close": false, "fr": "bust", "reuse": false, "z": 1.35, "fx": 900, "fy": 440, "dir": 1, "off": 264}, {"b": 11, "s": 5137, "e": 5218, "set": "clearing", "v": {"fr": "wide", "c": "mask", "face": 1, "px": -130, "read": true, "tar": 0.9, "cm": "push", "n": 56}, "close": false, "fr": "wide", "reuse": false, "z": 1.3, "fx": 760, "fy": 440, "dir": -1, "off": 15}, {"b": 11, "s": 5218, "e": 5303, "set": "unleashed", "v": {"fr": "bust", "c": "mask", "face": 1, "pose": "crouch", "pp": 0.7, "px": 120, "cm": "push", "n": 57}, "close": false, "fr": "bust", "reuse": false, "z": 1.3, "fx": 900, "fy": 420, "dir": 1, "off": 126}, {"b": 11, "s": 5303, "e": 5388, "set": "unleashed", "v": {"fr": "wide", "c": "mask", "face": 1, "pose": "stalk", "pp": 0.85, "px": -40, "cm": "truck", "n": 58}, "close": false, "fr": "wide", "reuse": false, "z": 1.3, "fx": 840, "fy": 440, "dir": -1, "off": 237}, {"b": 11, "s": 5388, "e": 5472, "set": "unleashed", "v": {"fr": "bust", "c": "mask", "face": -1, "pose": "loom", "pp": 0.95, "px": 0, "cm": "pull", "n": 59}, "close": false, "fr": "bust", "reuse": false, "z": 1.35, "fx": 900, "fy": 440, "dir": 1, "off": 348}, {"b": 12, "s": 5472, "e": 5547, "set": "hospital", "v": {"fr": "wide", "officer": true, "expr": "sad", "cm": "push", "n": 56}, "close": false, "fr": "wide", "reuse": false, "z": 1.35, "fx": 1000, "fy": 440, "dir": -1, "off": 99}, {"b": 12, "s": 5547, "e": 5615, "set": "hospital", "v": {"fr": "bust", "tag": true, "expr": "sad", "cm": "still", "n": 57}, "close": false, "fr": "bust", "reuse": false, "z": 1.35, "fx": 1120, "fy": 440, "dir": 1, "off": 210}, {"b": 12, "s": 5615, "e": 5698, "set": "face", "v": {"fr": "close", "who": "ethan", "expr": "sad", "warm": false, "turn": 0.1, "n": 58}, "close": false, "fr": "close", "reuse": false, "z": 1.5, "fx": 960, "fy": 360, "dir": -1, "off": 321}, {"b": 12, "s": 5698, "e": 5773, "set": "hospital", "v": {"fr": "bust", "officer": true, "expr": "worry", "cm": "pull", "n": 85}, "close": false, "fr": "bust", "reuse": false, "z": 1.35, "fx": 1000, "fy": 440, "dir": 1, "off": 72}, {"b": 12, "s": 5773, "e": 5844, "set": "hospital", "v": {"fr": "wide", "expr": "neutral", "cm": "orbit", "n": 86}, "close": false, "fr": "wide", "reuse": false, "z": 1.35, "fx": 900, "fy": 440, "dir": -1, "off": 183}, {"b": 12, "s": 5844, "e": 5924, "set": "hospital", "v": {"fr": "bust", "officer": true, "expr": "fear", "cm": "truck", "n": 87}, "close": false, "fr": "bust", "reuse": false, "z": 1.3, "fx": 1000, "fy": 440, "dir": 1, "off": 294}, {"b": 12, "s": 5924, "e": 5999, "set": "hospital", "v": {"fr": "wide", "officer": true, "expr": "neutral", "cm": "truck", "n": 59}, "close": false, "fr": "wide", "reuse": false, "z": 1.3, "fx": 900, "fy": 420, "dir": -1, "off": 45}, {"b": 13, "s": 5999, "e": 6087, "set": "woods", "v": {"fr": "wide", "run": false, "cm": "pull", "n": 60}, "close": false, "fr": "wide", "reuse": false, "z": 1.4, "fx": 900, "fy": 460, "dir": 1, "off": 156}, {"b": 13, "s": 6087, "e": 6175, "set": "face", "v": {"fr": "bust", "who": "ethan", "expr": "sad", "warm": false, "turn": 0.0, "n": 88}, "close": false, "fr": "bust", "reuse": false, "z": 1.4, "fx": 960, "fy": 360, "dir": -1, "off": 267}, {"b": 13, "s": 6175, "e": 6263, "set": "credit", "v": {"fr": "detail", "n": 61}, "close": false, "fr": "detail", "reuse": false, "z": 1.6, "fx": 960, "fy": 540, "dir": 1, "off": 18}, {"b": 14, "s": 6263, "e": 6863, "set": "end", "v": {"fr": "wide", "n": 62}, "close": false, "fr": "wide", "reuse": false, "z": 1.6, "fx": 960, "fy": 540, "dir": -1, "off": 129}], "chapters": [{"s": 520, "n": 1, "title": "A New Friend", "t": 17.13}, {"s": 935, "n": 2, "title": "The Girl From Class", "t": 30.97}, {"s": 1431, "n": 3, "title": "Something Changed", "t": 47.49}, {"s": 1884, "n": 4, "title": "Better Than Ever", "t": 62.61}, {"s": 2343, "n": 5, "title": "The Phone Call", "t": 77.91}, {"s": 2826, "n": 6, "title": "Black Tears", "t": 93.98}, {"s": 3270, "n": 7, "title": "The Knock", "t": 108.79}, {"s": 3860, "n": 8, "title": "The Clearing", "t": 128.47}, {"s": 4380, "n": 9, "title": "The Ritual", "t": 145.81}, {"s": 4886, "n": 10, "title": "You Made Him Mad", "t": 162.66}, {"s": 5478, "n": 11, "title": "What I Lost", "t": 182.4}], "chapter_times": [[0.0, "Intro"], [17.13, "A New Friend"], [30.97, "The Girl From Class"], [47.49, "Something Changed"], [62.61, "Better Than Ever"], [77.91, "The Phone Call"], [93.98, "Black Tears"], [108.79, "The Knock"], [128.47, "The Clearing"], [145.81, "The Ritual"], [162.66, "You Made Him Mad"], [182.4, "What I Lost"]]}
+{
+ "fps": 30,
+ "w": 1920,
+ "h": 1080,
+ "frames": 11518,
+ "shots": [
+  {
+   "id": "b00_1",
+   "s": 0,
+   "e": 76,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "open",
+    "window": "dawn",
+    "ground": "pool",
+    "clock": "5:30",
+    "shape": "pentagram",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 180,
+    "pitch": 0
+   },
+   "preset": "idle_breath",
+   "hands": "grip_rail",
+   "actors": [
+    {
+     "id": "father",
+     "at": [
+      -1.05,
+      0.0,
+      -1.12
+     ],
+     "yaw": 0,
+     "pose": "sit",
+     "look": {
+      "h": 1.78,
+      "skin": "#c88c62",
+      "skinShade": "#8e5f41",
+      "hairStyle": "balding",
+      "hair": "#1d1820",
+      "facial": "moustache",
+      "top": "#9fb4cc",
+      "sleeve": "#9fb4cc",
+      "legs": "#4a4036",
+      "shoes": "#5a4433"
+     },
+     "state": {
+      "blood": "smear",
+      "expr": "shocked",
+      "mouth": "open",
+      "eyesShut": false
+     }
+    },
+    {
+     "id": "mother",
+     "at": [
+      1.3,
+      0.0,
+      -1.9
+     ],
+     "yaw": 65,
+     "pose": "sit",
+     "look": {
+      "h": 1.62,
+      "skin": "#e0a87f",
+      "skinShade": "#ab7256",
+      "hairStyle": "long",
+      "hair": "#1d1820",
+      "top": "#8e2f3c",
+      "sleeve": "#8e2f3c",
+      "legs": "#8e2f3c",
+      "shoes": "#2a2730"
+     },
+     "state": {
+      "blood": "spots",
+      "expr": "shocked",
+      "mouth": "open",
+      "eyesShut": false
+     }
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "b536a5806d6f9ddb"
+  },
+  {
+   "id": "b00_2",
+   "s": 76,
+   "e": 149,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "open",
+    "window": "blind",
+    "ground": "pool",
+    "clock": "5:30",
+    "shape": "pentagram",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 195,
+    "pitch": -15
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [
+    {
+     "id": "father",
+     "at": [
+      -1.05,
+      0.0,
+      -1.12
+     ],
+     "yaw": 0,
+     "pose": "sit",
+     "look": {
+      "h": 1.78,
+      "skin": "#c88c62",
+      "skinShade": "#8e5f41",
+      "hairStyle": "balding",
+      "hair": "#1d1820",
+      "facial": "moustache",
+      "top": "#9fb4cc",
+      "sleeve": "#9fb4cc",
+      "legs": "#4a4036",
+      "shoes": "#5a4433"
+     },
+     "state": {
+      "blood": "smear",
+      "expr": "shocked",
+      "mouth": "open",
+      "eyesShut": false
+     }
+    }
+   ],
+   "framing": "waist",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "13acd7497a1d2e7e"
+  },
+  {
+   "id": "b00_3",
+   "s": 149,
+   "e": 222,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "open",
+    "window": "dawn",
+    "ground": "smear",
+    "clock": "5:30",
+    "shape": "pentagram",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 255,
+    "pitch": 2
+   },
+   "preset": "idle_breath",
+   "hands": "brace_fall",
+   "actors": [
+    {
+     "id": "mother",
+     "at": [
+      1.3,
+      0.0,
+      -1.9
+     ],
+     "yaw": 65,
+     "pose": "sit",
+     "look": {
+      "h": 1.62,
+      "skin": "#e0a87f",
+      "skinShade": "#ab7256",
+      "hairStyle": "long",
+      "hair": "#1d1820",
+      "top": "#8e2f3c",
+      "sleeve": "#8e2f3c",
+      "legs": "#8e2f3c",
+      "shoes": "#2a2730"
+     },
+     "state": {
+      "blood": "spots",
+      "expr": "shocked",
+      "mouth": "open",
+      "eyesShut": false
+     }
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "22b22c6728fa87ff"
+  },
+  {
+   "id": "b01_1",
+   "s": 222,
+   "e": 283,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "open",
+    "window": "curtained",
+    "ground": "pool",
+    "clock": "5:30",
+    "shape": "pentagram",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 240,
+    "pitch": -2
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [
+    {
+     "id": "mother",
+     "at": [
+      1.3,
+      0.0,
+      -1.9
+     ],
+     "yaw": 65,
+     "pose": "sit",
+     "look": {
+      "h": 1.62,
+      "skin": "#e0a87f",
+      "skinShade": "#ab7256",
+      "hairStyle": "long",
+      "hair": "#1d1820",
+      "top": "#8e2f3c",
+      "sleeve": "#8e2f3c",
+      "legs": "#8e2f3c",
+      "shoes": "#2a2730"
+     },
+     "state": {
+      "blood": "spots",
+      "expr": "shocked",
+      "mouth": "open",
+      "eyesShut": false
+     }
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "248ea33dd1d9f3a1"
+  },
+  {
+   "id": "b01_2",
+   "s": 283,
+   "e": 341,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "open",
+    "window": "blind",
+    "ground": "smear",
+    "clock": "5:30",
+    "shape": "pentagram",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.86,
+     -2.92
+    ],
+    "yaw": 180,
+    "pitch": 12
+   },
+   "preset": "idle_breath",
+   "hands": "grip_rail",
+   "actors": [
+    {
+     "id": "father",
+     "at": [
+      -1.05,
+      0.0,
+      -1.12
+     ],
+     "yaw": 0,
+     "pose": "sit",
+     "look": {
+      "h": 1.78,
+      "skin": "#c88c62",
+      "skinShade": "#8e5f41",
+      "hairStyle": "balding",
+      "hair": "#1d1820",
+      "facial": "moustache",
+      "top": "#9fb4cc",
+      "sleeve": "#9fb4cc",
+      "legs": "#4a4036",
+      "shoes": "#5a4433"
+     },
+     "state": {
+      "blood": "smear",
+      "expr": "shocked",
+      "mouth": "open",
+      "eyesShut": false
+     }
+    }
+   ],
+   "framing": "waist",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "cf15b20853d212c6"
+  },
+  {
+   "id": "b01_3",
+   "s": 341,
+   "e": 405,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "open",
+    "window": "dawn",
+    "ground": "pool",
+    "clock": "5:30",
+    "shape": "pentagram",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 210,
+    "pitch": -15
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [
+    {
+     "id": "father",
+     "at": [
+      -1.05,
+      0.0,
+      -1.12
+     ],
+     "yaw": 0,
+     "pose": "sit",
+     "look": {
+      "h": 1.78,
+      "skin": "#c88c62",
+      "skinShade": "#8e5f41",
+      "hairStyle": "balding",
+      "hair": "#1d1820",
+      "facial": "moustache",
+      "top": "#9fb4cc",
+      "sleeve": "#9fb4cc",
+      "legs": "#4a4036",
+      "shoes": "#5a4433"
+     },
+     "state": {
+      "blood": "smear",
+      "expr": "shocked",
+      "mouth": "open",
+      "eyesShut": false
+     }
+    },
+    {
+     "id": "mother",
+     "at": [
+      1.3,
+      0.0,
+      -1.9
+     ],
+     "yaw": 65,
+     "pose": "sit",
+     "look": {
+      "h": 1.62,
+      "skin": "#e0a87f",
+      "skinShade": "#ab7256",
+      "hairStyle": "long",
+      "hair": "#1d1820",
+      "top": "#8e2f3c",
+      "sleeve": "#8e2f3c",
+      "legs": "#8e2f3c",
+      "shoes": "#2a2730"
+     },
+     "state": {
+      "blood": "spots",
+      "expr": "shocked",
+      "mouth": "open",
+      "eyesShut": false
+     }
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "a7223710f7ebf6a3"
+  },
+  {
+   "id": "b01_4",
+   "s": 405,
+   "e": 461,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "wide",
+    "window": "dawn",
+    "ground": "pool",
+    "clock": "5:30",
+    "shape": "pentagram",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 225,
+    "pitch": 15
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [
+    {
+     "id": "mother",
+     "at": [
+      1.3,
+      0.0,
+      -1.9
+     ],
+     "yaw": 65,
+     "pose": "sit",
+     "look": {
+      "h": 1.62,
+      "skin": "#e0a87f",
+      "skinShade": "#ab7256",
+      "hairStyle": "long",
+      "hair": "#1d1820",
+      "top": "#8e2f3c",
+      "sleeve": "#8e2f3c",
+      "legs": "#8e2f3c",
+      "shoes": "#2a2730"
+     },
+     "state": {
+      "blood": "spots",
+      "expr": "sad",
+      "mouth": "open",
+      "eyesShut": false
+     }
+    }
+   ],
+   "framing": "face",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "4f88c5706f2f8d27"
+  },
+  {
+   "id": "b01_5",
+   "s": 461,
+   "e": 522,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "open",
+    "window": "dawn",
+    "ground": "drops",
+    "clock": "5:30",
+    "shape": "pentagram",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.86,
+     -2.92
+    ],
+    "yaw": 165,
+    "pitch": -15
+   },
+   "preset": "idle_breath",
+   "hands": "brace_fall",
+   "actors": [
+    {
+     "id": "father",
+     "at": [
+      -1.05,
+      0.0,
+      -1.12
+     ],
+     "yaw": 0,
+     "pose": "sit",
+     "look": {
+      "h": 1.78,
+      "skin": "#c88c62",
+      "skinShade": "#8e5f41",
+      "hairStyle": "balding",
+      "hair": "#1d1820",
+      "facial": "moustache",
+      "top": "#9fb4cc",
+      "sleeve": "#9fb4cc",
+      "legs": "#4a4036",
+      "shoes": "#5a4433"
+     },
+     "state": {
+      "blood": "smear",
+      "expr": "sad",
+      "mouth": "open",
+      "eyesShut": false
+     }
+    }
+   ],
+   "framing": "waist",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "62ae2a07ba351851"
+  },
+  {
+   "id": "b02_1",
+   "s": 522,
+   "e": 590,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "open",
+    "window": "blind",
+    "ground": "pool",
+    "clock": "5:30",
+    "shape": "pentagram",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 200,
+    "pitch": -5
+   },
+   "preset": "idle_breath",
+   "hands": "grip_rail",
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "f5167be2c3a7a8e7"
+  },
+  {
+   "id": "b02_2",
+   "s": 590,
+   "e": 656,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "ajar",
+    "window": "dawn",
+    "ground": "smear",
+    "clock": "5:30",
+    "shape": "pentagram",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 180,
+    "pitch": -22
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [
+    {
+     "id": "father",
+     "at": [
+      -1.05,
+      0.0,
+      -1.12
+     ],
+     "yaw": 0,
+     "pose": "sit",
+     "look": {
+      "h": 1.78,
+      "skin": "#c88c62",
+      "skinShade": "#8e5f41",
+      "hairStyle": "balding",
+      "hair": "#1d1820",
+      "facial": "moustache",
+      "top": "#9fb4cc",
+      "sleeve": "#9fb4cc",
+      "legs": "#4a4036",
+      "shoes": "#5a4433"
+     },
+     "state": {
+      "blood": "smear",
+      "expr": "shocked",
+      "mouth": "open",
+      "eyesShut": false
+     }
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "a5283f816c1f317c"
+  },
+  {
+   "id": "b02_3",
+   "s": 656,
+   "e": 719,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "ajar",
+    "window": "curtained",
+    "ground": "pool",
+    "clock": "5:33",
+    "shape": "pentagram",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 270,
+    "pitch": 0
+   },
+   "preset": "idle_breath",
+   "hands": "grip_rail",
+   "actors": [
+    {
+     "id": "mother",
+     "at": [
+      1.3,
+      0.0,
+      -1.9
+     ],
+     "yaw": 65,
+     "pose": "sit",
+     "look": {
+      "h": 1.62,
+      "skin": "#e0a87f",
+      "skinShade": "#ab7256",
+      "hairStyle": "long",
+      "hair": "#1d1820",
+      "top": "#8e2f3c",
+      "sleeve": "#8e2f3c",
+      "legs": "#8e2f3c",
+      "shoes": "#2a2730"
+     },
+     "state": {
+      "blood": "spots",
+      "expr": "shocked",
+      "mouth": "open",
+      "eyesShut": false
+     }
+    }
+   ],
+   "framing": "waist",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "14f5c67f6a5465fa"
+  },
+  {
+   "id": "b03_1",
+   "s": 719,
+   "e": 778,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "open",
+    "window": "dawn",
+    "ground": "pool",
+    "clock": "5:30",
+    "shape": "pentagram",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 190,
+    "pitch": -34
+   },
+   "preset": "crouch_peek",
+   "hands": null,
+   "actors": [],
+   "framing": "full",
+   "glitch": 0.12,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "0bea689e205b06c1"
+  },
+  {
+   "id": "b03_2",
+   "s": 778,
+   "e": 834,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "wide",
+    "window": "dawn",
+    "ground": "smear",
+    "clock": "5:30",
+    "shape": "pentagram",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 165,
+    "pitch": 0
+   },
+   "preset": "idle_breath",
+   "hands": "grip_rail",
+   "actors": [
+    {
+     "id": "father",
+     "at": [
+      -1.05,
+      0.0,
+      -1.12
+     ],
+     "yaw": 0,
+     "pose": "sit",
+     "look": {
+      "h": 1.78,
+      "skin": "#c88c62",
+      "skinShade": "#8e5f41",
+      "hairStyle": "balding",
+      "hair": "#1d1820",
+      "facial": "moustache",
+      "top": "#9fb4cc",
+      "sleeve": "#9fb4cc",
+      "legs": "#4a4036",
+      "shoes": "#5a4433"
+     },
+     "state": {
+      "blood": "smear",
+      "expr": "shocked",
+      "mouth": "open",
+      "eyesShut": false
+     }
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "1d9ba52946ff6a08"
+  },
+  {
+   "id": "b03_3",
+   "s": 834,
+   "e": 890,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "ajar",
+    "window": "blind",
+    "ground": "pool",
+    "clock": "5:30",
+    "shape": "pentagram",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 150,
+    "pitch": -8
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "59decf16d78139d3"
+  },
+  {
+   "id": "b03_4",
+   "s": 890,
+   "e": 949,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "open",
+    "window": "dawn",
+    "ground": "drops",
+    "clock": "5:30",
+    "shape": "pentagram",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 225,
+    "pitch": -15
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [
+    {
+     "id": "mother",
+     "at": [
+      1.3,
+      0.0,
+      -1.9
+     ],
+     "yaw": 65,
+     "pose": "sit",
+     "look": {
+      "h": 1.62,
+      "skin": "#e0a87f",
+      "skinShade": "#ab7256",
+      "hairStyle": "long",
+      "hair": "#1d1820",
+      "top": "#8e2f3c",
+      "sleeve": "#8e2f3c",
+      "legs": "#8e2f3c",
+      "shoes": "#2a2730"
+     },
+     "state": {
+      "blood": "spots",
+      "expr": "shocked",
+      "mouth": "open",
+      "eyesShut": false
+     }
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [
+    {
+     "t": "*tick*",
+     "at": 24,
+     "x": 0.2,
+     "y": 0.72,
+     "size": 0.5
+    }
+   ],
+   "sig": "7f57a87e958368a1"
+  },
+  {
+   "id": "b03_5",
+   "s": 949,
+   "e": 1010,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "wide",
+    "window": "curtained",
+    "ground": "pool",
+    "clock": "5:30",
+    "shape": "pentagram",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.86,
+     -2.92
+    ],
+    "yaw": 180,
+    "pitch": -26
+   },
+   "preset": "idle_breath",
+   "hands": "brace_fall",
+   "actors": [
+    {
+     "id": "father",
+     "at": [
+      -1.05,
+      0.0,
+      -1.12
+     ],
+     "yaw": 0,
+     "pose": "sit",
+     "look": {
+      "h": 1.78,
+      "skin": "#c88c62",
+      "skinShade": "#8e5f41",
+      "hairStyle": "balding",
+      "hair": "#1d1820",
+      "facial": "moustache",
+      "top": "#9fb4cc",
+      "sleeve": "#9fb4cc",
+      "legs": "#4a4036",
+      "shoes": "#5a4433"
+     },
+     "state": {
+      "blood": "smear",
+      "expr": "shocked",
+      "mouth": "open",
+      "eyesShut": false
+     }
+    },
+    {
+     "id": "mother",
+     "at": [
+      1.3,
+      0.0,
+      -1.9
+     ],
+     "yaw": 65,
+     "pose": "sit",
+     "look": {
+      "h": 1.62,
+      "skin": "#e0a87f",
+      "skinShade": "#ab7256",
+      "hairStyle": "long",
+      "hair": "#1d1820",
+      "top": "#8e2f3c",
+      "sleeve": "#8e2f3c",
+      "legs": "#8e2f3c",
+      "shoes": "#2a2730"
+     },
+     "state": {
+      "blood": "spots",
+      "expr": "shocked",
+      "mouth": "open",
+      "eyesShut": false
+     }
+    }
+   ],
+   "framing": "waist",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "b89c8f944119e706"
+  },
+  {
+   "id": "b04_1",
+   "s": 1010,
+   "e": 1076,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "shut",
+    "window": "dawn",
+    "ground": "clean",
+    "clock": "5:30",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "made",
+    "handPrints": false,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 180,
+    "pitch": -2
+   },
+   "preset": "whip_pan",
+   "hands": null,
+   "actors": [],
+   "framing": "full",
+   "glitch": 0.3,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "df5904227a59157c"
+  },
+  {
+   "id": "b05_1",
+   "s": 1076,
+   "e": 1134,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "shut",
+    "window": "curtained",
+    "ground": "clean",
+    "clock": "11:40",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "made",
+    "seed": 3
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     1.32,
+     -2.8
+    ],
+    "yaw": 160,
+    "pitch": -12
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "99966518da910987"
+  },
+  {
+   "id": "b05_2",
+   "s": 1134,
+   "e": 1185,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "shut",
+    "window": "blind",
+    "ground": "clean",
+    "clock": "11:40",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "made",
+    "seed": 301
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     1.32,
+     -2.8
+    ],
+    "yaw": 260,
+    "pitch": 0
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "1161c41ba691636d"
+  },
+  {
+   "id": "b06_1",
+   "s": 1185,
+   "e": 1251,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "wide",
+    "window": "curtained",
+    "ground": "clean",
+    "clock": "off",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "made",
+    "seed": 3
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 195,
+    "pitch": 15
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [
+    {
+     "id": "mother",
+     "at": [
+      0.78,
+      0.0,
+      0.72
+     ],
+     "yaw": 25,
+     "pose": "stand",
+     "look": {
+      "h": 1.62,
+      "skin": "#e0a87f",
+      "skinShade": "#ab7256",
+      "hairStyle": "long",
+      "hair": "#1d1820",
+      "top": "#8e2f3c",
+      "sleeve": "#8e2f3c",
+      "legs": "#8e2f3c",
+      "shoes": "#2a2730"
+     },
+     "state": {
+      "blood": "spots",
+      "expr": "normal"
+     }
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "577e0d55c86b1a11"
+  },
+  {
+   "id": "b06_2",
+   "s": 1251,
+   "e": 1314,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "wide",
+    "window": "blind",
+    "ground": "clean",
+    "clock": "off",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "made",
+    "seed": 4
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 200,
+    "pitch": 26
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [
+    {
+     "id": "mother",
+     "at": [
+      0.78,
+      0.0,
+      0.72
+     ],
+     "yaw": 25,
+     "pose": "stand",
+     "look": {
+      "h": 1.62,
+      "skin": "#e0a87f",
+      "skinShade": "#ab7256",
+      "hairStyle": "long",
+      "hair": "#1d1820",
+      "top": "#8e2f3c",
+      "sleeve": "#8e2f3c",
+      "legs": "#8e2f3c",
+      "shoes": "#2a2730"
+     },
+     "state": {
+      "blood": "spots",
+      "expr": "normal"
+     }
+    }
+   ],
+   "framing": "waist",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "6ca8d7e4fe14a2b5"
+  },
+  {
+   "id": "b06_3",
+   "s": 1314,
+   "e": 1380,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "open",
+    "window": "curtained",
+    "ground": "clean",
+    "clock": "off",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "made",
+    "seed": 5
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     1.32,
+     -2.8
+    ],
+    "yaw": 210,
+    "pitch": 0
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [
+    {
+     "id": "mother",
+     "at": [
+      0.78,
+      0.0,
+      0.72
+     ],
+     "yaw": 25,
+     "pose": "point",
+     "look": {
+      "h": 1.62,
+      "skin": "#e0a87f",
+      "skinShade": "#ab7256",
+      "hairStyle": "long",
+      "hair": "#1d1820",
+      "top": "#8e2f3c",
+      "sleeve": "#8e2f3c",
+      "legs": "#8e2f3c",
+      "shoes": "#2a2730"
+     },
+     "state": {
+      "blood": "spots",
+      "expr": "normal"
+     }
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "17e4034315d79870"
+  },
+  {
+   "id": "b07_1",
+   "s": 1380,
+   "e": 1438,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "wide",
+    "window": "curtained",
+    "ground": "clean",
+    "clock": "off",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "made",
+    "seed": 6
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 205,
+    "pitch": 15
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [
+    {
+     "id": "mother",
+     "at": [
+      0.78,
+      0.0,
+      0.3
+     ],
+     "yaw": 20,
+     "pose": "stand",
+     "look": {
+      "h": 1.62,
+      "skin": "#e0a87f",
+      "skinShade": "#ab7256",
+      "hairStyle": "long",
+      "hair": "#1d1820",
+      "top": "#8e2f3c",
+      "sleeve": "#8e2f3c",
+      "legs": "#8e2f3c",
+      "shoes": "#2a2730"
+     },
+     "state": {
+      "blood": "spots",
+      "expr": "normal"
+     }
+    }
+   ],
+   "framing": "face",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "fb781d93f1a2d989"
+  },
+  {
+   "id": "b07_2",
+   "s": 1438,
+   "e": 1496,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "wide",
+    "window": "curtained",
+    "ground": "clean",
+    "clock": "2:20",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "made",
+    "seed": 6
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 155,
+    "pitch": -6
+   },
+   "preset": "idle_breath",
+   "hands": "grip_rail",
+   "actors": [
+    {
+     "id": "mother",
+     "at": [
+      0.78,
+      0.0,
+      0.3
+     ],
+     "yaw": 20,
+     "pose": "stand",
+     "look": {
+      "h": 1.62,
+      "skin": "#e0a87f",
+      "skinShade": "#ab7256",
+      "hairStyle": "long",
+      "hair": "#1d1820",
+      "top": "#8e2f3c",
+      "sleeve": "#8e2f3c",
+      "legs": "#8e2f3c",
+      "shoes": "#2a2730"
+     },
+     "state": {
+      "blood": "spots",
+      "expr": "normal"
+     }
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "b5d78859bf6c60cd"
+  },
+  {
+   "id": "b08_1",
+   "s": 1496,
+   "e": 1552,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "hall",
+    "door": "wide",
+    "window": "blind",
+    "ground": "clean",
+    "seed": 9
+   },
+   "anchor": {
+    "pos": [
+     0.0,
+     1.45,
+     -2.3
+    ],
+    "yaw": 0,
+    "pitch": -3
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [
+    {
+     "id": "father",
+     "at": [
+      0.2,
+      0.0,
+      -4.6
+     ],
+     "yaw": 180,
+     "pose": "walk",
+     "look": {
+      "h": 1.78,
+      "skin": "#c88c62",
+      "skinShade": "#8e5f41",
+      "hairStyle": "balding",
+      "hair": "#1d1820",
+      "facial": "moustache",
+      "top": "#9fb4cc",
+      "sleeve": "#9fb4cc",
+      "legs": "#4a4036",
+      "shoes": "#5a4433"
+     },
+     "state": {
+      "blood": "none",
+      "expr": "normal"
+     },
+     "phase": 0.4
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "fdf88986659d1208"
+  },
+  {
+   "id": "b08_2",
+   "s": 1552,
+   "e": 1605,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "hall",
+    "door": "open",
+    "window": "blind",
+    "ground": "clean",
+    "seed": 10
+   },
+   "anchor": {
+    "pos": [
+     -0.3,
+     1.45,
+     -0.55
+    ],
+    "yaw": 0,
+    "pitch": 2
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [
+    {
+     "id": "father",
+     "at": [
+      0.1,
+      0.0,
+      -3.9
+     ],
+     "yaw": 180,
+     "pose": "stand",
+     "look": {
+      "h": 1.78,
+      "skin": "#c88c62",
+      "skinShade": "#8e5f41",
+      "hairStyle": "balding",
+      "hair": "#1d1820",
+      "facial": "moustache",
+      "top": "#9fb4cc",
+      "sleeve": "#9fb4cc",
+      "legs": "#4a4036",
+      "shoes": "#5a4433"
+     },
+     "state": {
+      "blood": "none",
+      "expr": "normal"
+     }
+    }
+   ],
+   "framing": "waist",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "325f7ac1a5ef3ea5"
+  },
+  {
+   "id": "b09_1",
+   "s": 1605,
+   "e": 1690,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "hall",
+    "door": "ajar",
+    "window": "blind",
+    "ground": "clean",
+    "seed": 11
+   },
+   "anchor": {
+    "pos": [
+     0.0,
+     1.45,
+     -2.3
+    ],
+    "yaw": 360,
+    "pitch": -15
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [
+    {
+     "id": "father",
+     "at": [
+      0.15,
+      0.0,
+      -4.3
+     ],
+     "yaw": 175,
+     "pose": "point",
+     "look": {
+      "h": 1.78,
+      "skin": "#c88c62",
+      "skinShade": "#8e5f41",
+      "hairStyle": "balding",
+      "hair": "#1d1820",
+      "facial": "moustache",
+      "top": "#9fb4cc",
+      "sleeve": "#9fb4cc",
+      "legs": "#4a4036",
+      "shoes": "#5a4433"
+     },
+     "state": {
+      "blood": "none",
+      "expr": "normal"
+     }
+    }
+   ],
+   "framing": "waist",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "e872e73d75a59843"
+  },
+  {
+   "id": "b10_1",
+   "s": 1690,
+   "e": 1747,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "hall",
+    "door": "shut",
+    "window": "blind",
+    "ground": "clean",
+    "seed": 12
+   },
+   "anchor": {
+    "pos": [
+     0.0,
+     1.45,
+     0.55
+    ],
+    "yaw": 0,
+    "pitch": -24
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "92c42a795e5f2458"
+  },
+  {
+   "id": "b10_2",
+   "s": 1747,
+   "e": 1806,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "hall",
+    "door": "shut",
+    "window": "curtained",
+    "ground": "clean",
+    "seed": 13
+   },
+   "anchor": {
+    "pos": [
+     0.15,
+     1.45,
+     -4.1
+    ],
+    "yaw": 180,
+    "pitch": -6
+   },
+   "preset": "walk_bob",
+   "hands": null,
+   "actors": [
+    {
+     "id": "father",
+     "at": [
+      0.0,
+      0.0,
+      -1.2
+     ],
+     "yaw": 0,
+     "pose": "walk",
+     "look": {
+      "h": 1.78,
+      "skin": "#c88c62",
+      "skinShade": "#8e5f41",
+      "hairStyle": "balding",
+      "hair": "#1d1820",
+      "facial": "moustache",
+      "top": "#9fb4cc",
+      "sleeve": "#9fb4cc",
+      "legs": "#4a4036",
+      "shoes": "#5a4433"
+     },
+     "state": {
+      "blood": "none",
+      "expr": "normal"
+     },
+     "phase": 0.7
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "da44df3a4316e122"
+  },
+  {
+   "id": "b10_3",
+   "s": 1806,
+   "e": 1865,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "hall",
+    "door": "shut",
+    "window": "dawn",
+    "ground": "clean",
+    "seed": 14
+   },
+   "anchor": {
+    "pos": [
+     0.0,
+     1.45,
+     0.55
+    ],
+    "yaw": 10,
+    "pitch": -12
+   },
+   "preset": "idle_breath",
+   "hands": "reach_grab",
+   "actors": [],
+   "framing": "waist",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "41d1c39f13fa4e52"
+  },
+  {
+   "id": "b11_1",
+   "s": 1865,
+   "e": 1949,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "shut",
+    "window": "curtained",
+    "ground": "clean",
+    "clock": "2:20",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "tent",
+    "seed": 15
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.86,
+     -3.25
+    ],
+    "yaw": 180,
+    "pitch": 14
+   },
+   "preset": "impact_jolt",
+   "hands": null,
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [
+    {
+     "t": "*SCREAM*",
+     "at": 6,
+     "x": 0.74,
+     "y": 0.3,
+     "size": 1.0
+    }
+   ],
+   "sig": "f725fc6b6062b037"
+  },
+  {
+   "id": "b11_2",
+   "s": 1949,
+   "e": 2037,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "shut",
+    "window": "curtained",
+    "ground": "clean",
+    "clock": "2:20",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "open",
+    "seed": 15
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     1.32,
+     -2.8
+    ],
+    "yaw": 195,
+    "pitch": 2
+   },
+   "preset": "impact_jolt",
+   "hands": "brace_fall",
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "561111b3fd56113f"
+  },
+  {
+   "id": "b12_1",
+   "s": 2037,
+   "e": 2109,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "shut",
+    "window": "blind",
+    "ground": "clean",
+    "clock": "2:20",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "open",
+    "seed": 16
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     1.32,
+     -2.8
+    ],
+    "yaw": 175,
+    "pitch": -15
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "ce21923b79ceccef"
+  },
+  {
+   "id": "b12_2",
+   "s": 2109,
+   "e": 2183,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "ajar",
+    "window": "curtained",
+    "ground": "clean",
+    "clock": "2:20",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "open",
+    "seed": 17
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     1.32,
+     -2.8
+    ],
+    "yaw": 205,
+    "pitch": 6
+   },
+   "preset": "whip_pan",
+   "hands": "grip_rail",
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "07a5e062225f30e6"
+  },
+  {
+   "id": "b12_3",
+   "s": 2183,
+   "e": 2259,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "ajar",
+    "window": "blind",
+    "ground": "clean",
+    "clock": "2:20",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "open",
+    "seed": 18
+   },
+   "anchor": {
+    "pos": [
+     -0.25,
+     1.42,
+     -1.75
+    ],
+    "yaw": 180,
+    "pitch": -8
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "63eb33af417b233b"
+  },
+  {
+   "id": "b13_1",
+   "s": 2259,
+   "e": 2320,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "ajar",
+    "window": "curtained",
+    "ground": "clean",
+    "clock": "2:20",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "open",
+    "seed": 19
+   },
+   "anchor": {
+    "pos": [
+     0.35,
+     1.45,
+     -1.2
+    ],
+    "yaw": 150,
+    "pitch": -4
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": "#211f30",
+   "washAmount": 0.18,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "88ccd1d25efa084b"
+  },
+  {
+   "id": "b13_2",
+   "s": 2320,
+   "e": 2381,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "ajar",
+    "window": "blind",
+    "ground": "clean",
+    "clock": "2:21",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "open",
+    "seed": 302
+   },
+   "anchor": {
+    "pos": [
+     0.35,
+     1.45,
+     -1.2
+    ],
+    "yaw": 265,
+    "pitch": 0
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": "#211f30",
+   "washAmount": 0.18,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "2043946891502096"
+  },
+  {
+   "id": "b14_1",
+   "s": 2381,
+   "e": 2439,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "ajar",
+    "window": "curtained",
+    "ground": "clean",
+    "clock": "2:20",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "open",
+    "seed": 20
+   },
+   "anchor": {
+    "pos": [
+     -0.25,
+     1.42,
+     -1.75
+    ],
+    "yaw": 200,
+    "pitch": -16
+   },
+   "preset": "walk_bob",
+   "hands": "balance_wide",
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "3918cc174b659a74"
+  },
+  {
+   "id": "b14_2",
+   "s": 2439,
+   "e": 2500,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "ajar",
+    "window": "blind",
+    "ground": "clean",
+    "clock": "off",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "open",
+    "seed": 21
+   },
+   "anchor": {
+    "pos": [
+     0.35,
+     1.45,
+     -1.2
+    ],
+    "yaw": 190,
+    "pitch": -2
+   },
+   "preset": "walk_bob",
+   "hands": null,
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "50b1d7b35bd405a5"
+  },
+  {
+   "id": "b14_3",
+   "s": 2500,
+   "e": 2567,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "open",
+    "window": "curtained",
+    "ground": "clean",
+    "clock": "off",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "open",
+    "seed": 22
+   },
+   "anchor": {
+    "pos": [
+     0.75,
+     1.45,
+     0.45
+    ],
+    "yaw": 170,
+    "pitch": -6
+   },
+   "preset": "idle_breath",
+   "hands": "brace_door",
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "4ac342deb3faebd0"
+  },
+  {
+   "id": "b15_1",
+   "s": 2567,
+   "e": 2689,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "hall",
+    "door": "open",
+    "window": "blind",
+    "ground": "clean",
+    "seed": 23
+   },
+   "anchor": {
+    "pos": [
+     -0.3,
+     1.45,
+     -0.55
+    ],
+    "yaw": 180,
+    "pitch": -4
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "f7544472205727ca"
+  },
+  {
+   "id": "b15_2",
+   "s": 2689,
+   "e": 2770,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "hall",
+    "door": "wide",
+    "window": "blind",
+    "ground": "clean",
+    "seed": 24
+   },
+   "anchor": {
+    "pos": [
+     -0.3,
+     1.45,
+     -0.55
+    ],
+    "yaw": 0,
+    "pitch": -8
+   },
+   "preset": "idle_breath",
+   "hands": "balance_wide",
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "bf0feceeac022ce6"
+  },
+  {
+   "id": "b16_1",
+   "s": 2770,
+   "e": 2835,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "hall",
+    "door": "open",
+    "window": "blind",
+    "ground": "clean",
+    "seed": 25
+   },
+   "anchor": {
+    "pos": [
+     -0.3,
+     1.45,
+     -0.55
+    ],
+    "yaw": 200,
+    "pitch": -10
+   },
+   "preset": "walk_bob",
+   "hands": "balance_wide",
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "c791e6efb935da14"
+  },
+  {
+   "id": "b16_2",
+   "s": 2835,
+   "e": 2900,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "hall",
+    "door": "open",
+    "window": "blind",
+    "ground": "clean",
+    "seed": 26
+   },
+   "anchor": {
+    "pos": [
+     -0.45,
+     1.45,
+     -0.9
+    ],
+    "yaw": 105,
+    "pitch": -4
+   },
+   "preset": "idle_breath",
+   "hands": "reach_grab",
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "38673ae8b6294cf3"
+  },
+  {
+   "id": "b17_1",
+   "s": 2900,
+   "e": 2977,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bathroom",
+    "door": "wide",
+    "window": "blind",
+    "ground": "clean",
+    "lightOn": false,
+    "seed": 27
+   },
+   "anchor": {
+    "pos": [
+     0.3,
+     1.45,
+     0.62
+    ],
+    "yaw": 175,
+    "pitch": -6
+   },
+   "preset": "walk_bob",
+   "hands": "brace_door",
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "c064306ff0808cf8"
+  },
+  {
+   "id": "b17_2",
+   "s": 2977,
+   "e": 3054,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bathroom",
+    "door": "open",
+    "window": "blind",
+    "ground": "clean",
+    "lightOn": false,
+    "seed": 28
+   },
+   "anchor": {
+    "pos": [
+     0.0,
+     1.5,
+     0.62
+    ],
+    "yaw": 0,
+    "pitch": -8
+   },
+   "preset": "idle_breath",
+   "hands": "balance_wide",
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "adb51d9ecc339c95"
+  },
+  {
+   "id": "b18_1",
+   "s": 3054,
+   "e": 3106,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bathroom",
+    "door": "shut",
+    "window": "blind",
+    "ground": "clean",
+    "lightOn": false,
+    "seed": 29
+   },
+   "anchor": {
+    "pos": [
+     0.0,
+     1.46,
+     -0.05
+    ],
+    "yaw": 0,
+    "pitch": 6
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": "#211f30",
+   "washAmount": 0.2,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "ed8d1300f392d84a"
+  },
+  {
+   "id": "b18_2",
+   "s": 3106,
+   "e": 3158,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bathroom",
+    "door": "shut",
+    "window": "curtained",
+    "ground": "clean",
+    "lightOn": false,
+    "seed": 30
+   },
+   "anchor": {
+    "pos": [
+     0.0,
+     1.0,
+     0.3
+    ],
+    "yaw": 20,
+    "pitch": -22
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "ed07ada692ec62ea"
+  },
+  {
+   "id": "b19_1",
+   "s": 3158,
+   "e": 3219,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bathroom",
+    "door": "shut",
+    "window": "blind",
+    "ground": "clean",
+    "lightOn": true,
+    "seed": 31
+   },
+   "anchor": {
+    "pos": [
+     0.45,
+     1.5,
+     0.1
+    ],
+    "yaw": 320,
+    "pitch": 22
+   },
+   "preset": "idle_breath",
+   "hands": "reach_grab",
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [
+    {
+     "t": "*click*",
+     "at": 14,
+     "x": 0.72,
+     "y": 0.26,
+     "size": 0.55
+    }
+   ],
+   "sig": "6da109f2e1a0542f"
+  },
+  {
+   "id": "b19_2",
+   "s": 3219,
+   "e": 3285,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bathroom",
+    "door": "shut",
+    "window": "blind",
+    "ground": "clean",
+    "lightOn": true,
+    "seed": 32
+   },
+   "anchor": {
+    "pos": [
+     0.0,
+     1.46,
+     -0.05
+    ],
+    "yaw": 0,
+    "pitch": 10
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "18ad8187f4c84dde"
+  },
+  {
+   "id": "b19_3",
+   "s": 3285,
+   "e": 3353,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bathroom",
+    "door": "shut",
+    "window": "curtained",
+    "ground": "clean",
+    "lightOn": true,
+    "seed": 33
+   },
+   "anchor": {
+    "pos": [
+     0.0,
+     1.5,
+     0.62
+    ],
+    "yaw": 345,
+    "pitch": -12
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "e699e944db27cb3e"
+  },
+  {
+   "id": "b20_1",
+   "s": 3353,
+   "e": 3412,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bathroom",
+    "door": "shut",
+    "window": "curtained",
+    "ground": "clean",
+    "lightOn": true,
+    "seed": 34
+   },
+   "anchor": {
+    "pos": [
+     0.0,
+     1.3,
+     -0.25
+    ],
+    "yaw": 0,
+    "pitch": -36
+   },
+   "preset": "idle_breath",
+   "hands": "reach_grab",
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "0dd148a4d91d1d9f"
+  },
+  {
+   "id": "b20_2",
+   "s": 3412,
+   "e": 3469,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bathroom",
+    "door": "shut",
+    "window": "blind",
+    "ground": "clean",
+    "lightOn": true,
+    "seed": 35
+   },
+   "anchor": {
+    "pos": [
+     0.0,
+     1.25,
+     -0.2
+    ],
+    "yaw": 15,
+    "pitch": -30
+   },
+   "preset": "idle_breath",
+   "hands": "push_punch",
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "06593fd5329b51d6"
+  },
+  {
+   "id": "b20_3",
+   "s": 3469,
+   "e": 3526,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bathroom",
+    "door": "ajar",
+    "window": "blind",
+    "ground": "clean",
+    "lightOn": true,
+    "seed": 36
+   },
+   "anchor": {
+    "pos": [
+     0.1,
+     1.45,
+     -0.45
+    ],
+    "yaw": 5,
+    "pitch": 10
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "29a4dce5044497fb"
+  },
+  {
+   "id": "b21_1",
+   "s": 3526,
+   "e": 3598,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bathroom",
+    "door": "ajar",
+    "window": "blind",
+    "ground": "clean",
+    "lightOn": false,
+    "seed": 37
+   },
+   "anchor": {
+    "pos": [
+     0.0,
+     1.45,
+     0.05
+    ],
+    "yaw": 182,
+    "pitch": 0
+   },
+   "preset": "idle_breath",
+   "hands": "brace_door",
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [
+    {
+     "t": "*click*",
+     "at": 10,
+     "x": 0.3,
+     "y": 0.3,
+     "size": 0.5
+    }
+   ],
+   "sig": "2e1770d27c6f325d"
+  },
+  {
+   "id": "b21_2",
+   "s": 3598,
+   "e": 3670,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bathroom",
+    "door": "open",
+    "window": "blind",
+    "ground": "clean",
+    "lightOn": false,
+    "seed": 38
+   },
+   "anchor": {
+    "pos": [
+     -0.1,
+     1.45,
+     0.25
+    ],
+    "yaw": 172,
+    "pitch": -6
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "17324500bc8f0808"
+  },
+  {
+   "id": "b22_1",
+   "s": 3670,
+   "e": 3728,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "hall",
+    "door": "open",
+    "window": "blind",
+    "ground": "smear",
+    "seed": 39
+   },
+   "anchor": {
+    "pos": [
+     -0.3,
+     1.45,
+     -0.3
+    ],
+    "yaw": 0,
+    "pitch": -34
+   },
+   "preset": "impact_jolt",
+   "hands": "brace_door",
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "c8e1fdb87440bf13"
+  },
+  {
+   "id": "b23_1",
+   "s": 3728,
+   "e": 3797,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "hall",
+    "door": "open",
+    "window": "blind",
+    "ground": "smear",
+    "seed": 40
+   },
+   "anchor": {
+    "pos": [
+     0.0,
+     0.52,
+     -2.7
+    ],
+    "yaw": 0,
+    "pitch": -30
+   },
+   "preset": "crouch_peek",
+   "hands": "brace_fall",
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "8c4b5e7da18868f1"
+  },
+  {
+   "id": "b23_2",
+   "s": 3797,
+   "e": 3866,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "hall",
+    "door": "ajar",
+    "window": "blind",
+    "ground": "smear",
+    "seed": 41
+   },
+   "anchor": {
+    "pos": [
+     0.0,
+     1.45,
+     -2.3
+    ],
+    "yaw": 0,
+    "pitch": -14
+   },
+   "preset": "walk_bob",
+   "hands": "balance_wide",
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "beaf1a473eb269e2"
+  },
+  {
+   "id": "b23_3",
+   "s": 3866,
+   "e": 3937,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "hall",
+    "door": "open",
+    "window": "curtained",
+    "ground": "pool",
+    "seed": 42
+   },
+   "anchor": {
+    "pos": [
+     -0.15,
+     1.45,
+     -5.6
+    ],
+    "yaw": 0,
+    "pitch": -24
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "7499a76ba8a68850"
+  },
+  {
+   "id": "b23_4",
+   "s": 3937,
+   "e": 4008,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "hall",
+    "door": "wide",
+    "window": "blind",
+    "ground": "pool",
+    "seed": 43
+   },
+   "anchor": {
+    "pos": [
+     0.15,
+     1.45,
+     -4.1
+    ],
+    "yaw": 0,
+    "pitch": -8
+   },
+   "preset": "walk_bob",
+   "hands": "reach_grab",
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "eee80f304b833305"
+  },
+  {
+   "id": "b24_1",
+   "s": 4008,
+   "e": 4095,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "hall",
+    "door": "open",
+    "window": "blind",
+    "ground": "pool",
+    "seed": 44
+   },
+   "anchor": {
+    "pos": [
+     0.0,
+     0.88,
+     -3.6
+    ],
+    "yaw": 180,
+    "pitch": -26
+   },
+   "preset": "crouch_peek",
+   "hands": null,
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "8bd5355a70ac38e0"
+  },
+  {
+   "id": "b25_1",
+   "s": 4095,
+   "e": 4169,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "hall",
+    "door": "open",
+    "window": "blind",
+    "ground": "smear",
+    "seed": 45
+   },
+   "anchor": {
+    "pos": [
+     0.0,
+     1.45,
+     0.55
+    ],
+    "yaw": 170,
+    "pitch": -30
+   },
+   "preset": "idle_breath",
+   "hands": "grip_rail",
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "18c2e6891cca44be"
+  },
+  {
+   "id": "b25_2",
+   "s": 4169,
+   "e": 4243,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "hall",
+    "door": "open",
+    "window": "dawn",
+    "ground": "smear",
+    "seed": 46
+   },
+   "anchor": {
+    "pos": [
+     0.25,
+     1.4,
+     0.3
+    ],
+    "yaw": 160,
+    "pitch": -38
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "721a0627812dd81a"
+  },
+  {
+   "id": "b25_3",
+   "s": 4243,
+   "e": 4317,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "hall",
+    "door": "ajar",
+    "window": "dawn",
+    "ground": "drops",
+    "seed": 47
+   },
+   "anchor": {
+    "pos": [
+     -0.3,
+     1.42,
+     0.65
+    ],
+    "yaw": 195,
+    "pitch": -20
+   },
+   "preset": "idle_breath",
+   "hands": "reach_grab",
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "378629dec7aed7f3"
+  },
+  {
+   "id": "b25_4",
+   "s": 4317,
+   "e": 4391,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "hall",
+    "door": "open",
+    "window": "dawn",
+    "ground": "pool",
+    "seed": 48
+   },
+   "anchor": {
+    "pos": [
+     0.0,
+     1.45,
+     0.8
+    ],
+    "yaw": 180,
+    "pitch": -10
+   },
+   "preset": "whip_pan",
+   "hands": null,
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "b3cf04be1d152934"
+  },
+  {
+   "id": "b26_1",
+   "s": 4391,
+   "e": 4457,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "hall",
+    "door": "open",
+    "window": "blind",
+    "ground": "pool",
+    "seed": 49
+   },
+   "anchor": {
+    "pos": [
+     0.0,
+     1.45,
+     0.2
+    ],
+    "yaw": 0,
+    "pitch": 0
+   },
+   "preset": "whip_pan",
+   "hands": "balance_wide",
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "a276f21582c688f8"
+  },
+  {
+   "id": "b27_1",
+   "s": 4457,
+   "e": 4572,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "hall",
+    "door": "open",
+    "window": "blind",
+    "ground": "smear",
+    "seed": 50
+   },
+   "anchor": {
+    "pos": [
+     0.0,
+     1.45,
+     -1.1
+    ],
+    "yaw": 0,
+    "pitch": -28
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "df54e52f19dd5260"
+  },
+  {
+   "id": "b27_2",
+   "s": 4572,
+   "e": 4650,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "hall",
+    "door": "wide",
+    "window": "blind",
+    "ground": "smear",
+    "seed": 51
+   },
+   "anchor": {
+    "pos": [
+     -0.25,
+     1.45,
+     -1.4
+    ],
+    "yaw": 20,
+    "pitch": -6
+   },
+   "preset": "sprint_bob",
+   "hands": "balance_wide",
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "fb91a39c655513c7"
+  },
+  {
+   "id": "b28_1",
+   "s": 4650,
+   "e": 4718,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "wide",
+    "window": "curtained",
+    "ground": "clean",
+    "clock": "2:28",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "open",
+    "seed": 52
+   },
+   "anchor": {
+    "pos": [
+     0.75,
+     1.45,
+     0.45
+    ],
+    "yaw": 190,
+    "pitch": -12
+   },
+   "preset": "sprint_bob",
+   "hands": "brace_door",
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "cd085246ba8d3d6a"
+  },
+  {
+   "id": "b28_2",
+   "s": 4718,
+   "e": 4784,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "open",
+    "window": "curtained",
+    "ground": "clean",
+    "clock": "2:28",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "open",
+    "seed": 53
+   },
+   "anchor": {
+    "pos": [
+     0.35,
+     1.45,
+     -1.2
+    ],
+    "yaw": 205,
+    "pitch": -16
+   },
+   "preset": "sprint_bob",
+   "hands": null,
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "1a6ed6d4ad04a536"
+  },
+  {
+   "id": "b28_3",
+   "s": 4784,
+   "e": 4850,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "ajar",
+    "window": "curtained",
+    "ground": "clean",
+    "clock": "2:28",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "open",
+    "seed": 54
+   },
+   "anchor": {
+    "pos": [
+     -0.7,
+     1.2,
+     -2.2
+    ],
+    "yaw": 180,
+    "pitch": -40
+   },
+   "preset": "impact_jolt",
+   "hands": "brace_fall",
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "ad006c5f49e96794"
+  },
+  {
+   "id": "b28_4",
+   "s": 4850,
+   "e": 4918,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "ajar",
+    "window": "curtained",
+    "ground": "clean",
+    "clock": "2:28",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "tent",
+    "seed": 55
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.86,
+     -3.25
+    ],
+    "yaw": 180,
+    "pitch": 32
+   },
+   "preset": "impact_jolt",
+   "hands": "grip_rail",
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "6bb87cea92e3c756"
+  },
+  {
+   "id": "b29_1",
+   "s": 4918,
+   "e": 4977,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "ajar",
+    "window": "curtained",
+    "ground": "clean",
+    "clock": "2:33",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "tent",
+    "seed": 56
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.86,
+     -3.25
+    ],
+    "yaw": 200,
+    "pitch": 40
+   },
+   "preset": "idle_breath",
+   "hands": "brace_fall",
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "a81f9f3ae185d0ab"
+  },
+  {
+   "id": "b29_2",
+   "s": 4977,
+   "e": 5036,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "ajar",
+    "window": "blind",
+    "ground": "clean",
+    "clock": "2:33",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "tent",
+    "seed": 57
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.86,
+     -3.25
+    ],
+    "yaw": 160,
+    "pitch": 14
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "8b4c1883e7f7d93d"
+  },
+  {
+   "id": "b29_3",
+   "s": 5036,
+   "e": 5098,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "ajar",
+    "window": "curtained",
+    "ground": "clean",
+    "clock": "2:41",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "tent",
+    "seed": 58
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.86,
+     -3.25
+    ],
+    "yaw": 140,
+    "pitch": -12
+   },
+   "preset": "idle_breath",
+   "hands": "grip_rail",
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "91e1314e0a16169e"
+  },
+  {
+   "id": "b30_1",
+   "s": 5098,
+   "e": 5174,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "open",
+    "window": "curtained",
+    "ground": "clean",
+    "clock": "2:41",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "tent",
+    "seed": 59
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.86,
+     -3.25
+    ],
+    "yaw": 185,
+    "pitch": 14
+   },
+   "preset": "whip_pan",
+   "hands": null,
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [
+    {
+     "t": "*creak*",
+     "at": 8,
+     "x": 0.6,
+     "y": 0.42,
+     "size": 0.6
+    }
+   ],
+   "sig": "5685d8ff995a0fa0"
+  },
+  {
+   "id": "b31_1",
+   "s": 5174,
+   "e": 5229,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "open",
+    "window": "curtained",
+    "ground": "clean",
+    "clock": "2:41",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "held",
+    "seed": 60
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.86,
+     -2.92
+    ],
+    "yaw": 205,
+    "pitch": 0
+   },
+   "preset": "idle_breath",
+   "hands": "brace_fall",
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "052b3d153f63425e"
+  },
+  {
+   "id": "b31_2",
+   "s": 5229,
+   "e": 5284,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "wide",
+    "window": "curtained",
+    "ground": "clean",
+    "clock": "2:41",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "held",
+    "seed": 61
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 180,
+    "pitch": 28
+   },
+   "preset": "idle_breath",
+   "hands": "grip_rail",
+   "actors": [
+    {
+     "id": "entity",
+     "at": [
+      0.72,
+      0.0,
+      0.6
+     ],
+     "yaw": 30,
+     "pose": "loom",
+     "kind": "creature",
+     "creature": {
+      "face": "blank",
+      "skull": "bulb",
+      "hairStyle": "none",
+      "scale": 1.52,
+      "armLong": 1.62,
+      "mask": "#cfc7bd",
+      "cloth": "#cfc7bd",
+      "clothDark": "#b3aaa0",
+      "hands": "#dcd4c9",
+      "tears": false,
+      "pose": "loom"
+     }
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "efff223765c385eb"
+  },
+  {
+   "id": "b31_3",
+   "s": 5284,
+   "e": 5339,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "wide",
+    "window": "blind",
+    "ground": "clean",
+    "clock": "2:41",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "held",
+    "seed": 62
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 170,
+    "pitch": 26
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [
+    {
+     "id": "entity",
+     "at": [
+      0.72,
+      0.0,
+      0.6
+     ],
+     "yaw": 30,
+     "pose": "loom",
+     "kind": "creature",
+     "creature": {
+      "face": "blank",
+      "skull": "bulb",
+      "hairStyle": "none",
+      "scale": 1.52,
+      "armLong": 1.62,
+      "mask": "#cfc7bd",
+      "cloth": "#cfc7bd",
+      "clothDark": "#b3aaa0",
+      "hands": "#dcd4c9",
+      "tears": false,
+      "pose": "loom"
+     }
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "2a4e21a8edc9ac51"
+  },
+  {
+   "id": "b32_1",
+   "s": 5339,
+   "e": 5407,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "wide",
+    "window": "curtained",
+    "ground": "clean",
+    "clock": "2:41",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "held",
+    "seed": 63
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 205,
+    "pitch": 24
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [
+    {
+     "id": "entity",
+     "at": [
+      0.72,
+      0.0,
+      0.6
+     ],
+     "yaw": 30,
+     "pose": "loom",
+     "kind": "creature",
+     "creature": {
+      "face": "blank",
+      "skull": "bulb",
+      "hairStyle": "none",
+      "scale": 1.52,
+      "armLong": 1.62,
+      "mask": "#cfc7bd",
+      "cloth": "#cfc7bd",
+      "clothDark": "#b3aaa0",
+      "hands": "#dcd4c9",
+      "tears": false,
+      "pose": "loom",
+      "state": {
+       "tilt": 8
+      }
+     }
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "c47ada09ce0a9479"
+  },
+  {
+   "id": "b32_2",
+   "s": 5407,
+   "e": 5477,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "wide",
+    "window": "curtained",
+    "ground": "clean",
+    "clock": "2:41",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "held",
+    "seed": 64
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.86,
+     -2.92
+    ],
+    "yaw": 205,
+    "pitch": 40
+   },
+   "preset": "idle_breath",
+   "hands": "grip_rail",
+   "actors": [
+    {
+     "id": "entity",
+     "at": [
+      0.62,
+      0.0,
+      0.35
+     ],
+     "yaw": 25,
+     "pose": "stand",
+     "kind": "creature",
+     "creature": {
+      "face": "blank",
+      "skull": "bulb",
+      "hairStyle": "none",
+      "scale": 1.52,
+      "armLong": 1.62,
+      "mask": "#cfc7bd",
+      "cloth": "#cfc7bd",
+      "clothDark": "#b3aaa0",
+      "hands": "#dcd4c9",
+      "tears": false,
+      "pose": "stand",
+      "state": {
+       "tilt": -6
+      }
+     }
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "70a65275d12834a0"
+  },
+  {
+   "id": "b33_1",
+   "s": 5477,
+   "e": 5562,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "wide",
+    "window": "blind",
+    "ground": "clean",
+    "clock": "2:41",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "held",
+    "seed": 65
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 180,
+    "pitch": 38
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [
+    {
+     "id": "entity",
+     "at": [
+      0.55,
+      0.0,
+      0.1
+     ],
+     "yaw": 20,
+     "pose": "loom",
+     "kind": "creature",
+     "creature": {
+      "face": "blank",
+      "skull": "bulb",
+      "hairStyle": "none",
+      "scale": 1.52,
+      "armLong": 1.62,
+      "mask": "#cfc7bd",
+      "cloth": "#cfc7bd",
+      "clothDark": "#b3aaa0",
+      "hands": "#dcd4c9",
+      "tears": false,
+      "pose": "loom"
+     }
+    }
+   ],
+   "framing": "waist",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "7575f23105805f82"
+  },
+  {
+   "id": "b33_2",
+   "s": 5562,
+   "e": 5650,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "open",
+    "window": "blind",
+    "ground": "clean",
+    "clock": "2:41",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "held",
+    "seed": 66
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 155,
+    "pitch": 12
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [
+    {
+     "id": "entity",
+     "at": [
+      0.4,
+      0.0,
+      -0.3
+     ],
+     "yaw": 15,
+     "pose": "lean_lens",
+     "kind": "creature",
+     "creature": {
+      "face": "blank",
+      "skull": "bulb",
+      "hairStyle": "none",
+      "scale": 1.52,
+      "armLong": 1.62,
+      "mask": "#cfc7bd",
+      "cloth": "#cfc7bd",
+      "clothDark": "#b3aaa0",
+      "hands": "#dcd4c9",
+      "tears": false,
+      "pose": "lean_lens"
+     }
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "a8247e82cba0dedc"
+  },
+  {
+   "id": "b34_1",
+   "s": 5650,
+   "e": 5715,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "wide",
+    "window": "curtained",
+    "ground": "clean",
+    "clock": "2:41",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "held",
+    "seed": 67
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 205,
+    "pitch": 55
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [
+    {
+     "id": "entity",
+     "at": [
+      -0.2,
+      0.0,
+      -1.4
+     ],
+     "yaw": 5,
+     "pose": "lean_lens",
+     "kind": "creature",
+     "creature": {
+      "face": "blank",
+      "skull": "bulb",
+      "hairStyle": "none",
+      "scale": 1.52,
+      "armLong": 1.62,
+      "mask": "#cfc7bd",
+      "cloth": "#cfc7bd",
+      "clothDark": "#b3aaa0",
+      "hands": "#dcd4c9",
+      "tears": false,
+      "pose": "lean_lens"
+     }
+    }
+   ],
+   "framing": "face",
+   "glitch": 0.25,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "2b35b4b6a80304c1"
+  },
+  {
+   "id": "b34_2",
+   "s": 5715,
+   "e": 5780,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "wide",
+    "window": "blind",
+    "ground": "clean",
+    "clock": "2:41",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "held",
+    "seed": 68
+   },
+   "anchor": {
+    "pos": [
+     -1.4,
+     0.86,
+     -2.95
+    ],
+    "yaw": 240,
+    "pitch": -15
+   },
+   "preset": "idle_breath",
+   "hands": "brace_fall",
+   "actors": [
+    {
+     "id": "entity",
+     "at": [
+      0.1,
+      0.0,
+      -0.9
+     ],
+     "yaw": 18,
+     "pose": "crouch_spider",
+     "kind": "creature",
+     "creature": {
+      "face": "blank",
+      "skull": "bulb",
+      "hairStyle": "none",
+      "scale": 1.52,
+      "armLong": 1.62,
+      "mask": "#cfc7bd",
+      "cloth": "#cfc7bd",
+      "clothDark": "#b3aaa0",
+      "hands": "#dcd4c9",
+      "tears": false,
+      "pose": "crouch_spider"
+     }
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "163e04352b01232e"
+  },
+  {
+   "id": "b34_3",
+   "s": 5780,
+   "e": 5845,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "open",
+    "window": "curtained",
+    "ground": "clean",
+    "clock": "2:41",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "held",
+    "seed": 69
+   },
+   "anchor": {
+    "pos": [
+     -0.6,
+     1.06,
+     -2.98
+    ],
+    "yaw": 225,
+    "pitch": 27
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [
+    {
+     "id": "entity",
+     "at": [
+      0.85,
+      0.0,
+      -0.55
+     ],
+     "yaw": 40,
+     "pose": "stand",
+     "kind": "creature",
+     "creature": {
+      "face": "blank",
+      "skull": "bulb",
+      "hairStyle": "none",
+      "scale": 1.52,
+      "armLong": 1.62,
+      "mask": "#cfc7bd",
+      "cloth": "#cfc7bd",
+      "clothDark": "#b3aaa0",
+      "hands": "#dcd4c9",
+      "tears": false,
+      "pose": "stand"
+     }
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "4ace4e6c91cd2382"
+  },
+  {
+   "id": "b34_4",
+   "s": 5845,
+   "e": 5910,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "wide",
+    "window": "curtained",
+    "ground": "drops",
+    "clock": "2:41",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "held",
+    "seed": 70
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 150,
+    "pitch": 26
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [
+    {
+     "id": "entity",
+     "at": [
+      1.0,
+      0.0,
+      -0.2
+     ],
+     "yaw": 55,
+     "pose": "reach",
+     "kind": "creature",
+     "creature": {
+      "face": "blank",
+      "skull": "bulb",
+      "hairStyle": "none",
+      "scale": 1.52,
+      "armLong": 1.62,
+      "mask": "#cfc7bd",
+      "cloth": "#cfc7bd",
+      "clothDark": "#b3aaa0",
+      "hands": "#dcd4c9",
+      "tears": false,
+      "pose": "reach"
+     }
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "1dfd90d4bee66603"
+  },
+  {
+   "id": "b34_5",
+   "s": 5910,
+   "e": 5973,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "wide",
+    "window": "blind",
+    "ground": "drops",
+    "clock": "2:41",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "held",
+    "seed": 71
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 220,
+    "pitch": 42
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [
+    {
+     "id": "entity",
+     "at": [
+      0.0,
+      0.0,
+      -1.9
+     ],
+     "yaw": 350,
+     "pose": "lean_lens",
+     "kind": "creature",
+     "creature": {
+      "face": "blank",
+      "skull": "bulb",
+      "hairStyle": "none",
+      "scale": 1.52,
+      "armLong": 1.62,
+      "mask": "#cfc7bd",
+      "cloth": "#cfc7bd",
+      "clothDark": "#b3aaa0",
+      "hands": "#dcd4c9",
+      "tears": false,
+      "pose": "lean_lens"
+     }
+    }
+   ],
+   "framing": "waist",
+   "glitch": 0.18,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "43a6de80398b7dd0"
+  },
+  {
+   "id": "b34_6",
+   "s": 5973,
+   "e": 6038,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "open",
+    "window": "blind",
+    "ground": "drops",
+    "clock": "2:41",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "held",
+    "seed": 72
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.86,
+     -2.92
+    ],
+    "yaw": 180,
+    "pitch": 56
+   },
+   "preset": "idle_breath",
+   "hands": "grip_rail",
+   "actors": [
+    {
+     "id": "entity",
+     "at": [
+      -0.35,
+      0.0,
+      -1.6
+     ],
+     "yaw": 0,
+     "pose": "crouch_spider",
+     "kind": "creature",
+     "creature": {
+      "face": "blank",
+      "skull": "bulb",
+      "hairStyle": "none",
+      "scale": 1.52,
+      "armLong": 1.62,
+      "mask": "#cfc7bd",
+      "cloth": "#cfc7bd",
+      "clothDark": "#b3aaa0",
+      "hands": "#dcd4c9",
+      "tears": false,
+      "pose": "crouch_spider"
+     }
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "7cc2814cadb1a878"
+  },
+  {
+   "id": "b35_1",
+   "s": 6038,
+   "e": 6097,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "wide",
+    "window": "curtained",
+    "ground": "drops",
+    "clock": "2:41",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "held",
+    "seed": 73
+   },
+   "anchor": {
+    "pos": [
+     -1.2,
+     0.9,
+     -2.98
+    ],
+    "yaw": 180,
+    "pitch": 15
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [
+    {
+     "id": "entity",
+     "at": [
+      0.3,
+      0.0,
+      -0.75
+     ],
+     "yaw": 10,
+     "pose": "stand",
+     "kind": "creature",
+     "creature": {
+      "face": "blank",
+      "skull": "bulb",
+      "hairStyle": "none",
+      "scale": 1.52,
+      "armLong": 1.62,
+      "mask": "#cfc7bd",
+      "cloth": "#cfc7bd",
+      "clothDark": "#b3aaa0",
+      "hands": "#dcd4c9",
+      "tears": false,
+      "pose": "stand"
+     }
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "b3bf62f44196d888"
+  },
+  {
+   "id": "b36_1",
+   "s": 6097,
+   "e": 6170,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "wide",
+    "window": "curtained",
+    "ground": "drops",
+    "clock": "2:47",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "held",
+    "seed": 74
+   },
+   "anchor": {
+    "pos": [
+     -1.4,
+     0.98,
+     -3.0
+    ],
+    "yaw": 180,
+    "pitch": 0
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [
+    {
+     "id": "entity",
+     "at": [
+      0.5,
+      0.0,
+      0.0
+     ],
+     "yaw": 25,
+     "pose": "stride",
+     "kind": "creature",
+     "creature": {
+      "face": "blank",
+      "skull": "bulb",
+      "hairStyle": "none",
+      "scale": 1.52,
+      "armLong": 1.62,
+      "mask": "#cfc7bd",
+      "cloth": "#cfc7bd",
+      "clothDark": "#b3aaa0",
+      "hands": "#dcd4c9",
+      "tears": false,
+      "pose": "stride"
+     },
+     "phase": 0.2
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "c227a292a44d5c8e"
+  },
+  {
+   "id": "b36_2",
+   "s": 6170,
+   "e": 6243,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "wide",
+    "window": "blind",
+    "ground": "drops",
+    "clock": "2:47",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "held",
+    "seed": 75
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 220,
+    "pitch": 4
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [
+    {
+     "id": "entity",
+     "at": [
+      0.2,
+      0.0,
+      -0.75
+     ],
+     "yaw": 20,
+     "pose": "stride",
+     "kind": "creature",
+     "creature": {
+      "face": "blank",
+      "skull": "bulb",
+      "hairStyle": "none",
+      "scale": 1.52,
+      "armLong": 1.62,
+      "mask": "#cfc7bd",
+      "cloth": "#cfc7bd",
+      "clothDark": "#b3aaa0",
+      "hands": "#dcd4c9",
+      "tears": false,
+      "pose": "stride"
+     },
+     "phase": 0.6
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "6aa46c5972c53887"
+  },
+  {
+   "id": "b36_3",
+   "s": 6243,
+   "e": 6319,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "open",
+    "window": "blind",
+    "ground": "drops",
+    "clock": "2:47",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "held",
+    "seed": 76
+   },
+   "anchor": {
+    "pos": [
+     -0.1,
+     0.4,
+     -2.1
+    ],
+    "yaw": 195,
+    "pitch": 0
+   },
+   "preset": "crouch_peek",
+   "hands": null,
+   "actors": [
+    {
+     "id": "entity",
+     "at": [
+      0.45,
+      0.0,
+      -0.45
+     ],
+     "yaw": 30,
+     "pose": "crouch_spider",
+     "kind": "creature",
+     "creature": {
+      "face": "blank",
+      "skull": "bulb",
+      "hairStyle": "none",
+      "scale": 1.52,
+      "armLong": 1.62,
+      "mask": "#cfc7bd",
+      "cloth": "#cfc7bd",
+      "clothDark": "#b3aaa0",
+      "hands": "#dcd4c9",
+      "tears": false,
+      "pose": "crouch_spider"
+     },
+     "phase": 0.5
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "26866df46f1dea0a"
+  },
+  {
+   "id": "b37_1",
+   "s": 6319,
+   "e": 6380,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "wide",
+    "window": "curtained",
+    "ground": "smear",
+    "clock": "2:47",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "held",
+    "seed": 77
+   },
+   "anchor": {
+    "pos": [
+     -1.4,
+     0.98,
+     -3.0
+    ],
+    "yaw": 195,
+    "pitch": -15
+   },
+   "preset": "idle_breath",
+   "hands": "grip_rail",
+   "actors": [
+    {
+     "id": "entity",
+     "at": [
+      0.45,
+      0.0,
+      0.1
+     ],
+     "yaw": 25,
+     "pose": "hold_two",
+     "kind": "creature",
+     "creature": {
+      "face": "blank",
+      "skull": "bulb",
+      "hairStyle": "none",
+      "scale": 1.52,
+      "armLong": 1.62,
+      "mask": "#cfc7bd",
+      "cloth": "#cfc7bd",
+      "clothDark": "#b3aaa0",
+      "hands": "#dcd4c9",
+      "tears": false,
+      "pose": "hold_two",
+      "state": {
+       "blood": true
+      }
+     }
+    },
+    {
+     "id": "father",
+     "at": [
+      1.15,
+      0.0,
+      0.9
+     ],
+     "yaw": 30,
+     "pose": "lie",
+     "look": {
+      "h": 1.78,
+      "skin": "#c88c62",
+      "skinShade": "#8e5f41",
+      "hairStyle": "balding",
+      "hair": "#1d1820",
+      "facial": "moustache",
+      "top": "#9fb4cc",
+      "sleeve": "#9fb4cc",
+      "legs": "#4a4036",
+      "shoes": "#5a4433"
+     },
+     "state": {
+      "blood": "smear",
+      "expr": "shocked",
+      "mouth": "open",
+      "eyesShut": false
+     }
+    },
+    {
+     "id": "mother",
+     "at": [
+      0.3,
+      0.0,
+      1.0
+     ],
+     "yaw": 45,
+     "pose": "lie",
+     "look": {
+      "h": 1.62,
+      "skin": "#e0a87f",
+      "skinShade": "#ab7256",
+      "hairStyle": "long",
+      "hair": "#1d1820",
+      "top": "#8e2f3c",
+      "sleeve": "#8e2f3c",
+      "legs": "#8e2f3c",
+      "shoes": "#2a2730"
+     },
+     "state": {
+      "blood": "spots",
+      "expr": "shocked",
+      "mouth": "open",
+      "eyesShut": false
+     }
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [
+    {
+     "t": "*drag*",
+     "at": 16,
+     "x": 0.56,
+     "y": 0.6,
+     "size": 0.6
+    }
+   ],
+   "sig": "9ac204723b123e19"
+  },
+  {
+   "id": "b37_2",
+   "s": 6380,
+   "e": 6441,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "wide",
+    "window": "blind",
+    "ground": "smear",
+    "clock": "2:47",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "held",
+    "seed": 78
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 190,
+    "pitch": -38
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [
+    {
+     "id": "entity",
+     "at": [
+      0.15,
+      0.0,
+      -0.65
+     ],
+     "yaw": 20,
+     "pose": "hold_two",
+     "kind": "creature",
+     "creature": {
+      "face": "blank",
+      "skull": "bulb",
+      "hairStyle": "none",
+      "scale": 1.52,
+      "armLong": 1.62,
+      "mask": "#cfc7bd",
+      "cloth": "#cfc7bd",
+      "clothDark": "#b3aaa0",
+      "hands": "#dcd4c9",
+      "tears": false,
+      "pose": "hold_two",
+      "state": {
+       "blood": true
+      }
+     }
+    },
+    {
+     "id": "father",
+     "at": [
+      0.85,
+      0.0,
+      0.2
+     ],
+     "yaw": 25,
+     "pose": "lie",
+     "look": {
+      "h": 1.78,
+      "skin": "#c88c62",
+      "skinShade": "#8e5f41",
+      "hairStyle": "balding",
+      "hair": "#1d1820",
+      "facial": "moustache",
+      "top": "#9fb4cc",
+      "sleeve": "#9fb4cc",
+      "legs": "#4a4036",
+      "shoes": "#5a4433"
+     },
+     "state": {
+      "blood": "smear",
+      "expr": "shocked",
+      "mouth": "open",
+      "eyesShut": false
+     }
+    },
+    {
+     "id": "mother",
+     "at": [
+      -0.05,
+      0.0,
+      0.35
+     ],
+     "yaw": 40,
+     "pose": "lie",
+     "look": {
+      "h": 1.62,
+      "skin": "#e0a87f",
+      "skinShade": "#ab7256",
+      "hairStyle": "long",
+      "hair": "#1d1820",
+      "top": "#8e2f3c",
+      "sleeve": "#8e2f3c",
+      "legs": "#8e2f3c",
+      "shoes": "#2a2730"
+     },
+     "state": {
+      "blood": "spots",
+      "expr": "shocked",
+      "mouth": "open",
+      "eyesShut": false
+     }
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "33d5eadc17ae8936"
+  },
+  {
+   "id": "b37_3",
+   "s": 6441,
+   "e": 6502,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "open",
+    "window": "curtained",
+    "ground": "smear",
+    "clock": "2:47",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "held",
+    "seed": 79
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.86,
+     -2.92
+    ],
+    "yaw": 170,
+    "pitch": -24
+   },
+   "preset": "idle_breath",
+   "hands": "brace_fall",
+   "actors": [
+    {
+     "id": "entity",
+     "at": [
+      -0.3,
+      0.0,
+      -1.25
+     ],
+     "yaw": 10,
+     "pose": "crouch_spider",
+     "kind": "creature",
+     "creature": {
+      "face": "blank",
+      "skull": "bulb",
+      "hairStyle": "none",
+      "scale": 1.52,
+      "armLong": 1.62,
+      "mask": "#cfc7bd",
+      "cloth": "#cfc7bd",
+      "clothDark": "#b3aaa0",
+      "hands": "#dcd4c9",
+      "tears": false,
+      "pose": "crouch_spider",
+      "state": {
+       "blood": true
+      }
+     }
+    },
+    {
+     "id": "father",
+     "at": [
+      0.45,
+      0.0,
+      -0.5
+     ],
+     "yaw": 20,
+     "pose": "lie",
+     "look": {
+      "h": 1.78,
+      "skin": "#c88c62",
+      "skinShade": "#8e5f41",
+      "hairStyle": "balding",
+      "hair": "#1d1820",
+      "facial": "moustache",
+      "top": "#9fb4cc",
+      "sleeve": "#9fb4cc",
+      "legs": "#4a4036",
+      "shoes": "#5a4433"
+     },
+     "state": {
+      "blood": "smear",
+      "expr": "shocked",
+      "mouth": "open",
+      "eyesShut": false
+     }
+    },
+    {
+     "id": "mother",
+     "at": [
+      -0.45,
+      0.0,
+      -0.35
+     ],
+     "yaw": 35,
+     "pose": "lie",
+     "look": {
+      "h": 1.62,
+      "skin": "#e0a87f",
+      "skinShade": "#ab7256",
+      "hairStyle": "long",
+      "hair": "#1d1820",
+      "top": "#8e2f3c",
+      "sleeve": "#8e2f3c",
+      "legs": "#8e2f3c",
+      "shoes": "#2a2730"
+     },
+     "state": {
+      "blood": "spots",
+      "expr": "shocked",
+      "mouth": "open",
+      "eyesShut": false
+     }
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "b0598643dc8f71ba"
+  },
+  {
+   "id": "b38_1",
+   "s": 6502,
+   "e": 6570,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "wide",
+    "window": "curtained",
+    "ground": "smear",
+    "clock": "2:47",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "held",
+    "seed": 80
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 205,
+    "pitch": 70
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [
+    {
+     "id": "entity",
+     "at": [
+      0.2,
+      0.0,
+      -1.5
+     ],
+     "yaw": 5,
+     "pose": "stand",
+     "kind": "creature",
+     "creature": {
+      "face": "blank",
+      "skull": "bulb",
+      "hairStyle": "none",
+      "scale": 1.52,
+      "armLong": 1.62,
+      "mask": "#cfc7bd",
+      "cloth": "#cfc7bd",
+      "clothDark": "#b3aaa0",
+      "hands": "#dcd4c9",
+      "tears": false,
+      "pose": "stand",
+      "state": {
+       "blood": true
+      }
+     }
+    },
+    {
+     "id": "father",
+     "at": [
+      0.45,
+      0.0,
+      -0.5
+     ],
+     "yaw": 20,
+     "pose": "lie",
+     "look": {
+      "h": 1.78,
+      "skin": "#c88c62",
+      "skinShade": "#8e5f41",
+      "hairStyle": "balding",
+      "hair": "#1d1820",
+      "facial": "moustache",
+      "top": "#9fb4cc",
+      "sleeve": "#9fb4cc",
+      "legs": "#4a4036",
+      "shoes": "#5a4433"
+     },
+     "state": {
+      "blood": "smear",
+      "expr": "shocked",
+      "mouth": "open",
+      "eyesShut": false
+     }
+    },
+    {
+     "id": "mother",
+     "at": [
+      -0.45,
+      0.0,
+      -0.35
+     ],
+     "yaw": 35,
+     "pose": "lie",
+     "look": {
+      "h": 1.62,
+      "skin": "#e0a87f",
+      "skinShade": "#ab7256",
+      "hairStyle": "long",
+      "hair": "#1d1820",
+      "top": "#8e2f3c",
+      "sleeve": "#8e2f3c",
+      "legs": "#8e2f3c",
+      "shoes": "#2a2730"
+     },
+     "state": {
+      "blood": "spots",
+      "expr": "shocked",
+      "mouth": "open",
+      "eyesShut": false
+     }
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "3454d03de1ff33ce"
+  },
+  {
+   "id": "b38_2",
+   "s": 6570,
+   "e": 6638,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "open",
+    "window": "blind",
+    "ground": "smear",
+    "clock": "2:47",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "held",
+    "seed": 81
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 240,
+    "pitch": 15
+   },
+   "preset": "idle_breath",
+   "hands": "grip_rail",
+   "actors": [
+    {
+     "id": "entity",
+     "at": [
+      0.2,
+      0.0,
+      -1.5
+     ],
+     "yaw": 5,
+     "pose": "stand",
+     "kind": "creature",
+     "creature": {
+      "face": "blank",
+      "skull": "bulb",
+      "hairStyle": "none",
+      "scale": 1.52,
+      "armLong": 1.62,
+      "mask": "#cfc7bd",
+      "cloth": "#cfc7bd",
+      "clothDark": "#b3aaa0",
+      "hands": "#dcd4c9",
+      "tears": false,
+      "pose": "stand",
+      "state": {
+       "blood": true,
+       "tilt": 12
+      }
+     }
+    },
+    {
+     "id": "mother",
+     "at": [
+      -0.45,
+      0.0,
+      -0.35
+     ],
+     "yaw": 35,
+     "pose": "lie",
+     "look": {
+      "h": 1.62,
+      "skin": "#e0a87f",
+      "skinShade": "#ab7256",
+      "hairStyle": "long",
+      "hair": "#1d1820",
+      "top": "#8e2f3c",
+      "sleeve": "#8e2f3c",
+      "legs": "#8e2f3c",
+      "shoes": "#2a2730"
+     },
+     "state": {
+      "blood": "spots",
+      "expr": "shocked",
+      "mouth": "open",
+      "eyesShut": false
+     }
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "31bc52f79c866217"
+  },
+  {
+   "id": "b39_1",
+   "s": 6638,
+   "e": 6705,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "wide",
+    "window": "blind",
+    "ground": "smear",
+    "clock": "2:55",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "held",
+    "seed": 82
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 140,
+    "pitch": 15
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [
+    {
+     "id": "entity",
+     "at": [
+      -0.1,
+      0.0,
+      -1.1
+     ],
+     "yaw": 0,
+     "pose": "reach",
+     "kind": "creature",
+     "creature": {
+      "face": "blank",
+      "skull": "bulb",
+      "hairStyle": "none",
+      "scale": 1.52,
+      "armLong": 1.62,
+      "mask": "#cfc7bd",
+      "cloth": "#cfc7bd",
+      "clothDark": "#b3aaa0",
+      "hands": "#dcd4c9",
+      "tears": false,
+      "pose": "reach",
+      "state": {
+       "blood": true
+      }
+     }
+    }
+   ],
+   "framing": "waist",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "2cec9f3b32f1b05a"
+  },
+  {
+   "id": "b39_2",
+   "s": 6705,
+   "e": 6772,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "wide",
+    "window": "curtained",
+    "ground": "smear",
+    "clock": "2:55",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "held",
+    "seed": 83
+   },
+   "anchor": {
+    "pos": [
+     -0.1,
+     0.4,
+     -2.1
+    ],
+    "yaw": 185,
+    "pitch": -14
+   },
+   "preset": "crouch_peek",
+   "hands": null,
+   "actors": [
+    {
+     "id": "entity",
+     "at": [
+      -0.2,
+      0.0,
+      -0.95
+     ],
+     "yaw": 0,
+     "pose": "crouch_spider",
+     "kind": "creature",
+     "creature": {
+      "face": "blank",
+      "skull": "bulb",
+      "hairStyle": "none",
+      "scale": 1.52,
+      "armLong": 1.62,
+      "mask": "#cfc7bd",
+      "cloth": "#cfc7bd",
+      "clothDark": "#b3aaa0",
+      "hands": "#dcd4c9",
+      "tears": false,
+      "pose": "crouch_spider",
+      "state": {
+       "blood": true
+      }
+     }
+    },
+    {
+     "id": "father",
+     "at": [
+      0.3,
+      0.0,
+      -0.6
+     ],
+     "yaw": 15,
+     "pose": "lie",
+     "look": {
+      "h": 1.78,
+      "skin": "#c88c62",
+      "skinShade": "#8e5f41",
+      "hairStyle": "balding",
+      "hair": "#1d1820",
+      "facial": "moustache",
+      "top": "#9fb4cc",
+      "sleeve": "#9fb4cc",
+      "legs": "#4a4036",
+      "shoes": "#5a4433"
+     },
+     "state": {
+      "blood": "smear",
+      "expr": "shocked",
+      "mouth": "open",
+      "eyesShut": false
+     }
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "f8d6e69a0b8d9fde"
+  },
+  {
+   "id": "b40_1",
+   "s": 6772,
+   "e": 6841,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "wide",
+    "window": "curtained",
+    "ground": "smear",
+    "clock": "2:55",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "held",
+    "seed": 84
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 195,
+    "pitch": 55
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [
+    {
+     "id": "entity",
+     "at": [
+      -0.45,
+      0.0,
+      -0.85
+     ],
+     "yaw": 5,
+     "pose": "reach",
+     "kind": "creature",
+     "creature": {
+      "face": "blank",
+      "skull": "bulb",
+      "hairStyle": "none",
+      "scale": 1.52,
+      "armLong": 1.62,
+      "mask": "#cfc7bd",
+      "cloth": "#cfc7bd",
+      "clothDark": "#b3aaa0",
+      "hands": "#dcd4c9",
+      "tears": false,
+      "pose": "reach",
+      "state": {
+       "blood": true
+      }
+     }
+    },
+    {
+     "id": "father",
+     "at": [
+      -0.95,
+      0.0,
+      -1.0
+     ],
+     "yaw": 10,
+     "pose": "fall",
+     "look": {
+      "h": 1.78,
+      "skin": "#c88c62",
+      "skinShade": "#8e5f41",
+      "hairStyle": "balding",
+      "hair": "#1d1820",
+      "facial": "moustache",
+      "top": "#9fb4cc",
+      "sleeve": "#9fb4cc",
+      "legs": "#4a4036",
+      "shoes": "#5a4433"
+     },
+     "state": {
+      "blood": "smear",
+      "expr": "shocked",
+      "mouth": "open",
+      "eyesShut": false
+     }
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "03a494991ccfde9a"
+  },
+  {
+   "id": "b40_2",
+   "s": 6841,
+   "e": 6910,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "open",
+    "window": "curtained",
+    "ground": "smear",
+    "clock": "2:55",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "held",
+    "seed": 85
+   },
+   "anchor": {
+    "pos": [
+     -1.4,
+     0.86,
+     -2.95
+    ],
+    "yaw": 190,
+    "pitch": 10
+   },
+   "preset": "idle_breath",
+   "hands": "grip_rail",
+   "actors": [
+    {
+     "id": "entity",
+     "at": [
+      -0.6,
+      0.0,
+      -0.7
+     ],
+     "yaw": 350,
+     "pose": "reach",
+     "kind": "creature",
+     "creature": {
+      "face": "blank",
+      "skull": "bulb",
+      "hairStyle": "none",
+      "scale": 1.52,
+      "armLong": 1.62,
+      "mask": "#cfc7bd",
+      "cloth": "#cfc7bd",
+      "clothDark": "#b3aaa0",
+      "hands": "#dcd4c9",
+      "tears": false,
+      "pose": "reach",
+      "state": {
+       "blood": true
+      }
+     }
+    },
+    {
+     "id": "father",
+     "at": [
+      -1.05,
+      0.0,
+      -1.12
+     ],
+     "yaw": 0,
+     "pose": "sit",
+     "look": {
+      "h": 1.78,
+      "skin": "#c88c62",
+      "skinShade": "#8e5f41",
+      "hairStyle": "balding",
+      "hair": "#1d1820",
+      "facial": "moustache",
+      "top": "#9fb4cc",
+      "sleeve": "#9fb4cc",
+      "legs": "#4a4036",
+      "shoes": "#5a4433"
+     },
+     "state": {
+      "blood": "smear",
+      "expr": "sad",
+      "mouth": "open",
+      "eyesShut": false
+     }
+    }
+   ],
+   "framing": "waist",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "3acd157b89a9b998"
+  },
+  {
+   "id": "b40_3",
+   "s": 6910,
+   "e": 6979,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "wide",
+    "window": "blind",
+    "ground": "smear",
+    "clock": "3:01",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "held",
+    "seed": 86
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 195,
+    "pitch": -25
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [
+    {
+     "id": "father",
+     "at": [
+      -1.05,
+      0.0,
+      -1.12
+     ],
+     "yaw": 0,
+     "pose": "sit",
+     "look": {
+      "h": 1.78,
+      "skin": "#c88c62",
+      "skinShade": "#8e5f41",
+      "hairStyle": "balding",
+      "hair": "#1d1820",
+      "facial": "moustache",
+      "top": "#9fb4cc",
+      "sleeve": "#9fb4cc",
+      "legs": "#4a4036",
+      "shoes": "#5a4433"
+     },
+     "state": {
+      "blood": "smear",
+      "expr": "shocked",
+      "mouth": "open",
+      "eyesShut": false
+     }
+    },
+    {
+     "id": "mother",
+     "at": [
+      -0.45,
+      0.0,
+      -0.35
+     ],
+     "yaw": 35,
+     "pose": "lie",
+     "look": {
+      "h": 1.62,
+      "skin": "#e0a87f",
+      "skinShade": "#ab7256",
+      "hairStyle": "long",
+      "hair": "#1d1820",
+      "top": "#8e2f3c",
+      "sleeve": "#8e2f3c",
+      "legs": "#8e2f3c",
+      "shoes": "#2a2730"
+     },
+     "state": {
+      "blood": "spots",
+      "expr": "shocked",
+      "mouth": "open",
+      "eyesShut": false
+     }
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "5999cccd615d931c"
+  },
+  {
+   "id": "b41_1",
+   "s": 6979,
+   "e": 7055,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "wide",
+    "window": "curtained",
+    "ground": "smear",
+    "clock": "3:01",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "held",
+    "seed": 87
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 255,
+    "pitch": 15
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [
+    {
+     "id": "entity",
+     "at": [
+      0.55,
+      0.0,
+      -1.25
+     ],
+     "yaw": 300,
+     "pose": "reach",
+     "kind": "creature",
+     "creature": {
+      "face": "blank",
+      "skull": "bulb",
+      "hairStyle": "none",
+      "scale": 1.52,
+      "armLong": 1.62,
+      "mask": "#cfc7bd",
+      "cloth": "#cfc7bd",
+      "clothDark": "#b3aaa0",
+      "hands": "#dcd4c9",
+      "tears": false,
+      "pose": "reach",
+      "state": {
+       "blood": true
+      }
+     }
+    },
+    {
+     "id": "mother",
+     "at": [
+      0.1,
+      0.0,
+      -1.0
+     ],
+     "yaw": 40,
+     "pose": "held_up",
+     "look": {
+      "h": 1.62,
+      "skin": "#e0a87f",
+      "skinShade": "#ab7256",
+      "hairStyle": "long",
+      "hair": "#1d1820",
+      "top": "#8e2f3c",
+      "sleeve": "#8e2f3c",
+      "legs": "#8e2f3c",
+      "shoes": "#2a2730"
+     },
+     "state": {
+      "blood": "spots",
+      "expr": "shocked",
+      "mouth": "open",
+      "eyesShut": false
+     }
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "1f165f4394b0b9de"
+  },
+  {
+   "id": "b41_2",
+   "s": 7055,
+   "e": 7131,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "wide",
+    "window": "curtained",
+    "ground": "smear",
+    "clock": "3:01",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "held",
+    "seed": 88
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 255,
+    "pitch": -15
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [
+    {
+     "id": "entity",
+     "at": [
+      0.9,
+      0.0,
+      -1.3
+     ],
+     "yaw": 290,
+     "pose": "stand",
+     "kind": "creature",
+     "creature": {
+      "face": "blank",
+      "skull": "bulb",
+      "hairStyle": "none",
+      "scale": 1.52,
+      "armLong": 1.62,
+      "mask": "#cfc7bd",
+      "cloth": "#cfc7bd",
+      "clothDark": "#b3aaa0",
+      "hands": "#dcd4c9",
+      "tears": false,
+      "pose": "stand",
+      "state": {
+       "blood": true
+      }
+     }
+    },
+    {
+     "id": "mother",
+     "at": [
+      1.3,
+      0.0,
+      -1.9
+     ],
+     "yaw": 65,
+     "pose": "sit",
+     "look": {
+      "h": 1.62,
+      "skin": "#e0a87f",
+      "skinShade": "#ab7256",
+      "hairStyle": "long",
+      "hair": "#1d1820",
+      "top": "#8e2f3c",
+      "sleeve": "#8e2f3c",
+      "legs": "#8e2f3c",
+      "shoes": "#2a2730"
+     },
+     "state": {
+      "blood": "spots",
+      "expr": "sad",
+      "mouth": "open",
+      "eyesShut": false
+     }
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "5d62290cb94a2743"
+  },
+  {
+   "id": "b42_1",
+   "s": 7131,
+   "e": 7192,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "wide",
+    "window": "blind",
+    "ground": "smear",
+    "clock": "3:01",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "held",
+    "seed": 89
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 240,
+    "pitch": -15
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [
+    {
+     "id": "entity",
+     "at": [
+      0.85,
+      0.0,
+      -1.75
+     ],
+     "yaw": 280,
+     "pose": "reach",
+     "kind": "creature",
+     "creature": {
+      "face": "blank",
+      "skull": "bulb",
+      "hairStyle": "none",
+      "scale": 1.52,
+      "armLong": 1.62,
+      "mask": "#cfc7bd",
+      "cloth": "#cfc7bd",
+      "clothDark": "#b3aaa0",
+      "hands": "#dcd4c9",
+      "tears": false,
+      "pose": "reach",
+      "state": {
+       "blood": true
+      }
+     }
+    },
+    {
+     "id": "mother",
+     "at": [
+      1.3,
+      0.0,
+      -1.9
+     ],
+     "yaw": 65,
+     "pose": "sit",
+     "look": {
+      "h": 1.62,
+      "skin": "#e0a87f",
+      "skinShade": "#ab7256",
+      "hairStyle": "long",
+      "hair": "#1d1820",
+      "top": "#8e2f3c",
+      "sleeve": "#8e2f3c",
+      "legs": "#8e2f3c",
+      "shoes": "#2a2730"
+     },
+     "state": {
+      "blood": "spots",
+      "expr": "shocked",
+      "mouth": "open",
+      "eyesShut": false
+     }
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "53047bfdf5f1018f"
+  },
+  {
+   "id": "b42_2",
+   "s": 7192,
+   "e": 7251,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "open",
+    "window": "blind",
+    "ground": "smear",
+    "clock": "3:01",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "held",
+    "seed": 90
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 155,
+    "pitch": 40
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [
+    {
+     "id": "entity",
+     "at": [
+      -0.35,
+      0.0,
+      -1.05
+     ],
+     "yaw": 0,
+     "pose": "lean_lens",
+     "kind": "creature",
+     "creature": {
+      "face": "blank",
+      "skull": "bulb",
+      "hairStyle": "none",
+      "scale": 1.52,
+      "armLong": 1.62,
+      "mask": "#cfc7bd",
+      "cloth": "#cfc7bd",
+      "clothDark": "#b3aaa0",
+      "hands": "#dcd4c9",
+      "tears": false,
+      "pose": "lean_lens",
+      "state": {
+       "blood": true
+      }
+     }
+    },
+    {
+     "id": "father",
+     "at": [
+      -1.05,
+      0.0,
+      -1.12
+     ],
+     "yaw": 0,
+     "pose": "sit",
+     "look": {
+      "h": 1.78,
+      "skin": "#c88c62",
+      "skinShade": "#8e5f41",
+      "hairStyle": "balding",
+      "hair": "#1d1820",
+      "facial": "moustache",
+      "top": "#9fb4cc",
+      "sleeve": "#9fb4cc",
+      "legs": "#4a4036",
+      "shoes": "#5a4433"
+     },
+     "state": {
+      "blood": "smear",
+      "expr": "shocked",
+      "mouth": "open",
+      "eyesShut": false
+     }
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "a2f77f9e2e36a041"
+  },
+  {
+   "id": "b42_3",
+   "s": 7251,
+   "e": 7312,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "wide",
+    "window": "curtained",
+    "ground": "pool",
+    "clock": "3:01",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "held",
+    "seed": 91
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 210,
+    "pitch": -25
+   },
+   "preset": "idle_breath",
+   "hands": "brace_fall",
+   "actors": [
+    {
+     "id": "father",
+     "at": [
+      -1.05,
+      0.0,
+      -1.12
+     ],
+     "yaw": 0,
+     "pose": "sit",
+     "look": {
+      "h": 1.78,
+      "skin": "#c88c62",
+      "skinShade": "#8e5f41",
+      "hairStyle": "balding",
+      "hair": "#1d1820",
+      "facial": "moustache",
+      "top": "#9fb4cc",
+      "sleeve": "#9fb4cc",
+      "legs": "#4a4036",
+      "shoes": "#5a4433"
+     },
+     "state": {
+      "blood": "smear",
+      "expr": "shocked",
+      "mouth": "open",
+      "eyesShut": false
+     }
+    },
+    {
+     "id": "mother",
+     "at": [
+      1.3,
+      0.0,
+      -1.9
+     ],
+     "yaw": 65,
+     "pose": "sit",
+     "look": {
+      "h": 1.62,
+      "skin": "#e0a87f",
+      "skinShade": "#ab7256",
+      "hairStyle": "long",
+      "hair": "#1d1820",
+      "top": "#8e2f3c",
+      "sleeve": "#8e2f3c",
+      "legs": "#8e2f3c",
+      "shoes": "#2a2730"
+     },
+     "state": {
+      "blood": "spots",
+      "expr": "shocked",
+      "mouth": "open",
+      "eyesShut": false
+     }
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "4605468fb2eba2d4"
+  },
+  {
+   "id": "b43_1",
+   "s": 7312,
+   "e": 7380,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "wide",
+    "window": "curtained",
+    "ground": "pool",
+    "clock": "3:01",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 92
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 240,
+    "pitch": 25
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [
+    {
+     "id": "entity",
+     "at": [
+      1.15,
+      0.0,
+      -0.95
+     ],
+     "yaw": 270,
+     "pose": "reach",
+     "kind": "creature",
+     "creature": {
+      "face": "blank",
+      "skull": "bulb",
+      "hairStyle": "none",
+      "scale": 1.52,
+      "armLong": 1.62,
+      "mask": "#cfc7bd",
+      "cloth": "#cfc7bd",
+      "clothDark": "#b3aaa0",
+      "hands": "#dcd4c9",
+      "tears": false,
+      "pose": "reach",
+      "state": {
+       "blood": true
+      }
+     }
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "0e47e17407ae4427"
+  },
+  {
+   "id": "b43_2",
+   "s": 7380,
+   "e": 7448,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "open",
+    "window": "curtained",
+    "ground": "pool",
+    "clock": "3:01",
+    "shape": "none",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 93
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 255,
+    "pitch": 25
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [
+    {
+     "id": "entity",
+     "at": [
+      1.2,
+      0.0,
+      -0.5
+     ],
+     "yaw": 265,
+     "pose": "reach",
+     "kind": "creature",
+     "creature": {
+      "face": "blank",
+      "skull": "bulb",
+      "hairStyle": "none",
+      "scale": 1.52,
+      "armLong": 1.62,
+      "mask": "#cfc7bd",
+      "cloth": "#cfc7bd",
+      "clothDark": "#b3aaa0",
+      "hands": "#dcd4c9",
+      "tears": false,
+      "pose": "reach",
+      "state": {
+       "blood": true
+      }
+     }
+    }
+   ],
+   "framing": "waist",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "5998865f1fe8a45f"
+  },
+  {
+   "id": "b44_1",
+   "s": 7448,
+   "e": 7518,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "wide",
+    "window": "curtained",
+    "ground": "pool",
+    "clock": "3:04",
+    "shape": "circle",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 94
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 240,
+    "pitch": -25
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [
+    {
+     "id": "entity",
+     "at": [
+      1.1,
+      0.0,
+      -1.2
+     ],
+     "yaw": 275,
+     "pose": "reach",
+     "kind": "creature",
+     "creature": {
+      "face": "blank",
+      "skull": "bulb",
+      "hairStyle": "none",
+      "scale": 1.52,
+      "armLong": 1.62,
+      "mask": "#cfc7bd",
+      "cloth": "#cfc7bd",
+      "clothDark": "#b3aaa0",
+      "hands": "#dcd4c9",
+      "tears": false,
+      "pose": "reach",
+      "state": {
+       "blood": true
+      }
+     }
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "f621f48c82e0142d"
+  },
+  {
+   "id": "b44_2",
+   "s": 7518,
+   "e": 7588,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "open",
+    "window": "blind",
+    "ground": "pool",
+    "clock": "3:04",
+    "shape": "circle",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 95
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 225,
+    "pitch": 55
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [
+    {
+     "id": "entity",
+     "at": [
+      0.95,
+      0.0,
+      -0.75
+     ],
+     "yaw": 285,
+     "pose": "stand",
+     "kind": "creature",
+     "creature": {
+      "face": "blank",
+      "skull": "bulb",
+      "hairStyle": "none",
+      "scale": 1.52,
+      "armLong": 1.62,
+      "mask": "#cfc7bd",
+      "cloth": "#cfc7bd",
+      "clothDark": "#b3aaa0",
+      "hands": "#dcd4c9",
+      "tears": false,
+      "pose": "stand",
+      "state": {
+       "blood": true
+      }
+     }
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "8fe83db7f2de9867"
+  },
+  {
+   "id": "b44_3",
+   "s": 7588,
+   "e": 7658,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "wide",
+    "window": "blind",
+    "ground": "pool",
+    "clock": "3:04",
+    "shape": "pentagram",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 96
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 225,
+    "pitch": -25
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [
+    {
+     "id": "entity",
+     "at": [
+      1.1,
+      0.0,
+      -0.65
+     ],
+     "yaw": 270,
+     "pose": "reach",
+     "kind": "creature",
+     "creature": {
+      "face": "blank",
+      "skull": "bulb",
+      "hairStyle": "none",
+      "scale": 1.52,
+      "armLong": 1.62,
+      "mask": "#cfc7bd",
+      "cloth": "#cfc7bd",
+      "clothDark": "#b3aaa0",
+      "hands": "#dcd4c9",
+      "tears": false,
+      "pose": "reach",
+      "state": {
+       "blood": true
+      }
+     }
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "ca71ac9bbe62ed21"
+  },
+  {
+   "id": "b44_4",
+   "s": 7658,
+   "e": 7728,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "wide",
+    "window": "curtained",
+    "ground": "pool",
+    "clock": "3:04",
+    "shape": "pentagram",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 97
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 255,
+    "pitch": -25
+   },
+   "preset": "idle_breath",
+   "hands": "grip_rail",
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "d85aab001dbc3d76"
+  },
+  {
+   "id": "b45_1",
+   "s": 7728,
+   "e": 7791,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "wide",
+    "window": "blind",
+    "ground": "pool",
+    "clock": "3:04",
+    "shape": "pentagram",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 98
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 240,
+    "pitch": 40
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [
+    {
+     "id": "entity",
+     "at": [
+      1.15,
+      0.0,
+      -1.0
+     ],
+     "yaw": 270,
+     "pose": "reach",
+     "kind": "creature",
+     "creature": {
+      "face": "blank",
+      "skull": "bulb",
+      "hairStyle": "none",
+      "scale": 1.52,
+      "armLong": 1.62,
+      "mask": "#cfc7bd",
+      "cloth": "#cfc7bd",
+      "clothDark": "#b3aaa0",
+      "hands": "#dcd4c9",
+      "tears": false,
+      "pose": "reach",
+      "state": {
+       "blood": true,
+       "tilt": 14
+      }
+     }
+    }
+   ],
+   "framing": "face",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "776ae73f0e0dc12f"
+  },
+  {
+   "id": "b45_2",
+   "s": 7791,
+   "e": 7856,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "open",
+    "window": "curtained",
+    "ground": "pool",
+    "clock": "3:04",
+    "shape": "pentagram",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 99
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 210,
+    "pitch": 85
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [
+    {
+     "id": "entity",
+     "at": [
+      0.35,
+      0.0,
+      -1.05
+     ],
+     "yaw": 280,
+     "pose": "stand",
+     "kind": "creature",
+     "creature": {
+      "face": "blank",
+      "skull": "bulb",
+      "hairStyle": "none",
+      "scale": 1.52,
+      "armLong": 1.62,
+      "mask": "#cfc7bd",
+      "cloth": "#cfc7bd",
+      "clothDark": "#b3aaa0",
+      "hands": "#dcd4c9",
+      "tears": false,
+      "pose": "stand",
+      "state": {
+       "blood": true
+      }
+     }
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "50512267fb27e7c2"
+  },
+  {
+   "id": "b45_3",
+   "s": 7856,
+   "e": 7921,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "wide",
+    "window": "curtained",
+    "ground": "smear",
+    "clock": "3:04",
+    "shape": "pentagram",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 100
+   },
+   "anchor": {
+    "pos": [
+     0.35,
+     1.45,
+     -1.2
+    ],
+    "yaw": 90,
+    "pitch": -15
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [
+    {
+     "id": "entity",
+     "at": [
+      0.3,
+      0.0,
+      -1.1
+     ],
+     "yaw": 280,
+     "pose": "stand",
+     "kind": "creature",
+     "creature": {
+      "face": "blank",
+      "skull": "bulb",
+      "hairStyle": "none",
+      "scale": 1.52,
+      "armLong": 1.62,
+      "mask": "#cfc7bd",
+      "cloth": "#cfc7bd",
+      "clothDark": "#b3aaa0",
+      "hands": "#dcd4c9",
+      "tears": false,
+      "pose": "stand",
+      "state": {
+       "blood": true
+      }
+     }
+    },
+    {
+     "id": "father",
+     "at": [
+      -1.05,
+      0.0,
+      -1.12
+     ],
+     "yaw": 0,
+     "pose": "sit",
+     "look": {
+      "h": 1.78,
+      "skin": "#c88c62",
+      "skinShade": "#8e5f41",
+      "hairStyle": "balding",
+      "hair": "#1d1820",
+      "facial": "moustache",
+      "top": "#9fb4cc",
+      "sleeve": "#9fb4cc",
+      "legs": "#4a4036",
+      "shoes": "#5a4433"
+     },
+     "state": {
+      "blood": "smear",
+      "expr": "shocked",
+      "mouth": "open",
+      "eyesShut": false
+     }
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "1c2659cdae2e42d3"
+  },
+  {
+   "id": "b46_1",
+   "s": 7921,
+   "e": 7989,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "wide",
+    "window": "blind",
+    "ground": "smear",
+    "clock": "3:08",
+    "shape": "message",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 101
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 270,
+    "pitch": -15
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [
+    {
+     "id": "entity",
+     "at": [
+      1.2,
+      0.0,
+      -1.4
+     ],
+     "yaw": 270,
+     "pose": "reach",
+     "kind": "creature",
+     "creature": {
+      "face": "blank",
+      "skull": "bulb",
+      "hairStyle": "none",
+      "scale": 1.52,
+      "armLong": 1.62,
+      "mask": "#cfc7bd",
+      "cloth": "#cfc7bd",
+      "clothDark": "#b3aaa0",
+      "hands": "#dcd4c9",
+      "tears": false,
+      "pose": "reach",
+      "state": {
+       "blood": true
+      }
+     }
+    }
+   ],
+   "framing": "waist",
+   "glitch": 0,
+   "wash": "#211f30",
+   "washAmount": 0.42,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "53773f6b484e32af"
+  },
+  {
+   "id": "b46_2",
+   "s": 7989,
+   "e": 8054,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "open",
+    "window": "blind",
+    "ground": "smear",
+    "clock": "3:08",
+    "shape": "message",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 102
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 225,
+    "pitch": -45
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [
+    {
+     "id": "entity",
+     "at": [
+      1.15,
+      0.0,
+      -0.35
+     ],
+     "yaw": 265,
+     "pose": "reach",
+     "kind": "creature",
+     "creature": {
+      "face": "blank",
+      "skull": "bulb",
+      "hairStyle": "none",
+      "scale": 1.52,
+      "armLong": 1.62,
+      "mask": "#cfc7bd",
+      "cloth": "#cfc7bd",
+      "clothDark": "#b3aaa0",
+      "hands": "#dcd4c9",
+      "tears": false,
+      "pose": "reach",
+      "state": {
+       "blood": true
+      }
+     }
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": "#211f30",
+   "washAmount": 0.42,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "de890aeedf3b2112"
+  },
+  {
+   "id": "b46_3",
+   "s": 8054,
+   "e": 8119,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "wide",
+    "window": "curtained",
+    "ground": "smear",
+    "clock": "3:08",
+    "shape": "message",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 103
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 220,
+    "pitch": 70
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [
+    {
+     "id": "entity",
+     "at": [
+      0.6,
+      0.0,
+      -0.9
+     ],
+     "yaw": 275,
+     "pose": "stand",
+     "kind": "creature",
+     "creature": {
+      "face": "blank",
+      "skull": "bulb",
+      "hairStyle": "none",
+      "scale": 1.52,
+      "armLong": 1.62,
+      "mask": "#cfc7bd",
+      "cloth": "#cfc7bd",
+      "clothDark": "#b3aaa0",
+      "hands": "#dcd4c9",
+      "tears": false,
+      "pose": "stand",
+      "state": {
+       "blood": true
+      }
+     }
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": "#211f30",
+   "washAmount": 0.4,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "67548d52b1cc4fce"
+  },
+  {
+   "id": "b47_1",
+   "s": 8119,
+   "e": 8166,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "wide",
+    "window": "blind",
+    "ground": "pool",
+    "clock": "3:08",
+    "shape": "message",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 104
+   },
+   "anchor": {
+    "pos": [
+     -1.4,
+     0.98,
+     -3.0
+    ],
+    "yaw": 225,
+    "pitch": 0
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": "#09020b",
+   "washAmount": 0.5,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "789e71ae626465b1"
+  },
+  {
+   "id": "b47_2",
+   "s": 8166,
+   "e": 8210,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "open",
+    "window": "blind",
+    "ground": "pool",
+    "clock": "3:08",
+    "shape": "message",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 303
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 265,
+    "pitch": 15
+   },
+   "preset": "idle_breath",
+   "hands": "grip_rail",
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": "#09020b",
+   "washAmount": 0.5,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "edbbda005be1456a"
+  },
+  {
+   "id": "b48_1",
+   "s": 8210,
+   "e": 8284,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "wide",
+    "window": "curtained",
+    "ground": "pool",
+    "clock": "3:08",
+    "shape": "message",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 105
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 195,
+    "pitch": 70
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [
+    {
+     "id": "entity",
+     "at": [
+      -0.1,
+      0.0,
+      -1.3
+     ],
+     "yaw": 100,
+     "pose": "crouch_spider",
+     "kind": "creature",
+     "creature": {
+      "face": "blank",
+      "skull": "bulb",
+      "hairStyle": "none",
+      "scale": 1.52,
+      "armLong": 1.62,
+      "mask": "#cfc7bd",
+      "cloth": "#cfc7bd",
+      "clothDark": "#b3aaa0",
+      "hands": "#dcd4c9",
+      "tears": false,
+      "pose": "crouch_spider",
+      "state": {
+       "blood": true
+      }
+     }
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": "#211f30",
+   "washAmount": 0.3,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "6d74fe81c421f7a6"
+  },
+  {
+   "id": "b48_2",
+   "s": 8284,
+   "e": 8360,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "wide",
+    "window": "blind",
+    "ground": "pool",
+    "clock": "3:08",
+    "shape": "message",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 106
+   },
+   "anchor": {
+    "pos": [
+     -0.1,
+     0.4,
+     -2.1
+    ],
+    "yaw": 120,
+    "pitch": 15
+   },
+   "preset": "crouch_peek",
+   "hands": null,
+   "actors": [
+    {
+     "id": "entity",
+     "at": [
+      -0.55,
+      0.0,
+      -1.9
+     ],
+     "yaw": 115,
+     "pose": "crouch_spider",
+     "kind": "creature",
+     "creature": {
+      "face": "blank",
+      "skull": "bulb",
+      "hairStyle": "none",
+      "scale": 1.52,
+      "armLong": 1.62,
+      "mask": "#cfc7bd",
+      "cloth": "#cfc7bd",
+      "clothDark": "#b3aaa0",
+      "hands": "#dcd4c9",
+      "tears": false,
+      "pose": "crouch_spider",
+      "state": {
+       "blood": true
+      }
+     }
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [
+    {
+     "t": "*shhff*",
+     "at": 30,
+     "x": 0.4,
+     "y": 0.62,
+     "size": 0.5
+    }
+   ],
+   "sig": "6a4b2ac64d134a1c"
+  },
+  {
+   "id": "b49_1",
+   "s": 8360,
+   "e": 8410,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "wide",
+    "window": "curtained",
+    "ground": "pool",
+    "clock": "3:08",
+    "shape": "message",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 107
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 195,
+    "pitch": -15
+   },
+   "preset": "impact_jolt",
+   "hands": "grip_rail",
+   "actors": [],
+   "framing": "full",
+   "glitch": 0.22,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "463225f29f7b49f6"
+  },
+  {
+   "id": "b49_2",
+   "s": 8410,
+   "e": 8457,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "open",
+    "window": "curtained",
+    "ground": "pool",
+    "clock": "3:08",
+    "shape": "message",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 304
+   },
+   "anchor": {
+    "pos": [
+     -0.1,
+     0.4,
+     -2.1
+    ],
+    "yaw": 185,
+    "pitch": -30
+   },
+   "preset": "crouch_peek",
+   "hands": null,
+   "actors": [],
+   "framing": "full",
+   "glitch": 0.18,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "78976d9909e23046"
+  },
+  {
+   "id": "b50_1",
+   "s": 8457,
+   "e": 8515,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "open",
+    "window": "blind",
+    "ground": "pool",
+    "clock": "5:26",
+    "shape": "pentagram",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.4,
+     0.98,
+     -3.0
+    ],
+    "yaw": 180,
+    "pitch": 30
+   },
+   "preset": "idle_breath",
+   "hands": "grip_rail",
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "27f4af777ba85e3f"
+  },
+  {
+   "id": "b51_1",
+   "s": 8515,
+   "e": 8570,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "open",
+    "window": "blind",
+    "ground": "smear",
+    "clock": "5:26",
+    "shape": "pentagram",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 235,
+    "pitch": 60
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "a5df42fb5aa549fd"
+  },
+  {
+   "id": "b51_2",
+   "s": 8570,
+   "e": 8625,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "open",
+    "window": "curtained",
+    "ground": "pool",
+    "clock": "5:26",
+    "shape": "pentagram",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 270,
+    "pitch": 25
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [
+    {
+     "id": "mother",
+     "at": [
+      1.3,
+      0.0,
+      -1.9
+     ],
+     "yaw": 65,
+     "pose": "sit",
+     "look": {
+      "h": 1.62,
+      "skin": "#e0a87f",
+      "skinShade": "#ab7256",
+      "hairStyle": "long",
+      "hair": "#1d1820",
+      "top": "#8e2f3c",
+      "sleeve": "#8e2f3c",
+      "legs": "#8e2f3c",
+      "shoes": "#2a2730"
+     },
+     "state": {
+      "blood": "spots",
+      "expr": "shocked",
+      "mouth": "open",
+      "eyesShut": false
+     }
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "50706a57d947cf0c"
+  },
+  {
+   "id": "b51_3",
+   "s": 8625,
+   "e": 8680,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "open",
+    "window": "dawn",
+    "ground": "smear",
+    "clock": "5:26",
+    "shape": "pentagram",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 165,
+    "pitch": 60
+   },
+   "preset": "idle_breath",
+   "hands": "brace_fall",
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "0eb672175e42d861"
+  },
+  {
+   "id": "b52_1",
+   "s": 8680,
+   "e": 8753,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "ajar",
+    "window": "blind",
+    "ground": "smear",
+    "clock": "5:30",
+    "shape": "pentagram",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 140,
+    "pitch": 0
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "2429a44d8f960b89"
+  },
+  {
+   "id": "b52_2",
+   "s": 8753,
+   "e": 8826,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "ajar",
+    "window": "dawn",
+    "ground": "pool",
+    "clock": "5:30",
+    "shape": "pentagram",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 280,
+    "pitch": -10
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "b640cf8f6ae2f6ac"
+  },
+  {
+   "id": "b52_3",
+   "s": 8826,
+   "e": 8899,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "open",
+    "window": "dawn",
+    "ground": "smear",
+    "clock": "5:30",
+    "shape": "pentagram",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 270,
+    "pitch": -25
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "72c686a5508b4783"
+  },
+  {
+   "id": "b52_4",
+   "s": 8899,
+   "e": 8969,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "ajar",
+    "window": "dawn",
+    "ground": "pool",
+    "clock": "5:30",
+    "shape": "pentagram",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 250,
+    "pitch": 40
+   },
+   "preset": "idle_breath",
+   "hands": "grip_rail",
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "9b29813e708f6509"
+  },
+  {
+   "id": "b53_1",
+   "s": 8969,
+   "e": 9029,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "open",
+    "window": "dawn",
+    "ground": "pool",
+    "clock": "5:30",
+    "shape": "pentagram",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.4,
+     0.98,
+     -3.0
+    ],
+    "yaw": 180,
+    "pitch": -15
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [
+    {
+     "id": "father",
+     "at": [
+      -1.05,
+      0.0,
+      -1.12
+     ],
+     "yaw": 0,
+     "pose": "sit",
+     "look": {
+      "h": 1.78,
+      "skin": "#c88c62",
+      "skinShade": "#8e5f41",
+      "hairStyle": "balding",
+      "hair": "#1d1820",
+      "facial": "moustache",
+      "top": "#9fb4cc",
+      "sleeve": "#9fb4cc",
+      "legs": "#4a4036",
+      "shoes": "#5a4433"
+     },
+     "state": {
+      "blood": "smear",
+      "expr": "shocked",
+      "mouth": "open",
+      "eyesShut": false
+     }
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "0c171ede2ea19542"
+  },
+  {
+   "id": "b53_2",
+   "s": 9029,
+   "e": 9087,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "wide",
+    "window": "dawn",
+    "ground": "pool",
+    "clock": "5:30",
+    "shape": "pentagram",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.4,
+     0.98,
+     -3.0
+    ],
+    "yaw": 195,
+    "pitch": 30
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [
+    {
+     "id": "father",
+     "at": [
+      -1.05,
+      0.0,
+      -1.12
+     ],
+     "yaw": 0,
+     "pose": "sit",
+     "look": {
+      "h": 1.78,
+      "skin": "#c88c62",
+      "skinShade": "#8e5f41",
+      "hairStyle": "balding",
+      "hair": "#1d1820",
+      "facial": "moustache",
+      "top": "#9fb4cc",
+      "sleeve": "#9fb4cc",
+      "legs": "#4a4036",
+      "shoes": "#5a4433"
+     },
+     "state": {
+      "blood": "smear",
+      "expr": "sad",
+      "mouth": "open",
+      "eyesShut": false
+     }
+    }
+   ],
+   "framing": "face",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "d57fd1c6dcbc29bd"
+  },
+  {
+   "id": "b53_3",
+   "s": 9087,
+   "e": 9147,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "wide",
+    "window": "dawn",
+    "ground": "smear",
+    "clock": "5:30",
+    "shape": "pentagram",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 155,
+    "pitch": -25
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [
+    {
+     "id": "father",
+     "at": [
+      -1.05,
+      0.0,
+      -1.12
+     ],
+     "yaw": 0,
+     "pose": "sit",
+     "look": {
+      "h": 1.78,
+      "skin": "#c88c62",
+      "skinShade": "#8e5f41",
+      "hairStyle": "balding",
+      "hair": "#1d1820",
+      "facial": "moustache",
+      "top": "#9fb4cc",
+      "sleeve": "#9fb4cc",
+      "legs": "#4a4036",
+      "shoes": "#5a4433"
+     },
+     "state": {
+      "blood": "smear",
+      "expr": "shocked",
+      "mouth": "open",
+      "eyesShut": false
+     }
+    },
+    {
+     "id": "mother",
+     "at": [
+      1.3,
+      0.0,
+      -1.9
+     ],
+     "yaw": 65,
+     "pose": "sit",
+     "look": {
+      "h": 1.62,
+      "skin": "#e0a87f",
+      "skinShade": "#ab7256",
+      "hairStyle": "long",
+      "hair": "#1d1820",
+      "top": "#8e2f3c",
+      "sleeve": "#8e2f3c",
+      "legs": "#8e2f3c",
+      "shoes": "#2a2730"
+     },
+     "state": {
+      "blood": "spots",
+      "expr": "shocked",
+      "mouth": "open",
+      "eyesShut": false
+     }
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "c2e67539c6879299"
+  },
+  {
+   "id": "b53_4",
+   "s": 9147,
+   "e": 9207,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "ajar",
+    "window": "dawn",
+    "ground": "drops",
+    "clock": "5:30",
+    "shape": "pentagram",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.4,
+     0.86,
+     -2.95
+    ],
+    "yaw": 195,
+    "pitch": 5
+   },
+   "preset": "idle_breath",
+   "hands": "brace_fall",
+   "actors": [
+    {
+     "id": "father",
+     "at": [
+      -1.05,
+      0.0,
+      -1.12
+     ],
+     "yaw": 0,
+     "pose": "sit",
+     "look": {
+      "h": 1.78,
+      "skin": "#c88c62",
+      "skinShade": "#8e5f41",
+      "hairStyle": "balding",
+      "hair": "#1d1820",
+      "facial": "moustache",
+      "top": "#9fb4cc",
+      "sleeve": "#9fb4cc",
+      "legs": "#4a4036",
+      "shoes": "#5a4433"
+     },
+     "state": {
+      "blood": "smear",
+      "expr": "shocked",
+      "mouth": "open",
+      "eyesShut": false
+     }
+    }
+   ],
+   "framing": "waist",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "b5347f157c6a0b55"
+  },
+  {
+   "id": "b54_1",
+   "s": 9207,
+   "e": 9271,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "open",
+    "window": "dawn",
+    "ground": "pool",
+    "clock": "5:30",
+    "shape": "pentagram",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 140,
+    "pitch": 25
+   },
+   "preset": "idle_breath",
+   "hands": "reach_grab",
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "8aae370b3787cfc0"
+  },
+  {
+   "id": "b54_2",
+   "s": 9271,
+   "e": 9335,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "wide",
+    "window": "dawn",
+    "ground": "pool",
+    "clock": "5:30",
+    "shape": "pentagram",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 150,
+    "pitch": 15
+   },
+   "preset": "vertigo_tilt",
+   "hands": null,
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "24e6a6a93e0aac4f"
+  },
+  {
+   "id": "b54_3",
+   "s": 9335,
+   "e": 9399,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "wide",
+    "window": "blind",
+    "ground": "pool",
+    "clock": "5:30",
+    "shape": "pentagram",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 140,
+    "pitch": -25
+   },
+   "preset": "idle_breath",
+   "hands": "grip_rail",
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "4c10b3265face7e0"
+  },
+  {
+   "id": "b54_4",
+   "s": 9399,
+   "e": 9465,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "hall",
+    "door": "wide",
+    "window": "dawn",
+    "ground": "pool",
+    "seed": 108
+   },
+   "anchor": {
+    "pos": [
+     0.0,
+     1.45,
+     0.55
+    ],
+    "yaw": 180,
+    "pitch": -15
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "20d4d791f5b92e17"
+  },
+  {
+   "id": "b54_5",
+   "s": 9465,
+   "e": 9529,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "hall",
+    "door": "open",
+    "window": "dawn",
+    "ground": "pool",
+    "seed": 109
+   },
+   "anchor": {
+    "pos": [
+     0.0,
+     1.45,
+     0.9
+    ],
+    "yaw": 170,
+    "pitch": -40
+   },
+   "preset": "idle_breath",
+   "hands": "reach_grab",
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "33e62ae8a0930d9e"
+  },
+  {
+   "id": "b55_1",
+   "s": 9529,
+   "e": 9583,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "open",
+    "window": "dawn",
+    "ground": "drops",
+    "clock": "5:30",
+    "shape": "pentagram",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.4,
+     0.98,
+     -3.0
+    ],
+    "yaw": 195,
+    "pitch": -25
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "73ebd2edd6cd994d"
+  },
+  {
+   "id": "b55_2",
+   "s": 9583,
+   "e": 9637,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "wide",
+    "window": "dawn",
+    "ground": "smear",
+    "clock": "5:30",
+    "shape": "pentagram",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -0.15,
+     0.15,
+     -2.15
+    ],
+    "yaw": 100,
+    "pitch": 0
+   },
+   "preset": "crouch_peek",
+   "hands": null,
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "4da21db6dae67561"
+  },
+  {
+   "id": "b55_3",
+   "s": 9637,
+   "e": 9691,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "ajar",
+    "window": "blind",
+    "ground": "pool",
+    "clock": "5:30",
+    "shape": "pentagram",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 200,
+    "pitch": -55
+   },
+   "preset": "idle_breath",
+   "hands": "brace_fall",
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "cf6103f422eccec6"
+  },
+  {
+   "id": "b56_1",
+   "s": 9691,
+   "e": 9786,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "open",
+    "window": "dawn",
+    "ground": "pool",
+    "clock": "5:33",
+    "shape": "pentagram",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 180,
+    "pitch": 70
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "e7bdbe1ea133c5f5"
+  },
+  {
+   "id": "b56_2",
+   "s": 9786,
+   "e": 9849,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "open",
+    "window": "dawn",
+    "ground": "smear",
+    "clock": "5:33",
+    "shape": "pentagram",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.4,
+     0.98,
+     -3.0
+    ],
+    "yaw": 210,
+    "pitch": 15
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [
+    {
+     "id": "father",
+     "at": [
+      -1.05,
+      0.0,
+      -1.12
+     ],
+     "yaw": 0,
+     "pose": "sit",
+     "look": {
+      "h": 1.78,
+      "skin": "#c88c62",
+      "skinShade": "#8e5f41",
+      "hairStyle": "balding",
+      "hair": "#1d1820",
+      "facial": "moustache",
+      "top": "#9fb4cc",
+      "sleeve": "#9fb4cc",
+      "legs": "#4a4036",
+      "shoes": "#5a4433"
+     },
+     "state": {
+      "blood": "smear",
+      "expr": "shocked",
+      "mouth": "open",
+      "eyesShut": false
+     }
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "9ff6ea0c4cb90d81"
+  },
+  {
+   "id": "b57_1",
+   "s": 9849,
+   "e": 9920,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "wide",
+    "window": "dawn",
+    "ground": "pool",
+    "clock": "5:33",
+    "shape": "pentagram",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 155,
+    "pitch": -45
+   },
+   "preset": "idle_breath",
+   "hands": "grip_rail",
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "74227c5d51d3b1b1"
+  },
+  {
+   "id": "b57_2",
+   "s": 9920,
+   "e": 9989,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "wide",
+    "window": "blind",
+    "ground": "smear",
+    "clock": "5:33",
+    "shape": "pentagram",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 265,
+    "pitch": 40
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "b9d138fe8d0db9c7"
+  },
+  {
+   "id": "b57_3",
+   "s": 9989,
+   "e": 10058,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "ajar",
+    "window": "dawn",
+    "ground": "smear",
+    "clock": "5:33",
+    "shape": "pentagram",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.4,
+     0.98,
+     -3.0
+    ],
+    "yaw": 240,
+    "pitch": 0
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [
+    {
+     "id": "mother",
+     "at": [
+      1.3,
+      0.0,
+      -1.9
+     ],
+     "yaw": 65,
+     "pose": "sit",
+     "look": {
+      "h": 1.62,
+      "skin": "#e0a87f",
+      "skinShade": "#ab7256",
+      "hairStyle": "long",
+      "hair": "#1d1820",
+      "top": "#8e2f3c",
+      "sleeve": "#8e2f3c",
+      "legs": "#8e2f3c",
+      "shoes": "#2a2730"
+     },
+     "state": {
+      "blood": "spots",
+      "expr": "shocked",
+      "mouth": "open",
+      "eyesShut": false
+     }
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "47ed4185e09c7e43"
+  },
+  {
+   "id": "b57_4",
+   "s": 10058,
+   "e": 10127,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "open",
+    "window": "dawn",
+    "ground": "drops",
+    "clock": "5:33",
+    "shape": "pentagram",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.4,
+     0.98,
+     -3.0
+    ],
+    "yaw": 165,
+    "pitch": 0
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [
+    {
+     "id": "father",
+     "at": [
+      -1.05,
+      0.0,
+      -1.12
+     ],
+     "yaw": 0,
+     "pose": "sit",
+     "look": {
+      "h": 1.78,
+      "skin": "#c88c62",
+      "skinShade": "#8e5f41",
+      "hairStyle": "balding",
+      "hair": "#1d1820",
+      "facial": "moustache",
+      "top": "#9fb4cc",
+      "sleeve": "#9fb4cc",
+      "legs": "#4a4036",
+      "shoes": "#5a4433"
+     },
+     "state": {
+      "blood": "smear",
+      "expr": "shocked",
+      "mouth": "open",
+      "eyesShut": false
+     }
+    }
+   ],
+   "framing": "waist",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "138acdfc4d8453de"
+  },
+  {
+   "id": "b57_5",
+   "s": 10127,
+   "e": 10196,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "wide",
+    "window": "dawn",
+    "ground": "drops",
+    "clock": "5:33",
+    "shape": "pentagram",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.4,
+     0.86,
+     -2.95
+    ],
+    "yaw": 180,
+    "pitch": 40
+   },
+   "preset": "idle_breath",
+   "hands": "brace_fall",
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "32bd13838c057529"
+  },
+  {
+   "id": "b58_1",
+   "s": 10196,
+   "e": 10260,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "ajar",
+    "window": "dawn",
+    "ground": "pool",
+    "clock": "5:33",
+    "shape": "pentagram",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.4,
+     0.98,
+     -3.0
+    ],
+    "yaw": 195,
+    "pitch": 40
+   },
+   "preset": "idle_breath",
+   "hands": "grip_rail",
+   "actors": [
+    {
+     "id": "father",
+     "at": [
+      -1.05,
+      0.0,
+      -1.12
+     ],
+     "yaw": 0,
+     "pose": "sit",
+     "look": {
+      "h": 1.78,
+      "skin": "#c88c62",
+      "skinShade": "#8e5f41",
+      "hairStyle": "balding",
+      "hair": "#1d1820",
+      "facial": "moustache",
+      "top": "#9fb4cc",
+      "sleeve": "#9fb4cc",
+      "legs": "#4a4036",
+      "shoes": "#5a4433"
+     },
+     "state": {
+      "blood": "smear",
+      "expr": "shocked",
+      "mouth": "open",
+      "eyesShut": false
+     }
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "3b7008b53acd694f"
+  },
+  {
+   "id": "b59_1",
+   "s": 10260,
+   "e": 10307,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "ajar",
+    "window": "blind",
+    "ground": "smear",
+    "clock": "5:33",
+    "shape": "pentagram",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 225,
+    "pitch": -60
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "cd0673441bbf1977"
+  },
+  {
+   "id": "b59_2",
+   "s": 10307,
+   "e": 10354,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "open",
+    "window": "dawn",
+    "ground": "drops",
+    "clock": "5:33",
+    "shape": "pentagram",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 140,
+    "pitch": -40
+   },
+   "preset": "idle_breath",
+   "hands": "brace_fall",
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "2eed09f091e187c7"
+  },
+  {
+   "id": "b60_1",
+   "s": 10354,
+   "e": 10415,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "open",
+    "window": "dawn",
+    "ground": "pool",
+    "clock": "5:33",
+    "shape": "message",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.4,
+     0.98,
+     -3.0
+    ],
+    "yaw": 210,
+    "pitch": 0
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": "#211f30",
+   "washAmount": 0.22,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "ac432cefabca1ddd"
+  },
+  {
+   "id": "b60_2",
+   "s": 10415,
+   "e": 10476,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "wide",
+    "window": "dawn",
+    "ground": "pool",
+    "clock": "5:33",
+    "shape": "message",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.4,
+     0.98,
+     -3.0
+    ],
+    "yaw": 255,
+    "pitch": 0
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [
+    {
+     "id": "father",
+     "at": [
+      -1.05,
+      0.0,
+      -1.12
+     ],
+     "yaw": 0,
+     "pose": "sit",
+     "look": {
+      "h": 1.78,
+      "skin": "#c88c62",
+      "skinShade": "#8e5f41",
+      "hairStyle": "balding",
+      "hair": "#1d1820",
+      "facial": "moustache",
+      "top": "#9fb4cc",
+      "sleeve": "#9fb4cc",
+      "legs": "#4a4036",
+      "shoes": "#5a4433"
+     },
+     "state": {
+      "blood": "smear",
+      "expr": "shocked",
+      "mouth": "open",
+      "eyesShut": false
+     }
+    },
+    {
+     "id": "mother",
+     "at": [
+      1.3,
+      0.0,
+      -1.9
+     ],
+     "yaw": 65,
+     "pose": "sit",
+     "look": {
+      "h": 1.62,
+      "skin": "#e0a87f",
+      "skinShade": "#ab7256",
+      "hairStyle": "long",
+      "hair": "#1d1820",
+      "top": "#8e2f3c",
+      "sleeve": "#8e2f3c",
+      "legs": "#8e2f3c",
+      "shoes": "#2a2730"
+     },
+     "state": {
+      "blood": "spots",
+      "expr": "shocked",
+      "mouth": "open",
+      "eyesShut": false
+     }
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "f64e70d0d41de7e3"
+  },
+  {
+   "id": "b60_3",
+   "s": 10476,
+   "e": 10537,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "open",
+    "window": "dawn",
+    "ground": "smear",
+    "clock": "5:33",
+    "shape": "message",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 240,
+    "pitch": 70
+   },
+   "preset": "idle_breath",
+   "hands": "brace_fall",
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "e0d3f9b8f2f34528"
+  },
+  {
+   "id": "b60_4",
+   "s": 10537,
+   "e": 10598,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "ajar",
+    "window": "blind",
+    "ground": "pool",
+    "clock": "5:33",
+    "shape": "message",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 280,
+    "pitch": -5
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "8beba0e184bce22c"
+  },
+  {
+   "id": "b61_1",
+   "s": 10598,
+   "e": 10675,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "open",
+    "window": "dawn",
+    "ground": "drops",
+    "clock": "5:33",
+    "shape": "message",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.4,
+     0.98,
+     -3.0
+    ],
+    "yaw": 210,
+    "pitch": 25
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "ec31845eaa463ffa"
+  },
+  {
+   "id": "b61_2",
+   "s": 10675,
+   "e": 10752,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "ajar",
+    "window": "dawn",
+    "ground": "smear",
+    "clock": "5:33",
+    "shape": "message",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.4,
+     0.98,
+     -3.0
+    ],
+    "yaw": 225,
+    "pitch": 15
+   },
+   "preset": "idle_breath",
+   "hands": "grip_rail",
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "4e3de7b6f13b45d7"
+  },
+  {
+   "id": "b61_3",
+   "s": 10752,
+   "e": 10831,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "wide",
+    "window": "dawn",
+    "ground": "drops",
+    "clock": "5:33",
+    "shape": "message",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 240,
+    "pitch": -15
+   },
+   "preset": "vertigo_tilt",
+   "hands": null,
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "2a67a76d4c040165"
+  },
+  {
+   "id": "b62_1",
+   "s": 10831,
+   "e": 10881,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "ajar",
+    "window": "dawn",
+    "ground": "pool",
+    "clock": "5:33",
+    "shape": "message",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.4,
+     0.98,
+     -3.0
+    ],
+    "yaw": 225,
+    "pitch": 30
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "0d336933d82c9b4c"
+  },
+  {
+   "id": "b62_2",
+   "s": 10881,
+   "e": 10933,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "open",
+    "window": "dawn",
+    "ground": "pool",
+    "clock": "5:33",
+    "shape": "message",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 280,
+    "pitch": 15
+   },
+   "preset": "idle_breath",
+   "hands": "brace_fall",
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "c48303fc61297097"
+  },
+  {
+   "id": "b63_1",
+   "s": 10933,
+   "e": 10996,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "open",
+    "window": "dawn",
+    "ground": "pool",
+    "clock": "5:33",
+    "shape": "message",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.4,
+     0.98,
+     -3.0
+    ],
+    "yaw": 225,
+    "pitch": -15
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [],
+   "framing": "full",
+   "glitch": 0.3,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "fa80b0ebb8f56b5f"
+  },
+  {
+   "id": "b64_1",
+   "s": 10996,
+   "e": 11072,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "wide",
+    "window": "dawn",
+    "ground": "pool",
+    "clock": "5:33",
+    "shape": "message",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -0.1,
+     0.4,
+     -2.1
+    ],
+    "yaw": 195,
+    "pitch": -15
+   },
+   "preset": "impact_jolt",
+   "hands": null,
+   "actors": [],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [
+    {
+     "t": "*shift*",
+     "at": 14,
+     "x": 0.44,
+     "y": 0.68,
+     "size": 0.6
+    }
+   ],
+   "sig": "c8c9c0ef53946d53"
+  },
+  {
+   "id": "b65_1",
+   "s": 11072,
+   "e": 11143,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "open",
+    "window": "blind",
+    "ground": "drops",
+    "clock": "5:33",
+    "shape": "message",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.4,
+     0.98,
+     -3.0
+    ],
+    "yaw": 235,
+    "pitch": 10
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [],
+   "framing": "full",
+   "glitch": 0.14,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "f44db6c3644c3079"
+  },
+  {
+   "id": "b65_2",
+   "s": 11143,
+   "e": 11214,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "ajar",
+    "window": "dawn",
+    "ground": "pool",
+    "clock": "5:33",
+    "shape": "message",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.4,
+     0.98,
+     -3.0
+    ],
+    "yaw": 165,
+    "pitch": -15
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [
+    {
+     "id": "father",
+     "at": [
+      -1.05,
+      0.0,
+      -1.12
+     ],
+     "yaw": 0,
+     "pose": "sit",
+     "look": {
+      "h": 1.78,
+      "skin": "#c88c62",
+      "skinShade": "#8e5f41",
+      "hairStyle": "balding",
+      "hair": "#1d1820",
+      "facial": "moustache",
+      "top": "#9fb4cc",
+      "sleeve": "#9fb4cc",
+      "legs": "#4a4036",
+      "shoes": "#5a4433"
+     },
+     "state": {
+      "blood": "smear",
+      "expr": "shocked",
+      "mouth": "open",
+      "eyesShut": false
+     }
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "22ec60b78fb328c3"
+  },
+  {
+   "id": "b65_3",
+   "s": 11214,
+   "e": 11285,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "wide",
+    "window": "dawn",
+    "ground": "smear",
+    "clock": "5:33",
+    "shape": "message",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.1,
+     0.95,
+     -2.95
+    ],
+    "yaw": 285,
+    "pitch": 25
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [
+    {
+     "id": "mother",
+     "at": [
+      1.3,
+      0.0,
+      -1.9
+     ],
+     "yaw": 65,
+     "pose": "sit",
+     "look": {
+      "h": 1.62,
+      "skin": "#e0a87f",
+      "skinShade": "#ab7256",
+      "hairStyle": "long",
+      "hair": "#1d1820",
+      "top": "#8e2f3c",
+      "sleeve": "#8e2f3c",
+      "legs": "#8e2f3c",
+      "shoes": "#2a2730"
+     },
+     "state": {
+      "blood": "spots",
+      "expr": "shocked",
+      "mouth": "open",
+      "eyesShut": false
+     }
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "aecad32682c42f43"
+  },
+  {
+   "id": "b66_1",
+   "s": 11285,
+   "e": 11331,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "open",
+    "window": "dawn",
+    "ground": "pool",
+    "clock": "5:33",
+    "shape": "message",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -0.15,
+     0.15,
+     -2.15
+    ],
+    "yaw": 75,
+    "pitch": 15
+   },
+   "preset": "crouch_peek",
+   "hands": null,
+   "actors": [
+    {
+     "id": "entity",
+     "at": [
+      -1.05,
+      0.0,
+      -2.45
+     ],
+     "yaw": 0,
+     "pose": "crouch_spider",
+     "kind": "creature",
+     "creature": {
+      "face": "blank",
+      "skull": "bulb",
+      "hairStyle": "none",
+      "scale": 1.52,
+      "armLong": 1.62,
+      "mask": "#cfc7bd",
+      "cloth": "#cfc7bd",
+      "clothDark": "#b3aaa0",
+      "hands": "#dcd4c9",
+      "tears": false,
+      "pose": "crouch_spider",
+      "state": {
+       "blood": true
+      }
+     }
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "1300f342af637cf8"
+  },
+  {
+   "id": "b66_2",
+   "s": 11331,
+   "e": 11377,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "wide",
+    "window": "dawn",
+    "ground": "drops",
+    "clock": "5:33",
+    "shape": "message",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -0.15,
+     0.15,
+     -2.15
+    ],
+    "yaw": 75,
+    "pitch": 15
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [
+    {
+     "id": "entity",
+     "at": [
+      -1.05,
+      0.0,
+      -2.45
+     ],
+     "yaw": 0,
+     "pose": "crouch_spider",
+     "kind": "creature",
+     "creature": {
+      "face": "blank",
+      "skull": "bulb",
+      "hairStyle": "none",
+      "scale": 1.52,
+      "armLong": 1.62,
+      "mask": "#cfc7bd",
+      "cloth": "#cfc7bd",
+      "clothDark": "#b3aaa0",
+      "hands": "#dcd4c9",
+      "tears": false,
+      "pose": "crouch_spider",
+      "state": {
+       "blood": true,
+       "tilt": 16
+      }
+     }
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "479f39a527b82480"
+  },
+  {
+   "id": "b67_1",
+   "s": 11377,
+   "e": 11446,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "open",
+    "window": "dawn",
+    "ground": "smear",
+    "clock": "5:33",
+    "shape": "message",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.4,
+     0.98,
+     -3.0
+    ],
+    "yaw": 210,
+    "pitch": -15
+   },
+   "preset": "idle_breath",
+   "hands": "grip_rail",
+   "actors": [
+    {
+     "id": "father",
+     "at": [
+      -1.05,
+      0.0,
+      -1.12
+     ],
+     "yaw": 0,
+     "pose": "sit",
+     "look": {
+      "h": 1.78,
+      "skin": "#c88c62",
+      "skinShade": "#8e5f41",
+      "hairStyle": "balding",
+      "hair": "#1d1820",
+      "facial": "moustache",
+      "top": "#9fb4cc",
+      "sleeve": "#9fb4cc",
+      "legs": "#4a4036",
+      "shoes": "#5a4433"
+     },
+     "state": {
+      "blood": "smear",
+      "expr": "shocked",
+      "mouth": "open",
+      "eyesShut": false
+     }
+    },
+    {
+     "id": "mother",
+     "at": [
+      1.3,
+      0.0,
+      -1.9
+     ],
+     "yaw": 65,
+     "pose": "sit",
+     "look": {
+      "h": 1.62,
+      "skin": "#e0a87f",
+      "skinShade": "#ab7256",
+      "hairStyle": "long",
+      "hair": "#1d1820",
+      "top": "#8e2f3c",
+      "sleeve": "#8e2f3c",
+      "legs": "#8e2f3c",
+      "shoes": "#2a2730"
+     },
+     "state": {
+      "blood": "spots",
+      "expr": "shocked",
+      "mouth": "open",
+      "eyesShut": false
+     }
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "86191f095cedcd44"
+  },
+  {
+   "id": "b67_2",
+   "s": 11446,
+   "e": 11518,
+   "kit": "AwakeHouse",
+   "kitOpts": {
+    "room": "bedroom",
+    "door": "ajar",
+    "window": "dawn",
+    "ground": "pool",
+    "clock": "5:33",
+    "shape": "message",
+    "lightOn": false,
+    "bedding": "held",
+    "handPrints": true,
+    "seed": 7
+   },
+   "anchor": {
+    "pos": [
+     -1.4,
+     0.98,
+     -3.0
+    ],
+    "yaw": 255,
+    "pitch": 15
+   },
+   "preset": "idle_breath",
+   "hands": null,
+   "actors": [
+    {
+     "id": "father",
+     "at": [
+      -1.05,
+      0.0,
+      -1.12
+     ],
+     "yaw": 0,
+     "pose": "sit",
+     "look": {
+      "h": 1.78,
+      "skin": "#c88c62",
+      "skinShade": "#8e5f41",
+      "hairStyle": "balding",
+      "hair": "#1d1820",
+      "facial": "moustache",
+      "top": "#9fb4cc",
+      "sleeve": "#9fb4cc",
+      "legs": "#4a4036",
+      "shoes": "#5a4433"
+     },
+     "state": {
+      "blood": "smear",
+      "expr": "shocked",
+      "mouth": "open",
+      "eyesShut": false
+     }
+    },
+    {
+     "id": "mother",
+     "at": [
+      1.3,
+      0.0,
+      -1.9
+     ],
+     "yaw": 65,
+     "pose": "sit",
+     "look": {
+      "h": 1.62,
+      "skin": "#e0a87f",
+      "skinShade": "#ab7256",
+      "hairStyle": "long",
+      "hair": "#1d1820",
+      "top": "#8e2f3c",
+      "sleeve": "#8e2f3c",
+      "legs": "#8e2f3c",
+      "shoes": "#2a2730"
+     },
+     "state": {
+      "blood": "spots",
+      "expr": "shocked",
+      "mouth": "open",
+      "eyesShut": false
+     }
+    }
+   ],
+   "framing": "full",
+   "glitch": 0,
+   "wash": null,
+   "washAmount": 0,
+   "boil": 2.2,
+   "sfx": [],
+   "sig": "49a6d64ff077bd31"
+  }
+ ],
+ "chapters": [],
+ "parts": []
+}

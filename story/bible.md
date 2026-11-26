@@ -1,25 +1,62 @@
-# STORY BIBLE — "You Can't Trust Everyone"
+# I Know You're Awake - story bible
 
-Source: creepypasta "You Can't Trust Everyone" (author not verified), as published on an online horror story page. Fiction, retold in our own words. No real person named. Non-graphic retelling.
+Written before any drawing. Everything the video shows must be traceable to a line here,
+and every line here is traceable to the source story.
 
-## Look kit (NEW — kit "l2", differs from k Smile-Dog, j Inside-Your-House, Earwig, i Ticci-Toby)
-- Setting / era: a present-day US college and a cold winter night — library computer lab, dorm common room, cafeteria, a hall of lockers, a cramped student apartment, and a pine-forest clearing.
-- Palette: cold slate-blue and charcoal with warm sodium-amber indoor light; ONE red accent (the apartment lamp / exit sign / police light). The signature colour of the horror is BLACK TAR (the tears), not red.
-- Camera habit: slow push-in (`push`).
-- Title card: a torn spiral-notebook page with a red margin line (a student's confession note).
+## One-line
+A twelve-year-old wakes at 5:30 a.m. to find his dead parents arranged to face his bed by the
+thing that is still in the room with him - and the message it left says it already knows he
+is awake.
 
-## People (permanent cast)
-- ETHAN (narrator, the one who survives) = cast `sam` — hoodie, backpack, young man. Chest-up or full-body, scared but watching.
-- JACK (Ethan's best friend; later taken) = cast `noah` — young man, shirt. Human Jack early; after beat "Black Tears" he is the antagonist (see creature.md).
-- ELISA (the girl from class, the cult) = cast `mira` — young woman, jacket. She is calm, cold and smiling; never a monster face, which makes her worse.
-- CULTISTS = robed figures in long black robes and pale-blue masks (drawn as robes + masks, faces hidden).
-- OFFICER REYES (the police at the end + hospital) = cast `dale`.
+## The twist
+Every rule the boy has been following for three hours (don't move, don't blink, don't let it
+know) was pointless. The message on the wall was written before he woke up.
 
-## Antagonist — see creature.md and creature.json
-ONE antagonist, ONE design: "THE BLUE-MASK THING" (id `mask`) — what is left of Jack after the ritual. Cracked pale-blue ritual mask, torn-out eyes weeping black tar, long thin clawed arms, black tendrils at its feet. It is the same design in every shot; its only allowed state change is `tar` level (how much black has spread) and `free` (bound in the chair vs standing).
+## Timeline (the video tells it out of order on purpose)
+| Clock | What happens | Where |
+|---|---|---|
+| ~11:00 p.m. | Mother says lights out. Father says the door is locked. | bedroom |
+| ~2:20 a.m. | A scream from the far side of the house. He gets up. | bedroom -> hall |
+| ~2:25 a.m. | He needs the toilet, and goes there FIRST. | bathroom |
+| ~2:30 a.m. | He opens the bathroom door and sees blood on the hall carpet. | bathroom -> hall |
+| ~2:32 a.m. | He runs back to bed and hides under the sheets. | bedroom |
+| ~2:40 a.m. | The bedroom door creaks open. He peeks out from under the blanket. | bedroom |
+| ~2:45 a.m. | The thing drags both parents in and arranges them facing the bed. | bedroom |
+| ~2:55 a.m. | It paints a circle and a pentagram on the wall in their blood. | bedroom |
+| ~3:00 a.m. | It scrawls a message he cannot read in the dark, then goes under his bed. | bedroom |
+| 5:30 a.m. | His eyes have adjusted. He can read it. He reads it. | bedroom |
 
-## Timeline / twist
-1. Ethan writes the note, feeling watched (teaser). 2. Ethan + Jack become close friends. 3. Jack dates Elisa; he changes, pulls away. 4. Cafeteria: Jack snaps and runs. 5. Hall: Elisa's cold "Better. Than. Ever." 6. Phone call; Jack comes over, terrified. 7. Apartment, lights off: Jack weeps BLACK tears, says Elisa "did this" and called him "ready". 8. A knock: Elisa at the door ("they're waiting"); Jack runs into the woods. 9. The clearing: Ethan wakes tied to a tree; robed circle; Jack in a chair; Elisa unmasks; the book is read; the mask is fixed on Jack; black tendrils rise. 10. Sirens stop the reading; the thing laughs, breaks free, tears the circle apart (shown as red spatter on frost, never organs). 11. Ethan wakes to police; hospital; a kidney gone; Jack still missing, blamed for ten deaths. 12. Credit. 13. Closing question: "Who would you have trusted?"
+**Cold open** = the 5:30 a.m. frame (the creepiest picture first), cut on "I die in this bed."
+**Then** the story in order from ~2:20 a.m., and the video ends back at 5:30 a.m. on the message.
 
-## Blood limit (quality-law 4d, UNVERIFIED policy)
-The story has blood (the circle is torn apart; Ethan is hurt). Blood is shown as bright-red STAINS, DRIPS and SPATTER on the frost and on robes, and as Ethan holding his bandaged side — never an open wound, an organ, or a body being cut on screen. The black tar tears are the signature, not blood. This limit is flagged to the user in the final message.
+## People (all four are locked in story/cast.json - never re-typed in a scene)
+| key | who | ends up |
+|---|---|---|
+| `boy` | the narrator, twelve, navy-black hoodie, messy black hair | alive, still pretending |
+| `father` | mid forties, pale blue work shirt, moustache, blood smear on the chest | propped against the foot of the bed, facing the boy |
+| `mother` | early forties, maroon button dress, blood spots on the bodice | sat in the window chair, turned to face the boy |
+| `entity` | the antagonist, see story/creature.md | under the bed, waiting |
+
+## Places (full detail in story/rooms.md)
+- **bedroom** - the whole frame story. Bed along the left wall, head to the end wall; the
+  window and the wooden chair on the right; the door at the near end; the masterpiece grows
+  on the right-hand wall.
+- **hall** - carpet, four doors, a framed picture, a side table. The blood is here first.
+- **bathroom** - basin, mirror, tap, towel rail, a frosted window. The room he wasted time in.
+
+## Objects that carry the story
+- the **clock** on the bedside table: 2:20 -> 2:40 -> 3:00 -> 5:30 (a readable prop AND how
+  the viewer feels three hours pass)
+- the **blanket** he hides under, and later holds at his chin, with real folds
+- the **carpet** in the hall: clean -> drops -> smear -> pool
+- the **wall**: clean -> circle -> pentagram -> message
+- the **under-bed gap**: empty, then not empty
+
+## What the pictures must never show (channel limit, settled - do not ask)
+Bright red blood as stains, drips and pools: yes, and the story needs it.
+An open wound, a body being cut, or anything happening to a body on screen: never. The
+parents are already dead when the camera first sees them, and the camera sees the result -
+the stains, the arrangement, the open mouths - and never the act.
+
+## The closing question (the same words in 4 places)
+"If you were in that bed, would you have stayed still, or run for the door?"

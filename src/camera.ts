@@ -1,3 +1,3 @@
-// STORY SLOT: the main camera habit for this video's look kit ("l2"). 'push' = a slow, continuous eased push-in.
-// A scene may override with v.cm (push | pull | truck | rise | still | orbit).
-export const CAMERA: 'push' | 'pull' | 'truck' | 'rise' | 'still' | 'orbit' = 'push';
+// SCROLL KAOS TEMPLATE: pick a camera habit different from the last 3 videos.
+export type CameraMove = 'push' | 'pull' | 'truck' | 'rise' | 'still';
+export const CAMERA: CameraMove = 'push';

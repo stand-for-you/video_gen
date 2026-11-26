@@ -1,0 +1,182 @@
+{
+  "_law": "SOURCE OF TRUTH. Every scene reads a character from this file by key and never re-types its look. Changing a character here changes it everywhere; changing it anywhere else is a redesign and fails the build. Each entry carries the ten fields the channel character template requires.",
+
+  "boy": {
+    "name": "The Boy", "role": "Protagonist - the one you play",
+    "appearance": "Twelve or so. Slight, a head shorter than any adult. Stands with his weight back, as if about to step away from whatever he is looking at.",
+    "face": "Large dark eyes set wide, a small nose, a thin mouth. Heavy dark brows that do most of the work when he is frightened.",
+    "hair": "Messy black, tufts breaking the silhouette in every direction. Never tidy, in any scene.",
+    "clothing": "Dark navy-black zip hoodie over a grey tee, dark jeans, white trainers. No accessories - nothing to catch the eye but the face.",
+    "proportions": { "h": 1.46, "note": "head is about one quarter of total height" },
+    "personality": "Watches before he moves. Does what frightens him anyway, a second later than he should.",
+    "voice": { "tag": "you", "note": "low for his age, flat, running slightly out of breath" },
+    "look": { "h": 1.46, "skin": "#e8b893", "skinShade": "#b77867", "hairStyle": "messy", "hair": "#1d1820",
+              "top": "#23232e", "sleeve": "#23232e", "legs": "#2f3240", "shoes": "#efe9e0", "coat": "jacket", "coatColor": "#1b1b25" }
+  },
+
+  "father": {
+    "name": "Father", "role": "Parent - dead by the time the story starts",
+    "appearance": "Mid forties, tall and narrow, shoulders rounded. Always standing a little too still.",
+    "face": "Long, tired, deep lines. Heavy brows above wide eyes that do not blink enough.",
+    "hair": "Short black, receding at the temples. A thick black moustache.",
+    "clothing": "Pale blue work shirt with the sleeves rolled, dark brown trousers, brown shoes. Dried blood across the chest and one sleeve.",
+    "proportions": { "h": 1.78 },
+    "personality": "Was the one who checked the locks. Still is.",
+    "voice": { "tag": "family", "note": "quiet, slow, gentle - the calm is the wrong part" },
+    "look": { "h": 1.78, "skin": "#c88c62", "skinShade": "#8e5f41", "hairStyle": "balding", "hair": "#1d1820",
+              "facial": "moustache", "top": "#9fb4cc", "sleeve": "#9fb4cc", "legs": "#4a4036", "shoes": "#5a4433" },
+    "state": { "blood": "smear" }
+  },
+
+  "mother": {
+    "name": "Mother", "role": "Parent - dead by the time the story starts",
+    "appearance": "Early forties, small, upright. Hands held in front of her.",
+    "face": "Round, pale, dark eyes. Brows permanently raised slightly inward.",
+    "hair": "Shoulder-length black, parted in the middle, tucked behind one ear.",
+    "clothing": "Deep maroon button dress with a belt, dark flat shoes. Blood spotted across the bodice.",
+    "proportions": { "h": 1.62 },
+    "personality": "Asks a question she already knows the answer to.",
+    "voice": { "tag": "family", "note": "warm, a little high, breaks at the end of a sentence" },
+    "look": { "h": 1.62, "skin": "#e0a87f", "skinShade": "#ab7256", "hairStyle": "long", "hair": "#1d1820",
+              "top": "#8e2f3c", "sleeve": "#8e2f3c", "legs": "#8e2f3c", "shoes": "#2a2730" },
+    "state": { "blood": "spots" }
+  },
+
+  "entity": {
+    "name": "The Creature", "role": "Antagonist - unknown entity",
+    "appearance": "Over two and a half metres. Completely hairless. Smooth pale grey skin stretched over a ribcage you can count. Arms far too long, hanging past the knees, ending in thin fingers. Never stands straight - always slouched forward, head low.",
+    "face": "A swollen smooth cranium narrowing to a small jaw. NO EYES AT ALL. No nose. No mouth. There is nothing on it to read, and that is the design.",
+    "hair": "None. Anywhere.",
+    "clothing": "None.",
+    "proportions": { "scale": 1.52, "armLong": 1.62 },
+    "personality": "Does not hurry. Is always already closer than it was.",
+    "voice": { "tag": "creature", "note": "no speech - breath, joints, and the sound of weight on a floor" },
+    "creature": { "face": "blank", "skull": "bulb", "hairStyle": "none", "scale": 1.52, "armLong": 1.62,
+                  "mask": "#cfc7bd", "cloth": "#cfc7bd", "clothDark": "#b3aaa0", "hands": "#dcd4c9", "tears": false },
+    "_law": "ONE-CREATURE LAW: only wet, burnt, blood and tilt may differ between shots."
+  },
+
+  "girl": {
+    "name": "The Girl", "role": "Main female lead",
+    "appearance": "Eleven or twelve. Small, straight-backed, chin slightly up.",
+    "face": "Wide dark eyes, round cheeks, a small mouth held closed.",
+    "hair": "Dark brown, long and loose past the shoulders, slightly waved.",
+    "clothing": "Dark red dress with a pale collar and a belt, dark buckled shoes.",
+    "proportions": { "h": 1.38 },
+    "personality": "Says the thing nobody else will say.",
+    "voice": { "tag": "child", "note": "clear, high, steadier than it should be" },
+    "look": { "h": 1.38, "skin": "#e8b893", "skinShade": "#b77867", "hairStyle": "long", "hair": "#3a2a22",
+              "top": "#8e3340", "sleeve": "#8e3340", "legs": "#8e3340", "shoes": "#2a2730" }
+  },
+
+  "oldman": {
+    "name": "The Old Man", "role": "Mysterious guide",
+    "appearance": "Very tall and very thin, stooped. Carries a lantern that is the only warm light in any frame he is in.",
+    "face": "Hollow cheeks, deep sockets, a long nose.",
+    "hair": "White, thin, swept back. A full white beard.",
+    "clothing": "Long brown coat to the shins, a dark red scarf, heavy boots.",
+    "proportions": { "h": 1.84 },
+    "personality": "Answers the question after the one you asked.",
+    "voice": { "tag": "stranger", "note": "dry, slow, a rasp at the end of each line" },
+    "look": { "h": 1.84, "skin": "#d8bda6", "skinShade": "#a08670", "hairStyle": "balding", "hair": "#ddd8d0",
+              "facial": "fullbeard", "top": "#4e4034", "sleeve": "#4e4034", "legs": "#3a3229", "shoes": "#3a2a1f",
+              "coat": "long", "coatColor": "#5a4a3a" }
+  },
+
+  "villain": {
+    "name": "The Villain", "role": "Dark figure",
+    "appearance": "Tall, narrow, moves without hurry. A long black coat to the ankles makes one unbroken vertical shape.",
+    "face": "Sharp, pale, hard angles. Eyebrows that sit high and sloped.",
+    "hair": "Black, swept straight back from a widow's peak.",
+    "clothing": "Floor-length black coat over a black shirt, black boots.",
+    "proportions": { "h": 1.86 },
+    "personality": "Enjoys the part before the thing happens.",
+    "voice": { "tag": "creature", "note": "smooth, amused, never raised" },
+    "look": { "h": 1.86, "skin": "#d6c3b4", "skinShade": "#9e8a7c", "hairStyle": "slick", "hair": "#141018",
+              "top": "#17161d", "sleeve": "#17161d", "legs": "#17161d", "shoes": "#0f0e13",
+              "coat": "long", "coatColor": "#1b1a22" }
+  },
+
+  "ghost": {
+    "name": "The Ghost", "role": "Spirited soul",
+    "appearance": "A young woman, barefoot, not quite touching the ground. Edges cold and faintly lit from inside.",
+    "face": "Pale blue, eyes with no dark centre at all.",
+    "hair": "Long, pale, drifting as if underwater.",
+    "clothing": "A plain white shift dress.",
+    "proportions": { "h": 1.6 },
+    "personality": "Repeats herself. Does not know she is doing it.",
+    "voice": { "tag": "ally", "note": "doubled, a half-beat of reverb behind every word" },
+    "look": { "h": 1.6, "skin": "#cfe0f5", "skinShade": "#9ab4d6", "hairStyle": "long", "hair": "#d6e4f7",
+              "top": "#e8f0ff", "sleeve": "#e8f0ff", "legs": "#e8f0ff", "shoes": "#cfe0f5",
+              "spectral": true, "spectralTint": "#a8c8ff" }
+  },
+
+  "scarecrow": {
+    "name": "The Scarecrow", "role": "Guardian",
+    "appearance": "Human-sized but wrong in the joints. Straw bursting from every cuff, collar and hem.",
+    "face": "A sacking head under a wide straw hat. Two burning orange points where the eyes should be, and a stitched line for a mouth.",
+    "hair": "None - straw only.",
+    "clothing": "Ragged brown coat and trousers, wide straw hat.",
+    "proportions": { "scale": 1.12, "armLong": 1.2 },
+    "personality": "Stands in one place for a very long time. Then does not.",
+    "voice": { "tag": "creature", "note": "no voice - straw, wind, and a dry creak" },
+    "creature": { "face": "glow", "skull": "round", "hairStyle": "none", "scale": 1.12, "armLong": 1.2,
+                  "glow": "#ffa32e", "straw": "#b89050", "hat": "straw",
+                  "mask": "#c2a271", "cloth": "#6a5336", "clothDark": "#4a3a26", "hands": "#b89050", "tears": false }
+  },
+
+  "police": {
+    "name": "Police Officer", "role": "Supporting",
+    "appearance": "Broad, square, stands with hands at his belt.",
+    "face": "Heavy jaw, flat expression, thick moustache.",
+    "hair": "Short dark, mostly under the cap.",
+    "clothing": "Dark navy uniform, peaked cap, belt, black boots.",
+    "proportions": { "h": 1.8 },
+    "personality": "Writes it down. Does not believe it.",
+    "voice": { "tag": "stranger", "note": "flat, official, bored" },
+    "look": { "h": 1.8, "skin": "#d8b492", "skinShade": "#a8835f", "hairStyle": "crop", "hair": "#241d24",
+              "facial": "moustache", "top": "#2c3550", "sleeve": "#2c3550", "legs": "#222a40", "shoes": "#14131a",
+              "hat": "peakedCap", "hatColor": "#2c3550", "coat": "vest", "coatColor": "#222a40" }
+  },
+
+  "doctor": {
+    "name": "Doctor", "role": "Supporting",
+    "appearance": "Slight, stooped at the neck from looking down at things.",
+    "face": "Narrow, tired, heavy black-framed glasses.",
+    "hair": "Thinning dark, combed flat.",
+    "clothing": "White coat over a blue shirt, dark trousers, dark shoes.",
+    "proportions": { "h": 1.74 },
+    "personality": "Explains the thing that does not explain it.",
+    "voice": { "tag": "stranger", "note": "precise, slightly too fast" },
+    "look": { "h": 1.74, "skin": "#e0bda0", "skinShade": "#ab8c70", "hairStyle": "balding", "hair": "#2b2430",
+              "glasses": true, "top": "#3f74ad", "sleeve": "#3f74ad", "legs": "#23222c", "shoes": "#15141a",
+              "coat": "lab", "coatColor": "#eceae4" }
+  },
+
+  "villager": {
+    "name": "Villager", "role": "Supporting",
+    "appearance": "Older, solid, hands behind his back.",
+    "face": "Weathered, kind, deep creases. Full white beard.",
+    "hair": "White, under a cream turban.",
+    "clothing": "Cream kurta, brown waistcoat, loose trousers, sandals.",
+    "proportions": { "h": 1.7 },
+    "personality": "Knows the story. Has told it before.",
+    "voice": { "tag": "stranger", "note": "warm, unhurried, carries" },
+    "look": { "h": 1.7, "skin": "#b3845c", "skinShade": "#7e5a3c", "hairStyle": "bald", "hair": "#ddd8d0",
+              "facial": "fullbeard", "top": "#e6ded0", "sleeve": "#e6ded0", "legs": "#cfc6b4", "shoes": "#6a5340",
+              "hat": "turban", "hatColor": "#e6ded0", "coat": "vest", "coatColor": "#8a6a44" }
+  },
+
+  "child": {
+    "name": "Child", "role": "Supporting",
+    "appearance": "Seven or eight. Small, round, always slightly turned away.",
+    "face": "Big round eyes, full cheeks.",
+    "hair": "Short dark, cut straight across.",
+    "clothing": "Cream shirt, dark blue trousers, white trainers.",
+    "proportions": { "h": 1.16 },
+    "personality": "Asks the question everybody is avoiding.",
+    "voice": { "tag": "child", "note": "small, bright, unaware" },
+    "look": { "h": 1.16, "skin": "#c88c62", "skinShade": "#8e5f41", "hairStyle": "bowl", "hair": "#241d24",
+              "top": "#e6ded0", "sleeve": "#e6ded0", "legs": "#2c3550", "shoes": "#efe9e0" }
+  }
+}

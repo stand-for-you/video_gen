@@ -1,24 +1,39 @@
-# CREATURE SHEET — "THE BLUE-MASK THING" (id: mask)
+# Creature sheet - the thing under the bed
 
-Built word-by-word from the story: Jack after the cult's ritual. One design, one antagonist, never drifting. The only allowed change between shots is a declared STATE (see below).
+ONE-CREATURE LAW: this sheet is written once, locked into `story/cast.json` under the key
+`entity` and `story/creature.json`, and imported from there by every scene. No scene re-types
+a number from this page. The only legal difference between two shots of it is a declared
+state (`blood`, `tilt`, `wet`, `burnt`).
 
-## From the story text
-- It is what is left of **Jack**, so it has his tall young build — human height, not a giant. Height ~ 2.0 m (a tall man), thin.
-- **Eyes**: the eyes are torn out. Two empty black sockets. From the sockets runs **black tears** — thick dark tar, like ink, down the cheeks and jaw (the story: "his tears were black", "thick now, like tar").
-- **Mask**: a cracked **pale-blue ritual mask** is fixed over the face (the cult "fixed a blue mask to his face"). The mask has a thin mouth slit and two eye holes; through the eye holes only the black sockets and tar show. A crack runs across it.
-- **Mouth**: under / around the mask the jaw can open wrong and far (it laughs, it devours). Shown as a dark slit, never teeth-on-flesh.
-- **Arms / hands**: long and thin, longer than a man's, with long fingers and dark nails (it "broke free... tearing"). 
-- **Skin**: pale grey, drained, with dark veins at the neck and hands.
-- **Tendrils**: **black tendrils** rise from the ground around its feet and wrap its waist and ankles (the story: "black tendrils sprouted up like demonic weeds"). They move like slow weeds.
-- **Clothes**: Jack's hoodie/shirt, now dark and wet-looking.
+## Straight from the story's own words
+| The story says | The build |
+|---|---|
+| "It was not human, I can tell you that much." | nothing human-readable on the face at all |
+| "It was hairless" | `hairStyle: 'none'` - no hair anywhere, not even brows |
+| "with no eyes" | `face: 'blank'` - NO sockets, NO pinpricks, NO mouth. A smooth plate. |
+| "and no clothing." | bare body; `cloth` is skin colour, not a garment |
+| "It walked like a caveman, with its back slouched" | `pose: 'crouch_spider'` / `'loom'`, never upright |
+| "as it dragged my dead parents" | `pose: 'hold_two'` for the drag; arms carry the weight |
+| "this thing was smarter than any caveman" | it arranges, it paints, it waits. It never hurries. |
+| "it propped my father... it then sat my mother down" | it poses bodies with its hands |
+| "rubbing its hands along the walls" | the hands are the brush; the palms stay red after |
+| "positioned itself under my bed" | the last shot of it is the under-bed gap |
 
-## Engine build
-- Base: Monster-kit `CreatureSpec` id `mask`: tall, slight hunch, long arms/fingers, `eyes: 'black'` (hollow black sockets), `wet` high (tar sheen), pale grey skin, dark claws, no monster hair (Jack's own hair instead).
-- Over the face: a drawn **pale-blue cracked mask** overlay with two holes and a slit.
-- **Black tar**: drawn as dark streaks from the eye sockets and as a dark gloss on the chin/neck — NOT red.
-- **Tendrils**: drawn as black weed-like strokes rising from the base, swaying with f.
+## Locked numbers (from story/cast.json `entity`)
+- `scale: 1.52` - about 2.6 m standing, which is why it is always bent under a 2.6 m ceiling
+- `armLong: 1.62` - hands hang past the knees
+- `face: 'blank'`, `skull: 'bulb'`, `hairStyle: 'none'`, `tears: false`
+- `mask: #cfc7bd`, `cloth: #cfc7bd`, `clothDark: #b3aaa0`, `hands: #dcd4c9`
+- declared state used in this story: `blood: true` from the moment it touches the parents
+  (red palms and forearms) - the same design, a declared state, not a redesign.
 
-## States (the ONLY allowed differences)
-- `tar`: 0 (just torn, thin streaks) → 1 (tar covers the lower face and neck). 
-- `free`: false = still bound in the chair, tendrils holding it; true = standing, loose, arms long, the circle torn.
-It is shown full-body from two angles (front in the chair; side when it rises and when it breaks free), moving, in at least 6 shots. The thumbnail creature is this same creature.
+## How it must be shot (quality law 4a)
+- at least **6** shots, **full body**, from **two** angles, and **moving**
+- the ceiling forces the slouch: at 2.6 m it cannot stand straight indoors, and that is the
+  silhouette - a long back bent under the ceiling, head low, arms nearly on the floor
+- it is **lit**: window light on the back, hall light on one shoulder. Never a black blob.
+- the thumbnail creature is this creature.
+
+## Why "blank" is the right face
+The story gives it no eyes and no mouth to describe, so there is nothing for a viewer to
+read, and a still frame of it cannot be "figured out". Resist adding a hint of a feature.

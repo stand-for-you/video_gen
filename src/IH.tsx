@@ -1,6 +1,6 @@
 import React from 'react';
 import { INK, rng, Hatch, Hand } from './Kit';
-import { sf, taper } from './util';
+import { sf, taper } from './Beast';
 // ===== Kit (j) "It's Inside Your House": storm night, lone two-storey house at the edge of the Pine Barrens (2020s).
 // Palette: bruise blue-black + steel blue-grey, lightning white, sickly fluorescent bathroom light; ONE red accent = red LED light (alarm clock digits, later the car tail lights).
 export const K = {

@@ -1,37 +1,93 @@
 import React from 'react';
-import { Composition, Still, staticFile } from 'remotion';
-import { makeVideo, makeQA, FPS } from './Player';
-import { SETS as SL } from './SetsL';
-import { SETS as SR } from './SetsR';
-import { Gal, GalR, GAL_N, GALR_N } from './Gal';
-import { Lab, LAB_PLATES } from './Lab';
+import { Composition, Still } from 'remotion';
+import { loadBrandFont } from './ui/font';
+import { makeStory, makeSheet } from './Scene';
+import { makeFilm, filmFrames } from './Film';
+import { TitleCard, Intertitle, PartBumper } from './ui/Card';
+import { ChoiceScreen } from './ui/ChoiceScreen';
+import { EndScreen, endTotal } from './ui/EndScreen';
 import { ThumbA, ThumbB, ThumbC, ThumbR } from './ThumbsStory';
+import STORY from './story.json';
 import L from './shots_long.json';
 import RL from './shots_reel.json';
-// Generic root (v0.4, native 30 fps from engine.json). Story slots (replace per story): SetsL.tsx, SetsR.tsx, Card.tsx, camera.ts,
-// ThumbsStory.tsx, a story kit file (like IKA.tsx), Lab.tsx plates (kit tests); generated: shots_long.json, shots_reel.json (tools/build_shots.py),
-// gal.json (set gallery for QA before audio).
-// Lora: setup.sh installs the font files into the user's font folder (so Chrome has Lora with no loading at all) and into
-// public/fonts. This @font-face only adds the local files as a fallback. No delayRender (a font wait can stall background tabs).
-if (typeof document !== 'undefined' && !document.getElementById('sk-lora')) {
-  const el = document.createElement('style'); el.id = 'sk-lora';
-  el.textContent = `@font-face{font-family:'Lora';src:local('Lora'),url('${staticFile('fonts/Lora.ttf')}') format('truetype');font-weight:400 700;font-style:normal}@font-face{font-family:'Lora';src:local('Lora Italic'),url('${staticFile('fonts/Lora-Italic.ttf')}') format('truetype');font-weight:400 700;font-style:italic}`;
-  document.head.appendChild(el);
-}
-const Long = makeVideo(L as any, 1920, 1080, SL);
-const QAL = makeQA(L as any, 1920, 1080, SL);
-const Reel = makeVideo(RL as any, 1080, 1920, SR, true);
-const QAR = makeQA(RL as any, 1080, 1920, SR);
-export const Root: React.FC = () => (<>
-  <Composition id="Long" component={Long} width={1920} height={1080} fps={FPS} durationInFrames={(L as any).frames} />
-  <Composition id="QAL" component={QAL} width={1920} height={1080} fps={FPS} durationInFrames={(L as any).shots.length} />
-  <Composition id="Reel" component={Reel} width={1080} height={1920} fps={FPS} durationInFrames={(RL as any).frames} />
-  <Composition id="QAR" component={QAR} width={1080} height={1920} fps={FPS} durationInFrames={(RL as any).shots.length} />
-  <Composition id="Gal" component={Gal} width={1920} height={1080} fps={FPS} durationInFrames={Math.max(1, GAL_N)} />
-  <Composition id="GalR" component={GalR} width={1080} height={1920} fps={FPS} durationInFrames={Math.max(1, GALR_N)} />
-  <Composition id="Lab" component={Lab} width={1920} height={1080} fps={FPS} durationInFrames={LAB_PLATES * 100} />
-  <Still id="ThumbA" component={ThumbA} width={1280} height={720} />
-  <Still id="ThumbB" component={ThumbB} width={1280} height={720} />
-  <Still id="ThumbC" component={ThumbC} width={1280} height={720} />
-  <Still id="ThumbR" component={ThumbR} width={1080} height={1920} />
-</>);
+import cuesL from './cues_long.json';
+import cuesR from './cues_reel.json';
+import type { ShotFile } from './Shot';
+
+// ONE family, loaded from the engine's own public/fonts so a render never needs the
+// network. Loading it here means every composition - video, sheet and thumbnail - measures
+// text identically.
+loadBrandFont();
+
+export const FPS = 30;   // v0.4 shipped 10 fps while its own law said 30. It is 30 now.
+
+const long = L as unknown as ShotFile;
+const reel = RL as unknown as ShotFile;
+const S = STORY as any;
+
+const LongBody = makeStory(long, cuesL as any, false);
+const ReelBody = makeStory(reel, cuesR as any, true);
+// What actually ships: story + title card + choice screens + end screen on one timeline.
+const Long = makeFilm('long', long, cuesL as any);
+const Reel = makeFilm('reel', reel, cuesR as any);
+const SheetL = makeSheet(long);
+const SheetR = makeSheet(reel);
+
+const Title16: React.FC = () => <TitleCard W={1920} H={1080} title={S.title} accent={S.accent} tagline={S.tagline} />;
+const Title9: React.FC = () => <TitleCard W={1080} H={1920} title={S.title} accent={S.accent} tagline={S.tagline} />;
+const Stakes: React.FC = () => <Intertitle W={1920} H={1080} line1={S.stakes1} line2={S.stakes2} />;
+const Bumper: React.FC = () => <PartBumper W={1920} H={1080} label="PART 2" />;
+
+const Choice = (i: number, W: number, H: number): React.FC => () => {
+  const p = S.parts[i];
+  return (
+    <ChoiceScreen
+      W={W} H={H} part={p.n}
+      a={{ emoji: p.aEmoji, text: p.aText, sub: p.aSub }}
+      b={{ emoji: p.bEmoji, text: p.bText, sub: p.bSub }}
+      chosen={p.chosen}
+      nextLabel={p.nextLabel}
+    />
+  );
+};
+
+const End: React.FC = () => (
+  <EndScreen
+    W={1920} H={1080}
+    title={S.title} accent={S.accent} closer={S.closer} cta={S.cta} teaser={S.teaser}
+    recap={S.recap} epilogue={S.epilogue}
+    recapClip={(i) => <SheetAt data={long} index={S.recapShot[i]} />}
+    epiloguePlate={(i) => <SheetAt data={long} index={S.epilogueShot[i]} />}
+    brandPlate={<SheetAt data={long} index={S.brandShot} />}
+  />
+);
+
+/** Re-renders one already-approved shot as a still plate for the outro. */
+const SheetAt: React.FC<{ data: ShotFile; index: number }> = ({ data, index }) => {
+  const C = React.useMemo(() => makeSheet({ ...data, shots: [data.shots[index] ?? data.shots[0]] }), [data, index]);
+  return <C />;
+};
+
+export const Root: React.FC = () => (
+  <>
+    <Composition id="Long" component={Long} width={1920} height={1080} fps={FPS} durationInFrames={filmFrames('long')} />
+    <Composition id="LongBody" component={LongBody} width={1920} height={1080} fps={FPS} durationInFrames={long.frames} />
+    <Composition id="Reel" component={Reel} width={1080} height={1920} fps={FPS} durationInFrames={filmFrames('reel')} />
+    <Composition id="ReelBody" component={ReelBody} width={1080} height={1920} fps={FPS} durationInFrames={reel.frames} />
+    <Composition id="SheetL" component={SheetL} width={1920} height={1080} fps={FPS} durationInFrames={long.shots.length} />
+    <Composition id="SheetR" component={SheetR} width={1080} height={1920} fps={FPS} durationInFrames={reel.shots.length} />
+    <Composition id="Title16" component={Title16} width={1920} height={1080} fps={FPS} durationInFrames={120} />
+    <Composition id="Title9" component={Title9} width={1080} height={1920} fps={FPS} durationInFrames={120} />
+    <Composition id="Stakes" component={Stakes} width={1920} height={1080} fps={FPS} durationInFrames={60} />
+    <Composition id="Bumper" component={Bumper} width={1920} height={1080} fps={FPS} durationInFrames={30} />
+    <Composition id="Choice1" component={Choice(0, 1920, 1080)} width={1920} height={1080} fps={FPS} durationInFrames={96} />
+    <Composition id="Choice2" component={Choice(1, 1920, 1080)} width={1920} height={1080} fps={FPS} durationInFrames={96} />
+    <Composition id="Choice3" component={Choice(2, 1920, 1080)} width={1920} height={1080} fps={FPS} durationInFrames={96} />
+    <Composition id="Choice1R" component={Choice(0, 1080, 1920)} width={1080} height={1920} fps={FPS} durationInFrames={96} />
+    <Composition id="End" component={End} width={1920} height={1080} fps={FPS} durationInFrames={endTotal()} />
+    <Still id="ThumbA" component={ThumbA} width={1280} height={720} />
+    <Still id="ThumbB" component={ThumbB} width={1280} height={720} />
+    <Still id="ThumbC" component={ThumbC} width={1280} height={720} />
+    <Still id="ThumbR" component={ThumbR} width={1080} height={1920} />
+  </>
+);

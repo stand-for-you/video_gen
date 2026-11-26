@@ -27,10 +27,15 @@ def length(kind):
     if os.path.exists(f):
         r = subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', f], capture_output=True, text=True)
         return mmss(float(r.stdout.strip()))
-    J = json.load(open(f'src/shots_{kind}.json')); return mmss(J['frames'] / J.get('fps', 30))
+    if os.path.exists('src/film.json'):
+        return mmss(json.load(open('src/film.json'))[kind]['filmFrames'] / 30)
+    return mmss(json.load(open(f'src/shots_{kind}.json'))['frames'] / 30)
 def chapters():
     if U.get('chapters'): return U['chapters']
-    return [f'{mmss(t, floor=True)} {c}' for t, c in json.load(open('src/shots_long.json'))['chapter_times']]
+    # written by tools/retime.py from the measured narration
+    if os.path.exists('src/chapters.json'):
+        return json.load(open('src/chapters.json', encoding='utf-8'))
+    sys.exit('no chapters: run tools/retime.py long, or put a "chapters" list in story/upload.json')
 def block(lines): return '```\n' + ('\n'.join(lines) if isinstance(lines, list) else lines) + '\n```'
 def tags():
     story = [t.strip() for t in U['tags_story'].split(',') if t.strip()]

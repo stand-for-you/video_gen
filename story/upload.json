@@ -1,48 +1,87 @@
 {
- "title": "You Can't Trust Everyone",
- "question": "Who would you have trusted?",
+ "title": "I Know You're Awake",
+ "question": "If you were in that bed, would you have stayed still, or run for the door?",
  "titles": {
-  "A": {"angle": "the friend-and-cult hook", "text": "You Can't Trust Everyone | My Best Friend Joined the Wrong Girl"},
-  "B": {"angle": "a single chilling image", "text": "His Tears Were Black | A Campus Horror Story"},
-  "C": {"angle": "a short warning", "text": "Don't Trust Her | A Scroll Kaos Horror Story"}
+  "A": {"angle": "the line on the wall, as the hook", "text": "I Know You're Awake | A First-Person Horror Story"},
+  "B": {"angle": "a time and a situation fact", "text": "5:30 AM: I Have Not Moved For Three Hours"},
+  "C": {"angle": "a short warning", "text": "Don't Move. It Is Under The Bed."}
  },
- "hindi_title": "यू कांट ट्रस्ट एवरीवन | मेरे दोस्त ने गलत लड़की पर भरोसा किया",
+ "hindi_title": "मुझे पता है तुम जाग रहे हो | एक डरावनी कहानी",
  "thumbs": {
-  "A": "Main: the Blue-Mask Thing (cracked pale-blue mask, hollow black eyes, black tears) on the right, title \"DON'T TRUST ANYONE\" on the left, tiny back-view student, cold forest",
-  "B": "Much closer mask crop (the black eye-holes and tears huge), 2-word title \"BLACK TEARS\", smaller moon",
-  "C": "Key object big and glowing (the cracked blue ritual mask alone), title \"THE RITUAL\" on top"
+  "A": "Main: the real shot of the thing bent over in the bedroom doorway, full body, title across the top with AWAKE in coral, \"WHAT DO YOU DO?\" along the bottom",
+  "B": "Closer and lower: the wall at 5:30 a.m. with the message readable in blood, two words of type (\"DON'T MOVE\") big in the lower third, no creature in frame",
+  "C": "The key object: the gap under the bed with a hand in it, lit by a coral glow, title \"IT IS UNDER THE BED\" on top",
+  "R": "Vertical cover: both parents arranged in the bedroom facing the bed, title stacked over them, PART 1 kicker"
  },
  "description": [
-  "My best friend Jack trusted the wrong person. By the time I understood why, he was already gone.",
-  "Jack started dating a quiet girl from our class named Elisa. Then he changed. He pulled away, he snapped at strangers, and one night he came to my door crying black tears. What I followed into the woods behind my building was a thing I still cannot explain.",
-  "A Scroll Kaos horror story, told in our own words. Watch until the very end."
+  "It is 5:30 in the morning. I have not moved for three hours, and both of my parents are sitting in my bedroom, turned to face my bed.",
+  "At twenty past two a scream woke me up on the other side of the house. I got as far as my bedroom door, and then I did the stupidest thing I will ever do. By the time I was back under my sheets, something was already coming up the hall, and it was not alone.",
+  "A Scroll Kaos first-person horror story, told from inside the bed. Watch until the very end."
  ],
- "credit_long": "Inspired by the story \"You Can't Trust Everyone\" (author not verified), as published on an online horror story page (source and date not verified). This is a non-graphic retelling in our own words, with original artwork. No existing image is copied.",
- "hashtags_long": "#horrorstories #creepypasta #scarystories #cult",
- "tags_story": "you cant trust everyone, cult horror story, campus horror, possession horror, creepypasta friend, black tears, ritual horror story, college horror, scary story, animated horror",
- "short_title": "Don't Trust Her #shorts",
- "short_hook": "My best friend started crying black tears. His girlfriend said he was ready. Ready for what?",
- "short_credit": "Inspired by the story \"You Can't Trust Everyone\" (author not verified). AI narration, original animation.",
- "short_hashtags": "#shorts #horrorstories #creepypasta #scarystories",
- "ig_caption": ["My best friend started crying black tears in the dark. His girlfriend knocked and said it was time. 🕯️", "What waited in the woods was not human."],
- "ig_credit": "Inspired by the story \"You Can't Trust Everyone\" (author not verified). AI narration, original animation by Scroll Kaos.",
- "ig_hashtags": "#horrorstories #scarystories #creepypasta #cult #horrorreels #scaryreels #animation #storytime #latenightstories #campushorror #scrollkaos",
- "hindi_caption": ["अँधेरे में मेरा दोस्त काले आँसू रो रहा था। उसकी गर्लफ्रेंड ने दरवाज़ा खटखटाया और कहा कि वक़्त हो गया। 🕯️", "", "तुम किस पर भरोसा करते?"],
- "facebook": ["A quiet girl, a best friend who changed, and black tears in a dark apartment. Our new animated horror story is up now."],
- "facebook_credit": "Our new horror story, inspired by the story \"You Can't Trust Everyone\" (author not verified). AI narration, original animation.",
- "threads": ["He started crying black tears.", "His girlfriend knocked and said it was time.", "New Scroll Kaos story, inspired by \"You Can't Trust Everyone\"."],
- "pinterest_title": "You Can't Trust Everyone - Animated Horror Story",
- "pinterest_description": "A best friend, a quiet girl, a cult in the woods, and a thing in a blue mask. Original horror animation by Scroll Kaos, inspired by the story \"You Can't Trust Everyone\" (author not verified). AI narration.",
+ "credit_long": "Inspired by a story told online (author and original publisher UNVERIFIED - we could not confirm who wrote it or where it first appeared). This is a non-graphic retelling in our own words, with original artwork and an original creature design.",
+ "hashtags_long": "#horrorstories #iknowyoureawake #scarystories #creepypasta",
+ "tags_story": "i know you're awake, under the bed, creepypasta, scary story, horror story, first person horror, pov horror, sleep paralysis story, don't move horror, bedroom horror, faceless creature, no eyes monster, animated horror story, what would you do horror, interactive horror story",
+ "short_title": "I Know You're Awake #shorts",
+ "short_hook": "5:30 a.m. Both of my parents are sitting in my bedroom, facing my bed, and neither of them has blinked since I woke up.",
+ "short_credit": "Inspired by a story told online (author UNVERIFIED). AI narration, original animation.",
+ "short_hashtags": "#shorts #horrorstories #iknowyoureawake #scarystories",
+ "ig_caption": [
+  "5:30 a.m. I have not moved for three hours. 🕯️",
+  "My mother is in the chair. My father is against the foot of my bed. Both of them are facing me, and neither of them has blinked.",
+  "The thing that arranged them wrote one line on my wall. My eyes have just adjusted enough to read it."
+ ],
+ "ig_credit": "Inspired by a story told online (author UNVERIFIED). AI narration, original first-person 3D animation by Scroll Kaos.",
+ "ig_hashtags": "#horrorstories #scarystories #creepypasta #iknowyoureawake #underthebed #povhorror #horrorreels #scaryreels #animation #3danimation #storytime #latenightstories #scrollkaos",
+ "hindi_caption": [
+  "सुबह साढ़े पाँच बजे। मैं तीन घंटे से हिला नहीं हूँ। 🕯️",
+  "मेरी माँ कुर्सी पर हैं। मेरे पिता बिस्तर के पैताने से टिके हैं। दोनों का चेहरा मेरी तरफ़ है, और दोनों ने एक बार भी पलक नहीं झपकाई।",
+  "जिसने उन्हें वहाँ बिठाया, उसने मेरी दीवार पर एक लाइन लिखी है। अब मेरी आँखें उसे पढ़ पा रही हैं।",
+  "",
+  "इंटरनेट पर सुनाई गई एक कहानी से प्रेरित (लेखक अज्ञात)। AI आवाज़, ओरिजिनल एनिमेशन।",
+  "",
+  "अगर आप उस बिस्तर में होते, तो आप चुपचाप पड़े रहते, या दरवाज़े की तरफ़ भागते?"
+ ],
+ "facebook": [
+  "A scream woke him at twenty past two. He got as far as his bedroom door, and then he went to the bathroom first. Three hours later he is still lying in his bed, not moving, with both of his parents arranged to face him and a line of writing on his wall that he can finally read."
+ ],
+ "facebook_credit": "Our new first-person horror story, inspired by a story told online (author UNVERIFIED). AI narration, original animation.",
+ "threads": [
+  "It is hairless. It has no eyes and no mouth at all.",
+  "It arranged my parents to face my bed, and then it went under it.",
+  "New Scroll Kaos story, inspired by a story told online."
+ ],
+ "pinterest_title": "I Know You're Awake - First-Person 3D Horror Story",
+ "pinterest_description": "A boy wakes at 2:20 a.m. to a scream, wastes three minutes, and spends the next three hours lying perfectly still while the thing that arranged his parents waits under his bed. Original first-person 3D horror animation by Scroll Kaos, inspired by a story told online (author UNVERIFIED). AI narration.",
  "community": {
-  "teaser": ["A quiet girl from class. A best friend who slowly changes.", "Then one night he comes to the door crying black tears.", "Tomorrow's story is about what was waiting in the woods."],
-  "long_first_line": "New story is live: \"You Can't Trust Everyone\" 🕯️",
-  "long_second_line": "A best friend, a cult in the woods, and a thing wearing a blue mask.",
-  "short_line": "The thing in the mask is still out there. Watch the full story now.",
-  "poll_options": ["Elisa's cold smile in the hall", "The black tears in the dark", "The circle of blue masks", "The line: You made him mad"]
+  "teaser": [
+   "It is 5:30 a.m. and he has not moved for three hours.",
+   "Tomorrow's story is about the line of writing on his bedroom wall.",
+   "Would you look at it, or keep your eyes shut?"
+  ],
+  "long_first_line": "New story is live: \"I Know You're Awake\" 🛏️🕯️",
+  "long_second_line": "One bedroom, two parents arranged to face the bed, and something still in the room at 5:30 in the morning.",
+  "short_line": "Three hours of lying perfectly still, and one line of writing he can finally read.",
+  "poll_options": [
+   "The smooth face with no eyes and no mouth",
+   "The smear of blood down the hall carpet",
+   "Both parents turned to face the bed",
+   "The line of writing under the circle"
+  ]
  },
  "flags": {
-  "top": ["- **Story rights (important):** the source page and the author could not be verified, so the credit line says \"author not verified\" and \"an online horror story page\". **Before you monetise, find the original author and page, and ask for written permission.** Whether permission is needed is UNVERIFIED.", "- The video is fiction, retold in our own words, with original artwork."],
-  "age_restriction": "- Age-restriction risk: a cult ritual, a kidnapping, and implied violence (the circle is torn apart off-screen). Blood is shown only as bright-red stains and spatter on the frost and a stain on a hospital sheet; no wound, no organ, and no body being cut is shown. YouTube may still age-restrict it (UNVERIFIED).",
-  "bottom": ["- Non-graphic changes (quality-law 4d, blood limit): the source's eye-removal and the devouring of the cult are NOT shown; the camera stays on the fixed blue mask, the black tears, the rising tendrils and red spatter on the snow. No wound, organ or on-screen cutting appears. This blood limit is applied by default and is flagged for your confirmation.", "- Photosensitive safety: no flashing or strobe anywhere; the lights are steady and the red lamp does not blink.", "- Reel shortening: the Reel keeps every main beat, the twist and the ending, and trims the small details (the friendship build-up, the phone call lead-in, the hospital detail)."]
+  "top": [
+   "- **Story rights (important):** the story was supplied as text found online, with no author, site or date. We could not confirm who wrote \"I Know You're Awake\" or where it first appeared, so the credit says \"inspired by a story told online\" and the author and publisher are marked **UNVERIFIED**. **Before you monetise, try to find the original page and ask about narration rights.** Whether permission is needed, and who can give it, is UNVERIFIED.",
+   "- No existing artwork, photograph, film still or character was used or traced. The creature is an original design built only from the story's own words (hairless, no eyes, no clothing, slouched, arms past the knees) - see story/creature.md.",
+   "- The pentagram on the wall is drawn as the story describes it (a circle with an inverted five-point star). It is a story prop, not a religious statement."
+  ],
+  "age_restriction": "- Age-restriction risk: two dead parents are shown seated and arranged, with bright red stains on their clothes, a dragged blood smear on the carpet and a pool on the floor. No injury, wound or act of violence is ever shown - every death happens off screen before the camera arrives. YouTube may still age-restrict it (UNVERIFIED).",
+  "bottom": [
+   "- Non-graphic choices: the deaths, the screaming and anything being done to a body all happen off screen. The pictures show only the result - the stains, the arrangement, the open mouths. No open wound, no cutting on screen, no organs anywhere.",
+   "- Photosensitive safety: no strobe and no flashing. The three VHS-glitch moments are a 0.2-0.3 strength colour split on a single shot, not a flash.",
+   "- Blood: shown clearly in bright red as stains, drips, a dragged smear and a pool, because the story has blood in it (quality-law 4d, settled).",
+   "- AI voices: the narration is Kokoro text-to-speech. Three voices are used in the long video (the boy, the mother, the father) and ONE in the Reel.",
+   "- Reel shortening: the Reel keeps every main beat and the ending. It drops the bedtime scene, the father checking the locks, the stairs-and-front-door passage, the plan to run, and the \"it does not know I am awake\" repetition.",
+   "- Part structure: this is ONE video with four interactive parts and three choice cards inside it, matching the v0.5 reference format, not two separate uploads."
+  ]
  }
 }

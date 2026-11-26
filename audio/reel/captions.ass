@@ -7,90 +7,107 @@ WrapStyle: 2
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Cap,Lora,70,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,-1,0,0,0,100,100,1,0,1,6,2,2,70,70,430,1
+Style: Word,Inter,96,&H00FFFFFF,&H00FFFFFF,&H00000000,&H78000000,-1,0,0,0,100,100,4,0,1,9,3,2,70,70,400,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:02.40,Cap,,0,0,0,,I am writing this from\Na library computer,
-Dialogue: 0,0:00:02.42,0:00:04.13,Cap,,0,0,0,,and I think I am being\Nwatched
-Dialogue: 0,0:00:04.15,0:00:06.39,Cap,,0,0,0,,from the dark between\Nthe shelves.
-Dialogue: 0,0:00:06.41,0:00:08.08,Cap,,0,0,0,,I know how that\Nsounds.
-Dialogue: 0,0:00:08.10,0:00:10.04,Cap,,0,0,0,,My best friend trusted\Nthe wrong
-Dialogue: 0,0:00:10.06,0:00:11.99,Cap,,0,0,0,,person, and now he is\Ngone.
-Dialogue: 0,0:00:12.01,0:00:14.16,Cap,,0,0,0,,Let me take you back\Nto the beginning.
-Dialogue: 0,0:00:14.18,0:00:16.71,Cap,,0,0,0,,Last year I met a guy\Nnamed Jack.
-Dialogue: 0,0:00:16.73,0:00:18.60,Cap,,0,0,0,,We liked the same\Ngames and the
-Dialogue: 0,0:00:18.62,0:00:20.13,Cap,,0,0,0,,same films, and we\Nplayed
-Dialogue: 0,0:00:20.15,0:00:22.02,Cap,,0,0,0,,online almost every\Nnight.
-Dialogue: 0,0:00:22.04,0:00:23.91,Cap,,0,0,0,,For the first time at\Nthat school
-Dialogue: 0,0:00:23.93,0:00:25.36,Cap,,0,0,0,,I had a real friend.
-Dialogue: 0,0:00:25.38,0:00:27.65,Cap,,0,0,0,,Then, last winter, he\Nstarted seeing
-Dialogue: 0,0:00:27.67,0:00:30.00,Cap,,0,0,0,,a girl from class\Nnamed Elisa.
-Dialogue: 0,0:00:30.02,0:00:31.86,Cap,,0,0,0,,At first she seemed\Nkind.
-Dialogue: 0,0:00:31.88,0:00:34.57,Cap,,0,0,0,,But a month in, Jack\Nbegan to pull away.
-Dialogue: 0,0:00:34.59,0:00:36.15,Cap,,0,0,0,,He stopped answering,\Nand he
-Dialogue: 0,0:00:36.17,0:00:37.96,Cap,,0,0,0,,only wanted to be with\Nher.
-Dialogue: 0,0:00:37.98,0:00:40.12,Cap,,0,0,0,,One morning in the\Ncafeteria line he
-Dialogue: 0,0:00:40.14,0:00:42.27,Cap,,0,0,0,,turned on me, shouted\Nat a stranger,
-Dialogue: 0,0:00:42.29,0:00:44.25,Cap,,0,0,0,,and ran out of the\Nbuilding.
-Dialogue: 0,0:00:44.27,0:00:46.05,Cap,,0,0,0,,That was not my\Nfriend.
-Dialogue: 0,0:00:46.07,0:00:47.85,Cap,,0,0,0,,He stopped coming to\Nclass.
-Dialogue: 0,0:00:47.87,0:00:49.99,Cap,,0,0,0,,One evening I passed\NElisa in the
-Dialogue: 0,0:00:50.01,0:00:52.36,Cap,,0,0,0,,hall and asked if Jack\Nwas okay.
-Dialogue: 0,0:00:52.38,0:00:54.69,Cap,,0,0,0,,She smiled, and the\Nsmile was wrong.
-Dialogue: 0,0:00:54.71,0:00:57.13,Cap,,0,0,0,,She said he was better\Nthan ever, each word
-Dialogue: 0,0:00:57.15,0:00:59.74,Cap,,0,0,0,,slow, like a warning,\Nand walked away.
-Dialogue: 0,0:00:59.76,0:01:01.42,Cap,,0,0,0,,That night I called\Nhim.
-Dialogue: 0,0:01:01.44,0:01:02.88,Cap,,0,0,0,,He picked up at once,\Nhis
-Dialogue: 0,0:01:02.90,0:01:04.47,Cap,,0,0,0,,voice low and shaking.
-Dialogue: 0,0:01:04.49,0:01:06.77,Cap,,0,0,0,,Forty minutes later he\Nwas at my door,
-Dialogue: 0,0:01:06.79,0:01:09.32,Cap,,0,0,0,,and I knew something\Nwas badly wrong.
-Dialogue: 0,0:01:09.34,0:01:10.99,Cap,,0,0,0,,I let him in and\Nturned off the
-Dialogue: 0,0:01:11.01,0:01:12.95,Cap,,0,0,0,,lights because he\Nbegged me to.
-Dialogue: 0,0:01:12.97,0:01:14.74,Cap,,0,0,0,,In the dark he was\Ncrying, but
-Dialogue: 0,0:01:14.76,0:01:16.30,Cap,,0,0,0,,the tears were black,\Nlike
-Dialogue: 0,0:01:16.32,0:01:18.30,Cap,,0,0,0,,ink running down his\Nface.
-Dialogue: 0,0:01:18.32,0:01:20.52,Cap,,0,0,0,,He said Elisa did this\Nto him.
-Dialogue: 0,0:01:20.54,0:01:22.21,Cap,,0,0,0,,She caught him crying\Nthe black
-Dialogue: 0,0:01:22.23,0:01:24.04,Cap,,0,0,0,,stuff and said he was\Nready.
-Dialogue: 0,0:01:24.06,0:01:25.98,Cap,,0,0,0,,Then a soft knock came\Nat the door,
-Dialogue: 0,0:01:26.00,0:01:27.64,Cap,,0,0,0,,and her calm voice\Nsaid it was
-Dialogue: 0,0:01:27.66,0:01:29.55,Cap,,0,0,0,,time, that they were\Nwaiting.
-Dialogue: 0,0:01:29.57,0:01:30.94,Cap,,0,0,0,,Jack ran out the back\Nand
-Dialogue: 0,0:01:30.96,0:01:32.72,Cap,,0,0,0,,vanished into the\Nwoods.
-Dialogue: 0,0:01:32.74,0:01:34.92,Cap,,0,0,0,,I called the police\Nand chased him.
-Dialogue: 0,0:01:34.94,0:01:36.96,Cap,,0,0,0,,Something hit the back\Nof my head,
-Dialogue: 0,0:01:36.98,0:01:38.82,Cap,,0,0,0,,and I woke tied to a\Ntree.
-Dialogue: 0,0:01:38.84,0:01:40.51,Cap,,0,0,0,,My mouth was taped\Nshut.
-Dialogue: 0,0:01:40.53,0:01:42.67,Cap,,0,0,0,,In a clearing stood a\Nring of figures
-Dialogue: 0,0:01:42.69,0:01:45.01,Cap,,0,0,0,,in black robes and\Npale blue masks.
-Dialogue: 0,0:01:45.03,0:01:46.23,Cap,,0,0,0,,In the middle,\Nstrapped
-Dialogue: 0,0:01:46.25,0:01:47.64,Cap,,0,0,0,,to a chair, was Jack.
-Dialogue: 0,0:01:47.66,0:01:49.23,Cap,,0,0,0,,One lifted her mask.
-Dialogue: 0,0:01:49.25,0:01:50.68,Cap,,0,0,0,,It was Elisa.
-Dialogue: 0,0:01:50.70,0:01:53.47,Cap,,0,0,0,,A taller one read from\Nan old black book.
-Dialogue: 0,0:01:53.49,0:01:55.65,Cap,,0,0,0,,The ground shook, and\Nblack tendrils rose
-Dialogue: 0,0:01:55.67,0:01:57.92,Cap,,0,0,0,,from the frost and\Nwrapped the chair.
-Dialogue: 0,0:01:57.94,0:02:00.23,Cap,,0,0,0,,They pressed a cracked\Nblue mask over
-Dialogue: 0,0:02:00.25,0:02:02.17,Cap,,0,0,0,,Jack's face, and where\Nhis eyes
-Dialogue: 0,0:02:02.19,0:02:04.74,Cap,,0,0,0,,had been, only black\Ntar ran down.
-Dialogue: 0,0:02:04.76,0:02:06.32,Cap,,0,0,0,,Then I heard sirens.
-Dialogue: 0,0:02:06.34,0:02:07.69,Cap,,0,0,0,,The reading stopped.
-Dialogue: 0,0:02:07.71,0:02:09.76,Cap,,0,0,0,,A low laugh came from\Nthe chair, and
-Dialogue: 0,0:02:09.78,0:02:11.60,Cap,,0,0,0,,the thing wearing my\Nfriend tore
-Dialogue: 0,0:02:11.62,0:02:13.63,Cap,,0,0,0,,free and turned on the\Ncircle.
-Dialogue: 0,0:02:13.65,0:02:15.12,Cap,,0,0,0,,The frost went red.
-Dialogue: 0,0:02:15.14,0:02:16.81,Cap,,0,0,0,,One by one, the robed\Nfigures
-Dialogue: 0,0:02:16.83,0:02:18.09,Cap,,0,0,0,,stopped screaming, and
-Dialogue: 0,0:02:18.11,0:02:19.94,Cap,,0,0,0,,the clearing went\Nstill.
-Dialogue: 0,0:02:19.96,0:02:21.71,Cap,,0,0,0,,I woke to a flashlight\Nand an
-Dialogue: 0,0:02:21.73,0:02:23.60,Cap,,0,0,0,,officer shouting for\Nhelp.
-Dialogue: 0,0:02:23.62,0:02:25.52,Cap,,0,0,0,,At the hospital they\Nsaid I would
-Dialogue: 0,0:02:25.54,0:02:27.45,Cap,,0,0,0,,live, but a kidney was\Ngone.
-Dialogue: 0,0:02:27.48,0:02:30.02,Cap,,0,0,0,,A year later, Jack is\Nstill missing, blamed
-Dialogue: 0,0:02:30.04,0:02:32.71,Cap,,0,0,0,,for ten deaths and one\Nattempted murder.
-Dialogue: 0,0:02:32.73,0:02:33.71,Cap,,0,0,0,,Mine.
-Dialogue: 0,0:02:33.73,0:02:35.59,Cap,,0,0,0,,This is inspired by\Nthe story
-Dialogue: 0,0:02:35.61,0:02:37.53,Cap,,0,0,0,,You Can't Trust\NEveryone, from
-Dialogue: 0,0:02:37.55,0:02:39.80,Cap,,0,0,0,,an online horror story\Npage.
-Dialogue: 0,0:02:39.82,0:02:40.99,Cap,,0,0,0,,So tell me.
-Dialogue: 0,0:02:41.01,0:02:42.21,Cap,,0,0,0,,Who would you have\Ntrusted?
+Dialogue: 0,0:00:00.00,0:00:02.16,Cap,,0,0,0,,It is five thirty in\Nthe morning and
+Dialogue: 0,0:00:02.18,0:00:04.61,Cap,,0,0,0,,I have not moved for\Nthree hours.
+Dialogue: 0,0:00:04.63,0:00:07.10,Cap,,0,0,0,,My mother is in the\Nchair by my window.
+Dialogue: 0,0:00:07.12,0:00:08.66,Cap,,0,0,0,,My father is propped\Nagainst
+Dialogue: 0,0:00:08.68,0:00:10.02,Cap,,0,0,0,,the foot of my bed.
+Dialogue: 0,0:00:10.04,0:00:11.99,Cap,,0,0,0,,Both of them are\Nfacing me.
+Dialogue: 0,0:00:12.01,0:00:14.22,Cap,,0,0,0,,Both of their mouths\Nare open.
+Dialogue: 0,0:00:14.24,0:00:16.10,Cap,,0,0,0,,Neither of them has\Nblinked since
+Dialogue: 0,0:00:16.12,0:00:18.26,Cap,,0,0,0,,I woke up, and the\Nthing that arranged
+Dialogue: 0,0:00:18.28,0:00:20.30,Cap,,0,0,0,,them has not left this\Nroom.
+Dialogue: 0,0:00:20.32,0:00:22.70,Cap,,0,0,0,,At twenty past two I\Nwoke up to a scream
+Dialogue: 0,0:00:22.72,0:00:24.86,Cap,,0,0,0,,on the other side of\Nthe house.
+Dialogue: 0,0:00:24.88,0:00:26.44,Cap,,0,0,0,,It stopped in the\Nmiddle, like
+Dialogue: 0,0:00:26.46,0:00:28.32,Cap,,0,0,0,,a door had been shut\Non it.
+Dialogue: 0,0:00:28.34,0:00:30.18,Cap,,0,0,0,,I got as far as my\Ndoor.
+Dialogue: 0,0:00:30.20,0:00:31.69,Cap,,0,0,0,,Then I did the\Nstupidest
+Dialogue: 0,0:00:31.71,0:00:33.31,Cap,,0,0,0,,thing I will ever do.
+Dialogue: 0,0:00:33.33,0:00:35.34,Cap,,0,0,0,,I went to the bathroom\Nfirst.
+Dialogue: 0,0:00:35.36,0:00:36.54,Cap,,0,0,0,,Three minutes.
+Dialogue: 0,0:00:36.56,0:00:38.93,Cap,,0,0,0,,I put the light on, I\Nwashed my hands,
+Dialogue: 0,0:00:38.95,0:00:41.28,Cap,,0,0,0,,and I opened the door\Na crack.
+Dialogue: 0,0:00:41.30,0:00:43.06,Cap,,0,0,0,,There was blood on the\Ncarpet.
+Dialogue: 0,0:00:43.08,0:00:44.27,Cap,,0,0,0,,Not a drop.
+Dialogue: 0,0:00:44.29,0:00:46.40,Cap,,0,0,0,,A smear, dragged from\Nmy parents' room
+Dialogue: 0,0:00:46.42,0:00:48.93,Cap,,0,0,0,,all the way to the top\Nof the stairs.
+Dialogue: 0,0:00:48.95,0:00:50.26,Cap,,0,0,0,,The front door was\Ntwelve
+Dialogue: 0,0:00:50.28,0:00:51.85,Cap,,0,0,0,,steps down those\Nstairs.
+Dialogue: 0,0:00:51.87,0:00:53.49,Cap,,0,0,0,,I did not take them.
+Dialogue: 0,0:00:53.51,0:00:55.21,Cap,,0,0,0,,I got into my bed and\Npulled
+Dialogue: 0,0:00:55.23,0:00:57.13,Cap,,0,0,0,,the sheets over my\Nhead.
+Dialogue: 0,0:00:57.15,0:00:59.46,Cap,,0,0,0,,Then my bedroom door\Ncreaked open, and
+Dialogue: 0,0:00:59.48,0:01:02.24,Cap,,0,0,0,,I pulled the blanket\Ndown off one eye.
+Dialogue: 0,0:01:02.26,0:01:02.51,Word,,0,0,0,,IT
+Dialogue: 0,0:01:02.52,0:01:02.78,Word,,0,0,0,,WAS
+Dialogue: 0,0:01:02.79,0:01:03.04,Word,,0,0,0,,BENT
+Dialogue: 0,0:01:03.05,0:01:03.30,Word,,0,0,0,,OVER
+Dialogue: 0,0:01:03.31,0:01:03.57,Word,,0,0,0,,IN
+Dialogue: 0,0:01:03.58,0:01:03.83,Word,,0,0,0,,MY
+Dialogue: 0,0:01:03.84,0:01:04.09,Word,,0,0,0,,DOORWAY
+Dialogue: 0,0:01:04.10,0:01:04.35,Word,,0,0,0,,AND
+Dialogue: 0,0:01:04.38,0:01:04.68,Word,,0,0,0,,IT
+Dialogue: 0,0:01:04.69,0:01:04.98,Word,,0,0,0,,WAS
+Dialogue: 0,0:01:04.99,0:01:05.29,Word,,0,0,0,,FAR
+Dialogue: 0,0:01:05.30,0:01:05.59,Word,,0,0,0,,TOO
+Dialogue: 0,0:01:05.60,0:01:05.89,Word,,0,0,0,,TALL
+Dialogue: 0,0:01:05.90,0:01:06.20,Word,,0,0,0,,FOR
+Dialogue: 0,0:01:06.21,0:01:06.50,Word,,0,0,0,,MY
+Dialogue: 0,0:01:06.51,0:01:06.80,Word,,0,0,0,,ROOM.
+Dialogue: 0,0:01:06.83,0:01:07.82,Word,,0,0,0,,HAIRLESS.
+Dialogue: 0,0:01:07.84,0:01:08.42,Word,,0,0,0,,NO
+Dialogue: 0,0:01:08.43,0:01:09.00,Word,,0,0,0,,EYES.
+Dialogue: 0,0:01:09.03,0:01:09.59,Word,,0,0,0,,NO
+Dialogue: 0,0:01:09.60,0:01:10.16,Word,,0,0,0,,MOUTH.
+Dialogue: 0,0:01:10.19,0:01:10.53,Word,,0,0,0,,NOTHING
+Dialogue: 0,0:01:10.54,0:01:10.87,Word,,0,0,0,,ON
+Dialogue: 0,0:01:10.88,0:01:11.21,Word,,0,0,0,,ITS
+Dialogue: 0,0:01:11.22,0:01:11.56,Word,,0,0,0,,FACE
+Dialogue: 0,0:01:11.57,0:01:11.90,Word,,0,0,0,,AT
+Dialogue: 0,0:01:11.91,0:01:12.24,Word,,0,0,0,,ALL.
+Dialogue: 0,0:01:12.27,0:01:12.67,Word,,0,0,0,,ARMS
+Dialogue: 0,0:01:12.68,0:01:13.07,Word,,0,0,0,,HANGING
+Dialogue: 0,0:01:13.08,0:01:13.48,Word,,0,0,0,,PAST
+Dialogue: 0,0:01:13.49,0:01:13.88,Word,,0,0,0,,ITS
+Dialogue: 0,0:01:13.89,0:01:14.29,Word,,0,0,0,,KNEES.
+Dialogue: 0,0:01:14.32,0:01:14.74,Word,,0,0,0,,BACK
+Dialogue: 0,0:01:14.75,0:01:15.17,Word,,0,0,0,,SLOUCHED
+Dialogue: 0,0:01:15.18,0:01:15.61,Word,,0,0,0,,RIGHT
+Dialogue: 0,0:01:15.62,0:01:16.04,Word,,0,0,0,,OVER.
+Dialogue: 0,0:01:16.07,0:01:16.73,Word,,0,0,0,,WEARING
+Dialogue: 0,0:01:16.74,0:01:17.41,Word,,0,0,0,,NOTHING.
+Dialogue: 0,0:01:17.44,0:01:20.10,Cap,,0,0,0,,And it was dragging my\Nmother and my father
+Dialogue: 0,0:01:20.12,0:01:22.60,Cap,,0,0,0,,in by the arms, one in\Neach hand.
+Dialogue: 0,0:01:22.62,0:01:24.44,Cap,,0,0,0,,It propped my father\Nagainst
+Dialogue: 0,0:01:24.46,0:01:26.39,Cap,,0,0,0,,my bed, facing my\Npillow.
+Dialogue: 0,0:01:26.41,0:01:27.97,Cap,,0,0,0,,Then it sat my mother\Nin the
+Dialogue: 0,0:01:27.99,0:01:29.95,Cap,,0,0,0,,chair, turned the same\Nway.
+Dialogue: 0,0:01:29.97,0:01:31.96,Cap,,0,0,0,,It arranged them, like\Nsomething that
+Dialogue: 0,0:01:31.98,0:01:34.41,Cap,,0,0,0,,wanted the picture to\Ncome out right.
+Dialogue: 0,0:01:34.43,0:01:36.55,Cap,,0,0,0,,Then it put both hands\Non my wall
+Dialogue: 0,0:01:36.57,0:01:38.63,Cap,,0,0,0,,and painted a circle,\Nand a star
+Dialogue: 0,0:01:38.65,0:01:41.09,Cap,,0,0,0,,inside the circle,\Nupside down.
+Dialogue: 0,0:01:41.11,0:01:43.04,Cap,,0,0,0,,Then it dragged one\Nline of letters
+Dialogue: 0,0:01:43.06,0:01:45.01,Cap,,0,0,0,,underneath it with one\Nfinger.
+Dialogue: 0,0:01:45.03,0:01:46.92,Cap,,0,0,0,,It was too dark to\Nread.
+Dialogue: 0,0:01:46.94,0:01:48.81,Cap,,0,0,0,,And then it folded\Nitself up on
+Dialogue: 0,0:01:48.83,0:01:51.00,Cap,,0,0,0,,my floor and went\Nunder my bed.
+Dialogue: 0,0:01:51.02,0:01:53.52,Cap,,0,0,0,,Under my bed, with me\Non top of it.
+Dialogue: 0,0:01:53.54,0:01:55.30,Cap,,0,0,0,,That was three hours\Nago.
+Dialogue: 0,0:01:55.32,0:01:56.86,Cap,,0,0,0,,Lie still that long\Nand your
+Dialogue: 0,0:01:56.88,0:01:58.87,Cap,,0,0,0,,eyes get better at the\Ndark.
+Dialogue: 0,0:01:58.89,0:02:00.56,Cap,,0,0,0,,So I move my eyes.
+Dialogue: 0,0:02:00.58,0:02:01.85,Cap,,0,0,0,,Not my head.
+Dialogue: 0,0:02:01.87,0:02:03.28,Cap,,0,0,0,,Just my eyes.
+Dialogue: 0,0:02:03.30,0:02:05.07,Cap,,0,0,0,,And I can read it now.
+Dialogue: 0,0:02:05.09,0:02:07.18,Cap,,0,0,0,,It says: I know you're\Nawake.
+Dialogue: 0,0:02:07.20,0:02:08.81,Cap,,0,0,0,,It never had to check.
+Dialogue: 0,0:02:08.83,0:02:11.52,Cap,,0,0,0,,It wrote that before I\Nopened my eyes, and it
+Dialogue: 0,0:02:11.54,0:02:14.43,Cap,,0,0,0,,has waited three hours\Nfor me to read it.
+Dialogue: 0,0:02:14.45,0:02:16.31,Cap,,0,0,0,,If you were in that\Nbed, would you have
+Dialogue: 0,0:02:16.33,0:02:17.96,Cap,,0,0,0,,stayed still, or run\Nfor the door?

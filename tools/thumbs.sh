@@ -4,8 +4,9 @@
 set -e
 cd "$(dirname "$0")/.."
 T="${1:?give a file prefix}"; mkdir -p qa final
-BR=""; [ -f .browser ] && BR="--browser-executable=$(cat .browser)"
-for t in A B C R; do npx remotion still src/index.ts Thumb$t qa/thumb$t.png --gl=swiftshader --log=error $BR > /dev/null; done
+BR=()
+[ -f .browser ] && BR=("--browser-executable=$(cat .browser)")
+for t in A B C R; do npx remotion still src/index.ts Thumb$t qa/thumb$t.png --gl=swiftshader --log=error "${BR[@]}" > /dev/null; done
 python3 - "$T" <<'PY'
 import sys
 from PIL import Image

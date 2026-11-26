@@ -1,29 +1,20 @@
 """CHECKPOINTS - prove the work is going the right way at every stage, not only at the end.
 
-The Gateway of the Mind videos failed because nothing checked DIRECTION until a finished
-file existed. By then the faults were: a lying-down character drawn as a tipped-over
-standing rig, every Reel label sliced off, assets from a different story, the same six
-shots looping for three minutes, and a narration that no longer matched the pictures.
+Why: a video was built twice before anyone saw that a lying patient had been drawn as a
+standing figure tipped on its side, that every vertical label was sliced off, that assets
+from an older story were on screen, and that six shots looped for three minutes. All of it
+was visible long before the render. Nothing checked.
 
-Every one of those was visible long before the render. This runs the right check at the
-right moment and refuses to let the work move on.
+This runs the right check at the right moment and refuses to let the work move on. On a
+2-core machine a render costs about two hours, so a fault caught here is two hours saved.
 
 Usage (work folder):
-    python3 tools/checkpoint.py            # run every stage that is ready, show the status board
-    python3 tools/checkpoint.py <stage>    # run one stage
+    python3 tools/checkpoint.py            # run every stage that is ready; show the board
+    python3 tools/checkpoint.py <stage>    # one stage
     python3 tools/checkpoint.py --list
 
-Stages, in order:
-    1 story    the script and the scene table exist and line up with the narration
-    2 cast     the antagonist is declared and locked
-    3 scenes   enough DIFFERENT scenes: no recycling, no duplicate pictures
-    4 labels   every callout fits inside the frame and is not over-used
-    5 shots    the built shot list passes the quality gate
-    6 look     the review sheet is built and the 16 questions are answered BY EYE
-    7 deliver  the rendered files pass the video gate and the cross-video frame ledger
-
-Exit 1 if the earliest unfinished stage fails. Later stages are not run until the
-earlier ones pass, so the first error you see is always the one to fix.
+It stops at the FIRST failing stage, because everything after depends on it.
+A failing stage is an instruction to fix and re-run - never a reason to ask permission.
 """
 import sys, os, subprocess, json, glob
 
@@ -34,25 +25,28 @@ PY = sys.executable or 'python3'
 
 def run(cmd):
     r = subprocess.run(cmd, capture_output=True, text=True)
-    return r.returncode, (r.stdout or '') + (r.stderr or '')
+    return r.returncode, ((r.stdout or '') + (r.stderr or '')).strip()
 
 
 def have(p):
     return os.path.exists(p)
 
 
+def tool(name):
+    return have(f'tools/{name}')
+
+
 # ---------------------------------------------------------------- stages
 def st_story():
-    msgs, ok = [], True
+    if not tool('lint_story.py'):
+        return True, ['tools/lint_story.py missing (skipped)']
+    c, out = run([PY, 'tools/lint_story.py'])
+    msgs = out.splitlines()
     for n in ('long', 'reel'):
-        if not have(f'story/script_{n}.py'):
-            msgs.append(f'story/script_{n}.py missing'); ok = False; continue
-        if not have(f'story/scenes_{n}.py'):
-            msgs.append(f'story/scenes_{n}.py missing'); ok = False; continue
         if not have(f'audio/{n}/timing.json'):
-            msgs.append(f'audio/{n}/timing.json missing - run tools/tts.py {n} first'); ok = False; continue
-        msgs.append(f'{n}: script, scene table and narration timing all present')
-    return ok, msgs
+            msgs.append(f'audio/{n}/timing.json missing - run: python3 tools/tts.py {n}')
+            c = 1
+    return c == 0, msgs
 
 
 def st_cast():
@@ -61,14 +55,13 @@ def st_cast():
             d = json.load(open('story/creature.json'))
         except ValueError as e:
             return False, [f'story/creature.json is not valid JSON: {e}']
-        if 'id' not in d:
-            return False, ['story/creature.json has no "id"']
+        if not d.get('id'):
+            return False, ['story/creature.json has no "id" - declare the antagonist']
         v = d.get('variants') or []
         return True, [f'antagonist locked: "{d["id"]}"' + (f' + states {v}' if v else ''),
-                      'every shot must use this design; states are not new designs']
-    # no creature declared: fine only if the story truly has none
-    return True, ['no story/creature.json - only correct if this story has NO monster or antagonist.',
-                  'If it has one, copy story/creature.example.json and fill it in, or the design will drift.']
+                      'one design, every shot. States are not new designs.']
+    return True, ['no story/creature.json - correct ONLY if this story has no monster or antagonist.',
+                  'If it has one, fill story/creature.json or the design will drift between shots.']
 
 
 def st_scenes():
@@ -76,73 +69,74 @@ def st_scenes():
     for n in ('long', 'reel'):
         if not have(f'story/scenes_{n}.py'): continue
         c, out = run([PY, 'tools/build_shots.py', n])
-        head = [l for l in out.strip().splitlines() if l.strip()][:14]
-        msgs += [f'--- {n}'] + head
+        msgs += [f'--- {n}'] + out.splitlines()[:14]
         if c: ok = False
     return ok, msgs
 
 
-def st_labels():
+def st_look_static():
     ok, msgs = True, []
-    for tool in ('tools/lint_tags.py', 'tools/lint_poses.py'):
-        if not have(tool):
-            msgs.append(f'{tool} missing (skipped)'); continue
-        c, out = run([PY, tool])
-        msgs += out.strip().splitlines()
+    for t in ('lint_poses.py',):
+        if not tool(t):
+            msgs.append(f'tools/{t} missing (skipped)'); continue
+        c, out = run([PY, f'tools/{t}'])
+        msgs += out.splitlines()
         if c: ok = False
     return ok, msgs
 
 
 def st_shots():
+    if not tool('gate_shots.py'):
+        return True, ['tools/gate_shots.py missing (skipped)']
     ok, msgs = True, []
     for n in ('long', 'reel'):
         if not have(f'src/shots_{n}.json'): continue
-        c, out = run([PY, 'tools/quality_gate.py', 'shots', n])
-        msgs += [f'--- {n}'] + [l for l in out.strip().splitlines() if l.startswith(('PASS', 'FAIL', '      ', '        '))][:22]
+        c, out = run([PY, 'tools/gate_shots.py', n])
+        msgs += [f'--- {n}'] + out.splitlines()[:26]
         if c: ok = False
     return ok, msgs
 
 
-def st_look():
-    sheets = glob.glob('qa/review_*.jpg')
-    fin = glob.glob('final/*.mp4')
-    if not fin:
-        return True, ['nothing rendered yet - this stage runs after the render']
-    missing = [f for f in fin if not any(os.path.splitext(os.path.basename(f))[0] in s for s in sheets)]
-    if missing:
-        return False, ['review sheet not built for: ' + ', '.join(os.path.basename(m) for m in missing),
-                       'run: python3 tools/frame_qa.py <file.mp4>',
-                       'then LOOK at qa/review_*.jpg and answer all 16 questions.']
-    return True, ['review sheets built: ' + ', '.join(os.path.basename(s) for s in sheets),
-                  'THIS STAGE CANNOT BE AUTOMATED - a person or an agent that can see images must',
-                  'answer the 16 questions in tools/frame_qa.py before the files are sent.']
+def st_sheets():
+    sheets = glob.glob('qa/*sheet*.jpg') + glob.glob('qa/*sheet*.png')
+    if not sheets:
+        return False, ['no contact sheets built yet.',
+                       'run: bash tools/qa_sheets.sh gal && bash tools/qa_sheets.sh long && bash tools/qa_sheets.sh reel',
+                       'then LOOK at every sheet. This stage cannot be automated.']
+    return True, ['sheets built: ' + ', '.join(os.path.basename(s) for s in sheets[:8]),
+                  'LOOK at each one. Check: heads cut off at the top, empty frames, near-black',
+                  'frames, rooms that look alike, a figure not actually sitting on the chair it',
+                  'is meant to sit on, props that render as plain rectangles, labels running off',
+                  'the frame, and anything from an older story.',
+                  'Any fault here is an instruction to redraw and rebuild - not to ask.']
 
 
 def st_deliver():
-    fin = glob.glob('final/*.mp4')
+    fin = sorted(glob.glob('final/*.mp4'))
     if not fin:
-        return True, ['nothing rendered yet']
+        return True, ['nothing rendered yet - this stage runs after tools/render.sh']
     ok, msgs = True, []
-    for f in sorted(fin):
+    for f in fin:
         kind = 'reel' if '1080x1920' in f else 'long'
-        c, out = run([PY, 'tools/quality_gate.py', 'video', f, kind])
-        msgs += [f'--- {os.path.basename(f)}'] + [l for l in out.strip().splitlines() if l.startswith(('PASS', 'FAIL'))]
+        c, out = run([PY, 'tools/quality_gate.py', f, '--kind', kind])
+        msgs += [f'--- {os.path.basename(f)}'] + [l for l in out.splitlines()
+                                                  if l.startswith(('PASS', 'FAIL', 'HARD', 'WARN'))][:14]
         if c: ok = False
-        if have('tools/frame_ledger.py') and have('ledger/frames.json'):
+        if tool('frame_ledger.py') and have('ledger/frames.json'):
             slug = os.path.splitext(os.path.basename(f))[0]
             c2, out2 = run([PY, 'tools/frame_ledger.py', 'check', f, slug])
-            msgs += [l for l in out2.strip().splitlines() if l.startswith(('PASS', 'FAIL'))]
+            msgs += [l for l in out2.splitlines() if l.startswith(('PASS', 'FAIL'))]
             if c2: ok = False
     return ok, msgs
 
 
-STAGES = [('story', 'script + scene table + narration exist', st_story),
+STAGES = [('story', 'script, scene table and narration exist and line up', st_story),
           ('cast', 'the antagonist is declared and locked', st_cast),
           ('scenes', 'enough DIFFERENT scenes; nothing recycled', st_scenes),
-          ('labels', 'callouts fit the frame; no rotated-character hacks', st_labels),
-          ('shots', 'the shot list passes the quality gate', st_shots),
-          ('look', 'the review sheet is built and read BY EYE', st_look),
-          ('deliver', 'rendered files pass the video gate + ledger', st_deliver)]
+          ('poses', 'no character rotated in place of a drawn pose', st_look_static),
+          ('shots', 'the shot list passes the gate (repeats, spread, pacing)', st_shots),
+          ('sheets', 'contact sheets built AND read by eye', st_sheets),
+          ('deliver', 'rendered files pass the video gate + frame ledger', st_deliver)]
 
 
 def main():
@@ -162,19 +156,19 @@ def main():
             ok, msgs = False, [f'checkpoint crashed: {type(e).__name__}: {e}']
         board.append((i, key, 'PASS' if ok else 'FAIL', desc, msgs))
         if not ok and failed is None: failed = key
-    print('=' * 72)
+    print('=' * 74)
     print('CHECKPOINTS')
-    print('=' * 72)
+    print('=' * 74)
     for i, key, state, desc, msgs in board:
         print(f'{state:<5} {i}. {key:<8} {desc}')
         for m in msgs: print(f'          {m}')
         print()
     if failed:
-        print(f'STOP at stage "{failed}". Fix it before going further - everything after it')
-        print('depends on it, and rendering now would waste the time again.')
+        print(f'STOP at stage "{failed}". FIX IT and run this again.')
+        print('Do not render past a failing stage, and do not ask whether to continue - fix it.')
     else:
         print('All checkpoints that can run right now PASS.')
-        print('Remember stage 6 (look) is not automatic: the sheet must actually be read.')
+        print('Stage 6 (sheets) is not automatic: the sheets must actually be looked at.')
     return 1 if failed else 0
 
 

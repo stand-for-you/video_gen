@@ -1,122 +1,796 @@
-# Scene table for the LONG video (16:9, src/SetsL.tsx). One list per beat of script_long.BEATS (15 beats).
-# Each scene = (set, v). fr = framing (wide|waist|bust|close|detail). cm = camera override. fc = close focus [x,y,zoom].
-# last=True marks the final shot of its beat. THE ONE-USE LAW: every (set,v) entry is a NEW picture — never repeated.
-# The antagonist "mask" is tagged c='mask' wherever it is on screen (>= 8 shots), so the creature gate counts it.
-def S(st, **v): return (st, v)
-CEN = [960, 520, 1.45]
-SC = [
- # 0 TEASER (creepiest first): the watcher in the library, Ethan turning, a close fearful face. Library + face
- #   alternate so no two room frames sit next to each other (pHash one-use law).
- [S('library', fr='wide', watch=True, expr='worry', cm='push', n=1, fc=[300, 460, 1.5]),
-  S('face', fr='close', who='ethan', expr='fear', turn=0.2, tag='WATCHED', n=2, fc=[960, 360, 1.5]),
-  S('library', fr='wide', watch=True, expr='fear', cm='truck', n=3, fc=[820, 480, 1.4]),
-  S('face', fr='close', who='ethan', expr='worry', turn=-0.2, n=4, fc=[960, 360, 1.6]),
-  S('library', fr='wide', watch=True, tag=True, expr='fear', cm='pull', n=5, fc=[300, 460, 1.5], last=True)],
- # 1 the cut line: "Let me take you back to the beginning."
- [S('library', fr='wide', expr='sad', cm='truck', n=6, fc=[540, 480, 1.4]),
-  S('library', fr='wide', watch=True, expr='fear', cm='pull', n=7, fc=[820, 480, 1.4], last=True)],
- # 2 A New Friend (the common room, games)
- [S('common', fr='wide', who='both', expr='smile', jexpr='smile', cm='rise', n=8, fc=[760, 480, 1.4]),
-  S('common', fr='waist', who='ethan', expr='smile', cm='still', n=9, fc=[640, 430, 1.35]),
-  S('face', fr='bust', who='jack', expr='smile', warm=True, turn=0.1, n=10, fc=[960, 360, 1.4]),
-  S('common', fr='wide', who='jack', jexpr='smile', cm='truck', n=11, fc=[860, 480, 1.4]),
-  S('common', fr='wide', who='both', expr='neutral', jexpr='smile', cm='pull', n=12, fc=[760, 480, 1.4], last=True)],
- # 3 The Girl From Class (Elisa; Jack pulls away). Common + Elisa faces (keep hall for beat 5 only, so no cross-beat repeat).
- [S('common', fr='wide', who='both', expr='smile', jexpr='smile', cm='push', n=13, fc=[760, 480, 1.4]),
-  S('face', fr='close', who='elisa', expr='smile', warm=False, turn=0.0, n=14, fc=[960, 360, 1.5]),
-  S('common', fr='wide', who='jack', jexpr='sad', cm='still', n=15, fc=[860, 480, 1.4]),
-  S('face', fr='bust', who='jack', expr='sad', warm=True, turn=-0.1, n=16, fc=[960, 360, 1.45]),
-  S('common', fr='wide', who='ethan', expr='worry', cm='truck', n=17, fc=[640, 480, 1.4], last=True)],
- # 4 Something Changed (cafeteria outburst)
- [S('cafeteria', fr='wide', cm='push', n=18, fc=[1120, 460, 1.4]),
-  S('cafeteria', fr='wide', tray=True, cm='truck', n=19, fc=[1120, 480, 1.4]),
-  S('face', fr='close', who='jack', expr='stern', turn=0.2, n=20, fc=[960, 360, 1.5]),
-  S('cafeteria', fr='waist', cm='still', n=21, fc=[1200, 420, 1.35]),
-  S('cafeteria', fr='wide', tray=True, cm='pull', n=22, fc=[1000, 480, 1.4], last=True)],
- # 5 Better Than Ever (hall; the wrong smile) + lead to credit later
- [S('hall', fr='wide', tag=True, expr='smile', cm='push', n=23, fc=[1200, 460, 1.4]),
-  S('face', fr='close', who='elisa', expr='cruel', turn=-0.1, n=24, fc=[960, 360, 1.5]),
-  S('hall', fr='waist', expr='cruel', cm='still', n=25, fc=[1200, 420, 1.35]),
-  S('hall', fr='wide', expr='smile', cm='truck', n=26, fc=[1160, 480, 1.4], last=True)],
- # 6 The Phone Call
- [S('phone', fr='wide', expr='worry', cm='push', n=27, fc=[760, 460, 1.4]),
-  S('phone', fr='waist', expr='fear', cm='still', n=29, fc=[760, 420, 1.35]),
-  S('phone', fr='wide', tag=True, expr='fear', cm='truck', n=30, fc=[760, 460, 1.4], last=True)],
- # 7 Black Tears (apartment, lights off)
- [S('apartment', fr='wide', dark=False, jexpr='sad', cm='push', n=31, fc=[820, 460, 1.4]),
-  S('apartment', fr='wide', dark=True, jexpr='fear', cm='still', n=32, fc=[820, 460, 1.4]),
-  S('face', fr='close', who='jack', expr='fear', tears=True, turn=0.0, n=33, fc=[960, 360, 1.5]),
-  S('apartment', fr='wide', dark=True, tears=True, tag=True, jexpr='fear', cm='truck', n=34, fc=[800, 460, 1.4]),
-  S('apartment', fr='waist', dark=True, reach=True, jexpr='speak', cm='push', n=35, fc=[820, 420, 1.35]),
-  S('apartment', fr='wide', dark=True, tears=True, jexpr='sad', cm='pull', n=36, fc=[860, 460, 1.4], last=True)],
- # 8 The Knock (door; Elisa's voice; Jack flees)
- [S('apartment', fr='wide', dark=True, ethan=True, jexpr='fear', cm='still', n=37, fc=[1000, 460, 1.4]),
-  S('door', fr='wide', cm='push', n=38, fc=[1180, 460, 1.4]),
-  S('door', fr='wide', ethan=True, cm='truck', n=39, fc=[700, 460, 1.4]),
-  S('woods', fr='wide', run=True, cm='truck', n=40, fc=[960, 460, 1.4]),
-  S('door', fr='waist', cm='still', n=41, fc=[1180, 440, 1.35], last=True)],
- # 9 The Clearing -- creature. Alternate clearing/ritual sets + Ethan's bound reaction (lit face), mirror the creature.
- [S('woods', fr='wide', run=False, cm='push', n=42, fc=[900, 460, 1.4]),
-  S('clearing', fr='wide', c='mask', face=1, px=0, unmask=True, tag=True, tar=0.4, cm='truck', n=43, fc=[1100, 440, 1.35]),
-  S('face', fr='close', who='ethan', expr='fear', warm=False, turn=0.2, n=44, fc=[960, 360, 1.5]),
-  S('clearing', fr='wide', c='mask', face=-1, px=-110, read=True, tar=0.45, cm='still', n=45, fc=[760, 440, 1.35]),
-  S('ritual', fr='wide', c='mask', face=1, px=60, tar=0.5, tend=0.2, cm='push', n=46, fc=[960, 420, 1.3]),
-  S('clearing', fr='wide', c='mask', face=-1, px=120, unmask=True, tar=0.5, cm='pull', n=47, fc=[900, 440, 1.35], last=True)],
- # 10 The Ritual -- creature. ritual/clearing + a reaction face; the mask, the tar, the tendrils rising.
- [S('ritual', fr='wide', c='mask', face=1, px=0, tar=0.6, tend=0.4, cm='push', n=48, fc=[960, 420, 1.35]),
-  S('face', fr='close', who='ethan', expr='shock', warm=False, turn=-0.1, n=49, fc=[960, 360, 1.5]),
-  S('clearing', fr='wide', c='mask', face=-1, px=-90, read=True, tar=0.65, tend=0.5, cm='still', n=50, fc=[960, 440, 1.3]),
-  S('ritual', fr='wide', c='mask', face=1, px=80, tar=0.8, tend=0.8, cm='truck', n=51, fc=[960, 400, 1.3]),
-  S('ritual', fr='wide', c='mask', face=-1, px=-40, tar=0.9, tend=1.0, cm='pull', n=52, fc=[960, 420, 1.35], last=True)],
- # 11 You Made Him Mad -- creature. unleashed/clearing + reaction faces; it breaks free (full body, mirrored, reposed).
- [S('unleashed', fr='wide', c='mask', face=1, pose='stalk', pp=0.3, px=0, cm='truck', n=53, fc=[820, 440, 1.35]),
-  S('face', fr='close', who='ethan', expr='fear', warm=False, turn=0.3, n=54, fc=[960, 360, 1.55]),
-  S('unleashed', fr='wide', c='mask', face=-1, pose='loom', pp=0.5, px=-80, cm='still', n=55, fc=[900, 440, 1.35]),
-  S('clearing', fr='wide', c='mask', face=1, px=-130, read=True, tar=0.9, cm='push', n=56, fc=[760, 440, 1.3]),
-  S('unleashed', fr='wide', c='mask', face=1, pose='crouch', pp=0.7, px=120, cm='push', n=57, fc=[900, 420, 1.3]),
-  S('unleashed', fr='wide', c='mask', face=1, pose='stalk', pp=0.85, px=-40, cm='truck', n=58, fc=[840, 440, 1.3]),
-  S('unleashed', fr='wide', c='mask', face=-1, pose='loom', pp=0.95, px=0, cm='pull', n=59, fc=[900, 440, 1.35], last=True)],
- # 12 What I Lost (the hospital)
- [S('hospital', fr='wide', officer=True, expr='sad', cm='push', n=56, fc=[1000, 440, 1.35]),
-  S('hospital', fr='wide', tag=True, expr='sad', cm='still', n=57, fc=[1120, 440, 1.35]),
-  S('face', fr='close', who='ethan', expr='sad', warm=False, turn=0.1, n=58, fc=[960, 360, 1.5]),
-  S('hospital', fr='waist', officer=True, expr='neutral', cm='truck', n=59, fc=[900, 420, 1.3], last=True)],
- # 13 credit
- [S('woods', fr='wide', run=False, cm='pull', n=60, fc=[900, 460, 1.4]),
-  S('credit', fr='detail', n=61, last=True)],
- # 14 the closing question -> end screen (last 20 s)
- [S('end', fr='wide', n=62)],
-]
-# --- extra scenes (more variety per beat to satisfy the one-use law; every entry is a NEW picture) ---
-SC[0] += [S('library', fr='wide', watch=True, expr='neutral', cm='orbit', n=71, fc=[540, 460, 1.4]),
-          S('face', fr='close', who='ethan', expr='fear', turn=0.3, n=70, fc=[960, 360, 1.55])]
-SC[3] += [S('common', fr='wide', who='jack', jexpr='neutral', cm='orbit', n=72, fc=[860, 480, 1.4])]
-SC[4] += [S('cafeteria', fr='wide', tray=True, expr='stern', cm='rise', n=73, fc=[1120, 460, 1.4])]
-SC[5] += [S('hall', fr='wide', tag=True, expr='cruel', cm='pull', n=74, fc=[1200, 460, 1.4]),
-          S('hall', fr='waist', expr='neutral', cm='orbit', n=75, fc=[1160, 420, 1.35])]
-SC[6] += [S('phone', fr='wide', expr='sad', cm='pull', n=76, fc=[760, 460, 1.4]),
-          S('phone', fr='waist', expr='worry', cm='orbit', n=77, fc=[760, 420, 1.35]),
-          S('phone', fr='wide', expr='fear', cm='rise', n=78, fc=[820, 460, 1.4])]
-SC[8] += [S('woods', fr='wide', run=True, cm='push', n=78, fc=[900, 460, 1.4]),
-          S('apartment', fr='waist', dark=True, ethan=True, jexpr='speak', cm='truck', n=79, fc=[1000, 440, 1.35])]
-SC[10] += [S('clearing', fr='wide', c='mask', face=1, px=130, read=True, tar=0.7, tend=0.6, cm='truck', n=80, fc=[760, 440, 1.3]),
-           S('ritual', fr='wide', c='mask', face=1, px=-60, tar=0.78, tend=0.7, cm='still', n=81, fc=[960, 420, 1.3])]
-SC[11] += [S('clearing', fr='wide', c='mask', face=-1, px=90, read=True, tar=0.95, cm='still', n=82, fc=[1100, 440, 1.3]),
-           S('unleashed', fr='wide', c='mask', face=1, pose='crouch', pp=0.6, px=-60, cm='push', n=83, fc=[900, 420, 1.3])]
-SC[12] += [S('hospital', fr='wide', officer=True, expr='worry', cm='pull', n=85, fc=[1000, 440, 1.35]),
-           S('hospital', fr='wide', expr='neutral', cm='orbit', n=86, fc=[900, 440, 1.35]),
-           S('hospital', fr='wide', officer=True, expr='fear', cm='truck', n=87, fc=[1000, 440, 1.3])]
-SC[13] += [S('face', fr='bust', who='ethan', expr='sad', warm=False, turn=0.0, n=88, fc=[960, 360, 1.4])]
+# Scene table for the LONG video (16:9) - "I Know You're Awake".
+#
+# THE ONE-USE LAW: every entry below is a DIFFERENT picture. A beat that gets four shots has
+# four entries. Nothing is ever recycled - tools/build_shots.py exits non-zero if two entries
+# agree on three of the four buckets {camera, cast, light, props}.
+#
+# The scene id is b<beat>_<n>, matching the beat index in story/script_long.py. tools/retime.py
+# uses that to stretch each beat's scenes onto the measured narration, so a picture always
+# lands on its own words.
+#
+# BUILD ORDER (references/pov3d-style.md): the rooms were drawn and previewed first, then
+# these cameras were laid out, and the actors were added last.
+from scenes_dsl import S
+from cast_dsl import A
 
-# ---- Framing tags for the mix gate. Order is authored by hand (sets/faces already alternate), so no reorder here.
-_CARDS = {'credit','end'}
-_FACE = 'face'
-for _b, _scn in enumerate(SC):
-    _j = 0
-    for _st, _v in _scn:
-        if _st in _CARDS:
-            continue
-        if _st == _FACE:
-            _v.setdefault('fr', 'close'); continue
-        _v['fr'] = 'wide' if _j % 2 == 0 else 'bust'
-        _j += 1
+K = 'AwakeHouse'
+
+# ---------------------------------------------------------------- eye positions
+# The boy is in his bed and cannot move for most of the video, so the variety has to come
+# from where he LOOKS (yaw/pitch), what is in the frame, the light and the state of a prop -
+# never from pretending he walked somewhere he did not.
+PILLOW = [-1.1, 0.95, -2.95]       # lying, head ON the pillow (0.95 clears its 0.795 top)
+PILLOW_LO = [-1.1, 0.86, -2.92]    # sunk lower, chin behind the quilt edge
+SITUP = [-1.1, 1.32, -2.8]         # sitting up in bed
+TENT = [-1.05, 0.82, -2.98]        # under the sheets: BEHIND the quilt humps, not inside them
+BEDSIDE = [-0.25, 1.42, -1.75]     # standing beside the bed
+MIDROOM = [0.35, 1.45, -1.2]       # standing in the middle of his room
+DOORIN = [0.75, 1.45, 0.45]        # just inside his own door
+FLOORLO = [-0.1, 0.4, -2.1]        # crouched on the floor beside the bed
+UNDERBED = [-0.15, 0.15, -2.15]    # lens BELOW the 0.18 m bed frame: the only way to see the gap
+# hall
+H_BATH = [-0.3, 1.45, -0.55]
+H_MID = [0.0, 1.45, -2.3]
+H_DEEP = [0.15, 1.45, -4.1]
+H_FAR = [-0.15, 1.45, -5.6]
+H_LOW = [0.0, 0.52, -2.7]
+H_STAIR = [0.0, 1.45, 0.55]
+# bathroom
+BA_BASIN = [0.0, 1.5, 0.62]
+BA_MIRROR = [0.0, 1.46, -0.05]
+BA_DOOR = [0.3, 1.45, 0.62]
+BA_LOW = [0.0, 1.0, 0.3]
+
+# ---------------------------------------------------------------- where the bodies are put
+FATHER = (-1.05, 0, -1.12)         # propped against the foot of the bed, facing the pillow
+MOTHER = (1.3, 0, -1.9)            # in the chair by the window, turned the same way
+DOORWAY = (0.72, 0, 0.6)           # where it stands when the door opens
+
+
+def E(pos, yaw, pitch=0):
+    return dict(pos=list(pos), yaw=yaw, pitch=pitch)
+
+
+# The 5:30 a.m. room: this state is the frame story and it never changes except the clock,
+# the window and - at the very end - what is readable on the wall.
+NOW = dict(room='bedroom', door='open', window='dawn', ground='pool', clock='5:30',
+           shape='pentagram', lightOn=False, bedding='held', handPrints=True, seed=7)
+
+
+def now(**kw):
+    d = dict(NOW)
+    d.update(kw)
+    return d
+
+
+DEAD_F = dict(expr='shocked', mouth='open', eyesShut=False, blood='smear')
+DEAD_M = dict(expr='shocked', mouth='open', eyesShut=False, blood='spots')
+
+SCENES = [
+    # ============================================================ TEASER (b00-b04)
+    # The first frame of the video is the worst thing in it: two dead parents arranged to
+    # face the lens, from the pillow, with the hands holding the quilt at the chin.
+    S('b00_1', kit=K, opts=now(), anchor=E(PILLOW, 180, 0), preset='idle_breath',
+      framing='full', secs=2.5, hands='grip_rail',
+      actors=[A('father', 'sit', FATHER, yaw=0, state=DEAD_F),
+              A('mother', 'sit', MOTHER, yaw=65, state=DEAD_M)]),
+    S('b00_2', kit=K, opts=now(clock='5:30', window='blind'), anchor=E(PILLOW, 195, -15),
+      preset='idle_breath', framing='waist', secs=2.4,
+      actors=[A('father', 'sit', FATHER, yaw=0, state=DEAD_F)]),
+    S('b00_3', kit=K, opts=now(ground='smear'), anchor=E(PILLOW, 255, 2), preset='idle_breath',
+      framing='full', secs=2.4, hands='brace_fall',
+      actors=[A('mother', 'sit', MOTHER, yaw=65, state=DEAD_M)]),
+    # b01 - "my mother is in the chair... both of their mouths are open"
+    S('b01_1', kit=K, opts=now(window='curtained'), anchor=E(PILLOW, 240, -2),
+      preset='idle_breath', framing='full', secs=2.3,
+      actors=[A('mother', 'sit', MOTHER, yaw=65, state=DEAD_M)]),
+    S('b01_2', kit=K, opts=now(clock='5:30', ground='smear', window='blind'),
+      anchor=E(PILLOW_LO, 180, 12), preset='idle_breath', framing='waist', secs=2.2,
+      hands='grip_rail', actors=[A('father', 'sit', FATHER, yaw=0, state=DEAD_F)]),
+    S('b01_3', kit=K, opts=now(), anchor=E(PILLOW, 210, -15), preset='idle_breath',
+      framing='full', secs=2.4,
+      actors=[A('father', 'sit', FATHER, yaw=0, state=DEAD_F),
+              A('mother', 'sit', MOTHER, yaw=65, state=DEAD_M)]),
+    S('b01_4', kit=K, opts=now(door='wide'), anchor=E(PILLOW, 225, 15), preset='idle_breath',
+      framing='face', secs=2.1,
+      actors=[A('mother', 'sit', MOTHER, yaw=65, state=dict(DEAD_M, expr='sad'))]),
+    S('b01_5', kit=K, opts=now(clock='5:30', ground='drops'), anchor=E(PILLOW_LO, 165, -15),
+      preset='idle_breath', framing='waist', secs=2.3, hands='brace_fall',
+      actors=[A('father', 'sit', FATHER, yaw=0, state=dict(DEAD_F, expr='sad'))]),
+    # b02 - the smell of blood
+    S('b02_1', kit=K, opts=now(ground='pool', window='blind'), anchor=E(PILLOW, 200, -5),
+      preset='idle_breath', framing='full', secs=2.5, hands='grip_rail'),
+    S('b02_2', kit=K, opts=now(door='ajar', ground='smear'), anchor=E(PILLOW, 180, -22),
+      preset='idle_breath', framing='full', secs=2.4,
+      actors=[A('father', 'sit', FATHER, yaw=0, state=DEAD_F)]),
+    S('b02_3', kit=K, opts=now(window='curtained', clock='5:33', door='ajar'),
+      anchor=E(PILLOW, 270, 0), preset='idle_breath', framing='waist', secs=2.3, hands='grip_rail',
+      actors=[A('mother', 'sit', MOTHER, yaw=65, state=DEAD_M)]),
+    # b03 - "the thing that put them there has not left this room"
+    S('b03_1', kit=K, opts=now(), anchor=E(PILLOW, 190, -34), preset='crouch_peek',
+      framing='full', secs=2.4, glitch=0.12),
+    S('b03_2', kit=K, opts=now(door='wide', ground='smear'), anchor=E(PILLOW, 165, 0),
+      preset='idle_breath', framing='full', secs=2.3, hands='grip_rail',
+      actors=[A('father', 'sit', FATHER, yaw=0, state=DEAD_F)]),
+    S('b03_3', kit=K, opts=now(window='blind', clock='5:30', door='ajar'),
+      anchor=E(PILLOW, 150, -8), preset='idle_breath', framing='full', secs=2.3),
+    S('b03_4', kit=K, opts=now(ground='drops'), anchor=E(PILLOW, 225, -15),
+      preset='idle_breath', framing='full', secs=2.4,
+      actors=[A('mother', 'sit', MOTHER, yaw=65, state=DEAD_M)],
+      sfx=[dict(t='*tick*', at=24, x=0.2, y=0.72, size=0.5)]),
+    S('b03_5', kit=K, opts=now(window='curtained', door='wide', ground='pool'),
+      anchor=E(PILLOW_LO, 180, -26), preset='idle_breath', framing='waist', secs=2.5,
+      hands='brace_fall',
+      actors=[A('father', 'sit', FATHER, yaw=0, state=DEAD_F),
+              A('mother', 'sit', MOTHER, yaw=65, state=DEAD_M)]),
+    # b04 - "let us go back to the beginning" : the cut line
+    S('b04_1', kit=K, opts=now(shape='none', clock='5:30', ground='clean', door='shut',
+                               bedding='made', handPrints=False),
+      anchor=E(PILLOW, 180, -2), preset='whip_pan', framing='full', secs=2.5, glitch=0.3),
+
+    # ============================================================ PART 1 - the scream
+    # b05 - "three hours ago I was asleep"
+    S('b05_1', kit=K, opts=dict(room='bedroom', door='shut', window='curtained', ground='clean',
+                                clock='11:40', shape='none', lightOn=False, bedding='made', seed=3),
+      anchor=E(SITUP, 160, -12), preset='idle_breath', framing='full', secs=1.8),
+    # b06 - the mother at the door with the landing light behind her
+    S('b05_2', kit=K, opts=dict(room='bedroom', door='shut', window='blind', ground='clean',
+                                clock='11:40', shape='none', lightOn=False, bedding='made', seed=301),
+      anchor=E(SITUP, 260, 0), preset='idle_breath', framing='full', secs=1.6),
+    S('b06_1', kit=K, opts=dict(room='bedroom', door='wide', window='curtained', ground='clean',
+                                clock='off', shape='none', lightOn=False, bedding='made', seed=3),
+      anchor=E(PILLOW, 195, 15), preset='idle_breath', framing='full', secs=2.7,
+      actors=[A('mother', 'stand', (0.78, 0, 0.72), yaw=25, state=dict(expr='normal'))]),
+    S('b06_2', kit=K, opts=dict(room='bedroom', door='wide', window='blind', ground='clean',
+                                clock='off', shape='none', lightOn=False, bedding='made', seed=4),
+      anchor=E(PILLOW, 200, 26), preset='idle_breath', framing='waist', secs=2.6,
+      actors=[A('mother', 'stand', (0.78, 0, 0.72), yaw=25, state=dict(expr='normal'))]),
+    S('b06_3', kit=K, opts=dict(room='bedroom', door='open', window='curtained', ground='clean',
+                                clock='off', shape='none', lightOn=False, bedding='made', seed=5),
+      anchor=E(SITUP, 210, 0), preset='idle_breath', framing='full', secs=2.7,
+      actors=[A('mother', 'point', (0.78, 0, 0.72), yaw=25, state=dict(expr='normal'))]),
+    # b07 - "[family] Lights out, love."
+    S('b07_1', kit=K, opts=dict(room='bedroom', door='wide', window='curtained', ground='clean',
+                                clock='off', shape='none', lightOn=False, bedding='made', seed=6),
+      anchor=E(PILLOW, 205, 15), preset='idle_breath', framing='face', secs=2.7,
+      actors=[A('mother', 'stand', (0.78, 0, 0.3), yaw=20, state=dict(expr='normal'))]),
+    S('b07_2', kit=K, opts=dict(room='bedroom', door='wide', window='curtained', ground='clean',
+                                clock='2:20', shape='none', lightOn=False, bedding='made', seed=6),
+      anchor=E(PILLOW, 155, -6), preset='idle_breath', framing='full', secs=2.7,
+      hands='grip_rail',
+      actors=[A('mother', 'stand', (0.78, 0, 0.3), yaw=20, state=dict(expr='normal'))]),
+    # b08 - the father further down the hall, not coming in
+    S('b08_1', kit=K, opts=dict(room='hall', door='wide', window='blind', ground='clean', seed=9),
+      anchor=E(H_MID, 0, -3), preset='idle_breath', framing='full', secs=2.4,
+      actors=[A('father', 'walk', (0.2, 0, -4.6), yaw=180, state=dict(expr='normal', blood='none'),
+                phase=0.4)]),
+    S('b08_2', kit=K, opts=dict(room='hall', door='open', window='blind', ground='clean', seed=10),
+      anchor=E(H_BATH, 0, 2), preset='idle_breath', framing='waist', secs=2.3,
+      actors=[A('father', 'stand', (0.1, 0, -3.9), yaw=180, state=dict(expr='normal', blood='none'))]),
+    # b09 - "[stranger] Door is locked, mate."
+    S('b09_1', kit=K, opts=dict(room='hall', door='ajar', window='blind', ground='clean', seed=11),
+      anchor=E(H_MID, 360, -15), preset='idle_breath', framing='waist', secs=3.2,
+      actors=[A('father', 'point', (0.15, 0, -4.3), yaw=175, state=dict(expr='normal', blood='none'))]),
+    # b10 - he checked the locks every night
+    S('b10_1', kit=K, opts=dict(room='hall', door='shut', window='blind', ground='clean', seed=12),
+      anchor=E(H_STAIR, 0, -24), preset='idle_breath', framing='full', secs=2.7),
+    S('b10_2', kit=K, opts=dict(room='hall', door='shut', window='curtained', ground='clean', seed=13),
+      anchor=E(H_DEEP, 180, -6), preset='walk_bob', framing='full', secs=2.8,
+      actors=[A('father', 'walk', (0.0, 0, -1.2), yaw=0, state=dict(expr='normal', blood='none'),
+                phase=0.7)]),
+    S('b10_3', kit=K, opts=dict(room='hall', door='shut', window='dawn', ground='clean', seed=14),
+      anchor=E(H_STAIR, 10, -12), preset='idle_breath', framing='waist', secs=2.8,
+      hands='reach_grab'),
+    # b11 - at 2:20 somebody was screaming
+    S('b11_1', kit=K, opts=dict(room='bedroom', door='shut', window='curtained', ground='clean',
+                                clock='2:20', shape='none', lightOn=False, bedding='tent', seed=15),
+      anchor=E([-1.1, 0.86, -3.25], 180, 14), preset='impact_jolt', framing='full', secs=2.2,
+      sfx=[dict(t='*SCREAM*', at=6, x=0.74, y=0.3, size=1.0)]),
+    S('b11_2', kit=K, opts=dict(room='bedroom', door='shut', window='curtained', ground='clean',
+                                clock='2:20', shape='none', lightOn=False, bedding='open', seed=15),
+      anchor=E(SITUP, 195, 2), preset='impact_jolt', framing='full', secs=2.3, hands='brace_fall'),
+    # b12 - not a shout, a long high scream that stopped
+    S('b12_1', kit=K, opts=dict(room='bedroom', door='shut', window='blind', ground='clean',
+                                clock='2:20', shape='none', lightOn=False, bedding='open', seed=16),
+      anchor=E(SITUP, 175, -15), preset='idle_breath', framing='full', secs=3.0),
+    S('b12_2', kit=K, opts=dict(room='bedroom', door='ajar', window='curtained', ground='clean',
+                                clock='2:20', shape='none', lightOn=False, bedding='open', seed=17),
+      anchor=E(SITUP, 205, 6), preset='whip_pan', framing='full', secs=3.1, hands='grip_rail'),
+    S('b12_3', kit=K, opts=dict(room='bedroom', door='ajar', window='blind', ground='clean',
+                                clock='2:20', shape='none', lightOn=False, bedding='open', seed=18),
+      anchor=E(BEDSIDE, 180, -8), preset='idle_breath', framing='full', secs=3.2),
+    # b13 - the credit sentence
+    S('b13_1', kit=K, opts=dict(room='bedroom', door='ajar', window='curtained', ground='clean',
+                                clock='2:20', shape='none', lightOn=False, bedding='open', seed=19),
+      anchor=E(MIDROOM, 150, -4), preset='idle_breath', framing='full', secs=2.0,
+      wash='#211f30', washAmount=0.18),
+    # b14 - "I sat up. I got to my door."
+    S('b13_2', kit=K, opts=dict(room='bedroom', door='ajar', window='blind', ground='clean',
+                                clock='2:21', shape='none', lightOn=False, bedding='open', seed=302),
+      anchor=E(MIDROOM, 265, 0), preset='idle_breath', framing='full', secs=2.0,
+      wash='#211f30', washAmount=0.18),
+    S('b14_1', kit=K, opts=dict(room='bedroom', door='ajar', window='curtained', ground='clean',
+                                clock='2:20', shape='none', lightOn=False, bedding='open', seed=20),
+      anchor=E(BEDSIDE, 200, -16), preset='walk_bob', framing='full', secs=2.6,
+      hands='balance_wide'),
+    S('b14_2', kit=K, opts=dict(room='bedroom', door='ajar', window='blind', ground='clean',
+                                clock='off', shape='none', lightOn=False, bedding='open', seed=21),
+      anchor=E(MIDROOM, 190, -2), preset='walk_bob', framing='full', secs=2.7),
+    S('b14_3', kit=K, opts=dict(room='bedroom', door='open', window='curtained', ground='clean',
+                                clock='off', shape='none', lightOn=False, bedding='open', seed=22),
+      anchor=E(DOORIN, 170, -6), preset='idle_breath', framing='full', secs=3.0,
+      hands='brace_door'),
+    # b15 - CHOICE 1 : the card covers b15_1 only (tools/film.py reads that id)
+    S('b15_1', kit=K, opts=dict(room='hall', door='open', window='blind', ground='clean', seed=23),
+      anchor=E(H_BATH, 180, -4), preset='idle_breath', framing='full', secs=5.0),
+    S('b15_2', kit=K, opts=dict(room='hall', door='wide', window='blind', ground='clean', seed=24),
+      anchor=E(H_BATH, 0, -8), preset='idle_breath', framing='full', secs=3.3, hands='balance_wide'),
+    # ============================================================ PART 2 - the wrong three minutes
+    # b16 - "my body told me something very stupid"
+    S('b16_1', kit=K, opts=dict(room='hall', door='open', window='blind', ground='clean', seed=25),
+      anchor=E(H_BATH, 200, -10), preset='walk_bob', framing='full', secs=2.4, hands='balance_wide'),
+    S('b16_2', kit=K, opts=dict(room='hall', door='open', window='blind', ground='clean', seed=26),
+      anchor=E([-0.45, 1.45, -0.9], 105, -4), preset='idle_breath', framing='full', secs=2.4,
+      hands='reach_grab'),
+    # b17 - he turned LEFT into the bathroom
+    S('b17_1', kit=K, opts=dict(room='bathroom', door='wide', window='blind', ground='clean',
+                                lightOn=False, seed=27),
+      anchor=E(BA_DOOR, 175, -6), preset='walk_bob', framing='full', secs=2.7, hands='brace_door'),
+    S('b17_2', kit=K, opts=dict(room='bathroom', door='open', window='blind', ground='clean',
+                                lightOn=False, seed=28),
+      anchor=E(BA_BASIN, 0, -8), preset='idle_breath', framing='full', secs=2.7,
+      hands='balance_wide'),
+    # b18 - "I have had three hours to think about those three minutes."
+    S('b18_1', kit=K, opts=dict(room='bathroom', door='shut', window='blind', ground='clean',
+                                lightOn=False, seed=29),
+      anchor=E(BA_MIRROR, 0, 6), preset='idle_breath', framing='full', secs=2.2,
+      wash='#211f30', washAmount=0.2),
+    S('b18_2', kit=K, opts=dict(room='bathroom', door='shut', window='curtained', ground='clean',
+                                lightOn=False, seed=30),
+      anchor=E(BA_LOW, 20, -22), preset='idle_breath', framing='full', secs=2.2),
+    # b19 - the light goes on: the last normal thing that happened to him
+    S('b19_1', kit=K, opts=dict(room='bathroom', door='shut', window='blind', ground='clean',
+                                lightOn=True, seed=31),
+      anchor=E([0.45, 1.5, 0.1], 320, 22), preset='idle_breath', framing='full', secs=2.6,
+      hands='reach_grab', sfx=[dict(t='*click*', at=14, x=0.72, y=0.26, size=0.55)]),
+    S('b19_2', kit=K, opts=dict(room='bathroom', door='shut', window='blind', ground='clean',
+                                lightOn=True, seed=32),
+      anchor=E(BA_MIRROR, 0, 10), preset='idle_breath', framing='full', secs=2.8),
+    S('b19_3', kit=K, opts=dict(room='bathroom', door='shut', window='curtained', ground='clean',
+                                lightOn=True, seed=33),
+      anchor=E(BA_BASIN, 345, -12), preset='idle_breath', framing='full', secs=2.9),
+    # b20 - washing his hands, because that is what you do
+    S('b20_1', kit=K, opts=dict(room='bathroom', door='shut', window='curtained', ground='clean',
+                                lightOn=True, seed=34),
+      anchor=E([0.0, 1.3, -0.25], 0, -36), preset='idle_breath', framing='full', secs=2.4,
+      hands='reach_grab'),
+    S('b20_2', kit=K, opts=dict(room='bathroom', door='shut', window='blind', ground='clean',
+                                lightOn=True, seed=35),
+      anchor=E([0.0, 1.25, -0.2], 15, -30), preset='idle_breath', framing='full', secs=2.3,
+      hands='push_punch'),
+    S('b20_3', kit=K, opts=dict(room='bathroom', door='ajar', window='blind', ground='clean',
+                                lightOn=True, seed=36),
+      anchor=E([0.1, 1.45, -0.45], 5, 10), preset='idle_breath', framing='full', secs=2.3),
+    # b21 - light off, door open a crack
+    S('b21_1', kit=K, opts=dict(room='bathroom', door='ajar', window='blind', ground='clean',
+                                lightOn=False, seed=37),
+      anchor=E([0.0, 1.45, 0.05], 182, 0), preset='idle_breath', framing='full', secs=3.2,
+      hands='brace_door', sfx=[dict(t='*click*', at=10, x=0.3, y=0.3, size=0.5)]),
+    S('b21_2', kit=K, opts=dict(room='bathroom', door='open', window='blind', ground='clean',
+                                lightOn=False, seed=38),
+      anchor=E([-0.1, 1.45, 0.25], 172, -6), preset='idle_breath', framing='full', secs=3.2),
+    # ============================================================ b22 - BLOOD ON THE CARPET
+    S('b22_1', kit=K, opts=dict(room='hall', door='open', window='blind', ground='smear', seed=39),
+      anchor=E([-0.3, 1.45, -0.3], 0, -34), preset='impact_jolt', framing='full', secs=2.5,
+      hands='brace_door'),
+    # b23 - a wide dark smear from the far door to the top of the stairs
+    S('b23_1', kit=K, opts=dict(room='hall', door='open', window='blind', ground='smear', seed=40),
+      anchor=E(H_LOW, 0, -30), preset='crouch_peek', framing='full', secs=2.9,
+      hands='brace_fall'),
+    S('b23_2', kit=K, opts=dict(room='hall', door='ajar', window='blind', ground='smear', seed=41),
+      anchor=E(H_MID, 0, -14), preset='walk_bob', framing='full', secs=2.9, hands='balance_wide'),
+    S('b23_3', kit=K, opts=dict(room='hall', door='open', window='curtained', ground='pool', seed=42),
+      anchor=E(H_FAR, 0, -24), preset='idle_breath', framing='full', secs=3.0),
+    S('b23_4', kit=K, opts=dict(room='hall', door='wide', window='blind', ground='pool', seed=43),
+      anchor=E(H_DEEP, 0, -8), preset='walk_bob', framing='full', secs=3.0, hands='reach_grab'),
+    # b24 - something heavy had been pulled along it
+    S('b24_1', kit=K, opts=dict(room='hall', door='open', window='blind', ground='pool', seed=44),
+      anchor=E([0.0, 0.88, -3.6], 180, -26), preset='crouch_peek', framing='full', secs=3.2),
+    # b25 - twelve steps, a latch, and the Kellys' light
+    S('b25_1', kit=K, opts=dict(room='hall', door='open', window='blind', ground='smear', seed=45),
+      anchor=E(H_STAIR, 170, -30), preset='idle_breath', framing='full', secs=2.8,
+      hands='grip_rail'),
+    S('b25_2', kit=K, opts=dict(room='hall', door='open', window='dawn', ground='smear', seed=46),
+      anchor=E([0.25, 1.4, 0.3], 160, -38), preset='idle_breath', framing='full', secs=2.8),
+    S('b25_3', kit=K, opts=dict(room='hall', door='ajar', window='dawn', ground='drops', seed=47),
+      anchor=E([-0.3, 1.42, 0.65], 195, -20), preset='idle_breath', framing='full', secs=2.8,
+      hands='reach_grab'),
+    S('b25_4', kit=K, opts=dict(room='hall', door='open', window='dawn', ground='pool', seed=48),
+      anchor=E([0.0, 1.45, 0.8], 180, -10), preset='whip_pan', framing='full', secs=2.8),
+    # b26 - "I did not go down the stairs."
+    S('b26_1', kit=K, opts=dict(room='hall', door='open', window='blind', ground='pool', seed=49),
+      anchor=E([0.0, 1.45, 0.2], 0, 0), preset='whip_pan', framing='full', secs=2.9,
+      hands='balance_wide'),
+    # b27 - CHOICE 2 : the card covers b27_1 only
+    S('b27_1', kit=K, opts=dict(room='hall', door='open', window='blind', ground='smear', seed=50),
+      anchor=E([0.0, 1.45, -1.1], 0, -28), preset='idle_breath', framing='full', secs=5.0),
+    S('b27_2', kit=K, opts=dict(room='hall', door='wide', window='blind', ground='smear', seed=51),
+      anchor=E([-0.25, 1.45, -1.4], 20, -6), preset='sprint_bob', framing='full', secs=3.4,
+      hands='balance_wide'),
+    # ============================================================ b28 - back to bed, under the sheets
+    S('b28_1', kit=K, opts=dict(room='bedroom', door='wide', window='curtained', ground='clean',
+                                clock='2:28', shape='none', lightOn=False, bedding='open', seed=52),
+      anchor=E(DOORIN, 190, -12), preset='sprint_bob', framing='full', secs=2.6,
+      hands='brace_door'),
+    S('b28_2', kit=K, opts=dict(room='bedroom', door='open', window='curtained', ground='clean',
+                                clock='2:28', shape='none', lightOn=False, bedding='open', seed=53),
+      anchor=E(MIDROOM, 205, -16), preset='sprint_bob', framing='full', secs=2.5),
+    S('b28_3', kit=K, opts=dict(room='bedroom', door='ajar', window='curtained', ground='clean',
+                                clock='2:28', shape='none', lightOn=False, bedding='open', seed=54),
+      anchor=E([-0.7, 1.2, -2.2], 180, -40), preset='impact_jolt', framing='full', secs=2.5,
+      hands='brace_fall'),
+    S('b28_4', kit=K, opts=dict(room='bedroom', door='ajar', window='curtained', ground='clean',
+                                clock='2:28', shape='none', lightOn=False, bedding='tent', seed=55),
+      anchor=E([-1.1, 0.86, -3.25], 180, 32), preset='impact_jolt', framing='full', secs=2.6, hands='grip_rail'),
+    # b29 - under there, telling himself it is a dream
+    S('b29_1', kit=K, opts=dict(room='bedroom', door='ajar', window='curtained', ground='clean',
+                                clock='2:33', shape='none', lightOn=False, bedding='tent', seed=56),
+      anchor=E([-1.1, 0.86, -3.25], 200, 40), preset='idle_breath', framing='full', secs=2.4, hands='brace_fall'),
+    S('b29_2', kit=K, opts=dict(room='bedroom', door='ajar', window='blind', ground='clean',
+                                clock='2:33', shape='none', lightOn=False, bedding='tent', seed=57),
+      anchor=E([-1.1, 0.86, -3.25], 160, 14), preset='idle_breath', framing='full', secs=2.4),
+    S('b29_3', kit=K, opts=dict(room='bedroom', door='ajar', window='curtained', ground='clean',
+                                clock='2:41', shape='none', lightOn=False, bedding='tent', seed=58),
+      anchor=E([-1.1, 0.86, -3.25], 140, -12), preset='idle_breath', framing='full', secs=2.5,
+      hands='grip_rail'),
+    # ============================================================ PART 3 - the door
+    # b30 - the door creaks open
+    S('b30_1', kit=K, opts=dict(room='bedroom', door='open', window='curtained', ground='clean',
+                                clock='2:41', shape='none', lightOn=False, bedding='tent', seed=59),
+      anchor=E([-1.1, 0.86, -3.25], 185, 14), preset='whip_pan', framing='full', secs=2.6,
+      sfx=[dict(t='*creak*', at=8, x=0.6, y=0.42, size=0.6)]),
+    # b31 - the blanket comes down off one eye
+    S('b31_1', kit=K, opts=dict(room='bedroom', door='open', window='curtained', ground='clean',
+                                clock='2:41', shape='none', lightOn=False, bedding='held', seed=60),
+      anchor=E(PILLOW_LO, 205, 0), preset='idle_breath', framing='full', secs=2.3,
+      hands='brace_fall'),
+    S('b31_2', kit=K, opts=dict(room='bedroom', door='wide', window='curtained', ground='clean',
+                                clock='2:41', shape='none', lightOn=False, bedding='held', seed=61),
+      anchor=E(PILLOW, 180, 28), preset='idle_breath', framing='full', secs=2.3, hands='grip_rail',
+      actors=[A('entity', 'loom', DOORWAY, yaw=30)]),
+    S('b31_3', kit=K, opts=dict(room='bedroom', door='wide', window='blind', ground='clean',
+                                clock='2:41', shape='none', lightOn=False, bedding='held', seed=62),
+      anchor=E(PILLOW, 170, 26), preset='idle_breath', framing='full', secs=2.3,
+      actors=[A('entity', 'loom', DOORWAY, yaw=30)]),
+    # b32 - bent over in the doorway, too tall for the room
+    S('b32_1', kit=K, opts=dict(room='bedroom', door='wide', window='curtained', ground='clean',
+                                clock='2:41', shape='none', lightOn=False, bedding='held', seed=63),
+      anchor=E(PILLOW, 205, 24), preset='idle_breath', framing='full', secs=3.0,
+      actors=[A('entity', 'loom', DOORWAY, yaw=30, cstate=dict(tilt=8))]),
+    S('b32_2', kit=K, opts=dict(room='bedroom', door='wide', window='curtained', ground='clean',
+                                clock='2:41', shape='none', lightOn=False, bedding='held', seed=64),
+      anchor=E(PILLOW_LO, 205, 40), preset='idle_breath', framing='full', secs=3.1,
+      hands='grip_rail',
+      actors=[A('entity', 'stand', (0.62, 0, 0.35), yaw=25, cstate=dict(tilt=-6))]),
+    # b33 - hairless, all of it
+    S('b33_1', kit=K, opts=dict(room='bedroom', door='wide', window='blind', ground='clean',
+                                clock='2:41', shape='none', lightOn=False, bedding='held', seed=65),
+      anchor=E(PILLOW, 180, 38), preset='idle_breath', framing='waist', secs=3.0,
+      actors=[A('entity', 'loom', (0.55, 0, 0.1), yaw=20)]),
+    S('b33_2', kit=K, opts=dict(room='bedroom', door='open', window='blind', ground='clean',
+                                clock='2:41', shape='none', lightOn=False, bedding='held', seed=66),
+      anchor=E(PILLOW, 155, 12), preset='idle_breath', framing='full', secs=3.1,
+      actors=[A('entity', 'lean_lens', (0.4, 0, -0.3), yaw=15)]),
+    # b34 - NO EYES. The creature block: full body, two angles, moving.
+    S('b34_1', kit=K, opts=dict(room='bedroom', door='wide', window='curtained', ground='clean',
+                                clock='2:41', shape='none', lightOn=False, bedding='held', seed=67),
+      anchor=E(PILLOW, 205, 55), preset='idle_breath', framing='face', secs=2.6, glitch=0.25,
+      actors=[A('entity', 'lean_lens', (-0.2, 0, -1.4), yaw=5)]),
+    S('b34_2', kit=K, opts=dict(room='bedroom', door='wide', window='blind', ground='clean',
+                                clock='2:41', shape='none', lightOn=False, bedding='held', seed=68),
+      anchor=E([-1.4, 0.86, -2.95], 240, -15), preset='idle_breath', framing='full', secs=2.6,
+      hands='brace_fall',
+      actors=[A('entity', 'crouch_spider', (0.1, 0, -0.9), yaw=18)]),
+    S('b34_3', kit=K, opts=dict(room='bedroom', door='open', window='curtained', ground='clean',
+                                clock='2:41', shape='none', lightOn=False, bedding='held', seed=69),
+      anchor=E([-0.6, 1.06, -2.98], 225, 27), preset='idle_breath', framing='full', secs=2.6,
+      actors=[A('entity', 'stand', (0.85, 0, -0.55), yaw=40)]),
+    S('b34_4', kit=K, opts=dict(room='bedroom', door='wide', window='curtained', ground='drops',
+                                clock='2:41', shape='none', lightOn=False, bedding='held', seed=70),
+      anchor=E(PILLOW, 150, 26), preset='idle_breath', framing='full', secs=2.6,
+      actors=[A('entity', 'reach', (1.0, 0, -0.2), yaw=55)]),
+    S('b34_5', kit=K, opts=dict(room='bedroom', door='wide', window='blind', ground='drops',
+                                clock='2:41', shape='none', lightOn=False, bedding='held', seed=71),
+      anchor=E(PILLOW, 220, 42), preset='idle_breath', framing='waist', secs=2.5, glitch=0.18,
+      actors=[A('entity', 'lean_lens', (0.0, 0, -1.9), yaw=350)]),
+    S('b34_6', kit=K, opts=dict(room='bedroom', door='open', window='blind', ground='drops',
+                                clock='2:41', shape='none', lightOn=False, bedding='held', seed=72),
+      anchor=E(PILLOW_LO, 180, 56), preset='idle_breath', framing='full', secs=2.6,
+      hands='grip_rail',
+      actors=[A('entity', 'crouch_spider', (-0.35, 0, -1.6), yaw=0)]),
+    # b35 - it wore nothing at all
+    S('b35_1', kit=K, opts=dict(room='bedroom', door='wide', window='curtained', ground='drops',
+                                clock='2:41', shape='none', lightOn=False, bedding='held', seed=73),
+      anchor=E([-1.2, 0.9, -2.98], 180, 15), preset='idle_breath', framing='full', secs=2.6,
+      actors=[A('entity', 'stand', (0.3, 0, -0.75), yaw=10)]),
+    # b36 - it moved like something never taught to stand up
+    S('b36_1', kit=K, opts=dict(room='bedroom', door='wide', window='curtained', ground='drops',
+                                clock='2:47', shape='none', lightOn=False, bedding='held', seed=74),
+      anchor=E([-1.4, 0.98, -3.0], 180, 0), preset='idle_breath', framing='full', secs=2.5,
+      actors=[A('entity', 'stride', (0.5, 0, 0.0), yaw=25, phase=0.2)]),
+    S('b36_2', kit=K, opts=dict(room='bedroom', door='wide', window='blind', ground='drops',
+                                clock='2:47', shape='none', lightOn=False, bedding='held', seed=75),
+      anchor=E(PILLOW, 220, 4), preset='idle_breath', framing='full', secs=2.5,
+      actors=[A('entity', 'stride', (0.2, 0, -0.75), yaw=20, phase=0.6)]),
+    S('b36_3', kit=K, opts=dict(room='bedroom', door='open', window='blind', ground='drops',
+                                clock='2:47', shape='none', lightOn=False, bedding='held', seed=76),
+      anchor=E(FLOORLO, 195, 0), preset='crouch_peek', framing='full', secs=2.6,
+      actors=[A('entity', 'crouch_spider', (0.45, 0, -0.45), yaw=30, phase=0.5)]),
+    # b37 - dragging both parents in by the arms, one in each hand
+    S('b37_1', kit=K, opts=dict(room='bedroom', door='wide', window='curtained', ground='smear',
+                                clock='2:47', shape='none', lightOn=False, bedding='held', seed=77),
+      anchor=E([-1.4, 0.98, -3.0], 195, -15), preset='idle_breath', framing='full', secs=2.4, hands='grip_rail',
+      actors=[A('entity', 'hold_two', (0.45, 0, 0.1), yaw=25, cstate=dict(blood=True)),
+              A('father', 'lie', (1.15, 0, 0.9), yaw=30, state=DEAD_F),
+              A('mother', 'lie', (0.3, 0, 1.0), yaw=45, state=DEAD_M)],
+      sfx=[dict(t='*drag*', at=16, x=0.56, y=0.6, size=0.6)]),
+    S('b37_2', kit=K, opts=dict(room='bedroom', door='wide', window='blind', ground='smear',
+                                clock='2:47', shape='none', lightOn=False, bedding='held', seed=78),
+      anchor=E(PILLOW, 190, -38), preset='idle_breath', framing='full', secs=2.4,
+      actors=[A('entity', 'hold_two', (0.15, 0, -0.65), yaw=20, cstate=dict(blood=True)),
+              A('father', 'lie', (0.85, 0, 0.2), yaw=25, state=DEAD_F),
+              A('mother', 'lie', (-0.05, 0, 0.35), yaw=40, state=DEAD_M)]),
+    S('b37_3', kit=K, opts=dict(room='bedroom', door='open', window='curtained', ground='smear',
+                                clock='2:47', shape='none', lightOn=False, bedding='held', seed=79),
+      anchor=E(PILLOW_LO, 170, -24), preset='idle_breath', framing='full', secs=2.4,
+      hands='brace_fall',
+      actors=[A('entity', 'crouch_spider', (-0.3, 0, -1.25), yaw=10, cstate=dict(blood=True)),
+              A('father', 'lie', (0.45, 0, -0.5), yaw=20, state=DEAD_F),
+              A('mother', 'lie', (-0.45, 0, -0.35), yaw=35, state=DEAD_M)]),
+    # ============================================================ THE MASTERPIECE
+    # The parents are on the floor where it dropped them until it picks each one up.
+    # b38 - "it was not stupid"
+    S('b38_1', kit=K, opts=dict(room='bedroom', door='wide', window='curtained', ground='smear',
+                                clock='2:47', shape='none', lightOn=False, bedding='held', seed=80),
+      anchor=E(PILLOW, 205, 70), preset='idle_breath', framing='full', secs=2.7,
+      actors=[A('entity', 'stand', (0.2, 0, -1.5), yaw=5, cstate=dict(blood=True)),
+              A('father', 'lie', (0.45, 0, -0.5), yaw=20, state=DEAD_F),
+              A('mother', 'lie', (-0.45, 0, -0.35), yaw=35, state=DEAD_M)]),
+    S('b38_2', kit=K, opts=dict(room='bedroom', door='open', window='blind', ground='smear',
+                                clock='2:47', shape='none', lightOn=False, bedding='held', seed=81),
+      anchor=E(PILLOW, 240, 15), preset='idle_breath', framing='full', secs=2.7,
+      hands='grip_rail',
+      actors=[A('entity', 'stand', (0.2, 0, -1.5), yaw=5, cstate=dict(blood=True, tilt=12)),
+              A('mother', 'lie', (-0.45, 0, -0.35), yaw=35, state=DEAD_M)]),
+    # b39 - a thing that walks like that should not be able to do this
+    S('b39_1', kit=K, opts=dict(room='bedroom', door='wide', window='blind', ground='smear',
+                                clock='2:55', shape='none', lightOn=False, bedding='held', seed=82),
+      anchor=E(PILLOW, 140, 15), preset='idle_breath', framing='waist', secs=3.0,
+      actors=[A('entity', 'reach', (-0.1, 0, -1.1), yaw=0, cstate=dict(blood=True))]),
+    S('b39_2', kit=K, opts=dict(room='bedroom', door='wide', window='curtained', ground='smear',
+                                clock='2:55', shape='none', lightOn=False, bedding='held', seed=83),
+      anchor=E(FLOORLO, 185, -14), preset='crouch_peek', framing='full', secs=3.0,
+      actors=[A('entity', 'crouch_spider', (-0.2, 0, -0.95), yaw=0, cstate=dict(blood=True)),
+              A('father', 'lie', (0.3, 0, -0.6), yaw=15, state=DEAD_F)]),
+    # b40 - it props the father against the foot of the bed and turns his face
+    S('b40_1', kit=K, opts=dict(room='bedroom', door='wide', window='curtained', ground='smear',
+                                clock='2:55', shape='none', lightOn=False, bedding='held', seed=84),
+      anchor=E(PILLOW, 195, 55), preset='idle_breath', framing='full', secs=2.9,
+      actors=[A('entity', 'reach', (-0.45, 0, -0.85), yaw=5, cstate=dict(blood=True)),
+              A('father', 'fall', (-0.95, 0, -1.0), yaw=10, state=DEAD_F)]),
+    S('b40_2', kit=K, opts=dict(room='bedroom', door='open', window='curtained', ground='smear',
+                                clock='2:55', shape='none', lightOn=False, bedding='held', seed=85),
+      anchor=E([-1.4, 0.86, -2.95], 190, 10), preset='idle_breath', framing='waist', secs=2.9,
+      hands='grip_rail',
+      actors=[A('entity', 'reach', (-0.6, 0, -0.7), yaw=350, cstate=dict(blood=True)),
+              A('father', 'sit', FATHER, yaw=0, state=dict(DEAD_F, expr='sad'))]),
+    S('b40_3', kit=K, opts=dict(room='bedroom', door='wide', window='blind', ground='smear',
+                                clock='3:01', shape='none', lightOn=False, bedding='held', seed=86),
+      anchor=E(PILLOW, 195, -25), preset='idle_breath', framing='full', secs=2.9,
+      actors=[A('father', 'sit', FATHER, yaw=0, state=DEAD_F),
+              A('mother', 'lie', (-0.45, 0, -0.35), yaw=35, state=DEAD_M)]),
+    # b41 - it lifts the mother into the chair
+    S('b41_1', kit=K, opts=dict(room='bedroom', door='wide', window='curtained', ground='smear',
+                                clock='3:01', shape='none', lightOn=False, bedding='held', seed=87),
+      anchor=E(PILLOW, 255, 15), preset='idle_breath', framing='full', secs=3.0,
+      actors=[A('entity', 'reach', (0.55, 0, -1.25), yaw=300, cstate=dict(blood=True)),
+              A('mother', 'held_up', (0.1, 0, -1.0), yaw=40, state=DEAD_M)]),
+    S('b41_2', kit=K, opts=dict(room='bedroom', door='wide', window='curtained', ground='smear',
+                                clock='3:01', shape='none', lightOn=False, bedding='held', seed=88),
+      anchor=E(PILLOW, 255, -15), preset='idle_breath', framing='full', secs=3.0,
+      actors=[A('entity', 'stand', (0.9, 0, -1.3), yaw=290, cstate=dict(blood=True)),
+              A('mother', 'sit', MOTHER, yaw=65, state=dict(DEAD_M, expr='sad'))]),
+    # b42 - it arranges them, like a photograph
+    S('b42_1', kit=K, opts=dict(room='bedroom', door='wide', window='blind', ground='smear',
+                                clock='3:01', shape='none', lightOn=False, bedding='held', seed=89),
+      anchor=E(PILLOW, 240, -15), preset='idle_breath', framing='full', secs=2.4,
+      actors=[A('entity', 'reach', (0.85, 0, -1.75), yaw=280, cstate=dict(blood=True)),
+              A('mother', 'sit', MOTHER, yaw=65, state=DEAD_M)]),
+    S('b42_2', kit=K, opts=dict(room='bedroom', door='open', window='blind', ground='smear',
+                                clock='3:01', shape='none', lightOn=False, bedding='held', seed=90),
+      anchor=E(PILLOW, 155, 40), preset='idle_breath', framing='full', secs=2.3,
+      actors=[A('entity', 'lean_lens', (-0.35, 0, -1.05), yaw=0, cstate=dict(blood=True)),
+              A('father', 'sit', FATHER, yaw=0, state=DEAD_F)]),
+    S('b42_3', kit=K, opts=dict(room='bedroom', door='wide', window='curtained', ground='pool',
+                                clock='3:01', shape='none', lightOn=False, bedding='held', seed=91),
+      anchor=E(PILLOW, 210, -25), preset='idle_breath', framing='full', secs=2.4,
+      hands='brace_fall',
+      actors=[A('father', 'sit', FATHER, yaw=0, state=DEAD_F),
+              A('mother', 'sit', MOTHER, yaw=65, state=DEAD_M)]),
+    # b43 - both hands flat on the wall
+    S('b43_1', kit=K, opts=dict(room='bedroom', door='wide', window='curtained', ground='pool',
+                                clock='3:01', shape='none', lightOn=False, bedding='held',
+                                handPrints=True, seed=92),
+      anchor=E(PILLOW, 240, 25), preset='idle_breath', framing='full', secs=2.9,
+      actors=[A('entity', 'reach', (1.15, 0, -0.95), yaw=270, cstate=dict(blood=True))]),
+    S('b43_2', kit=K, opts=dict(room='bedroom', door='open', window='curtained', ground='pool',
+                                clock='3:01', shape='none', lightOn=False, bedding='held',
+                                handPrints=True, seed=93),
+      anchor=E(PILLOW, 255, 25), preset='idle_breath', framing='waist', secs=2.9,
+      actors=[A('entity', 'reach', (1.2, 0, -0.5), yaw=265, cstate=dict(blood=True))]),
+    # b44 - the circle, then the star inside it
+    S('b44_1', kit=K, opts=dict(room='bedroom', door='wide', window='curtained', ground='pool',
+                                clock='3:04', shape='circle', lightOn=False, bedding='held',
+                                handPrints=True, seed=94),
+      anchor=E(PILLOW, 240, -25), preset='idle_breath', framing='full', secs=2.6,
+      actors=[A('entity', 'reach', (1.1, 0, -1.2), yaw=275, cstate=dict(blood=True))]),
+    S('b44_2', kit=K, opts=dict(room='bedroom', door='open', window='blind', ground='pool',
+                                clock='3:04', shape='circle', lightOn=False, bedding='held',
+                                handPrints=True, seed=95),
+      anchor=E(PILLOW, 225, 55), preset='idle_breath', framing='full', secs=2.6,
+      actors=[A('entity', 'stand', (0.95, 0, -0.75), yaw=285, cstate=dict(blood=True))]),
+    S('b44_3', kit=K, opts=dict(room='bedroom', door='wide', window='blind', ground='pool',
+                                clock='3:04', shape='pentagram', lightOn=False, bedding='held',
+                                handPrints=True, seed=96),
+      anchor=E(PILLOW, 225, -25), preset='idle_breath', framing='full', secs=2.6,
+      actors=[A('entity', 'reach', (1.1, 0, -0.65), yaw=270, cstate=dict(blood=True))]),
+    S('b44_4', kit=K, opts=dict(room='bedroom', door='wide', window='curtained', ground='pool',
+                                clock='3:04', shape='pentagram', lightOn=False, bedding='held',
+                                handPrints=True, seed=97),
+      anchor=E(PILLOW, 255, -25), preset='idle_breath', framing='full', secs=2.6,
+      hands='grip_rail'),
+    # b45 - painting with his parents, then stepping back from it
+    S('b45_1', kit=K, opts=dict(room='bedroom', door='wide', window='blind', ground='pool',
+                                clock='3:04', shape='pentagram', lightOn=False, bedding='held',
+                                handPrints=True, seed=98),
+      anchor=E(PILLOW, 240, 40), preset='idle_breath', framing='face', secs=2.8,
+      actors=[A('entity', 'reach', (1.15, 0, -1.0), yaw=270, cstate=dict(blood=True, tilt=14))]),
+    S('b45_2', kit=K, opts=dict(room='bedroom', door='open', window='curtained', ground='pool',
+                                clock='3:04', shape='pentagram', lightOn=False, bedding='held',
+                                handPrints=True, seed=99),
+      anchor=E(PILLOW, 210, 85), preset='idle_breath', framing='full', secs=2.9,
+      actors=[A('entity', 'stand', (0.35, 0, -1.05), yaw=280, cstate=dict(blood=True))]),
+    S('b45_3', kit=K, opts=dict(room='bedroom', door='wide', window='curtained', ground='smear',
+                                clock='3:04', shape='pentagram', lightOn=False, bedding='held',
+                                handPrints=True, seed=100),
+      anchor=E(MIDROOM, 90, -15), preset='idle_breath', framing='full', secs=2.9,
+      actors=[A('entity', 'stand', (0.3, 0, -1.1), yaw=280, cstate=dict(blood=True)),
+              A('father', 'sit', FATHER, yaw=0, state=DEAD_F)]),
+    # b46 - one line of letters, dragged across the wallpaper with one finger
+    S('b46_1', kit=K, opts=dict(room='bedroom', door='wide', window='blind', ground='smear',
+                                clock='3:08', shape='message', lightOn=False, bedding='held',
+                                handPrints=True, seed=101),
+      anchor=E(PILLOW, 270, -15), preset='idle_breath', framing='waist', secs=2.5,
+      wash='#211f30', washAmount=0.42,
+      actors=[A('entity', 'reach', (1.2, 0, -1.4), yaw=270, cstate=dict(blood=True))]),
+    S('b46_2', kit=K, opts=dict(room='bedroom', door='open', window='blind', ground='smear',
+                                clock='3:08', shape='message', lightOn=False, bedding='held',
+                                handPrints=True, seed=102),
+      anchor=E(PILLOW, 225, -45), preset='idle_breath', framing='full', secs=2.4,
+      wash='#211f30', washAmount=0.42,
+      actors=[A('entity', 'reach', (1.15, 0, -0.35), yaw=265, cstate=dict(blood=True))]),
+    S('b46_3', kit=K, opts=dict(room='bedroom', door='wide', window='curtained', ground='smear',
+                                clock='3:08', shape='message', lightOn=False, bedding='held',
+                                handPrints=True, seed=103),
+      anchor=E(PILLOW, 220, 70), preset='idle_breath', framing='full', secs=2.4,
+      wash='#211f30', washAmount=0.4,
+      actors=[A('entity', 'stand', (0.6, 0, -0.9), yaw=275, cstate=dict(blood=True))]),
+    # b47 - too dark to read
+    S('b47_1', kit=K, opts=dict(room='bedroom', door='wide', window='blind', ground='pool',
+                                clock='3:08', shape='message', lightOn=False, bedding='held',
+                                handPrints=True, seed=104),
+      anchor=E([-1.4, 0.98, -3.0], 225, 0), preset='idle_breath', framing='full', secs=2.0,
+      wash='#09020b', washAmount=0.5),
+    # b48 - it folds itself up on the floor and goes under the bed
+    S('b47_2', kit=K, opts=dict(room='bedroom', door='open', window='blind', ground='pool',
+                                clock='3:08', shape='message', lightOn=False, bedding='held',
+                                handPrints=True, seed=303),
+      anchor=E(PILLOW, 265, 15), preset='idle_breath', framing='full', secs=1.9,
+      wash='#09020b', washAmount=0.5, hands='grip_rail'),
+    S('b48_1', kit=K, opts=dict(room='bedroom', door='wide', window='curtained', ground='pool',
+                                clock='3:08', shape='message', lightOn=False, bedding='held',
+                                handPrints=True, seed=105),
+      anchor=E(PILLOW, 195, 70), preset='idle_breath', framing='full', secs=3.0,
+      wash='#211f30', washAmount=0.3,
+      actors=[A('entity', 'crouch_spider', (-0.1, 0, -1.3), yaw=100, cstate=dict(blood=True))]),
+    S('b48_2', kit=K, opts=dict(room='bedroom', door='wide', window='blind', ground='pool',
+                                clock='3:08', shape='message', lightOn=False, bedding='held',
+                                handPrints=True, seed=106),
+      anchor=E(FLOORLO, 120, 15), preset='crouch_peek', framing='full', secs=3.1,
+      actors=[A('entity', 'crouch_spider', (-0.55, 0, -1.9), yaw=115, cstate=dict(blood=True))],
+      sfx=[dict(t='*shhff*', at=30, x=0.4, y=0.62, size=0.5)]),
+    # b49 - under my bed. with me on top of it.
+    S('b49_1', kit=K, opts=dict(room='bedroom', door='wide', window='curtained', ground='pool',
+                                clock='3:08', shape='message', lightOn=False, bedding='held',
+                                handPrints=True, seed=107),
+      anchor=E(PILLOW, 195, -15), preset='impact_jolt', framing='full', secs=2.0,
+      hands='grip_rail', glitch=0.22),
+
+    # ============================================================ PART 4 - five thirty
+    # b50 - that was three hours ago
+    S('b49_2', kit=K, opts=dict(room='bedroom', door='open', window='curtained', ground='pool',
+                                clock='3:08', shape='message', lightOn=False, bedding='held',
+                                handPrints=True, seed=304),
+      anchor=E(FLOORLO, 185, -30), preset='crouch_peek', framing='full', secs=1.9,
+      glitch=0.18),
+    S('b50_1', kit=K, opts=now(clock='5:26', window='blind'), anchor=E([-1.4, 0.98, -3.0], 180, 30),
+      preset='idle_breath', framing='full', secs=2.1, hands='grip_rail'),
+    # b51 - your eyes get better at the dark
+    S('b51_1', kit=K, opts=now(clock='5:26', shape='pentagram', window='blind', ground='smear'),
+      anchor=E(PILLOW, 235, 60), preset='idle_breath', framing='full', secs=2.3),
+    S('b51_2', kit=K, opts=now(clock='5:26', window='curtained'), anchor=E(PILLOW, 270, 25),
+      preset='idle_breath', framing='full', secs=2.3,
+      actors=[A('mother', 'sit', MOTHER, yaw=65, state=DEAD_M)]),
+    S('b51_3', kit=K, opts=now(clock='5:26', ground='smear'), anchor=E(PILLOW, 165, 60),
+      preset='idle_breath', framing='full', secs=2.3, hands='brace_fall'),
+    # b52 - the clock, the grey window, the writing getting clearer
+    S('b52_1', kit=K, opts=now(clock='5:30', window='blind', door='ajar', ground='smear'),
+      anchor=E(PILLOW, 140, 0), preset='idle_breath', framing='full', secs=2.9),
+    S('b52_2', kit=K, opts=now(clock='5:30', window='dawn', door='ajar'),
+      anchor=E(PILLOW, 280, -10), preset='idle_breath', framing='full', secs=2.9),
+    S('b52_3', kit=K, opts=now(clock='5:30', window='dawn', ground='smear'),
+      anchor=E(PILLOW, 270, -25), preset='idle_breath', framing='full', secs=2.9),
+    S('b52_4', kit=K, opts=now(clock='5:30', window='dawn', shape='pentagram', door='ajar'),
+      anchor=E(PILLOW, 250, 40), preset='idle_breath', framing='full', secs=2.8,
+      hands='grip_rail'),
+    # b53 - he looks at his father instead
+    S('b53_1', kit=K, opts=now(clock='5:30', window='dawn'), anchor=E([-1.4, 0.98, -3.0], 180, -15),
+      preset='idle_breath', framing='full', secs=2.6,
+      actors=[A('father', 'sit', FATHER, yaw=0, state=DEAD_F)]),
+    S('b53_2', kit=K, opts=now(clock='5:30', window='dawn', door='wide'),
+      anchor=E([-1.4, 0.98, -3.0], 195, 30), preset='idle_breath', framing='face', secs=2.5,
+      actors=[A('father', 'sit', FATHER, yaw=0, state=dict(DEAD_F, expr='sad'))]),
+    S('b53_3', kit=K, opts=now(clock='5:30', window='dawn', ground='smear', door='wide'),
+      anchor=E(PILLOW, 155, -25), preset='idle_breath', framing='full', secs=2.6,
+      actors=[A('father', 'sit', FATHER, yaw=0, state=DEAD_F),
+              A('mother', 'sit', MOTHER, yaw=65, state=DEAD_M)]),
+    S('b53_4', kit=K, opts=now(clock='5:30', window='dawn', door='ajar', ground='drops'),
+      anchor=E([-1.4, 0.86, -2.95], 195, 5), preset='idle_breath', framing='waist', secs=2.6,
+      hands='brace_fall', actors=[A('father', 'sit', FATHER, yaw=0, state=DEAD_F)]),
+    # b54 - the plan: nine feet, the stairs, the latch, the Kellys' light
+    S('b54_1', kit=K, opts=now(clock='5:30', window='dawn', door='open', ground='pool'),
+      anchor=E(PILLOW, 140, 25), preset='idle_breath', framing='full', secs=2.8,
+      hands='reach_grab'),
+    S('b54_2', kit=K, opts=now(clock='5:30', window='dawn', door='wide', ground='pool'),
+      anchor=E(PILLOW, 150, 15), preset='vertigo_tilt', framing='full', secs=2.8),
+    S('b54_3', kit=K, opts=now(clock='5:30', window='blind', door='wide', shape='pentagram'),
+      anchor=E(PILLOW, 140, -25), preset='idle_breath', framing='full', secs=2.8,
+      hands='grip_rail'),
+    S('b54_4', kit=K, opts=dict(room='hall', door='wide', window='dawn', ground='pool', seed=108),
+      anchor=E(H_STAIR, 180, -15), preset='idle_breath', framing='full', secs=2.9),
+    S('b54_5', kit=K, opts=dict(room='hall', door='open', window='dawn', ground='pool', seed=109),
+      anchor=E([0.0, 1.45, 0.9], 170, -40), preset='idle_breath', framing='full', secs=2.8,
+      hands='reach_grab'),
+    # b55 - nine feet, and it is under the bed
+    S('b55_1', kit=K, opts=now(clock='5:30', window='dawn', ground='drops', door='open'),
+      anchor=E([-1.4, 0.98, -3.0], 195, -25), preset='idle_breath', framing='full', secs=2.5),
+    S('b55_2', kit=K, opts=now(clock='5:30', window='dawn', ground='smear', door='wide'),
+      anchor=E(UNDERBED, 100, 0), preset='crouch_peek', framing='full', secs=2.5),
+    S('b55_3', kit=K, opts=now(clock='5:30', window='blind', ground='pool', door='ajar'),
+      anchor=E(PILLOW, 200, -55), preset='idle_breath', framing='full', secs=2.5,
+      hands='brace_fall'),
+    # b56 - CHOICE 3 : the card covers b56_1 only
+    S('b56_1', kit=K, opts=now(clock='5:33', window='dawn', shape='pentagram', door='open'),
+      anchor=E(PILLOW, 180, 70), preset='idle_breath', framing='full', secs=5.0),
+    S('b56_2', kit=K, opts=now(clock='5:33', window='dawn', ground='smear', door='open'),
+      anchor=E([-1.4, 0.98, -3.0], 210, 15), preset='idle_breath', framing='full', secs=3.3,
+      actors=[A('father', 'sit', FATHER, yaw=0, state=DEAD_F)]),
+    # b57 - breathing slow, keeping his face soft, not blinking too much
+    S('b57_1', kit=K, opts=now(clock='5:33', window='dawn', door='wide'),
+      anchor=E(PILLOW, 155, -45), preset='idle_breath', framing='full', secs=2.8,
+      hands='grip_rail'),
+    S('b57_2', kit=K, opts=now(clock='5:33', window='blind', door='wide', ground='smear'),
+      anchor=E(PILLOW, 265, 40), preset='idle_breath', framing='full', secs=2.7),
+    S('b57_3', kit=K, opts=now(clock='5:33', window='dawn', door='ajar', ground='smear'),
+      anchor=E([-1.4, 0.98, -3.0], 240, 0), preset='idle_breath', framing='full', secs=2.7,
+      actors=[A('mother', 'sit', MOTHER, yaw=65, state=DEAD_M)]),
+    S('b57_4', kit=K, opts=now(clock='5:33', window='dawn', shape='pentagram', ground='drops'),
+      anchor=E([-1.4, 0.98, -3.0], 165, 0), preset='idle_breath', framing='waist', secs=2.7,
+      actors=[A('father', 'sit', FATHER, yaw=0, state=dict(DEAD_F, expr='shocked'))]),
+    S('b57_5', kit=K, opts=now(clock='5:33', window='dawn', door='wide', ground='drops'),
+      anchor=E([-1.4, 0.86, -2.95], 180, 40), preset='idle_breath', framing='full', secs=2.7,
+      hands='brace_fall'),
+    # b58 - "[you] It does not know I am awake."
+    S('b58_1', kit=K, opts=now(clock='5:33', window='dawn', door='ajar', shape='pentagram'),
+      anchor=E([-1.4, 0.98, -3.0], 195, 40), preset='idle_breath', framing='full', secs=2.9,
+      hands='grip_rail',
+      actors=[A('father', 'sit', FATHER, yaw=0, state=DEAD_F)]),
+    # b59 - he has been saying it for three hours
+    S('b59_1', kit=K, opts=now(clock='5:33', window='blind', door='ajar', ground='smear'),
+      anchor=E(PILLOW, 225, -60), preset='idle_breath', framing='full', secs=2.0),
+    # b60 - he is going to read the wall
+    S('b59_2', kit=K, opts=now(clock='5:33', window='dawn', door='open', ground='drops'),
+      anchor=E(PILLOW, 140, -40), preset='idle_breath', framing='full', secs=2.0,
+      hands='brace_fall'),
+    S('b60_1', kit=K, opts=now(clock='5:33', window='dawn', shape='message', door='open'),
+      anchor=E([-1.4, 0.98, -3.0], 210, 0), preset='idle_breath', framing='full', secs=2.8,
+      wash='#211f30', washAmount=0.22),
+    S('b60_2', kit=K, opts=now(clock='5:33', window='dawn', shape='message', door='wide'),
+      anchor=E([-1.4, 0.98, -3.0], 255, 0), preset='idle_breath', framing='full', secs=2.8,
+      actors=[A('father', 'sit', FATHER, yaw=0, state=DEAD_F),
+              A('mother', 'sit', MOTHER, yaw=65, state=DEAD_M)]),
+    S('b60_3', kit=K, opts=now(clock='5:33', window='dawn', shape='message', ground='smear'),
+      anchor=E(PILLOW, 240, 70), preset='idle_breath', framing='full', secs=2.8,
+      hands='brace_fall'),
+    S('b60_4', kit=K, opts=now(clock='5:33', window='blind', shape='message', door='ajar'),
+      anchor=E(PILLOW, 280, -5), preset='idle_breath', framing='full', secs=2.8),
+    # b61 - just his eyes, right, to the circle and the star and the line underneath
+    S('b61_1', kit=K, opts=now(clock='5:33', window='dawn', shape='message', ground='drops'),
+      anchor=E([-1.4, 0.98, -3.0], 210, 25), preset='idle_breath', framing='full', secs=3.1),
+    S('b61_2', kit=K, opts=now(clock='5:33', window='dawn', shape='message', door='ajar',
+                               ground='smear'),
+      anchor=E([-1.4, 0.98, -3.0], 225, 15), preset='idle_breath', framing='full', secs=3.1,
+      hands='grip_rail'),
+    S('b61_3', kit=K, opts=now(clock='5:33', window='dawn', shape='message', door='wide',
+                               ground='drops'),
+      anchor=E(PILLOW, 240, -15), preset='vertigo_tilt', framing='full', secs=3.2),
+    # b62 - his eyes have adjusted
+    S('b62_1', kit=K, opts=now(clock='5:33', window='dawn', shape='message', door='ajar'),
+      anchor=E([-1.4, 0.98, -3.0], 225, 30), preset='idle_breath', framing='full', secs=2.1),
+    S('b62_2', kit=K, opts=now(clock='5:33', window='dawn', shape='message', door='open',
+                               ground='pool'),
+      anchor=E(PILLOW, 280, 15), preset='idle_breath', framing='full', secs=2.2,
+      hands='brace_fall'),
+    # b63 - IT SAYS: I KNOW YOU'RE AWAKE.  The payoff. Held, and named as a hold.
+    S('b63_1', kit=K, opts=now(clock='5:33', window='dawn', shape='message', door='open'),
+      anchor=E([-1.4, 0.98, -3.0], 225, -15), preset='idle_breath', framing='full', secs=2.5, glitch=0.3),
+    # b64 - under the bed, something shifts its weight
+    S('b64_1', kit=K, opts=now(clock='5:33', window='dawn', shape='message', door='wide',
+                               ground='pool'),
+      anchor=E(FLOORLO, 195, -15), preset='impact_jolt', framing='full', secs=2.9,
+      sfx=[dict(t='*shift*', at=14, x=0.44, y=0.68, size=0.6)]),
+    # b65 - it wrote that before he opened his eyes
+    S('b65_1', kit=K, opts=now(clock='5:33', window='blind', shape='message', door='open',
+                               ground='drops'),
+      anchor=E([-1.4, 0.98, -3.0], 235, 10), preset='idle_breath', framing='full', secs=3.0, glitch=0.14),
+    S('b65_2', kit=K, opts=now(clock='5:33', window='dawn', shape='message', door='ajar',
+                               ground='pool'),
+      anchor=E([-1.4, 0.98, -3.0], 165, -15), preset='idle_breath', framing='full', secs=3.0,
+      actors=[A('father', 'sit', FATHER, yaw=0, state=DEAD_F)]),
+    S('b65_3', kit=K, opts=now(clock='5:33', window='dawn', shape='message', door='wide',
+                               ground='smear'),
+      anchor=E(PILLOW, 285, 25), preset='idle_breath', framing='full', secs=3.0,
+      actors=[A('mother', 'sit', MOTHER, yaw=65, state=DEAD_M)]),
+    # b66 - it has been waiting three hours for him to read it
+    S('b66_1', kit=K, opts=now(clock='5:33', window='dawn', shape='message', door='open',
+                               ground='pool'),
+      anchor=E(UNDERBED, 75, 15), preset='crouch_peek', framing='full', secs=2.2,
+      actors=[A('entity', 'crouch_spider', (-1.05, 0, -2.45), yaw=0, cstate=dict(blood=True))]),
+    S('b66_2', kit=K, opts=now(clock='5:33', window='dawn', shape='message', door='wide',
+                               ground='drops'),
+      anchor=E(UNDERBED, 75, 15), preset='idle_breath', framing='full', secs=2.2,
+      actors=[A('entity', 'crouch_spider', (-1.05, 0, -2.45), yaw=0, cstate=dict(blood=True, tilt=16))]),
+    # b67 - the closing question, over the whole arrangement
+    S('b67_1', kit=K, opts=now(clock='5:33', window='dawn', shape='message', door='open',
+                               ground='smear'),
+      anchor=E([-1.4, 0.98, -3.0], 210, -15), preset='idle_breath', framing='full', secs=3.0,
+      hands='grip_rail',
+      actors=[A('father', 'sit', FATHER, yaw=0, state=DEAD_F),
+              A('mother', 'sit', MOTHER, yaw=65, state=DEAD_M)]),
+    S('b67_2', kit=K, opts=now(clock='5:33', window='dawn', shape='message', door='ajar'),
+      anchor=E([-1.4, 0.98, -3.0], 255, 15), preset='idle_breath', framing='full', secs=3.1,
+      actors=[A('father', 'sit', FATHER, yaw=0, state=DEAD_F),
+              A('mother', 'sit', MOTHER, yaw=65, state=DEAD_M)]),
+]
+
+# Chapter marks are computed from the measured narration by tools/retime.py (it writes
+# src/chapters.json), because a chapter at a guessed timestamp is worse than none.
+CHAPTERS = []
+# The interactive parts are drawn by the choice cards listed in src/story.json, which
+# tools/film.py resolves to exact frames from the scene ids b15_1, b27_1 and b56_1.
+PARTS = []
+
+# tools/lint_story.py (a v0.4 check that is still useful for spotting leaked sets) reads a
+# module-level SC from a scene table. v0.5 tables are SCENES; this empty SC tells the linter
+# that this story names no v0.4 set at all, which is true.
+SC = []

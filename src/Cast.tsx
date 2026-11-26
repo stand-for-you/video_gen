@@ -1,348 +1,140 @@
 import React from 'react';
-import { Form, Crease, Patch, Painted, Mirror, PHand, Ground, sp, sym, mix, dark, lite, ribbon, ribbonW, useLight, shadeOf, lineOf, RED, P } from './Paint';
-import { motionRig, ik, headPos } from './Rig';
-import type { Motion, Rig, XY } from './Rig';
-export type { Motion, Rig };
-import { Head, Spec, Expr } from './Faces';
-import { HairBack } from './Hair';
-import { CAST, GHOSTS } from './Specs';
-export { CAST, GHOSTS };
-export type { Spec, Expr };
-// ===== SCROLL KAOS PAINTED BODY BUILDER. Origin = centre of the feet on the ground, up is negative y.
-// Adult about 3040 tall (head centre at -2780). Same builder for every person and ghost, so the cast always matches.
-
-export type View = 'front' | 'three' | 'back';
-type Ctx = { s: Spec; id: string; fem: boolean; sw: number; hw: number; waistX: number; hemY: number; skin: string; top: string; bot: string; view: View; f: number; acc: string[]; armL: number };
-
-const SLEEVE: Record<Spec['top'], 'rolled' | 'long' | 'short' | 'cap'> = { shirt: 'long', tshirt: 'short', jacket: 'long', cardigan: 'long', hoodie: 'long', uniform: 'long', workshirt: 'short', raincoat: 'long', shift: 'cap' };
-const HEM: Record<Spec['top'], number> = { shirt: -1470, tshirt: -1500, jacket: -1380, cardigan: -1490, hoodie: -1450, uniform: -1630, workshirt: -1610, raincoat: -1000, shift: -330 };
-
-// ---------- legs + feet, driven by the rig. H = hip, K = knee, A = ankle (figure coords). F = facing for the shoe (0 = front shoe)
-const Leg: React.FC<{ c: Ctx; idx: 0 | 1; H: XY; K: XY; A: XY; toe: number; F: number }> = ({ c, idx, H, K, A, toe, F }) => {
-  const { s, hw, id } = c; const L = useLight();
-  const pants = s.bottom === 'trousers' || s.bottom === 'jeans';
-  const shoeC = s.shoeC || '#2b2019';
-  const lid = `${id}-leg${idx}`;
-  const jeans = s.bottom === 'jeans';
-  const w = pants ? (jeans ? [236, 226, 158, 146] : [250, 240, 176, 168]) : (c.fem || s.kid ? [168, 160, 118, 96] : [190, 180, 130, 108]);
-  const top: XY = [H[0], H[1] - 90];
-  const d = ribbonW([top, H, K, [A[0], A[1] + 10]], w, 8);
-  const sh = shadeOf(pants ? c.bot : c.skin, L, 1.25);
-  // perpendicular helpers for knee and ankle folds
-  const v = [A[0] - K[0], A[1] - K[1]]; const m = Math.hypot(v[0], v[1]) || 1; const nx = -v[1] / m, ny = v[0] / m;
-  const fold = (P0: XY, t: number, len: number, bow: number) => `M${P0[0] - nx * len + v[0] / m * t},${P0[1] - ny * len + v[1] / m * t} Q${P0[0] + v[0] / m * (t + bow)},${P0[1] + v[1] / m * (t + bow)} ${P0[0] + nx * len + v[0] / m * t},${P0[1] + ny * len + v[1] / m * t}`;
-  const kneeBend = Math.abs((K[0] - H[0]) * (A[1] - K[1]) - (K[1] - H[1]) * (A[0] - K[0])) / 1e5;
-  const fs = F || (idx === 0 ? -1 : 1);
-  const front = F === 0;
-  const shoe = front
-    ? sp([[-82, -66], [72, -66], [88, 14], [122, 64], [140, 112, 0.4], [96, 136, 0], [-96, 136, 0], [-110, 96], [-100, 26]].map((q) => [q[0] * (idx === 0 ? -1 : 1), q[1], q[2] ?? 1] as P))
-    : sp([[-86, -74], [40, -84], [120, -56], [196, -22], [212, 10, 0.4], [180, 140 - 120, 0], [-96, 20, 0], [-112, -16]].map((q) => [q[0] * fs, q[1] + 120, q[2] ?? 1] as P));
-  const foot = front
-    ? sp([[-64, -40], [56, -40], [72, 30], [106, 90], [118, 130, 0.4], [80, 146, 0], [-80, 146, 0], [-92, 100], [-80, 30]].map((q) => [q[0] * (idx === 0 ? -1 : 1), q[1], q[2] ?? 1] as P))
-    : sp([[-70, -40], [40, -40], [120, 40], [190, 110], [196, 140, 0.4], [-80, 146, 0], [-96, 90]].map((q) => [q[0] * fs, q[1], q[2] ?? 1] as P));
-  return (
-    <g>
-      {pants ? (
-        <Form id={lid} d={d} c={c.bot} so={w[1] * 0.42} lo={w[1] * 0.3} ro={14} soft={12} tilt={0}>
-          <Crease d={fold(K, -30, w[2] * 0.4, 40)} c={sh} w={14} o={0.5 + kneeBend * 0.4} />
-          <Crease d={fold(K, -110, w[2] * 0.36, 30)} c={sh} w={11} o={0.35} />
-          <Crease d={fold(A, -150, w[3] * 0.45, 30)} c={sh} w={14} o={0.55} />
-          <Crease d={fold(A, -80, w[3] * 0.45, 26)} c={sh} w={12} o={0.5} />
-          <Crease d={fold(A, -230, w[3] * 0.4, 24)} c={keyOf2(c.bot)} w={10} o={0.3} />
-          {jeans && <path d={`M${H[0] + (idx ? 1 : -1) * 100},${H[1]} L${K[0] + (idx ? 1 : -1) * 76},${K[1]} L${A[0] + (idx ? 1 : -1) * 66},${A[1]}`} stroke={mix(c.bot, '#d8b070', 0.5)} strokeWidth={3} strokeDasharray="10 8" fill="none" opacity={0.6} />}
-        </Form>
-      ) : (
-        <Form id={lid} d={d} c={c.skin} so={50} lo={34} ro={8} soft={12} tilt={0}>
-          <Crease d={fold(K, -10, w[2] * 0.3, 20)} c={sh} w={10} o={0.35} b={3} />
-        </Form>
-      )}
-      <g transform={`translate(${A[0]},${A[1]}) rotate(${-toe * fs})`}>
-        {s.barefoot ? (
-          <Form id={lid + 'f'} d={foot} c={c.skin} so={40} lo={30} ro={8} soft={6} tilt={0}>
-            {[0, 1, 2, 3].map((q) => <path key={q} d={`M${(front ? 70 - q * 34 : 150 - q * 24) * fs},150 v-18`} stroke={lineOf(c.skin, L)} strokeWidth={3} opacity={0.5} />)}
-          </Form>
-        ) : (
-          <Form id={lid + 's'} d={shoe} c={shoeC} so={50} lo={40} ro={8} soft={12} tilt={0}>
-            <path d={front ? `M-110,128 H110` : `M${-100 * fs},134 L${206 * fs},134`} stroke={dark(shoeC, 0.5)} strokeWidth={18} />
-            <Crease d={front ? `M-60,-40 C-30,-20 30,-20 60,-40` : `M${-40 * fs},-20 C${10 * fs},0 ${60 * fs},6 ${110 * fs},20`} c={lite(shoeC, 0.45)} w={8} o={0.45} b={3} />
-            {c.acc.includes('redLaces') && <path d={front ? 'M-50,-40 L50,-26 M-46,-6 L54,8 M50,-26 l20,40' : `M${-10 * fs},-40 L${60 * fs},-20 M${10 * fs},-10 L${80 * fs},4`} stroke={RED} strokeWidth={8} strokeLinecap="round" />}
-          </Form>
-        )}
-      </g>
-    </g>
-  );
+import { INK, RED, Hand, rng } from './Kit';
+// ===== SCROLL KAOS CAST BUILDER: any new person in the permanent painted style. Same line, same grain, same muted colours as Noah and the ghosts. =====
+export type Spec = {
+  id: string; name: string; sex: 'm' | 'f'; age: 0 | 1 | 2 | 3; skin: string; skinD: string; hair: string; grey?: boolean;
+  hairStyle: 'crop' | 'long' | 'bun' | 'greyshort' | 'messy' | 'cap' | 'pigtails' | 'bald'; blind?: boolean; stache?: boolean; glasses?: boolean; eyeC?: string; lip?: string; fw?: number;
+  top: 'shirt' | 'jacket' | 'cardigan' | 'hoodie' | 'uniform'; topC: string; topD: string; inner?: string; sw?: number; hw?: number; rolled?: boolean;
+  bottom: 'trousers' | 'skirtLong' | 'dressKnee'; botC: string; shoeC: string; legK?: number; hs?: number; gs?: number;
+  // 'apron' | 'suspenders' | 'tie' are drawn by CastGen.tsx (the character template): costume
+  // that says the job before the face does. Keep this union and CastGen's drawing in step.
+  acc?: ('cane' | 'backpack' | 'satchel' | 'handbag' | 'redScarf' | 'shawl' | 'redRibbons' | 'redLaces' | 'badge' | 'apron' | 'suspenders' | 'tie')[]; accC?: string;
 };
-const keyOf2 = (c: string) => mix(c, '#ffe2b8', 0.35);
-
-// ---------- arm, driven by the rig: S = shoulder, E = elbow, W = wrist (upper-body coords). thumb = side the thumb points to
-const Arm: React.FC<{ c: Ctx; idx: 0 | 1; S: XY; E: XY; W: XY; thumb: number; red?: boolean }> = ({ c, idx, S, E, W, thumb, red }) => {
-  const { s, id, skin, top } = c; const L = useLight();
-  const kind = s.rolled && SLEEVE[s.top] === 'long' ? 'rolled' : SLEEVE[s.top];
-  const bulk = s.top === 'jacket' || s.top === 'hoodie' || s.top === 'raincoat' ? 30 : s.top === 'cardigan' ? 14 : 0;
-  const thin = (c.fem ? 0.84 : 1) * (s.kid ? 0.92 : 1);
-  const aid = `${id}-arm${idx}`;
-  const sh = shadeOf(top, L, 1.25);
-  const mid = (a: XY, b: XY, t = 0.5): XY => [a[0] + (b[0] - a[0]) * t, a[1] + (b[1] - a[1]) * t];
-  const spine: P[] = [S, mid(S, E), E, mid(E, W), W];
-  const up: P[] = [S, mid(S, E), [E[0] + (E[0] - S[0]) * 0.06, E[1] + (E[1] - S[1]) * 0.06]];
-  const fore: P[] = [mid(E, S, 0.08), mid(E, W), [W[0] + (W[0] - E[0]) * 0.04, W[1] + (W[1] - E[1]) * 0.04]];
-  const vf = [W[0] - E[0], W[1] - E[1]]; const mf = Math.hypot(vf[0], vf[1]) || 1;
-  const vu = [E[0] - S[0], E[1] - S[1]]; const mu = Math.hypot(vu[0], vu[1]) || 1;
-  const across = (P0: XY, v: number[], m: number, t: number, len: number, bow = 18) => { const nx = -v[1] / m, ny = v[0] / m, tx = v[0] / m, ty = v[1] / m; return `M${P0[0] - nx * len + tx * t},${P0[1] - ny * len + ty * t} Q${P0[0] + tx * (t + bow)},${P0[1] + ty * (t + bow)} ${P0[0] + nx * len + tx * t},${P0[1] + ny * len + ty * t}`; };
-  const handRot = (Math.atan2(-vf[0], vf[1]) * 180) / Math.PI;
-  const cuff = ribbon([mid(W, E, 0.16), [W[0], W[1]]], 100 * thin + bulk * 0.7, 100 * thin + bulk * 0.7, 3);
-  return (
-    <g>
-      {kind !== 'long' && <Form id={aid + 'sk'} d={kind === 'rolled' ? ribbonW(fore, [130 * thin, 112 * thin, 92 * thin], 8) : ribbonW(spine, [160 * thin, 146 * thin, 122 * thin, 104 * thin, 92 * thin], 8)} c={skin} so={50} lo={34} ro={9} soft={12}>
-        <Crease d={across(E, vf, mf, 30, 40 * thin, 10)} c={shadeOf(skin, L)} w={6} o={0.35} b={3} />
-      </Form>}
-      {kind === 'long' && <Form id={aid + 'sl'} d={ribbonW(spine, [178 * thin + bulk, 164 * thin + bulk, 140 * thin + bulk, 122 * thin + bulk * 0.8, 112 * thin + bulk * 0.7], 8)} c={top} so={62} lo={46} ro={10} soft={12}>
-        <Crease d={across(S, vu, mu, 110, 70 * thin, 20)} c={sh} w={12} o={0.4} />
-        <Crease d={across(E, vu, mu, -60, 64 * thin, 22)} c={sh} w={11} o={0.45} />
-        <Crease d={across(E, vf, mf, 10, 62 * thin, 22)} c={sh} w={13} o={0.55} />
-        <Crease d={across(E, vf, mf, 90, 56 * thin, 18)} c={sh} w={10} o={0.4} />
-      </Form>}
-      {kind === 'long' && <Form id={aid + 'cf'} d={cuff} c={s.top === 'hoodie' || s.top === 'cardigan' || s.top === 'raincoat' ? dark(top, 0.12) : top} so={30} lo={20} ro={8} soft={6} />}
-      {kind === 'rolled' && <Form id={aid + 'su'} d={ribbonW(up, [178 * thin, 164 * thin, 146 * thin], 8)} c={top} so={62} lo={46} ro={10} soft={12}><Crease d={across(S, vu, mu, 110, 70 * thin, 20)} c={sh} w={12} o={0.4} /></Form>}
-      {kind === 'rolled' && <Form id={aid + 'rc'} d={ribbon([mid(E, S, 0.1), mid(E, W, 0.12)], 146 * thin, 138 * thin, 3)} c={lite(top, 0.12)} so={40} lo={30} ro={8} soft={6}><Crease d={across(E, vf, mf, 6, 70 * thin, 12)} c={sh} w={8} o={0.6} b={3} /></Form>}
-      {kind === 'short' && <Form id={aid + 'ss'} d={ribbon([[S[0] - (S[0] - E[0]) * 0.02, S[1] - 20], mid(S, E, 0.22), mid(S, E, 0.42)], 186 * thin, 170 * thin, 6)} c={top} so={60} lo={40} ro={10} soft={12}><Crease d={across(mid(S, E, 0.4), vu, mu, 0, 80 * thin, 14)} c={sh} w={10} o={0.5} /></Form>}
-      {kind === 'cap' && <Form id={aid + 'cs'} d={ribbon([[S[0], S[1] - 20], mid(S, E, 0.12), mid(S, E, 0.24)], 158 * thin, 152 * thin, 6)} c={top} so={50} lo={34} ro={8} soft={12} />}
-      <PHand id={aid + 'h'} skin={skin} x={W[0]} y={W[1] - 6} rot={handRot} k={(c.fem ? 0.98 : 1.16) * (s.kid ? 0.9 : 1)} long={s.fingers || 1} flip={thumb > 0} />
-      {red && <g transform={`translate(${W[0]},${W[1]}) rotate(${handRot})`}><path d="M-48,-30 q48,20 96,-2" stroke={RED} strokeWidth={14} fill="none" strokeLinecap="round" /><path d="M32,-24 q10,40 -2,70" stroke={RED} strokeWidth={6} fill="none" strokeLinecap="round" /></g>}
-    </g>
-  );
-};
-
-// ---------- torso + clothing (front view)
-const Torso: React.FC<{ c: Ctx; back?: boolean; dx?: number }> = ({ c, back, dx = 0 }) => {
-  const { s, sw, hw, waistX, hemY, id, top, skin, fem } = c; const L = useLight();
-  const sh = shadeOf(top, L, 1.25), inner = s.inner || '#d6ccb2';
-  const long = s.top === 'shift' || s.top === 'raincoat';
-  const flare = s.top === 'shift' ? 210 : s.top === 'raincoat' ? 120 : 0;
-  const half: P[] = long
-    ? [[0, -2536], [64, -2546], [sw * 0.55, -2520], [sw - 14, -2478], [sw + 4, -2420], [sw - 2, -2300], [sw - 22, -2120], [waistX, -1780], [hw + flare * 0.3, -1500], [hw + flare * 0.75, (-1500 + hemY) / 2], [hw + flare, hemY + 4, 0.35], [hw * 0.55 + flare * 0.5, hemY + 30], [0, hemY + 34]]
-    : [[0, -2536], [64, -2546], [sw * 0.55, -2520], [sw - 14, -2478], [sw + 4, -2420], [sw - 2, -2300], [sw - 22, -2120], [waistX, -1780], [hw + (fem ? 8 : 2), -1600], [hw + 12, hemY + 30], [hw + 8, hemY, 0.4], [0, hemY + 16]];
-  const d = sym(half);
-  const tid = `${id}-torso`;
-  const open = s.top === 'jacket' || s.top === 'cardigan';
-  return (
-    <g>
-      <Form id={tid} d={d} c={top} so={sw * 0.55} lo={sw * 0.42} ro={16} soft={12} tilt={0.02} shA={1.1}>
-        {/* armpit + side folds, chest plane, belly folds */}
-        <Crease d={`M${sw - 40},-2300 C${sw - 80},-2200 ${sw - 100},-2100 ${sw - 120},-1980`} c={sh} w={22} o={0.5} b={12} />
-        <Crease d={`M${-sw + 40},-2300 C${-sw + 80},-2200 ${-sw + 100},-2100 ${-sw + 120},-1980`} c={sh} w={18} o={0.3} b={12} />
-        {fem && !back && !s.ghost && <><Crease d={`M${-sw * 0.62},-2090 C${-sw * 0.35},-2050 ${-sw * 0.1},-2060 ${-10},-2100`} c={sh} w={18} o={0.45} b={12} /><Crease d={`M${sw * 0.62},-2090 C${sw * 0.35},-2050 ${sw * 0.1},-2060 ${10},-2100`} c={sh} w={18} o={0.55} b={12} /><Patch d={`M${-sw * 0.6},-2280 C${-sw * 0.4},-2320 ${-sw * 0.1},-2300 ${-sw * 0.1},-2200 C${-sw * 0.2},-2140 ${-sw * 0.5},-2150 ${-sw * 0.6},-2200Z`} c={L.keyC} o={0.25} b={24} /></>}
-        {!long && <><Crease d={`M${-hw + 30},-1700 C${-hw * 0.4},-1640 ${-hw * 0.1},-1650 ${hw * 0.2},-1700`} c={sh} w={14} o={0.4} /><Crease d={`M${hw * 0.1},-1800 C${hw * 0.4},-1740 ${hw * 0.6},-1700 ${hw - 10},-1660`} c={sh} w={16} o={0.45} /></>}
-        {!back && !long && <Crease d={`M${-sw * 0.5},-2380 C${-sw * 0.3},-2340 ${-sw * 0.1},-2330 0,-2350`} c={L.keyC} w={30} o={0.25} b={24} />}
-        {long && <>{[-0.55, -0.15, 0.25, 0.6].map((t, i) => <Crease key={i} d={`M${t * hw},-1700 C${t * (hw + flare * 0.5)},-1200 ${t * (hw + flare * 0.8)},-700 ${t * (hw + flare)},${hemY + 20}`} c={i % 2 ? sh : keyOf2(top)} w={i % 2 ? 22 : 16} o={i % 2 ? 0.45 : 0.3} b={12} />)}</>}
-        <g transform={`translate(${dx},0)`}>{/* clothing details */}
-        {!back && s.top === 'shirt' && <g>
-          <path d="M0,-2380 V-1480" stroke={dark(top, 0.35)} strokeWidth={4} opacity={0.6} />
-          {[0, 1, 2, 3, 4].map((k) => <circle key={k} cx={-14} cy={-2290 + k * 160} r={10} fill={inner} opacity={0.9} />)}
-          {[-1, 1].map((q) => <g key={q}><Patch d={`M${q > 0 ? 80 : -220},-2230 h140 v20 h-140Z`} c={sh} o={0.5} b={3} /><path d={`M${q > 0 ? 80 : -220},-2230 h140 v130 q-70,14 -140,0Z`} fill="none" stroke={dark(top, 0.35)} strokeWidth={3.5} opacity={0.6} /><circle cx={q > 0 ? 150 : -150} cy={-2214} r={8} fill={inner} opacity={0.8} /></g>)}
-        </g>}
-        {!back && (s.top === 'workshirt') && <g><path d="M0,-2380 V-1620" stroke={dark(top, 0.35)} strokeWidth={4} opacity={0.6} />{[0, 1, 2, 3].map((k) => <circle key={k} cx={-14} cy={-2290 + k * 170} r={10} fill={inner} opacity={0.9} />)}<path d="M-210,-2220 h130 v140 h-130Z" fill={sh} opacity={0.35} /><path d="M-196,-2220 v80 M-160,-2220 v104" stroke="#d9d2b4" strokeWidth={8} opacity={0.8} /></g>}
-        {!back && s.top === 'uniform' && <g>
-          <path d="M0,-2380 V-1640" stroke={dark(top, 0.35)} strokeWidth={4} opacity={0.6} />
-          {[-1, 1].map((q) => <g key={q}><path d={`M${q > 0 ? 70 : -220},-2250 h150 v130 h-150Z`} fill={sh} opacity={0.35} /><path d={`M${q > 0 ? 70 : -220},-2250 h150 l-10,40 h-130Z`} fill={dark(top, 0.25)} opacity={0.6} /></g>)}
-          <path d="M-170,-2300 l46,-12 v62 l-46,-12Z" fill="#c4a24a" opacity={0.9} />
-        </g>}
-        {!back && s.top === 'hoodie' && <g>
-          <Form id={tid + 'pk'} d={sp([[-170, -1880, 0.3], [170, -1880, 0.3], [212, -1560, 0.3], [-212, -1560, 0.3]])} c={top} so={40} lo={30} ro={0} rim={false} soft={12}><Crease d="M-180,-1876 H180" c={sh} w={10} o={0.5} b={3} /></Form>
-          <path d="M-60,-2420 C-70,-2300 -60,-2200 -70,-2120 M60,-2420 C70,-2300 60,-2200 70,-2120" stroke={inner} strokeWidth={10} fill="none" strokeLinecap="round" />
-        </g>}
-        {!back && s.top === 'raincoat' && <g><path d="M0,-2420 V-1010" stroke={dark(top, 0.4)} strokeWidth={5} opacity={0.7} />{[-2200, -1980, -1760, -1540].map((y) => <rect key={y} x={-30} y={y} width={40} height={18} rx={6} fill={dark(top, 0.45)} />)}</g>}
-        {!back && s.top === 'tshirt' && <Crease d="M-110,-2486 C-60,-2440 60,-2440 110,-2486" c={dark(top, 0.3)} w={10} o={0.6} b={3} />}
-        {!back && s.top === 'shift' && <Crease d="M-120,-2490 C-60,-2410 60,-2410 120,-2490" c={dark(top, 0.3)} w={8} o={0.5} b={3} />}
-        </g>{/* hem */}
-        {!long && <Crease d={`M${-hw - 10},${hemY + 4} C${-hw * 0.4},${hemY + 20} ${hw * 0.4},${hemY + 20} ${hw + 10},${hemY + 4}`} c={dark(top, 0.35)} w={8} o={0.5} b={3} />}
-      </Form>
-      <g transform={`translate(${dx},0)`}>{/* open front (jacket/cardigan) shows the inner top */}
-      {!back && open && <g>
-        <Form id={tid + 'in'} d={sp([[-96, -2520, 0.3], [96, -2520, 0.3], [70, -2200], [50, -1700], [44, s.top === 'jacket' ? -1390 : -1500, 0.3], [-44, s.top === 'jacket' ? -1390 : -1500, 0.3], [-50, -1700], [-70, -2200]])} c={inner} so={50} lo={30} ro={0} rim={false} soft={12} />
-        {[-1, 1].map((q) => <Form key={q} id={tid + 'lp' + q} d={sp([[q * 40, -2530], [q * 140, -2520], [q * 110, -2300], [q * 80, -2000], [q * 70, s.top === 'jacket' ? -1380 : -1490, 0.3], [q * 44, s.top === 'jacket' ? -1380 : -1490, 0.3], [q * 52, -2000], [q * 60, -2300]])} c={top} so={30} lo={24} ro={8} soft={12}>
-          <Crease d={`M${q * 60},-2500 C${q * 80},-2300 ${q * 70},-1900 ${q * 60},-1500`} c={q > 0 ? sh : keyOf2(top)} w={16} o={0.5} />
-        </Form>)}
-        {s.top === 'cardigan' && [0, 1, 2, 3].map((k) => <circle key={k} cx={56} cy={-2200 + k * 170} r={13} fill={dark(top, 0.35)} />)}
-        {s.top === 'jacket' && [-1, 1].map((q) => <g key={q}><path d={`M${q * 120},-1900 h${q * 120} v220 h${-q * 120}Z`} fill={sh} opacity={0.35} /><path d={`M${q * 120},-1900 h${q * 120}`} stroke={dark(top, 0.4)} strokeWidth={5} /></g>)}
-      </g>}
-      {/* collars */}
-      {!back && (s.top === 'shirt' || s.top === 'uniform' || s.top === 'workshirt') && <g>
-        <Form id={tid + 'vn'} d={sp([[-58, -2540], [58, -2540], [0, -2400, 0]])} c={s.top === 'uniform' ? inner : skin} so={30} lo={20} ro={0} rim={false} soft={6} />
-        {s.top === 'uniform' && <Form id={tid + 'tie'} d={sp([[-18, -2470, 0], [18, -2470, 0], [30, -2000], [0, -1930, 0], [-30, -2000]])} c="#141824" so={20} lo={14} ro={4} soft={6} />}
-        {[-1, 1].map((q) => <Form key={q} id={tid + 'col' + q} d={sp([[q * 4, -2400, 0], [q * 66, -2560], [q * 126, -2520, 0.4], [q * 112, -2424, 0]])} c={lite(top, 0.1)} so={30} lo={22} ro={6} soft={6}><Crease d={`M${q * 20},-2420 L${q * 100},-2440`} c={dark(top, 0.3)} w={6} o={0.4} b={3} /></Form>)}
-      </g>}
-      {!back && s.top === 'hoodie' && <Form id={tid + 'hd'} d={sp([[-150, -2560], [-80, -2600], [80, -2600], [150, -2560], [130, -2470], [60, -2440], [-60, -2440], [-130, -2470]])} c={dark(top, 0.1)} so={40} lo={30} ro={8} soft={12}><Crease d="M-110,-2500 C-40,-2470 40,-2470 110,-2500" c={dark(top, 0.5)} w={14} o={0.6} b={6} /></Form>}
-      {!back && s.top === 'raincoat' && <Form id={tid + 'rh'} d={sp([[-170, -2540], [-90, -2600], [90, -2600], [170, -2540], [150, -2460], [0, -2420], [-150, -2460]])} c={dark(top, 0.08)} so={40} lo={30} ro={8} soft={12} />}
-      </g>
-      {(s.top === 'uniform' || s.top === 'workshirt' || s.top === 'shirt') && !long && s.top !== 'shirt' && <Form id={tid + 'belt'} d={`M${-hw - 6},${hemY - 10} H${hw + 6} V${hemY + 46} H${-hw - 6}Z`} c={s.top === 'uniform' ? '#17110d' : '#2a2018'} so={30} lo={20} ro={6} soft={6} line={2}><rect x={-30} y={hemY - 4} width={60} height={46} fill="none" stroke="#b89a4a" strokeWidth={6} /></Form>}
-      {s.top === 'uniform' && !back && [-1, 1].map((q) => <Form key={q} id={tid + 'ep' + q} d={sp([[q * (sw - 130), -2500, 0.3], [q * (sw - 10), -2470, 0.3], [q * (sw - 14), -2430, 0.3], [q * (sw - 134), -2456, 0.3]])} c={dark(top, 0.3)} so={20} lo={14} ro={4} soft={6} />)}
-    </g>
-  );
-};
-
-// ---------- accessories
-const Strap: React.FC<{ id: string; a: [number, number]; b: [number, number]; w?: number; c: string }> = ({ id, a, b, w = 44, c }) => (
-  <Form id={id} d={ribbon([a, [(a[0] + b[0]) / 2, (a[1] + b[1]) / 2 + 20], b], w, w, 4)} c={c} so={16} lo={12} ro={6} soft={6} />
-);
-
-// ===== FULL PERSON. view: 'front' | 'three' (three-quarter, facing face = 1 right / -1 left) | 'back'.
-// motion: { type, p, ... } from Rig.tsx. pose 'relaxed' (default) = idle breathing; 'straight' = model-sheet stand.
-export const FullPerson: React.FC<{ s: Spec; x?: number; y?: number; k?: number; f?: number; expr?: Expr; view?: View; face?: 1 | -1; uid?: string; turn?: number; pose?: 'relaxed' | 'straight'; motion?: Motion; rig?: Rig }> = ({ s, x = 0, y = 0, k = 1, f = 4, expr = 'neutral', view = 'front', face, uid, turn, pose = 'relaxed', motion, rig }) => {
-  const L = useLight();
-  const fem = s.sex === 'f';
-  const sw = (s.sw || (fem ? 262 : 312)) + (fem || s.kid ? 8 : 22), hw = s.hw || (fem ? 240 : 232);
-  const waistX = fem ? hw - 44 : (sw + hw) / 2 - 34;
-  const legK = s.legK || 1, gs = s.gs || 1, hs = s.hs || (s.kid ? 1.25 : 1.0);
-  const dy = 1560 * (1 - legK);
-  const id = uid || `${s.id}-${view}-${expr}-${motion?.type || pose}`;
-  const acc = (s.acc || []) as string[];
-  const c: Ctx = { s, id, fem, sw, hw, waistX, hemY: HEM[s.top], skin: s.skin, top: s.topC, bot: s.botC, view, f, acc, armL: s.armL || 1 };
-  const back = view === 'back';
-  const three = view === 'three';
-  const T = three ? (face ?? (turn !== undefined && turn < 0 ? -1 : 1)) : 0;
-  const F = T; // facing used by the rig (0 = toward the camera)
-  const R: Rig = rig || motionRig(motion || (s.ghost || pose === 'straight' ? { type: 'still' } : { type: 'idle' }), back ? 0 : F, legK, f);
-  const sx = three ? 0.86 : 1;
-  const hturn = (turn ?? (three ? 0.6 * T : 0)) + (R.turn || 0);
-  const ghostTilt = s.ghost === 'woman' ? 9 + Math.sin(f / 18) * 2 : s.ghost === 'grin' ? Math.sin(f / 22) * 2.2 : s.ghost === 'child' ? Math.sin(f / 20) * 3 : 0;
-  const tilt = ghostTilt + (R.tilt || 0) + (R.nod || 0) * (T || 1);
-  const headY = s.kid ? -2770 : -2740;
-  const headT = `translate(${T * 26},${headY}) rotate(${tilt} 0 200) scale(${hs})`;
-  const longHair = s.hairStyle === 'long' || s.hairStyle === 'ghostlong';
-  const jit = R.jitter ? Math.sin(f * 2.7) * R.jitter : 0;
-  // ---- legs (IK). leg 0 = left / far, leg 1 = right / near
-  const P0 = -1540 * legK;
-  const hipX = (i: 0 | 1) => (three ? (i === 0 ? T : -T) * hw * 0.34 : (i === 0 ? -1 : 1) * hw * 0.5);
-  const legs = ([0, 1] as const).map((i) => {
-    const H: XY = [R.pelvis[0] + hipX(i), R.pelvis[1]];
-    const Aim: XY = [R.pelvis[0] + hipX(i) + R.ankles[i][0], R.ankles[i][1]];
-    const kdir = three ? T : (i === 0 ? -1 : 1);
-    const { mid, end } = ik(H, Aim, 760 * legK, 630 * legK, kdir);
-    return { H, K: mid, A: end, toe: R.toes[i] };
-  });
-  // ---- arms (IK or hanging), upper-body coords
-  const lean = (three ? T : 0) * R.lean + (view === 'front' && R.lean ? R.lean * 0.08 : 0);
-  const shoulder = (i: 0 | 1): XY => (three ? [i === 0 ? T * (sw - 110) : -T * (sw - 70), -2470] : [(i === 0 ? -1 : 1) * (sw - 40), -2470]);
-  const A = c.armL, L1 = 470 * A, L2 = 400 * A;
-  const arm = (i: 0 | 1) => {
-    const S = shoulder(i);
-    const out = three ? 0 : (i === 0 ? -1 : 1);
-    const tgt = R.hands[i];
-    if (tgt) { const { mid, end } = ik(S, tgt, L1, L2, three ? -T : out, true); return { S, E: mid, W: end }; }
-    const a1 = ((R.swing[i] * (three ? 1 : 0.15)) * Math.PI) / 180, b1 = ((R.bend[i]) * Math.PI) / 180;
-    const fx = three ? T : 1;
-    const E: XY = [S[0] + out * L1 * 0.08 + fx * L1 * Math.sin(a1) * (three ? 1 : 0), S[1] + L1 * Math.cos(a1)];
-    const W: XY = three ? [E[0] + T * L2 * Math.sin(a1 + b1), E[1] + L2 * Math.cos(a1 + b1)] : [E[0] - out * L2 * 0.04, E[1] + L2 * Math.cos(b1 * 0.7)];
-    return { S, E, W };
-  };
-  const arms = [arm(0), arm(1)];
-  const thumbOf = (i: 0 | 1) => (three ? T : (i === 0 ? 1 : -1));
-  const redArm = acc.includes('redCord') ? (three ? 1 : 1) : -1; // red cord on the left wrist
-  const drawLeg = (i: 0 | 1) => <Leg key={'l' + i} c={c} idx={i} H={legs[i].H} K={legs[i].K} A={legs[i].A} toe={legs[i].toe} F={back ? 0 : F} />;
-  const drawArm = (i: 0 | 1) => <Arm key={'a' + i} c={c} idx={i} S={arms[i].S} E={arms[i].E} W={arms[i].W} thumb={thumbOf(i)} red={i === redArm} />;
-  const farLeg: 0 | 1 = 0, nearLeg: 0 | 1 = 1;
-  const pelvisT = `translate(${R.pelvis[0] + jit},${R.pelvis[1] - P0 + dy}) rotate(${lean} 0 -1560)`;
-  const body = (
+const mix = (a: string, b: string, t: number) => { const p = (h: string) => [1, 3, 5].map((i) => parseInt(h.slice(i, i + 2), 16)); const A = p(a), B = p(b); return '#' + A.map((v, i) => Math.round(v + (B[i] - v) * t).toString(16).padStart(2, '0')).join(''); };
+const Speck: React.FC<{ id: string; d: string; seed: number; n?: number; col?: string; op?: number; r?: number }> = ({ id, d, seed, n = 220, col = '#5a4630', op = 0.25, r = 2.2 }) => { const q = rng(seed); return (<g><clipPath id={id}><path d={d} /></clipPath><g clipPath={`url(#${id})`}>{Array.from({ length: n }).map((_, i) => <circle key={i} cx={-170 + q() * 340} cy={-250 + q() * 480} r={0.8 + q() * r} fill={col} opacity={op * (0.4 + q() * 0.8)} />)}</g></g>); };
+export const FacePerson: React.FC<{ s: Spec; expr?: string; f?: number }> = ({ s, expr = 'neutral', f = 0 }) => {
+  const O = mix(s.skinD, '#000000', 0.55), blink = !!s.blind || f % 96 < 4, fear = expr === 'fear', speak = expr === 'speak', fem = s.sex === 'f', fw = s.fw || 1;
+  const face = fem ? 'M0,-225 C100,-228 150,-130 144,-20 C140,90 112,160 64,206 C36,230 -36,230 -64,206 C-112,160 -140,90 -144,-20 C-150,-130 -100,-228 0,-225Z' : 'M0,-225 C105,-230 158,-130 152,-20 C148,90 120,160 70,205 C40,228 -40,228 -70,205 C-120,160 -148,90 -152,-20 C-158,-130 -105,-230 0,-225Z';
+  const ey = fear ? -28 : -20, er = fear ? 21 : fem ? 14 : 11, bro = fear ? -18 : 0, gx = Math.sin(f / 40) * 3; const gid = 'sk' + s.id, wr = s.age * 0.18;
+  const eye = (sx: number) => (
     <g transform={`scale(${sx},1)`}>
-      {!back && longHair && <g transform={pelvisT}><g transform={headT}><HairBack s={s} uid={id + 'B'} /></g></g>}
-      {acc.includes('backpack') && !back && <g transform={pelvisT}>{[-1, 1].map((q) => <Form key={q} id={`${id}-bp${q}`} d={sp([[q * (sw - 10), -2380], [q * (sw + 70), -2340], [q * (sw + 80), -1900], [q * (sw + 20), -1840]])} c="#33333a" so={30} lo={20} ro={8} soft={12} />)}</g>}
-      {three && <g transform={pelvisT}>{drawArm(0)}</g>}
-      {drawLeg(farLeg)}{drawLeg(nearLeg)}
-      {(s.bottom === 'trousers' || s.bottom === 'jeans') && <path d={sp([[R.pelvis[0] - hw + 20, R.pelvis[1] - 120], [R.pelvis[0] + hw - 20, R.pelvis[1] - 120], [R.pelvis[0] + hw - 40, R.pelvis[1] + 40], [R.pelvis[0] + 30, R.pelvis[1] + 150], [R.pelvis[0] - 30, R.pelvis[1] + 150], [R.pelvis[0] - hw + 40, R.pelvis[1] + 40]])} fill={c.bot} />}
-      <g transform={pelvisT}>
-        {!['shift', 'raincoat'].includes(s.top) && s.bottom !== 'skirtLong' && <Patch d={`M${-hw - 20},${c.hemY - 10} H${hw + 20} V${c.hemY + 90} C${hw * 0.5},${c.hemY + 130} ${-hw * 0.5},${c.hemY + 130} ${-hw - 20},${c.hemY + 90}Z`} c="#140810" o={0.3} b={24} />}
-        {(s.bottom === 'skirtLong' || s.bottom === 'dressKnee') && (() => {
-          const hem = s.bottom === 'skirtLong' ? -300 - dy : -760 * legK - dy; const fl = s.bottom === 'skirtLong' ? 170 : 90;
-          const sit = R.pelvis[1] > P0 + 300; // sitting or crouching: skirt folds over the thighs
-          const hemY = sit ? Math.min(hem, -1560 + 420) : hem;
-          const d = sym([[0, -1790], [hw - 30, -1790], [hw + 20, -1500], [hw + fl * 0.55, (-1500 + hemY) / 2], [hw + fl, hemY + 10, 0.4], [hw * 0.5, hemY + 30], [0, hemY + 20]]);
-          return <Form id={`${id}-sk`} d={d} c={s.botC} so={hw * 0.5} lo={hw * 0.4} ro={10} soft={24} tilt={0}>{[-0.6, -0.2, 0.2, 0.6].map((t, i) => <Crease key={i} d={`M${t * hw * 0.7},-1700 C${t * hw},-1300 ${t * (hw + fl * 0.6)},${hemY - 300} ${t * (hw + fl)},${hemY + 20}`} c={i % 2 ? shadeOf(s.botC, L, 1.3) : keyOf2(s.botC)} w={i % 2 ? 22 : 14} o={0.4} />)}</Form>;
-        })()}
-        <Form id={`${id}-neck`} d={sp(fem || s.kid ? [[-62, -2690], [62, -2690], [66, -2560], [100, -2500], [-100, -2500], [-66, -2560]] : [[-80, -2690], [80, -2690], [86, -2570], [124, -2500], [-124, -2500], [-86, -2570]])} c={s.skin} so={40} lo={24} ro={8} soft={12}>
-          <Patch d="M-80,-2720 H80 V-2600 C40,-2570 -40,-2570 -80,-2600Z" c={shadeOf(s.skin, L, 1.4)} o={0.85} b={12} />
-          {!fem && !s.kid && <Crease d="M-10,-2620 C-4,-2590 4,-2580 10,-2560" c={shadeOf(s.skin, L)} w={8} o={0.4} b={3} />}
-        </Form>
-        <g transform={T ? `translate(${T * 8},0)` : ''}><Torso c={c} back={back} dx={T * 70} /></g>
-        <Patch d={`M${-sw + 30},-2380 C${-sw + 60},-2100 ${-waistX + 10},-1900 ${-waistX + 30},-1700 L${-waistX - 30},-1700 C${-sw},-2000 ${-sw - 10},-2200 ${-sw - 10},-2380Z`} c="#140810" o={0.25} b={24} />
-        <Patch d={`M${sw - 30},-2380 C${sw - 60},-2100 ${waistX - 10},-1900 ${waistX - 30},-1700 L${waistX + 30},-1700 C${sw},-2000 ${sw + 10},-2200 ${sw + 10},-2380Z`} c="#140810" o={0.4} b={24} />
-        {acc.includes('backpack') && !back && [-1, 1].map((q) => <Strap key={q} id={`${id}-bs${q}`} a={[q * (sw - 90), -2500]} b={[q * (sw - 60), -1820]} c="#2b2b30" w={50} />)}
-        {acc.includes('shawl') && (() => { const scc = s.accC || '#8a7aa0'; const d = sp([[-90, -2566], [90, -2566], [sw + 64, -2476], [sw + 96, -2260], [sw + 80, -2090, 0.4], [sw - 40, -2070], [96, -1990, 0.3], [44, -2290], [0, -2420, 0], [-44, -2290], [-96, -1990, 0.3], [-sw + 40, -2070], [-sw - 80, -2090, 0.4], [-sw - 96, -2260], [-sw - 64, -2476]]); return <Form id={`${id}-shawl`} d={d} c={scc} so={90} lo={70} soft={12}>{[-250, -170, -90, 90, 170, 250].map((xx, i) => <Crease key={i} d={`M${xx * 0.5},-2540 C${xx * 0.85},-2400 ${xx * 1.05},-2250 ${xx * 1.1},-2080`} c={i % 2 ? shadeOf(scc, L, 1.4) : lite(scc, 0.3)} w={i % 2 ? 18 : 10} o={0.5} />)}</Form>; })()}
-        {!R.handsFront && (three ? drawArm(1) : <>{drawArm(0)}{drawArm(1)}</>)}
-        {acc.includes('satchel') && <g>
-          <Strap id={`${id}-sst`} a={back ? [-(sw - 70), -2500] : [sw - 70, -2500]} b={back ? [hw + 20, -1640] : [-hw - 20, -1640]} c="#7a5a3a" w={42} />
-          <g transform={`translate(${back ? hw + 40 : -hw - 40},-1520) rotate(${back ? -6 : 6})`}>
-            <Form id={`${id}-bag`} d={sp([[-150, -160, 0.4], [150, -160, 0.4], [156, 130, 0.4], [-156, 130, 0.4]])} c="#8a6a44" so={70} lo={50} ro={10} soft={12}><Crease d="M-150,-60 C-60,-40 60,-40 150,-60" c={dark('#8a6a44', 0.4)} w={10} o={0.6} b={3} /></Form>
-            <Form id={`${id}-flap`} d={sp([[-154, -164, 0.4], [154, -164, 0.4], [150, -40, 0.4], [-150, -40, 0.4]])} c="#7a5a38" so={50} lo={40} ro={8} soft={12} />
-            <rect x={-18} y={-70} width={36} height={56} rx={6} fill="#c6a45a" />
-          </g>
-        </g>}
-        {acc.includes('redScarf') && !back && <g>
-          <Form id={`${id}-scf`} d={sp([[-130, -2560], [-60, -2620], [60, -2620], [130, -2560], [120, -2470], [0, -2440], [-120, -2470]])} c={RED} so={50} lo={40} ro={8} soft={12}><Crease d="M-110,-2520 C-40,-2490 40,-2490 110,-2520" c={dark(RED, 0.4)} w={12} o={0.6} b={6} /></Form>
-          <Form id={`${id}-sce`} d={ribbon([[50, -2480], [80, -2300], [70, -2120]], 86, 70, 6)} c={RED} so={34} lo={24} ro={8} soft={12}><path d="M30,-2140 l10,30 M60,-2136 l6,30 M90,-2140 l4,30" stroke={dark(RED, 0.3)} strokeWidth={5} /></Form>
-        </g>}
-        {acc.includes('badge') && !back && <Form id={`${id}-bdg`} d="M140,-2270 l26,-20 l26,20 l-8,34 h-36Z" c="#c4a24a" so={12} lo={10} ro={4} soft={6} />}
-        {acc.includes('cane') && (() => { const W = arms[three ? 1 : 0].W; return <g><Form id={`${id}-cane`} d={ribbon([[W[0], W[1] + 60], [W[0] - 20, (W[1] - 1560 - dy) / 2 + 600], [W[0] - 36, -dy - (R.pelvis[1] - P0) - 10]], 26, 26, 4)} c="#4a3422" so={10} lo={8} ro={4} soft={6} /><path d={`M${W[0]},${W[1] + 60} C${W[0]},${W[1] - 10} ${W[0] - 70},${W[1] - 20} ${W[0] - 72},${W[1] + 50}`} stroke="#4a3422" strokeWidth={26} fill="none" strokeLinecap="round" /></g>; })()}
-        {acc.includes('handbag') && (() => { const W = arms[three ? 1 : 1].W; return <g transform={`translate(${W[0] + 20},${W[1] + 120})`}><path d="M-60,-40 C-60,-200 60,-200 60,-40" stroke="#4a2a2e" strokeWidth={12} fill="none" /><Form id={`${id}-hb`} d={sp([[-120, -40, 0.4], [120, -40, 0.4], [130, 160, 0.4], [-130, 160, 0.4]])} c="#6a2e34" so={50} lo={40} ro={8} soft={12}><rect x={-26} y={0} width={52} height={30} fill="#c4a24a" /></Form></g>; })()}
-        {acc.includes('clipboard') && (() => { const W = arms[three ? 1 : 0].W; return <g transform={`translate(${W[0]},${W[1] + 120}) rotate(4)`}><Form id={`${id}-cb`} d="M-110,-150 H110 V170 H-110Z" c="#8a6a44" so={40} lo={30} ro={8} soft={6} /><rect x={-90} y={-120} width={180} height={270} fill="#ece6d6" /><path d="M-70,-70 H70 M-70,-30 H70 M-70,10 H40 M-70,50 H60" stroke="#8a8478" strokeWidth={6} /><rect x={-40} y={-168} width={80} height={44} rx={8} fill="#9aa0a8" /></g>; })()}
-        {acc.includes('puddle') && <Drips y={c.hemY + 30} w={hw} f={f} />}
-        {s.hairStyle === 'ghostlong' && !back && [-1, 1].map((q) => <Form key={q} id={`${id}-gs${q}`} d={sp([[q * 70, -2720], [q * 180, -2700], [q * 210, -2400], [q * 214, -2000], [q * 196, -1600], [q * 170, -1380, 0.2], [q * 150, -1560], [q * 120, -1450, 0.2], [q * 104, -1700], [q * 96, -2100], [q * 84, -2500]])} c={s.hair} so={50} lo={30} soft={12} line={3}><Crease d={sp([[q * 120, -2600], [q * 150, -2200], [q * 160, -1700]], false)} c="#5a6680" w={7} o={0.6} b={3} /><Crease d={sp([[q * 170, -2600], [q * 190, -2200], [q * 186, -1800]], false)} c="#5a6680" w={5} o={0.45} b={3} /></Form>)}
-        <g transform={headT}>
-          {back ? <BackHead s={s} id={id} /> : <Head s={s} expr={expr} f={f} turn={Math.max(-1, Math.min(1, hturn))} uid={id + 'h'} noBack={longHair} />}
-        </g>
-        {R.handsFront && (three ? drawArm(1) : <>{drawArm(0)}{drawArm(1)}</>)}
-      </g>
+      <ellipse cx={-62} cy={ey + 2} rx={48} ry={28} fill={s.skinD} opacity={0.3 + s.age * 0.06} />
+      {blink ? <path d={`M-98,${ey} C-80,${ey + 8} -44,${ey + 8} -26,${ey}`} stroke={O} strokeWidth={7} fill="none" /> : (<g>
+        <path d={`M-98,${ey} C-84,${ey - er - 6} -40,${ey - er - 6} -26,${ey} C-40,${ey + er} -84,${ey + er} -98,${ey}Z`} fill="#dcd4bc" stroke={O} strokeWidth={4} />
+        <circle cx={-62 + gx * sx} cy={ey} r={fear ? 9 : fem ? 13 : 12} fill={s.eyeC || '#150c07'} /><circle cx={-62 + gx * sx} cy={ey} r={fear ? 5 : 7} fill="#05030a" /><circle cx={-58 + gx * sx} cy={ey - 4} r={3} fill="#f3eddc" />
+        <path d={`M-102,${ey + 2} C-84,${ey - er - 10} -40,${ey - er - 10} -22,${ey + 2}`} stroke={O} strokeWidth={fem ? 10 : 8} fill="none" strokeLinecap="round" />
+        {fem && <path d="M-102,-22 l-14,-10 M-98,-30 l-10,-14" stroke={O} strokeWidth={5} strokeLinecap="round" />}
+        {s.age >= 2 && !fear && <path d={`M-98,${ey - 4} C-80,${ey - 14} -44,${ey - 14} -26,${ey - 6} L-26,${ey - 2} C-44,${ey - 8} -80,${ey - 8} -98,${ey}Z`} fill={O} opacity={0.3} />}
+      </g>)}
+      <path d={`M-100,${ey + 14} C-76,${ey + 38} -44,${ey + 36} -22,${ey + 14}`} stroke={s.skinD} strokeWidth={4} fill="none" opacity={0.3 + wr} />
+      <path d={`M-112,${-52 + bro} C-84,${-84 + bro} -40,${-80 + bro} -12,${-52 + bro + (fear ? -8 : 6)}`} stroke={s.grey ? '#8c8c86' : s.hair} strokeWidth={fem ? 9 : 14} fill="none" strokeLinecap="round" />
+      {s.age >= 1 && <path d={`M-124,${ey - 4} l-16,-8 M-124,${ey + 6} l-18,2 M-122,${ey + 16} l-14,12`} stroke={s.skinD} strokeWidth={3} opacity={0.3 + wr} />}
+      {s.glasses && <ellipse cx={-62} cy={ey} rx={52} ry={40} fill="#cfe0ea" fillOpacity={0.18} stroke="#2a2018" strokeWidth={6} />}
     </g>
   );
-  const lying = R.rot ? `rotate(${R.rot} 0 ${P0}) translate(0,${-P0})` : '';
+  const lipC = s.lip || (fem ? '#a8585a' : '#8a5040');
+  const mouth = speak ? (<g><path d="M-48,124 C-20,112 20,112 48,124 C40,160 -40,160 -48,124Z" fill="#2a0e0e" stroke={O} strokeWidth={6} /><path d="M-40,122 C-16,114 16,114 40,122 L36,134 C14,128 -14,128 -36,134Z" fill="#d9d0b6" /></g>) : fear ? (<path d="M-40,128 C-16,118 16,118 40,128 C32,150 -32,150 -40,128Z" fill="#2a0e0e" stroke={O} strokeWidth={6} />) : fem ? (<g><path d="M-44,128 C-20,114 -6,118 0,122 C6,118 20,114 44,128 C20,150 -20,150 -44,128Z" fill={lipC} stroke={O} strokeWidth={5} /><path d="M-44,128 C-16,132 16,132 44,128" stroke={O} strokeWidth={4} fill="none" /></g>) : (<g><path d="M-54,130 C-20,120 20,120 54,128" stroke={O} strokeWidth={8} fill="none" strokeLinecap="round" /><path d="M-54,130 q-8,6 -10,20 M54,128 q8,6 10,20" stroke={O} strokeWidth={5} fill="none" opacity={0.7 + s.age * 0.1} /></g>);
+  return (
+    <g transform={`scale(${fw},1)`}>
+      <defs><radialGradient id={gid} cx="0.4" cy="0.35" r="0.8"><stop offset="0" stopColor={mix(s.skin, '#ffffff', 0.22)} /><stop offset="1" stopColor={s.skin} /></radialGradient></defs>
+      {[-1, 1].map((q) => <ellipse key={q} cx={q * 152} cy={0} rx={24} ry={48} fill={mix(s.skin, '#000000', 0.08)} stroke={O} strokeWidth={6} />)}
+      <path d={face} fill={`url(#${gid})`} stroke={O} strokeWidth={8} strokeLinejoin="round" />
+      <Speck id={'spk' + s.id} d={face} seed={s.id.length * 7 + 3} n={240} col={mix(s.skinD, '#000000', 0.3)} />
+      <path d="M60,-225 C120,-200 156,-130 150,-20 C146,90 120,160 70,205 C100,120 110,40 100,-30 C96,-120 90,-190 60,-225Z" fill="#000" opacity={0.18} />
+      {s.age >= 1 && <path d="M-120,-150 C-70,-168 70,-168 120,-150 M-110,-120 C-60,-136 60,-136 110,-120 M-96,-98 C-50,-110 50,-110 96,-98" stroke={s.skinD} strokeWidth={4} fill="none" opacity={0.2 + wr} />}
+      {eye(1)}{eye(-1)}
+      <path d="M-12,-44 C-18,10 -28,40 -38,60 M12,-44 C16,0 22,30 30,52" stroke={O} strokeWidth={5} fill="none" opacity={0.6} />
+      <path d="M-36,62 C-38,42 -14,40 0,46 C14,40 38,42 36,62 C20,82 -20,82 -36,62Z" fill={mix(s.skin, '#000000', 0.06)} opacity={0.7} stroke={O} strokeWidth={4} /><path d="M-20,70 q4,6 10,2 M10,72 q6,4 10,-2" stroke={O} strokeWidth={5} fill="none" />
+      <path d="M-70,64 C-92,96 -84,114 -66,128 M70,64 C92,96 84,114 66,128" stroke={O} strokeWidth={4} fill="none" opacity={0.2 + wr * 1.5} />
+      {s.stache && <path d="M-60,108 C-40,92 -14,96 0,106 C14,96 40,92 60,108 C40,124 14,116 0,114 C-14,116 -40,124 -60,108Z" fill={s.grey ? '#7c7c78' : s.hair} stroke={O} strokeWidth={4} />}
+      {mouth}
+      {!fem && s.age < 3 && !s.stache && <Speck id={'stb' + s.id} d="M-140,70 C-130,170 -60,230 0,228 C60,230 130,170 140,70 C100,120 60,140 0,140 C-60,140 -100,120 -140,70Z" seed={9} n={90} col="#1b130f" op={0.4} r={1.5} />}
+      {s.glasses && <g><path d="M-10,-20 C-4,-26 4,-26 10,-20" stroke="#2a2018" strokeWidth={6} fill="none" /><ellipse cx={62} cy={ey} rx={52} ry={40} fill="#cfe0ea" fillOpacity={0.18} stroke="#2a2018" strokeWidth={6} /></g>}
+    </g>
+  );
+};
+const hairC = (s: Spec) => (s.grey ? '#b8b8b0' : s.hair);
+export const HairBack: React.FC<{ s: Spec }> = ({ s }) => {
+  const c = hairC(s);
+  if (s.hairStyle === 'long') return <path d="M-172,-60 C-210,-270 210,-270 172,-60 C196,100 206,300 186,540 L-186,540 C-206,300 -196,100 -172,-60Z" fill={c} stroke={INK} strokeWidth={7} />;
+  if (s.hairStyle === 'bun') return <circle cx={0} cy={-268} r={60} fill={c} stroke={INK} strokeWidth={7} />;
+  if (s.hairStyle === 'pigtails') return <g>{[-1, 1].map((q) => <g key={q}><ellipse cx={q * 196} cy={70} rx={40} ry={120} fill={c} stroke={INK} strokeWidth={7} transform={`rotate(${q * -12} ${q * 196} 70)`} /><path d={`M${q * 176},-40 q${q * 30},-14 ${q * 40},20`} stroke={RED} strokeWidth={16} fill="none" strokeLinecap="round" /></g>)}</g>;
+  return null;
+};
+export const HairFront: React.FC<{ s: Spec }> = ({ s }) => {
+  const c = hairC(s), st = s.hairStyle;
+  if (st === 'crop') return <g><path d="M-160,-34 C-186,-200 -84,-262 0,-258 C90,-262 186,-200 160,-34 C152,-96 124,-146 78,-172 L66,-140 L44,-186 L22,-150 L0,-196 L-20,-152 L-44,-188 L-64,-142 L-82,-170 C-128,-142 -150,-96 -160,-34Z" fill={c} stroke={INK} strokeWidth={7} strokeLinejoin="round" /></g>;
+  if (st === 'messy') return <path d="M-164,-30 C-196,-190 -90,-262 0,-256 C96,-262 196,-190 164,-30 C158,-90 140,-130 112,-150 L120,-190 L84,-158 L76,-210 L44,-160 L26,-214 L2,-160 L-22,-218 L-44,-160 L-76,-206 L-84,-150 L-122,-186 L-112,-140 C-146,-110 -156,-80 -164,-30Z" fill={c} stroke={INK} strokeWidth={7} strokeLinejoin="round" />;
+  if (st === 'long') return <g><path d="M0,-232 C-100,-234 -166,-150 -162,-20 C-150,-110 -90,-162 0,-166 C90,-162 150,-110 162,-20 C166,-150 100,-234 0,-232Z" fill={c} stroke={INK} strokeWidth={7} />{[-1, 1].map((q) => <path key={q} d={`M${q * 150},-30 C${q * 160},60 ${q * 150},170 ${q * 142},270 L${q * 118},270 C${q * 124},150 ${q * 128},60 ${q * 126},-20Z`} fill={c} stroke={INK} strokeWidth={6} />)}<path d="M0,-232 V-170" stroke="#000" strokeWidth={4} opacity={0.5} /></g>;
+  if (st === 'bun') return <path d="M-158,-40 C-176,-200 -80,-250 0,-246 C80,-250 176,-200 158,-40 C140,-110 90,-170 0,-176 C-90,-170 -140,-110 -158,-40Z" fill={c} stroke={INK} strokeWidth={7} />;
+  if (st === 'greyshort') return <g><path d="M-160,-40 C-176,-190 -80,-240 0,-236 C80,-240 176,-190 160,-40 C150,-100 120,-140 90,-160 C60,-130 -60,-130 -90,-160 C-120,-140 -150,-100 -160,-40Z" fill={c} stroke={INK} strokeWidth={7} /><path d="M-60,-170 q-10,-14 -4,-30 M10,-172 q4,-18 -2,-30 M70,-168 q12,-14 6,-30" stroke="#8a8a84" strokeWidth={4} fill="none" /></g>;
+  if (st === 'pigtails') return <path d="M-164,-30 C-190,-330 190,-330 164,-30 C140,-100 100,-122 0,-126 C-100,-122 -140,-100 -164,-30Z" fill={c} stroke={INK} strokeWidth={7} />;
+  if (st === 'cap') return <g><path d="M-158,-80 C-164,-70 -160,-40 -152,-20 L-130,-20 L-130,-80Z M158,-80 C164,-70 160,-40 152,-20 L130,-20 L130,-80Z" fill={s.hair} stroke={INK} strokeWidth={5} /><path d="M-176,-96 C-186,-262 186,-262 176,-96Z" fill="#1d2a40" stroke={INK} strokeWidth={7} /><rect x={-176} y={-112} width={352} height={30} fill="#10192a" stroke={INK} strokeWidth={5} /><path d="M-196,-86 C-120,-50 120,-50 196,-86 L184,-62 C100,-22 -100,-22 -184,-62Z" fill="#10192a" stroke={INK} strokeWidth={6} /><path d="M0,-210 l16,24 l-16,24 l-16,-24Z" fill="#b89a3c" stroke={INK} strokeWidth={4} /></g>;
+  return null;
+};
+// ===== full body. Origin = feet centre, up is negative. adult about 3040 tall before gs/legK.
+export const FullPerson: React.FC<{ s: Spec; x?: number; y?: number; k?: number; f?: number; expr?: string }> = ({ s, x = 0, y = 0, k = 1, f = 0, expr = 'neutral' }) => {
+  const sw = s.sw || 300, hw = s.hw || 236, legK = s.legK || 1, hs = s.hs || 1, gs = s.gs || 1, dy = 1560 * (1 - legK), fem = s.sex === 'f';
+  const acc = s.acc || []; const O = INK; const top = s.topC, topD = s.topD, inner = s.inner || '#d6ccb2';
+  const longSk = s.bottom === 'skirtLong', kneeSk = s.bottom === 'dressKnee'; const skirtY = longSk ? -330 : -1000;
+  const armX = sw - 300;
   return (
     <g transform={`translate(${x},${y}) scale(${k * gs})`}>
-      <Painted>
-        {!R.rot && (acc.includes('puddle') ? <g><ellipse cx={0} cy={6} rx={460} ry={46} fill="#16222e" opacity={0.85} /><ellipse cx={-40} cy={2} rx={300} ry={22} fill="#7a98ae" opacity={0.25} /></g> : <Ground rx={420} />)}
-        <g transform={lying}>{body}</g>
-      </Painted>
+      <ellipse cx={0} cy={4} rx={400} ry={32} fill="#000" opacity={0.28} />
+      {/* LEGS */}
+      <g transform={`scale(1,${legK})`}>
+        {[0, 1].map((i) => (<g key={i} transform={i ? 'scale(-1,1)' : ''}>
+          <path d={`M${-hw + 4},-1560 C${-hw},-1100 ${-hw - 6},-700 -214,-170 L-98,-170 C-94,-700 -60,-1100 -6,-1560Z`} fill={longSk || kneeSk ? s.skin : s.botC} stroke={O} strokeWidth={8} strokeLinejoin="round" />
+          {!(longSk || kneeSk) && <path d={`M${-hw + 4},-1560 C${-hw},-1100 ${-hw - 6},-700 -214,-170 L-170,-170 C-196,-700 -200,-1100 -196,-1560Z`} fill="#000" opacity={0.3} />}
+          {kneeSk && <path d="M-214,-640 L-98,-640 L-98,-170 L-214,-170Z" fill={mixc(s.botC)} opacity={0.0} />}
+          <path d="M-232,-200 H-92 L-80,-110 C-50,-90 -34,-50 -34,-14 C-34,14 -300,14 -302,-10 C-300,-60 -250,-96 -232,-200Z" fill={s.shoeC} stroke={O} strokeWidth={8} strokeLinejoin="round" /><path d="M-302,-4 H-34" stroke="#0a0706" strokeWidth={14} />
+          {acc.includes('redLaces') && <path d="M-200,-150 H-110 M-196,-120 H-114" stroke={RED} strokeWidth={9} />}
+        </g>))}
+      </g>
+      <g transform={`translate(0,${dy})`}>
+        {/* skirt / dress */}
+        {(longSk || kneeSk) && <g><path d={`M${-hw},-1700 C${-hw - 30},-1400 ${-hw - 150},${skirtY - 400} ${-hw - 190},${skirtY} L${hw + 190},${skirtY} C${hw + 150},${skirtY - 400} ${hw + 30},-1400 ${hw},-1700Z`} fill={s.botC} stroke={O} strokeWidth={8} strokeLinejoin="round" /><path d={`M${hw},-1700 C${hw + 30},-1400 ${hw + 150},${skirtY - 400} ${hw + 190},${skirtY} L40,${skirtY} C60,-1300 60,-1500 40,-1700Z`} fill="#000" opacity={0.25} /><path d={`M-120,-1600 C-150,-1300 -190,${skirtY - 300} -220,${skirtY} M60,-1600 C80,-1300 120,${skirtY - 300} 160,${skirtY}`} stroke={O} strokeWidth={4} fill="none" opacity={0.4} /></g>}
+        {/* neck */}
+        <path d="M-70,-2660 L-70,-2470 C-30,-2440 30,-2440 70,-2470 L70,-2660Z" fill={s.skin} stroke={O} strokeWidth={7} /><path d="M-70,-2600 L-70,-2470 C-30,-2440 30,-2440 70,-2470 L70,-2560 C20,-2520 -30,-2540 -70,-2600Z" fill="#000" opacity={0.18} />
+        {/* torso */}
+        {s.top === 'hoodie' && <path d="M-150,-2540 C-120,-2420 120,-2420 150,-2540 C200,-2420 100,-2380 0,-2380 C-100,-2380 -200,-2420 -150,-2540Z" fill={topD} stroke={O} strokeWidth={7} />}
+        <path d={`M${-sw},-2470 C${-sw - 12},-2250 ${-hw - 20},-1950 ${-hw},-${s.top === 'jacket' ? 1380 : 1540} H${hw} C${hw + 20},-1950 ${sw + 12},-2250 ${sw},-2470 C150,-2540 -150,-2540 ${-sw},-2470Z`} fill={top} stroke={O} strokeWidth={8} strokeLinejoin="round" />
+        <path d={`M${sw},-2470 C${sw + 12},-2250 ${hw + 20},-1950 ${hw},-${s.top === 'jacket' ? 1380 : 1540} H100 C150,-1900 190,-2200 170,-2500Z`} fill="#000" opacity={0.26} />
+        <path d="M-130,-2300 q-30,200 -20,420 M120,-2200 q40,200 30,360" stroke={O} strokeWidth={4} fill="none" opacity={0.4} />
+        {s.top === 'shirt' && <g><path d="M-96,-2504 L0,-2330 L-34,-2530Z M96,-2504 L0,-2330 L34,-2530Z" fill={mixc(top, 0.2)} stroke={O} strokeWidth={6} /><path d="M0,-2330 V-1560" stroke={O} strokeWidth={5} />{[0, 1, 2, 3, 4].map((q) => <circle key={q} cx={-16} cy={-2220 + q * 150} r={11} fill={inner} stroke={O} strokeWidth={4} />)}</g>}
+        {s.top === 'cardigan' && <g><path d="M-120,-2490 L0,-2260 L120,-2490 L90,-2400 L0,-2200 L-90,-2400Z" fill={inner} stroke={O} strokeWidth={6} /><path d="M0,-2260 V-1540" stroke={O} strokeWidth={6} />{[0, 1, 2, 3].map((q) => <circle key={q} cx={-18} cy={-2150 + q * 170} r={14} fill={mixc(top, 0.5)} stroke={O} strokeWidth={4} />)}<rect x={-200} y={-1900} width={110} height={130} fill={topD} stroke={O} strokeWidth={5} opacity={0.8} /><rect x={90} y={-1900} width={110} height={130} fill={topD} stroke={O} strokeWidth={5} opacity={0.8} /></g>}
+        {s.top === 'jacket' && <g><path d="M-170,-2520 L-60,-2250 L0,-2240 L60,-2250 L170,-2520 L110,-2570 L0,-2420 L-110,-2570Z" fill={topD} stroke={O} strokeWidth={7} strokeLinejoin="round" /><path d="M0,-2250 V-1380" stroke={O} strokeWidth={7} /><path d="M-16,-2240 V-1400 M16,-2240 V-1400" stroke="#1a1a14" strokeWidth={3} opacity={0.6} />{[-1, 1].map((q) => <path key={q} d={`M${q * 120},-1900 H${q * 230} V-1650 H${q * 120}Z`} fill={topD} stroke={O} strokeWidth={5} opacity={0.85} />)}</g>}
+        {s.top === 'hoodie' && <g><path d="M-120,-2400 L-110,-2150 M120,-2400 L110,-2150" stroke={inner} strokeWidth={10} strokeLinecap="round" /><path d="M-170,-1860 H170 L210,-1560 H-210Z" fill={topD} stroke={O} strokeWidth={6} opacity={0.9} /></g>}
+        {s.top === 'uniform' && <g><path d="M-96,-2504 L0,-2330 L-34,-2530Z M96,-2504 L0,-2330 L34,-2530Z" fill={mixc(top, 0.25)} stroke={O} strokeWidth={6} /><path d="M-18,-2380 L18,-2380 L30,-1950 L0,-1880 L-30,-1950Z" fill="#1a1a22" stroke={O} strokeWidth={5} /><path d="M0,-2330 V-1560" stroke={O} strokeWidth={5} opacity={0.5} /><rect x={-236} y={-1640} width={472} height={60} fill="#17110d" stroke={O} strokeWidth={6} /><rect x={-34} y={-1646} width={68} height={72} fill="#b89a3c" stroke={O} strokeWidth={5} />{[-1, 1].map((q) => <g key={q}><rect x={q * 190 - 50} y={-2480} width={100} height={36} fill="#10192a" stroke={O} strokeWidth={5} /><rect x={q * 120 - 40} y={-2250} width={80} height={110} fill={topD} stroke={O} strokeWidth={5} opacity={0.8} /></g>)}<path d="M-170,-2250 l50,-14 v70 l-50,-14Z" fill="#b89a3c" stroke={O} strokeWidth={4} /></g>}
+        {acc.includes('badge') && <path d="M120,-2260 l22,-16 l22,16 l-8,28 h-28Z" fill="#b89a3c" stroke={O} strokeWidth={4} />}
+        {acc.includes('satchel') && <g><path d="M-250,-2490 L250,-1680 L190,-1640 L-300,-2440Z" fill="#8a6a44" stroke={O} strokeWidth={6} /><rect x={150} y={-1900} width={250} height={280} rx={26} fill="#8a6a44" stroke={O} strokeWidth={8} transform="rotate(-6 280 -1760)" /></g>}
+        {acc.includes('backpack') && <g><path d="M-190,-2480 C-200,-2200 -190,-1900 -160,-1700 M190,-2480 C200,-2200 190,-1900 160,-1700" stroke="#2b2b30" strokeWidth={40} fill="none" strokeLinecap="round" /><path d="M-190,-2480 C-200,-2200 -190,-1900 -160,-1700 M190,-2480 C200,-2200 190,-1900 160,-1700" stroke={O} strokeWidth={6} fill="none" opacity={0.5} /><rect x={-sw - 70} y={-2300} width={80} height={520} rx={30} fill="#33333a" stroke={O} strokeWidth={7} /><rect x={sw - 10} y={-2300} width={80} height={520} rx={30} fill="#33333a" stroke={O} strokeWidth={7} /></g>}
+        {acc.includes('redScarf') && <g><path d="M-120,-2540 C-60,-2440 60,-2440 120,-2540 L130,-2470 C60,-2390 -60,-2390 -130,-2470Z" fill={RED} stroke={O} strokeWidth={7} /><path d="M40,-2440 L90,-2100 L150,-2120 L110,-2460Z" fill={RED} stroke={O} strokeWidth={7} /></g>}
+        {acc.includes('shawl') && <g><path d={`M${-sw - 40},-2480 C-200,-2560 200,-2560 ${sw + 40},-2480 C${sw + 60},-2200 ${sw + 20},-1900 ${sw - 20},-1780 L0,-1980 L${-sw + 20},-1780 C${-sw - 20},-1900 ${-sw - 60},-2200 ${-sw - 40},-2480Z`} fill={s.accC || '#8a7aa0'} stroke={O} strokeWidth={8} strokeLinejoin="round" /><path d="M-200,-2200 q40,150 20,300 M200,-2200 q-40,150 -20,300" stroke={O} strokeWidth={4} fill="none" opacity={0.4} /></g>}
+        {/* ARMS */}
+        {[0, 1].map((i) => (<g key={i} transform={i ? 'scale(-1,1)' : ''}><g transform={`translate(${-armX},0)`}>
+          <path d="M-388,-1940 C-402,-1800 -382,-1650 -368,-1530 L-286,-1530 C-284,-1650 -284,-1800 -292,-1940Z" fill={s.skin} stroke={O} strokeWidth={7} strokeLinejoin="round" /><path d="M-330,-1940 C-330,-1800 -320,-1650 -322,-1530 L-286,-1530 C-284,-1650 -284,-1800 -292,-1940Z" fill="#000" opacity={0.2} />
+          <path d={`M-300,-2480 C-396,-2300 -410,-2100 -398,${s.rolled ? -1940 : -1560} L-282,${s.rolled ? -1940 : -1560} C-282,-2100 -260,-2300 -236,-2440Z`} fill={top} stroke={O} strokeWidth={8} strokeLinejoin="round" />
+          {s.rolled && <rect x={-406} y={-2000} width={128} height={70} rx={14} fill={mixc(top, 0.2)} stroke={O} strokeWidth={6} />}
+          {!s.rolled && <rect x={-404} y={-1610} width={124} height={50} rx={12} fill={topD} stroke={O} strokeWidth={5} />}
+          <Hand x={-328} y={-1520} s={0.5} rot={180} skin={s.skin} shade={s.skinD} ext={[0.75, 0.7, 0.65, 0.55]} thumb={0.2} />
+          {i === 1 && acc.includes('cane') && <g><path d="M-338,-1450 L-300,0" stroke="#3a2a1c" strokeWidth={26} strokeLinecap="round" /><path d="M-338,-1450 L-300,0" stroke={O} strokeWidth={5} fill="none" opacity={0.6} /><path d="M-338,-1450 C-338,-1520 -400,-1530 -400,-1470" stroke="#3a2a1c" strokeWidth={26} fill="none" strokeLinecap="round" /></g>}
+          {i === 0 && acc.includes('handbag') && <g><path d="M-330,-1400 C-330,-1560 -250,-1560 -250,-1400" stroke={O} strokeWidth={8} fill="none" /><rect x={-420} y={-1400} width={240} height={190} rx={22} fill="#6a3a3e" stroke={O} strokeWidth={8} /><rect x={-330} y={-1340} width={60} height={40} fill="#b89a3c" stroke={O} strokeWidth={4} /></g>}
+        </g></g>))}
+        {/* HEAD */}
+        <g transform={`translate(0,-2780) translate(0,250) scale(${hs}) translate(0,-250)`}><HairBack s={s} /><FacePerson s={s} expr={expr} f={f} /><HairFront s={s} /></g>
+        {s.hairStyle === 'long' && [-1, 1].map((q) => <path key={q} d={`M${q * 150},-2500 C${q * 200},-2300 ${q * 210},-2100 ${q * 190},-1800 L${q * 130},-1800 C${q * 140},-2100 ${q * 130},-2300 ${q * 110},-2500Z`} fill={hairC(s)} stroke={O} strokeWidth={7} />)}
+      </g>
     </g>
   );
 };
-
-// ===== CLOSE-UP (fixes floating heads): the face sits at (0,0) in face units (same size as the old Head/FacePerson),
-// but the neck, shoulders and the rest of the body are always attached below it. Let the frame edge crop the body.
-export const CloseUp: React.FC<{ s: Spec; expr?: Expr; f?: number; turn?: number; uid?: string; view?: View; face?: 1 | -1; motion?: Motion; light?: unknown }> = ({ s, expr = 'neutral', f = 4, turn, uid, view, face, motion }) => {
-  const v: View = view || (turn && Math.abs(turn) > 0.25 ? 'three' : 'front');
-  const T = v === 'three' ? (face ?? (turn !== undefined && turn < 0 ? -1 : 1)) : 0;
-  const legK = s.legK || 1, gs = s.gs || 1, hs = s.hs || (s.kid ? 1.25 : 1.0);
-  const R = motionRig(motion || (s.ghost ? { type: 'still' } : { type: 'idle' }), T, legK, f);
-  const hp = headPos(R, T, legK, T * 26, s.kid ? -2770 : -2740);
-  const sx = v === 'three' ? 0.86 : 1;
-  const kk = 1 / (hs * gs);
-  return <FullPerson s={s} view={v} face={T ? (T as 1 | -1) : undefined} turn={turn} expr={expr} f={f} uid={uid || `cu-${s.id}-${expr}`} motion={motion} x={-hp[0] * sx * hs} y={-hp[1] * hs} k={kk} />;
+function mixc(c: string, t = 0.25) { return mix(c, '#ffffff', t); }
+// ===== THE CAST (muted palette, same style as Noah and the ghosts)
+export const CAST: Record<string, Spec> = {
+  mira: { id: 'mira', name: 'MIRA VALE', sex: 'f', age: 0, skin: '#d6a982', skinD: '#8c6240', hair: '#2a1a16', hairStyle: 'long', eyeC: '#2a1a10', lip: '#9a4a4a', fw: 0.96, top: 'jacket', topC: '#566b4a', topD: '#3a4a32', inner: '#d8cfb4', sw: 262, hw: 244, bottom: 'trousers', botC: '#3c4b66', shoeC: '#2b2019', acc: ['redScarf'] },
+  elias: { id: 'elias', name: 'ELIAS GRAY', sex: 'm', age: 3, skin: '#c9a380', skinD: '#7a5a42', hair: '#b8b8b0', grey: true, hairStyle: 'greyshort', stache: true, glasses: false, top: 'cardigan', topC: '#6e5a3e', topD: '#4a3a28', inner: '#cfc6a8', sw: 280, hw: 236, bottom: 'trousers', botC: '#555a5c', shoeC: '#2b2019', gs: 0.96, acc: ['cane'] },
+  rose: { id: 'rose', name: 'ROSE MARLOW', sex: 'f', age: 3, skin: '#d2b08e', skinD: '#85634a', hair: '#b8b8b0', grey: true, hairStyle: 'bun', glasses: true, eyeC: '#2a1a10', lip: '#9a5a5a', fw: 0.94, top: 'cardigan', topC: '#7a5a6a', topD: '#523a48', inner: '#d6ccb0', sw: 250, hw: 250, bottom: 'skirtLong', botC: '#4e4258', shoeC: '#2b2019', gs: 0.9, acc: ['shawl', 'handbag'], accC: '#8a7aa0' },
+  sam: { id: 'sam', name: 'SAM CARTER (teen)', sex: 'm', age: 0, skin: '#b88a62', skinD: '#7a5636', hair: '#1c1612', hairStyle: 'messy', fw: 0.94, top: 'hoodie', topC: '#8a5a42', topD: '#5e3c2c', inner: '#d6ccb0', sw: 270, hw: 220, rolled: false, bottom: 'trousers', botC: '#3a4258', shoeC: '#d8d2c0', gs: 0.95, acc: ['backpack', 'redLaces'] },
+  lily: { id: 'lily', name: 'LILY (child)', sex: 'f', age: 0, skin: '#e0bc9a', skinD: '#a07a58', hair: '#3a2418', hairStyle: 'pigtails', eyeC: '#3a2418', lip: '#b0605e', fw: 1.0, top: 'cardigan', topC: '#6e8aa0', topD: '#4a6478', inner: '#e4dcc4', sw: 220, hw: 210, bottom: 'dressKnee', botC: '#6e8aa0', shoeC: '#7a3a3a', legK: 0.62, hs: 1.3, gs: 0.8, acc: ['redRibbons'] },
+  dale: { id: 'dale', name: 'OFFICER DALE REYES', sex: 'm', age: 2, skin: '#b88c68', skinD: '#7a5a3c', hair: '#1c1612', hairStyle: 'cap', stache: true, fw: 1.04, top: 'uniform', topC: '#3e506c', topD: '#26354a', inner: '#d6ccb0', sw: 316, hw: 252, rolled: false, bottom: 'trousers', botC: '#202838', shoeC: '#15110e', gs: 1.02, acc: ['badge'] },
 };
-
-// back of the head (hair covers it)
-const BackHead: React.FC<{ s: Spec; id: string }> = ({ s, id }) => {
-  const L = useLight();
-  const hair = s.grey ? '#b9b7b0' : s.hair;
-  const skullD = sym([[0, -250], [96, -238], [152, -180], [164, -90], [158, 0], [140, 80], [100, 150], [0, 180]]);
-  return (
-    <g>
-      {[-1, 1].map((q) => <Form key={q} id={`${id}-be${q}`} d={sp([[q * 130, -48], [q * 158, -66], [q * 180, -44], [q * 182, -6], [q * 172, 28], [q * 156, 52], [q * 134, 60]])} c={s.skin} so={20} lo={10} ro={6} soft={6} />)}
-      <Form id={`${id}-bn`} d={sym([[0, -20], [76, -20], [80, 120], [90, 250], [0, 260]])} c={s.skin} so={50} lo={20} ro={8} soft={12}><Patch d="M-90,-20 H90 V90 C40,110 -40,110 -90,90Z" c="#1a0c10" o={0.35} b={12} /></Form>
-      {s.hairStyle === 'cap' ? <Form id={`${id}-bc`} d={sym([[0, -342], [110, -334], [180, -292], [204, -220], [200, -120], [150, -110], [140, 20], [0, 40]])} c="#1f2a42" so={80} lo={60} ro={12} soft={24} />
-        : s.hairStyle === 'bald' ? <Form id={`${id}-bs`} d={skullD} c={s.skin} so={80} lo={60} ro={12} soft={24} />
-          : <Form id={`${id}-bh`} d={sym([[0, s.hairStyle === 'greyshort' ? -262 : -340], [112, -322], [174, -266], [196, -176], [188, -80], [162, 0], [112, 44], [60, 58], [0, 50]])} c={hair} so={90} lo={60} ro={12} soft={24}>
-            {[-120, -60, 0, 60, 120].map((xx, i) => <Crease key={i} d={`M${xx * 0.2},-320 C${xx * 0.9},-220 ${xx * 1.1},-80 ${xx * 0.8},50`} c={dark(hair, 0.55)} w={10} o={0.55} />)}
-            {[-90, -30, 30, 90].map((xx, i) => <Crease key={i} d={`M${xx * 0.2},-310 C${xx * 0.9},-230 ${xx * 1.05},-140 ${xx},-80`} c={mix(hair, '#8a96b8', 0.45)} w={7} o={0.5} b={3} />)}
-            <Patch d="M-160,-250 C-60,-330 80,-330 160,-250 C100,-214 -60,-224 -160,-214Z" c={mix(hair, '#8a96b8', 0.4)} o={0.5} b={24} />
-          </Form>}
-      {s.hairStyle === 'bun' && <Form id={`${id}-bb`} d={sp([[-76, -280], [-44, -346], [30, -356], [90, -314], [84, -256], [10, -238], [-64, -246]])} c={hair} so={40} lo={30} ro={8} soft={12} />}
-      {(s.hairStyle === 'long' || s.hairStyle === 'ghostlong') && <Form id={`${id}-bl`} d={sym([[0, -330], [120, -310], [196, -230], [214, -100], [222, 120], [230, s.hairStyle === 'ghostlong' ? 760 : 560, 0.4], [0, s.hairStyle === 'ghostlong' ? 780 : 580]])} c={hair} so={90} lo={60} ro={12} soft={24}>{[-150, -60, 50, 140].map((xx, i) => <Crease key={i} d={`M${xx * 0.3},-300 C${xx},-100 ${xx * 1.2},200 ${xx * 1.3},540`} c={dark(hair, 0.5)} w={12} o={0.5} />)}</Form>}
-      {void L}
-    </g>
-  );
-};
-
-// water drips falling from wet ghosts (animated by f)
-const Drips: React.FC<{ y: number; w: number; f: number }> = ({ y, w, f }) => (
-  <g>{Array.from({ length: 6 }).map((_, i) => { const t = (f / 12 + i * 0.37) % 1; const x = -w * 0.8 + (i * w * 1.6) / 5; return <path key={i} d={`M${x},${y + t * 260} q-10,20 0,32 q10,-12 0,-32Z`} fill="#b4cadb" opacity={0.85 * (1 - t)} />; })}</g>
-);
-void Mirror;

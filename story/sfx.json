@@ -1,1 +1,8 @@
-[{"match": "A scream woke me up", "kind": "hiss", "at": "start", "db": -26}, {"match": "I heard its teeth click", "kind": "click", "at": "end", "db": -14}]
+[
+ {"match": "somebody was screaming", "kind": "hiss",   "at": "start", "db": -24},
+ {"match": "I put the light on",      "kind": "click",  "at": "start", "db": -20},
+ {"match": "Then my bedroom door creaked open", "kind": "click", "at": "end", "db": -17},
+ {"match": "started dragging them along it",    "kind": "hiss",  "at": "end", "db": -25},
+ {"match": "went under my bed",       "kind": "rumble", "at": "end", "db": -19},
+ {"match": "something shifts its weight",       "kind": "rumble", "at": "start", "db": -15}
+]

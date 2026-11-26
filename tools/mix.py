@@ -5,16 +5,22 @@ Optional story/sfx.json: a list of tiny, quiet, non-musical effects placed from 
   [{"match": "It hissed", "kind": "hiss", "at": "end", "db": -28}, {"match": "Thud.", "kind": "thud", "at": "start", "db": -8}]
   kind: rumble | thud | click | hiss ; at: start (just before the line) | end (just after) ; db: level vs the voice (keep -8 .. -30).
 Writes audio/<name>/mix.wav (48 kHz stereo, before loudness normalisation)."""
-import sys, json, os
-sys.path.insert(0, os.path.dirname(__file__))
-from cfg import FPS
+import sys, json
 import numpy as np, soundfile as sf
 from scipy.signal import resample_poly, butter, sosfilt, sosfilt_zi
 NAME = sys.argv[1]
 SR = 48000; CH = SR * 10
 v24, _ = sf.read(f'audio/{NAME}/voice.wav', dtype='float32')
 v = (resample_poly(v24, 2, 1) * 0.8).astype(np.float32); del v24
-shots = json.load(open(f'src/shots_{NAME}.json')); target = int(round(shots['frames'] / FPS * SR))
+# The bed has to cover the whole FILM, including the end screen, and the clock is 30 fps.
+# v0.5 divided by 10 here (a leftover from the 10 fps v0.4 shot clock), which made the bed
+# three times the length of the video.
+import os as _os
+if _os.path.exists('src/film.json'):
+    _frames = json.load(open('src/film.json'))[NAME]['filmFrames']
+else:
+    _frames = json.load(open(f'src/shots_{NAME}.json'))['frames']
+target = int(round(_frames / 30 * SR))
 if target > len(v): v = np.concatenate([v, np.zeros(target - len(v), np.float32)])
 n = len(v); dur = n / SR
 tm = json.load(open(f'audio/{NAME}/timing.json'))

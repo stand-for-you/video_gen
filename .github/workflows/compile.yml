@@ -28,7 +28,7 @@ on:
         type: choice
         options: ['false', 'true']
   push:
-    branches: [main]
+    branches: [main, 'story/*']
     paths:
       - 'src/**'
       - 'story/**'
@@ -57,26 +57,18 @@ jobs:
       matrix: ${{ steps.plan.outputs.matrix }}
     steps:
       - uses: actions/checkout@v4
-      # PRE-FLIGHT: repeated pictures are visible in the shot list, which costs a second to
-      # check. Catching them here instead of after the render turns a 25-minute guess loop
-      # (render 14 min -> measure -> guess -> render again) into an instant, specific answer
-      # that names the offending shots. Nothing is rendered until this passes.
-      # Override for a deliberate draft: run with skip_preflight = true.
       - name: Pre-flight the shot list (one-use law)
         if: ${{ github.event.inputs.skip_preflight != 'true' }}
         run: |
           fail=0
-          # labels: clipped or over-used callouts are pure arithmetic, so they never reach a render
-          python3 tools/lint_tags.py || fail=1
-          # poses: a character wrapped in rotate(90) is a tipped statue, not a lying person
-          python3 tools/lint_poses.py || fail=1
-          for n in long reel; do
-            [ -f "src/shots_$n.json" ] || continue
-            echo "== $n"
-            python3 tools/quality_gate.py shots "$n" || fail=1
-          done
+          [ -f tools/lint_story.py ] && { python3 tools/lint_story.py || fail=1; }
+          [ -f tools/lint_poses.py ] && { python3 tools/lint_poses.py || fail=1; }
+          if [ -f tools/gate_shots.py ]; then
+            python3 tools/gate_shots.py long || fail=1
+            python3 tools/gate_shots.py reel || fail=1
+          fi
           if [ "$fail" != 0 ]; then
-            echo "::error::Pre-flight failed. Nothing was rendered. Fix what is listed above (repeated pictures, clipped or over-used labels, creature drift) and push again. Locally: python3 tools/checkpoint.py"
+            echo "::error::Pre-flight failed. Nothing was rendered."
             exit 1
           fi
       - name: Make the plan

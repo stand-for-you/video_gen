@@ -1,15 +1,1 @@
-[
- {"set":"library","v":{"watch":true,"expr":"fear"}},
- {"set":"common","v":{"who":"both"}},
- {"set":"cafeteria","v":{"tray":true}},
- {"set":"hall","v":{"tag":true}},
- {"set":"phone","v":{}},
- {"set":"apartment","v":{"dark":true,"tears":true}},
- {"set":"door","v":{"ethan":true}},
- {"set":"woods","v":{"run":true}},
- {"set":"clearing","v":{"c":"mask","unmask":true,"read":true}},
- {"set":"ritual","v":{"c":"mask","tend":0.8}},
- {"set":"unleashed","v":{"c":"mask","pose2":"loom"}},
- {"set":"hospital","v":{"officer":true}},
- {"set":"face","v":{"who":"jack","tears":true}}
-]
+[]
