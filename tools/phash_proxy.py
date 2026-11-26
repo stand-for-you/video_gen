@@ -45,7 +45,7 @@ def render_stills(comp, shots, fps, outdir):
             # it as a source entry point and fails with "does not contain registerRoot()".
             subprocess.run(
                 ["npx", "remotion", "still", str(ROOT / "build"), comp, str(png), f"--frame={mid}"],
-                cwd=str(ROOT), check=True, capture_output=True, text=True,
+                cwd=str(ROOT), check=True, capture_output=True, text=True, shell=True,
             )
         frames.append((i, mid / fps, sh, png))
     return frames

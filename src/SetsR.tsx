@@ -7,10 +7,9 @@ import { LyingPerson } from './kits/Lying';
 import { BloodPool, Spatter, Stain } from './kits/Blood';
 import {
   PAL, Defs, ease, Cold, Warm, Moon, Candle,
-  MaskThing, Robed, BlackTears, Lantern, NotebookPage, RED,
+  MaskThing, Robed, BlackTears, Lantern, NotebookPage, RED, BlueMask,
 } from './Trust';
-// ===== STORY SLOT: REEL sets (1080x1920), drawn again for vertical. Keep faces + tags between y 220 and 1420
-// (burned-in captions sit near y 1490). Imports only the story kit (Trust.tsx), never SetsL.tsx.
+
 const W = 1080, H = 1920, GND = 1500;
 const E = CAST.sam, J = CAST.noah, EL = CAST.mira, OFF = CAST.dale;
 
@@ -20,9 +19,46 @@ const VWall: React.FC<{ fill?: string }> = ({ fill = PAL.wall }) => (
     <rect x={0} y={GND} width={W} height={H - GND} fill={PAL.floor} /><rect x={0} y={GND} width={W} height={6} fill={PAL.trim} /></g>
 );
 
-// 1 LIBRARY (vertical): Ethan at a monitor, the dark shelves behind.
+// 1 LIBRARY (vertical)
 const rlibrary: React.FC<SetProps> = ({ f, v, t = 0, len = 90 }) => {
   const g = 0.5 + 0.5 * Math.sin(f / 9); const p = ease(t / len);
+  const n = v.n ?? 1;
+
+  // ANGLE A (n=3, 50): narrow vertical bookshelf aisle
+  if (n === 3 || n === 50) {
+    return (
+      <g><Defs /><Cold>
+        <rect x={0} y={0} width={W} height={H} fill="#090d16" />
+        <rect x={0} y={100} width={300} height={GND - 100} fill="#141c28" stroke="#080c12" strokeWidth={6} />
+        {Array.from({ length: 9 }).map((_, r) => <rect key={r} x={10} y={140 + r * 140} width={280} height={12} fill="#0d141e" />)}
+        <rect x={780} y={100} width={300} height={GND - 100} fill="#141c28" stroke="#080c12" strokeWidth={6} />
+        {Array.from({ length: 9 }).map((_, r) => <rect key={r} x={790} y={140 + r * 140} width={280} height={12} fill="#0d141e" />)}
+        <polygon points={`300,${GND} 780,${GND} 620,400 460,400`} fill="#121824" />
+        <rect x={470} y={260} width={140} height={280} fill="#1a2e42" stroke="#060c12" strokeWidth={6} />
+        <LightPool x={540} y={480} rx={280} ry={220} c="#8fd4e6" o={0.35} />
+        <FullPerson s={E} x={540} y={GND - 20} k={0.46} f={f} view="three" face={-1} expr={v.expr ?? 'fear'} turn={-0.3} motion={{ type: 'idle' }} />
+        <Dust x={60} y={200} w={960} h={1100} f={f} n={16} />
+      </Cold><NightMask W={W} H={H} x={540} y={900} r={1050} o={0.4} c="#04060a" /></g>
+    );
+  }
+
+  // ANGLE B (n=51): Study carrel with green reading lamp
+  if (n === 51) {
+    return (
+      <g><Defs /><Cold>
+        <rect x={0} y={0} width={W} height={H} fill="#0b121c" />
+        <rect x={140} y={320} width={800} height={GND - 320} fill="#182436" stroke="#0a0f16" strokeWidth={8} />
+        <rect x={180} y={980} width={720} height={40} fill="#3e2a1c" />
+        <line x1={540} y1={980} x2={540} y2={640} stroke="#101824" strokeWidth={10} />
+        <ellipse cx={360} cy={660} rx={90} ry={40} fill="#248a60" />
+        <LightPool x={360} y={880} rx={360} ry={240} c="#6ae0a4" o={0.4} />
+        <FullPerson s={E} x={420} y={GND} k={0.48} f={f} view="three" face={1} expr={v.expr ?? 'fear'} motion={{ type: 'sit' }} />
+        <Dust x={60} y={200} w={960} h={1100} f={f} n={14} />
+      </Cold><NightMask W={W} H={H} x={540} y={900} r={1050} o={0.36} c="#06080e" /></g>
+    );
+  }
+
+  // Default wide desk (n=1, 4)
   return (
     <g><Defs /><Cold>
       <VWall fill="#2c3340" />
@@ -39,9 +75,59 @@ const rlibrary: React.FC<SetProps> = ({ f, v, t = 0, len = 90 }) => {
   );
 };
 
-// 2 COMMON (vertical): Ethan and Jack, the TV glow.
+// 2 COMMON (vertical)
 const rcommon: React.FC<SetProps> = ({ f, v, t = 0, len = 90 }) => {
   const g = 0.5 + 0.5 * Math.sin(f / 7); const who = v.who ?? 'both';
+  const n = v.n ?? 7;
+
+  // ANGLE A (n=9): Looking over shoulder at glowing TV console
+  if (n === 9) {
+    return (
+      <g><Defs /><Warm>
+        <rect x={0} y={0} width={W} height={H} fill="#1c1612" />
+        <rect x={0} y={GND} width={W} height={H - GND} fill="#241a14" />
+        <rect x={60} y={540} width={460} height={420} rx={16} fill="#080c10" stroke="#1c2634" strokeWidth={8} />
+        <rect x={80} y={560} width={420} height={380} fill="#103c4a" opacity={0.7} />
+        <LightPool x={290} y={750} rx={420} ry={360} c="#6ae0d4" o={0.35} />
+        <FullPerson s={J} x={740} y={GND} k={0.5} f={f} view="three" face={-1} expr={v.jexpr ?? 'sad'} motion={{ type: 'sit' }} />
+        <Dust x={60} y={200} w={960} h={1100} f={f} n={14} />
+      </Warm><NightMask W={W} H={H} x={540} y={900} r={1050} o={0.32} c="#08080e" /></g>
+    );
+  }
+
+  // ANGLE B (n=55): Night dorm window with cold moonlight, small warm lamp on side table
+  if (n === 55) {
+    return (
+      <g><Defs /><Warm>
+        <rect x={0} y={0} width={W} height={H} fill="#141822" />
+        <rect x={0} y={GND} width={W} height={H - GND} fill="#1a1e28" />
+        <rect x={520} y={260} width={460} height={520} fill="#080c14" stroke="#222c3e" strokeWidth={8} />
+        <circle cx={750} cy={480} r={90} fill="#a8c8e8" opacity={0.4} />
+        <LightPool x={750} y={500} rx={400} ry={300} c="#9fc0ff" o={0.25} />
+        <rect x={80} y={940} width={220} height={300} fill="#3a2818" />
+        <ellipse cx={190} cy={880} rx={45} ry={30} fill="#ffd27a" />
+        <LightPool x={190} y={880} rx={260} ry={200} c="#ffd27a" o={0.35} />
+        <FullPerson s={J} x={540} y={GND} k={0.48} f={f} view="three" face={-1} expr={v.jexpr ?? 'neutral'} motion={{ type: 'sit' }} />
+        <Dust x={60} y={200} w={960} h={1100} f={f} n={14} />
+      </Warm><NightMask W={W} H={H} x={540} y={900} r={1050} o={0.35} c="#06080e" /></g>
+    );
+  }
+
+  // ANGLE C (n=52): Warm couch arm close-in
+  if (n === 52) {
+    return (
+      <g><Defs /><Warm>
+        <rect x={0} y={0} width={W} height={H} fill="#241a14" />
+        <rect x={0} y={GND} width={W} height={H - GND} fill="#2e2016" />
+        <rect x={80} y={840} width={920} height={440} rx={28} fill="#515e7c" stroke="#2a3240" strokeWidth={8} />
+        <LightPool x={540} y={800} rx={480} ry={320} c="#ffd27a" o={0.3} />
+        <FullPerson s={E} x={500} y={GND} k={0.52} f={f} view="three" face={1} expr={v.expr ?? 'smile'} motion={{ type: 'sit' }} />
+        <Dust x={60} y={200} w={960} h={1100} f={f} n={14} />
+      </Warm><NightMask W={W} H={H} x={540} y={900} r={1050} o={0.3} c="#0a0a12" /></g>
+    );
+  }
+
+  // Default wide couch (n=5, 7)
   return (
     <g><Defs /><Warm>
       <VWall />
@@ -56,9 +142,44 @@ const rcommon: React.FC<SetProps> = ({ f, v, t = 0, len = 90 }) => {
   );
 };
 
-// 3 CAFETERIA (vertical): Jack shouting, a student flinching back.
+// 3 CAFETERIA (vertical)
 const rcafeteria: React.FC<SetProps> = ({ f, v, t = 0, len = 90 }) => {
   const p = ease(t / len);
+  const n = v.n ?? 10;
+
+  // ANGLE A (n=54): Food service counter with fluorescent tube and stainless rail
+  if (n === 54) {
+    return (
+      <g><Defs /><Cold>
+        <rect x={0} y={0} width={W} height={H} fill="#18202c" />
+        <rect x={0} y={GND} width={W} height={H - GND} fill="#1e2634" />
+        <rect x={100} y={180} width={880} height={40} rx={12} fill="#6ee4f0" />
+        <LightPool x={540} y={300} rx={540} ry={300} c="#6ee4f0" o={0.35} />
+        <rect x={60} y={860} width={960} height={120} fill="#708294" stroke="#222e3c" strokeWidth={8} />
+        {[140, 420, 700].map((x, i) => <rect key={i} x={x} y={780} width={220} height={70} rx={8} fill="#9ab0c4" stroke="#222e3c" strokeWidth={5} />)}
+        <FullPerson s={J} x={520} y={GND} k={0.5} f={f} view="three" face={1} expr="stern" motion={{ type: 'point' }} />
+        <Dust x={60} y={200} w={960} h={1100} f={f} n={12} />
+      </Cold><NightMask W={W} H={H} x={540} y={900} r={1080} o={0.3} c="#0a0e14" /></g>
+    );
+  }
+
+  // ANGLE B (n=12): Wide cafeteria tables with quad window in background
+  if (n === 12) {
+    return (
+      <g><Defs /><Cold>
+        <rect x={0} y={0} width={W} height={H} fill="#141c26" />
+        <rect x={160} y={220} width={760} height={480} fill="#080e16" stroke="#2a3848" strokeWidth={8} />
+        <LightPool x={540} y={460} rx={480} ry={320} c="#8fd4e6" o={0.25} />
+        <polygon points={`60,${GND} 1020,${GND} 840,1100 240,1100`} fill="#3a4858" stroke="#18222e" strokeWidth={6} />
+        <FullPerson s={EL} x={780} y={GND} k={0.46} f={f} view="three" face={-1} expr="shock" motion={{ type: 'recoil' }} uid="rcaf-st12" />
+        <FullPerson s={J} x={360} y={GND} k={0.48} f={f} view="three" face={1} expr="stern" motion={{ type: 'point' }} />
+        {v.tag && <Tag at={[420, 520]} to={[620, 360]} text="NOT MY FRIEND" f={t} t0={0.7} red size={30} />}
+        <Dust x={60} y={200} w={960} h={1100} f={f} n={12} />
+      </Cold><NightMask W={W} H={H} x={540} y={900} r={1080} o={0.3} c="#0a0e14" /></g>
+    );
+  }
+
+  // Default wide angle (n=10)
   return (
     <g><Defs /><Cold>
       <VWall fill="#2e3542" />
@@ -73,9 +194,72 @@ const rcafeteria: React.FC<SetProps> = ({ f, v, t = 0, len = 90 }) => {
   );
 };
 
-// 4 HALL (vertical): Elisa's wrong smile.
+// 4 HALL (vertical)
 const rhall: React.FC<SetProps> = ({ f, v, t = 0, len = 90 }) => {
   const p = ease(t / len);
+  const n = v.n ?? 8;
+
+  // ANGLE A (n=15): Classroom doorway angle
+  if (n === 15) {
+    return (
+      <g><Defs /><Cold>
+        <rect x={0} y={0} width={W} height={H} fill="#141c26" />
+        <rect x={0} y={GND} width={W} height={H - GND} fill="#1c2634" />
+        <rect x={80} y={240} width={380} height={GND - 240} fill="#0a0e14" stroke="#1c2a38" strokeWidth={8} />
+        <FullPerson s={EL} x={380} y={GND} k={0.52} f={f} view="three" face={1} expr={v.expr ?? 'cruel'} turn={0.1} motion={{ type: 'idle' }} />
+        <FullPerson s={E} x={840} y={GND} k={0.44} f={f} view="three" face={-1} expr="worry" motion={{ type: 'idle' }} />
+        <Dust x={60} y={200} w={960} h={1100} f={f} n={12} />
+      </Cold><NightMask W={W} H={H} x={540} y={900} r={1050} o={0.32} c="#06080e" /></g>
+    );
+  }
+
+  // ANGLE B (n=56): End of dark hallway with illuminated red EXIT sign
+  if (n === 56) {
+    return (
+      <g><Defs /><Cold>
+        <rect x={0} y={0} width={W} height={H} fill="#0b0e14" />
+        <polygon points={`0,0 1080,0 720,600 360,600`} fill="#121822" />
+        <polygon points={`0,${H} 1080,${H} 720,${GND - 200} 360,${GND - 200}`} fill="#18202c" />
+        <rect x={440} y={480} width={200} height={60} rx={8} fill="#c82424" />
+        <text x={540} y={525} textAnchor="middle" fontFamily="sans-serif" fontWeight="900" fontSize={36} fill="#ffffff">EXIT</text>
+        <LightPool x={540} y={540} rx={340} ry={240} c="#ff5050" o={0.4} />
+        <FullPerson s={EL} x={540} y={GND - 100} k={0.42} f={f} view="three" face={1} expr={v.expr ?? 'cruel'} motion={{ type: 'idle' }} />
+        <Dust x={60} y={200} w={960} h={1100} f={f} n={12} />
+      </Cold><NightMask W={W} H={H} x={540} y={900} r={1050} o={0.38} c="#06080e" /></g>
+    );
+  }
+
+  // ANGLE C (n=13 || n=53): Stairwell landing with green metal handrail
+  if (n === 13 || n === 53) {
+    return (
+      <g><Defs /><Cold>
+        <rect x={0} y={0} width={W} height={H} fill="#18222a" />
+        <rect x={0} y={GND} width={W} height={H - GND} fill="#202a34" />
+        <line x1={0} y1={920} x2={1080} y2={420} stroke="#2e684e" strokeWidth={16} />
+        {Array.from({ length: 6 }).map((_, i) => <line key={i} x1={150 + i * 160} y1={850 - i * 75} x2={150 + i * 160} y2={GND} stroke="#2e684e" strokeWidth={10} />)}
+        <LightPool x={540} y={600} rx={480} ry={360} c="#80d0b0" o={0.25} />
+        <FullPerson s={E} x={360} y={GND} k={0.48} f={f} view="three" face={1} expr="worry" motion={{ type: 'idle' }} />
+        <FullPerson s={EL} x={760} y={GND} k={0.48} f={f} view="three" face={-1} expr={v.expr ?? 'smile'} motion={{ type: 'idle' }} />
+        {v.tag && <Tag at={[760, 520]} to={[520, 360]} text="BETTER THAN EVER" f={t} t0={0.8} red size={30} />}
+        <Dust x={60} y={200} w={960} h={1100} f={f} n={12} />
+      </Cold><NightMask W={W} H={H} x={540} y={900} r={1050} o={0.32} c="#0a0e14" /></g>
+    );
+  }
+
+  // ANGLE D (n=57): Trophy display case with spotlights
+  if (n === 57) {
+    return (
+      <g><Defs /><Cold>
+        <rect x={0} y={0} width={W} height={H} fill="#101620" />
+        <rect x={120} y={240} width={840} height={800} fill="#0a0f16" stroke="#263444" strokeWidth={8} />
+        <LightPool x={540} y={400} rx={400} ry={260} c="#ffd700" o={0.22} />
+        <FullPerson s={EL} x={540} y={GND} k={0.48} f={f} view="three" face={-1} expr="neutral" motion={{ type: 'idle' }} />
+        <Dust x={60} y={200} w={960} h={1100} f={f} n={12} />
+      </Cold><NightMask W={W} H={H} x={540} y={900} r={1050} o={0.35} c="#080a10" /></g>
+    );
+  }
+
+  // Default wide lockers (n=8)
   return (
     <g><Defs /><Cold>
       <VWall fill="#2c3744" />
@@ -89,9 +273,56 @@ const rhall: React.FC<SetProps> = ({ f, v, t = 0, len = 90 }) => {
   );
 };
 
-// 5 PHONE (vertical): Ethan on the phone, screen glow on his face.
+// 5 PHONE (vertical)
 const rphone: React.FC<SetProps> = ({ f, v, t = 0, len = 90 }) => {
   const g = 0.6 + 0.4 * Math.sin(f / 11);
+  const n = v.n ?? 16;
+
+  // ANGLE A (n=16): Retro wall phone close
+  if (n === 16) {
+    return (
+      <g><Defs /><Warm>
+        <rect x={0} y={0} width={W} height={H} fill="#241a14" />
+        <rect x={0} y={GND} width={W} height={H - GND} fill="#2c1e14" />
+        <rect x={120} y={380} width={280} height={460} rx={16} fill="#1a120c" stroke="#483220" strokeWidth={8} />
+        <circle cx={260} cy={520} r={64} fill="#0d0806" stroke="#cca050" strokeWidth={6} />
+        <path d="M 220 780 Q 180 880 240 940 Q 280 1000 220 1060" stroke="#0d0806" strokeWidth={12} fill="none" />
+        <LightPool x={260} y={560} rx={420} ry={360} c="#ffd080" o={0.35} />
+        <FullPerson s={E} x={680} y={GND} k={0.5} f={f} view="three" face={-1} expr={v.expr ?? 'fear'} motion={{ type: 'sit' }} />
+        <Dust x={60} y={200} w={960} h={1100} f={f} n={12} />
+      </Warm><NightMask W={W} H={H} x={480} y={900} r={1020} o={0.34} c="#08080e" /></g>
+    );
+  }
+
+  // ANGLE B (n=58): Bedside nightstand with rotary phone and red lamp
+  if (n === 58) {
+    return (
+      <g><Defs /><Warm>
+        <rect x={0} y={0} width={W} height={H} fill="#1c1410" />
+        <rect x={0} y={GND} width={W} height={H - GND} fill="#221612" />
+        <rect x={140} y={920} width={340} height={380} fill="#3a2216" stroke="#1c100a" strokeWidth={6} />
+        <circle cx={310} cy={760} r={60} fill="#b82824" />
+        <LightPool x={310} y={820} rx={380} ry={260} c="#ff5a4a" o={0.4} />
+        <FullPerson s={E} x={680} y={GND} k={0.48} f={f} view="three" face={-1} expr={v.expr ?? 'sad'} motion={{ type: 'sit' }} />
+        <Dust x={60} y={200} w={960} h={1100} f={f} n={12} />
+      </Warm><NightMask W={W} H={H} x={480} y={900} r={1020} o={0.35} c="#08080e" /></g>
+    );
+  }
+
+  // ANGLE C (n=59): Phone booth with glass bifold door
+  if (n === 59) {
+    return (
+      <g><Defs /><Warm>
+        <rect x={0} y={0} width={W} height={H} fill="#121820" />
+        <rect x={160} y={240} width={760} height={GND - 240} fill="#0a1016" stroke="#243444" strokeWidth={10} />
+        <LightPool x={540} y={480} rx={440} ry={300} c="#ffe290" o={0.32} />
+        <FullPerson s={E} x={540} y={GND} k={0.46} f={f} view="three" face={1} expr={v.expr ?? 'worry'} motion={{ type: 'sit' }} />
+        <Dust x={60} y={200} w={960} h={1100} f={f} n={12} />
+      </Warm><NightMask W={W} H={H} x={480} y={900} r={1020} o={0.35} c="#080a10" /></g>
+    );
+  }
+
+  // Default window phone (n=17, 18)
   return (
     <g><Defs /><Warm>
       <VWall />
@@ -106,9 +337,59 @@ const rphone: React.FC<SetProps> = ({ f, v, t = 0, len = 90 }) => {
   );
 };
 
-// 6 APARTMENT (vertical): Jack on the couch; v.dark + v.tears = black tears in the dark.
+// 6 APARTMENT (vertical)
 const rapartment: React.FC<SetProps> = ({ f, v, t = 0, len = 90 }) => {
   const dark = !!v.dark; const Lgt = dark ? Moon : Warm;
+  const n = v.n ?? 19;
+
+  // ANGLE A (n=22): Desk angle with red reading lamp, dark window
+  if (n === 22) {
+    return (
+      <g><Defs /><Moon>
+        <rect x={0} y={0} width={W} height={H} fill="#0d1016" />
+        <rect x={0} y={GND} width={W} height={H - GND} fill="#141820" />
+        <rect x={120} y={280} width={420} height={460} fill="#06090e" stroke="#1c2432" strokeWidth={8} />
+        <rect x={160} y={880} width={760} height={40} fill="#322218" />
+        <ellipse cx={320} cy={760} rx={70} ry={36} fill="#b82622" />
+        <LightPool x={320} y={860} rx={380} ry={260} c="#ff5a4a" o={0.38} />
+        <FullPerson s={J} x={660} y={GND} k={0.5} f={f} view="three" face={-1} expr={v.jexpr ?? 'fear'} motion={{ type: 'sit' }} />
+        {v.tears && <BlackTears x={620} y={830} k={0.8} f={f} n={2} />}
+        {v.tears && <BlackTears x={700} y={830} k={0.8} f={f + 7} n={2} />}
+        {v.tag && <Tag at={[660, 640]} to={[760, 460]} text="BLACK TEARS" f={t} t0={0.7} red size={30} />}
+        <Dust x={60} y={200} w={960} h={1100} f={f} n={12} />
+      </Moon><NightMask W={W} H={H} x={540} y={900} r={1050} o={0.65} c="#06080e" /></g>
+    );
+  }
+
+  // ANGLE B (n=61): Front apartment door from inside with chain latch
+  if (n === 61) {
+    return (
+      <g><Defs /><Moon>
+        <rect x={0} y={0} width={W} height={H} fill="#0a0c12" />
+        <rect x={360} y={420} width={520} height={GND - 420} fill="#241a14" stroke="#0e0a08" strokeWidth={10} />
+        <circle cx={420} cy={820} r={16} fill="#cca860" />
+        <line x1={420} y1={820} x2={480} y2={820} stroke="#cca860" strokeWidth={8} />
+        <LightPool x={620} y={800} rx={420} ry={320} c="#6080a8" o={0.25} />
+        <FullPerson s={J} x={300} y={GND} k={0.48} f={f} view="three" face={1} expr={v.jexpr ?? 'fear'} motion={{ type: 'reach' }} />
+        <Dust x={60} y={200} w={960} h={1100} f={f} n={12} />
+      </Moon><NightMask W={W} H={H} x={540} y={900} r={1050} o={0.68} c="#06080e" /></g>
+    );
+  }
+
+  // ANGLE C (n=60): Kitchenette counter
+  if (n === 60) {
+    return (
+      <g><Defs /><Warm>
+        <rect x={0} y={0} width={W} height={H} fill="#201a14" />
+        <rect x={140} y={860} width={800} height={GND - 860} fill="#32261c" stroke="#160e0a" strokeWidth={6} />
+        <LightPool x={540} y={700} rx={460} ry={280} c="#ffd080" o={0.3} />
+        <FullPerson s={J} x={540} y={GND} k={0.46} f={f} view="three" face={-1} expr={v.jexpr ?? 'neutral'} motion={{ type: 'sit' }} />
+        <Dust x={60} y={200} w={960} h={1100} f={f} n={12} />
+      </Warm><NightMask W={W} H={H} x={540} y={900} r={1050} o={0.45} c="#08080e" /></g>
+    );
+  }
+
+  // Default wide living room (n=19, 20)
   return (
     <g><Defs /><Lgt>
       <VWall fill={dark ? '#12161e' : PAL.wall} />
@@ -126,7 +407,7 @@ const rapartment: React.FC<SetProps> = ({ f, v, t = 0, len = 90 }) => {
   );
 };
 
-// 7 DOOR (vertical): Elisa's shape behind the frosted glass.
+// 7 DOOR (vertical)
 const rdoor: React.FC<SetProps> = ({ f, v, t = 0, len = 90 }) => {
   const p = ease(t / len);
   return (
@@ -143,9 +424,47 @@ const rdoor: React.FC<SetProps> = ({ f, v, t = 0, len = 90 }) => {
   );
 };
 
-// 8 WOODS (vertical): Ethan chasing into the trees.
+// 8 WOODS (vertical)
 const rwoods: React.FC<SetProps> = ({ f, v, t = 0, len = 90 }) => {
   const p = ease(t / len); const GY = GND - 20;
+  const n = v.n ?? 24;
+
+  // ANGLE A (n=62): Dense snowy birch trunks with cold mist
+  if (n === 62) {
+    return (
+      <g><Defs /><Moon>
+        <rect x={0} y={0} width={W} height={H} fill="#0e1624" />
+        <circle cx={540} cy={260} r={140} fill="#9fb8e0" opacity={0.3} />
+        <rect x={0} y={GY} width={W} height={H - GY} fill="#182026" />
+        {[80, 260, 480, 720, 920].map((x, i) => (
+          <g key={i}>
+            <rect x={x} y={0} width={50} height={GY} fill="#d2dce8" />
+            {Array.from({ length: 6 }).map((_, b) => <rect key={b} x={x} y={200 + b * 180 + (i % 2) * 40} width={30} height={12} fill="#141c26" />)}
+          </g>
+        ))}
+        <FullPerson s={J} x={560} y={GY + 90} k={0.46} f={f} view="back" face={-1} expr="fear" motion={{ type: 'run' }} />
+        <Dust x={60} y={200} w={960} h={1100} f={f} n={14} c="#cdddf4" />
+      </Moon><NightMask W={W} H={H} x={540} y={900} r={1100} o={0.34} c="#04060a" /></g>
+    );
+  }
+
+  // ANGLE B (n=63): Barbed wire fence across snow path
+  if (n === 63) {
+    return (
+      <g><Defs /><Moon>
+        <rect x={0} y={0} width={W} height={H} fill="#0c121e" />
+        <rect x={0} y={GY} width={W} height={H - GY} fill="#161c20" />
+        <line x1={0} y1={GY - 120} x2={W} y2={GY - 120} stroke="#4a5868" strokeWidth={6} />
+        <line x1={0} y1={GY - 240} x2={W} y2={GY - 240} stroke="#4a5868" strokeWidth={6} />
+        {[200, 540, 880].map((x, i) => <rect key={i} x={x} y={GY - 360} width={34} height={360} fill="#3a2a1c" stroke="#16100a" strokeWidth={6} />)}
+        <LightPool x={540} y={GY - 100} rx={480} ry={260} c="#8cb4d8" o={0.28} />
+        <FullPerson s={E} x={480} y={GY + 90} k={0.44} f={f} view="three" face={1} expr="fear" motion={{ type: 'run' }} />
+        <Dust x={60} y={200} w={960} h={1100} f={f} n={14} c="#cdddf4" />
+      </Moon><NightMask W={W} H={H} x={540} y={900} r={1100} o={0.36} c="#04060a" /></g>
+    );
+  }
+
+  // Default pine woods (n=24)
   return (
     <g><Defs /><Moon>
       <rect x={0} y={0} width={W} height={H} fill="#16202f" />
@@ -160,9 +479,41 @@ const rwoods: React.FC<SetProps> = ({ f, v, t = 0, len = 90 }) => {
   );
 };
 
-// 9 CLEARING (vertical): the circle, the chair, the mask thing bound.
+// 9 CLEARING (vertical)
 const rclearing: React.FC<SetProps> = ({ f, v, t = 0, len = 90 }) => {
   const p = ease(t / len); const GY = GND + 40;
+  const n = v.n ?? 25;
+
+  // ANGLE A (n=30, 66): Side angle with robed semicircle and low ground lantern
+  if (n === 30 || n === 66) {
+    return (
+      <g><Defs /><Candle>
+        <rect x={0} y={0} width={W} height={H} fill="#0e1624" />
+        <rect x={0} y={GY} width={W} height={H - GY + 200} fill="#14181c" />
+        <Lantern x={540} y={GY + 60} f={f} k={1.2} />
+        <Robed x={240} y={GY + 30} k={0.44} f={f} seed={8} bow={0.4} />
+        <Robed x={800} y={GY + 40} k={0.44} f={f} seed={9} bow={0.3} />
+        <MaskThing x={540 + ((v.px as number) ?? 0)} y={GY} k={0.46} f={f} face={(v.face ?? 1) as 1|-1} pose={(v.pose as any) ?? 'stand'} p={1} tar={v.tar ?? 0.6} free={false} tendrils={v.tend ?? 0.3} />
+        <Dust x={60} y={200} w={960} h={1100} f={f} n={12} c="#cdddf4" />
+      </Candle><NightMask W={W} H={H} x={540} y={900} r={1050} o={0.35} c="#04060a" /></g>
+    );
+  }
+
+  // ANGLE B (n=35, 68): Overhead moonlight clearing with stone ring
+  if (n === 35 || n === 68) {
+    return (
+      <g><Defs /><Moon>
+        <rect x={0} y={0} width={W} height={H} fill="#080e18" />
+        <circle cx={540} cy={340} r={220} fill="#9fb8e0" opacity={0.35} />
+        <rect x={0} y={GY - 60} width={W} height={H - GY + 260} fill="#10161a" />
+        <ellipse cx={540} cy={GY + 40} rx={440} ry={140} fill="none" stroke="#2a3848" strokeWidth={16} />
+        <MaskThing x={540 + ((v.px as number) ?? 0)} y={GY - 40} k={0.48} f={f} face={1} pose="stalk" p={1} tar={0.9} free tendrils={0.4} />
+        <Dust x={60} y={200} w={960} h={1100} f={f} n={12} c="#cdddf4" />
+      </Moon><NightMask W={W} H={H} x={540} y={900} r={1050} o={0.35} c="#04060a" /></g>
+    );
+  }
+
+  // Default clearing (n=25, 64)
   return (
     <g><Defs /><Candle>
       <rect x={0} y={0} width={W} height={H} fill="#141d2e" />
@@ -182,9 +533,27 @@ const rclearing: React.FC<SetProps> = ({ f, v, t = 0, len = 90 }) => {
   );
 };
 
-// 10 RITUAL (vertical): closer; the blue mask, the tar, the tendrils.
+// 10 RITUAL (vertical)
 const rritual: React.FC<SetProps> = ({ f, v, t = 0, len = 90 }) => {
   const p = ease(t / len); const GY = GND + 40;
+  const n = v.n ?? 27;
+
+  // ANGLE A (n=31, 65): Low angle looking up at mask with moon overhead
+  if (n === 31 || n === 65) {
+    return (
+      <g><Defs /><Candle>
+        <rect x={0} y={0} width={W} height={H} fill="#090d16" />
+        <circle cx={540} cy={300} r={160} fill="#a8c8e8" opacity={0.35} />
+        <rect x={0} y={GY} width={W} height={H - GY + 200} fill="#12161a" />
+        <Lantern x={540} y={GY + 60} f={f} k={1.3} />
+        <rect x={480} y={GY - 520} width={120} height={520} fill="#241a12" stroke="#100a06" strokeWidth={6} />
+        <MaskThing x={540} y={GY} k={0.56} f={f} face={1} pose="stand" p={1} tar={0.85} free={false} tendrils={0.8} />
+        <Dust x={60} y={200} w={960} h={1100} f={f} n={10} c="#cdddf4" />
+      </Candle><NightMask W={W} H={H} x={540} y={820} r={980} o={0.36} c="#04060a" /></g>
+    );
+  }
+
+  // Default ritual (n=27, 28)
   return (
     <g><Defs /><Candle>
       <rect x={0} y={0} width={W} height={H} fill="#131b29" />
@@ -199,9 +568,39 @@ const rritual: React.FC<SetProps> = ({ f, v, t = 0, len = 90 }) => {
   );
 };
 
-// 11 UNLEASHED (vertical): the thing free, red on the frost.
+// 11 UNLEASHED (vertical)
 const runleashed: React.FC<SetProps> = ({ f, v, t = 0, len = 90 }) => {
   const p = ease(t / len); const GY = GND + 40;
+  const n = v.n ?? 32;
+
+  // ANGLE A (n=34, 67): Creature crouching low over spattered snow
+  if (n === 34 || n === 67) {
+    return (
+      <g><Defs /><Candle>
+        <rect x={0} y={0} width={W} height={H} fill="#0d141e" />
+        <rect x={0} y={GY} width={W} height={H - GY + 200} fill="#14181a" />
+        <Spatter x={540} y={GY + 20} dir={0} spread={180} size={380} n={36} f={f} t0={0.1} />
+        <BloodPool x={540} y={GY + 90} r={260} grow={1} f={f} />
+        <MaskThing x={540 + ((v.px as number) ?? 0)} y={GY} k={0.52} f={f} face={-1} pose="crouch" p={v.pp ?? 0.65} tar={0.95} free tendrils={0.5} />
+        <Dust x={60} y={200} w={960} h={1100} f={f} n={10} c="#cdddf4" />
+      </Candle><NightMask W={W} H={H} x={480} y={860} r={1040} o={0.34} c="#04060a" /></g>
+    );
+  }
+
+  // ANGLE B (n=36, 71): Looming silhouette against huge moon
+  if (n === 36 || n === 71) {
+    return (
+      <g><Defs /><Candle>
+        <rect x={0} y={0} width={W} height={H} fill="#080c14" />
+        <circle cx={540} cy={400} r={260} fill="#a8cce8" opacity={0.4} />
+        <rect x={0} y={GY} width={W} height={H - GY + 200} fill="#101416" />
+        <MaskThing x={540 + ((v.px as number) ?? 0)} y={GY} k={0.58} f={f} face={1} pose="loom" p={v.pp ?? 0.95} tar={1.0} free tendrils={0.9} />
+        <Dust x={60} y={200} w={960} h={1100} f={f} n={10} c="#cdddf4" />
+      </Candle><NightMask W={W} H={H} x={480} y={860} r={1040} o={0.32} c="#04060a" /></g>
+    );
+  }
+
+  // Default unleashed (n=32)
   return (
     <g><Defs /><Candle>
       <rect x={0} y={0} width={W} height={H} fill="#131a27" />
@@ -209,16 +608,50 @@ const runleashed: React.FC<SetProps> = ({ f, v, t = 0, len = 90 }) => {
       <rect x={0} y={GY} width={W} height={H - GY + 200} fill="#14181a" />
       <BloodPool x={420} y={GY + 110} r={220} grow={1} f={f} /><Spatter x={760} y={GY + 40} dir={-0.5} spread={110} size={240} n={26} f={f} t0={0.2} /><Stain x={880} y={GY + 150} r={150} grow={1} />
       <Robed x={900} y={GY + 30} k={0.42} f={f} seed={7} bow={0.5} />
-      <MaskThing x={460 + ((v.px as number) ?? 0)} y={GY} k={0.5} f={f} face={1} pose={(v.pose as any) ?? (v.pose2 === 'loom' ? 'loom' : 'stalk')} p={v.pp ?? (f / 60)} tar={0.9} free tendrils={0.3} />
+      <MaskThing x={460 + ((v.px as number) ?? 0)} y={GY} k={0.5} f={f} face={1} pose={(v.pose as any) ?? 'stalk'} p={v.pp ?? (f / 60)} tar={0.9} free tendrils={0.3} />
       <Tag at={[460, 440]} to={[470, 300]} text="YOU MADE HIM MAD" f={t} t0={0.6} red size={30} />
       <Dust x={60} y={200} w={960} h={1100} f={f} n={10} c="#cdddf4" />
     </Candle><NightMask W={W} H={H} x={480} y={860} r={1040} o={0.32} c="#04060a" /></g>
   );
 };
 
-// 12 HOSPITAL (vertical): Ethan in the bed, steady monitor.
+// 12 HOSPITAL (vertical)
 const rhospital: React.FC<SetProps> = ({ f, v, t = 0, len = 90 }) => {
   const trace = (() => { let d = 'M160,560'; for (let x = 160; x <= 860; x += 10) { const a = Math.sin((x + f * 4) / 18) * (x % 120 < 16 ? 40 : 6); d += ` L${x},${560 + a}`; } return d; })();
+  const n = v.n ?? 34;
+
+  // ANGLE A (n=69, 70): Observation window with yellow biohazard / restriction sign
+  if (n === 69 || n === 70) {
+    return (
+      <g><Defs /><Cold>
+        <rect x={0} y={0} width={W} height={H} fill="#0e181e" />
+        <rect x={140} y={260} width={800} height={520} fill="#061214" stroke="#224048" strokeWidth={10} />
+        <rect x={180} y={300} width={180} height={60} rx={6} fill="#f4c430" />
+        <text x={270} y={342} textAnchor="middle" fontFamily="sans-serif" fontWeight="900" fontSize={26} fill="#111111">ICU RESTRICTED</text>
+        <LightPool x={540} y={520} rx={480} ry={300} c="#40e0a0" o={0.25} />
+        <LyingPerson s={E} x={540} surfaceY={GND - 50} k={0.46} f={f} expr={v.expr ?? 'sad'} head={-1} sheet sheetC={PAL.sheet} uid="rhosp-obs" fit={760} />
+        <Dust x={60} y={200} w={960} h={1100} f={f} n={10} />
+      </Cold><NightMask W={W} H={H} x={540} y={900} r={1080} o={0.34} c="#0a0e14" /></g>
+    );
+  }
+
+  // ANGLE B (n=72): Close IV drip stand and flatline monitor
+  if (n === 72) {
+    return (
+      <g><Defs /><Cold>
+        <rect x={0} y={0} width={W} height={H} fill="#0a1216" />
+        <rect x={100} y={360} width={420} height={260} rx={12} fill="#040c0e" stroke="#163438" strokeWidth={6} />
+        <line x1={120} y1={490} x2={500} y2={490} stroke="#ff4040" strokeWidth={4} />
+        <line x1={740} y1={100} x2={740} y2={GND} stroke="#8aa0a8" strokeWidth={10} />
+        <ellipse cx={740} cy={280} rx={40} ry={70} fill="#c8e4ea" opacity={0.6} stroke="#608088" strokeWidth={4} />
+        <LightPool x={540} y={600} rx={460} ry={320} c="#60e0a8" o={0.28} />
+        <LyingPerson s={E} x={540} surfaceY={GND - 50} k={0.48} f={f} expr="neutral" head={-1} sheet sheetC={PAL.sheet} uid="rhosp-iv" fit={760} />
+        <Dust x={60} y={200} w={960} h={1100} f={f} n={10} />
+      </Cold><NightMask W={W} H={H} x={540} y={900} r={1080} o={0.32} c="#0a0e14" /></g>
+    );
+  }
+
+  // Default hospital (n=34, 36)
   return (
     <g><Defs /><Cold>
       <VWall fill="#2e3542" />
@@ -233,12 +666,102 @@ const rhospital: React.FC<SetProps> = ({ f, v, t = 0, len = 90 }) => {
   );
 };
 
-// 13 FACE (vertical): close-up; v.who, v.expr, v.tears.
+// 13 FACE (vertical): with environmental backgrounds
 const rface: React.FC<SetProps> = ({ f, v, t = 0, len = 90 }) => {
   const p = ease(t / len); const who = v.who === 'jack' ? J : v.who === 'elisa' ? EL : E; const Lgt = v.warm ? Warm : Cold;
+  const n = v.n ?? 2;
+
+  const isLibrary = n === 2;
+  const isCommon = n === 6;
+  const isHall = n === 14;
+  const isPhone = n === 17;
+  const isApartment = n === 21;
+  const isWoods = n === 26;
+  const isRitual = n === 29 || n === 33;
+  const isHospital = n === 35;
+
   return (
     <g><Defs /><Lgt>
       <rect x={0} y={0} width={W} height={H} fill={v.warm ? '#1a1510' : '#141a22'} />
+
+      {/* Library vertical face backdrop */}
+      {isLibrary && (
+        <g>
+          <rect x={40} y={160} width={280} height={1200} fill="#182230" stroke="#0a0e16" strokeWidth={6} />
+          {Array.from({ length: 8 }).map((_, r) => <rect key={r} x={50} y={200 + r * 140} width={260} height={10} fill="#0d141e" />)}
+          <rect x={720} y={300} width={320} height={380} fill="#103c4e" opacity={0.75} rx={12} />
+          <LightPool x={880} y={500} rx={360} ry={280} c="#62d8ea" o={0.32} />
+        </g>
+      )}
+
+      {/* Common room vertical face backdrop */}
+      {isCommon && (
+        <g>
+          <rect x={0} y={0} width={W} height={H} fill="#221812" />
+          <rect x={600} y={240} width={420} height={340} fill="#123648" stroke="#1c485c" strokeWidth={6} />
+          <LightPool x={800} y={420} rx={420} ry={280} c="#6ae0d4" o={0.35} />
+        </g>
+      )}
+
+      {/* Hallway face backdrop */}
+      {isHall && (
+        <g>
+          <rect x={0} y={0} width={W} height={H} fill="#16202a" />
+          {Array.from({ length: 5 }).map((_, i) => <rect key={i} x={80 + i * 190} y={220} width={160} height={600} fill="#283848" stroke="#0e141c" strokeWidth={6} />)}
+          <LightPool x={540} y={440} rx={480} ry={280} c="#80c8e8" o={0.28} />
+        </g>
+      )}
+
+      {/* Phone face backdrop */}
+      {isPhone && (
+        <g>
+          <rect x={0} y={0} width={W} height={H} fill="#221610" />
+          <path d="M 220 200 Q 140 500 240 800 Q 300 1100 200 1400" stroke="#482818" strokeWidth={14} fill="none" />
+          <LightPool x={300} y={500} rx={420} ry={340} c="#ffd080" o={0.35} />
+        </g>
+      )}
+
+      {/* Apartment vertical face backdrop */}
+      {isApartment && (
+        <g>
+          <rect x={0} y={0} width={W} height={H} fill="#0a0b10" />
+          {Array.from({ length: 14 }).map((_, i) => (
+            <polygon key={i} points={`0,${160 + i * 110} 1080,${300 + i * 110} 1080,${350 + i * 110} 0,${210 + i * 110}`} fill="#283e58" opacity={0.38} />
+          ))}
+        </g>
+      )}
+
+      {/* Woods face backdrop */}
+      {isWoods && (
+        <g>
+          <rect x={0} y={0} width={W} height={H} fill="#0c121e" />
+          {[120, 880].map((x, i) => <rect key={i} x={x} y={0} width={80} height={H} fill="#04060a" />)}
+          <circle cx={540} cy={300} r={180} fill="#9fb8e0" opacity={0.3} />
+          <LightPool x={540} y={300} rx={440} ry={300} c="#9cc8f4" o={0.32} />
+        </g>
+      )}
+
+      {/* Ritual vertical face backdrop */}
+      {isRitual && (
+        <g>
+          <rect x={0} y={0} width={W} height={H} fill="#05080e" />
+          <rect x={60} y={0} width={120} height={H} fill="#020306" />
+          <rect x={900} y={0} width={140} height={H} fill="#020306" />
+          <circle cx={540} cy={300} r={180} fill="#c8e2f8" opacity={0.28} />
+          <LightPool x={540} y={300} rx={440} ry={320} c="#9cc8f4" o={0.3} />
+        </g>
+      )}
+
+      {/* Hospital vertical face backdrop */}
+      {isHospital && (
+        <g>
+          <rect x={0} y={0} width={W} height={H} fill="#0a1418" />
+          <rect x={140} y={240} width={800} height={320} rx={16} fill="#061214" stroke="#16383e" strokeWidth={6} />
+          <path d="M 160 400 L 320 400 L 350 320 L 380 470 L 410 360 L 440 400 L 920 400" stroke="#42e698" strokeWidth={5} fill="none" />
+          <LightPool x={540} y={400} rx={460} ry={260} c="#40e090" o={0.35} />
+        </g>
+      )}
+
       <LightPool x={540} y={760} rx={560} ry={520} c={v.warm ? '#ffe6b8' : '#9fc0ff'} o={0.12} />
       <g transform={`translate(${v.x ?? 540},960) scale(1.04)`}>
         <CloseUp s={who} expr={v.expr ?? 'fear'} f={f} turn={(v.turn ?? 0.1) + 0.2 * p} uid={`rfc-${v.who ?? 'e'}`} />
@@ -266,15 +789,20 @@ const rqcard: React.FC<SetProps> = ({ f, t = 0 }) => {
   );
 };
 
-// 15 QUESTION card (closing, vertical): the closing question is the last on-screen text.
+// 15 QUESTION card (closing, vertical): large ritual mask + question text
 const rqend: React.FC<SetProps> = ({ f, t = 0 }) => {
   const a = ease(t / 30);
   return (
-    <g opacity={a}>
-      <rect x={0} y={0} width={W} height={H} fill="#131a27" />
-      <text x={540} y={900} textAnchor="middle" fontFamily="Lora" fontStyle="italic" fontWeight={700} fontSize={72} fill="#efe4cc">Who would you</text>
-      <text x={540} y={1000} textAnchor="middle" fontFamily="Lora" fontStyle="italic" fontWeight={700} fontSize={72} fill="#efe4cc">have trusted?</text>
-      <rect x={470} y={1050} width={140} height={6} fill={RED} />
+    <g opacity={a}><Defs />
+      <rect x={0} y={0} width={W} height={H} fill="#050810" />
+      <rect x={80} y={0} width={60} height={H} fill="#020408" />
+      <rect x={940} y={0} width={70} height={H} fill="#020408" />
+      <circle cx={540} cy={520} r={220} fill="#8cb4d8" opacity={0.2} />
+      <LightPool x={540} y={520} rx={480} ry={360} c="#9fc0ff" o={0.3} />
+      <BlueMask cx={540} cy={520} r={220} />
+      <text x={540} y={1180} textAnchor="middle" fontFamily="Lora" fontStyle="italic" fontWeight={700} fontSize={68} fill="#efe4cc">Who would you</text>
+      <text x={540} y={1270} textAnchor="middle" fontFamily="Lora" fontStyle="italic" fontWeight={700} fontSize={68} fill="#efe4cc">have trusted?</text>
+      <rect x={470} y={1330} width={140} height={6} fill={RED} />
     </g>
   );
 };
